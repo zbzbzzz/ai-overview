@@ -103,6 +103,49 @@ h1 {
 }
 .nav a:hover { background: var(--ice); border-color: var(--aqua); }
 
+
+.repo-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0.85rem 0 0.15rem;
+}
+.repo-tab {
+  appearance: none;
+  border: 1px solid var(--mist);
+  background: var(--snow);
+  color: var(--navy);
+  font: inherit;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  padding: 0.38rem 0.78rem;
+  border-radius: 999px;
+  cursor: pointer;
+  line-height: 1.2;
+}
+.repo-tab:hover { background: var(--ice); border-color: var(--aqua); }
+.repo-tab[aria-selected="true"] {
+  background: var(--navy);
+  border-color: var(--navy);
+  color: #fff;
+}
+.repo-tab .cnt {
+  font-weight: 650;
+  opacity: 0.75;
+  margin-left: 0.2rem;
+}
+.repo-panel[hidden] { display: none !important; }
+.repo-panel .cards { margin-top: 0.85rem; }
+.repo-empty {
+  margin-top: 0.85rem;
+  padding: 1rem 1.1rem;
+  background: var(--ice);
+  border: 1px dashed var(--mist);
+  border-radius: 12px;
+  color: var(--mute);
+  font-size: 0.9rem;
+}
+
 .cards {
   list-style: none;
   display: flex;
@@ -375,6 +418,34 @@ h1 {
   margin: 1.35rem 0 0.25rem;
   border: 0;
 }
+.news-list.is-collapsed .news-card.news-extra { display: none; }
+.news-toggle-wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.85rem;
+}
+.news-toggle {
+  appearance: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  color: var(--navy);
+  background: var(--snow);
+  border: 1px solid var(--mist);
+  border-radius: 999px;
+  padding: 0.45rem 1.1rem;
+  line-height: 1.3;
+}
+.news-toggle:hover {
+  background: var(--ice);
+  border-color: var(--aqua);
+  color: var(--sky);
+}
+.news-toggle:focus-visible {
+  outline: 2px solid var(--sky);
+  outline-offset: 3px;
+}
 
 .month { margin-top: 1.5rem; }
 .month h2 {
@@ -419,6 +490,7 @@ h1 {
       <section class="month">
         <h2>2026-10</h2>
         <ul class="days">
+          <li><a href="archive/2026-10/github-trending-weekly-2026-10-10.html">2026-10-10</a></li>
           <li><a href="archive/2026-10/github-trending-weekly-2026-10-09.html">2026-10-09</a></li>
         </ul>
       </section>

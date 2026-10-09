@@ -9,7 +9,7 @@ from datetime import date, datetime, timezone, timedelta
 from pathlib import Path
 
 SITE = Path("/workspace/github-trending-site")
-TODAY = date(2026, 10, 9)
+TODAY = date(2026, 10, 10)
 WEEKDAY_ZH = "一二三四五六日"
 TODAY_LABEL = f"{TODAY.isoformat()} · 周{WEEKDAY_ZH[TODAY.weekday()]}"
 
@@ -63,6 +63,251 @@ META = {
         "tag": "编辑器扩展",
         "flow": ["读规范", "写插件", "增强 Cursor"],
         "intro": "Cursor 官方插件规范与插件集，用来扩展 Agent Skill。",
+    },
+    "DietrichGebert/ponytail": {
+        "tag": "懒人技能",
+        "flow": ["装技能", "少写代码", "Agent 更稳"],
+        "intro": "让 Agent 像懒高级工程师一样少写废话代码。",
+    },
+    "pbakaus/impeccable": {
+        "tag": "设计语言",
+        "flow": ["装技能", "约束设计", "少出烂 UI"],
+        "intro": "给 AI 编程 Agent 一套前端设计语言与检测规则。",
+    },
+    "ifixai-ai/iFixAi": {
+        "tag": "Agent 审计",
+        "flow": ["跑审计", "查对齐", "判是否靠谱"],
+        "intro": "独立审计 AI Agent 是否按预期工作。",
+    },
+    "rohitg00/ai-engineering-from-scratch": {
+        "tag": "AI 工程课",
+        "flow": ["学原理", "动手建", "交付项目"],
+        "intro": "从零学 AI 工程：模型、Agent 到落地交付。",
+    },
+    "calesthio/OpenMontage": {
+        "tag": "智能制片",
+        "flow": ["选流水线", "Agent 制作", "出成片"],
+        "intro": "开源 agentic 视频制作系统，多流水线与技能包。",
+    },
+    "addyosmani/agent-skills": {
+        "tag": "工程技能",
+        "flow": ["复制技能", "约束质量", "交付代码"],
+        "intro": "面向 AI 编程 Agent 的生产级工程技能集。",
+    },
+    "tashfeenahmed/freellmapi": {
+        "tag": "免费 LLM 网关",
+        "flow": ["接网关", "路由模型", "省 token 费"],
+        "intro": "聚合大量免费 LLM 接口到统一 OpenAI 兼容端点。",
+    },
+    "Leonxlnx/taste-skill": {
+        "tag": "审美技能",
+        "flow": ["装技能", "约束审美", "少出烂设计"],
+        "intro": "给 Agent 加审美约束，减少千篇一律的烂前端。",
+    },
+    "JuliusBrussee/caveman": {
+        "tag": "省 token",
+        "flow": ["装代理", "压缩表述", "省上下文"],
+        "intro": "用极简表述大幅削减 Agent 上下文 token。",
+    },
+    "666ghj/MiroFish": {
+        "tag": "群体智能",
+        "flow": ["组 swarm", "跑预测", "汇总结论"],
+        "intro": "简洁通用的群体智能引擎，用于预测与协作。",
+    },
+    "NVIDIA/OpenShell": {
+        "tag": "安全运行时",
+        "flow": ["沙箱运行", "约束权限", "托管 Agent"],
+        "intro": "面向自主 Agent 的安全私有运行时。",
+    },
+    "coreyhaines31/marketingskills": {
+        "tag": "营销技能",
+        "flow": ["装技能", "做增长", "出文案"],
+        "intro": "面向 Claude Code 等 Agent 的营销与增长技能包。",
+    },
+    "p-e-w/heretic": {
+        "tag": "模型去审查",
+        "flow": ["选模型", "自动处理", "放开输出"],
+        "intro": "自动去除语言模型审查限制的工具。",
+    },
+    "tinyhumansai/openhuman": {
+        "tag": "Agent 编排",
+        "flow": ["装桌面端", "拉起 Agent", "低成本跑"],
+        "intro": "高性价比开源 Agent harness，可大规模并行。",
+    },
+    "cloudflare/cloudflare-os": {
+        "tag": "Agent 工作区",
+        "flow": ["接企业上下文", "跑 Workers", "协作产出"],
+        "intro": "基于 Cloudflare Workers 的 Agent 生产力工作区。",
+    },
+    "docker/docker-agent": {
+        "tag": "Agent 运行时",
+        "flow": ["构建 Agent", "容器运行", "交付能力"],
+        "intro": "Docker 出品的 AI Agent 构建与运行时。",
+    },
+    "bethington/ghidra-mcp": {
+        "tag": "逆向 MCP",
+        "flow": ["接 MCP", "分析二进制", "喂给 Agent"],
+        "intro": "Ghidra MCP Server，给 Agent 逆向工程能力。",
+    },
+    "ollama/ollama": {
+        "tag": "本地模型",
+        "flow": ["拉模型", "本机推理", "接应用"],
+        "intro": "一键本地运行开源大模型的常用运行时。",
+    },
+    "AtomicBot-ai/atomic-agent": {
+        "tag": "本地 Agent",
+        "flow": ["本机部署", "跑开源权重", "私有对话"],
+        "intro": "本地优先的 AI Agent，可跑开源权重。",
+    },
+    "mnfst/awesome-free-llm-apis": {
+        "tag": "免费 API 清单",
+        "flow": ["查列表", "领 Key", "接模型"],
+        "intro": "长期免费 LLM API 与 Key 的精选清单。",
+    },
+    "zeronsh/zeron": {
+        "tag": "控制平面",
+        "flow": ["接多 Agent", "统一调度", "本机操控"],
+        "intro": "Claude Code / Cursor 等编程 Agent 的原生控制平面。",
+    },
+    "jamwithai/production-agentic-rag-course": {
+        "tag": "RAG 实战课",
+        "flow": ["学 RAG", "上生产", "评效果"],
+        "intro": "面向生产的 Agentic RAG 课程与实践。",
+    },
+    "Gaurav-Gosain/tuios": {
+        "tag": "终端窗管",
+        "flow": ["分屏 pane", "盯 Agent", "并行干活"],
+        "intro": "懂 Agent 状态的终端窗口管理器。",
+    },
+    "LaurieWired/GhidraMCP": {
+        "tag": "Ghidra MCP",
+        "flow": ["接 MCP", "逆向分析", "Agent 调用"],
+        "intro": "Ghidra 的 MCP Server，方便 Agent 调用逆向能力。",
+    },
+    "xingkongliang/skills-manager": {
+        "tag": "技能管理",
+        "flow": ["同步技能", "跨工具复用", "一键组织"],
+        "intro": "跨多种 AI 工具管理与同步 Agent Skills 的桌面应用。",
+    },
+    "androoAGI/starnet": {
+        "tag": "像素工作站",
+        "flow": ["开站台", "Agent 干活", "看像素进展"],
+        "intro": "本地优先的像素风工作站，真实 Agent 在里面工作。",
+    },
+    "Tracer-Cloud/opensre": {
+        "tag": "AI SRE",
+        "flow": ["装工具包", "建 SRE Agent", "值守排障"],
+        "intro": "开源 AI SRE Agent 工具包。",
+    },
+    "Robbyant/lingbot-map": {
+        "tag": "三维重建",
+        "flow": ["喂几何上下文", "流式重建", "出三维"],
+        "intro": "面向流式三维重建的几何上下文 Transformer。",
+    },
+    "PurpleDoubleD/locally-uncensored": {
+        "tag": "本地 AI 工作室",
+        "flow": ["本机安装", "聊天出图", "编码 Agent"],
+        "intro": "桌面端一体化本地 AI：聊天、生图视频与编码 Agent。",
+    },
+    "openai/openai-cookbook": {
+        "tag": "OpenAI 菜谱",
+        "flow": ["读示例", "调 API", "落地功能"],
+        "intro": "OpenAI API 官方示例与实践指南。",
+    },
+    "anthropics/claude-cookbooks": {
+        "tag": "Claude 菜谱",
+        "flow": ["读笔记", "复制片段", "接入项目"],
+        "intro": "Anthropic Claude 用法菜谱与可复制代码。",
+    },
+    "nanobrowser/nanobrowser": {
+        "tag": "浏览器 Agent",
+        "flow": ["装扩展", "多 Agent", "自动上网"],
+        "intro": "开源浏览器扩展，用自备 LLM Key 跑网页自动化 Agent。",
+    },
+    "breferrari/obsidian-mind": {
+        "tag": "知识记忆",
+        "flow": ["连 Obsidian", "沉淀记忆", "喂给 Agent"],
+        "intro": "自组织 Obsidian 库，给编程 Agent 持久记忆。",
+    },
+    "Agent-Field/CodeAF": {
+        "tag": "开源软件厂",
+        "flow": ["调度 Agent", "开源模型", "出代码"],
+        "intro": "面向开源模型的软件工厂 / Agent 编排。",
+    },
+    "slavakurilyak/awesome-ai-agents": {
+        "tag": "Agent 清单",
+        "flow": ["浏览资源", "选型", "动手试"],
+        "intro": "300+ Agentic AI 资源精选列表。",
+    },
+    "AI4Finance-Foundation/FinGPT": {
+        "tag": "金融大模型",
+        "flow": ["选金融模型", "微调", "落地分析"],
+        "intro": "开源金融大模型 FinGPT 与训练资源。",
+    },
+    "lharries/whatsapp-mcp": {
+        "tag": "WhatsApp MCP",
+        "flow": ["接 MCP", "读消息", "Agent 交互"],
+        "intro": "WhatsApp 的 MCP Server，让 Agent 读写消息。",
+    },
+    "ed-donner/agents": {
+        "tag": "Agent 课程",
+        "flow": ["跟课", "写 Agent", "部署上线"],
+        "intro": "Agentic AI 工程完整课程配套仓库。",
+    },
+    "harshuljain13/llm-inference-at-scale": {
+        "tag": "推理手册",
+        "flow": ["读手册", "选方案", "上生产推理"],
+        "intro": "生产级 LLM 推理与服务实践手册。",
+    },
+    "langchain-ai/agents-from-scratch": {
+        "tag": "Agent 入门",
+        "flow": ["跟教程", "加记忆", "管邮箱"],
+        "intro": "从零搭建带人机协同与记忆的邮件助手 Agent。",
+    },
+    "ageron/handson-mlp": {
+        "tag": "ML 笔记",
+        "flow": ["读笔记", "跑示例", "学基础"],
+        "intro": "Hands-On ML 配套 Jupyter：Sklearn 与 PyTorch。",
+    },
+    "rasbt/machine-learning-book": {
+        "tag": "ML 书码",
+        "flow": ["读章节", "跑代码", "学 PyTorch"],
+        "intro": "《Machine Learning with PyTorch and Scikit-Learn》书码。",
+    },
+    "oracle-devrel/oracle-ai-developer-hub": {
+        "tag": "Oracle AI",
+        "flow": ["读资源", "接 OCI", "建应用"],
+        "intro": "Oracle AI / OCI 开发者技术资源中心。",
+    },
+    "morluto/rea": {
+        "tag": "逆向 Agent",
+        "flow": ["接 Agent", "逆向分析", "复刻逻辑"],
+        "intro": "用 Agent 逆向应用与原生二进制。",
+    },
+    "cathrynlavery/diagram-design": {
+        "tag": "图表技能",
+        "flow": ["装技能", "出图示", "少 Mermaid 烂图"],
+        "intro": "给编程 Agent 的编辑级图表设计技能。",
+    },
+    "alibaba/open-code-review": {
+        "tag": "代码评审",
+        "flow": ["跑流水线", "LLM 评审", "落注释"],
+        "intro": "阿里开源的混合架构代码评审：确定性流水线 + LLM Agent。",
+    },
+    "anthropics/knowledge-work-plugins": {
+        "tag": "知识工作插件",
+        "flow": ["装插件", "定角色", "办公协作"],
+        "intro": "面向知识工作者的 Claude 插件合集。",
+    },
+    "BerriAI/litellm": {
+        "tag": "LLM 网关",
+        "flow": ["接网关", "统一 API", "计量护栏"],
+        "intro": "开源 AI 网关：百余 LLM 统一调用与成本追踪。",
+    },
+    "twostraws/SwiftUI-Agent-Skill": {
+        "tag": "SwiftUI 技能",
+        "flow": ["装技能", "写 SwiftUI", "少踩坑"],
+        "intro": "面向 Claude Code / Codex 的 SwiftUI Agent Skill。",
     },
 }
 
@@ -251,6 +496,49 @@ h1 {
   color: var(--navy);
 }
 .nav a:hover { background: var(--ice); border-color: var(--aqua); }
+
+
+.repo-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0.85rem 0 0.15rem;
+}
+.repo-tab {
+  appearance: none;
+  border: 1px solid var(--mist);
+  background: var(--snow);
+  color: var(--navy);
+  font: inherit;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  padding: 0.38rem 0.78rem;
+  border-radius: 999px;
+  cursor: pointer;
+  line-height: 1.2;
+}
+.repo-tab:hover { background: var(--ice); border-color: var(--aqua); }
+.repo-tab[aria-selected="true"] {
+  background: var(--navy);
+  border-color: var(--navy);
+  color: #fff;
+}
+.repo-tab .cnt {
+  font-weight: 650;
+  opacity: 0.75;
+  margin-left: 0.2rem;
+}
+.repo-panel[hidden] { display: none !important; }
+.repo-panel .cards { margin-top: 0.85rem; }
+.repo-empty {
+  margin-top: 0.85rem;
+  padding: 1rem 1.1rem;
+  background: var(--ice);
+  border: 1px dashed var(--mist);
+  border-radius: 12px;
+  color: var(--mute);
+  font-size: 0.9rem;
+}
 
 .cards {
   list-style: none;
@@ -646,6 +934,99 @@ def news_bullets(title: str, summary: str) -> list[str]:
     return bullets[:4]
 
 
+REPO_TYPES = ["Skill", "Agent", "模型与推理", "应用与产品", "开发工具链", "数据与评测"]
+TAB_DEFS = [("总榜", None)] + [(t, t) for t in REPO_TYPES]
+CACHE_PATH = SITE / "data" / "repo-type-cache.json"
+
+TYPE_KW = {
+    "Skill": [r"\bskills?\b", r"\bmcp\b", r"model context protocol", r"agent-skills"],
+    "Agent": [r"\bagents?\b", r"agentic", r"multi-agent", r"智能体", r"harness", r"orchestration"],
+    "模型与推理": [r"\bllm\b", r"inference", r"vllm", r"\bollama\b", r"transformer", r"embedding",
+               r"deep learning", r"machine learning", r"language model", r"微调", r"推理"],
+    "应用与产品": [r"desktop", r"\bapp\b", r"studio", r"chrome extension", r"end-?user",
+               r"video production", r"product"],
+    "开发工具链": [r"\bsdk\b", r"\bcli\b", r"devtools", r"\bplugin", r"gateway", r"runtime",
+               r"cookbook", r"\bide\b", r"observ"],
+    "数据与评测": [r"benchmark", r"\beval", r"dataset", r"\bcourse\b", r"notebook", r"awesome",
+               r"handbook", r"审计", r"alignment", r"评测"],
+}
+
+
+def keyword_classify_repo(repo: dict) -> list[str]:
+    blob = " ".join([
+        repo.get("full") or "",
+        repo.get("name") or "",
+        repo.get("desc") or "",
+        " ".join(repo.get("topics") or []),
+        repo.get("readme_snip") or "",
+    ]).lower()
+    types: list[str] = []
+    for t, pats in TYPE_KW.items():
+        if any(re.search(p, blob, re.I) for p in pats):
+            types.append(t)
+    if re.search(r"\bmcp\b", blob) and "Skill" not in types:
+        types.insert(0, "Skill")
+    out: list[str] = []
+    for t in types:
+        if t not in out:
+            out.append(t)
+    return out or ["开发工具链"]
+
+
+def load_type_cache() -> dict:
+    for p in (CACHE_PATH, Path("/tmp/gt-update/repo-type-cache.json")):
+        if p.exists():
+            try:
+                return json.loads(p.read_text(encoding="utf-8"))
+            except Exception:
+                pass
+    return {}
+
+
+def save_type_cache(cache: dict) -> None:
+    CACHE_PATH.parent.mkdir(parents=True, exist_ok=True)
+    CACHE_PATH.write_text(json.dumps(cache, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+
+def classify_repos(repos: list[dict], cache: dict) -> tuple[list[dict], dict, bool]:
+    """Attach types. Prefer cache; keyword fallback. Executor writes model labels into cache."""
+    used_kw_fallback = False
+    today = TODAY.isoformat()
+    for repo in repos:
+        key = repo["full"]
+        entry = cache.get(key)
+        if entry is None:
+            for ck, cv in cache.items():
+                if ck.lower() == key.lower():
+                    entry = cv
+                    break
+        types = None
+        if isinstance(entry, dict):
+            types = entry.get("types")
+        elif isinstance(entry, list):
+            types = entry
+        if types:
+            repo["types"] = [t for t in types if t in REPO_TYPES]
+        else:
+            repo["types"] = keyword_classify_repo(repo)
+            used_kw_fallback = True
+            cache[key] = {"types": repo["types"], "updated": today, "source": "keyword-fallback"}
+        repo["types"] = [t for t in (repo.get("types") or []) if t in REPO_TYPES]
+    return repos, cache, used_kw_fallback
+
+
+def build_tab_lists(overall: list[dict], pool: list[dict]) -> dict[str, list[dict]]:
+    tabs: dict[str, list[dict]] = {
+        "总榜": sorted(overall, key=lambda r: r["week"], reverse=True)[:10]
+    }
+    for t in REPO_TYPES:
+        members = [r for r in pool if t in (r.get("types") or [])]
+        members = sorted(members, key=lambda r: r["week"], reverse=True)[:10]
+        tabs[t] = members
+    return tabs
+
+
+
 def flow_html(steps: list[str]) -> str:
     """HTML flow chips (not SVG)."""
     if not steps:
@@ -926,13 +1307,53 @@ def render_repo_card(rank: int, repo: dict, max_week: int) -> str:
         </div>
       </li>'''
 
+def render_repo_section(tabs: dict[str, list[dict]]) -> str:
+    panels = []
+    tab_btns = []
+    for i, (label, _) in enumerate(TAB_DEFS):
+        repos = tabs.get(label) or []
+        selected = "true" if i == 0 else "false"
+        tab_id = f"repo-tab-{i}"
+        panel_id = f"repo-panel-{i}"
+        tab_btns.append(
+            f'<button type="button" class="repo-tab" role="tab" id="{tab_id}" '
+            f'aria-selected="{selected}" aria-controls="{panel_id}" data-tab-index="{i}">'
+            f'{esc(label)}<span class="cnt">{len(repos)}</span></button>'
+        )
+        max_week = max((r["week"] for r in repos), default=1) or 1
+        if repos:
+            cards = "\n\n".join(render_repo_card(j + 1, r, max_week) for j, r in enumerate(repos))
+            body = f'<ol class="cards">\n\n{cards}\n\n    </ol>'
+        else:
+            body = '<p class="repo-empty">本周该分类暂无足够条目。</p>'
+        hidden = "" if i == 0 else " hidden"
+        panels.append(
+            f'<div class="repo-panel" role="tabpanel" id="{panel_id}" '
+            f'aria-labelledby="{tab_id}"{hidden}>\n{body}\n    </div>'
+        )
 
-def render_page(repos: list[dict], news_html: str, used_fallback: bool) -> str:
-    max_week = max((r["week"] for r in repos), default=1) or 1
-    cards = "\n\n".join(render_repo_card(i + 1, r, max_week) for i, r in enumerate(repos[:10]))
-    foot_extra = " · <strong>重要度降级</strong>" if used_fallback else ""
+    script = '\n      <script>\n      (function () {\n        var tabs = Array.prototype.slice.call(document.querySelectorAll(".repo-tab"));\n        var panels = Array.prototype.slice.call(document.querySelectorAll(".repo-panel"));\n        if (!tabs.length) return;\n        function activate(idx) {\n          tabs.forEach(function (btn, i) {\n            var on = i === idx;\n            btn.setAttribute("aria-selected", on ? "true" : "false");\n            if (panels[i]) {\n              if (on) panels[i].removeAttribute("hidden");\n              else panels[i].setAttribute("hidden", "");\n            }\n          });\n        }\n        tabs.forEach(function (btn) {\n          btn.addEventListener("click", function () {\n            activate(parseInt(btn.getAttribute("data-tab-index"), 10) || 0);\n          });\n        });\n      })();\n      </script>'
+
+    return f'''    <div class="section-head" style="margin-top:1.15rem;margin-bottom:0">
+      <h2>AI 周榜仓库</h2>
+      <span class="section-meta">总榜 + 分榜 · 按本周新增星标 · 可多榜</span>
+    </div>
+    <div class="repo-tabs" role="tablist" aria-label="仓库分榜">
+      {chr(10).join("      " + b for b in tab_btns)}
+    </div>
+{chr(10).join(panels)}
+{script}'''
+
+
+def render_page(tabs: dict[str, list[dict]], news_html: str, used_fallback: bool, type_fallback: bool) -> str:
+    repo_html = render_repo_section(tabs)
+    foot_extra = ""
+    if used_fallback:
+        foot_extra += " · <strong>重要度降级</strong>"
+    if type_fallback:
+        foot_extra += " · <strong>分类降级</strong>"
     return f'''<!DOCTYPE html>
-<!-- cache-bust: news-expand-3 -->
+<!-- cache-bust: repo-tabs-0012 -->
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8" />
@@ -964,19 +1385,10 @@ def render_page(repos: list[dict], news_html: str, used_fallback: bool) -> str:
 
     <hr class="section-divider" />
 
-    <div class="section-head" style="margin-top:1.15rem;margin-bottom:0">
-      <h2>AI 周榜仓库</h2>
-      <span class="section-meta">按本周新增星标排序 · 共 {len(repos[:10])} 个</span>
-    </div>
-
-    <ol class="cards">
-
-{cards}
-
-    </ol>
+{repo_html}
 
     <footer class="foot">
-      <p>最新页始终等于当天 AI 周榜日快照。往期见 <a href="history.html">往期速览</a>。数据抓取时间：{TODAY.isoformat()}（Asia/Shanghai）。资讯按重要度排序{foot_extra}。</p>
+      <p>最新页始终等于当天 AI 周榜日快照。往期见 <a href="history.html">往期速览</a>。数据抓取时间：{TODAY.isoformat()}（Asia/Shanghai）。资讯按重要度排序；仓库分榜见 ADR 0012{foot_extra}。</p>
     </footer>
   </div>
 </body>
@@ -1075,12 +1487,34 @@ def update_history() -> None:
     (SITE / "history.html").write_text(history, encoding="utf-8")
 
 
+
 def main() -> None:
-    repos = json.loads(Path("/tmp/gt-update/repos.json").read_text(encoding="utf-8"))
-    repos = sorted(repos, key=lambda r: r["week"], reverse=True)[:10]
+    overall = json.loads(Path("/tmp/gt-update/repos.json").read_text(encoding="utf-8"))
+    pool_path = Path("/tmp/gt-update/repos-pool.json")
+    if pool_path.exists():
+        pool = json.loads(pool_path.read_text(encoding="utf-8"))
+    else:
+        pool = list(overall)
+
+    by_full: dict[str, dict] = {}
+    for r in pool + overall:
+        k = r["full"]
+        if k not in by_full or r.get("week", 0) > by_full[k].get("week", 0):
+            by_full[k] = r
+    pool = list(by_full.values())
+
+    cache = load_type_cache()
+    pool, cache, type_fallback = classify_repos(pool, cache)
+    type_map = {r["full"]: r.get("types") or [] for r in pool}
+    for r in overall:
+        r["types"] = type_map.get(r["full"]) or keyword_classify_repo(r)
+    save_type_cache(cache)
+
+    tabs = build_tab_lists(overall, pool)
+
     news_items, window, gen_label, used_fallback = load_news()
     news_html = render_news(news_items, window, gen_label, used_fallback)
-    page = render_page(repos, news_html, used_fallback)
+    page = render_page(tabs, news_html, used_fallback, type_fallback)
 
     month_dir = SITE / "archive" / TODAY.strftime("%Y-%m")
     month_dir.mkdir(parents=True, exist_ok=True)
@@ -1089,20 +1523,23 @@ def main() -> None:
     (SITE / "index.html").write_text(page, encoding="utf-8")
     update_history()
 
-    # Persist scores used for reproducibility in repo (optional)
     scores_path = SITE / "scripts" / "news-model-scores.json"
     src = Path("/tmp/gt-update/news-model-scores.json")
     if src.exists() and not used_fallback:
         scores_path.write_text(src.read_text(encoding="utf-8"), encoding="utf-8")
 
+    counts = {k: len(v) for k, v in tabs.items()}
     meta = {
         "date": TODAY.isoformat(),
-        "repos": len(repos),
+        "tabs": counts,
+        "pool": len(pool),
         "news": len(news_items),
         "news_window": window,
         "used_fallback": used_fallback,
+        "type_fallback": type_fallback,
         "top_news": [{"title": it["title"], "score": it["score"], "date": it["date"]} for it in news_items],
-        "repo_names": [r["full"] for r in repos],
+        "repo_names_overall": [r["full"] for r in tabs.get("总榜") or []],
+        "tab_repos": {k: [r["full"] for r in v] for k, v in tabs.items()},
     }
     print(json.dumps(meta, ensure_ascii=False, indent=2))
 
