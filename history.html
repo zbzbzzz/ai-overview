@@ -233,13 +233,30 @@ h1 {
   font-size: 0.85rem;
   line-height: 1;
 }
+.diagram {
+  margin-top: 0.15rem;
+  width: 100%;
+  overflow-x: auto;
+}
+.diagram svg {
+  display: block;
+  width: 100%;
+  max-width: 36rem;
+  height: auto;
+}
 .intro {
-  margin-top: 0.85rem;
-  font-size: 0.94rem;
+  margin-top: 0.7rem;
+  font-size: 0.9rem;
   color: var(--ink);
-  line-height: 1.65;
-  max-width: 42em;
+  line-height: 1.5;
+  max-width: 40em;
   padding-left: 0.35rem;
+}
+.news-note {
+  margin-top: 0.35rem;
+  font-size: 0.84rem;
+  color: var(--mute);
+  line-height: 1.45;
 }
 .bar-block {
   margin-top: 0.9rem;
@@ -334,12 +351,6 @@ h1 {
   font-weight: 650;
   color: var(--sky);
 }
-.news-note {
-  margin-top: 0.4rem;
-  font-size: 0.875rem;
-  color: var(--ink);
-  line-height: 1.55;
-}
 .section-divider {
   height: 1px;
   background: var(--mist);
@@ -379,10 +390,10 @@ h1 {
       <div class="hero-top">
         <div>
           <div class="badge-date"><span class="dot" aria-hidden="true"></span>往期速览</div>
-          <h1>按月浏览本周快照</h1>
+          <h1>按月浏览</h1>
         </div>
         <nav class="nav" aria-label="站点导航">
-          <a href="index.html">最新页</a>
+          <a href="index.html">最新速览</a>
           <a href="https://github.com/trending?since=weekly" rel="noopener noreferrer">GitHub Trending</a>
         </nav>
       </div>
@@ -394,7 +405,7 @@ h1 {
         </ul>
       </section>
     <footer class="foot">
-      <p>同一天多次更新会覆盖同一份本周快照；按月分文件夹归档。</p>
+      <p>每天覆盖同一份日快照；按月分文件夹归档。</p>
     </footer>
   </div>
 </body>
