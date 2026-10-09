@@ -1021,11 +1021,14 @@ def classify_repos(repos: list[dict], cache: dict) -> tuple[list[dict], dict, bo
 
 
 def build_tab_lists(overall: list[dict], pool: list[dict]) -> dict[str, list[dict]]:
+    """总榜与分榜共用同一 AI 大候选池；总榜按本周星序 Top 10（不再用窄周榜切片）。"""
+    # overall kept for API compat / logging; ranking source is pool
+    base = pool if pool else overall
     tabs: dict[str, list[dict]] = {
-        "总榜": sorted(overall, key=lambda r: r["week"], reverse=True)[:10]
+        "总榜": sorted(base, key=lambda r: r["week"], reverse=True)[:10]
     }
     for t in REPO_TYPES:
-        members = [r for r in pool if t in (r.get("types") or [])]
+        members = [r for r in base if t in (r.get("types") or [])]
         members = sorted(members, key=lambda r: r["week"], reverse=True)[:10]
         tabs[t] = members
     return tabs
@@ -1358,7 +1361,7 @@ def render_page(tabs: dict[str, list[dict]], news_html: str, used_fallback: bool
     if type_fallback:
         foot_extra += " · <strong>分类降级</strong>"
     return f'''<!DOCTYPE html>
-<!-- cache-bust: repo-tabs-0012 -->
+<!-- cache-bust: repo-tabs-0012b-overall-pool -->
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8" />
