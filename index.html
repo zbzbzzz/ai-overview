@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- cache-bust: news-bullets -->
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8" />
@@ -253,11 +254,14 @@ h1 {
   padding-left: 0.35rem;
 }
 .news-note {
-  margin-top: 0.35rem;
+  margin-top: 0.55rem;
+  padding-left: 1.05rem;
   font-size: 0.84rem;
-  color: var(--mute);
-  line-height: 1.45;
+  color: var(--ink);
+  line-height: 1.55;
 }
+.news-note li { margin: 0.2rem 0; }
+.news-note li::marker { color: var(--sky); }
 .bar-block {
   margin-top: 0.9rem;
   padding-left: 0.35rem;
@@ -384,62 +388,110 @@ h1 {
       <li class="news-card">
         <a class="title" href="https://waytoagi.feishu.cn/wiki/FREXwQ99ui3ITDkYSgPcWfs5nlf?from=from_copylink" rel="noopener noreferrer">这几天，我都是拿手机让dot帮我干活</a>
         <div class="news-meta">WayToAGI · 2026-10-09</div>
-        <p class="news-note">用手机遥控 OpenAI Dot，后台持续跑任务。</p>
+        <ul class="news-note">
+          <li>OpenAI Dot 实测：用手机下发指令，就能后台持续推进项目，无需全程值守。</li>
+          <li>文中有代码开发、课程校对、视频制作、作业审阅等真实落地案例。</li>
+          <li>适合想搭建「持续跑任务」个人 AI 助手的人快速上手。</li>
+        </ul>
       </li>
       <li class="news-card">
         <a class="title" href="https://waytoagi.feishu.cn/wiki/LrCVwl7XLiQ0oYkIQVzc9ClwnDe?from=from_copylink" rel="noopener noreferrer">做了个地图动效 Skill，旅行路线秒变酷炫视频</a>
         <div class="news-meta">WayToAGI · 2026-10-09</div>
-        <p class="news-note">地图轨迹 Skill，一键生成旅行路线视频。</p>
+        <ul class="news-note">
+          <li>地图动效 Skill：依托高德 API 与 Opus，自动解析真实路线、坐标与海拔。</li>
+          <li>自带 11 种镜头、12 种视觉风格，支持导入 GPX，一键生成横屏或竖屏视频。</li>
+          <li>适合 Vlog 片头、自驾徒步轨迹、航线飞线或业务区域分布图。</li>
+        </ul>
       </li>
       <li class="news-card">
         <a class="title" href="https://waytoagi.feishu.cn/wiki/YSeqwpMVmikuROkGJbAcHCpPnCd?from=from_copylink" rel="noopener noreferrer">假期照片先别删：123 条 AI 提示词，修好废片，把美照玩出花-下篇</a>
         <div class="news-meta">WayToAGI · 2026-10-09</div>
-        <p class="news-note">123 条提示词，把废片修成创意照。</p>
+        <ul class="news-note">
+          <li>AI 创意摄影手册：把普通旅行照做成充满故事感的艺术作品。</li>
+          <li>含 8 大创意玩法与 43 条可复制提示词，覆盖旅行海报、微缩食物幻想、时空合影、情绪叙事等。</li>
+          <li>适合假期废片二次创作、想把美照玩出花的摄影爱好者。</li>
+        </ul>
       </li>
       <li class="news-card">
         <a class="title" href="https://waytoagi.feishu.cn/wiki/NfaXwvqTiiE7Z3kCQVgcB0WSnpb?from=from_copylink" rel="noopener noreferrer">REA：逆向工程一切</a>
         <div class="news-meta">WayToAGI · 2026-10-09</div>
-        <p class="news-note">本地逆向工具，一句话分析二进制与网站。</p>
+        <ul class="news-note">
+          <li>面向 AI 智能体的本地逆向工程工具，已突破 2 万 star。</li>
+          <li>无需源码即可分析原生二进制、Electron、.NET 与网站；可对接 Hopper/Ghidra，配合 Cursor、Claude Code 一句话完成反编译与逻辑复刻。</li>
+          <li>本机运行、不上传二进制，支持 CLI 与 MCP，适合从功能调研到代码复刻的开发者。</li>
+        </ul>
       </li>
       <li class="news-card">
         <a class="title" href="https://waytoagi.feishu.cn/wiki/D5vDwTcgdi48inkxA4pcDl96nHe?from=from_copylink" rel="noopener noreferrer">LLM 推理的并行化策略</a>
         <div class="news-meta">WayToAGI · 2026-10-09</div>
-        <p class="news-note">多 GPU 推理并行策略选型指南。</p>
+        <ul class="news-note">
+          <li>多 GPU 分布式推理选型指南，拆解各类并行方案的通信开销与取舍。</li>
+          <li>覆盖流水线、上下文、专家、数据并行等主流策略。</li>
+          <li>适合按硬件拓扑与业务负载分摊权重 / KV 缓存、避免跨设备通信拖慢推理的人。</li>
+        </ul>
       </li>
       <li class="news-card">
         <a class="title" href="https://waytoagi.feishu.cn/wiki/GhxMwUsVBiyD0ZkRsbrc30rTnbb?from=from_copylink" rel="noopener noreferrer">Grok Bot 玩法 01：生成 AI 早报视频的提示词</a>
         <div class="news-meta">WayToAGI · 2026-10-09</div>
-        <p class="news-note">提示词模板，自动出 AI 早报视频。</p>
+        <ul class="news-note">
+          <li>整合三套开源 Skill：自动抓取 X 收藏、资讯站等多源信息，并严格校验真实性。</li>
+          <li>输出文字简报与 90 秒横屏讲解视频，文末附可直接复制的提示词。</li>
+          <li>适合 Muse、Dots 等带云电脑的 Agent，想搭建每日资讯自动产出系统的人。</li>
+        </ul>
       </li>
       <li class="news-card">
         <a class="title" href="https://waytoagi.feishu.cn/wiki/ST1YwNO0qi3ba0kxfcmcoVP4nUf?from=from_copylink" rel="noopener noreferrer">ChatGPT 上线【交互 UI】，让每个回答都能交互</a>
         <div class="news-meta">WayToAGI · 2026-10-09</div>
-        <p class="news-note">对话里直接出滑块、图表等交互组件。</p>
+        <ul class="news-note">
+          <li>OpenAI Intelligent UI：对话内直接生成可操作组件，跳出纯文本回复。</li>
+          <li>支持滑块、动态图表、清单计算器，甚至简易小游戏。</li>
+          <li>适合规划采购 / 旅行穿搭、理解抽象知识，或快速搭建分账、储蓄等轻应用。</li>
+        </ul>
       </li>
       <li class="news-card">
         <a class="title" href="https://waytoagi.feishu.cn/wiki/JCm0wL0T4iBzLCkZlTSc9M7SnYb?from=from_copylink" rel="noopener noreferrer">用 Muse Gadgets 把个人 Agent 接进你自己的 AI 硬件里</a>
         <div class="news-meta">WayToAGI · 2026-10-08</div>
-        <p class="news-note">把个人 Agent 接到自制 AI 硬件。</p>
+        <ul class="news-note">
+          <li>Muse Gadgets 是「自己接硬件」工具包，不是 Meta 新出的整机硬件。</li>
+          <li>开放 ESP32 固件、Linux Device SDK 与配对方式。</li>
+          <li>适合把手边开发板、树莓派、屏幕、按钮、麦克风或传感器接到 Muse Agent。</li>
+        </ul>
       </li>
       <li class="news-card">
         <a class="title" href="https://waytoagi.feishu.cn/wiki/XhIBwaGrFi7jeWk4RK9cv2synLg?from=from_copylink" rel="noopener noreferrer">Opus 5.5 正在吃掉科普视频！免费开源15种风格提示词</a>
         <div class="news-meta">WayToAGI · 2026-10-08</div>
-        <p class="news-note">15 种风格提示词，快速做科普短视频。</p>
+        <ul class="news-note">
+          <li>用 Opus 5.5 做出 15 类约 10 秒可视化短片，覆盖皮影戏、3D 拆解、MG 动画、科普信息图等。</li>
+          <li>文字渲染更稳、可局部修改，制作成本低于传统视频模型。</li>
+          <li>文中开源全套提示词，适合快速产出高质量科普动态内容。</li>
+        </ul>
       </li>
       <li class="news-card">
         <a class="title" href="https://waytoagi.feishu.cn/wiki/ZmLGwZp1wiTCijkLbgCcS7ilnqe?from=from_copylink" rel="noopener noreferrer">Nano Banana 2.1 公开资料全景整理</a>
         <div class="news-meta">WayToAGI · 2026-10-08</div>
-        <p class="news-note">Google 新图模更便宜，支持 4K 与局部编辑。</p>
+        <ul class="news-note">
+          <li>Google 新一代生图模型：支持文生图、局部编辑与多参考图融合。</li>
+          <li>最高可出 4K，中文文字渲染改善，人物与产品主体更一致，价格也更低。</li>
+          <li>适合想试新图模、有中文排版或主体一致性需求的创作者。</li>
+        </ul>
       </li>
       <li class="news-card">
         <a class="title" href="https://waytoagi.feishu.cn/wiki/JJe1wWKUIiOF6zkiH7XcMPNYnqg?from=from_copylink" rel="noopener noreferrer">Mistral 发布 Mistral Large 4 公开预览版</a>
         <div class="news-meta">WayToAGI · 2026-10-08</div>
-        <p class="news-note">开源 MoE 多模态 Large 4 预览版上线。</p>
+        <ul class="news-note">
+          <li>欧洲自研开放权重 MoE 多模态模型公开预览，具备百万级上下文与强代码 / 智能体能力。</li>
+          <li>在漏洞复现、代码 Agent、多模态视觉定位、金融法律等任务上表现突出；月底将开放权重，可私有化部署。</li>
+          <li>适合安全、科研、企业知识工作等重视 AI 主权与可控的场景。</li>
+        </ul>
       </li>
       <li class="news-card">
         <a class="title" href="https://waytoagi.feishu.cn/wiki/Al1cw6cjCiOqv1kX99Xcqibfnud?from=from_copylink" rel="noopener noreferrer">Google发布开源多模态向量模型</a>
         <div class="news-meta">WayToAGI · 2026-10-08</div>
-        <p class="news-note">开源多模态 embedding，文本图像进同一向量空间。</p>
+        <ul class="news-note">
+          <li>Google DeepMind 开放多模态 embedding：文本、代码、图像、音视频映射到同一向量空间，上下文至 8K。</li>
+          <li>模块化设计搭配向量压缩，可在边缘设备轻量化部署；覆盖 RAG、素材检索、分类聚类。</li>
+          <li>文中有调用示例、微调方案与工程避坑，适合落地隐私可控的跨模态检索应用。</li>
+        </ul>
       </li>
       </ol>
     </section>
