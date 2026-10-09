@@ -2,33 +2,38 @@
   "DietrichGebert/ponytail": {
     "types": [
       "Skill",
-      "Agent"
-    ],
-    "updated": "2026-10-10",
-    "source": "model"
-  },
-  "mattpocock/skills": {
-    "types": [
-      "Skill"
-    ],
-    "updated": "2026-10-10",
-    "source": "model"
-  },
-  "Panniantong/Agent-Reach": {
-    "types": [
       "Agent",
       "开发工具链"
     ],
     "updated": "2026-10-10",
-    "source": "grok-bot"
+    "source": "grok"
   },
-  "pbakaus/impeccable": {
+  "mattpocock/skills": {
     "types": [
       "Skill",
       "开发工具链"
     ],
     "updated": "2026-10-10",
-    "source": "model"
+    "source": "grok"
+  },
+  "Panniantong/Agent-Reach": {
+    "types": [
+      "Agent",
+      "Skill",
+      "开发工具链",
+      "数据与评测"
+    ],
+    "updated": "2026-10-10",
+    "source": "grok"
+  },
+  "pbakaus/impeccable": {
+    "types": [
+      "Skill",
+      "开发工具链",
+      "应用与产品"
+    ],
+    "updated": "2026-10-10",
+    "source": "grok"
   },
   "ifixai-ai/iFixAi": {
     "types": [
@@ -41,57 +46,65 @@
   "heygen-com/hyperframes": {
     "types": [
       "Agent",
-      "应用与产品"
+      "应用与产品",
+      "Skill",
+      "开发工具链"
     ],
     "updated": "2026-10-10",
-    "source": "model"
+    "source": "grok"
   },
   "rohitg00/ai-engineering-from-scratch": {
     "types": [
+      "开发工具链",
       "数据与评测",
-      "模型与推理"
+      "Skill"
     ],
     "updated": "2026-10-10",
-    "source": "model"
+    "source": "grok"
   },
   "calesthio/OpenMontage": {
     "types": [
       "Agent",
       "应用与产品",
-      "Skill"
+      "数据与评测"
     ],
     "updated": "2026-10-10",
-    "source": "model"
+    "source": "grok"
   },
   "thedotmack/claude-mem": {
     "types": [
       "Agent",
-      "开发工具链"
+      "Skill",
+      "数据与评测"
     ],
     "updated": "2026-10-10",
-    "source": "model"
+    "source": "grok"
   },
   "addyosmani/agent-skills": {
     "types": [
-      "Skill"
+      "Skill",
+      "开发工具链"
     ],
     "updated": "2026-10-10",
-    "source": "model"
+    "source": "grok"
   },
   "mvschwarz/openrig": {
     "types": [
-      "Agent"
+      "Agent",
+      "开发工具链",
+      "应用与产品"
     ],
     "updated": "2026-10-10",
-    "source": "model"
+    "source": "grok"
   },
   "pingdotgg/t3code": {
     "types": [
       "Agent",
+      "应用与产品",
       "开发工具链"
     ],
     "updated": "2026-10-10",
-    "source": "model"
+    "source": "grok"
   },
   "tashfeenahmed/freellmapi": {
     "types": [
@@ -99,14 +112,15 @@
       "开发工具链"
     ],
     "updated": "2026-10-10",
-    "source": "model"
+    "source": "grok"
   },
   "Leonxlnx/taste-skill": {
     "types": [
-      "Skill"
+      "Skill",
+      "应用与产品"
     ],
     "updated": "2026-10-10",
-    "source": "model"
+    "source": "grok"
   },
   "JuliusBrussee/caveman": {
     "types": [
@@ -114,39 +128,42 @@
       "模型与推理"
     ],
     "updated": "2026-10-10",
-    "source": "model"
+    "source": "grok"
   },
   "earthtojake/text-to-cad": {
     "types": [
       "Agent",
-      "应用与产品"
+      "应用与产品",
+      "Skill"
     ],
     "updated": "2026-10-10",
-    "source": "model"
+    "source": "grok"
   },
   "666ghj/MiroFish": {
     "types": [
       "Agent",
-      "模型与推理",
+      "数据与评测",
       "应用与产品"
     ],
     "updated": "2026-10-10",
-    "source": "model"
+    "source": "grok"
   },
   "NVIDIA/OpenShell": {
     "types": [
       "Agent",
-      "开发工具链"
+      "开发工具链",
+      "应用与产品"
     ],
     "updated": "2026-10-10",
-    "source": "model"
+    "source": "grok"
   },
   "coreyhaines31/marketingskills": {
     "types": [
-      "Skill"
+      "Skill",
+      "应用与产品"
     ],
     "updated": "2026-10-10",
-    "source": "model"
+    "source": "grok"
   },
   "p-e-w/heretic": {
     "types": [
@@ -157,6 +174,7 @@
   },
   "tinyhumansai/openhuman": {
     "types": [
+      "Skill",
       "Agent",
       "开发工具链"
     ],
@@ -165,22 +183,25 @@
   },
   "cursor/plugins": {
     "types": [
+      "开发工具链",
       "Skill",
-      "开发工具链"
+      "应用与产品"
     ],
     "updated": "2026-10-10",
-    "source": "model"
+    "source": "grok"
   },
   "cloudflare/cloudflare-os": {
     "types": [
       "应用与产品",
-      "Agent"
+      "Agent",
+      "开发工具链"
     ],
     "updated": "2026-10-10",
-    "source": "model"
+    "source": "grok"
   },
   "docker/docker-agent": {
     "types": [
+      "Skill",
       "Agent",
       "开发工具链"
     ],
@@ -205,6 +226,7 @@
   },
   "AtomicBot-ai/atomic-agent": {
     "types": [
+      "Skill",
       "Agent",
       "应用与产品",
       "模型与推理"
@@ -231,11 +253,12 @@
   "jamwithai/production-agentic-rag-course": {
     "types": [
       "数据与评测",
-      "模型与推理",
-      "Agent"
+      "Agent",
+      "开发工具链",
+      "模型与推理"
     ],
     "updated": "2026-10-10",
-    "source": "model"
+    "source": "grok"
   },
   "Gaurav-Gosain/tuios": {
     "types": [
@@ -251,7 +274,7 @@
       "开发工具链"
     ],
     "updated": "2026-10-10",
-    "source": "model"
+    "source": "grok"
   },
   "xingkongliang/skills-manager": {
     "types": [
@@ -259,7 +282,7 @@
       "开发工具链"
     ],
     "updated": "2026-10-10",
-    "source": "model"
+    "source": "grok"
   },
   "androoAGI/starnet": {
     "types": [
@@ -279,11 +302,12 @@
   },
   "Robbyant/lingbot-map": {
     "types": [
-      "模型与推理",
+      "应用与产品",
+      "Agent",
       "数据与评测"
     ],
     "updated": "2026-10-10",
-    "source": "model"
+    "source": "grok"
   },
   "PurpleDoubleD/locally-uncensored": {
     "types": [
@@ -303,11 +327,12 @@
   },
   "anthropics/claude-cookbooks": {
     "types": [
+      "开发工具链",
       "数据与评测",
-      "开发工具链"
+      "模型与推理"
     ],
     "updated": "2026-10-10",
-    "source": "model"
+    "source": "grok"
   },
   "nanobrowser/nanobrowser": {
     "types": [
@@ -320,34 +345,37 @@
   "breferrari/obsidian-mind": {
     "types": [
       "Agent",
-      "Skill"
+      "Skill",
+      "数据与评测"
     ],
     "updated": "2026-10-10",
-    "source": "model"
+    "source": "grok"
   },
   "Agent-Field/CodeAF": {
     "types": [
       "Agent",
-      "开发工具链"
+      "开发工具链",
+      "模型与推理"
     ],
     "updated": "2026-10-10",
-    "source": "model"
+    "source": "grok"
   },
   "slavakurilyak/awesome-ai-agents": {
     "types": [
-      "数据与评测",
-      "Agent"
+      "Agent",
+      "数据与评测"
     ],
     "updated": "2026-10-10",
-    "source": "model"
+    "source": "grok"
   },
   "AI4Finance-Foundation/FinGPT": {
     "types": [
       "模型与推理",
+      "应用与产品",
       "数据与评测"
     ],
     "updated": "2026-10-10",
-    "source": "model"
+    "source": "grok"
   },
   "lharries/whatsapp-mcp": {
     "types": [
@@ -355,55 +383,59 @@
       "应用与产品"
     ],
     "updated": "2026-10-10",
-    "source": "model"
+    "source": "grok"
   },
   "ed-donner/agents": {
     "types": [
-      "数据与评测",
-      "Agent"
+      "Agent",
+      "开发工具链",
+      "数据与评测"
     ],
     "updated": "2026-10-10",
-    "source": "model"
+    "source": "grok"
   },
   "harshuljain13/llm-inference-at-scale": {
+    "types": [
+      "模型与推理",
+      "开发工具链",
+      "数据与评测"
+    ],
+    "updated": "2026-10-10",
+    "source": "grok"
+  },
+  "langchain-ai/agents-from-scratch": {
+    "types": [
+      "Agent",
+      "开发工具链",
+      "数据与评测"
+    ],
+    "updated": "2026-10-10",
+    "source": "grok"
+  },
+  "ageron/handson-mlp": {
     "types": [
       "模型与推理",
       "数据与评测"
     ],
     "updated": "2026-10-10",
-    "source": "model"
-  },
-  "langchain-ai/agents-from-scratch": {
-    "types": [
-      "数据与评测",
-      "Agent"
-    ],
-    "updated": "2026-10-10",
-    "source": "model"
-  },
-  "ageron/handson-mlp": {
-    "types": [
-      "数据与评测",
-      "模型与推理"
-    ],
-    "updated": "2026-10-10",
-    "source": "model"
+    "source": "grok"
   },
   "rasbt/machine-learning-book": {
     "types": [
-      "数据与评测",
-      "模型与推理"
+      "模型与推理",
+      "数据与评测"
     ],
     "updated": "2026-10-10",
-    "source": "model"
+    "source": "grok"
   },
   "oracle-devrel/oracle-ai-developer-hub": {
     "types": [
       "开发工具链",
+      "应用与产品",
       "数据与评测"
     ],
     "updated": "2026-10-10",
-    "source": "model"
+    "source": "grok"
   },
   "morluto/rea": {
     "types": [
@@ -416,10 +448,11 @@
   },
   "cathrynlavery/diagram-design": {
     "types": [
-      "Skill"
+      "Skill",
+      "应用与产品"
     ],
     "updated": "2026-10-10",
-    "source": "model"
+    "source": "grok"
   },
   "alibaba/open-code-review": {
     "types": [
@@ -458,15 +491,16 @@
       "Agent"
     ],
     "updated": "2026-10-10",
-    "source": "model"
+    "source": "grok"
   },
   "msitarzewski/agency-agents": {
     "types": [
       "Agent",
-      "Skill"
+      "Skill",
+      "应用与产品"
     ],
     "updated": "2026-10-10",
-    "source": "grok-bot"
+    "source": "grok"
   },
   "cjpais/Handy": {
     "types": [
@@ -512,18 +546,20 @@
   "nyldn/claude-octopus": {
     "types": [
       "Agent",
-      "开发工具链"
+      "模型与推理",
+      "数据与评测"
     ],
     "updated": "2026-10-10",
-    "source": "model"
+    "source": "grok"
   },
   "t8y2/dbx": {
     "types": [
+      "应用与产品",
       "Skill",
       "开发工具链"
     ],
     "updated": "2026-10-10",
-    "source": "model"
+    "source": "grok"
   },
   "byoungd/up": {
     "types": [
@@ -580,10 +616,11 @@
   "meituan-longcat/LongCat-Video": {
     "types": [
       "模型与推理",
-      "应用与产品"
+      "应用与产品",
+      "数据与评测"
     ],
     "updated": "2026-10-10",
-    "source": "model"
+    "source": "grok"
   },
   "ranxianglei/billion-context": {
     "types": [
