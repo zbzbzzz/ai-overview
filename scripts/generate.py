@@ -848,6 +848,36 @@ h1 {
 '''
 
 
+
+def blankify_links(html_doc: str) -> str:
+    """Ensure every clickable <a> opens in a new tab."""
+    def repl(m: re.Match) -> str:
+        tag = m.group(0)
+        if re.search(r'\btarget\s*=\s*"_blank"', tag, re.I):
+            if re.search(r'\brel\s*=', tag, re.I):
+                def fix_rel(rm):
+                    vals = rm.group(1).split()
+                    lower = {v.lower() for v in vals}
+                    for need in ("noopener", "noreferrer"):
+                        if need not in lower:
+                            vals.append(need)
+                    return f'rel="{" ".join(vals)}"'
+                return re.sub(r'\brel\s*=\s*"([^"]*)"', fix_rel, tag, count=1, flags=re.I)
+            return tag[:-1] + ' rel="noopener noreferrer">'
+        if re.search(r'\brel\s*=', tag, re.I):
+            tag = re.sub(r'(<a\b)', r'\1 target="_blank"', tag, count=1, flags=re.I)
+            def fix_rel(rm):
+                vals = rm.group(1).split()
+                lower = {v.lower() for v in vals}
+                for need in ("noopener", "noreferrer"):
+                    if need not in lower:
+                        vals.append(need)
+                return f'rel="{" ".join(vals)}"'
+            return re.sub(r'\brel\s*=\s*"([^"]*)"', fix_rel, tag, count=1, flags=re.I)
+        return re.sub(r'(<a\b)', r'\1 target="_blank" rel="noopener noreferrer"', tag, count=1, flags=re.I)
+    return re.sub(r'<a\s[^>]*>', repl, html_doc, flags=re.I)
+
+
 def esc(s: str) -> str:
     return html.escape(s or "", quote=True)
 
@@ -1230,7 +1260,7 @@ def render_news(items: list[dict], window: str, gen_label: str, used_fallback: b
         cards.append(
             f'''      <li class="news-card{extra_cls}">
         <div class="news-card-head">
-          <a class="title" href="{esc(it["url"])}" rel="noopener noreferrer">{esc(it["title"])}</a>
+          <a class="title" href="{esc(it["url"])}" target="_blank" rel="noopener noreferrer">{esc(it["title"])}</a>
           {badge}
         </div>
         <div class="news-meta">{esc(it["meta"])}</div>
@@ -1270,7 +1300,7 @@ def render_news(items: list[dict], window: str, gen_label: str, used_fallback: b
     return f'''    <section class="section" aria-labelledby="news-heading">
       <div class="section-head">
         <h2 id="news-heading">本周 AI 资讯</h2>
-        <span class="section-meta">{esc(window)} · 雷达 {esc(gen_label)} · <a href="https://news.learnprompt.pro" rel="noopener noreferrer">news.learnprompt.pro</a>{meta_extra}</span>
+        <span class="section-meta">{esc(window)} · 雷达 {esc(gen_label)} · <a href="https://news.learnprompt.pro" target="_blank" rel="noopener noreferrer">news.learnprompt.pro</a>{meta_extra}</span>
       </div>
       <ol class="news-list{collapsed_cls}" id="news-list">
 {chr(10).join(cards)}
@@ -1294,7 +1324,7 @@ def render_repo_card(rank: int, repo: dict, max_week: int) -> str:
         <div class="card-head">
           <span class="rank" aria-hidden="true">{rank:02d}</span>
           <div class="card-title">
-            <a class="name" href="https://github.com/{esc(name)}">{esc(name)}</a>
+            <a class="name" href="https://github.com/{esc(name)}" target="_blank" rel="noopener noreferrer">{esc(name)}</a>
             <div class="meta">
               <span class="lang"><i style="background:{color}"></i>{esc(repo["lang"])}</span>
               <span class="pill">星标 <strong>★ {fmt_int(repo["stars"])}</strong></span>
@@ -1361,7 +1391,7 @@ def render_page(tabs: dict[str, list[dict]], news_html: str, used_fallback: bool
     if type_fallback:
         foot_extra += " · <strong>分类降级</strong>"
     return f'''<!DOCTYPE html>
-<!-- cache-bust: repo-tabs-0012b-overall-pool -->
+<!-- cache-bust: links-blank-0013 -->
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8" />
@@ -1383,8 +1413,8 @@ def render_page(tabs: dict[str, list[dict]], news_html: str, used_fallback: bool
           <h1>本周 AI 速览</h1>
         </div>
         <nav class="nav" aria-label="站点导航">
-          <a href="history.html">往期速览</a>
-          <a href="https://github.com/trending?since=weekly" rel="noopener noreferrer">GitHub Trending</a>
+          <a href="history.html" target="_blank" rel="noopener noreferrer">往期速览</a>
+          <a href="https://github.com/trending?since=weekly" target="_blank" rel="noopener noreferrer">GitHub Trending</a>
         </nav>
       </div>
     </header>
@@ -1396,7 +1426,7 @@ def render_page(tabs: dict[str, list[dict]], news_html: str, used_fallback: bool
 {repo_html}
 
     <footer class="foot">
-      <p>最新页始终等于当天 AI 周榜日快照。往期见 <a href="history.html">往期速览</a>。数据抓取时间：{TODAY.isoformat()}（Asia/Shanghai）。资讯按重要度排序；仓库分榜见 ADR 0012{foot_extra}。</p>
+      <p>最新页始终等于当天 AI 周榜日快照。往期见 <a href="history.html" target="_blank" rel="noopener noreferrer">往期速览</a>。数据抓取时间：{TODAY.isoformat()}（Asia/Shanghai）。资讯按重要度排序；仓库分榜见 ADR 0012{foot_extra}。</p>
     </footer>
   </div>
 </body>
@@ -1421,7 +1451,7 @@ def update_history() -> None:
     for month in sorted(months.keys(), reverse=True):
         days = months[month]
         links = "\n".join(
-            f'          <li><a href="archive/{month}/github-trending-weekly-{d}.html">{d}</a></li>'
+            f'          <li><a href="archive/{month}/github-trending-weekly-{d}.html" target="_blank" rel="noopener noreferrer">{d}</a></li>'
             for d in days
         )
         month_blocks.append(
@@ -1479,8 +1509,8 @@ def update_history() -> None:
           <h1>按月浏览</h1>
         </div>
         <nav class="nav" aria-label="站点导航">
-          <a href="index.html">最新速览</a>
-          <a href="https://github.com/trending?since=weekly" rel="noopener noreferrer">GitHub Trending</a>
+          <a href="index.html" target="_blank" rel="noopener noreferrer">最新速览</a>
+          <a href="https://github.com/trending?since=weekly" target="_blank" rel="noopener noreferrer">GitHub Trending</a>
         </nav>
       </div>
     </header>
@@ -1492,6 +1522,7 @@ def update_history() -> None:
 </body>
 </html>
 '''
+    history = blankify_links(history)
     (SITE / "history.html").write_text(history, encoding="utf-8")
 
 
@@ -1527,6 +1558,7 @@ def main() -> None:
     month_dir = SITE / "archive" / TODAY.strftime("%Y-%m")
     month_dir.mkdir(parents=True, exist_ok=True)
     day_file = month_dir / f"github-trending-weekly-{TODAY.isoformat()}.html"
+    page = blankify_links(page)
     day_file.write_text(page, encoding="utf-8")
     (SITE / "index.html").write_text(page, encoding="utf-8")
     update_history()
