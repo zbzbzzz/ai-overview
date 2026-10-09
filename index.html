@@ -283,6 +283,70 @@ h1 {
   .card:hover { border-color: var(--aqua); background: #E3F0FA; }
 }
 
+.section {
+  margin-top: 0.35rem;
+  margin-bottom: 1.5rem;
+}
+.section-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.4rem 1rem;
+  margin-bottom: 0.75rem;
+}
+.section-head h2 {
+  font-family: "Source Serif 4", "Noto Serif SC", Georgia, serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: var(--navy);
+  letter-spacing: -0.01em;
+}
+.section-meta {
+  font-size: 0.75rem;
+  color: var(--mute);
+  font-weight: 600;
+}
+.news-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+.news-card {
+  background: var(--snow);
+  border: 1px solid var(--mist);
+  border-radius: 14px;
+  padding: 0.85rem 1rem;
+}
+.news-card a.title {
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--navy);
+  text-decoration: none;
+  line-height: 1.4;
+  display: block;
+}
+.news-card a.title:hover { color: var(--sky); text-decoration: underline; }
+.news-meta {
+  margin-top: 0.3rem;
+  font-size: 0.72rem;
+  font-weight: 650;
+  color: var(--sky);
+}
+.news-note {
+  margin-top: 0.4rem;
+  font-size: 0.875rem;
+  color: var(--ink);
+  line-height: 1.55;
+}
+.section-divider {
+  height: 1px;
+  background: var(--mist);
+  margin: 1.35rem 0 0.25rem;
+  border: 0;
+}
+
   </style>
 </head>
 <body>
@@ -299,6 +363,62 @@ h1 {
         </nav>
       </div>
     </header>
+
+    <section class="section" aria-labelledby="news-heading">
+      <div class="section-head">
+        <h2 id="news-heading">今日 AI 资讯</h2>
+        <span class="section-meta">雷达 2026-10-09 19:54 北京时间 · <a href="https://news.learnprompt.pro" rel="noopener noreferrer">news.learnprompt.pro</a></span>
+      </div>
+      <ol class="news-list">
+      <li class="news-card">
+        <a class="title" href="https://x.com/ArtificialAnlys/status/2108236656700768310" rel="noopener noreferrer">Artificial Analysis 评测 Google Nano Banana 2.1，两榜居第 4 且价格为前代一半</a>
+        <div class="news-meta">X：Artificial Analysis (@ArtificialAnlys)</div>
+        <p class="news-note">图像生成 API 半价且仍在第一梯队，跑批量出图的今天就能换省成本。</p>
+      </li>
+      <li class="news-card">
+        <a class="title" href="https://the-decoder.com/a-single-prompt-was-enough-to-hijack-every-ai-agent-in-an-aws-account-zenity-researchers-found" rel="noopener noreferrer">Zenity 研究人员发现一条提示词即可劫持 AWS 账户内全部 AgentCore 智能体</a>
+        <div class="news-meta">The Decoder：AI News（RSS）</div>
+        <p class="news-note">跑 AWS AgentCore 的赶紧审查 Agent 间信任边界，一条提示词就能横向接管全账号。</p>
+      </li>
+      <li class="news-card">
+        <a class="title" href="https://github.blog/changelog/2026-10-08-triage-role-users-or-higher-can-now-archive-pull-requests" rel="noopener noreferrer">Triage 及以上权限的用户现在可以归档 pull request</a>
+        <div class="news-meta">GitHub Changelog</div>
+        <p class="news-note">仓库维护者现在可让 triage 角色归档过期 PR，少一堆手动清理，今天生效。</p>
+      </li>
+      <li class="news-card">
+        <a class="title" href="https://www.aibase.com/news/31507" rel="noopener noreferrer">谷歌云重磅发布Gemini Agent，全面杀入企业级AI办公赛道</a>
+        <div class="news-meta">AIbase</div>
+        <p class="news-note">企业办公场景的 Agent，个人开发者今天用不上；做 To B 集成的先盯文档和定价。</p>
+      </li>
+      <li class="news-card">
+        <a class="title" href="https://x.com/arena/status/2108286973119230096" rel="noopener noreferrer">Arena 公布 Claude Haiku 5.5 (High) 真实评测结果：Code Arena 1587 分首秀第 30 名</a>
+        <div class="news-meta">X：Arena (@arena)</div>
+        <p class="news-note">Haiku 新版本代码能力中游，30 名不算突破；等 API 价格公布再决定要不要换便宜档。</p>
+      </li>
+      <li class="news-card">
+        <a class="title" href="https://github.blog/changelog/2026-10-08-draft-pull-requests-count-toward-pull-request-limits" rel="noopener noreferrer">草稿 pull request 也计入 pull request 上限</a>
+        <div class="news-meta">GitHub Changelog</div>
+        <p class="news-note">爱拿草稿 PR 当待办堆着的团队要留意，积多了会顶到上限被卡。</p>
+      </li>
+      <li class="news-card">
+        <a class="title" href="https://x.com/arena/status/2108405474391728357" rel="noopener noreferrer">Mistral Large 4 进入 Agent Arena 前十五实验室，排名第 43</a>
+        <div class="news-meta">X：Arena (@arena)</div>
+        <p class="news-note">榜上第43，能用但进不了第一梯队；选型时塞进备选名单即可，不用急着迁移。</p>
+      </li>
+      <li class="news-card">
+        <a class="title" href="https://www.aibase.com/news/31506" rel="noopener noreferrer">Anthropic 携手天文学家，Claude AI 填补空白打造首张全天紫外地图</a>
+        <div class="news-meta">AIbase</div>
+        <p class="news-note">Claude 干数据补全的应用案例，方法论可借鉴，但没有开放工具或接口，不影响你选型。</p>
+      </li>
+      </ol>
+    </section>
+
+    <hr class="section-divider" />
+
+    <div class="section-head" style="margin-top:1.15rem;margin-bottom:0">
+      <h2>AI 周榜仓库</h2>
+      <span class="section-meta">按本周新增星标排序</span>
+    </div>
 
     <ol class="cards">
 
