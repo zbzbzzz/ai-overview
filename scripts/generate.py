@@ -309,6 +309,11 @@ META = {
         "flow": ["装技能", "写 SwiftUI", "少踩坑"],
         "intro": "面向 Claude Code / Codex 的 SwiftUI Agent Skill。",
     },
+    "JayWebtech/autoshorts": {
+        "tag": "短视频剪辑",
+        "flow": ["导入长视频", "AI 挑高光", "导出竖屏"],
+        "intro": "本地优先桌面端：长视频/音频转竖屏短片，AI 排序爆款片段。",
+    },
 }
 
 # Curated 2–4 bullet notes by title prefix (from summary)
