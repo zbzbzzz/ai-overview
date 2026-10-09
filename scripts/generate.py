@@ -24,6 +24,21 @@ LANG_COLORS = {
 }
 
 META = {
+    "msitarzewski/agency-agents": {
+        "tag": "AI 虚拟团队",
+        "flow": ['选角色', '组 Agent 团', '交付任务'],
+        "intro": "把前端到市场等多角色 AI Agent 组成一支可调用的虚拟团队。",
+    },
+    "cjpais/Handy": {
+        "tag": "语音转写",
+        "flow": ['说话', '本地转写', '写进应用'],
+        "intro": "开源可扩展的跨平台语音转文字应用，强调本地与隐私。",
+    },
+    "Donchitos/Claude-Code-Game-Studios": {
+        "tag": "游戏工作室",
+        "flow": ['组角色', '跑流水线', '出游戏内容'],
+        "intro": "用数十个 AI Agent 角色，把 Claude Code 变成小型游戏工作室。",
+    },
     "mattpocock/skills": {
         "tag": "Agent 技能库",
         "flow": ["复制技能", "装进 Agent", "复用能力"],
