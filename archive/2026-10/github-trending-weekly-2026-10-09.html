@@ -86,12 +86,6 @@ h1 {
   color: var(--navy);
   letter-spacing: -0.02em;
 }
-.lede {
-  color: var(--mute);
-  font-size: 0.92rem;
-  max-width: 38em;
-  margin-top: 0.4rem;
-}
 .nav {
   display: flex;
   flex-wrap: wrap;
@@ -108,50 +102,7 @@ h1 {
   color: var(--navy);
 }
 .nav a:hover { background: var(--ice); border-color: var(--aqua); }
-.chart {
-  background: var(--soft);
-  border: 1px solid var(--mist);
-  border-radius: 14px;
-  padding: 0.95rem 1rem 1.05rem;
-}
-.chart h2 {
-  font-size: 0.78rem;
-  font-weight: 700;
-  color: var(--mute);
-  margin-bottom: 0.7rem;
-}
-.chart-rows { display: flex; flex-direction: column; gap: 0.45rem; }
-.chart-row {
-  display: grid;
-  grid-template-columns: 7.5rem minmax(0, 1fr) 3.6rem;
-  align-items: center;
-  gap: 0.55rem;
-  font-size: 0.72rem;
-}
-.chart-row .lab {
-  font-weight: 650;
-  color: var(--navy);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-.chart-row .track {
-  height: 0.55rem;
-  background: #D9E8F5;
-  border-radius: 999px;
-  overflow: hidden;
-}
-.chart-row .fill {
-  height: 100%;
-  background: linear-gradient(90deg, #5BB0DD, #1A7AB8);
-  border-radius: 999px;
-}
-.chart-row .num {
-  text-align: right;
-  font-weight: 700;
-  color: var(--sky);
-  font-variant-numeric: tabular-nums;
-}
+
 .cards {
   list-style: none;
   display: flex;
@@ -325,7 +276,6 @@ h1 {
 }
 .foot a { font-weight: 700; }
 @media (max-width: 520px) {
-  .chart-row { grid-template-columns: 5.5rem minmax(0, 1fr) 3.2rem; }
   .card { padding: 1rem; }
 }
 @media (prefers-reduced-motion: no-preference) {
@@ -342,7 +292,6 @@ h1 {
         <div>
           <div class="badge-date"><span class="dot" aria-hidden="true"></span>2026-10-09 · 周四</div>
           <h1>GitHub AI 周榜日快照</h1>
-          <p class="lede">从 GitHub 总周榜按叙事筛出 AI / Agent / Skill / MCP 相关仓库；本页共 8 个（不足 10，因当周页面上符合条件的仅有这些）。卡片说明每个项目的作用与流程。</p>
         </div>
         <nav class="nav" aria-label="站点导航">
           <a href="../../index.html">回最新页</a>
@@ -350,59 +299,6 @@ h1 {
           <a href="https://github.com/trending?since=weekly" rel="noopener noreferrer">GitHub Trending</a>
         </nav>
       </div>
-      <section class="chart" aria-labelledby="chart-title">
-        <h2 id="chart-title">本周星标对比（相对本页最高）</h2>
-        <div class="chart-rows">
-
-      <div class="chart-row">
-        <span class="lab" title="mattpocock/skills">skills</span>
-        <div class="track"><div class="fill" style="width:100%"></div></div>
-        <span class="num">+7,448</span>
-      </div>
-
-      <div class="chart-row">
-        <span class="lab" title="Panniantong/Agent-Reach">Agent-Reach</span>
-        <div class="track"><div class="fill" style="width:94%"></div></div>
-        <span class="num">+6,987</span>
-      </div>
-
-      <div class="chart-row">
-        <span class="lab" title="heygen-com/hyperframes">hyperframes</span>
-        <div class="track"><div class="fill" style="width:54%"></div></div>
-        <span class="num">+3,996</span>
-      </div>
-
-      <div class="chart-row">
-        <span class="lab" title="thedotmack/claude-mem">claude-mem</span>
-        <div class="track"><div class="fill" style="width:42%"></div></div>
-        <span class="num">+3,153</span>
-      </div>
-
-      <div class="chart-row">
-        <span class="lab" title="mvschwarz/openrig">openrig</span>
-        <div class="track"><div class="fill" style="width:36%"></div></div>
-        <span class="num">+2,693</span>
-      </div>
-
-      <div class="chart-row">
-        <span class="lab" title="pingdotgg/t3code">t3code</span>
-        <div class="track"><div class="fill" style="width:31%"></div></div>
-        <span class="num">+2,317</span>
-      </div>
-
-      <div class="chart-row">
-        <span class="lab" title="earthtojake/text-to-cad">text-to-cad</span>
-        <div class="track"><div class="fill" style="width:25%"></div></div>
-        <span class="num">+1,898</span>
-      </div>
-
-      <div class="chart-row">
-        <span class="lab" title="cursor/plugins">plugins</span>
-        <div class="track"><div class="fill" style="width:15%"></div></div>
-        <span class="num">+1,109</span>
-      </div>
-        </div>
-      </section>
     </header>
 
     <ol class="cards">
