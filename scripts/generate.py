@@ -24,6 +24,21 @@ LANG_COLORS = {
 }
 
 META = {
+    "byoungd/up": {
+        "tag": "AI 学习指南",
+        "flow": ["读路线", "练技能", "持续进阶"],
+        "intro": "AI 时代终身学习路线：英语、成长与创业实践合集。",
+    },
+    "dmtrKovalenko/fframes": {
+        "tag": "程序化视频",
+        "flow": ["写代码", "渲染帧", "导出视频"],
+        "intro": "偏工程向的程序化视频渲染框架，强调性能。",
+    },
+    "t8y2/dbx": {
+        "tag": "数据库+AI",
+        "flow": ["连库", "问 AI", "MCP 扩展"],
+        "intro": "轻量跨平台数据库客户端，内置 AI 助手与 MCP Server。",
+    },
     "msitarzewski/agency-agents": {
         "tag": "AI 虚拟团队",
         "flow": ['选角色', '组 Agent 团', '交付任务'],
