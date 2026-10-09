@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate 本周 AI 速览: AI weekly repos + importance-sorted news (ADR 0009)."""
+"""Generate 本周 AI 速览: AI weekly repos + archive 7-day multi-source news (ADR 0009/0010)."""
 from __future__ import annotations
 
 import html
@@ -636,51 +636,158 @@ def flow_html(steps: list[str]) -> str:
 
 
 def load_news() -> tuple[list[dict], str, str, bool]:
-    """Return (items top10, window, gen_label, used_fallback)."""
-    way_path = Path("/tmp/gt-update/waytoagi-7d.json")
-    if not way_path.exists():
-        way_path = Path("/tmp/waytoagi-7d.json")
-    way = json.loads(way_path.read_text(encoding="utf-8"))
-    updates = way.get("updates_7d") or way.get("updates_today") or []
+    """Return (items top10, window, gen_label, used_fallback).
+
+    Pipeline (ADR 0010): radar archive.json, sites {waytoagi, official_ai, aihot, aibase}
+    (+ other clearly-AI sites if present in WANT), rolling last 7 days Asia/Shanghai,
+    dedupe by normalized title/url, score by executor model (fallback rules), Top 10.
+    """
+    from zoneinfo import ZoneInfo
+    from urllib.parse import urlparse, urlunparse
+
+    SH = ZoneInfo("Asia/Shanghai")
+    now = datetime.now(SH)
+    # Rolling window: today-6d 00:00 .. today 23:59:59 Asia/Shanghai
+    win_start = (now - timedelta(days=6)).replace(hour=0, minute=0, second=0, microsecond=0)
+    win_end = now.replace(hour=23, minute=59, second=59, microsecond=999999)
+    win_start_s = win_start.date().isoformat()
+    win_end_s = win_end.date().isoformat()
+
+    WANT = {"waytoagi", "official_ai", "aihot", "aibase"}
+    SITE_LABEL = {
+        "waytoagi": "WayToAGI",
+        "aihot": "AIHot",
+        "aibase": "AIBase",
+        "official_ai": "Official AI",
+    }
+
+    archive_path = Path("/tmp/gt-update/archive.json")
+    if not archive_path.exists():
+        archive_path = Path("/tmp/archive.json")
+    archive = json.loads(archive_path.read_text(encoding="utf-8"))
+    raw_items = archive.get("items") or []
+
+    def parse_ts(s: str | None):
+        if not s:
+            return None
+        s = str(s).replace("Z", "+00:00")
+        try:
+            dt = datetime.fromisoformat(s)
+        except Exception:
+            try:
+                dt = datetime.strptime(s[:19], "%Y-%m-%dT%H:%M:%S").replace(tzinfo=timezone.utc)
+            except Exception:
+                try:
+                    dt = datetime.strptime(s[:10], "%Y-%m-%d").replace(tzinfo=SH)
+                except Exception:
+                    return None
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=SH)
+        return dt.astimezone(SH)
+
+    def norm_title(t: str) -> str:
+        t = (t or "").lower().strip()
+        t = re.sub(r"\s+", " ", t)
+        t = re.sub(r"[|｜·•\-—_]+", " ", t)
+        return re.sub(r"[^a-z0-9\u4e00-\u9fff ]+", "", t).strip()
+
+    def norm_url(u: str) -> str:
+        if not u:
+            return ""
+        try:
+            p = urlparse(u.strip())
+            path = p.path.rstrip("/")
+            return urlunparse((p.scheme.lower(), p.netloc.lower(), path, "", "", ""))
+        except Exception:
+            return u.strip().lower()
+
+    cands = []
+    for it in raw_items:
+        sid = it.get("site_id")
+        if sid not in WANT:
+            continue
+        ts = parse_ts(it.get("published_at")) or parse_ts(it.get("first_seen_at"))
+        if not ts or not (win_start <= ts <= win_end):
+            continue
+        cands.append({**it, "_ts": ts, "_date": ts.date().isoformat()})
+
+    # Prefer items with summary when deduping (keep first after sort)
+    cands.sort(key=lambda x: (0 if x.get("summary") else 1, -x["_ts"].timestamp()))
+    seen_t: set[str] = set()
+    seen_u: set[str] = set()
+    deduped = []
+    for it in cands:
+        nt = norm_title(it.get("title") or "")
+        nu = norm_url(it.get("url") or "")
+        if nt and nt in seen_t:
+            continue
+        if nu and nu in seen_u:
+            continue
+        if nt:
+            seen_t.add(nt)
+        if nu:
+            seen_u.add(nu)
+        deduped.append(it)
+
+    cand_count = len(deduped)
+
+    # Optional curated bullets from /tmp/gt-update/news-top10.json (executor-written)
+    curated_bullets: dict[str, list[str]] = {}
+    curated_path = Path("/tmp/gt-update/news-top10.json")
+    if curated_path.exists():
+        try:
+            for row in json.loads(curated_path.read_text(encoding="utf-8")):
+                if row.get("title") and row.get("bullets"):
+                    curated_bullets[row["title"]] = list(row["bullets"])[:4]
+        except Exception:
+            curated_bullets = {}
 
     model_scores = load_model_scores()
     used_fallback = model_scores is None
 
     items = []
-    for idx, u in enumerate(updates):
+    for idx, u in enumerate(deduped):
         title = u.get("title") or ""
         summary = (u.get("summary") or "").strip()
-        date_s = u.get("date") or ""
+        date_s = u["_date"]
+        sid = u.get("site_id") or ""
         if model_scores is not None and title in model_scores:
             score = float(model_scores[title])
-        elif model_scores is not None:
-            # Partial miss still prefers model path: rule for missing only
-            score = rule_score(title, summary)
         else:
             score = rule_score(title, summary)
+            # Unscored items stay eligible but won't beat model-picked top unless high rule score
+        if title in curated_bullets:
+            bullets = curated_bullets[title]
+        elif summary:
+            bullets = news_bullets(title, summary)
+        else:
+            # title-only: 2 short bullets, no invention beyond title
+            bullets = [
+                one_sentence(title, 56),
+                "详见原文标题与链接。",
+            ]
+        site = SITE_LABEL.get(sid, u.get("site_name") or sid)
         items.append({
             "title": title,
             "url": u.get("url") or "",
             "note": summary,
-            "meta": f"WayToAGI · {date_s}",
+            "meta": f"{site} · {date_s}",
             "date": date_s,
             "score": score,
-            "bullets": news_bullets(title, summary),
+            "bullets": bullets[:4],
             "_idx": idx,
         })
 
     # Sort: 资讯重要度 DESC, then 平局日期序 (date DESC)
     items.sort(key=lambda it: (it["score"], it["date"] or ""), reverse=True)
-
     items = items[:10]
 
-    dates = [u.get("date") for u in updates if u.get("date")]
-    if dates:
-        window = f"近 7 天（{min(dates)} ~ {max(dates)}）· 按重要度 Top 10"
-    else:
-        window = "近 7 天 · 按重要度 Top 10"
+    window = (
+        f"近 7 天（{win_start_s} ~ {win_end_s}）· 按重要度 Top 10"
+        f" · 雷达 archive · AI 多源 · 候选 {cand_count}"
+    )
 
-    gen = way.get("generated_at") or ""
+    gen = archive.get("generated_at") or ""
     try:
         dt = datetime.fromisoformat(gen.replace("Z", "+00:00")).astimezone(
             timezone(timedelta(hours=8))
@@ -690,6 +797,7 @@ def load_news() -> tuple[list[dict], str, str, bool]:
         gen_label = gen or TODAY.isoformat()
 
     return items, window, gen_label, used_fallback
+
 
 
 def render_news(items: list[dict], window: str, gen_label: str, used_fallback: bool) -> str:
@@ -767,7 +875,7 @@ def render_page(repos: list[dict], news_html: str, used_fallback: bool) -> str:
     cards = "\n\n".join(render_repo_card(i + 1, r, max_week) for i, r in enumerate(repos[:10]))
     foot_extra = " · <strong>重要度降级</strong>" if used_fallback else ""
     return f'''<!DOCTYPE html>
-<!-- cache-bust: news-by-importance -->
+<!-- cache-bust: news-7d-archive -->
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8" />
