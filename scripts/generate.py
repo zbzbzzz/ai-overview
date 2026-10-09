@@ -524,6 +524,34 @@ h1 {
   margin: 1.35rem 0 0.25rem;
   border: 0;
 }
+.news-list.is-collapsed .news-card.news-extra { display: none; }
+.news-toggle-wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.85rem;
+}
+.news-toggle {
+  appearance: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  color: var(--navy);
+  background: var(--snow);
+  border: 1px solid var(--mist);
+  border-radius: 999px;
+  padding: 0.45rem 1.1rem;
+  line-height: 1.3;
+}
+.news-toggle:hover {
+  background: var(--ice);
+  border-color: var(--aqua);
+  color: var(--sky);
+}
+.news-toggle:focus-visible {
+  outline: 2px solid var(--sky);
+  outline-offset: 3px;
+}
 '''
 
 
@@ -801,14 +829,17 @@ def load_news() -> tuple[list[dict], str, str, bool]:
 
 
 def render_news(items: list[dict], window: str, gen_label: str, used_fallback: bool) -> str:
+    """Render Top N news; default show first 5, button expands to all (max 10)."""
+    DEFAULT_VISIBLE = 5
     cards = []
     for i, it in enumerate(items):
         badge = ""
         if i < 3:
             badge = '<span class="badge-focus">重点</span>'
+        extra_cls = " news-extra" if i >= DEFAULT_VISIBLE else ""
         bullets = "\n".join(f"          <li>{esc(b)}</li>" for b in it["bullets"])
         cards.append(
-            f'''      <li class="news-card">
+            f'''      <li class="news-card{extra_cls}">
         <div class="news-card-head">
           <a class="title" href="{esc(it["url"])}" rel="noopener noreferrer">{esc(it["title"])}</a>
           {badge}
@@ -819,17 +850,39 @@ def render_news(items: list[dict], window: str, gen_label: str, used_fallback: b
         </ul>
       </li>'''
         )
-    foot_note = ""
-    if used_fallback:
-        foot_note = ""  # footer handled in render_page
+    n = len(items)
+    collapsed_cls = " is-collapsed" if n > DEFAULT_VISIBLE else ""
+    toggle = ""
+    if n > DEFAULT_VISIBLE:
+        toggle = f'''      <div class="news-toggle-wrap">
+        <button type="button" class="news-toggle" id="news-toggle" aria-expanded="false" aria-controls="news-list">展开更多</button>
+      </div>
+      <script>
+      (function () {{
+        var btn = document.getElementById("news-toggle");
+        var list = document.getElementById("news-list");
+        if (!btn || !list) return;
+        btn.addEventListener("click", function () {{
+          var collapsed = list.classList.toggle("is-collapsed");
+          btn.setAttribute("aria-expanded", collapsed ? "false" : "true");
+          btn.textContent = collapsed ? "展开更多" : "收起";
+        }});
+      }})();
+      </script>'''
+    meta_extra = f" · 默认 {min(DEFAULT_VISIBLE, n)} 条"
+    if n > DEFAULT_VISIBLE:
+        meta_extra += f" · 可展开至 {n} 条"
+    else:
+        meta_extra += f" · 共 {n} 条"
     return f'''    <section class="section" aria-labelledby="news-heading">
       <div class="section-head">
         <h2 id="news-heading">本周 AI 资讯</h2>
-        <span class="section-meta">{esc(window)} · 雷达 {esc(gen_label)} · <a href="https://news.learnprompt.pro" rel="noopener noreferrer">news.learnprompt.pro</a> · 共 {len(items)} 条</span>
+        <span class="section-meta">{esc(window)} · 雷达 {esc(gen_label)} · <a href="https://news.learnprompt.pro" rel="noopener noreferrer">news.learnprompt.pro</a>{meta_extra}</span>
       </div>
-      <ol class="news-list">
+      <ol class="news-list{collapsed_cls}" id="news-list">
 {chr(10).join(cards)}
       </ol>
+{toggle}
     </section>'''
 
 
@@ -875,7 +928,7 @@ def render_page(repos: list[dict], news_html: str, used_fallback: bool) -> str:
     cards = "\n\n".join(render_repo_card(i + 1, r, max_week) for i, r in enumerate(repos[:10]))
     foot_extra = " · <strong>重要度降级</strong>" if used_fallback else ""
     return f'''<!DOCTYPE html>
-<!-- cache-bust: news-7d-archive -->
+<!-- cache-bust: news-expand-5 -->
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8" />

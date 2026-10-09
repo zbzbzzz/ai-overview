@@ -8,4 +8,4 @@
 
 ## Model & display (accepted)
 
-资讯重要度由 Grok Bot 运行时模型打分（不是仓库 DEEPSEEK_API_KEY）。展示固定 Top 10；前 3 条标「重点」。模型不可用时退回规则分并页脚注明「重要度降级」。
+资讯重要度由 Grok Bot 运行时模型打分（不是仓库 DEEPSEEK_API_KEY）。仍取 Top 10；默认展示前 5 条、可展开至 10（见 ADR 0011）；前 3 条标「重点」。模型不可用时退回规则分并页脚注明「重要度降级」。
