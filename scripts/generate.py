@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate GitHub AI weekly snapshot + weekly AI news page."""
+"""Generate 本周 AI 速览: AI weekly repos + importance-sorted news (ADR 0009)."""
 from __future__ import annotations
 
 import html
@@ -23,7 +23,6 @@ LANG_COLORS = {
     "Unknown": "#8b9bb4",
 }
 
-# Curated purpose / flow / intro — one short sentence each
 META = {
     "mattpocock/skills": {
         "tag": "Agent 技能库",
@@ -67,21 +66,96 @@ META = {
     },
 }
 
-# Short news overrides by title prefix
-NEWS_SHORT = {
-    "这几天，我都是拿手机让dot帮我干活": "用手机遥控 OpenAI Dot，后台持续跑任务。",
-    "做了个地图动效 Skill": "地图轨迹 Skill，一键生成旅行路线视频。",
-    "假期照片先别删": "123 条提示词，把废片修成创意照。",
-    "REA：逆向工程一切": "本地逆向工具，一句话分析二进制与网站。",
-    "LLM 推理的并行化策略": "多 GPU 推理并行策略选型指南。",
-    "Grok Bot 玩法 01": "提示词模板，自动出 AI 早报视频。",
-    "ChatGPT 上线【交互 UI】": "对话里直接出滑块、图表等交互组件。",
-    "用 Muse Gadgets": "把个人 Agent 接到自制 AI 硬件。",
-    "Opus 5.5 正在吃掉科普视频": "15 种风格提示词，快速做科普短视频。",
-    "Nano Banana 2.1": "Google 新图模更便宜，支持 4K 与局部编辑。",
-    "Mistral 发布 Mistral Large 4": "开源 MoE 多模态 Large 4 预览版上线。",
-    "Google发布开源多模态向量模型": "开源多模态 embedding，文本图像进同一向量空间。",
+# Curated 2–4 bullet notes by title prefix (from summary)
+NEWS_BULLETS = {
+    "这几天，我都是拿手机让dot帮我干活": [
+        "OpenAI Dot 实测：用手机下发指令，就能后台持续推进项目，无需全程值守。",
+        "文中有代码开发、课程校对、视频制作、作业审阅等真实落地案例。",
+        "适合想搭建「持续跑任务」个人 AI 助手的人快速上手。",
+    ],
+    "做了个地图动效 Skill": [
+        "地图动效 Skill：依托高德 API 与 Opus，自动解析真实路线、坐标与海拔。",
+        "自带 11 种镜头、12 种视觉风格，支持导入 GPX，一键生成横屏或竖屏视频。",
+        "适合 Vlog 片头、自驾徒步轨迹、航线飞线或业务区域分布图。",
+    ],
+    "假期照片先别删": [
+        "AI 创意摄影手册：把普通旅行照做成充满故事感的艺术作品。",
+        "含 8 大创意玩法与 43 条可复制提示词，覆盖旅行海报、微缩食物幻想、时空合影、情绪叙事等。",
+        "适合假期废片二次创作、想把美照玩出花的摄影爱好者。",
+    ],
+    "REA：逆向工程一切": [
+        "面向 AI 智能体的本地逆向工程工具，已突破 2 万 star。",
+        "无需源码即可分析原生二进制、Electron、.NET 与网站；可对接 Hopper/Ghidra，配合 Cursor、Claude Code 一句话完成反编译与逻辑复刻。",
+        "本机运行、不上传二进制，支持 CLI 与 MCP，适合从功能调研到代码复刻的开发者。",
+    ],
+    "LLM 推理的并行化策略": [
+        "多 GPU 分布式推理选型指南，拆解各类并行方案的通信开销与取舍。",
+        "覆盖流水线、上下文、专家、数据并行等主流策略。",
+        "适合按硬件拓扑与业务负载分摊权重 / KV 缓存、避免跨设备通信拖慢推理的人。",
+    ],
+    "Grok Bot 玩法 01": [
+        "整合三套开源 Skill：自动抓取 X 收藏、资讯站等多源信息，并严格校验真实性。",
+        "输出文字简报与 90 秒横屏讲解视频，文末附可直接复制的提示词。",
+        "适合 Muse、Dots 等带云电脑的 Agent，想搭建每日资讯自动产出系统的人。",
+    ],
+    "ChatGPT 上线【交互 UI】": [
+        "OpenAI Intelligent UI：对话内直接生成可操作组件，跳出纯文本回复。",
+        "支持滑块、动态图表、清单计算器，甚至简易小游戏。",
+        "适合规划采购 / 旅行穿搭、理解抽象知识，或快速搭建分账、储蓄等轻应用。",
+    ],
+    "用 Muse Gadgets": [
+        "Muse Gadgets 是「自己接硬件」工具包，不是 Meta 新出的整机硬件。",
+        "开放 ESP32 固件、Linux Device SDK 与配对方式。",
+        "适合把手边开发板、树莓派、屏幕、按钮、麦克风或传感器接到 Muse Agent。",
+    ],
+    "Opus 5.5 正在吃掉科普视频": [
+        "用 Opus 5.5 做出 15 类约 10 秒可视化短片，覆盖皮影戏、3D 拆解、MG 动画、科普信息图等。",
+        "文字渲染更稳、可局部修改，制作成本低于传统视频模型。",
+        "文中开源全套提示词，适合快速产出高质量科普动态内容。",
+    ],
+    "Nano Banana 2.1": [
+        "Google 新一代生图模型：支持文生图、局部编辑与多参考图融合。",
+        "最高可出 4K，中文文字渲染改善，人物与产品主体更一致，价格也更低。",
+        "适合想试新图模、有中文排版或主体一致性需求的创作者。",
+    ],
+    "Mistral 发布 Mistral Large 4": [
+        "欧洲自研开放权重 MoE 多模态模型公开预览，具备百万级上下文与强代码 / 智能体能力。",
+        "在漏洞复现、代码 Agent、多模态视觉定位、金融法律等任务上表现突出；月底将开放权重，可私有化部署。",
+        "适合安全、科研、企业知识工作等重视 AI 主权与可控的场景。",
+    ],
+    "Google发布开源多模态向量模型": [
+        "Google DeepMind 开放多模态 embedding：文本、代码、图像、音视频映射到同一向量空间，上下文至 8K。",
+        "模块化设计搭配向量压缩，可在边缘设备轻量化部署；覆盖 RAG、素材检索、分类聚类。",
+        "文中有调用示例、微调方案与工程避坑，适合落地隐私可控的跨模态检索应用。",
+    ],
+    "FLUX 3 Image": [
+        "Black Forest Labs 推出 FLUX 3 Image，支持边界框布局生成与局部编辑。",
+        "最多可用十张参考图，原生支持 2K / 4K 直出。",
+        "适合需要可控构图与高分辨率出图的创作者与工作流。",
+    ],
+    "Comfy Agent": [
+        "Comfy Agent 登陆 Comfy Cloud（本地端也将上线），用自然语言搭建与排查工作流。",
+        "支持多模型对比、批量出图与素材管理，减轻节点调试负担。",
+        "适合想少碰繁杂节点、快速迭代创意工作流的 ComfyUI 用户。",
+    ],
+    "AI音乐周刊": [
+        "本周 AI 音乐周刊汇总版权新规与司法判例。",
+        "收录 Modulate 融资、Suno 语音配乐、Mirelo 音效插件等产品动态。",
+        "另有开源音乐框架、舞蹈驱动生成、自动评估等前沿论文速览。",
+    ],
 }
+
+INDUSTRY_KW = [
+    "发布", "上线", "OpenAI", "Google", "DeepMind", "Mistral", "ChatGPT",
+    "模型", "预览", "开源", "权重", "Large", "FLUX", "Nano Banana",
+]
+ACTION_KW = [
+    "Skill", "MCP", "Agent", "提示词", "CLI", "工作流", "上手", "复用",
+    "工具", "SDK", "硬件", "逆向", "一键", "可直接",
+]
+BREADTH_KW = [
+    "多模态", "4K", "交互", "全网", "开源", "云", "企业", "私有化", "边缘",
+]
 
 CSS = r'''
 :root {
@@ -313,12 +387,6 @@ h1 {
   width: 100%;
   overflow-x: auto;
 }
-.diagram svg {
-  display: block;
-  width: 100%;
-  max-width: 36rem;
-  height: auto;
-}
 .intro {
   margin-top: 0.7rem;
   font-size: 0.9rem;
@@ -328,11 +396,14 @@ h1 {
   padding-left: 0.35rem;
 }
 .news-note {
-  margin-top: 0.35rem;
+  margin-top: 0.55rem;
+  padding-left: 1.05rem;
   font-size: 0.84rem;
-  color: var(--mute);
-  line-height: 1.45;
+  color: var(--ink);
+  line-height: 1.55;
 }
+.news-note li { margin: 0.2rem 0; }
+.news-note li::marker { color: var(--sky); }
 .bar-block {
   margin-top: 0.9rem;
   padding-left: 0.35rem;
@@ -411,15 +482,36 @@ h1 {
   border-radius: 14px;
   padding: 0.85rem 1rem;
 }
+.news-card-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 0.4rem 0.55rem;
+}
 .news-card a.title {
   font-weight: 700;
   font-size: 0.95rem;
   color: var(--navy);
   text-decoration: none;
   line-height: 1.4;
-  display: block;
+  flex: 1 1 12rem;
+  min-width: 0;
 }
 .news-card a.title:hover { color: var(--sky); text-decoration: underline; }
+.badge-focus {
+  display: inline-flex;
+  align-items: center;
+  flex: 0 0 auto;
+  padding: 0.12rem 0.5rem;
+  border-radius: 999px;
+  background: #DFF0FA;
+  border: 1px solid var(--mist);
+  color: var(--navy);
+  font-size: 0.7rem;
+  font-weight: 750;
+  letter-spacing: 0.02em;
+  line-height: 1.3;
+}
 .news-meta {
   margin-top: 0.3rem;
   font-size: 0.72rem;
@@ -444,7 +536,6 @@ def fmt_int(n: int) -> str:
 
 
 def one_sentence(text: str, max_len: int = 42) -> str:
-    """Compress blurb to one short Chinese sentence."""
     text = (text or "").strip().replace("\n", " ")
     for sep in ("。", "！", "？", "；", ". ", "! ", "? "):
         if sep in text:
@@ -459,127 +550,170 @@ def one_sentence(text: str, max_len: int = 42) -> str:
     return text
 
 
-def short_news_note(title: str, note: str) -> str:
-    for key, short in NEWS_SHORT.items():
+def kw_hits(text: str, kws: list[str]) -> int:
+    return sum(1 for k in kws if k.lower() in text.lower())
+
+
+def rule_score(title: str, summary: str) -> float:
+    """Keyword fallback for 资讯重要度 (0–100)."""
+    blob = f"{title} {summary}"
+    industry = min(100, 28 + kw_hits(blob, INDUSTRY_KW) * 14)
+    actionable = min(100, 30 + kw_hits(blob, ACTION_KW) * 12)
+    breadth = min(100, 30 + kw_hits(blob, BREADTH_KW) * 12)
+    # Soft boosts
+    if any(x in blob for x in ("发布", "上线", "预览版")):
+        industry = min(100, industry + 10)
+    if any(x in blob for x in ("Skill", "MCP", "Agent", "提示词")):
+        actionable = min(100, actionable + 8)
+    return round(industry * 0.5 + actionable * 0.35 + breadth * 0.15, 2)
+
+
+def weighted_score(parts: dict) -> float:
+    return round(
+        parts["industry"] * 0.5 + parts["actionable"] * 0.35 + parts["breadth"] * 0.15,
+        2,
+    )
+
+
+def load_model_scores() -> dict[str, float] | None:
+    """Load executor-assigned model scores if present. None => failure/fallback."""
+    for p in (
+        Path("/tmp/gt-update/news-model-scores.json"),
+        SITE / "scripts" / "news-model-scores.json",
+    ):
+        if not p.exists():
+            continue
+        try:
+            raw = json.loads(p.read_text(encoding="utf-8"))
+            out: dict[str, float] = {}
+            for title, val in raw.items():
+                if isinstance(val, (int, float)):
+                    out[title] = float(val)
+                elif isinstance(val, dict) and "score" in val:
+                    out[title] = float(val["score"])
+                elif isinstance(val, dict) and {"industry", "actionable", "breadth"} <= set(val):
+                    out[title] = weighted_score(val)
+            if out:
+                return out
+        except Exception:
+            return None
+    return None
+
+
+def news_bullets(title: str, summary: str) -> list[str]:
+    for key, bullets in NEWS_BULLETS.items():
         if title.startswith(key) or key in title:
-            return short
-    return one_sentence(note, 40)
+            return bullets[:4]
+    # Derive 2–3 bullets from summary sentences
+    text = (summary or "").strip()
+    parts = re.split(r"(?<=[。！？])\s*", text)
+    parts = [p.strip() for p in parts if p.strip()]
+    if not parts:
+        return [one_sentence(text or "本周 AI 相关动态。", 60)]
+    bullets = []
+    for p in parts[:3]:
+        bullets.append(one_sentence(p, 72))
+    if len(bullets) == 1 and len(text) > 40:
+        bullets.append(one_sentence(text[len(parts[0]):] or text, 72))
+    return bullets[:4]
 
 
-def flow_svg(steps: list[str]) -> str:
-    """Inline SVG flowchart: rounded boxes + arrows."""
+def flow_html(steps: list[str]) -> str:
+    """HTML flow chips (not SVG)."""
     if not steps:
         return ""
-    box_h = 36
-    pad_x = 14
-    gap = 28
-    # approximate char width ~12 for CJK
-    widths = [max(56, 12 * len(s) + pad_x * 2) for s in steps]
-    total_w = sum(widths) + gap * (len(steps) - 1) + 8
-    total_h = box_h + 16
-    x = 4
-    parts = [
-        f'<svg class="flow-svg" viewBox="0 0 {total_w} {total_h}" '
-        f'role="img" aria-label="流程：{" → ".join(steps)}" '
-        f'xmlns="http://www.w3.org/2000/svg">'
-    ]
-    for i, (step, w) in enumerate(zip(steps, widths)):
-        y = 8
-        parts.append(
-            f'<rect x="{x}" y="{y}" width="{w}" height="{box_h}" rx="10" '
-            f'fill="#EAF3FB" stroke="#C8DCEF" stroke-width="1.5"/>'
-        )
-        parts.append(
-            f'<text x="{x + w/2}" y="{y + box_h/2 + 5}" text-anchor="middle" '
-            f'font-family="Noto Sans SC, Manrope, sans-serif" font-size="12" '
-            f'font-weight="650" fill="#0A3558">{html.escape(step)}</text>'
-        )
-        if i < len(steps) - 1:
-            ax = x + w + 4
-            ay = y + box_h / 2
-            parts.append(
-                f'<path d="M{ax} {ay} L{ax + gap - 10} {ay}" '
-                f'stroke="#3B9BD4" stroke-width="2" fill="none"/>'
-            )
-            parts.append(
-                f'<polygon points="{ax + gap - 10},{ay - 5} {ax + gap - 2},{ay} '
-                f'{ax + gap - 10},{ay + 5}" fill="#3B9BD4"/>'
-            )
-        x += w + gap
-    parts.append("</svg>")
-    return '<div class="diagram">' + "".join(parts) + "</div>"
+    label = " → ".join(steps)
+    bits = []
+    for i, step in enumerate(steps):
+        if i:
+            bits.append('<span class="arrow" aria-hidden="true">→</span>')
+        bits.append(f'<span class="step">{esc(step)}</span>')
+    inner = "".join(bits)
+    return (
+        f'<div class="diagram"><div class="flow" role="img" '
+        f'aria-label="流程：{esc(label)}">{inner}</div></div>'
+    )
 
 
+def load_news() -> tuple[list[dict], str, str, bool]:
+    """Return (items top10, window, gen_label, used_fallback)."""
+    way_path = Path("/tmp/gt-update/waytoagi-7d.json")
+    if not way_path.exists():
+        way_path = Path("/tmp/waytoagi-7d.json")
+    way = json.loads(way_path.read_text(encoding="utf-8"))
+    updates = way.get("updates_7d") or way.get("updates_today") or []
 
-def load_news() -> tuple[list[dict], str, str]:
-    """Prefer 7-day waytoagi feed; fallback to daily-brief."""
-    way = json.load(open("/tmp/gt-update/waytoagi-7d.json"))
-    updates = way.get("updates_7d") or []
-    if updates:
-        # take up to 12, chronological newest first (already sorted in file)
-        items = []
-        for u in updates[:12]:
-            items.append({
-                "title": u.get("title") or "",
-                "url": u.get("url") or "",
-                "note": (u.get("summary") or "").strip(),
-                "meta": f"WayToAGI · {u.get('date')}",
-                "date": u.get("date") or "",
-            })
-        # window label
-        dates = [u.get("date") for u in updates if u.get("date")]
-        if dates:
-            start, end = min(dates), max(dates)
-            window = f"近 7 天（{start} ~ {end}）"
-        else:
-            window = "近 7 天"
-        gen = way.get("generated_at") or ""
-        try:
-            dt = datetime.fromisoformat(gen.replace("Z", "+00:00")).astimezone(
-                timezone(timedelta(hours=8))
-            )
-            gen_label = dt.strftime("%Y-%m-%d %H:%M") + " 北京时间"
-        except Exception:
-            gen_label = gen
-        return items, window, gen_label
+    model_scores = load_model_scores()
+    used_fallback = model_scores is None
 
-    # fallback daily-brief (24h)
-    brief = json.load(open("/tmp/gt-update/daily-brief.json"))
     items = []
-    for it in (brief.get("items") or [])[:12]:
-        title = it.get("title") or ""
-        # prefer Chinese side of bilingual title
-        if " / " in title:
-            title = title.split(" / ")[0].strip()
+    for idx, u in enumerate(updates):
+        title = u.get("title") or ""
+        summary = (u.get("summary") or "").strip()
+        date_s = u.get("date") or ""
+        if model_scores is not None and title in model_scores:
+            score = float(model_scores[title])
+        elif model_scores is not None:
+            # Partial miss still prefers model path: rule for missing only
+            score = rule_score(title, summary)
+        else:
+            score = rule_score(title, summary)
         items.append({
             "title": title,
-            "url": it.get("primary_url") or it.get("url") or "",
-            "note": (it.get("persona_review") or "").strip(),
-            "meta": it.get("source_name") or it.get("source") or "AI Radar",
-            "date": "",
+            "url": u.get("url") or "",
+            "note": summary,
+            "meta": f"WayToAGI · {date_s}",
+            "date": date_s,
+            "score": score,
+            "bullets": news_bullets(title, summary),
+            "_idx": idx,
         })
-    gen = brief.get("generated_at") or ""
+
+    # Sort: 资讯重要度 DESC, then 平局日期序 (date DESC)
+    items.sort(key=lambda it: (it["score"], it["date"] or ""), reverse=True)
+
+    items = items[:10]
+
+    dates = [u.get("date") for u in updates if u.get("date")]
+    if dates:
+        window = f"近 7 天（{min(dates)} ~ {max(dates)}）· 按重要度 Top 10"
+    else:
+        window = "近 7 天 · 按重要度 Top 10"
+
+    gen = way.get("generated_at") or ""
     try:
         dt = datetime.fromisoformat(gen.replace("Z", "+00:00")).astimezone(
             timezone(timedelta(hours=8))
         )
         gen_label = dt.strftime("%Y-%m-%d %H:%M") + " 北京时间"
     except Exception:
-        gen_label = gen
-    return items, "近 24 小时（daily-brief）", gen_label
+        gen_label = gen or TODAY.isoformat()
+
+    return items, window, gen_label, used_fallback
 
 
-def render_news(items: list[dict], window: str, gen_label: str) -> str:
+def render_news(items: list[dict], window: str, gen_label: str, used_fallback: bool) -> str:
     cards = []
-    for it in items:
-        note = short_news_note(it["title"], it["note"])
+    for i, it in enumerate(items):
+        badge = ""
+        if i < 3:
+            badge = '<span class="badge-focus">重点</span>'
+        bullets = "\n".join(f"          <li>{esc(b)}</li>" for b in it["bullets"])
         cards.append(
             f'''      <li class="news-card">
-        <a class="title" href="{esc(it["url"])}" rel="noopener noreferrer">{esc(it["title"])}</a>
+        <div class="news-card-head">
+          <a class="title" href="{esc(it["url"])}" rel="noopener noreferrer">{esc(it["title"])}</a>
+          {badge}
+        </div>
         <div class="news-meta">{esc(it["meta"])}</div>
-        <p class="news-note">{esc(note)}</p>
+        <ul class="news-note">
+{bullets}
+        </ul>
       </li>'''
         )
+    foot_note = ""
+    if used_fallback:
+        foot_note = ""  # footer handled in render_page
     return f'''    <section class="section" aria-labelledby="news-heading">
       <div class="section-head">
         <h2 id="news-heading">本周 AI 资讯</h2>
@@ -600,8 +734,8 @@ def render_repo_card(rank: int, repo: dict, max_week: int) -> str:
     })
     color = LANG_COLORS.get(repo["lang"], LANG_COLORS["Unknown"])
     pct = int(round(100 * repo["week"] / max_week)) if max_week else 0
-    diagram = flow_svg(meta["flow"])
-    intro = meta["intro"]  # already one short sentence in META
+    diagram = flow_html(meta["flow"])
+    intro = meta["intro"]
     return f'''      <li class="card">
         <div class="card-head">
           <span class="rank" aria-hidden="true">{rank:02d}</span>
@@ -628,10 +762,12 @@ def render_repo_card(rank: int, repo: dict, max_week: int) -> str:
       </li>'''
 
 
-def render_page(repos: list[dict], news_html: str) -> str:
+def render_page(repos: list[dict], news_html: str, used_fallback: bool) -> str:
     max_week = max((r["week"] for r in repos), default=1) or 1
     cards = "\n\n".join(render_repo_card(i + 1, r, max_week) for i, r in enumerate(repos[:10]))
+    foot_extra = " · <strong>重要度降级</strong>" if used_fallback else ""
     return f'''<!DOCTYPE html>
+<!-- cache-bust: news-by-importance -->
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8" />
@@ -675,7 +811,7 @@ def render_page(repos: list[dict], news_html: str) -> str:
     </ol>
 
     <footer class="foot">
-      <p>最新页始终等于当天 AI 周榜日快照。往期见 <a href="history.html">往期速览</a>。数据抓取时间：{TODAY.isoformat()}（Asia/Shanghai）。</p>
+      <p>最新页始终等于当天 AI 周榜日快照。往期见 <a href="history.html">往期速览</a>。数据抓取时间：{TODAY.isoformat()}（Asia/Shanghai）。资讯按重要度排序{foot_extra}。</p>
     </footer>
   </div>
 </body>
@@ -684,7 +820,6 @@ def render_page(repos: list[dict], news_html: str) -> str:
 
 
 def update_history() -> None:
-    """Rebuild history.html month list from archive files."""
     archive_root = SITE / "archive"
     months: dict[str, list[str]] = {}
     for p in sorted(archive_root.glob("*/github-trending-weekly-*.html")):
@@ -776,11 +911,11 @@ def update_history() -> None:
 
 
 def main() -> None:
-    repos = json.load(open("/tmp/gt-update/repos.json"))
+    repos = json.loads(Path("/tmp/gt-update/repos.json").read_text(encoding="utf-8"))
     repos = sorted(repos, key=lambda r: r["week"], reverse=True)[:10]
-    news_items, window, gen_label = load_news()
-    news_html = render_news(news_items, window, gen_label)
-    page = render_page(repos, news_html)
+    news_items, window, gen_label, used_fallback = load_news()
+    news_html = render_news(news_items, window, gen_label, used_fallback)
+    page = render_page(repos, news_html, used_fallback)
 
     month_dir = SITE / "archive" / TODAY.strftime("%Y-%m")
     month_dir.mkdir(parents=True, exist_ok=True)
@@ -789,11 +924,19 @@ def main() -> None:
     (SITE / "index.html").write_text(page, encoding="utf-8")
     update_history()
 
+    # Persist scores used for reproducibility in repo (optional)
+    scores_path = SITE / "scripts" / "news-model-scores.json"
+    src = Path("/tmp/gt-update/news-model-scores.json")
+    if src.exists() and not used_fallback:
+        scores_path.write_text(src.read_text(encoding="utf-8"), encoding="utf-8")
+
     meta = {
         "date": TODAY.isoformat(),
         "repos": len(repos),
         "news": len(news_items),
         "news_window": window,
+        "used_fallback": used_fallback,
+        "top_news": [{"title": it["title"], "score": it["score"], "date": it["date"]} for it in news_items],
         "repo_names": [r["full"] for r in repos],
     }
     print(json.dumps(meta, ensure_ascii=False, indent=2))
