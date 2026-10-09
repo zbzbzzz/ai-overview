@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate 本周 AI 速览: AI weekly repos + archive 7-day multi-source news (ADR 0009/0010)."""
+"""Generate 本周 AI 速览: AI weekly repos + archive 7-day multi-source news (ADR 0009/0010/0013)."""
 from __future__ import annotations
 
 import html
@@ -845,6 +845,43 @@ h1 {
   outline: 2px solid var(--sky);
   outline-offset: 3px;
 }
+.news-related {
+  margin-top: 0.45rem;
+  font-size: 0.75rem;
+  color: var(--mute);
+  line-height: 1.45;
+}
+.news-related summary {
+  cursor: pointer;
+  font-weight: 700;
+  color: var(--sky);
+  list-style: none;
+}
+.news-related summary::-webkit-details-marker { display: none; }
+.news-related summary::before {
+  content: "▸ ";
+  color: var(--aqua);
+}
+.news-related[open] summary::before { content: "▾ "; }
+.news-related ul {
+  list-style: none;
+  margin: 0.35rem 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+.news-related a {
+  color: var(--navy);
+  font-weight: 650;
+  text-decoration: none;
+}
+.news-related a:hover { color: var(--sky); text-decoration: underline; }
+.news-related .src {
+  color: var(--mute);
+  font-weight: 600;
+  margin-right: 0.35rem;
+}
 '''
 
 
@@ -1082,19 +1119,86 @@ def flow_html(steps: list[str]) -> str:
     )
 
 
-def load_news() -> tuple[list[dict], str, str, bool]:
-    """Return (items top10, window, gen_label, used_fallback).
+def load_news_bundles() -> list[dict] | None:
+    """Load executor-confirmed 资讯束 (ADR 0013). None => merge failure / missing."""
+    for p in (
+        Path("/tmp/gt-update/news-bundles.json"),
+        SITE / "scripts" / "news-bundles.json",
+    ):
+        if not p.exists():
+            continue
+        try:
+            raw = json.loads(p.read_text(encoding="utf-8"))
+            if not isinstance(raw, list) or not raw:
+                continue
+            out = []
+            for row in raw:
+                title = (row.get("title") or "").strip()
+                url = (row.get("url") or "").strip()
+                if not title or not url:
+                    continue
+                links = row.get("links") or []
+                norm_links = []
+                seen = set()
+                for link in links:
+                    lu = (link.get("url") or "").strip()
+                    if not lu or lu in seen:
+                        continue
+                    seen.add(lu)
+                    norm_links.append({
+                        "label": link.get("label") or "来源",
+                        "title": link.get("title") or title,
+                        "url": lu,
+                        "date": link.get("date") or "",
+                    })
+                if not any(link["url"] == url for link in norm_links):
+                    norm_links.insert(0, {
+                        "label": "主链",
+                        "title": title,
+                        "url": url,
+                        "date": row.get("date") or "",
+                    })
+                norm_links = [link for link in norm_links if link["url"] == url] + [
+                    link for link in norm_links if link["url"] != url
+                ]
+                bullets = list(row.get("bullets") or [])[:4]
+                if len(bullets) < 2:
+                    summary = (row.get("summary") or row.get("note") or "").strip()
+                    bullets = (
+                        news_bullets(title, summary)
+                        if summary
+                        else [one_sentence(title, 56), "详见原文链接。"]
+                    )
+                out.append({
+                    "title": title,
+                    "url": url,
+                    "links": norm_links,
+                    "bullets": bullets[:4],
+                    "date": row.get("date") or "",
+                    "meta": row.get("meta") or "",
+                    "score": float(row["score"]) if isinstance(row.get("score"), (int, float)) else None,
+                    "score_parts": row.get("score_parts"),
+                    "note": row.get("summary") or row.get("note") or "",
+                })
+            if out:
+                return out
+        except Exception:
+            return None
+    return None
 
-    Pipeline (ADR 0010): radar archive.json, sites {waytoagi, official_ai, aihot, aibase}
-    (+ other clearly-AI sites if present in WANT), rolling last 7 days Asia/Shanghai,
-    dedupe by normalized title/url, score by executor model (fallback rules), Top 10.
+
+def load_news() -> tuple[list[dict], str, str, bool, bool]:
+    """Return (items top10, window, gen_label, score_fallback, merge_fallback).
+
+    Pipeline (ADR 0010/0013): radar archive, AI multi-source, rolling 7 days.
+    Prefer executor 资讯束 (content-merge); else title/URL dedupe + 合并降级.
+    Score bundles by executor model, Top 10.
     """
     from zoneinfo import ZoneInfo
     from urllib.parse import urlparse, urlunparse
 
     SH = ZoneInfo("Asia/Shanghai")
     now = datetime.now(SH)
-    # Rolling window: today-6d 00:00 .. today 23:59:59 Asia/Shanghai
     win_start = (now - timedelta(days=6)).replace(hour=0, minute=0, second=0, microsecond=0)
     win_end = now.replace(hour=23, minute=59, second=59, microsecond=999999)
     win_start_s = win_start.date().isoformat()
@@ -1158,27 +1262,21 @@ def load_news() -> tuple[list[dict], str, str, bool]:
             continue
         cands.append({**it, "_ts": ts, "_date": ts.date().isoformat()})
 
-    # Prefer items with summary when deduping (keep first after sort)
-    cands.sort(key=lambda x: (0 if x.get("summary") else 1, -x["_ts"].timestamp()))
-    seen_t: set[str] = set()
-    seen_u: set[str] = set()
-    deduped = []
+    seen_u_all: set[str] = set()
+    url_unique = 0
     for it in cands:
-        nt = norm_title(it.get("title") or "")
         nu = norm_url(it.get("url") or "")
-        if nt and nt in seen_t:
+        if nu and nu in seen_u_all:
             continue
-        if nu and nu in seen_u:
-            continue
-        if nt:
-            seen_t.add(nt)
         if nu:
-            seen_u.add(nu)
-        deduped.append(it)
+            seen_u_all.add(nu)
+        url_unique += 1
 
-    cand_count = len(deduped)
+    bundles = load_news_bundles()
+    merge_fallback = bundles is None
+    model_scores = load_model_scores()
+    score_fallback = model_scores is None
 
-    # Optional curated bullets from /tmp/gt-update/news-top10.json (executor-written)
     curated_bullets: dict[str, list[str]] = {}
     curated_path = Path("/tmp/gt-update/news-top10.json")
     if curated_path.exists():
@@ -1189,49 +1287,105 @@ def load_news() -> tuple[list[dict], str, str, bool]:
         except Exception:
             curated_bullets = {}
 
-    model_scores = load_model_scores()
-    used_fallback = model_scores is None
+    items: list[dict] = []
+    if bundles is not None:
+        cand_count = url_unique
+        for idx, b in enumerate(bundles):
+            title = b["title"]
+            summary = b.get("note") or ""
+            if b.get("score") is not None:
+                score = float(b["score"])
+            elif model_scores is not None and title in model_scores:
+                score = float(model_scores[title])
+            elif (
+                b.get("score_parts")
+                and isinstance(b["score_parts"], dict)
+                and {"industry", "actionable", "breadth"} <= set(b["score_parts"])
+            ):
+                score = weighted_score(b["score_parts"])
+            else:
+                score = rule_score(title, summary)
+            bullets = b["bullets"]
+            # Bundle bullets win; curated only fills if bundle bullets too short
+            if len(bullets) < 2 and title in curated_bullets:
+                bullets = curated_bullets[title]
+            meta = b.get("meta") or ""
+            if not meta:
+                labels = []
+                for link in b.get("links") or []:
+                    lab = link.get("label") or ""
+                    if lab and lab not in labels:
+                        labels.append(lab)
+                meta = f"{' / '.join(labels[:3]) or '多源'} · {b.get('date') or ''}"
+                if len(b.get("links") or []) > 1:
+                    meta += f" · {len(b['links'])} 源"
+            items.append({
+                "title": title,
+                "url": b["url"],
+                "links": b.get("links") or [
+                    {"label": "主链", "title": title, "url": b["url"], "date": b.get("date") or ""}
+                ],
+                "note": summary,
+                "meta": meta,
+                "date": b.get("date") or "",
+                "score": score,
+                "bullets": bullets[:4],
+                "_idx": idx,
+            })
+    else:
+        cands.sort(key=lambda x: (0 if x.get("summary") else 1, -x["_ts"].timestamp()))
+        seen_t: set[str] = set()
+        seen_u: set[str] = set()
+        deduped = []
+        for it in cands:
+            nt = norm_title(it.get("title") or "")
+            nu = norm_url(it.get("url") or "")
+            if nt and nt in seen_t:
+                continue
+            if nu and nu in seen_u:
+                continue
+            if nt:
+                seen_t.add(nt)
+            if nu:
+                seen_u.add(nu)
+            deduped.append(it)
+        cand_count = len(deduped)
+        for idx, u in enumerate(deduped):
+            title = u.get("title") or ""
+            summary = (u.get("summary") or "").strip()
+            date_s = u["_date"]
+            sid = u.get("site_id") or ""
+            if model_scores is not None and title in model_scores:
+                score = float(model_scores[title])
+            else:
+                score = rule_score(title, summary)
+            if title in curated_bullets:
+                bullets = curated_bullets[title]
+            elif summary:
+                bullets = news_bullets(title, summary)
+            else:
+                bullets = [one_sentence(title, 56), "详见原文标题与链接。"]
+            site = SITE_LABEL.get(sid, u.get("site_name") or sid)
+            url = u.get("url") or ""
+            items.append({
+                "title": title,
+                "url": url,
+                "links": [{"label": site, "title": title, "url": url, "date": date_s}],
+                "note": summary,
+                "meta": f"{site} · {date_s}",
+                "date": date_s,
+                "score": score,
+                "bullets": bullets[:4],
+                "_idx": idx,
+            })
 
-    items = []
-    for idx, u in enumerate(deduped):
-        title = u.get("title") or ""
-        summary = (u.get("summary") or "").strip()
-        date_s = u["_date"]
-        sid = u.get("site_id") or ""
-        if model_scores is not None and title in model_scores:
-            score = float(model_scores[title])
-        else:
-            score = rule_score(title, summary)
-            # Unscored items stay eligible but won't beat model-picked top unless high rule score
-        if title in curated_bullets:
-            bullets = curated_bullets[title]
-        elif summary:
-            bullets = news_bullets(title, summary)
-        else:
-            # title-only: 2 short bullets, no invention beyond title
-            bullets = [
-                one_sentence(title, 56),
-                "详见原文标题与链接。",
-            ]
-        site = SITE_LABEL.get(sid, u.get("site_name") or sid)
-        items.append({
-            "title": title,
-            "url": u.get("url") or "",
-            "note": summary,
-            "meta": f"{site} · {date_s}",
-            "date": date_s,
-            "score": score,
-            "bullets": bullets[:4],
-            "_idx": idx,
-        })
-
-    # Sort: 资讯重要度 DESC, then 平局日期序 (date DESC)
     items.sort(key=lambda it: (it["score"], it["date"] or ""), reverse=True)
     items = items[:10]
 
+    mode = "资讯束" if not merge_fallback else "标题去重"
     window = (
         f"近 7 天（{win_start_s} ~ {win_end_s}）· 按重要度 Top 10"
-        f" · 雷达 archive · AI 多源 · 候选 {cand_count}"
+        f" · 雷达 archive · AI 多源 · 候选 {cand_count} · {mode}"
     )
 
     gen = archive.get("generated_at") or ""
@@ -1243,12 +1397,11 @@ def load_news() -> tuple[list[dict], str, str, bool]:
     except Exception:
         gen_label = gen or TODAY.isoformat()
 
-    return items, window, gen_label, used_fallback
-
+    return items, window, gen_label, score_fallback, merge_fallback
 
 
 def render_news(items: list[dict], window: str, gen_label: str, used_fallback: bool) -> str:
-    """Render Top N news; default show 重点 (top 3), button expands to all (max 10)."""
+    """Render Top N 资讯束; default show 重点 (top 3), expand to max 10."""
     DEFAULT_VISIBLE = 3
     cards = []
     for i, it in enumerate(items):
@@ -1257,37 +1410,62 @@ def render_news(items: list[dict], window: str, gen_label: str, used_fallback: b
             badge = '<span class="badge-focus">重点</span>'
         extra_cls = " news-extra" if i >= DEFAULT_VISIBLE else ""
         bullets = "\n".join(f"          <li>{esc(b)}</li>" for b in it["bullets"])
+        links = it.get("links") or []
+        related = ""
+        extras = [link for link in links if link.get("url") and link["url"] != it["url"]]
+        if extras:
+            n_extra = len(extras)
+            lis = []
+            for link in extras:
+                lab = esc(link.get("label") or "来源")
+                href = esc(link["url"])
+                ltitle = esc(link.get("title") or link.get("label") or "相关报道")
+                lis.append(
+                    f'            <li><span class="src">{lab}</span>'
+                    f'<a href="{href}" target="_blank" rel="noopener noreferrer">{ltitle}</a></li>'
+                )
+            related = (
+                f'        <details class="news-related">\n'
+                f'          <summary>另 {n_extra} 篇报道</summary>\n'
+                f'          <ul>\n'
+                + "\n".join(lis)
+                + "\n          </ul>\n"
+                + "        </details>"
+            )
         cards.append(
-            f'''      <li class="news-card{extra_cls}">
-        <div class="news-card-head">
-          <a class="title" href="{esc(it["url"])}" target="_blank" rel="noopener noreferrer">{esc(it["title"])}</a>
-          {badge}
-        </div>
-        <div class="news-meta">{esc(it["meta"])}</div>
-        <ul class="news-note">
-{bullets}
-        </ul>
-      </li>'''
+            "      <li class=\"news-card" + extra_cls + "\">\n"
+            + '        <div class="news-card-head">\n'
+            + f'          <a class="title" href="{esc(it["url"])}" target="_blank" rel="noopener noreferrer">{esc(it["title"])}</a>\n'
+            + f"          {badge}\n"
+            + "        </div>\n"
+            + f'        <div class="news-meta">{esc(it["meta"])}</div>\n'
+            + '        <ul class="news-note">\n'
+            + bullets + "\n"
+            + "        </ul>\n"
+            + (related + "\n" if related else "")
+            + "      </li>"
         )
     n = len(items)
     collapsed_cls = " is-collapsed" if n > DEFAULT_VISIBLE else ""
     toggle = ""
     if n > DEFAULT_VISIBLE:
-        toggle = f'''      <div class="news-toggle-wrap">
-        <button type="button" class="news-toggle" id="news-toggle" aria-expanded="false" aria-controls="news-list">展开更多</button>
-      </div>
-      <script>
-      (function () {{
-        var btn = document.getElementById("news-toggle");
-        var list = document.getElementById("news-list");
-        if (!btn || !list) return;
-        btn.addEventListener("click", function () {{
-          var collapsed = list.classList.toggle("is-collapsed");
-          btn.setAttribute("aria-expanded", collapsed ? "false" : "true");
-          btn.textContent = collapsed ? "展开更多" : "收起";
-        }});
-      }})();
-      </script>'''
+        toggle = (
+            '      <div class="news-toggle-wrap">\n'
+            '        <button type="button" class="news-toggle" id="news-toggle" aria-expanded="false" aria-controls="news-list">展开更多</button>\n'
+            "      </div>\n"
+            "      <script>\n"
+            "      (function () {\n"
+            '        var btn = document.getElementById("news-toggle");\n'
+            '        var list = document.getElementById("news-list");\n'
+            "        if (!btn || !list) return;\n"
+            '        btn.addEventListener("click", function () {\n'
+            '          var collapsed = list.classList.toggle("is-collapsed");\n'
+            '          btn.setAttribute("aria-expanded", collapsed ? "false" : "true");\n'
+            '          btn.textContent = collapsed ? "展开更多" : "收起";\n'
+            "        });\n"
+            "      })();\n"
+            "      </script>"
+        )
     shown = min(DEFAULT_VISIBLE, n)
     if DEFAULT_VISIBLE == 3 and n >= 3:
         meta_extra = f" · 默认 {shown} 条（重点）"
@@ -1297,16 +1475,25 @@ def render_news(items: list[dict], window: str, gen_label: str, used_fallback: b
         meta_extra += f" · 可展开至 {n} 条"
     else:
         meta_extra += f" · 共 {n} 条"
-    return f'''    <section class="section" aria-labelledby="news-heading">
-      <div class="section-head">
-        <h2 id="news-heading">本周 AI 资讯</h2>
-        <span class="section-meta">{esc(window)} · 雷达 {esc(gen_label)} · <a href="https://news.learnprompt.pro" target="_blank" rel="noopener noreferrer">news.learnprompt.pro</a>{meta_extra}</span>
-      </div>
-      <ol class="news-list{collapsed_cls}" id="news-list">
-{chr(10).join(cards)}
-      </ol>
-{toggle}
-    </section>'''
+    return (
+        '    <section class="section" aria-labelledby="news-heading">\n'
+        '      <div class="section-head">\n'
+        '        <h2 id="news-heading">本周 AI 资讯</h2>\n'
+        '        <span class="section-meta">'
+        + esc(window)
+        + " · 雷达 "
+        + esc(gen_label)
+        + ' · <a href="https://news.learnprompt.pro" target="_blank" rel="noopener noreferrer">news.learnprompt.pro</a>'
+        + meta_extra
+        + "</span>\n"
+        + "      </div>\n"
+        + f'      <ol class="news-list{collapsed_cls}" id="news-list">\n'
+        + "\n".join(cards)
+        + "\n"
+        + "      </ol>\n"
+        + (toggle + "\n" if toggle else "")
+        + "    </section>"
+    )
 
 
 def render_repo_card(rank: int, repo: dict, max_week: int) -> str:
@@ -1383,15 +1570,17 @@ def render_repo_section(tabs: dict[str, list[dict]]) -> str:
 {script}'''
 
 
-def render_page(tabs: dict[str, list[dict]], news_html: str, used_fallback: bool, type_fallback: bool) -> str:
+def render_page(tabs: dict[str, list[dict]], news_html: str, used_fallback: bool, type_fallback: bool, merge_fallback: bool = False) -> str:
     repo_html = render_repo_section(tabs)
     foot_extra = ""
     if used_fallback:
         foot_extra += " · <strong>重要度降级</strong>"
+    if merge_fallback:
+        foot_extra += " · <strong>合并降级</strong>"
     if type_fallback:
         foot_extra += " · <strong>分类降级</strong>"
     return f'''<!DOCTYPE html>
-<!-- cache-bust: links-blank-0013 -->
+<!-- cache-bust: news-bundles-0013 -->
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8" />
@@ -1426,7 +1615,7 @@ def render_page(tabs: dict[str, list[dict]], news_html: str, used_fallback: bool
 {repo_html}
 
     <footer class="foot">
-      <p>最新页始终等于当天 AI 周榜日快照。往期见 <a href="history.html" target="_blank" rel="noopener noreferrer">往期速览</a>。数据抓取时间：{TODAY.isoformat()}（Asia/Shanghai）。资讯按重要度排序；仓库分榜见 ADR 0012{foot_extra}。</p>
+      <p>最新页始终等于当天 AI 周榜日快照。往期见 <a href="history.html" target="_blank" rel="noopener noreferrer">往期速览</a>。数据抓取时间：{TODAY.isoformat()}（Asia/Shanghai）。资讯按资讯束重要度排序（ADR 0013）；仓库分榜见 ADR 0012{foot_extra}。</p>
     </footer>
   </div>
 </body>
@@ -1551,9 +1740,9 @@ def main() -> None:
 
     tabs = build_tab_lists(overall, pool)
 
-    news_items, window, gen_label, used_fallback = load_news()
+    news_items, window, gen_label, used_fallback, merge_fallback = load_news()
     news_html = render_news(news_items, window, gen_label, used_fallback)
-    page = render_page(tabs, news_html, used_fallback, type_fallback)
+    page = render_page(tabs, news_html, used_fallback, type_fallback, merge_fallback)
 
     month_dir = SITE / "archive" / TODAY.strftime("%Y-%m")
     month_dir.mkdir(parents=True, exist_ok=True)
@@ -1568,6 +1757,11 @@ def main() -> None:
     if src.exists() and not used_fallback:
         scores_path.write_text(src.read_text(encoding="utf-8"), encoding="utf-8")
 
+    bundles_src = Path("/tmp/gt-update/news-bundles.json")
+    bundles_dst = SITE / "scripts" / "news-bundles.json"
+    if bundles_src.exists() and not merge_fallback:
+        bundles_dst.write_text(bundles_src.read_text(encoding="utf-8"), encoding="utf-8")
+
     counts = {k: len(v) for k, v in tabs.items()}
     meta = {
         "date": TODAY.isoformat(),
@@ -1576,8 +1770,9 @@ def main() -> None:
         "news": len(news_items),
         "news_window": window,
         "used_fallback": used_fallback,
+        "merge_fallback": merge_fallback,
         "type_fallback": type_fallback,
-        "top_news": [{"title": it["title"], "score": it["score"], "date": it["date"]} for it in news_items],
+        "top_news": [{"title": it["title"], "score": it["score"], "date": it["date"], "sources": len(it.get("links") or [])} for it in news_items],
         "repo_names_overall": [r["full"] for r in tabs.get("总榜") or []],
         "tab_repos": {k: [r["full"] for r in v] for k, v in tabs.items()},
     }
