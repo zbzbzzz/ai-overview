@@ -1,6 +1,9 @@
-# GitHub Trending 周榜
+# GitHub Trending 周榜日快照
 
-每周自动更新的 [GitHub Trending](https://github.com/trending?since=weekly) 前 10 名汇总。
+每天早上抓取 [GitHub Trending 周榜](https://github.com/trending?since=weekly) Top 10，生成清新蓝白网页并归档。
 
-- 最新一期：[在线查看](https://zbzbzzz.github.io/github-trending/)
-- 历史存档见 [`archive/`](./archive/)
+- **最新页**：[zbzbzzz.github.io/github-trending](https://zbzbzzz.github.io/github-trending/)（始终等于当天日快照）
+- **历史周榜**：[history.html](./history.html)（按月浏览）
+- **月归档**：`archive/YYYY-MM/`
+
+说明见 [GLOSSARY.md](./GLOSSARY.md) 与 [docs/adr/](./docs/adr/)。

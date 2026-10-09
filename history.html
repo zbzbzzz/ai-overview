@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>历史周榜 · GitHub Trending</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --paper: #FAFBFC;
+      --ice: #E8F1F8;
+      --wash: #F0F6FB;
+      --navy: #0B3D6E;
+      --blue: #1A6BB5;
+      --ink: #1C2B3A;
+      --muted: #5A6F82;
+      --line: #C5D8EA;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--paper);
+      color: var(--ink);
+      font-family: "Manrope", system-ui, sans-serif;
+      font-size: 1rem;
+      line-height: 1.55;
+      min-height: 100vh;
+    }
+    a {
+      color: var(--navy);
+      text-decoration-thickness: 1px;
+      text-underline-offset: 0.18em;
+    }
+    a:hover { color: var(--blue); }
+    a:focus-visible {
+      outline: 2px solid var(--blue);
+      outline-offset: 3px;
+    }
+    .wrap {
+      max-width: 40rem;
+      margin: 0 auto;
+      padding: 2.5rem 1.25rem 4rem;
+    }
+    header.mast {
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 1.5rem;
+      margin-bottom: 1.75rem;
+    }
+    .date-line {
+      font-size: 0.8125rem;
+      font-weight: 600;
+      color: var(--blue);
+      margin-bottom: 0.5rem;
+    }
+    h1 {
+      font-family: "Source Serif 4", Georgia, serif;
+      font-weight: 600;
+      font-size: clamp(1.75rem, 4vw, 2.15rem);
+      color: var(--navy);
+      line-height: 1.2;
+    }
+    .lede {
+      margin-top: 0.75rem;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+    nav.bar {
+      margin-top: 1.15rem;
+      font-size: 0.875rem;
+      font-weight: 600;
+    }
+    nav.bar a {
+      text-decoration: none;
+      border-bottom: 1px solid var(--line);
+    }
+    nav.bar a:hover { border-bottom-color: var(--blue); }
+
+    .month {
+      background: var(--wash);
+      border: 1px solid var(--line);
+      border-radius: 4px;
+      padding: 1.15rem 1.25rem 1.25rem;
+      margin-bottom: 1rem;
+    }
+    .month h2 {
+      font-family: "Source Serif 4", Georgia, serif;
+      font-size: 1.15rem;
+      font-weight: 600;
+      color: var(--navy);
+      margin-bottom: 0.75rem;
+    }
+    .month ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.45rem;
+    }
+    .month li a {
+      display: inline-block;
+      font-weight: 600;
+      font-size: 0.95rem;
+      text-decoration: none;
+      border-bottom: 1px solid var(--ice);
+      padding-bottom: 0.05rem;
+    }
+    .month li a:hover { border-bottom-color: var(--blue); }
+    .month .day-label {
+      color: var(--muted);
+      font-weight: 500;
+      font-size: 0.8rem;
+      margin-left: 0.5rem;
+    }
+
+    footer.foot {
+      margin-top: 2.25rem;
+      padding-top: 1.25rem;
+      border-top: 1px solid var(--line);
+      font-size: 0.8125rem;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="mast">
+      <p class="date-line">按月浏览</p>
+      <h1>历史周榜</h1>
+      <p class="lede">每天日快照按自然月归档。点日期打开当天页面。</p>
+      <nav class="bar"><a href="index.html">回最新页</a></nav>
+    </header>
+
+    <section class="month" aria-labelledby="m-2026-10">
+      <h2 id="m-2026-10">2026 年 10 月</h2>
+      <ul>
+        <li>
+          <a href="archive/2026-10/github-trending-weekly-2026-10-09.html">2026-10-09</a>
+          <span class="day-label">周四 · 周榜日快照</span>
+        </li>
+      </ul>
+    </section>
+
+    <footer class="foot">
+      <p>新快照会自动出现在对应月份下。文件路径：<code>archive/YYYY-MM/</code>。</p>
+    </footer>
+  </div>
+</body>
+</html>
