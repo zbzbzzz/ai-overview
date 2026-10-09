@@ -829,8 +829,8 @@ def load_news() -> tuple[list[dict], str, str, bool]:
 
 
 def render_news(items: list[dict], window: str, gen_label: str, used_fallback: bool) -> str:
-    """Render Top N news; default show first 5, button expands to all (max 10)."""
-    DEFAULT_VISIBLE = 5
+    """Render Top N news; default show 重点 (top 3), button expands to all (max 10)."""
+    DEFAULT_VISIBLE = 3
     cards = []
     for i, it in enumerate(items):
         badge = ""
@@ -869,7 +869,11 @@ def render_news(items: list[dict], window: str, gen_label: str, used_fallback: b
         }});
       }})();
       </script>'''
-    meta_extra = f" · 默认 {min(DEFAULT_VISIBLE, n)} 条"
+    shown = min(DEFAULT_VISIBLE, n)
+    if DEFAULT_VISIBLE == 3 and n >= 3:
+        meta_extra = f" · 默认 {shown} 条（重点）"
+    else:
+        meta_extra = f" · 默认 {shown} 条"
     if n > DEFAULT_VISIBLE:
         meta_extra += f" · 可展开至 {n} 条"
     else:
@@ -928,7 +932,7 @@ def render_page(repos: list[dict], news_html: str, used_fallback: bool) -> str:
     cards = "\n\n".join(render_repo_card(i + 1, r, max_week) for i, r in enumerate(repos[:10]))
     foot_extra = " · <strong>重要度降级</strong>" if used_fallback else ""
     return f'''<!DOCTYPE html>
-<!-- cache-bust: news-expand-5 -->
+<!-- cache-bust: news-expand-3 -->
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8" />
