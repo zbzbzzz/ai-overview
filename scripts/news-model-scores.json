@@ -41,6 +41,24 @@
   "actionable": 86,
   "breadth": 75
  },
+ "腾讯云开源 TeamAI：跨 Agent 共享 Skill，成本降约 76%": {
+  "score": 82.3,
+  "industry": 82,
+  "actionable": 88,
+  "breadth": 70
+ },
+ "Cloudflare 发布开放权重决策模型 Clef-omni，支持音视频原生输入": {
+  "score": 80.9,
+  "industry": 80,
+  "actionable": 86,
+  "breadth": 72
+ },
+ "Anthropic 披露 Claude 智能体评测中的非预期行为，将切断内部评测实时联网": {
+  "score": 80.8,
+  "industry": 86,
+  "actionable": 72,
+  "breadth": 84
+ },
  "DeepSeek-V4.1-Flash 优化披露：Agent 场景吞吐可提升约 5 倍": {
   "score": 80.3,
   "industry": 78,
@@ -58,6 +76,12 @@
   "industry": 78,
   "actionable": 82,
   "breadth": 75
+ },
+ "Claude 管理智能体上线动态工作流：单次最高可并行调度 1000 个 Agent": {
+  "score": 78.1,
+  "industry": 80,
+  "actionable": 78,
+  "breadth": 72
  },
  "NVIDIA 与 Microsoft 推出 RTX Spark 平台，推动 Windows PC 上的 AI Agent": {
   "score": 77.95,
@@ -95,6 +119,12 @@
   "actionable": 82,
   "breadth": 65
  },
+ "生数科技发布视频生成模型 Vidu Q4 Preview，支持 4K 输出与多图多音频参考": {
+  "score": 73.05,
+  "industry": 72,
+  "actionable": 78,
+  "breadth": 65
+ },
  "Zenity 披露 AgentCore 漏洞链：单个公开 Agent 或可控制同账户区域全部 Agent": {
   "score": 73.0,
   "industry": 70,
@@ -125,11 +155,29 @@
   "actionable": 60,
   "breadth": 80
  },
+ "谷歌测试新一代 Gemini 4 Carbon 版本，代码能力对标顶尖竞品": {
+  "score": 70.95,
+  "industry": 80,
+  "actionable": 55,
+  "breadth": 78
+ },
  "JetBrains 发布编程模型 Mellum 2.1，高负载吞吐超竞品约两倍": {
   "score": 70.7,
   "industry": 68,
   "actionable": 80,
   "breadth": 58
+ },
+ "白宫发布 AI 强制令：发生安全事件须立即上报并补救": {
+  "score": 69.5,
+  "industry": 78,
+  "actionable": 55,
+  "breadth": 75
+ },
+ "State of AI Report 2026 发布：AI 加速 AI、千亿收入、电力瓶颈与安全": {
+  "score": 69.4,
+  "industry": 72,
+  "actionable": 62,
+  "breadth": 78
  },
  "OpenAI 年化收入约 500 亿美元并寻求新一轮大额融资": {
   "score": 68.5,
@@ -143,47 +191,29 @@
   "actionable": 55,
   "breadth": 70
  },
+ "Prime Intellect 用 Rust 重写 Prime Agent，2000 多个智能体自主完成端到端迁移": {
+  "score": 66.9,
+  "industry": 66,
+  "actionable": 72,
+  "breadth": 58
+ },
  "DeepSeek 据报道接近完成至少 800 亿元融资": {
   "score": 64.5,
   "industry": 82,
   "actionable": 35,
   "breadth": 75
  },
- "Anthropic 披露 Claude 智能体评测中的非预期行为，将切断内部评测实时联网": {
-  "score": 80.8,
-  "industry": 86,
-  "actionable": 72,
-  "breadth": 84
- },
- "生数科技发布视频生成模型 Vidu Q4 Preview，支持 4K 输出与多图多音频参考": {
-  "score": 73.05,
-  "industry": 72,
-  "actionable": 78,
-  "breadth": 65
- },
- "谷歌测试新一代 Gemini 4 Carbon 版本，代码能力对标顶尖竞品": {
-  "score": 70.95,
-  "industry": 80,
+ "微软决策模型曝光：36 项测试夺冠，直逼 GPT-6 Sol": {
+  "score": 64.15,
+  "industry": 70,
   "actionable": 55,
-  "breadth": 78
+  "breadth": 66
  },
- "白宫发布 AI 强制令：发生安全事件须立即上报并补救": {
-  "score": 69.5,
-  "industry": 78,
-  "actionable": 55,
-  "breadth": 75
- },
- "TypeSafe AI 完成 8.7 亿美元 A 轮融资，非文本决策模型 Jev 估值达 75 亿美元": {
-  "score": 60.8,
-  "industry": 68,
-  "actionable": 50,
-  "breadth": 62
- },
- "Prime Intellect 用 Rust 重写 Prime Agent，2000 多个智能体自主完成端到端迁移": {
-  "score": 66.9,
-  "industry": 66,
+ "阿里 Qoder 上线 Fast 模式：响应约 3 秒且消耗大降": {
+  "score": 63.45,
+  "industry": 60,
   "actionable": 72,
-  "breadth": 58
+  "breadth": 55
  },
  "Grok Bot 新增专属邮箱，AI 助手可独立收发邮件": {
   "score": 62.7,
@@ -197,17 +227,17 @@
   "actionable": 70,
   "breadth": 55
  },
+ "TypeSafe AI 完成 8.7 亿美元 A 轮融资，非文本决策模型 Jev 估值达 75 亿美元": {
+  "score": 60.8,
+  "industry": 68,
+  "actionable": 50,
+  "breadth": 62
+ },
  "Redwood Research 发布论文：实证检验蒸馏定罪（DFI）与蒸馏提能（DFC）": {
   "score": 55.75,
   "industry": 58,
   "actionable": 55,
   "breadth": 50
- },
- "OpenAI 研究负责人回应解雇三名员工争议": {
-  "score": 50.25,
-  "industry": 60,
-  "actionable": 30,
-  "breadth": 65
  },
  "有道龙虾发布迁移助手，承接腾讯 QClaw 关停用户": {
   "score": 53.5,
@@ -215,40 +245,10 @@
   "actionable": 58,
   "breadth": 48
  },
- "Claude 管理智能体上线动态工作流：单次最高可并行调度 1000 个 Agent": {
-  "score": 78.1,
-  "industry": 80,
-  "actionable": 78,
-  "breadth": 72
- },
- "Cloudflare 发布开放权重决策模型 Clef-omni，支持音视频原生输入": {
-  "score": 72.1,
-  "industry": 74,
-  "actionable": 72,
-  "breadth": 66
- },
- "State of AI Report 2026 发布：AI 加速 AI、千亿收入、电力瓶颈与安全": {
-  "score": 69.4,
-  "industry": 72,
-  "actionable": 62,
-  "breadth": 78
- },
- "腾讯云开源 TeamAI：适配 16 种 Agent，团队 Skill 走 Git 评审分发": {
-  "score": 68.6,
-  "industry": 66,
-  "actionable": 76,
-  "breadth": 60
- },
- "微软决策模型曝光：36 项测试夺冠，直逼 GPT-6 Sol": {
-  "score": 64.15,
-  "industry": 70,
-  "actionable": 55,
-  "breadth": 66
- },
- "阿里 Qoder 上线 Fast 模式：响应约 3 秒且消耗大降": {
-  "score": 63.45,
+ "OpenAI 研究负责人回应解雇三名员工争议": {
+  "score": 50.25,
   "industry": 60,
-  "actionable": 72,
-  "breadth": 55
+  "actionable": 30,
+  "breadth": 65
  }
 }

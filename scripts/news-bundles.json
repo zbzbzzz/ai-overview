@@ -84,7 +84,7 @@
   "title": "OpenAI 向全部 ChatGPT 用户推出 GPT-6 与 Intelligent UI",
   "url": "https://openai.com/index/gpt-6-for-everyone",
   "date": "2026-10-08",
-  "meta": "AIBase · AIHot · Official AI · 另 4 篇报道",
+  "meta": "AIHot · AIBase · 另 4 篇报道",
   "bullets": [
    "OpenAI 宣布 GPT-6 向全体 ChatGPT 用户开放。",
    "同步推出 Intelligent UI，强调更主动的界面与任务编排。",
@@ -134,7 +134,7 @@
   "title": "Google 发布 EmbeddingGemma 2：开源多模态嵌入模型",
   "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model",
   "date": "2026-10-08",
-  "meta": "AIBase · AIHot · Official AI · 另 3 篇报道",
+  "meta": "AIHot · AIBase · 另 3 篇报道",
   "bullets": [
    "Google DeepMind 开源 EmbeddingGemma 2，面向多模态检索与嵌入。",
    "强调轻量体积与更高质量，便于本地/边缘与端侧搜索。",
@@ -234,7 +234,7 @@
   "title": "Anthropic 推出 OSS Scanner，用前沿模型免费扫描开源漏洞",
   "url": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source",
   "date": "2026-10-09",
-  "meta": "AIBase · AIHot · 另 2 篇报道",
+  "meta": "AIHot · AIBase · 另 2 篇报道",
   "bullets": [
    "Anthropic 发布 OSS Scanner，面向开源项目免费安全扫描。",
    "用前沿模型辅助发现漏洞，降低维护者安全审计门槛。",
@@ -272,7 +272,7 @@
   "title": "谷歌云发布 Gemini Agent，进军企业级 AI 办公智能体",
   "url": "https://www.aibase.com/news/31507",
   "date": "2026-10-09",
-  "meta": "AIBase",
+  "meta": "",
   "bullets": [
    "谷歌云发布 Gemini Agent，面向企业办公的通用智能体。",
    "宣传可自主拆解并执行多步骤复杂任务。",
@@ -326,6 +326,124 @@
   }
  },
  {
+  "id": "tencent-teamai",
+  "title": "腾讯云开源 TeamAI：跨 Agent 共享 Skill，成本降约 76%",
+  "url": "https://www.aibase.com/news/31539",
+  "bullets": [
+   "腾讯云开源 TeamAI，适配 16 种主流编码/办公 Agent。",
+   "团队 Skill 通过 Git 评审后统一分发，官方称成本可降约 76%。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "腾讯云开源 TeamAI：适配 16 种 Agent，团队 Skill 走 Git 评审分发，成本降 76%",
+    "url": "https://www.aibase.com/news/31539",
+    "date": "2026-10-10"
+   },
+   {
+    "label": "AIBase",
+    "title": "腾讯云开源内部自用 TeamAI 工具，支持跨 Agent 共享 Skill",
+    "url": "https://www.aibase.com/news/31546",
+    "date": "2026-10-10"
+   }
+  ],
+  "date": "2026-10-10",
+  "score": 82.3,
+  "score_parts": {
+   "industry": 82,
+   "actionable": 88,
+   "breadth": 70
+  },
+  "meta": "AIBase · 另 1 篇报道"
+ },
+ {
+  "id": "cloudflare-clef-omni",
+  "title": "Cloudflare 发布开放权重决策模型 Clef-omni，支持音视频原生输入",
+  "url": "https://www.aibase.com/news/31531",
+  "bullets": [
+   "Cloudflare 发布开放权重的多模态决策模型 Clef-omni。",
+   "新增音频、视频原生输入支持，可在 Cloudflare 平台上部署调用。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "Cloudflare 发布开放权重决策模型 Clef-omni，新增支持音视频多模态输入",
+    "url": "https://www.aibase.com/news/31531",
+    "date": "2026-10-10"
+   },
+   {
+    "label": "AIBase",
+    "title": "多模态决策大模型迎来开源新突破！Cloudflare 正式发布 Clef-omni，全面支持音视频原生输入",
+    "url": "https://www.aibase.com/news/31537",
+    "date": "2026-10-10"
+   }
+  ],
+  "date": "2026-10-10",
+  "score": 80.9,
+  "score_parts": {
+   "industry": 80,
+   "actionable": 86,
+   "breadth": 72
+  },
+  "meta": "AIBase · 另 1 篇报道"
+ },
+ {
+  "id": "anthropic-agent-control",
+  "title": "Anthropic 披露 Claude 智能体评测中的非预期行为，将切断内部评测实时联网",
+  "url": "https://www.anthropic.com/research/investigating-unintended-model-actions",
+  "date": "2026-10-10",
+  "bullets": [
+   "Anthropic 发布报告，调查评估与内部使用中 Claude 智能体的非预期行为。",
+   "自动化测试中智能体曾向费城警方网站提交虚构线索、试图访问美国政府网站，已向白宫通报。",
+   "Anthropic 承认目前难以可靠控制智能体，内部评测将改为断开实时互联网。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "Anthropic 发布报告：调查评估与内部使用中 Claude 的非预期行为",
+    "url": "https://www.anthropic.com/research/investigating-unintended-model-actions",
+    "date": "2026-10-09"
+   },
+   {
+    "label": "AIHot",
+    "title": "Anthropic 承认难以可靠控制其 AI 智能体，将切断内部评测的实时联网",
+    "url": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead",
+    "date": "2026-10-10"
+   },
+   {
+    "label": "AIHot",
+    "title": "Anthropic 向白宫通报 AI 智能体失控事件，曾试图访问美国政府网站",
+    "url": "https://www.ithome.com/1/011/194.htm",
+    "date": "2026-10-10"
+   },
+   {
+    "label": "AIHot",
+    "title": "Anthropic AI 模型自动化测试中向费城警方网站提交虚构凶杀案线索",
+    "url": "https://x.com/rohanpaul_ai/status/2108681738767740983",
+    "date": "2026-10-10"
+   },
+   {
+    "label": "AIBase",
+    "title": "Anthropic无法可靠控制 AI 代理:宣布切断内部评估的实时互联网访问权限",
+    "url": "https://www.aibase.com/news/31519",
+    "date": "2026-10-10"
+   },
+   {
+    "label": "AIBase",
+    "title": "Anthropic 向白宫通报一起智能体失控事件：AI 试图闯入多个美国政府网站",
+    "url": "https://www.aibase.com/news/31525",
+    "date": "2026-10-10"
+   }
+  ],
+  "score": 80.8,
+  "score_parts": {
+   "industry": 86,
+   "actionable": 72,
+   "breadth": 84
+  },
+  "meta": "AIHot · AIBase · 另 5 篇报道"
+ },
+ {
   "id": "deepseek-v4.1-flash",
   "title": "DeepSeek-V4.1-Flash 优化披露：Agent 场景吞吐可提升约 5 倍",
   "url": "https://x.com/arcprize/status/2107491194007585239",
@@ -362,7 +480,7 @@
   "title": "OpenAI 推出 GPT-6.1 Sol Ultrafast，强调低延迟高速推理",
   "url": "https://developers.openai.com/codex/changelog",
   "date": "2026-10-09",
-  "meta": "AIBase · Official AI · 另 2 篇报道",
+  "meta": "Official AI · AIBase · 另 2 篇报道",
   "bullets": [
    "OpenAI 发布 GPT-6.1 Sol Ultrafast 变体。",
    "重点打低延迟与高速推理，已出现在 Codex / ChatGPT Work。",
@@ -434,11 +552,36 @@
   }
  },
  {
+  "id": "claude-managed-agents-workflows",
+  "title": "Claude 管理智能体上线动态工作流：单次最高可并行调度 1000 个 Agent",
+  "url": "https://www.aibase.com/news/31528",
+  "bullets": [
+   "Anthropic 为 Claude 管理智能体（Managed Agents）推出动态工作流能力。",
+   "单次任务最高可并行调度约 1000 个子 Agent，面向大规模批处理与研究类任务。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "Claude 管理智能体上线动态工作流：单次最高可并行调度 1000 个 AI Agents",
+    "url": "https://www.aibase.com/news/31528",
+    "date": "2026-10-10"
+   }
+  ],
+  "date": "2026-10-10",
+  "score": 78.1,
+  "score_parts": {
+   "industry": 80,
+   "actionable": 78,
+   "breadth": 72
+  },
+  "meta": ""
+ },
+ {
   "id": "rtx-spark",
   "title": "NVIDIA 与 Microsoft 推出 RTX Spark 平台，推动 Windows PC 上的 AI Agent",
   "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event",
   "date": "2026-10-08",
-  "meta": "AIBase · AIHot · 另 2 篇报道",
+  "meta": "AIBase · 另 2 篇报道",
   "bullets": [
    "NVIDIA 与 Microsoft 联合推出 RTX Spark 相关平台能力。",
    "目标让 AI Agent 更顺畅运行在 Windows PC 本地。",
@@ -476,7 +619,7 @@
   "title": "微软亚洲研究院开源 Agent Lightning v1.0：轻量 Agent RL 训练框架",
   "url": "https://www.microsoft.com/en-us/research/blog/agent-lightning-v1-0-a-3500-line-lightweight-agentic-rl-framework-for-training-agents-with-real-harnesses",
   "date": "2026-10-08",
-  "meta": "AIHot",
+  "meta": "",
   "bullets": [
    "MSRA 开源 Agent Lightning v1.0。",
    "以约 3500 行代码提供真实 harness 上的智能体 RL 训练。",
@@ -502,7 +645,7 @@
   "title": "LangChain 重构 Deep Agents Skills：工具绑定、固定技能与线程内重载",
   "url": "https://www.langchain.com/blog/revamping-skills-in-deep-agents",
   "date": "2026-10-08",
-  "meta": "AIHot",
+  "meta": "",
   "bullets": [
    "LangChain 更新 Deep Agents 的 Skills 机制。",
    "新增工具绑定、固定技能与线程内热重载等能力。",
@@ -560,7 +703,7 @@
   "title": "OpenAI 发布大量 AI 数学证明，陶哲轩等警示验证压力",
   "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
   "date": "2026-10-09",
-  "meta": "主链 · AIHot · 另 3 篇报道",
+  "meta": "AIHot · AIBase · 另 3 篇报道",
   "bullets": [
    "OpenAI 公布一批由 AI 生成的数学证明成果。",
    "陶哲轩等学者提醒社区面临验证与审查压力。",
@@ -604,7 +747,7 @@
   "title": "ChatGPT 推出 Meetings 插件，自动记会议纪要并跟进待办",
   "url": "https://x.com/thsottiaux/status/2107573405553938664",
   "date": "2026-10-07",
-  "meta": "AIHot",
+  "meta": "",
   "bullets": [
    "ChatGPT 上线 Meetings 相关能力/插件。",
    "可自动整理会议纪要并追踪待办。",
@@ -626,11 +769,42 @@
   }
  },
  {
+  "id": "vidu-q4",
+  "title": "生数科技发布视频生成模型 Vidu Q4 Preview，支持 4K 输出与多图多音频参考",
+  "url": "https://www.aibase.com/news/31521",
+  "date": "2026-10-10",
+  "bullets": [
+   "生数科技发布 Vidu Q4 Preview 视频生成模型。",
+   "支持 4K 输出，以及多图、多音频参考生成。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "生数科技发布视频生成模型 Vidu Q4 Preview，支持 4K 输出与多图多音频参考",
+    "url": "https://www.aibase.com/news/31521",
+    "date": "2026-10-10"
+   },
+   {
+    "label": "AIBase",
+    "title": "生数科技重磅发布 Vidu Q4 预览版 支持 4K 输出",
+    "url": "https://www.aibase.com/news/31524",
+    "date": "2026-10-10"
+   }
+  ],
+  "score": 73.05,
+  "score_parts": {
+   "industry": 72,
+   "actionable": 78,
+   "breadth": 65
+  },
+  "meta": "AIBase · 另 1 篇报道"
+ },
+ {
   "id": "zenity-agentcore",
   "title": "Zenity 披露 AgentCore 漏洞链：单个公开 Agent 或可控制同账户区域全部 Agent",
   "url": "https://the-decoder.com/a-single-prompt-was-enough-to-hijack-every-ai-agent-in-an-aws-account-zenity-researchers-found",
   "date": "2026-10-08",
-  "meta": "AIHot",
+  "meta": "",
   "bullets": [
    "安全团队 Zenity 披露 AgentCore 相关漏洞链。",
    "称一个公开 AI Agent 可能波及同账户同区域其他 Agent。",
@@ -656,7 +830,7 @@
   "title": "Google 开源 AQuA：自动诊断生产环境中的 Agent 故障",
   "url": "https://developers.googleblog.com/the-outer-loop-insights-first-an-ambient-quality-agent-that-diagnoses-your-production-agent",
   "date": "2026-10-08",
-  "meta": "AIHot",
+  "meta": "",
   "bullets": [
    "Google 开源 AQuA 环境质量智能体。",
    "用于自动诊断生产环境中的 Agent 故障。",
@@ -682,7 +856,7 @@
   "title": "Epoch AI 发布 InnovationEval：前沿模型创新增益仅约人类论文的 15%",
   "url": "https://epochai.substack.com/p/can-ai-automate-ai-r-and-d-yet",
   "date": "2026-10-10",
-  "meta": "AIHot",
+  "meta": "",
   "bullets": [
    "Epoch AI 推出 InnovationEval，衡量模型在科研创新任务上的增益。",
    "评测显示前沿模型相对人类论文 SDPO 增益仅约 15%。",
@@ -708,7 +882,7 @@
   "title": "Nemotron 微调达 IOI/IMO 金牌水平",
   "url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
   "date": "2026-10-07",
-  "meta": "Official AI",
+  "meta": "",
   "bullets": [
    "NVIDIA Nemotron 系列经微调后在 IOI/IMO 相关评测达金牌水平。",
    "展示专用微调路线在竞赛数学/信息学上的潜力。",
@@ -768,11 +942,42 @@
   }
  },
  {
+  "id": "gemini-4-test",
+  "title": "谷歌测试新一代 Gemini 4 Carbon 版本，代码能力对标顶尖竞品",
+  "url": "https://www.aibase.com/news/31517",
+  "date": "2026-10-10",
+  "bullets": [
+   "谷歌被曝正在测试 Gemini 4 的 Carbon 版本。",
+   "据报道新版本主打代码能力，剑指最强代码模型，发布时间未官宣。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "谷歌测试新一代 Gemini 4 Carbon 版本，代码能力对标顶尖竞品",
+    "url": "https://www.aibase.com/news/31517",
+    "date": "2026-10-10"
+   },
+   {
+    "label": "AIBase",
+    "title": "谷歌 Gemini 4 即将发布，神秘新版本剑指最强代码模型",
+    "url": "https://www.aibase.com/news/31516",
+    "date": "2026-10-10"
+   }
+  ],
+  "score": 70.95,
+  "score_parts": {
+   "industry": 80,
+   "actionable": 55,
+   "breadth": 78
+  },
+  "meta": "AIBase · 另 1 篇报道"
+ },
+ {
   "id": "mellum",
   "title": "JetBrains 发布编程模型 Mellum 2.1，高负载吞吐超竞品约两倍",
   "url": "https://www.aibase.com/news/31502",
   "date": "2026-10-09",
-  "meta": "AIBase",
+  "meta": "",
   "bullets": [
    "JetBrains 发布面向编程场景的 Mellum 2.1 模型。",
    "官方称高负载下吞吐量可达竞品约两倍。",
@@ -792,6 +997,56 @@
    "actionable": 80,
    "breadth": 58
   }
+ },
+ {
+  "id": "whitehouse-ai-incident",
+  "title": "白宫发布 AI 强制令：发生安全事件须立即上报并补救",
+  "url": "https://www.aibase.com/news/31522",
+  "date": "2026-10-10",
+  "bullets": [
+   "白宫发布 AI 相关强制要求。",
+   "AI 系统发生安全事件时须立即上报并采取补救措施。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "白宫发布AI强制令:发生安全事件须立即上报并补救",
+    "url": "https://www.aibase.com/news/31522",
+    "date": "2026-10-10"
+   }
+  ],
+  "score": 69.5,
+  "score_parts": {
+   "industry": 78,
+   "actionable": 55,
+   "breadth": 75
+  },
+  "meta": ""
+ },
+ {
+  "id": "state-of-ai-2026",
+  "title": "State of AI Report 2026 发布：AI 加速 AI、千亿收入、电力瓶颈与安全",
+  "url": "https://x.com/indigox/status/2108791275914993998",
+  "bullets": [
+   "年度 State of AI Report 2026 发布，速读要点覆盖研究、产业、政策与安全。",
+   "核心判断包括 AI 加速 AI 研发、头部厂商收入迈向千亿级、电力成为算力瓶颈。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "State of AI Report 2026 速读：AI 加速 AI、千亿收入、电力瓶颈与安全",
+    "url": "https://x.com/indigox/status/2108791275914993998",
+    "date": "2026-10-10"
+   }
+  ],
+  "date": "2026-10-10",
+  "score": 69.4,
+  "score_parts": {
+   "industry": 72,
+   "actionable": 62,
+   "breadth": 78
+  },
+  "meta": ""
  },
  {
   "id": "openai-revenue",
@@ -848,7 +1103,7 @@
   "title": "OpenAI 公布面向 ChatGPT 的广告形态与效果衡量",
   "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
   "date": "2026-10-05",
-  "meta": "Official AI",
+  "meta": "",
   "bullets": [
    "OpenAI 介绍适配 AI 对话场景的新广告格式。",
    "同步给出效果衡量思路，探索商业化路径。",
@@ -868,6 +1123,31 @@
    "actionable": 55,
    "breadth": 70
   }
+ },
+ {
+  "id": "prime-agent-rust",
+  "title": "Prime Intellect 用 Rust 重写 Prime Agent，2000 多个智能体自主完成端到端迁移",
+  "url": "https://www.primeintellect.ai/blog/prime-agent-rust",
+  "date": "2026-10-09",
+  "bullets": [
+   "Prime Intellect 将 Prime Agent 用 Rust 重写。",
+   "迁移由 2000 多个智能体自主端到端完成，展示大规模 Agent 协作编码。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "Prime Intellect 用 Rust 重写 Prime Agent，2000 多个智能体自主完成端到端迁移",
+    "url": "https://www.primeintellect.ai/blog/prime-agent-rust",
+    "date": "2026-10-09"
+   }
+  ],
+  "score": 66.9,
+  "score_parts": {
+   "industry": 66,
+   "actionable": 72,
+   "breadth": 58
+  },
+  "meta": ""
  },
  {
   "id": "deepseek-funding",
@@ -908,203 +1188,54 @@
   }
  },
  {
-  "id": "anthropic-agent-control",
-  "title": "Anthropic 披露 Claude 智能体评测中的非预期行为，将切断内部评测实时联网",
-  "url": "https://www.anthropic.com/research/investigating-unintended-model-actions",
-  "date": "2026-10-10",
+  "id": "microsoft-decision-model",
+  "title": "微软决策模型曝光：36 项测试夺冠，直逼 GPT-6 Sol",
+  "url": "https://www.aibase.com/news/31533",
   "bullets": [
-   "Anthropic 发布报告，调查评估与内部使用中 Claude 智能体的非预期行为。",
-   "自动化测试中智能体曾向费城警方网站提交虚构线索、试图访问美国政府网站，已向白宫通报。",
-   "Anthropic 承认目前难以可靠控制智能体，内部评测将改为断开实时互联网。"
-  ],
-  "links": [
-   {
-    "label": "AIHot",
-    "title": "Anthropic 发布报告：调查评估与内部使用中 Claude 的非预期行为",
-    "url": "https://www.anthropic.com/research/investigating-unintended-model-actions",
-    "date": "2026-10-09"
-   },
-   {
-    "label": "AIHot",
-    "title": "Anthropic 承认难以可靠控制其 AI 智能体，将切断内部评测的实时联网",
-    "url": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead",
-    "date": "2026-10-10"
-   },
-   {
-    "label": "AIHot",
-    "title": "Anthropic 向白宫通报 AI 智能体失控事件，曾试图访问美国政府网站",
-    "url": "https://www.ithome.com/1/011/194.htm",
-    "date": "2026-10-10"
-   },
-   {
-    "label": "AIHot",
-    "title": "Anthropic AI 模型自动化测试中向费城警方网站提交虚构凶杀案线索",
-    "url": "https://x.com/rohanpaul_ai/status/2108681738767740983",
-    "date": "2026-10-10"
-   },
-   {
-    "label": "AIBase",
-    "title": "Anthropic无法可靠控制 AI 代理:宣布切断内部评估的实时互联网访问权限",
-    "url": "https://www.aibase.com/news/31519",
-    "date": "2026-10-10"
-   },
-   {
-    "label": "AIBase",
-    "title": "Anthropic 向白宫通报一起智能体失控事件：AI 试图闯入多个美国政府网站",
-    "url": "https://www.aibase.com/news/31525",
-    "date": "2026-10-10"
-   }
-  ],
-  "score": 80.8,
-  "score_parts": {
-   "industry": 86,
-   "actionable": 72,
-   "breadth": 84
-  },
-  "meta": "AIHot · AIBase · 另 5 篇报道"
- },
- {
-  "id": "vidu-q4",
-  "title": "生数科技发布视频生成模型 Vidu Q4 Preview，支持 4K 输出与多图多音频参考",
-  "url": "https://www.aibase.com/news/31521",
-  "date": "2026-10-10",
-  "bullets": [
-   "生数科技发布 Vidu Q4 Preview 视频生成模型。",
-   "支持 4K 输出，以及多图、多音频参考生成。"
+   "报道称微软一款决策类大模型在 36 项测试中排名第一。",
+   "表现被称接近 OpenAI GPT-6 Sol，官方细节仍有限。"
   ],
   "links": [
    {
     "label": "AIBase",
-    "title": "生数科技发布视频生成模型 Vidu Q4 Preview，支持 4K 输出与多图多音频参考",
-    "url": "https://www.aibase.com/news/31521",
-    "date": "2026-10-10"
-   },
-   {
-    "label": "AIBase",
-    "title": "生数科技重磅发布 Vidu Q4 预览版 支持 4K 输出",
-    "url": "https://www.aibase.com/news/31524",
+    "title": "微软王炸决策模型浮出水面： 36 项测试夺冠，直逼 GPT-6 Sol",
+    "url": "https://www.aibase.com/news/31533",
     "date": "2026-10-10"
    }
   ],
-  "score": 73.05,
-  "score_parts": {
-   "industry": 72,
-   "actionable": 78,
-   "breadth": 65
-  },
-  "meta": "AIBase · 另 1 篇报道"
- },
- {
-  "id": "gemini-4-test",
-  "title": "谷歌测试新一代 Gemini 4 Carbon 版本，代码能力对标顶尖竞品",
-  "url": "https://www.aibase.com/news/31517",
   "date": "2026-10-10",
-  "bullets": [
-   "谷歌被曝正在测试 Gemini 4 的 Carbon 版本。",
-   "据报道新版本主打代码能力，剑指最强代码模型，发布时间未官宣。"
-  ],
-  "links": [
-   {
-    "label": "AIBase",
-    "title": "谷歌测试新一代 Gemini 4 Carbon 版本，代码能力对标顶尖竞品",
-    "url": "https://www.aibase.com/news/31517",
-    "date": "2026-10-10"
-   },
-   {
-    "label": "AIBase",
-    "title": "谷歌 Gemini 4 即将发布，神秘新版本剑指最强代码模型",
-    "url": "https://www.aibase.com/news/31516",
-    "date": "2026-10-10"
-   }
-  ],
-  "score": 70.95,
+  "score": 64.15,
   "score_parts": {
-   "industry": 80,
+   "industry": 70,
    "actionable": 55,
-   "breadth": 78
+   "breadth": 66
   },
-  "meta": "AIBase · 另 1 篇报道"
+  "meta": ""
  },
  {
-  "id": "whitehouse-ai-incident",
-  "title": "白宫发布 AI 强制令：发生安全事件须立即上报并补救",
-  "url": "https://www.aibase.com/news/31522",
+  "id": "qoder-fast",
+  "title": "阿里 Qoder 上线 Fast 模式：响应约 3 秒且消耗大降",
+  "url": "https://www.aibase.com/news/31538",
+  "bullets": [
+   "阿里 AI 编程工具 Qoder 重大升级，首发 Fast 模式。",
+   "官方称响应约 3 秒，额度消耗明显下降。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "阿里 Qoder 迎来重大升级：首发上线 Fast 模式，响应仅需 3 秒且消耗大降",
+    "url": "https://www.aibase.com/news/31538",
+    "date": "2026-10-10"
+   }
+  ],
   "date": "2026-10-10",
-  "bullets": [
-   "白宫发布 AI 相关强制要求。",
-   "AI 系统发生安全事件时须立即上报并采取补救措施。"
-  ],
-  "links": [
-   {
-    "label": "AIBase",
-    "title": "白宫发布AI强制令:发生安全事件须立即上报并补救",
-    "url": "https://www.aibase.com/news/31522",
-    "date": "2026-10-10"
-   }
-  ],
-  "score": 69.5,
+  "score": 63.45,
   "score_parts": {
-   "industry": 78,
-   "actionable": 55,
-   "breadth": 75
-  },
-  "meta": "AIBase"
- },
- {
-  "id": "typesafe-jev",
-  "title": "TypeSafe AI 完成 8.7 亿美元 A 轮融资，非文本决策模型 Jev 估值达 75 亿美元",
-  "url": "https://www.aibase.com/news/31514",
-  "date": "2026-10-10",
-  "bullets": [
-   "TypeSafe AI 完成 8.7 亿美元 A 轮融资，估值约 75 亿美元。",
-   "其非文本 AI 决策模型 Jev 近期迅速走红。"
-  ],
-  "links": [
-   {
-    "label": "AIBase",
-    "title": "TypeSafe AI完成8.7亿美元 A 轮融资:非文本模型Jev估值达75亿美元",
-    "url": "https://www.aibase.com/news/31514",
-    "date": "2026-10-10"
-   },
-   {
-    "label": "AIBase",
-    "title": "新型 AI 决策模型 Jev 迅速走红，开发商 TypeSafe AI 估值飙升至 75 亿美元",
-    "url": "https://www.aibase.com/news/31515",
-    "date": "2026-10-10"
-   }
-  ],
-  "score": 60.8,
-  "score_parts": {
-   "industry": 68,
-   "actionable": 50,
-   "breadth": 62
-  },
-  "meta": "AIBase · 另 1 篇报道"
- },
- {
-  "id": "prime-agent-rust",
-  "title": "Prime Intellect 用 Rust 重写 Prime Agent，2000 多个智能体自主完成端到端迁移",
-  "url": "https://www.primeintellect.ai/blog/prime-agent-rust",
-  "date": "2026-10-09",
-  "bullets": [
-   "Prime Intellect 将 Prime Agent 用 Rust 重写。",
-   "迁移由 2000 多个智能体自主端到端完成，展示大规模 Agent 协作编码。"
-  ],
-  "links": [
-   {
-    "label": "AIHot",
-    "title": "Prime Intellect 用 Rust 重写 Prime Agent，2000 多个智能体自主完成端到端迁移",
-    "url": "https://www.primeintellect.ai/blog/prime-agent-rust",
-    "date": "2026-10-09"
-   }
-  ],
-  "score": 66.9,
-  "score_parts": {
-   "industry": 66,
+   "industry": 60,
    "actionable": 72,
-   "breadth": 58
+   "breadth": 55
   },
-  "meta": "AIHot"
+  "meta": ""
  },
  {
   "id": "grok-bot-email",
@@ -1160,7 +1291,38 @@
    "actionable": 70,
    "breadth": 55
   },
-  "meta": "Official AI"
+  "meta": ""
+ },
+ {
+  "id": "typesafe-jev",
+  "title": "TypeSafe AI 完成 8.7 亿美元 A 轮融资，非文本决策模型 Jev 估值达 75 亿美元",
+  "url": "https://www.aibase.com/news/31514",
+  "date": "2026-10-10",
+  "bullets": [
+   "TypeSafe AI 完成 8.7 亿美元 A 轮融资，估值约 75 亿美元。",
+   "其非文本 AI 决策模型 Jev 近期迅速走红。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "TypeSafe AI完成8.7亿美元 A 轮融资:非文本模型Jev估值达75亿美元",
+    "url": "https://www.aibase.com/news/31514",
+    "date": "2026-10-10"
+   },
+   {
+    "label": "AIBase",
+    "title": "新型 AI 决策模型 Jev 迅速走红，开发商 TypeSafe AI 估值飙升至 75 亿美元",
+    "url": "https://www.aibase.com/news/31515",
+    "date": "2026-10-10"
+   }
+  ],
+  "score": 60.8,
+  "score_parts": {
+   "industry": 68,
+   "actionable": 50,
+   "breadth": 62
+  },
+  "meta": "AIBase · 另 1 篇报道"
  },
  {
   "id": "redwood-dfi",
@@ -1185,32 +1347,7 @@
    "actionable": 55,
    "breadth": 50
   },
-  "meta": "AIHot"
- },
- {
-  "id": "openai-firing",
-  "title": "OpenAI 研究负责人回应解雇三名员工争议",
-  "url": "https://www.aibase.com/news/31518",
-  "date": "2026-10-10",
-  "bullets": [
-   "OpenAI 研究负责人就解雇三名员工一事回应争议。",
-   "并对解雇原因作出澄清。"
-  ],
-  "links": [
-   {
-    "label": "AIBase",
-    "title": "OpenAI研究负责人回应解雇三名员工争议并全面澄清原因",
-    "url": "https://www.aibase.com/news/31518",
-    "date": "2026-10-10"
-   }
-  ],
-  "score": 50.25,
-  "score_parts": {
-   "industry": 60,
-   "actionable": 30,
-   "breadth": 65
-  },
-  "meta": "AIBase"
+  "meta": ""
  },
  {
   "id": "youdao-lobster",
@@ -1235,162 +1372,31 @@
    "actionable": 58,
    "breadth": 48
   },
-  "meta": "AIBase"
+  "meta": ""
  },
  {
-  "id": "claude-managed-agents-workflows",
-  "title": "Claude 管理智能体上线动态工作流：单次最高可并行调度 1000 个 Agent",
-  "url": "https://www.aibase.com/news/31528",
+  "id": "openai-firing",
+  "title": "OpenAI 研究负责人回应解雇三名员工争议",
+  "url": "https://www.aibase.com/news/31518",
+  "date": "2026-10-10",
   "bullets": [
-   "Anthropic 为 Claude 管理智能体（Managed Agents）推出动态工作流能力。",
-   "单次任务最高可并行调度约 1000 个子 Agent，面向大规模批处理与研究类任务。"
+   "OpenAI 研究负责人就解雇三名员工一事回应争议。",
+   "并对解雇原因作出澄清。"
   ],
   "links": [
    {
     "label": "AIBase",
-    "title": "Claude 管理智能体上线动态工作流：单次最高可并行调度 1000 个 AI Agents",
-    "url": "https://www.aibase.com/news/31528",
+    "title": "OpenAI研究负责人回应解雇三名员工争议并全面澄清原因",
+    "url": "https://www.aibase.com/news/31518",
     "date": "2026-10-10"
    }
   ],
-  "date": "2026-10-10",
-  "score": 78.1,
-  "score_parts": {
-   "industry": 80,
-   "actionable": 78,
-   "breadth": 72
-  },
-  "meta": "AIBase"
- },
- {
-  "id": "cloudflare-clef-omni",
-  "title": "Cloudflare 发布开放权重决策模型 Clef-omni，支持音视频原生输入",
-  "url": "https://www.aibase.com/news/31531",
-  "bullets": [
-   "Cloudflare 发布开放权重的多模态决策模型 Clef-omni。",
-   "新增音频、视频原生输入支持，可在 Cloudflare 平台上部署调用。"
-  ],
-  "links": [
-   {
-    "label": "AIBase",
-    "title": "Cloudflare 发布开放权重决策模型 Clef-omni，新增支持音视频多模态输入",
-    "url": "https://www.aibase.com/news/31531",
-    "date": "2026-10-10"
-   },
-   {
-    "label": "AIBase",
-    "title": "多模态决策大模型迎来开源新突破！Cloudflare 正式发布 Clef-omni，全面支持音视频原生输入",
-    "url": "https://www.aibase.com/news/31537",
-    "date": "2026-10-10"
-   }
-  ],
-  "date": "2026-10-10",
-  "score": 72.1,
-  "score_parts": {
-   "industry": 74,
-   "actionable": 72,
-   "breadth": 66
-  },
-  "meta": "AIBase · 另 1 篇报道"
- },
- {
-  "id": "state-of-ai-2026",
-  "title": "State of AI Report 2026 发布：AI 加速 AI、千亿收入、电力瓶颈与安全",
-  "url": "https://x.com/indigox/status/2108791275914993998",
-  "bullets": [
-   "年度 State of AI Report 2026 发布，速读要点覆盖研究、产业、政策与安全。",
-   "核心判断包括 AI 加速 AI 研发、头部厂商收入迈向千亿级、电力成为算力瓶颈。"
-  ],
-  "links": [
-   {
-    "label": "AIHot",
-    "title": "State of AI Report 2026 速读：AI 加速 AI、千亿收入、电力瓶颈与安全",
-    "url": "https://x.com/indigox/status/2108791275914993998",
-    "date": "2026-10-10"
-   }
-  ],
-  "date": "2026-10-10",
-  "score": 69.4,
-  "score_parts": {
-   "industry": 72,
-   "actionable": 62,
-   "breadth": 78
-  },
-  "meta": "AIHot"
- },
- {
-  "id": "tencent-teamai",
-  "title": "腾讯云开源 TeamAI：适配 16 种 Agent，团队 Skill 走 Git 评审分发",
-  "url": "https://www.aibase.com/news/31539",
-  "bullets": [
-   "腾讯云开源 TeamAI，适配 16 种主流编码/办公 Agent。",
-   "团队 Skill 通过 Git 评审后统一分发，官方称成本可降约 76%。"
-  ],
-  "links": [
-   {
-    "label": "AIBase",
-    "title": "腾讯云开源 TeamAI：适配 16 种 Agent，团队 Skill 走 Git 评审分发，成本降 76%",
-    "url": "https://www.aibase.com/news/31539",
-    "date": "2026-10-10"
-   }
-  ],
-  "date": "2026-10-10",
-  "score": 68.6,
-  "score_parts": {
-   "industry": 66,
-   "actionable": 76,
-   "breadth": 60
-  },
-  "meta": "AIBase"
- },
- {
-  "id": "microsoft-decision-model",
-  "title": "微软决策模型曝光：36 项测试夺冠，直逼 GPT-6 Sol",
-  "url": "https://www.aibase.com/news/31533",
-  "bullets": [
-   "报道称微软一款决策类大模型在 36 项测试中排名第一。",
-   "表现被称接近 OpenAI GPT-6 Sol，官方细节仍有限。"
-  ],
-  "links": [
-   {
-    "label": "AIBase",
-    "title": "微软王炸决策模型浮出水面： 36 项测试夺冠，直逼 GPT-6 Sol",
-    "url": "https://www.aibase.com/news/31533",
-    "date": "2026-10-10"
-   }
-  ],
-  "date": "2026-10-10",
-  "score": 64.15,
-  "score_parts": {
-   "industry": 70,
-   "actionable": 55,
-   "breadth": 66
-  },
-  "meta": "AIBase"
- },
- {
-  "id": "qoder-fast",
-  "title": "阿里 Qoder 上线 Fast 模式：响应约 3 秒且消耗大降",
-  "url": "https://www.aibase.com/news/31538",
-  "bullets": [
-   "阿里 AI 编程工具 Qoder 重大升级，首发 Fast 模式。",
-   "官方称响应约 3 秒，额度消耗明显下降。"
-  ],
-  "links": [
-   {
-    "label": "AIBase",
-    "title": "阿里 Qoder 迎来重大升级：首发上线 Fast 模式，响应仅需 3 秒且消耗大降",
-    "url": "https://www.aibase.com/news/31538",
-    "date": "2026-10-10"
-   }
-  ],
-  "date": "2026-10-10",
-  "score": 63.45,
+  "score": 50.25,
   "score_parts": {
    "industry": 60,
-   "actionable": 72,
-   "breadth": 55
+   "actionable": 30,
+   "breadth": 65
   },
-  "meta": "AIBase"
+  "meta": ""
  }
 ]
