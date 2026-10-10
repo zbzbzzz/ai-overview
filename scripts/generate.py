@@ -179,6 +179,11 @@ META = {
         "flow": ["接 MCP", "分析二进制", "喂给 Agent"],
         "intro": "Ghidra MCP Server，给 Agent 逆向工程能力。",
     },
+    "antirez/ds4": {
+        "tag": "本地推理",
+        "flow": ["选后端", "载入权重", "本机推理"],
+        "intro": "DeepSeek 4 Flash/PRO 本地推理引擎，支持 Metal、CUDA 与 ROCm。",
+    },
     "ollama/ollama": {
         "tag": "本地模型",
         "flow": ["拉模型", "本机推理", "接应用"],
