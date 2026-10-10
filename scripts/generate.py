@@ -6,10 +6,11 @@ import html
 import json
 import re
 from datetime import date, datetime, timezone, timedelta
+from zoneinfo import ZoneInfo
 from pathlib import Path
 
 SITE = Path("/workspace/github-trending-site")
-TODAY = date(2026, 10, 10)
+TODAY = datetime.now(ZoneInfo("Asia/Shanghai")).date()
 WEEKDAY_ZH = "一二三四五六日"
 TODAY_LABEL = f"{TODAY.isoformat()} · 周{WEEKDAY_ZH[TODAY.weekday()]}"
 
