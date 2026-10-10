@@ -349,6 +349,11 @@ META = {
         "flow": ["导入长视频", "AI 挑高光", "导出竖屏"],
         "intro": "本地优先桌面端：长视频/音频转竖屏短片，AI 排序爆款片段。",
     },
+    "meituan-longcat/LongCat-Video": {
+        "tag": "长视频生成",
+        "flow": ["选模型", "文生/图生视频", "导出长片"],
+        "intro": "美团 LongCat 开源长视频生成模型，面向分钟级连贯视频与 Avatar 场景。",
+    },
 }
 
 # Curated 2–4 bullet notes by title prefix (from summary)
