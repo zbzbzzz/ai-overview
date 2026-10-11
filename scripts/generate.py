@@ -1539,13 +1539,26 @@ def load_news() -> tuple[dict[str, tuple[list[dict], str]], str, bool, bool]:
     return {"24h": (items_24h, window_24h), "7d": (items_7d, window_7d)}, gen_label, score_fallback, merge_fallback
 
 
+FOCUS_MIN = 3
+FOCUS_MAX = 5
+FOCUS_EXTRA_SCORE = 70.0
+
+
+def focus_count(items: list[dict]) -> int:
+    """重点 = ranks 1–3 always; ranks 4–5 also if 资讯重要度 >= 70 (ADR 0015)."""
+    n = min(FOCUS_MIN, len(items))
+    while n < min(FOCUS_MAX, len(items)) and float(items[n]["score"]) >= FOCUS_EXTRA_SCORE:
+        n += 1
+    return n
+
+
 def render_news_panel(key: str, items: list[dict], window: str, gen_label: str) -> str:
-    """Render Top N 资讯束; default show 重点 (top 3), expand to max 10."""
-    DEFAULT_VISIBLE = 3
+    """Render Top N 资讯束; default show 重点 (3–5), expand to max 10."""
+    DEFAULT_VISIBLE = focus_count(items)
     cards = []
     for i, it in enumerate(items):
         badge = ""
-        if i < 3:
+        if i < DEFAULT_VISIBLE:
             badge = '<span class="badge-focus">重点</span>'
         extra_cls = " news-extra" if i >= DEFAULT_VISIBLE else ""
         bullets = "\n".join(f"          <li>{esc(b)}</li>" for b in it["bullets"])
@@ -1606,7 +1619,7 @@ def render_news_panel(key: str, items: list[dict], window: str, gen_label: str) 
             "      </script>"
         )
     shown = min(DEFAULT_VISIBLE, n)
-    if DEFAULT_VISIBLE == 3 and n >= 3:
+    if shown:
         meta_extra = f" · 默认 {shown} 条（重点）"
     else:
         meta_extra = f" · 默认 {shown} 条"
@@ -1775,7 +1788,7 @@ def render_page(tabs: dict[str, list[dict]], news_html: str, used_fallback: bool
     if type_fallback:
         foot_extra += " · <strong>分类降级</strong>"
     return f'''<!DOCTYPE html>
-<!-- cache-bust: news-24h-0014 -->
+<!-- cache-bust: news-focus-0015 -->
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8" />
@@ -1974,7 +1987,9 @@ def main() -> None:
         "news_window_24h": window_24h,
         # Email 重点 come from the 24-hour tab (ADR 0014)
         "top_news_24h": [{"title": it["title"], "url": it["url"], "score": it["score"], "newest": it["_newest"].isoformat(), "bullets": it["bullets"], "sources": len(it.get("links") or [])} for it in news_24h],
-        "focus_24h": [it["title"] for it in news_24h[:3]],
+        # Dynamic 重点 (3–5) per tab (ADR 0015); email uses all of focus_24h
+        "focus_24h": [{"title": it["title"], "url": it["url"], "score": it["score"], "bullets": it["bullets"], "links": it.get("links") or []} for it in news_24h[:focus_count(news_24h)]],
+        "focus_7d": [{"title": it["title"], "url": it["url"], "score": it["score"], "bullets": it["bullets"], "links": it.get("links") or []} for it in news_items[:focus_count(news_items)]],
         "repo_names_overall": [r["full"] for r in tabs.get("总榜") or []],
         "tab_repos": {k: [r["full"] for r in v] for k, v in tabs.items()},
     }
