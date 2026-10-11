@@ -1,4 +1,4 @@
-# 本周 AI 速览
+# AI 速览
 
 每天抓取 [GitHub Trending 周榜](https://github.com/trending?since=weekly)，按叙事筛出 AI / Agent / Skill / MCP 相关仓库（最多 10 个），按本周新增星降序重排后生成清新蓝白网页并归档；并汇总本周 AI 资讯。
 

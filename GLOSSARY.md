@@ -1,6 +1,6 @@
-# GitHub Trending 日快照站
+# AI 速览
 
-每天早上抓取 GitHub Trending 总周榜，筛出 AI 相关仓库（含 Agent Skill / MCP），生成可浏览的日快照并归档、推送通知。
+每 6 小时抓取 GitHub Trending 周榜里的 AI 相关仓库（含 Agent Skill / MCP），按总榜和分榜展示，并汇总近 24 小时与近 7 天的 AI 资讯，生成蓝白网页并按日归档。
 
 ## Language
 

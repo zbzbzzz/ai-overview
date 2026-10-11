@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate 本周 AI 速览: AI weekly repos + archive 7-day multi-source news (ADR 0009/0010/0013)."""
+"""Generate AI 速览: AI weekly repos + archive 7-day multi-source news (ADR 0009/0010/0013)."""
 from __future__ import annotations
 
 import html
@@ -1662,7 +1662,7 @@ def render_news(lists: dict[str, tuple[list[dict], str]], gen_label: str) -> str
         btns.append(
             f'<button type="button" class="repo-tab news-tab" role="tab" id="news-tab-{key}" '
             f'aria-selected="{sel}" aria-controls="news-panel-{key}" data-tab-index="{i}">'
-            f'{esc(label)}<span class="cnt">{len(items)}</span></button>'
+            f'{esc(label)}</button>'
         )
         hidden = "" if i == 0 else " hidden"
         panels.append(
@@ -1751,7 +1751,7 @@ def render_repo_section(tabs: dict[str, list[dict]]) -> str:
         tab_btns.append(
             f'<button type="button" class="repo-tab" role="tab" id="{tab_id}" '
             f'aria-selected="{selected}" aria-controls="{panel_id}" data-tab-index="{i}">'
-            f'{esc(label)}<span class="cnt">{len(repos)}</span></button>'
+            f'{esc(label)}</button>'
         )
         max_week = max((r["week"] for r in repos), default=1) or 1
         if repos:
@@ -1788,12 +1788,12 @@ def render_page(tabs: dict[str, list[dict]], news_html: str, used_fallback: bool
     if type_fallback:
         foot_extra += " · <strong>分类降级</strong>"
     return f'''<!DOCTYPE html>
-<!-- cache-bust: news-focus-0015 -->
+<!-- cache-bust: title-nocnt-0015 -->
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>本周 AI 速览 · {TODAY.isoformat()}</title>
+  <title>AI 速览 · {TODAY.isoformat()}</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@500;600;700&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet" />
@@ -1807,7 +1807,7 @@ def render_page(tabs: dict[str, list[dict]], news_html: str, used_fallback: bool
       <div class="hero-top">
         <div>
           <div class="badge-date"><span class="dot" aria-hidden="true"></span>{esc(TODAY_LABEL)}</div>
-          <h1>本周 AI 速览</h1>
+          <h1>AI 速览</h1>
         </div>
         <nav class="nav" aria-label="站点导航">
           <a href="history.html" target="_blank" rel="noopener noreferrer">往期速览</a>
@@ -1865,7 +1865,7 @@ def update_history() -> None:
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>往期速览 · 本周 AI 速览</title>
+  <title>往期速览 · AI 速览</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@500;600;700&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet" />
