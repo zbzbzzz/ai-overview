@@ -995,8 +995,45 @@ def kw_hits(text: str, kws: list[str]) -> int:
     return sum(1 for k in kws if k.lower() in text.lower())
 
 
+# 资讯重要度 weights (ADR 0016): 行业冲击 40% · 可动手 30% · 热度 20% · 覆盖面 10%
+W_INDUSTRY, W_ACTIONABLE, W_HEAT, W_BREADTH = 0.40, 0.30, 0.20, 0.10
+
+
+def _domain(u: str) -> str:
+    from urllib.parse import urlparse
+    try:
+        d = urlparse(u or "").netloc.lower()
+    except Exception:
+        return ""
+    return d[4:] if d.startswith("www.") else d
+
+
+def x_points(x_spike) -> int:
+    """X 新增讨论量 → 0–30 分（ADR 0016）。None = 未查到 X 数据。"""
+    if x_spike is None:
+        return 0
+    x = float(x_spike)
+    for limit, pts in ((8000, 30), (3000, 25), (1000, 20), (500, 15), (200, 10), (50, 5)):
+        if x >= limit:
+            return pts
+    return 0
+
+
+def heat_score(links: list[dict] | None, x_spike=None) -> int:
+    """资讯热度 (0–100)：同一事件的报道篇数 + 跨站转载 + X 新增讨论量。
+
+    reports = 束内去重外链数；domains = 去重站点数（x.com 只算一个）。
+    30 基础 + 6×(reports−1)（封顶 30）+ 5×(domains−1)（封顶 15）+ X 分（0–30）。
+    """
+    links = links or []
+    urls = {(l.get("url") or "").strip() for l in links if (l.get("url") or "").strip()}
+    reports = max(1, len(urls))
+    domains = max(1, len({_domain(u) for u in urls if _domain(u)}))
+    return int(min(100, 30 + min(30, 6 * (reports - 1)) + min(15, 5 * (domains - 1)) + x_points(x_spike)))
+
+
 def rule_score(title: str, summary: str) -> float:
-    """Keyword fallback for 资讯重要度 (0–100)."""
+    """Keyword fallback for 资讯重要度 (0–100); single-source item → heat 30."""
     blob = f"{title} {summary}"
     industry = min(100, 28 + kw_hits(blob, INDUSTRY_KW) * 14)
     actionable = min(100, 30 + kw_hits(blob, ACTION_KW) * 12)
@@ -1006,12 +1043,19 @@ def rule_score(title: str, summary: str) -> float:
         industry = min(100, industry + 10)
     if any(x in blob for x in ("Skill", "MCP", "Agent", "提示词")):
         actionable = min(100, actionable + 8)
-    return round(industry * 0.5 + actionable * 0.35 + breadth * 0.15, 2)
+    return weighted_score({"industry": industry, "actionable": actionable, "heat": 30, "breadth": breadth})
 
 
-def weighted_score(parts: dict) -> float:
+def weighted_score(parts: dict, links: list[dict] | None = None) -> float:
+    """4 维加权；旧数据缺 heat 时按束内外链数补算（无 X 数据）。"""
+    heat = parts.get("heat")
+    if heat is None:
+        heat = heat_score(links) if links else 30
     return round(
-        parts["industry"] * 0.5 + parts["actionable"] * 0.35 + parts["breadth"] * 0.15,
+        parts["industry"] * W_INDUSTRY
+        + parts["actionable"] * W_ACTIONABLE
+        + float(heat) * W_HEAT
+        + parts["breadth"] * W_BREADTH,
         2,
     )
 
@@ -1030,10 +1074,11 @@ def load_model_scores() -> dict[str, float] | None:
             for title, val in raw.items():
                 if isinstance(val, (int, float)):
                     out[title] = float(val)
+                elif isinstance(val, dict) and {"industry", "actionable", "breadth"} <= set(val):
+                    # Recompute from parts so weights stay authoritative (ADR 0016)
+                    out[title] = weighted_score(val)
                 elif isinstance(val, dict) and "score" in val:
                     out[title] = float(val["score"])
-                elif isinstance(val, dict) and {"industry", "actionable", "breadth"} <= set(val):
-                    out[title] = weighted_score(val)
             if out:
                 return out
         except Exception:
@@ -1185,6 +1230,12 @@ def load_news_bundles() -> list[dict] | None:
             if not isinstance(raw, list) or not raw:
                 continue
             out = []
+            # ADR 0013 合并护栏：一个 URL 只属于一个资讯束（主链优先）；非主链外链
+            # 必须带模型确认 same_event: true，否则拆成独立单条资讯束。
+            # 仅共享关键词（如「决策模型」「融资」「Agent」）不算同一事件。
+            primary_urls = {(r.get("url") or "").strip() for r in raw if isinstance(r, dict)}
+            claimed: set[str] = set()
+            orphans: list[dict] = []
             for row in raw:
                 title = (row.get("title") or "").strip()
                 url = (row.get("url") or "").strip()
@@ -1198,6 +1249,13 @@ def load_news_bundles() -> list[dict] | None:
                     if not lu or lu in seen:
                         continue
                     seen.add(lu)
+                    if lu != url:
+                        if lu in primary_urls or lu in claimed:
+                            continue  # already its own 资讯束 / claimed by another
+                        if link.get("same_event") is not True:
+                            orphans.append(link)
+                            continue
+                        claimed.add(lu)
                     norm_links.append({
                         "label": link.get("label") or "来源",
                         "title": link.get("title") or title,
@@ -1233,6 +1291,27 @@ def load_news_bundles() -> list[dict] | None:
                     "score_parts": row.get("score_parts"),
                     "note": row.get("summary") or row.get("note") or "",
                 })
+            # Unconfirmed links become standalone 资讯束 (rule-scored downstream)
+            for link in orphans:
+                lu = (link.get("url") or "").strip()
+                if not lu or lu in primary_urls or lu in claimed:
+                    continue
+                claimed.add(lu)
+                lt = (link.get("title") or "").strip() or lu
+                out.append({
+                    "title": lt,
+                    "url": lu,
+                    "links": [{"label": link.get("label") or "来源", "title": lt, "url": lu, "date": link.get("date") or ""}],
+                    "bullets": [one_sentence(lt, 56), "详见原文链接。"],
+                    "date": link.get("date") or "",
+                    "meta": "",
+                    "score": None,
+                    "score_parts": None,
+                    "note": "",
+                    "_guard_split": True,
+                })
+            if orphans:
+                print(f"[merge-guard] split {len(orphans)} unconfirmed link(s) into standalone 资讯束", flush=True)
             if out:
                 return out
         except Exception:
@@ -1368,16 +1447,17 @@ def load_news() -> tuple[dict[str, tuple[list[dict], str]], str, bool, bool]:
         for idx, b in enumerate(bundles):
             title = b["title"]
             summary = b.get("note") or ""
-            if b.get("score") is not None:
-                score = float(b["score"])
-            elif model_scores is not None and title in model_scores:
-                score = float(model_scores[title])
-            elif (
+            # ADR 0016: score_parts (incl. 热度) are authoritative; stale "score" only as fallback
+            if (
                 b.get("score_parts")
                 and isinstance(b["score_parts"], dict)
                 and {"industry", "actionable", "breadth"} <= set(b["score_parts"])
             ):
-                score = weighted_score(b["score_parts"])
+                score = weighted_score(b["score_parts"], b.get("links"))
+            elif model_scores is not None and title in model_scores:
+                score = float(model_scores[title])
+            elif b.get("score") is not None:
+                score = float(b["score"])
             else:
                 score = rule_score(title, summary)
             bullets = b["bullets"]
@@ -1389,11 +1469,11 @@ def load_news() -> tuple[dict[str, tuple[list[dict], str]], str, bool, bool]:
                 labels = []
                 for link in b.get("links") or []:
                     lab = link.get("label") or ""
-                    if lab and lab not in labels:
+                    if lab and lab != "主链" and lab not in labels:
                         labels.append(lab)
-                meta = f"{' / '.join(labels[:3]) or '多源'} · {b.get('date') or ''}"
-                if len(b.get("links") or []) > 1:
-                    meta += f" · {len(b['links'])} 源"
+                n_other = max(0, len(b.get("links") or []) - 1)
+                meta = " · ".join(labels[:3]) or "来源"
+                meta += f" · 另 {n_other} 篇报道" if n_other else f" · {b.get('date') or ''}"
             blinks = b.get("links") or [
                 {"label": "主链", "title": title, "url": b["url"], "date": b.get("date") or ""}
             ]
