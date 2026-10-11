@@ -1541,11 +1541,11 @@ def load_news() -> tuple[dict[str, tuple[list[dict], str]], str, bool, bool]:
 
 FOCUS_MIN = 3
 FOCUS_MAX = 5
-FOCUS_EXTRA_SCORE = 70.0
+FOCUS_EXTRA_SCORE = 85.0
 
 
 def focus_count(items: list[dict]) -> int:
-    """重点 = ranks 1–3 always; ranks 4–5 also if 资讯重要度 >= 70 (ADR 0015)."""
+    """重点 = ranks 1–3 always; ranks 4–5 also if 资讯重要度 >= 85 (ADR 0015)."""
     n = min(FOCUS_MIN, len(items))
     while n < min(FOCUS_MAX, len(items)) and float(items[n]["score"]) >= FOCUS_EXTRA_SCORE:
         n += 1
