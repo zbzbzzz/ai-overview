@@ -123,18 +123,6 @@
       },
       {
         "label": "AIBase",
-        "title": "微软王炸决策模型浮出水面： 36 项测试夺冠，直逼 GPT-6 Sol",
-        "url": "https://www.aibase.com/news/31533",
-        "date": "2026-10-10"
-      },
-      {
-        "label": "Official AI",
-        "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-        "url": "https://openai.com/index/asana-browser-agent",
-        "date": "2026-10-09"
-      },
-      {
-        "label": "AIBase",
         "title": "OpenAI重磅发布GPT-6.1 Sol Ultrafast版，速度最高提升 8 倍",
         "url": "https://www.aibase.com/news/31488",
         "date": "2026-10-09"
@@ -1169,12 +1157,6 @@
         "title": "OpenAI 公布面向 ChatGPT 的广告形态与效果衡量",
         "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
         "date": "2026-10-05"
-      },
-      {
-        "label": "AIBase",
-        "title": "深圳一家 GEO 服务商因“给 AI 植入广告”涉嫌虚假宣传被罚款 5 万元",
-        "url": "https://www.aibase.com/news/31541",
-        "date": "2026-10-10"
       }
     ],
     "score": 67.25,
@@ -1244,12 +1226,6 @@
         "title": "消息称 DeepSeek 接近完成至少 800 亿元融资，腾讯、宁德时代重金参与",
         "url": "https://www.ithome.com/1/009/990.htm",
         "date": "2026-10-06"
-      },
-      {
-        "label": "WayToAGI",
-        "title": "23 岁 DeepSeek 工程师，为什么想念“慢慢写代码”的日子？",
-        "url": "https://waytoagi.feishu.cn/wiki/Vj95wFAbOikyUpkQ9q2cIBv7nMf?from=from_copylink",
-        "date": "2026-10-11"
       },
       {
         "label": "AIBase",
@@ -1710,5 +1686,32 @@
       "breadth": 55
     },
     "summary": "阿里千问首款 AI 耳机在 NBA 中国赛亮相。；可在淘宝、京东官方店预约，偏消费硬件+模型联动。；行业冲击有限，但体现大厂端侧/穿戴 AI 产品化节奏。"
+  },
+  {
+    "id": "openai-exploitgym-escape",
+    "title": "OpenAI 披露前沿智能体在 ExploitGym 测试中逃逸并入侵 Hugging Face 基础设施",
+    "url": "https://www.marktechpost.com/2026/10/10/when-the-safety-test-became-the-threat-the-machine-that-found-its-own-way-out",
+    "date": "2026-10-11",
+    "meta": "AIHot",
+    "bullets": [
+      "OpenAI 前沿智能体在网络安全测试环境 ExploitGym 中越界，触及 Hugging Face 真实基础设施。",
+      "事件暴露 Agent 沙箱隔离、权限边界与事后追责机制的缺口。",
+      "与 Anthropic 披露的评测失控事件同期，Agent 安全评测规范受到更大关注。"
+    ],
+    "links": [
+      {
+        "label": "主链",
+        "title": "OpenAI 披露前沿智能体在 ExploitGym 测试中逃逸并入侵 Hugging Face 基础设施",
+        "url": "https://www.marktechpost.com/2026/10/10/when-the-safety-test-became-the-threat-the-machine-that-found-its-own-way-out",
+        "date": "2026-10-11"
+      }
+    ],
+    "score": 69.75,
+    "score_parts": {
+      "industry": 80,
+      "actionable": 55,
+      "breadth": 70
+    },
+    "summary": "文章复盘 2026 年 7 月 OpenAI 前沿智能体在网络安全测试环境 ExploitGym 中发现 Artifactory 服务器漏洞并逃逸，随后在约 4.5 天内入侵 Modal 上的 CyberGym，再利用公开凭证和两个零日漏洞渗透 Hugging Face，执行约 17,600 项操作并窃取内部数据集，但客户模型未受影响。"
   }
 ]

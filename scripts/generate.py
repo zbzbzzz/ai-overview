@@ -575,6 +575,18 @@ h1 {
   margin-left: 0.2rem;
 }
 .repo-panel[hidden] { display: none !important; }
+.news-tabs { margin: 0.35rem 0 0.15rem; }
+.news-panel[hidden] { display: none !important; }
+.news-panel .section-meta { display: block; margin-top: 0.55rem; }
+.news-empty {
+  margin-top: 0.85rem;
+  padding: 1rem 1.1rem;
+  background: var(--ice);
+  border: 1px dashed var(--mist);
+  border-radius: 12px;
+  color: var(--mute);
+  font-size: 0.9rem;
+}
 .repo-panel .cards { margin-top: 0.85rem; }
 .repo-empty {
   margin-top: 0.85rem;
@@ -1228,8 +1240,11 @@ def load_news_bundles() -> list[dict] | None:
     return None
 
 
-def load_news() -> tuple[list[dict], str, str, bool, bool]:
-    """Return (items top10, window, gen_label, score_fallback, merge_fallback).
+def load_news() -> tuple[dict[str, tuple[list[dict], str]], str, bool, bool]:
+    """Return ({"24h": (items, window), "7d": (items, window)}, gen_label, score_fallback, merge_fallback).
+
+    ADR 0014: 「24 小时」 tab = 资讯束 whose newest item (published_at, else
+    first_seen_at) falls in the rolling last 24 hours; 「近 7 天」 unchanged.
 
     Pipeline (ADR 0010/0013): radar archive, AI multi-source, rolling 7 days.
     Prefer executor 资讯束 (content-merge); else title/URL dedupe + 合并降级.
@@ -1244,6 +1259,7 @@ def load_news() -> tuple[list[dict], str, str, bool, bool]:
     win_end = now.replace(hour=23, minute=59, second=59, microsecond=999999)
     win_start_s = win_start.date().isoformat()
     win_end_s = win_end.date().isoformat()
+    h24_start = now - timedelta(hours=24)
 
     WANT = {"waytoagi", "official_ai", "aihot", "aibase"}
     SITE_LABEL = {
@@ -1303,6 +1319,24 @@ def load_news() -> tuple[list[dict], str, str, bool, bool]:
             continue
         cands.append({**it, "_ts": ts, "_date": ts.date().isoformat()})
 
+    # URL -> earliest timestamp (published_at, else first_seen_at) across archive
+    url_ts: dict[str, datetime] = {}
+    for it in raw_items:
+        nu = norm_url(it.get("url") or "")
+        if not nu:
+            continue
+        ts = parse_ts(it.get("published_at")) or parse_ts(it.get("first_seen_at"))
+        if not ts:
+            continue
+        if nu not in url_ts or ts < url_ts[nu]:
+            url_ts[nu] = ts
+
+    def link_ts(link: dict):
+        nu = norm_url(link.get("url") or "")
+        if nu in url_ts:
+            return url_ts[nu]
+        return parse_ts(link.get("date"))
+
     seen_u_all: set[str] = set()
     url_unique = 0
     for it in cands:
@@ -1360,12 +1394,16 @@ def load_news() -> tuple[list[dict], str, str, bool, bool]:
                 meta = f"{' / '.join(labels[:3]) or '多源'} · {b.get('date') or ''}"
                 if len(b.get("links") or []) > 1:
                     meta += f" · {len(b['links'])} 源"
+            blinks = b.get("links") or [
+                {"label": "主链", "title": title, "url": b["url"], "date": b.get("date") or ""}
+            ]
+            lts = [t for t in (link_ts(link) for link in blinks) if t]
+            newest = max(lts) if lts else parse_ts(b.get("date"))
             items.append({
                 "title": title,
                 "url": b["url"],
-                "links": b.get("links") or [
-                    {"label": "主链", "title": title, "url": b["url"], "date": b.get("date") or ""}
-                ],
+                "links": blinks,
+                "_newest": newest,
                 "note": summary,
                 "meta": meta,
                 "date": b.get("date") or "",
@@ -1412,6 +1450,7 @@ def load_news() -> tuple[list[dict], str, str, bool, bool]:
                 "title": title,
                 "url": url,
                 "links": [{"label": site, "title": title, "url": url, "date": date_s}],
+                "_newest": u["_ts"],
                 "note": summary,
                 "meta": f"{site} · {date_s}",
                 "date": date_s,
@@ -1420,13 +1459,72 @@ def load_news() -> tuple[list[dict], str, str, bool, bool]:
                 "_idx": idx,
             })
 
-    items.sort(key=lambda it: (it["score"], it["date"] or ""), reverse=True)
-    items = items[:10]
+    if bundles is not None:
+        # 24h candidates not covered by any 资讯束 become single-item bundles
+        covered_u: set[str] = set()
+        covered_t: set[str] = set()
+        for it in items:
+            for link in it["links"]:
+                covered_u.add(norm_url(link.get("url") or ""))
+                covered_t.add(norm_title(link.get("title") or ""))
+            covered_t.add(norm_title(it["title"]))
+        extra_cands = sorted(
+            (c for c in cands if c["_ts"] >= h24_start),
+            key=lambda x: (0 if x.get("site_id") == "official_ai" else 1, -x["_ts"].timestamp()),
+        )
+        for c in extra_cands:
+            nu = norm_url(c.get("url") or "")
+            nt = norm_title(c.get("title") or "")
+            if (nu and nu in covered_u) or (nt and nt in covered_t) or not nu:
+                continue
+            covered_u.add(nu)
+            if nt:
+                covered_t.add(nt)
+            title = c.get("title") or ""
+            summary = (c.get("summary") or "").strip()
+            sid = c.get("site_id") or ""
+            site = SITE_LABEL.get(sid, c.get("site_name") or sid)
+            if model_scores is not None and title in model_scores:
+                score = float(model_scores[title])
+            else:
+                score = rule_score(title, summary)
+            bullets = (
+                curated_bullets.get(title)
+                or (news_bullets(title, summary) if summary else [one_sentence(title, 56), "详见原文标题与链接。"])
+            )
+            items.append({
+                "title": title,
+                "url": c.get("url") or "",
+                "links": [{"label": site, "title": title, "url": c.get("url") or "", "date": c["_date"]}],
+                "_newest": c["_ts"],
+                "_extra24": True,
+                "note": summary,
+                "meta": f"{site} · {c['_date']}",
+                "date": c["_date"],
+                "score": score,
+                "bullets": bullets[:4],
+                "_idx": len(items),
+            })
+
+    def sort_key(it):
+        nts = it.get("_newest")
+        return (it["score"], it["date"] or "", nts.timestamp() if nts else 0)
 
     mode = "资讯束" if not merge_fallback else "标题去重"
-    window = (
+
+    items_7d = sorted((it for it in items if not it.get("_extra24")), key=sort_key, reverse=True)[:10]
+    window_7d = (
         f"近 7 天（{win_start_s} ~ {win_end_s}）· 按重要度 Top 10"
         f" · 雷达 archive · AI 多源 · 候选 {cand_count} · {mode}"
+    )
+
+    pool_24 = [it for it in items if it.get("_newest") and h24_start <= it["_newest"] <= now + timedelta(minutes=10)]
+    items_24h = [dict(it) for it in sorted(pool_24, key=sort_key, reverse=True)[:10]]
+    for it in items_24h:
+        it["meta"] = (it.get("meta") or "") + f" · 最新 {it['_newest'].strftime('%m-%d %H:%M')}"
+    window_24h = (
+        f"近 24 小时（{h24_start.strftime('%m-%d %H:%M')} ~ {now.strftime('%m-%d %H:%M')}）· 按重要度 Top 10"
+        f" · 雷达 archive · AI 多源 · 候选 {len(pool_24)} 束 · {mode}"
     )
 
     gen = archive.get("generated_at") or ""
@@ -1438,10 +1536,10 @@ def load_news() -> tuple[list[dict], str, str, bool, bool]:
     except Exception:
         gen_label = gen or TODAY.isoformat()
 
-    return items, window, gen_label, score_fallback, merge_fallback
+    return {"24h": (items_24h, window_24h), "7d": (items_7d, window_7d)}, gen_label, score_fallback, merge_fallback
 
 
-def render_news(items: list[dict], window: str, gen_label: str, used_fallback: bool) -> str:
+def render_news_panel(key: str, items: list[dict], window: str, gen_label: str) -> str:
     """Render Top N 资讯束; default show 重点 (top 3), expand to max 10."""
     DEFAULT_VISIBLE = 3
     cards = []
@@ -1492,12 +1590,12 @@ def render_news(items: list[dict], window: str, gen_label: str, used_fallback: b
     if n > DEFAULT_VISIBLE:
         toggle = (
             '      <div class="news-toggle-wrap">\n'
-            '        <button type="button" class="news-toggle" id="news-toggle" aria-expanded="false" aria-controls="news-list">展开更多</button>\n'
+            '        <button type="button" class="news-toggle" id="news-toggle-' + key + '" aria-expanded="false" aria-controls="news-list-' + key + '">展开更多</button>\n'
             "      </div>\n"
             "      <script>\n"
             "      (function () {\n"
-            '        var btn = document.getElementById("news-toggle");\n'
-            '        var list = document.getElementById("news-list");\n'
+            '        var btn = document.getElementById("news-toggle-' + key + '");\n'
+            '        var list = document.getElementById("news-list-' + key + '");\n'
             "        if (!btn || !list) return;\n"
             '        btn.addEventListener("click", function () {\n'
             '          var collapsed = list.classList.toggle("is-collapsed");\n'
@@ -1516,24 +1614,80 @@ def render_news(items: list[dict], window: str, gen_label: str, used_fallback: b
         meta_extra += f" · 可展开至 {n} 条"
     else:
         meta_extra += f" · 共 {n} 条"
-    return (
-        '    <section class="section" aria-labelledby="news-heading">\n'
-        '      <div class="section-head">\n'
-        '        <h2 id="news-heading">本周 AI 资讯</h2>\n'
+    meta_line = (
         '        <span class="section-meta">'
         + esc(window)
         + " · 雷达 "
         + esc(gen_label)
         + ' · <a href="https://news.learnprompt.pro" target="_blank" rel="noopener noreferrer">news.learnprompt.pro</a>'
-        + meta_extra
+        + (meta_extra if n else "")
         + "</span>\n"
-        + "      </div>\n"
-        + f'      <ol class="news-list{collapsed_cls}" id="news-list">\n'
-        + "\n".join(cards)
+    )
+    if not n:
+        body = '      <p class="news-empty">近 24 小时暂无新的 AI 资讯束，可切到「近 7 天」查看。</p>\n'
+    else:
+        body = (
+            f'      <ol class="news-list{collapsed_cls}" id="news-list-{key}">\n'
+            + "\n".join(cards)
+            + "\n"
+            + "      </ol>\n"
+            + (toggle + "\n" if toggle else "")
+        )
+    return meta_line + body
+
+
+NEWS_TABS = [("24h", "24 小时"), ("7d", "近 7 天")]
+
+
+def render_news(lists: dict[str, tuple[list[dict], str]], gen_label: str) -> str:
+    """Tabbed news section (ADR 0014): default 「24 小时」, then 「近 7 天」."""
+    btns = []
+    panels = []
+    for i, (key, label) in enumerate(NEWS_TABS):
+        items, window = lists[key]
+        sel = "true" if i == 0 else "false"
+        btns.append(
+            f'<button type="button" class="repo-tab news-tab" role="tab" id="news-tab-{key}" '
+            f'aria-selected="{sel}" aria-controls="news-panel-{key}" data-tab-index="{i}">'
+            f'{esc(label)}<span class="cnt">{len(items)}</span></button>'
+        )
+        hidden = "" if i == 0 else " hidden"
+        panels.append(
+            f'      <div class="news-panel" role="tabpanel" id="news-panel-{key}" aria-labelledby="news-tab-{key}"{hidden}>\n'
+            + render_news_panel(key, items, window, gen_label)
+            + "      </div>"
+        )
+    script = (
+        "      <script>\n"
+        "      (function () {\n"
+        '        var tabs = Array.prototype.slice.call(document.querySelectorAll("#news-tabs .news-tab"));\n'
+        '        var panels = Array.prototype.slice.call(document.querySelectorAll(".news-panel"));\n'
+        "        tabs.forEach(function (btn, i) {\n"
+        '          btn.addEventListener("click", function () {\n'
+        "            tabs.forEach(function (b, j) {\n"
+        '              b.setAttribute("aria-selected", j === i ? "true" : "false");\n'
+        "              if (panels[j]) {\n"
+        '                if (j === i) panels[j].removeAttribute("hidden");\n'
+        '                else panels[j].setAttribute("hidden", "");\n'
+        "              }\n"
+        "            });\n"
+        "          });\n"
+        "        });\n"
+        "      })();\n"
+        "      </script>"
+    )
+    return (
+        '    <section class="section" aria-labelledby="news-heading">\n'
+        '      <div class="section-head">\n'
+        '        <h2 id="news-heading">本周 AI 资讯</h2>\n'
+        "      </div>\n"
+        '      <div class="repo-tabs news-tabs" id="news-tabs" role="tablist" aria-label="资讯时间窗">\n'
+        + "\n".join("        " + b for b in btns)
+        + "\n      </div>\n"
+        + "\n".join(panels)
         + "\n"
-        + "      </ol>\n"
-        + (toggle + "\n" if toggle else "")
-        + "    </section>"
+        + script
+        + "\n    </section>"
     )
 
 
@@ -1598,13 +1752,13 @@ def render_repo_section(tabs: dict[str, list[dict]]) -> str:
             f'aria-labelledby="{tab_id}"{hidden}>\n{body}\n    </div>'
         )
 
-    script = '\n      <script>\n      (function () {\n        var tabs = Array.prototype.slice.call(document.querySelectorAll(".repo-tab"));\n        var panels = Array.prototype.slice.call(document.querySelectorAll(".repo-panel"));\n        if (!tabs.length) return;\n        function activate(idx) {\n          tabs.forEach(function (btn, i) {\n            var on = i === idx;\n            btn.setAttribute("aria-selected", on ? "true" : "false");\n            if (panels[i]) {\n              if (on) panels[i].removeAttribute("hidden");\n              else panels[i].setAttribute("hidden", "");\n            }\n          });\n        }\n        tabs.forEach(function (btn) {\n          btn.addEventListener("click", function () {\n            activate(parseInt(btn.getAttribute("data-tab-index"), 10) || 0);\n          });\n        });\n      })();\n      </script>'
+    script = '\n      <script>\n      (function () {\n        var tabs = Array.prototype.slice.call(document.querySelectorAll("#repo-tabs .repo-tab"));\n        var panels = Array.prototype.slice.call(document.querySelectorAll(".repo-panel"));\n        if (!tabs.length) return;\n        function activate(idx) {\n          tabs.forEach(function (btn, i) {\n            var on = i === idx;\n            btn.setAttribute("aria-selected", on ? "true" : "false");\n            if (panels[i]) {\n              if (on) panels[i].removeAttribute("hidden");\n              else panels[i].setAttribute("hidden", "");\n            }\n          });\n        }\n        tabs.forEach(function (btn) {\n          btn.addEventListener("click", function () {\n            activate(parseInt(btn.getAttribute("data-tab-index"), 10) || 0);\n          });\n        });\n      })();\n      </script>'
 
     return f'''    <div class="section-head" style="margin-top:1.15rem;margin-bottom:0">
       <h2>AI 周榜仓库</h2>
       <span class="section-meta">总榜 + 分榜 · 按本周新增星标 · 可多榜</span>
     </div>
-    <div class="repo-tabs" role="tablist" aria-label="仓库分榜">
+    <div class="repo-tabs" id="repo-tabs" role="tablist" aria-label="仓库分榜">
       {chr(10).join("      " + b for b in tab_btns)}
     </div>
 {chr(10).join(panels)}
@@ -1621,7 +1775,7 @@ def render_page(tabs: dict[str, list[dict]], news_html: str, used_fallback: bool
     if type_fallback:
         foot_extra += " · <strong>分类降级</strong>"
     return f'''<!DOCTYPE html>
-<!-- cache-bust: news-bundles-0013 -->
+<!-- cache-bust: news-24h-0014 -->
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8" />
@@ -1656,7 +1810,7 @@ def render_page(tabs: dict[str, list[dict]], news_html: str, used_fallback: bool
 {repo_html}
 
     <footer class="foot">
-      <p>最新页始终等于当天 AI 周榜日快照。往期见 <a href="history.html" target="_blank" rel="noopener noreferrer">往期速览</a>。数据抓取时间：{TODAY.isoformat()}（Asia/Shanghai）。资讯按资讯束重要度排序（ADR 0013）；仓库分榜见 ADR 0012{foot_extra}。</p>
+      <p>最新页始终等于当天 AI 周榜日快照。往期见 <a href="history.html" target="_blank" rel="noopener noreferrer">往期速览</a>。数据抓取时间：{TODAY.isoformat()}（Asia/Shanghai）。资讯分「24 小时」「近 7 天」两窗、各按资讯束重要度排序（ADR 0013/0014）；仓库分榜见 ADR 0012{foot_extra}。</p>
     </footer>
   </div>
 </body>
@@ -1781,8 +1935,10 @@ def main() -> None:
 
     tabs = build_tab_lists(overall, pool)
 
-    news_items, window, gen_label, used_fallback, merge_fallback = load_news()
-    news_html = render_news(news_items, window, gen_label, used_fallback)
+    news_lists, gen_label, used_fallback, merge_fallback = load_news()
+    news_items, window = news_lists["7d"]
+    news_24h, window_24h = news_lists["24h"]
+    news_html = render_news(news_lists, gen_label)
     page = render_page(tabs, news_html, used_fallback, type_fallback, merge_fallback)
 
     month_dir = SITE / "archive" / TODAY.strftime("%Y-%m")
@@ -1814,6 +1970,11 @@ def main() -> None:
         "merge_fallback": merge_fallback,
         "type_fallback": type_fallback,
         "top_news": [{"title": it["title"], "score": it["score"], "date": it["date"], "sources": len(it.get("links") or [])} for it in news_items],
+        "news_24h": len(news_24h),
+        "news_window_24h": window_24h,
+        # Email 重点 come from the 24-hour tab (ADR 0014)
+        "top_news_24h": [{"title": it["title"], "url": it["url"], "score": it["score"], "newest": it["_newest"].isoformat(), "bullets": it["bullets"], "sources": len(it.get("links") or [])} for it in news_24h],
+        "focus_24h": [it["title"] for it in news_24h[:3]],
         "repo_names_overall": [r["full"] for r in tabs.get("总榜") or []],
         "tab_repos": {k: [r["full"] for r in v] for k, v in tabs.items()},
     }
