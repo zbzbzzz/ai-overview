@@ -585,12 +585,12 @@
   "id": "rtx-spark",
   "title": "NVIDIA 与 Microsoft 推出 RTX Spark 平台，推动 Windows PC 上的 AI Agent",
   "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event",
-  "date": "2026-10-08",
+  "date": "2026-10-13",
   "meta": "",
   "bullets": [
-   "NVIDIA 与 Microsoft 联合推出 RTX Spark 相关平台能力。",
-   "目标让 AI Agent 更顺畅运行在 Windows PC 本地。",
-   "硬件+系统层协作，并伴随开发者补贴与整机产品讨论。"
+   "NVIDIA 宣布 RTX Spark 软件生态就绪，配套笔记本将于 10 月 16 日上市。",
+   "延续此前与 Microsoft 合作的 Windows 本地 AI Agent 方向。",
+   "把 Spark 从平台叙事推进到可购整机与开发者软件栈。"
   ],
   "links": [
    {
@@ -612,17 +612,24 @@
     "url": "https://www.aibase.com/news/31447",
     "date": "2026-10-08",
     "same_event": true
+   },
+   {
+    "label": "AIHot",
+    "title": "NVIDIA 官宣 RTX Spark 软件生态就绪，10 月 16 日笔记本上市",
+    "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates",
+    "date": "2026-10-13",
+    "same_event": true
    }
   ],
-  "score": 76.7,
+  "score": 66.1,
   "score_parts": {
-   "industry": 80,
-   "actionable": 75,
-   "heat": 72,
-   "breadth": 78
+   "industry": 70,
+   "actionable": 55,
+   "heat": 78,
+   "breadth": 60
   },
   "heat_signals": {
-   "reports": 3,
+   "reports": 4,
    "domains": 2,
    "x_posts_7d": 3674,
    "x_spike_7d": 3329
@@ -1688,37 +1695,93 @@
  },
  {
   "id": "gemini-4-argon",
-  "title": "谷歌 Gemini 4 Argon 版本突袭开放测试，主打代码能力",
-  "url": "https://www.aibase.com/news/31499",
-  "date": "2026-10-09",
+  "title": "Google 正式发布 Gemini 4 Argon，推送 App 并接入 Copilot",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon",
+  "date": "2026-10-14",
   "meta": "",
   "bullets": [
-   "谷歌开放 Gemini 4 Argon 版本测试。",
-   "报道称其主打自动写代码、提交代码。",
-   "与次日曝光的 Carbon 版本是两个不同测试版本。"
+   "Google DeepMind 正式发布 Gemini 4 Argon，并逐步推送到 Gemini App。",
+   "官方同步放出 Robotics、安全对齐说明，以及 GitHub Copilot / OpenRouter 接入。",
+   "第三方评测称智能指数追平 GPT-6 Astra，Cost per Task 约为其 60%。"
   ],
   "links": [
+   {
+    "label": "Official AI",
+    "title": "Google 正式发布 Gemini 4 Argon，推送 App 并接入 Copilot",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon",
+    "date": "2026-10-14"
+   },
    {
     "label": "AIBase",
     "title": "谷歌 Gemini 4 Argon 突袭开放，AI 或将直接代替程序员提交代码",
     "url": "https://www.aibase.com/news/31499",
-    "date": "2026-10-09"
+    "date": "2026-10-09",
+    "same_event": true
+   },
+   {
+    "label": "Official AI",
+    "title": "Gemini 4 Argon for Robotics",
+    "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics",
+    "date": "2026-10-14",
+    "same_event": true
+   },
+   {
+    "label": "Official AI",
+    "title": "Gemini 4 Argon: Built to solve your hardest problems",
+    "url": "https://deepmind.google/blog/introducing-gemini-4-argon",
+    "date": "2026-10-14",
+    "same_event": true
+   },
+   {
+    "label": "AIHot",
+    "title": "Google 发布 Gemini 4 Argon 并逐步推送至 Gemini 应用",
+    "url": "https://x.com/GeminiApp/status/2110039322229649783",
+    "date": "2026-10-14",
+    "same_event": true
+   },
+   {
+    "label": "AIHot",
+    "title": "Google DeepMind 的 Gemini 4 Argon 上线 OpenRouter",
+    "url": "https://x.com/OpenRouter/status/2110044453977403412",
+    "date": "2026-10-14",
+    "same_event": true
+   },
+   {
+    "label": "AIHot",
+    "title": "Gemini 4 Argon 正式 GA，智能指数追平 GPT-6 Astra，Cost per Task 仅为 60%",
+    "url": "https://x.com/ArtificialAnlys/status/2110068185793970576",
+    "date": "2026-10-14",
+    "same_event": true
+   },
+   {
+    "label": "Official AI",
+    "title": "Gemini 4 Argon in GitHub Copilot",
+    "url": "https://github.blog/changelog/2026-10-13-gemini-4-argon-in-github-copilot",
+    "date": "2026-10-14",
+    "same_event": true
+   },
+   {
+    "label": "Official AI",
+    "title": "Developing Gemini 4 Argon responsibly and safely",
+    "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely",
+    "date": "2026-10-14",
+    "same_event": true
    }
   ],
   "split_from": "gemini-4-test",
   "score_parts": {
-   "industry": 76,
-   "actionable": 55,
-   "heat": 30,
-   "breadth": 72
+   "industry": 92,
+   "actionable": 75,
+   "heat": 100,
+   "breadth": 90
   },
   "heat_signals": {
-   "reports": 1,
-   "domains": 1,
-   "x_posts_7d": 5657,
-   "x_spike_7d": 0
+   "reports": 9,
+   "domains": 5,
+   "x_posts_7d": 26615,
+   "x_spike_7d": 25970
   },
-  "score": 60.1
+  "score": 88.3
  },
  {
   "id": "microsoft-decision-model",
@@ -4091,12 +4154,12 @@
   "id": "x-subscription",
   "title": "xAI 推出 The X Subscription：Grok、Cursor 与 X Premium 打包订阅",
   "url": "https://x.com/cursor_ai/status/2109779605699879146",
-  "date": "2026-10-13",
+  "date": "2026-10-14",
   "meta": "",
   "bullets": [
-   "xAI / SpaceXSI 推出全流程 AI 打包订阅 The X Subscription，将 Grok、Cursor 与 X Premium 打成全家桶。",
-   "Cursor 方面确认并入该订阅体系。",
-   "把「思考到构建」工具链绑进同一账单，对重度 AI 开发者与创作者影响直接。"
+   "xAI 推出 The X Subscription，将 Grok、Cursor 与 X Premium 打成全家桶。",
+   "社区继续跟进「约 30 美元月费全包」的打包叙事。",
+   "把思考到构建的工具链绑进同一账单，对重度 AI 用户影响直接。"
   ],
   "links": [
    {
@@ -4118,18 +4181,25 @@
     "url": "https://www.aibase.com/news/31602",
     "date": "2026-10-13",
     "same_event": true
+   },
+   {
+    "label": "WayToAGI",
+    "title": "老马开大四合一！每月30美元，全包了！",
+    "url": "https://waytoagi.feishu.cn/wiki/L2WOw67PFiVvsFkKIJJcXBaUnkd?from=from_copylink",
+    "date": "2026-10-14",
+    "same_event": true
    }
   ],
-  "score": 74.4,
+  "score": 76.6,
   "score_parts": {
    "industry": 80,
    "actionable": 70,
-   "heat": 72,
+   "heat": 83,
    "breadth": 70
   },
   "heat_signals": {
-   "reports": 3,
-   "domains": 2,
+   "reports": 4,
+   "domains": 3,
    "x_posts_7d": 5856,
    "x_spike_7d": 5804
   }
@@ -4221,9 +4291,9 @@
   "date": "2026-10-13",
   "meta": "",
   "bullets": [
-   "报道称 Epic 全面押注 AI 优先开发，与迪士尼合作的射击游戏被无限期延期。",
-   "代码侧交给 Claude 等模型辅助，美术走 AI 工作流。",
-   "3A 工作室把关键程押在生成式管线上的又一例。"
+   "多方报道称 Epic 全面押注 AI 优先开发，与迪士尼合作的射击游戏被无限期延期。",
+   "代码侧交给 Claude 等模型辅助，美术走 AI 工作流，发售目标被推到 2027 后。",
+   "3A 工作室把工期押在生成式管线上的又一高调案例。"
   ],
   "links": [
    {
@@ -4238,17 +4308,24 @@
     "url": "https://www.aibase.com/news/31595",
     "date": "2026-10-13",
     "same_event": true
+   },
+   {
+    "label": "AIBase",
+    "title": "Epic 逼迪士尼射击游戏\"AI 优先\"：代码不再手敲，2027 发售已无限延期",
+    "url": "https://www.aibase.com/news/31607",
+    "date": "2026-10-13",
+    "same_event": true
    }
   ],
-  "score": 57.2,
+  "score": 58.4,
   "score_parts": {
    "industry": 70,
    "actionable": 40,
-   "heat": 61,
+   "heat": 67,
    "breadth": 50
   },
   "heat_signals": {
-   "reports": 2,
+   "reports": 3,
    "domains": 2,
    "x_posts_7d": 1532,
    "x_spike_7d": 1532
@@ -4308,9 +4385,9 @@
   "date": "2026-10-13",
   "meta": "",
   "bullets": [
-   "Anthropic 发出警告：小型模型可能在几个月内掌握自我复制能力。",
-   "报道强调「关都关不掉」的风险叙事，再次推高安全议题热度。",
-   "对开源小模型治理与企业部署策略都有警示意义。"
+   "Anthropic 警告：小型模型可能在数月内掌握自我复制能力。",
+   "中文报道以「没有总开关的数字蠕虫」强化风险叙事。",
+   "对开源小模型治理与企业 Agent 权限设计都有警示意义。"
   ],
   "links": [
    {
@@ -4325,17 +4402,24 @@
     "url": "https://www.aibase.com/news/31603",
     "date": "2026-10-13",
     "same_event": true
+   },
+   {
+    "label": "AIBase",
+    "title": "没有总开关的\"数字蠕虫\"：Anthropic 称小模型年底就能自己复制自己",
+    "url": "https://www.aibase.com/news/31610",
+    "date": "2026-10-13",
+    "same_event": true
    }
   ],
-  "score": 53.7,
+  "score": 54.9,
   "score_parts": {
    "industry": 75,
    "actionable": 25,
-   "heat": 46,
+   "heat": 52,
    "breadth": 70
   },
   "heat_signals": {
-   "reports": 2,
+   "reports": 3,
    "domains": 1,
    "x_posts_7d": 484,
    "x_spike_7d": 477
@@ -4955,6 +5039,1083 @@
    "actionable": 20,
    "heat": 30,
    "breadth": 35
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "character-ai-bankruptcy",
+  "title": "Character.AI 申请 Chapter 11 破产，迪士尼约 2000 万美元接手部分资产",
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy-disney",
+  "date": "2026-10-13",
+  "meta": "",
+  "bullets": [
+   "成立约五年的 Character.AI 申请 Chapter 11 破产保护。",
+   "报道称 Disney 以约 2000 万美元牵头竞购/接手部分资产。",
+   "消费级角色聊天赛道出清，IP 方入场整合互动叙事能力。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "Character.AI 申请 Chapter 11 破产，Disney 以 2000 万美元牵头竞购部分资产",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy-disney",
+    "date": "2026-10-13"
+   },
+   {
+    "label": "AIHot",
+    "title": "Character.AI 成立五年后申请 Chapter 11 破产，部分资产以 2000 万美元出售给 Disney",
+    "url": "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy",
+    "date": "2026-10-13",
+    "same_event": true
+   },
+   {
+    "label": "AIBase",
+    "title": "Character.AI 申请破产，迪士尼 2000 万美元抄底接手部分资产",
+    "url": "https://www.aibase.com/news/31611",
+    "date": "2026-10-13",
+    "same_event": true
+   }
+  ],
+  "score": 63.4,
+  "score_parts": {
+   "industry": 80,
+   "actionable": 35,
+   "heat": 72,
+   "breadth": 65
+  },
+  "heat_signals": {
+   "reports": 3,
+   "domains": 3,
+   "x_posts_7d": 841,
+   "x_spike_7d": 841
+  }
+ },
+ {
+  "id": "liquid-lfm25-24b",
+  "title": "Liquid AI 发布 LFM2.5-24B-A2B 端侧推理模型",
+  "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
+  "date": "2026-10-13",
+  "meta": "",
+  "bullets": [
+   "Liquid AI 推出 LFM2.5-24B-A2B，面向端侧/本地快速私有 Agent。",
+   "官方与 Hugging Face 同步放出模型卡与博客说明。",
+   "延续 Liquid 在小参数、低延迟推理上的产品线。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "Liquid AI 发布 LFM2.5-24B-A2B 端侧推理模型",
+    "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
+    "date": "2026-10-13"
+   },
+   {
+    "label": "Official AI",
+    "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+    "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+    "date": "2026-10-14",
+    "same_event": true
+   }
+  ],
+  "score": 64.2,
+  "score_parts": {
+   "industry": 70,
+   "actionable": 70,
+   "heat": 46,
+   "breadth": 60
+  },
+  "heat_signals": {
+   "reports": 2,
+   "domains": 2,
+   "x_posts_7d": 98,
+   "x_spike_7d": 98
+  }
+ },
+ {
+  "id": "anthropic-scion",
+  "title": "Anthropic 自研版本控制系统 Scion，五个月完成 monorepo 迁离 git",
+  "url": "https://www.anthropic.com/engineering/redesigning-source-control",
+  "date": "2026-10-13",
+  "meta": "",
+  "bullets": [
+   "Anthropic 工程博客披露自研源码控制系统 Scion。",
+   "称在约五个月内完成巨型 monorepo 从 git 的迁移。",
+   "反映前沿实验室为 Agent/大规模协作定制内部工程底座。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "Anthropic 自研版本控制系统 Scion，五个月完成 monorepo 从 git 迁移",
+    "url": "https://www.anthropic.com/engineering/redesigning-source-control",
+    "date": "2026-10-13"
+   }
+  ],
+  "score": 54.0,
+  "score_parts": {
+   "industry": 65,
+   "actionable": 55,
+   "heat": 35,
+   "breadth": 45
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 176,
+   "x_spike_7d": 176
+  }
+ },
+ {
+  "id": "apple-homeview",
+  "title": "苹果发布 7 英寸智能音箱 HomeView，售价 299 美元并搭载 Siri AI",
+  "url": "https://www.apple.com/newsroom/2026/10/meet-apple-homeview-a-new-way-to-enjoy-entertainment-and-manage-the-home",
+  "date": "2026-10-13",
+  "meta": "",
+  "bullets": [
+   "Apple 发布 HomeView：7 英寸屏幕智能家居/娱乐音箱。",
+   "售价 299 美元，强调 Siri AI 与家庭管理能力。",
+   "苹果把生成式助手更深嵌进客厅硬件入口。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "Apple 发布 7 英寸智能音箱 HomeView，售价 299 美元并搭载 Siri AI",
+    "url": "https://www.apple.com/newsroom/2026/10/meet-apple-homeview-a-new-way-to-enjoy-entertainment-and-manage-the-home",
+    "date": "2026-10-13"
+   }
+  ],
+  "score": 62.5,
+  "score_parts": {
+   "industry": 70,
+   "actionable": 55,
+   "heat": 55,
+   "breadth": 70
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 5971,
+   "x_spike_7d": 5971
+  }
+ },
+ {
+  "id": "openai-office-bug",
+  "title": "OpenAI 办公室发现窃密录音装置，涉事员工被捕",
+  "url": "https://x.com/OpenAINewsroom/status/2110095403198849132",
+  "date": "2026-10-14",
+  "meta": "",
+  "bullets": [
+   "OpenAI 新闻办披露办公室发现窃密录音装置。",
+   "涉事员工已被捕，安全与保密议题再度升温。",
+   "对前沿实验室物理安全与内控流程提出公开警示。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "OpenAI 办公室发现窃密录音装置，涉事员工被捕",
+    "url": "https://x.com/OpenAINewsroom/status/2110095403198849132",
+    "date": "2026-10-14"
+   }
+  ],
+  "score": 52.0,
+  "score_parts": {
+   "industry": 75,
+   "actionable": 20,
+   "heat": 50,
+   "breadth": 60
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 2096,
+   "x_spike_7d": 2013
+  }
+ },
+ {
+  "id": "minicpm-v47",
+  "title": "面壁智能发布端侧多模态 MiniCPM-V 4.7：约 3GB 内存跑出 13+ token/s",
+  "url": "https://www.aibase.com/news/31615",
+  "date": "2026-10-13",
+  "meta": "",
+  "bullets": [
+   "面壁智能发布 MiniCPM-V 4.7 端侧多模态模型。",
+   "宣称约 3GB 内存即可跑到 13+ token/s。",
+   "继续加码手机/边缘设备上的视觉-语言能力。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "面壁智能端侧多模态 MiniCPM-V 4.7 发布：3GB 内存跑出 13+ token/s",
+    "url": "https://www.aibase.com/news/31615",
+    "date": "2026-10-13"
+   }
+  ],
+  "score": 58.5,
+  "score_parts": {
+   "industry": 60,
+   "actionable": 70,
+   "heat": 40,
+   "breadth": 55
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 337,
+   "x_spike_7d": 329
+  }
+ },
+ {
+  "id": "gemini-argon-adk-case",
+  "title": "Google 用 Gemini 4 Argon 无人值守优化约 20 万行 Python 代码库 ADK",
+  "url": "https://developers.googleblog.com/optimizing-a-200000-line-python-codebase-overnight-with-gemini-4-argon",
+  "date": "2026-10-13",
+  "meta": "",
+  "bullets": [
+   "Google 开发者博客展示用 Gemini 4 Argon 过夜优化约 20 万行 Python ADK。",
+   "属于发布配套的工程案例，而非模型本体发布稿。",
+   "对评估代码 Agent 在大型仓库上的无人值守能力有参考价值。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "Google 用 Gemini 4 Argon 无人值守优化 20 万行 Python 代码库 ADK",
+    "url": "https://developers.googleblog.com/optimizing-a-200000-line-python-codebase-overnight-with-gemini-4-argon",
+    "date": "2026-10-13"
+   }
+  ],
+  "score": 54.0,
+  "score_parts": {
+   "industry": 55,
+   "actionable": 70,
+   "heat": 30,
+   "breadth": 50
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "langchain-scaledown",
+  "title": "LangChain 发布 langchain-scaledown：约束解码管理长时 Agent 上下文",
+  "url": "https://www.langchain.com/blog/building-long-running-agents-with-scaledown-and-deep-agents",
+  "date": "2026-10-13",
+  "meta": "",
+  "bullets": [
+   "LangChain 推出与 ScaleDown 的集成，服务长时运行智能体。",
+   "用约束解码等方式管理不断膨胀的上下文。",
+   "面向生产级 Agent 内存/上下文治理的工程向更新。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "LangChain 发布 langchain-scaledown 集成，用 ScaleDown 约束解码模型管理长时智能体上下文",
+    "url": "https://www.langchain.com/blog/building-long-running-agents-with-scaledown-and-deep-agents",
+    "date": "2026-10-13"
+   }
+  ],
+  "score": 55.5,
+  "score_parts": {
+   "industry": 55,
+   "actionable": 75,
+   "heat": 30,
+   "breadth": 50
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "langsmith-ai-search",
+  "title": "LangSmith 推出 AI Search：自然语言检索 Agent 轨迹",
+  "url": "https://www.langchain.com/blog/agent-traces-ai-search-langsmith",
+  "date": "2026-10-13",
+  "meta": "",
+  "bullets": [
+   "LangSmith 上线 AI Search，可用自然语言按行为搜索 agent traces。",
+   "降低调试复杂多智能体轨迹的门槛。",
+   "与同日的 ScaleDown 集成是两条独立产品更新。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "LangSmith 推出 AI Search，用自然语言按行为搜索 agent 轨迹",
+    "url": "https://www.langchain.com/blog/agent-traces-ai-search-langsmith",
+    "date": "2026-10-13"
+   }
+  ],
+  "score": 53.0,
+  "score_parts": {
+   "industry": 50,
+   "actionable": 75,
+   "heat": 30,
+   "breadth": 45
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "higgsfield-long-video",
+  "title": "Higgsfield 借助 OpenAI：AI 视频从约 1 分钟拉长到 10 分钟以上",
+  "url": "https://openai.com/index/higgsfield-longer-videos-voice",
+  "date": "2026-10-13",
+  "meta": "",
+  "bullets": [
+   "OpenAI 客户故事称 Higgsfield 把 AI 视频时长从约 1 分钟做到 10 分钟以上。",
+   "并提到更长内容中的语音能力。",
+   "展示视频生成在时长与可用性上的产品突破。"
+  ],
+  "links": [
+   {
+    "label": "Official AI",
+    "title": "Higgsfield takes AI video from 1 minute to over 10",
+    "url": "https://openai.com/index/higgsfield-longer-videos-voice",
+    "date": "2026-10-13"
+   }
+  ],
+  "score": 48.0,
+  "score_parts": {
+   "industry": 55,
+   "actionable": 50,
+   "heat": 30,
+   "breadth": 50
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "nvidia-china-share-idc",
+  "title": "IDC：英伟达中国 AI 芯片份额降至约 34%，华为追至约 28%",
+  "url": "https://www.aibase.com/news/31617",
+  "date": "2026-10-13",
+  "meta": "",
+  "bullets": [
+   "IDC 报告称英伟达在中国 AI 芯片份额跌至约 34%。",
+   "华为份额追到约 28%，国产替代叙事升温。",
+   "影响算力采购与模型厂商的区域部署策略。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "IDC 报告：英伟达中国 AI 芯片份额跌至 34%，华为追到 28%",
+    "url": "https://www.aibase.com/news/31617",
+    "date": "2026-10-13"
+   }
+  ],
+  "score": 47.0,
+  "score_parts": {
+   "industry": 70,
+   "actionable": 25,
+   "heat": 30,
+   "breadth": 55
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "apple-huxe-podcasts",
+  "title": "苹果反向雇佣 AI 播客团队 Huxe，或为 Podcasts 个性化铺路",
+  "url": "https://www.aibase.com/news/31616",
+  "date": "2026-10-13",
+  "meta": "",
+  "bullets": [
+   "报道称苹果悄悄收编 AI 播客团队 Huxe。",
+   "外界解读是为 Apple Podcasts 的个性化体验埋线。",
+   "大厂用收购补齐音频内容 AI 能力的又一例。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "苹果悄悄收编 AI 播客团队：反向雇佣 Huxe，给 Podcasts 埋下个性化伏笔",
+    "url": "https://www.aibase.com/news/31616",
+    "date": "2026-10-13"
+   }
+  ],
+  "score": 41.0,
+  "score_parts": {
+   "industry": 50,
+   "actionable": 35,
+   "heat": 30,
+   "breadth": 45
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "ambi-funding",
+  "title": "全天候 AI 助手 Ambi 获约 2600 万美元融资，前 Plaud 高管创业",
+  "url": "https://www.aibase.com/news/31614",
+  "date": "2026-10-13",
+  "meta": "",
+  "bullets": [
+   "Ambi 宣称做「全天候监听」式 AI 助手并拿到约 2600 万美元融资。",
+   "团队含前 Plaud 高管，叙事是把智能从屏幕里放出来。",
+   "可穿戴/环境计算助手赛道的早期融资信号。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "全天候监听你的 AI 助手 Ambi 拿下 2600 万美元：前 Plaud 高管要把智能从屏幕里放出来",
+    "url": "https://www.aibase.com/news/31614",
+    "date": "2026-10-13"
+   }
+  ],
+  "score": 42.0,
+  "score_parts": {
+   "industry": 45,
+   "actionable": 45,
+   "heat": 30,
+   "breadth": 45
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "excel-interactive-canvas",
+  "title": "微软为 Excel 加入「交互式画布」：对话整理零散表格成决策看板",
+  "url": "https://www.aibase.com/news/31612",
+  "date": "2026-10-13",
+  "meta": "",
+  "bullets": [
+   "微软给 Excel 塞进交互式画布能力。",
+   "可用自然语言把零散表格整理成决策看板。",
+   "办公套件里 Copilot 交互面的又一次产品化。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "微软给 Excel 塞进\"交互式画布\"：说句话，零散表格变决策看板",
+    "url": "https://www.aibase.com/news/31612",
+    "date": "2026-10-13"
+   }
+  ],
+  "score": 57.5,
+  "score_parts": {
+   "industry": 60,
+   "actionable": 70,
+   "heat": 30,
+   "breadth": 65
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "qwen-ai-glasses",
+  "title": "千问亮相全新 AI 眼镜与耳机，强调「看一眼就能支付」等主动 AI",
+  "url": "https://www.aibase.com/news/31609",
+  "date": "2026-10-13",
+  "meta": "",
+  "bullets": [
+   "阿里千问高调展示全新 AI 眼镜与耳机形态。",
+   "宣传点包括视觉识别支付等「主动 AI」场景。",
+   "与此前 NBA 中国赛耳机预约是不同的产品发布节点。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "看一眼就能支付?千问全新AI眼镜与耳机高调亮相，开启主动AI新时代",
+    "url": "https://www.aibase.com/news/31609",
+    "date": "2026-10-13"
+   }
+  ],
+  "score": 51.5,
+  "score_parts": {
+   "industry": 55,
+   "actionable": 60,
+   "heat": 30,
+   "breadth": 55
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "qualcomm-ai-phone-2028",
+  "title": "高通 CEO：AI 巨头或在 2028 年前后杀入手机市场",
+  "url": "https://www.aibase.com/news/31606",
+  "date": "2026-10-13",
+  "meta": "",
+  "bullets": [
+   "高通 CEO 称千亿级大模型有望塞进掌心。",
+   "并预判 AI 巨头或在 2028 年前后进入手机市场。",
+   "属于供应链高管对端侧 AI 竞争格局的展望，非具体产品发布。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "千亿大模型塞进掌心：高通 CEO 称 AI 巨头或 2028 年杀入手机市场",
+    "url": "https://www.aibase.com/news/31606",
+    "date": "2026-10-13"
+   }
+  ],
+  "score": 37.5,
+  "score_parts": {
+   "industry": 50,
+   "actionable": 20,
+   "heat": 30,
+   "breadth": 55
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "xbow-chrome-bounty",
+  "title": "XBOW 团队借 GPT-5.6 Sol 拿下 Chrome 约 25 万美元全链漏洞赏金",
+  "url": "https://x.com/reach_vb/status/2110086935733833893",
+  "date": "2026-10-14",
+  "meta": "",
+  "bullets": [
+   "报道称 XBOW 团队借助 OpenAI GPT-5.6 Sol 完成攻击链。",
+   "获得 Google Chrome 约 25 万美元全链漏洞赏金。",
+   "再次展示 Agent 辅助漏洞挖掘的实战收益。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "XBOW 团队借助 OpenAI GPT-5.6 Sol 获 Google Chrome 25 万美元全链漏洞赏金",
+    "url": "https://x.com/reach_vb/status/2110086935733833893",
+    "date": "2026-10-14"
+   }
+  ],
+  "score": 52.0,
+  "score_parts": {
+   "industry": 60,
+   "actionable": 55,
+   "heat": 35,
+   "breadth": 45
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 70,
+   "x_spike_7d": 70
+  }
+ },
+ {
+  "id": "comfyui-nvidia-vfx",
+  "title": "ComfyUI 上线 NVIDIA VFX 节点：视频超分、补帧与 SDR→HDR",
+  "url": "https://blog.comfy.org/p/nvidia-vfx-nodes-for-video-upscaling",
+  "date": "2026-10-14",
+  "meta": "",
+  "bullets": [
+   "ComfyUI 发布 NVIDIA VFX 节点集成。",
+   "支持视频超分、补帧以及 SDR 转 HDR 等后期能力。",
+   "把 NVIDIA 视效栈直接嵌进开源视频工作流。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "ComfyUI 上线 NVIDIA VFX 节点，支持视频超分、补帧与 SDR 转 HDR",
+    "url": "https://blog.comfy.org/p/nvidia-vfx-nodes-for-video-upscaling",
+    "date": "2026-10-14"
+   }
+  ],
+  "score": 49.5,
+  "score_parts": {
+   "industry": 45,
+   "actionable": 70,
+   "heat": 30,
+   "breadth": 45
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "elevenlabs-baroness",
+  "title": "ElevenLabs AI 重建嗓音，助力 Baroness Campbell 在上议院演讲",
+  "url": "https://x.com/ElevenLabs/status/2110037384192774210",
+  "date": "2026-10-13",
+  "meta": "",
+  "bullets": [
+   "ElevenLabs 用 AI 重建嗓音，协助 Baroness Campbell 在英国上议院发言。",
+   "展示语音克隆在无障碍与公共表达场景的落地。",
+   "也再引发对合成语音身份与授权的讨论。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "ElevenLabs AI 重建嗓音助力 Baroness Campbell 在英国上议院发表演讲",
+    "url": "https://x.com/ElevenLabs/status/2110037384192774210",
+    "date": "2026-10-13"
+   }
+  ],
+  "score": 38.5,
+  "score_parts": {
+   "industry": 40,
+   "actionable": 40,
+   "heat": 30,
+   "breadth": 45
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "github-ai-scan-metrics",
+  "title": "GitHub：Code scanning AI Scan 指标进入 security overview",
+  "url": "https://github.blog/changelog/2026-10-13-code-scanning-ai-scan-metrics-in-security-overview",
+  "date": "2026-10-13",
+  "meta": "",
+  "bullets": [
+   "GitHub Changelog：AI Scan 相关指标进入安全总览。",
+   "方便组织查看代码扫描中的 AI 辅助检测表现。",
+   "面向安全工程看板的增量更新。"
+  ],
+  "links": [
+   {
+    "label": "Official AI",
+    "title": "Code scanning AI Scan metrics in security overview",
+    "url": "https://github.blog/changelog/2026-10-13-code-scanning-ai-scan-metrics-in-security-overview",
+    "date": "2026-10-13"
+   }
+  ],
+  "score": 42.5,
+  "score_parts": {
+   "industry": 40,
+   "actionable": 55,
+   "heat": 30,
+   "breadth": 40
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "github-budgets-filter",
+  "title": "GitHub：Budgets 支持搜索与过滤",
+  "url": "https://github.blog/changelog/2026-10-13-search-and-filter-for-budgets-now-available",
+  "date": "2026-10-13",
+  "meta": "",
+  "bullets": [
+   "GitHub 为 budgets 增加搜索与过滤能力。",
+   "便于在用量/配额视图里快速定位条目。",
+   "平台治理向的常规增强。"
+  ],
+  "links": [
+   {
+    "label": "Official AI",
+    "title": "Search and filter for budgets now available",
+    "url": "https://github.blog/changelog/2026-10-13-search-and-filter-for-budgets-now-available",
+    "date": "2026-10-13"
+   }
+  ],
+  "score": 36.5,
+  "score_parts": {
+   "industry": 30,
+   "actionable": 50,
+   "heat": 30,
+   "breadth": 35
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "github-dependabot-withdrawn",
+  "title": "GitHub：改进已撤回 Dependabot 警报的检测",
+  "url": "https://github.blog/changelog/2026-10-13-improved-detection-for-withdrawn-dependabot-alerts",
+  "date": "2026-10-13",
+  "meta": "",
+  "bullets": [
+   "Changelog：改进对 withdrawn Dependabot alerts 的检测。",
+   "减少过时或已撤回警报的噪声。",
+   "供应链安全告警质量的工程修补。"
+  ],
+  "links": [
+   {
+    "label": "Official AI",
+    "title": "Improved detection for withdrawn Dependabot alerts",
+    "url": "https://github.blog/changelog/2026-10-13-improved-detection-for-withdrawn-dependabot-alerts",
+    "date": "2026-10-13"
+   }
+  ],
+  "score": 40.0,
+  "score_parts": {
+   "industry": 35,
+   "actionable": 55,
+   "heat": 30,
+   "breadth": 35
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "github-enterprise-settings",
+  "title": "GitHub：企业托管设置强制执行能力更新",
+  "url": "https://github.blog/changelog/2026-10-13-enterprise-managed-settings-enforcement-updates",
+  "date": "2026-10-13",
+  "meta": "",
+  "bullets": [
+   "GitHub 更新 enterprise managed settings 的强制执行能力。",
+   "加强组织级策略落地。",
+   "面向企业治理的常规平台更新。"
+  ],
+  "links": [
+   {
+    "label": "Official AI",
+    "title": "Enterprise managed settings enforcement updates",
+    "url": "https://github.blog/changelog/2026-10-13-enterprise-managed-settings-enforcement-updates",
+    "date": "2026-10-13"
+   }
+  ],
+  "score": 38.5,
+  "score_parts": {
+   "industry": 35,
+   "actionable": 50,
+   "heat": 30,
+   "breadth": 35
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "github-secret-anthropic",
+  "title": "GitHub Secret scanning 默认拦截 Anthropic Key，并加入 Salesforce",
+  "url": "https://github.blog/changelog/2026-10-13-secret-scanning-blocks-anthropic-keys-by-default-adds-salesforce",
+  "date": "2026-10-14",
+  "meta": "",
+  "bullets": [
+   "Secret scanning 默认阻断 Anthropic 密钥外泄。",
+   "同时扩展对 Salesforce 相关密钥的支持。",
+   "降低模型 API Key 误提交造成的泄露风险。"
+  ],
+  "links": [
+   {
+    "label": "Official AI",
+    "title": "Secret scanning blocks Anthropic keys by default, adds Salesforce",
+    "url": "https://github.blog/changelog/2026-10-13-secret-scanning-blocks-anthropic-keys-by-default-adds-salesforce",
+    "date": "2026-10-14"
+   }
+  ],
+  "score": 50.0,
+  "score_parts": {
+   "industry": 50,
+   "actionable": 65,
+   "heat": 30,
+   "breadth": 45
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "github-secret-detection-model",
+  "title": "GitHub 详解密钥检测模型：在降噪前提下发现更多 secrets",
+  "url": "https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise",
+  "date": "2026-10-14",
+  "meta": "",
+  "bullets": [
+   "GitHub 发文介绍自家 secret detection 模型思路。",
+   "强调在更低噪声下找到更多真实密钥。",
+   "与同日的 Anthropic Key 默认拦截是不同公告。"
+  ],
+  "links": [
+   {
+    "label": "Official AI",
+    "title": "GitHub’s model for secret detection: Finding more secrets with less noise",
+    "url": "https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise",
+    "date": "2026-10-14"
+   }
+  ],
+  "score": 44.5,
+  "score_parts": {
+   "industry": 45,
+   "actionable": 55,
+   "heat": 30,
+   "breadth": 40
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "github-code-quality-audit",
+  "title": "GitHub：可审计 Code Quality 发现的关闭与重新打开",
+  "url": "https://github.blog/changelog/2026-10-13-audit-github-code-quality-finding-dismissals-and-reopenings",
+  "date": "2026-10-14",
+  "meta": "",
+  "bullets": [
+   "Changelog：支持审计 Code Quality finding 的 dismiss/reopen。",
+   "便于合规与质量流程留痕。",
+   "面向企业质量门禁的增量能力。"
+  ],
+  "links": [
+   {
+    "label": "Official AI",
+    "title": "Audit GitHub Code Quality finding dismissals and reopenings",
+    "url": "https://github.blog/changelog/2026-10-13-audit-github-code-quality-finding-dismissals-and-reopenings",
+    "date": "2026-10-14"
+   }
+  ],
+  "score": 40.0,
+  "score_parts": {
+   "industry": 35,
+   "actionable": 55,
+   "heat": 30,
+   "breadth": 35
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "pydantic-colvin-graph",
+  "title": "Pydantic AI 创始人：图库是个错误，代码本身就是图",
+  "url": "https://pydantic.dev/articles/the-code-is-the-graph",
+  "date": "2026-10-13",
+  "meta": "",
+  "bullets": [
+   "Samuel Colvin 发文讨论 Agent 编排中的「图」抽象。",
+   "主张用代码表达图，而不是再维护一套图库。",
+   "属于框架作者的设计评论，非产品发布。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "Pydantic AI 创始人 Samuel Colvin：图库是个错误，代码本身就是图",
+    "url": "https://pydantic.dev/articles/the-code-is-the-graph",
+    "date": "2026-10-13"
+   }
+  ],
+  "score": 40.5,
+  "score_parts": {
+   "industry": 35,
+   "actionable": 55,
+   "heat": 30,
+   "breadth": 40
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "windborne-airforce",
+  "title": "WindBorne 以自主气象气球获美国空军近 5000 万美元合同",
+  "url": "https://www.aibase.com/news/31613",
+  "date": "2026-10-13",
+  "meta": "",
+  "bullets": [
+   "报道称 WindBorne 用约 700 颗自主气球执行台风观测等任务。",
+   "斩获美国空军近 5000 万美元合同。",
+   "AI/自主系统进入气象与国防数据采集的商业化案例。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "700 颗自主气球飞进台风眼：WindBorne 拿下美国空军近 5000 万美元合同",
+    "url": "https://www.aibase.com/news/31613",
+    "date": "2026-10-13"
+   }
+  ],
+  "score": 33.5,
+  "score_parts": {
+   "industry": 40,
+   "actionable": 25,
+   "heat": 30,
+   "breadth": 40
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "waytoagi-rea-hallucination",
+  "title": "WayToAGI：解读 REA 源码中的防幻觉设计",
+  "url": "https://waytoagi.feishu.cn/wiki/S9dFwM0hgiU1RAkjHzjcZa7FnVd?from=from_copylink",
+  "date": "2026-10-14",
+  "meta": "",
+  "bullets": [
+   "社区长文通读高星 REA 项目源码。",
+   "总结其防幻觉设计，供做 AI 应用的人参考。",
+   "属于教程/解读，不是官方产品发布。"
+  ],
+  "links": [
+   {
+    "label": "WayToAGI",
+    "title": "通读完13万星的REA源码，它的防幻觉设计值得每个做AI的人抄一遍",
+    "url": "https://waytoagi.feishu.cn/wiki/S9dFwM0hgiU1RAkjHzjcZa7FnVd?from=from_copylink",
+    "date": "2026-10-14"
+   }
+  ],
+  "score": 39.5,
+  "score_parts": {
+   "industry": 30,
+   "actionable": 60,
+   "heat": 30,
+   "breadth": 35
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "waytoagi-codex-visual-skills",
+  "title": "WayToAGI：给 Codex 装上视觉设计向 Skill",
+  "url": "https://waytoagi.feishu.cn/wiki/In4cwfJ1viv6FXk7N7bcLTWPnSd?from=from_copylink",
+  "date": "2026-10-14",
+  "meta": "",
+  "bullets": [
+   "教程介绍 3 个让 Codex 更懂视觉设计的 Skill。",
+   "目标是把「理工男」工作流补上设计表达。",
+   "社区技能包分享，非官方发版。"
+  ],
+  "links": [
+   {
+    "label": "WayToAGI",
+    "title": "给Codex装上这3个Skill，让它从理工男变成专属视觉设计师",
+    "url": "https://waytoagi.feishu.cn/wiki/In4cwfJ1viv6FXk7N7bcLTWPnSd?from=from_copylink",
+    "date": "2026-10-14"
+   }
+  ],
+  "score": 39.0,
+  "score_parts": {
+   "industry": 25,
+   "actionable": 65,
+   "heat": 30,
+   "breadth": 35
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "waytoagi-codex-clone-workflow",
+  "title": "WayToAGI：Codex 完整工作流 1:1 复刻软件（REA+PentAGI+ReverseSkill）",
+  "url": "https://waytoagi.feishu.cn/wiki/YlcQwzSD6iCJnXkdxn8cifsmnfg?from=from_copylink",
+  "date": "2026-10-14",
+  "meta": "",
+  "bullets": [
+   "长文给出用 Codex 复刻软件的完整工作流。",
+   "组合 REA、PentAGI 与 ReverseSkill 等工具。",
+   "实操向教程，独立于其他 Codex Skill 分享。"
+  ],
+  "links": [
+   {
+    "label": "WayToAGI",
+    "title": "Codex 软件开发完整工作流，1:1 复刻任何软件（REA+PentAGI+ReverseSkill）",
+    "url": "https://waytoagi.feishu.cn/wiki/YlcQwzSD6iCJnXkdxn8cifsmnfg?from=from_copylink",
+    "date": "2026-10-14"
+   }
+  ],
+  "score": 42.5,
+  "score_parts": {
+   "industry": 30,
+   "actionable": 70,
+   "heat": 30,
+   "breadth": 35
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "waytoagi-codex-claude-anim",
+  "title": "WayToAGI：开源 Codex 生成「Claude 感」动画 Skill",
+  "url": "https://waytoagi.feishu.cn/wiki/BqDcwbQDMi5loikpW4vceIVInye?from=from_copylink",
+  "date": "2026-10-14",
+  "meta": "",
+  "bullets": [
+   "社区开源用 Codex 生成 Claude 风格动画的 Skill。",
+   "面向内容/动效快速出片。",
+   "与其他 Codex Skill 教程是不同材料。"
+  ],
+  "links": [
+   {
+    "label": "WayToAGI",
+    "title": "Codex 生成 “Claude感”动画skill（已开源）",
+    "url": "https://waytoagi.feishu.cn/wiki/BqDcwbQDMi5loikpW4vceIVInye?from=from_copylink",
+    "date": "2026-10-14"
+   }
+  ],
+  "score": 37.0,
+  "score_parts": {
+   "industry": 25,
+   "actionable": 60,
+   "heat": 30,
+   "breadth": 30
   },
   "heat_signals": {
    "reports": 1,
