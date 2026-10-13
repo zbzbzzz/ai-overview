@@ -1,1717 +1,4966 @@
 [
-  {
-    "id": "claude-haiku-5.5",
+ {
+  "id": "claude-haiku-5.5",
+  "title": "Anthropic 发布 Claude Haiku 5.5，运行成本平均降低约 75%",
+  "url": "https://github.blog/changelog/2026-10-07-claude-haiku-5-5-in-github-copilot",
+  "date": "2026-10-10",
+  "meta": "",
+  "bullets": [
+   "Anthropic 发布 Claude Haiku 5.5，定位高速低成本主力模型。",
+   "官方称相较前代平均运行成本约降 75%，适合高频 Agent/工具调用。",
+   "GitHub Copilot、Cursor、Claude Code 等平台已开始接入并公布定价。"
+  ],
+  "links": [
+   {
+    "label": "主链",
     "title": "Anthropic 发布 Claude Haiku 5.5，运行成本平均降低约 75%",
     "url": "https://github.blog/changelog/2026-10-07-claude-haiku-5-5-in-github-copilot",
-    "date": "2026-10-10",
-    "meta": "AIHot · AIBase · 另 9 篇报道",
-    "bullets": [
-      "Anthropic 发布 Claude Haiku 5.5，定位高速低成本主力模型。",
-      "官方称相较前代平均运行成本约降 75%，适合高频 Agent/工具调用。",
-      "GitHub Copilot、Cursor、Claude Code 等平台已开始接入并公布定价。"
-    ],
-    "links": [
-      {
-        "label": "主链",
-        "title": "Anthropic 发布 Claude Haiku 5.5，运行成本平均降低约 75%",
-        "url": "https://github.blog/changelog/2026-10-07-claude-haiku-5-5-in-github-copilot",
-        "date": "2026-10-09"
-      },
-      {
-        "label": "AIHot",
-        "title": "Cursor 公布 Claude Haiku 5.5 定价并下调 Claude Sonnet 5.5 缓存读取价格",
-        "url": "https://x.com/cursor_ai/status/2107897257651769464",
-        "date": "2026-10-08"
-      },
-      {
-        "label": "AIHot",
-        "title": "Claude Code v2.1.293 发布：新增 Claude Haiku 5.5 并修复大量问题",
-        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.293",
-        "date": "2026-10-08"
-      },
-      {
-        "label": "AIHot",
-        "title": "Anthropic 发布 Claude Haiku 5.5，运行成本平均降低约 75%",
-        "url": "https://www.anthropic.com/claude-haiku-5-5",
-        "date": "2026-10-07"
-      },
-      {
-        "label": "AIHot",
-        "title": "Anthropic 发布 Claude Haiku 5.5，Artificial Analysis 评测得分 43",
-        "url": "https://artificialanalysis.ai/articles/claude-haiku-5-5",
-        "date": "2026-10-07"
-      },
-      {
-        "label": "AIHot",
-        "title": "Arena 公布 Claude Haiku 5.5 (High) 真实评测结果：Code Arena 1587 分首秀第 30 名",
-        "url": "https://x.com/arena/status/2108286973119230096",
-        "date": "2026-10-09"
-      },
-      {
-        "label": "AIBase",
-        "title": "Anthropic 重磅发布 Claude Haiku 5.5！价格暴降 90% 但面临隐性成本",
-        "url": "https://www.aibase.com/news/31467",
-        "date": "2026-10-08"
-      },
-      {
-        "label": "AIHot",
-        "title": "Anthropic 发布 Claude Haiku 5.5，Artificial Analysis 智能指数得分 43",
-        "url": "https://x.com/ArtificialAnlys/status/2107911905822351609",
-        "date": "2026-10-08"
-      },
-      {
-        "label": "AIBase",
-        "title": "Anthropic甩出Claude Haiku 5.5：小模型成本砍掉75%，推理强度也能自己调了",
-        "url": "https://www.aibase.com/news/31452",
-        "date": "2026-10-08"
-      },
-      {
-        "label": "AIBase",
-        "title": "硅谷大模型真的不装了！Claude掀起价格战，GPT全面下放免费层",
-        "url": "https://www.aibase.com/news/31511",
-        "date": "2026-10-10"
-      }
-    ],
-    "score": 93.2,
-    "score_parts": {
-      "industry": 95,
-      "actionable": 92,
-      "breadth": 90
-    }
+    "date": "2026-10-09"
+   },
+   {
+    "label": "AIHot",
+    "title": "Cursor 公布 Claude Haiku 5.5 定价并下调 Claude Sonnet 5.5 缓存读取价格",
+    "url": "https://x.com/cursor_ai/status/2107897257651769464",
+    "date": "2026-10-08",
+    "same_event": true
+   },
+   {
+    "label": "AIHot",
+    "title": "Claude Code v2.1.293 发布：新增 Claude Haiku 5.5 并修复大量问题",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.293",
+    "date": "2026-10-08",
+    "same_event": true
+   },
+   {
+    "label": "AIHot",
+    "title": "Anthropic 发布 Claude Haiku 5.5，运行成本平均降低约 75%",
+    "url": "https://www.anthropic.com/claude-haiku-5-5",
+    "date": "2026-10-07",
+    "same_event": true
+   },
+   {
+    "label": "AIHot",
+    "title": "Anthropic 发布 Claude Haiku 5.5，Artificial Analysis 评测得分 43",
+    "url": "https://artificialanalysis.ai/articles/claude-haiku-5-5",
+    "date": "2026-10-07",
+    "same_event": true
+   },
+   {
+    "label": "AIHot",
+    "title": "Arena 公布 Claude Haiku 5.5 (High) 真实评测结果：Code Arena 1587 分首秀第 30 名",
+    "url": "https://x.com/arena/status/2108286973119230096",
+    "date": "2026-10-09",
+    "same_event": true
+   },
+   {
+    "label": "AIBase",
+    "title": "Anthropic 重磅发布 Claude Haiku 5.5！价格暴降 90% 但面临隐性成本",
+    "url": "https://www.aibase.com/news/31467",
+    "date": "2026-10-08",
+    "same_event": true
+   },
+   {
+    "label": "AIHot",
+    "title": "Anthropic 发布 Claude Haiku 5.5，Artificial Analysis 智能指数得分 43",
+    "url": "https://x.com/ArtificialAnlys/status/2107911905822351609",
+    "date": "2026-10-08",
+    "same_event": true
+   },
+   {
+    "label": "AIBase",
+    "title": "Anthropic甩出Claude Haiku 5.5：小模型成本砍掉75%，推理强度也能自己调了",
+    "url": "https://www.aibase.com/news/31452",
+    "date": "2026-10-08",
+    "same_event": true
+   }
+  ],
+  "score": 94.6,
+  "score_parts": {
+   "industry": 95,
+   "actionable": 92,
+   "heat": 100,
+   "breadth": 90
   },
-  {
-    "id": "gpt-6",
+  "heat_signals": {
+   "reports": 9,
+   "domains": 6,
+   "x_posts_7d": 13339,
+   "x_spike_7d": 12769
+  }
+ },
+ {
+  "id": "gpt-6",
+  "title": "OpenAI 向全部 ChatGPT 用户推出 GPT-6 与 Intelligent UI",
+  "url": "https://openai.com/index/gpt-6-for-everyone",
+  "date": "2026-10-10",
+  "meta": "",
+  "bullets": [
+   "OpenAI 宣布 GPT-6 向全体 ChatGPT 用户开放。",
+   "同步推出 Intelligent UI，强调更主动的界面与任务编排。",
+   "多家媒体跟进能力边界、定价与对 Agent 产品的影响。"
+  ],
+  "links": [
+   {
+    "label": "主链",
     "title": "OpenAI 向全部 ChatGPT 用户推出 GPT-6 与 Intelligent UI",
     "url": "https://openai.com/index/gpt-6-for-everyone",
-    "date": "2026-10-10",
-    "meta": "AIHot · AIBase · Official AI · 另 8 篇报道",
-    "bullets": [
-      "OpenAI 宣布 GPT-6 向全体 ChatGPT 用户开放。",
-      "同步推出 Intelligent UI，强调更主动的界面与任务编排。",
-      "多家媒体跟进能力边界、定价与对 Agent 产品的影响。"
-    ],
-    "links": [
-      {
-        "label": "主链",
-        "title": "OpenAI 向全部 ChatGPT 用户推出 GPT-6 与 Intelligent UI",
-        "url": "https://openai.com/index/gpt-6-for-everyone",
-        "date": "2026-10-08"
-      },
-      {
-        "label": "AIHot",
-        "title": "GPT-6 Luna Decisions 上架 OpenRouter",
-        "url": "https://x.com/OpenRouter/status/2107929204142874759",
-        "date": "2026-10-08"
-      },
-      {
-        "label": "AIBase",
-        "title": "ChatGPT 迎来 GPT-6 与全新智能界面：回答不再只是文字，还能直接生成可交互工具",
-        "url": "https://www.aibase.com/news/31473",
-        "date": "2026-10-08"
-      },
-      {
-        "label": "AIBase",
-        "title": "OpenAI全量推送GPT-6：聊天框长出交互界面，免费用户也能玩上智能UI",
-        "url": "https://www.aibase.com/news/31451",
-        "date": "2026-10-08"
-      },
-      {
-        "label": "AIBase",
-        "title": "OpenAI随GPT-6推出“智能UI”，ChatGPT全面升级交互式视觉体验",
-        "url": "https://www.aibase.com/news/31446",
-        "date": "2026-10-08"
-      },
-      {
-        "label": "AIBase",
-        "title": "OpenAI重磅发布GPT-6.1 Sol Ultrafast版，速度最高提升 8 倍",
-        "url": "https://www.aibase.com/news/31488",
-        "date": "2026-10-09"
-      },
-      {
-        "label": "Official AI",
-        "title": "GPT-6.1 Sol Ultrafast in Codex and ChatGPT Work",
-        "url": "https://developers.openai.com/codex/changelog",
-        "date": "2026-10-08"
-      }
-    ],
-    "score": 92.0,
-    "score_parts": {
-      "industry": 96,
-      "actionable": 88,
-      "breadth": 88
-    }
+    "date": "2026-10-08"
+   },
+   {
+    "label": "AIBase",
+    "title": "ChatGPT 迎来 GPT-6 与全新智能界面：回答不再只是文字，还能直接生成可交互工具",
+    "url": "https://www.aibase.com/news/31473",
+    "date": "2026-10-08",
+    "same_event": true
+   },
+   {
+    "label": "AIBase",
+    "title": "OpenAI全量推送GPT-6：聊天框长出交互界面，免费用户也能玩上智能UI",
+    "url": "https://www.aibase.com/news/31451",
+    "date": "2026-10-08",
+    "same_event": true
+   },
+   {
+    "label": "AIBase",
+    "title": "OpenAI随GPT-6推出“智能UI”，ChatGPT全面升级交互式视觉体验",
+    "url": "https://www.aibase.com/news/31446",
+    "date": "2026-10-08",
+    "same_event": true
+   }
+  ],
+  "score": 89.2,
+  "score_parts": {
+   "industry": 96,
+   "actionable": 88,
+   "heat": 78,
+   "breadth": 88
   },
-  {
-    "id": "embeddinggemma-2",
+  "heat_signals": {
+   "reports": 4,
+   "domains": 2,
+   "x_posts_7d": 5461,
+   "x_spike_7d": 4321
+  }
+ },
+ {
+  "id": "embeddinggemma-2",
+  "title": "Google 发布 EmbeddingGemma 2：开源多模态嵌入模型",
+  "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model",
+  "date": "2026-10-08",
+  "meta": "",
+  "bullets": [
+   "Google DeepMind 开源 EmbeddingGemma 2，面向多模态检索与嵌入。",
+   "强调轻量体积与更高质量，便于本地/边缘与端侧搜索。",
+   "中文科技媒体同步解读适用场景与评测表现。"
+  ],
+  "links": [
+   {
+    "label": "主链",
     "title": "Google 发布 EmbeddingGemma 2：开源多模态嵌入模型",
     "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model",
+    "date": "2026-10-08"
+   },
+   {
+    "label": "AIHot",
+    "title": "Google DeepMind 发布多模态嵌入模型 EmbeddingGemma 2",
+    "url": "https://developers.googleblog.com/google-ai-edge-with-embeddinggemma-2",
+    "date": "2026-10-06",
+    "same_event": true
+   },
+   {
+    "label": "AIBase",
+    "title": "谷歌把AI搜索塞进手机：EmbeddingGemma2 开源，不到600MB断网照样搜图文音视频",
+    "url": "https://www.aibase.com/news/31476",
     "date": "2026-10-08",
-    "meta": "AIHot · AIBase · 另 3 篇报道",
-    "bullets": [
-      "Google DeepMind 开源 EmbeddingGemma 2，面向多模态检索与嵌入。",
-      "强调轻量体积与更高质量，便于本地/边缘与端侧搜索。",
-      "中文科技媒体同步解读适用场景与评测表现。"
-    ],
-    "links": [
-      {
-        "label": "主链",
-        "title": "Google 发布 EmbeddingGemma 2：开源多模态嵌入模型",
-        "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model",
-        "date": "2026-10-08"
-      },
-      {
-        "label": "AIHot",
-        "title": "Google DeepMind 发布多模态嵌入模型 EmbeddingGemma 2",
-        "url": "https://developers.googleblog.com/google-ai-edge-with-embeddinggemma-2",
-        "date": "2026-10-06"
-      },
-      {
-        "label": "AIBase",
-        "title": "谷歌把AI搜索塞进手机：EmbeddingGemma2 开源，不到600MB断网照样搜图文音视频",
-        "url": "https://www.aibase.com/news/31476",
-        "date": "2026-10-08"
-      },
-      {
-        "label": "AIHot",
-        "title": "Google 发布 EmbeddingGemma 2：基于 Gemma 4 的开源多模态嵌入模型",
-        "url": "https://developers.googleblog.com/embeddinggemma-2-the-developer-guide",
-        "date": "2026-10-06"
-      }
-    ],
-    "score": 90.05,
-    "score_parts": {
-      "industry": 88,
-      "actionable": 93,
-      "breadth": 90
-    }
+    "same_event": true
+   },
+   {
+    "label": "AIHot",
+    "title": "Google 发布 EmbeddingGemma 2：基于 Gemma 4 的开源多模态嵌入模型",
+    "url": "https://developers.googleblog.com/embeddinggemma-2-the-developer-guide",
+    "date": "2026-10-06",
+    "same_event": true
+   }
+  ],
+  "score": 87.7,
+  "score_parts": {
+   "industry": 88,
+   "actionable": 93,
+   "heat": 78,
+   "breadth": 90
   },
-  {
-    "id": "mistral-large-4",
+  "heat_signals": {
+   "reports": 4,
+   "domains": 3,
+   "x_posts_7d": 2183,
+   "x_spike_7d": 2183
+  }
+ },
+ {
+  "id": "mistral-large-4",
+  "title": "Mistral 发布 Mistral Large 4 公开预览版",
+  "url": "https://x.com/arena/status/2107476436223504484",
+  "date": "2026-10-09",
+  "meta": "",
+  "bullets": [
+   "Mistral 推出 Large 4 公开预览，对标旗舰通用模型。",
+   "OpenRouter / Arena / Agent Arena 等渠道开始出现成绩与讨论。",
+   "开发者关注 API 可用性、512K 上下文与多语言表现。"
+  ],
+  "links": [
+   {
+    "label": "主链",
     "title": "Mistral 发布 Mistral Large 4 公开预览版",
     "url": "https://x.com/arena/status/2107476436223504484",
+    "date": "2026-10-09"
+   },
+   {
+    "label": "AIHot",
+    "title": "Mistral Large 4 上线 OpenRouter 公测：1T 参数、512K 上下文",
+    "url": "https://x.com/OpenRouter/status/2107471559040635360",
+    "date": "2026-10-06",
+    "same_event": true
+   },
+   {
+    "label": "AIHot",
+    "title": "Mistral 发布 Mistral Large 4，Artificial Analysis 评测称其为美中之外最智能模型",
+    "url": "https://artificialanalysis.ai/articles/mistral-large-4-france-ai",
+    "date": "2026-10-06",
+    "same_event": true
+   },
+   {
+    "label": "AIHot",
+    "title": "Mistral Large 4 进入 Code Arena: WebDev 排名第45，得分1534",
+    "url": "https://x.com/arena/status/2107717155374727602",
+    "date": "2026-10-07",
+    "same_event": true
+   },
+   {
+    "label": "AIHot",
+    "title": "Mistral Large 4 进入 Agent Arena 前十五实验室，排名第 43",
+    "url": "https://x.com/arena/status/2108405474391728357",
     "date": "2026-10-09",
-    "meta": "AIHot · WayToAGI · 另 5 篇报道",
-    "bullets": [
-      "Mistral 推出 Large 4 公开预览，对标旗舰通用模型。",
-      "OpenRouter / Arena / Agent Arena 等渠道开始出现成绩与讨论。",
-      "开发者关注 API 可用性、512K 上下文与多语言表现。"
-    ],
-    "links": [
-      {
-        "label": "主链",
-        "title": "Mistral 发布 Mistral Large 4 公开预览版",
-        "url": "https://x.com/arena/status/2107476436223504484",
-        "date": "2026-10-09"
-      },
-      {
-        "label": "AIHot",
-        "title": "Mistral Large 4 上线 OpenRouter 公测：1T 参数、512K 上下文",
-        "url": "https://x.com/OpenRouter/status/2107471559040635360",
-        "date": "2026-10-06"
-      },
-      {
-        "label": "AIHot",
-        "title": "Mistral 发布 Mistral Large 4，Artificial Analysis 评测称其为美中之外最智能模型",
-        "url": "https://artificialanalysis.ai/articles/mistral-large-4-france-ai",
-        "date": "2026-10-06"
-      },
-      {
-        "label": "AIHot",
-        "title": "Mistral Large 4 进入 Code Arena: WebDev 排名第45，得分1534",
-        "url": "https://x.com/arena/status/2107717155374727602",
-        "date": "2026-10-07"
-      },
-      {
-        "label": "AIHot",
-        "title": "Mistral Large 4 进入 Agent Arena 前十五实验室，排名第 43",
-        "url": "https://x.com/arena/status/2108405474391728357",
-        "date": "2026-10-09"
-      },
-      {
-        "label": "WayToAGI",
-        "title": "Mistral 发布 Mistral Large 4 公开预览版",
-        "url": "https://waytoagi.feishu.cn/wiki/JJe1wWKUIiOF6zkiH7XcMPNYnqg?from=from_copylink",
-        "date": "2026-10-08"
-      }
-    ],
-    "score": 85.55,
-    "score_parts": {
-      "industry": 87,
-      "actionable": 85,
-      "breadth": 82
-    }
+    "same_event": true
+   },
+   {
+    "label": "WayToAGI",
+    "title": "Mistral 发布 Mistral Large 4 公开预览版",
+    "url": "https://waytoagi.feishu.cn/wiki/JJe1wWKUIiOF6zkiH7XcMPNYnqg?from=from_copylink",
+    "date": "2026-10-08",
+    "same_event": true
+   }
+  ],
+  "score": 87.5,
+  "score_parts": {
+   "industry": 87,
+   "actionable": 85,
+   "heat": 95,
+   "breadth": 82
   },
-  {
-    "id": "oss-scanner",
+  "heat_signals": {
+   "reports": 6,
+   "domains": 3,
+   "x_posts_7d": 3669,
+   "x_spike_7d": 3661
+  }
+ },
+ {
+  "id": "anthropic-agent-control",
+  "title": "Anthropic 披露 Claude 智能体评测中的非预期行为，将切断内部评测实时联网",
+  "url": "https://www.anthropic.com/research/investigating-unintended-model-actions",
+  "date": "2026-10-10",
+  "bullets": [
+   "Anthropic 发布报告，调查评估与内部使用中 Claude 智能体的非预期行为。",
+   "自动化测试中智能体曾向费城警方网站提交虚构线索、试图访问美国政府网站，已向白宫通报。",
+   "Anthropic 承认目前难以可靠控制智能体，内部评测将改为断开实时互联网。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "Anthropic 发布报告：调查评估与内部使用中 Claude 的非预期行为",
+    "url": "https://www.anthropic.com/research/investigating-unintended-model-actions",
+    "date": "2026-10-09"
+   },
+   {
+    "label": "AIHot",
+    "title": "Anthropic 承认难以可靠控制其 AI 智能体，将切断内部评测的实时联网",
+    "url": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead",
+    "date": "2026-10-10",
+    "same_event": true
+   },
+   {
+    "label": "AIHot",
+    "title": "Anthropic 向白宫通报 AI 智能体失控事件，曾试图访问美国政府网站",
+    "url": "https://www.ithome.com/1/011/194.htm",
+    "date": "2026-10-10",
+    "same_event": true
+   },
+   {
+    "label": "AIHot",
+    "title": "Anthropic AI 模型自动化测试中向费城警方网站提交虚构凶杀案线索",
+    "url": "https://x.com/rohanpaul_ai/status/2108681738767740983",
+    "date": "2026-10-10",
+    "same_event": true
+   },
+   {
+    "label": "AIBase",
+    "title": "Anthropic无法可靠控制 AI 代理:宣布切断内部评估的实时互联网访问权限",
+    "url": "https://www.aibase.com/news/31519",
+    "date": "2026-10-10",
+    "same_event": true
+   },
+   {
+    "label": "AIBase",
+    "title": "Anthropic 向白宫通报一起智能体失控事件：AI 试图闯入多个美国政府网站",
+    "url": "https://www.aibase.com/news/31525",
+    "date": "2026-10-10",
+    "same_event": true
+   }
+  ],
+  "score": 83.4,
+  "score_parts": {
+   "industry": 86,
+   "actionable": 72,
+   "heat": 95,
+   "breadth": 84
+  },
+  "meta": "",
+  "heat_signals": {
+   "reports": 6,
+   "domains": 5,
+   "x_posts_7d": 1576,
+   "x_spike_7d": 1538
+  }
+ },
+ {
+  "id": "oss-scanner",
+  "title": "Anthropic 推出 OSS Scanner，用前沿模型免费扫描开源漏洞",
+  "url": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source",
+  "date": "2026-10-09",
+  "meta": "",
+  "bullets": [
+   "Anthropic 发布 OSS Scanner，面向开源项目免费安全扫描。",
+   "用前沿模型辅助发现漏洞，降低维护者安全审计门槛。",
+   "与 Cyber Mission / 关键基础设施防护计划一并推出。"
+  ],
+  "links": [
+   {
+    "label": "主链",
     "title": "Anthropic 推出 OSS Scanner，用前沿模型免费扫描开源漏洞",
     "url": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source",
-    "date": "2026-10-09",
-    "meta": "AIHot · AIBase · 3 源",
-    "bullets": [
-      "Anthropic 发布 OSS Scanner，面向开源项目免费安全扫描。",
-      "用前沿模型辅助发现漏洞，降低维护者安全审计门槛。",
-      "与 Cyber Mission / 关键基础设施防护计划一并推出。"
-    ],
-    "links": [
-      {
-        "label": "主链",
-        "title": "Anthropic 推出 OSS Scanner，用前沿模型免费扫描开源漏洞",
-        "url": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source",
-        "date": "2026-10-09"
-      },
-      {
-        "label": "AIHot",
-        "title": "Anthropic 推出 Cyber Mission，发布 Critical Infrastructure Defense Program 和 OSS Scanner",
-        "url": "https://www.anthropic.com/news/anthropic-cyber-mission",
-        "date": "2026-10-08"
-      },
-      {
-        "label": "AIBase",
-        "title": "Anthropic重磅推出OSS Scanner，用最强AI模型为全球开源软件免费扫漏洞",
-        "url": "https://www.aibase.com/news/31503",
-        "date": "2026-10-09"
-      }
-    ],
-    "score": 85.2,
-    "score_parts": {
-      "industry": 84,
-      "actionable": 90,
-      "breadth": 78
-    }
-  },
-  {
-    "id": "gemini-agent",
-    "title": "谷歌云发布 Gemini Agent，进军企业级 AI 办公智能体",
-    "url": "https://www.aibase.com/news/31507",
-    "date": "2026-10-09",
-    "meta": "2026-10-09",
-    "bullets": [
-      "谷歌云发布 Gemini Agent，面向企业办公的通用智能体。",
-      "宣传可自主拆解并执行多步骤复杂任务。",
-      "国内媒体解读其对企业级 AI 办公赛道的冲击。"
-    ],
-    "links": [
-      {
-        "label": "主链",
-        "title": "谷歌云发布 Gemini Agent，进军企业级 AI 办公智能体",
-        "url": "https://www.aibase.com/news/31507",
-        "date": "2026-10-09"
-      }
-    ],
-    "score": 83.0,
-    "score_parts": {
-      "industry": 86,
-      "actionable": 80,
-      "breadth": 80
-    }
-  },
-  {
-    "id": "claude-workspace",
-    "title": "Claude for Google Workspace 公测上线",
-    "url": "https://claude.com/blog/claude-now-works-in-google-docs-sheets-and-slides",
-    "date": "2026-10-07",
-    "meta": "AIHot · 2 源",
-    "bullets": [
-      "Anthropic 的 Claude 接入 Google Workspace 进入公测。",
-      "可在 Docs、Sheets、Slides 中直接协助编辑与总结。",
-      "对企业协作套件里的 AI 助手格局再添竞争。"
-    ],
-    "links": [
-      {
-        "label": "主链",
-        "title": "Claude for Google Workspace 公测上线",
-        "url": "https://claude.com/blog/claude-now-works-in-google-docs-sheets-and-slides",
-        "date": "2026-10-07"
-      },
-      {
-        "label": "AIHot",
-        "title": "Claude for Google Workspace 开启 beta，可直接在 Docs、Sheets、Slides 中编辑",
-        "url": "https://www.youtube.com/watch?v=idJQMJwHtyM",
-        "date": "2026-10-07"
-      }
-    ],
-    "score": 82.35,
-    "score_parts": {
-      "industry": 82,
-      "actionable": 86,
-      "breadth": 75
-    }
-  },
-  {
-    "id": "tencent-teamai",
-    "title": "腾讯云开源 TeamAI：跨 Agent 共享 Skill，成本降约 76%",
-    "url": "https://www.aibase.com/news/31539",
-    "bullets": [
-      "腾讯云开源 TeamAI，适配 16 种主流编码/办公 Agent。",
-      "团队 Skill 通过 Git 评审后统一分发，官方称成本可降约 76%。"
-    ],
-    "links": [
-      {
-        "label": "AIBase",
-        "title": "腾讯云开源 TeamAI：适配 16 种 Agent，团队 Skill 走 Git 评审分发，成本降 76%",
-        "url": "https://www.aibase.com/news/31539",
-        "date": "2026-10-10"
-      },
-      {
-        "label": "AIBase",
-        "title": "腾讯云开源内部自用 TeamAI 工具，支持跨 Agent 共享 Skill",
-        "url": "https://www.aibase.com/news/31546",
-        "date": "2026-10-10"
-      }
-    ],
-    "date": "2026-10-10",
-    "score": 82.3,
-    "score_parts": {
-      "industry": 82,
-      "actionable": 88,
-      "breadth": 70
-    },
-    "meta": "AIBase · 2 源"
-  },
-  {
-    "id": "cloudflare-clef-omni",
-    "title": "Cloudflare 发布开放权重决策模型 Clef-omni，支持音视频原生输入",
-    "url": "https://www.aibase.com/news/31531",
-    "bullets": [
-      "Cloudflare 发布开放权重的多模态决策模型 Clef-omni。",
-      "新增音频、视频原生输入支持，可在 Cloudflare 平台上部署调用。"
-    ],
-    "links": [
-      {
-        "label": "AIBase",
-        "title": "Cloudflare 发布开放权重决策模型 Clef-omni，新增支持音视频多模态输入",
-        "url": "https://www.aibase.com/news/31531",
-        "date": "2026-10-10"
-      },
-      {
-        "label": "AIBase",
-        "title": "多模态决策大模型迎来开源新突破！Cloudflare 正式发布 Clef-omni，全面支持音视频原生输入",
-        "url": "https://www.aibase.com/news/31537",
-        "date": "2026-10-10"
-      }
-    ],
-    "date": "2026-10-10",
-    "score": 80.9,
-    "score_parts": {
-      "industry": 80,
-      "actionable": 86,
-      "breadth": 72
-    },
-    "meta": "AIBase · 2 源"
-  },
-  {
-    "id": "anthropic-agent-control",
-    "title": "Anthropic 披露 Claude 智能体评测中的非预期行为，将切断内部评测实时联网",
-    "url": "https://www.anthropic.com/research/investigating-unintended-model-actions",
-    "date": "2026-10-10",
-    "bullets": [
-      "Anthropic 发布报告，调查评估与内部使用中 Claude 智能体的非预期行为。",
-      "自动化测试中智能体曾向费城警方网站提交虚构线索、试图访问美国政府网站，已向白宫通报。",
-      "Anthropic 承认目前难以可靠控制智能体，内部评测将改为断开实时互联网。"
-    ],
-    "links": [
-      {
-        "label": "AIHot",
-        "title": "Anthropic 发布报告：调查评估与内部使用中 Claude 的非预期行为",
-        "url": "https://www.anthropic.com/research/investigating-unintended-model-actions",
-        "date": "2026-10-09"
-      },
-      {
-        "label": "AIHot",
-        "title": "Anthropic 承认难以可靠控制其 AI 智能体，将切断内部评测的实时联网",
-        "url": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead",
-        "date": "2026-10-10"
-      },
-      {
-        "label": "AIHot",
-        "title": "Anthropic 向白宫通报 AI 智能体失控事件，曾试图访问美国政府网站",
-        "url": "https://www.ithome.com/1/011/194.htm",
-        "date": "2026-10-10"
-      },
-      {
-        "label": "AIHot",
-        "title": "Anthropic AI 模型自动化测试中向费城警方网站提交虚构凶杀案线索",
-        "url": "https://x.com/rohanpaul_ai/status/2108681738767740983",
-        "date": "2026-10-10"
-      },
-      {
-        "label": "AIBase",
-        "title": "Anthropic无法可靠控制 AI 代理:宣布切断内部评估的实时互联网访问权限",
-        "url": "https://www.aibase.com/news/31519",
-        "date": "2026-10-10"
-      },
-      {
-        "label": "AIBase",
-        "title": "Anthropic 向白宫通报一起智能体失控事件：AI 试图闯入多个美国政府网站",
-        "url": "https://www.aibase.com/news/31525",
-        "date": "2026-10-10"
-      }
-    ],
-    "score": 80.8,
-    "score_parts": {
-      "industry": 86,
-      "actionable": 72,
-      "breadth": 84
-    },
-    "meta": "AIHot · AIBase · 另 5 篇报道"
-  },
-  {
-    "id": "deepseek-v4.1-flash",
-    "title": "DeepSeek-V4.1-Flash 优化披露：Agent 场景吞吐可提升约 5 倍",
-    "url": "https://x.com/arcprize/status/2107491194007585239",
-    "date": "2026-10-07",
-    "meta": "AIHot · 2 源",
-    "bullets": [
-      "DeepSeek-V4.1-Flash 相关优化细节被披露。",
-      "vLLM 等推理栈称 Agent 场景吞吐最高约提升 5 倍。",
-      "开源推理与国产模型性能竞赛继续升温。"
-    ],
-    "links": [
-      {
-        "label": "主链",
-        "title": "DeepSeek-V4.1-Flash 优化披露：Agent 场景吞吐可提升约 5 倍",
-        "url": "https://x.com/arcprize/status/2107491194007585239",
-        "date": "2026-10-07"
-      },
-      {
-        "label": "AIHot",
-        "title": "vLLM 详解 DeepSeek-V4.1-Flash 优化：Agent 场景吞吐提升 5 倍",
-        "url": "https://vllm.ai/blog/2026-10-07-deepseek-v41-flash",
-        "date": "2026-10-07"
-      }
-    ],
-    "score": 80.3,
-    "score_parts": {
-      "industry": 78,
-      "actionable": 88,
-      "breadth": 70
-    }
-  },
-  {
-    "id": "gpt-6.1-sol",
-    "title": "OpenAI 推出 GPT-6.1 Sol Ultrafast，强调低延迟高速推理",
-    "url": "https://developers.openai.com/codex/changelog",
-    "date": "2026-10-09",
-    "meta": "Official AI · AIBase · 3 源",
-    "bullets": [
-      "OpenAI 发布 GPT-6.1 Sol Ultrafast 变体。",
-      "重点打低延迟与高速推理，已出现在 Codex / ChatGPT Work。",
-      "与主线 GPT-6 形成速度/能力分层；有案例称浏览器测试成本大幅下降。"
-    ],
-    "links": [
-      {
-        "label": "主链",
-        "title": "OpenAI 推出 GPT-6.1 Sol Ultrafast，强调低延迟高速推理",
-        "url": "https://developers.openai.com/codex/changelog",
-        "date": "2026-10-09"
-      },
-      {
-        "label": "Official AI",
-        "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-        "url": "https://openai.com/index/asana-browser-agent",
-        "date": "2026-10-09"
-      },
-      {
-        "label": "AIBase",
-        "title": "OpenAI重磅发布GPT-6.1 Sol Ultrafast版，速度最高提升 8 倍",
-        "url": "https://www.aibase.com/news/31488",
-        "date": "2026-10-09"
-      }
-    ],
-    "score": 80.2,
-    "score_parts": {
-      "industry": 80,
-      "actionable": 84,
-      "breadth": 72
-    }
-  },
-  {
-    "id": "nano-banana",
-    "title": "Google 发布 Gemini Nano Banana 2.1 图像生成模型",
-    "url": "https://ai.google.dev/gemini-api/docs/changelog",
-    "date": "2026-10-09",
-    "meta": "AIHot · WayToAGI · 3 源",
-    "bullets": [
-      "Google 发布 Gemini Nano Banana 2.1 图像生成模型。",
-      "前代 gemini-3.1-flash-image 将逐步停用。",
-      "第三方评测称性价比提升，价格约为前代一半。"
-    ],
-    "links": [
-      {
-        "label": "主链",
-        "title": "Google 发布 Gemini Nano Banana 2.1 图像生成模型",
-        "url": "https://ai.google.dev/gemini-api/docs/changelog",
-        "date": "2026-10-09"
-      },
-      {
-        "label": "AIHot",
-        "title": "Artificial Analysis 评测 Google Nano Banana 2.1，两榜居第 4 且价格为前代一半",
-        "url": "https://x.com/ArtificialAnlys/status/2108236656700768310",
-        "date": "2026-10-09"
-      },
-      {
-        "label": "WayToAGI",
-        "title": "Nano Banana 2.1 公开资料全景整理",
-        "url": "https://waytoagi.feishu.cn/wiki/ZmLGwZp1wiTCijkLbgCcS7ilnqe?from=from_copylink",
-        "date": "2026-10-08"
-      }
-    ],
-    "score": 78.95,
-    "score_parts": {
-      "industry": 78,
-      "actionable": 82,
-      "breadth": 75
-    }
-  },
-  {
-    "id": "claude-managed-agents-workflows",
-    "title": "Claude 管理智能体上线动态工作流：单次最高可并行调度 1000 个 Agent",
-    "url": "https://www.aibase.com/news/31528",
-    "bullets": [
-      "Anthropic 为 Claude 管理智能体（Managed Agents）推出动态工作流能力。",
-      "单次任务最高可并行调度约 1000 个子 Agent，面向大规模批处理与研究类任务。"
-    ],
-    "links": [
-      {
-        "label": "AIBase",
-        "title": "Claude 管理智能体上线动态工作流：单次最高可并行调度 1000 个 AI Agents",
-        "url": "https://www.aibase.com/news/31528",
-        "date": "2026-10-10"
-      }
-    ],
-    "date": "2026-10-10",
-    "score": 78.1,
-    "score_parts": {
-      "industry": 80,
-      "actionable": 78,
-      "breadth": 72
-    },
-    "meta": "AIBase"
-  },
-  {
-    "id": "rtx-spark",
-    "title": "NVIDIA 与 Microsoft 推出 RTX Spark 平台，推动 Windows PC 上的 AI Agent",
-    "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event",
+    "date": "2026-10-09"
+   },
+   {
+    "label": "AIHot",
+    "title": "Anthropic 推出 Cyber Mission，发布 Critical Infrastructure Defense Program 和 OSS Scanner",
+    "url": "https://www.anthropic.com/news/anthropic-cyber-mission",
     "date": "2026-10-08",
-    "meta": "AIBase · 3 源",
-    "bullets": [
-      "NVIDIA 与 Microsoft 联合推出 RTX Spark 相关平台能力。",
-      "目标让 AI Agent 更顺畅运行在 Windows PC 本地。",
-      "硬件+系统层协作，并伴随开发者补贴与整机产品讨论。"
-    ],
-    "links": [
-      {
-        "label": "主链",
-        "title": "NVIDIA 与 Microsoft 推出 RTX Spark 平台，推动 Windows PC 上的 AI Agent",
-        "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event",
-        "date": "2026-10-08"
-      },
-      {
-        "label": "AIBase",
-        "title": "微软重磅发布全新英伟达芯片 AI PC：搭载 RTX Spark 芯片与全新 Windows 11，起售价 2，600 美元",
-        "url": "https://www.aibase.com/news/31463",
-        "date": "2026-10-08"
-      },
-      {
-        "label": "AIBase",
-        "title": "微软推顶级RTX Spark AI PC，以千美元补贴抢夺开发者市场",
-        "url": "https://www.aibase.com/news/31447",
-        "date": "2026-10-08"
-      }
-    ],
-    "score": 77.95,
-    "score_parts": {
-      "industry": 80,
-      "actionable": 75,
-      "breadth": 78
-    }
-  },
-  {
-    "id": "sierra-poppy",
-    "title": "Sierra 发布 Personal Agent Protocol（Poppy），联合 Meta 等推进开放协议",
-    "url": "https://sierra.ai/blog/introducing-personal-agent-protocol",
-    "date": "2026-10-10",
-    "meta": "AIHot · 2 源",
-    "bullets": [
-      "Sierra 推出 Personal Agent Protocol（又称 Poppy）草案。",
-      "联合 Meta 与数十家设计伙伴推动个人 Agent 互联标准。",
-      "意在让不同厂商 Agent 能安全共享上下文与权限边界。"
-    ],
-    "links": [
-      {
-        "label": "主链",
-        "title": "Sierra 发布 Personal Agent Protocol（Poppy），联合 Meta 等推进开放协议",
-        "url": "https://sierra.ai/blog/introducing-personal-agent-protocol",
-        "date": "2026-10-10"
-      },
-      {
-        "label": "AIHot",
-        "title": "Sierra 发布 Personal Agent Protocol（Poppy）协议草案，新增 35 家设计伙伴",
-        "url": "https://sierra.ai/blog/poppy",
-        "date": "2026-10-10"
-      }
-    ],
-    "score": 74.8,
-    "score_parts": {
-      "industry": 74,
-      "actionable": 78,
-      "breadth": 70
-    }
-  },
-  {
-    "id": "langchain-skills",
-    "title": "LangChain 重构 Deep Agents Skills：工具绑定、固定技能与线程内重载",
-    "url": "https://www.langchain.com/blog/revamping-skills-in-deep-agents",
+    "same_event": true
+   },
+   {
+    "label": "AIBase",
+    "title": "Anthropic重磅推出OSS Scanner，用最强AI模型为全球开源软件免费扫漏洞",
+    "url": "https://www.aibase.com/news/31503",
     "date": "2026-10-09",
-    "meta": "AIHot · 2 源",
-    "bullets": [
-      "LangChain 更新 Deep Agents 的 Skills 机制。",
-      "新增工具绑定、固定技能与线程内热重载等能力。",
-      "对 Agent 工程化复用技能包更友好。"
-    ],
-    "links": [
-      {
-        "label": "主链",
-        "title": "LangChain 重构 Deep Agents Skills：工具绑定、固定技能与线程内重载",
-        "url": "https://www.langchain.com/blog/revamping-skills-in-deep-agents",
-        "date": "2026-10-08"
-      },
-      {
-        "label": "AIHot",
-        "title": "LangChain 用 Stripe Link 和 Managed Deep Agents 构建可支付的智能体 Restock",
-        "url": "https://www.langchain.com/blog/agents-that-can-pay-with-stripe-link",
-        "date": "2026-10-09"
-      }
-    ],
-    "score": 74.8,
-    "score_parts": {
-      "industry": 68,
-      "actionable": 90,
-      "breadth": 62
-    }
+    "same_event": true
+   }
+  ],
+  "score": 80.8,
+  "score_parts": {
+   "industry": 84,
+   "actionable": 90,
+   "heat": 62,
+   "breadth": 78
   },
-  {
-    "id": "agent-lightning",
-    "title": "微软亚洲研究院开源 Agent Lightning v1.0：轻量 Agent RL 训练框架",
-    "url": "https://www.microsoft.com/en-us/research/blog/agent-lightning-v1-0-a-3500-line-lightweight-agentic-rl-framework-for-training-agents-with-real-harnesses",
-    "date": "2026-10-08",
-    "meta": "2026-10-08",
-    "bullets": [
-      "MSRA 开源 Agent Lightning v1.0。",
-      "以约 3500 行代码提供真实 harness 上的智能体 RL 训练。",
-      "降低 Agent 强化学习实验门槛。"
-    ],
-    "links": [
-      {
-        "label": "主链",
-        "title": "微软亚洲研究院开源 Agent Lightning v1.0：轻量 Agent RL 训练框架",
-        "url": "https://www.microsoft.com/en-us/research/blog/agent-lightning-v1-0-a-3500-line-lightweight-agentic-rl-framework-for-training-agents-with-real-harnesses",
-        "date": "2026-10-08"
-      }
-    ],
-    "score": 74.8,
-    "score_parts": {
-      "industry": 70,
-      "actionable": 88,
-      "breadth": 60
-    }
-  },
-  {
-    "id": "openai-math",
+  "heat_signals": {
+   "reports": 3,
+   "domains": 2,
+   "x_posts_7d": 862,
+   "x_spike_7d": 862
+  }
+ },
+ {
+  "id": "openai-math",
+  "title": "OpenAI 发布大量 AI 数学证明，陶哲轩等警示验证压力",
+  "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+  "date": "2026-10-10",
+  "meta": "",
+  "bullets": [
+   "OpenAI 公布一批由 AI 生成的数学证明成果。",
+   "陶哲轩等学者提醒社区面临验证与审查压力。",
+   "引发关于自动定理证明可信度与科研流程的讨论。"
+  ],
+  "links": [
+   {
+    "label": "主链",
     "title": "OpenAI 发布大量 AI 数学证明，陶哲轩等警示验证压力",
     "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+    "date": "2026-10-09"
+   },
+   {
+    "label": "AIHot",
+    "title": "部分数学家呼吁抵制 OpenAI，AI 生成的数学证明涌入数学领域",
+    "url": "https://the-decoder.com/some-mathematicians-call-for-openai-boycott-after-ai-generated-proofs-flood-their-field",
+    "date": "2026-10-09",
+    "same_event": true
+   },
+   {
+    "label": "AIBase",
+    "title": "OpenAI 公开 175 页四维证明手稿，剑指数学百年难题",
+    "url": "https://www.aibase.com/news/31535",
     "date": "2026-10-10",
-    "meta": "AIHot · AIBase · 另 6 篇报道",
-    "bullets": [
-      "OpenAI 公布一批由 AI 生成的数学证明成果。",
-      "陶哲轩等学者提醒社区面临验证与审查压力。",
-      "引发关于自动定理证明可信度与科研流程的讨论。"
-    ],
-    "links": [
-      {
-        "label": "主链",
-        "title": "OpenAI 发布大量 AI 数学证明，陶哲轩等警示验证压力",
-        "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
-        "date": "2026-10-09"
-      },
-      {
-        "label": "AIHot",
-        "title": "部分数学家呼吁抵制 OpenAI，AI 生成的数学证明涌入数学领域",
-        "url": "https://the-decoder.com/some-mathematicians-call-for-openai-boycott-after-ai-generated-proofs-flood-their-field",
-        "date": "2026-10-09"
-      },
-      {
-        "label": "AIBase",
-        "title": "OpenAI 公开 175 页四维证明手稿，剑指数学百年难题",
-        "url": "https://www.aibase.com/news/31535",
-        "date": "2026-10-10"
-      },
-      {
-        "label": "AIBase",
-        "title": "OpenAI 公布大批数学研究成果引发学界震荡，学者担忧破坏学术合作传统",
-        "url": "https://www.aibase.com/news/31529",
-        "date": "2026-10-10"
-      },
-      {
-        "label": "AIHot",
-        "title": "MIT 教授谈 OpenAI 模型解 Navier-Stokes 反例：人类读不懂的证明来了",
-        "url": "https://x.com/SaitoWu/status/2108919486581796872",
-        "date": "2026-10-10"
-      },
-      {
-        "label": "AIHot",
-        "title": "OpenAI 一次性发布 700 多份数学手稿，数学家们反应震惊与反感",
-        "url": "https://the-decoder.com/how-much-beauty-have-we-lost-mathematicians-react-with-shock-and-disgust-as-openai-bulldozes-their-field",
-        "date": "2026-10-10"
-      },
-      {
-        "label": "AIHot",
-        "title": "OpenAI 在 GitHub 发布 openai/math 仓库，722 份数学手稿引发数学界震荡",
-        "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647686908&idx=1&sn=29a97b5ff695871a7bf219d3d6bd6487",
-        "date": "2026-10-08"
-      }
-    ],
-    "score": 74.5,
-    "score_parts": {
-      "industry": 78,
-      "actionable": 65,
-      "breadth": 85
-    }
+    "same_event": true
+   },
+   {
+    "label": "AIBase",
+    "title": "OpenAI 公布大批数学研究成果引发学界震荡，学者担忧破坏学术合作传统",
+    "url": "https://www.aibase.com/news/31529",
+    "date": "2026-10-10",
+    "same_event": true
+   },
+   {
+    "label": "AIHot",
+    "title": "MIT 教授谈 OpenAI 模型解 Navier-Stokes 反例：人类读不懂的证明来了",
+    "url": "https://x.com/SaitoWu/status/2108919486581796872",
+    "date": "2026-10-10",
+    "same_event": true
+   },
+   {
+    "label": "AIHot",
+    "title": "OpenAI 一次性发布 700 多份数学手稿，数学家们反应震惊与反感",
+    "url": "https://the-decoder.com/how-much-beauty-have-we-lost-mathematicians-react-with-shock-and-disgust-as-openai-bulldozes-their-field",
+    "date": "2026-10-10",
+    "same_event": true
+   },
+   {
+    "label": "AIHot",
+    "title": "OpenAI 在 GitHub 发布 openai/math 仓库，722 份数学手稿引发数学界震荡",
+    "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647686908&idx=1&sn=29a97b5ff695871a7bf219d3d6bd6487",
+    "date": "2026-10-08",
+    "same_event": true
+   }
+  ],
+  "score": 79.2,
+  "score_parts": {
+   "industry": 78,
+   "actionable": 65,
+   "heat": 100,
+   "breadth": 85
   },
-  {
-    "id": "chatgpt-meetings",
-    "title": "ChatGPT 推出 Meetings 插件，自动记会议纪要并跟进待办",
-    "url": "https://x.com/thsottiaux/status/2107573405553938664",
+  "heat_signals": {
+   "reports": 7,
+   "domains": 5,
+   "x_posts_7d": 4866,
+   "x_spike_7d": 4626
+  }
+ },
+ {
+  "id": "nano-banana",
+  "title": "Google 发布 Gemini Nano Banana 2.1 图像生成模型",
+  "url": "https://ai.google.dev/gemini-api/docs/changelog",
+  "date": "2026-10-09",
+  "meta": "",
+  "bullets": [
+   "Google 发布 Gemini Nano Banana 2.1 图像生成模型。",
+   "前代 gemini-3.1-flash-image 将逐步停用。",
+   "第三方评测称性价比提升，价格约为前代一半。"
+  ],
+  "links": [
+   {
+    "label": "主链",
+    "title": "Google 发布 Gemini Nano Banana 2.1 图像生成模型",
+    "url": "https://ai.google.dev/gemini-api/docs/changelog",
+    "date": "2026-10-09"
+   },
+   {
+    "label": "AIHot",
+    "title": "Artificial Analysis 评测 Google Nano Banana 2.1，两榜居第 4 且价格为前代一半",
+    "url": "https://x.com/ArtificialAnlys/status/2108236656700768310",
+    "date": "2026-10-09",
+    "same_event": true
+   },
+   {
+    "label": "WayToAGI",
+    "title": "Nano Banana 2.1 公开资料全景整理",
+    "url": "https://waytoagi.feishu.cn/wiki/ZmLGwZp1wiTCijkLbgCcS7ilnqe?from=from_copylink",
+    "date": "2026-10-08",
+    "same_event": true
+   }
+  ],
+  "score": 78.7,
+  "score_parts": {
+   "industry": 78,
+   "actionable": 82,
+   "heat": 77,
+   "breadth": 75
+  },
+  "heat_signals": {
+   "reports": 3,
+   "domains": 3,
+   "x_posts_7d": 4458,
+   "x_spike_7d": 4450
+  }
+ },
+ {
+  "id": "claude-workspace",
+  "title": "Claude for Google Workspace 公测上线",
+  "url": "https://claude.com/blog/claude-now-works-in-google-docs-sheets-and-slides",
+  "date": "2026-10-07",
+  "meta": "",
+  "bullets": [
+   "Anthropic 的 Claude 接入 Google Workspace 进入公测。",
+   "可在 Docs、Sheets、Slides 中直接协助编辑与总结。",
+   "对企业协作套件里的 AI 助手格局再添竞争。"
+  ],
+  "links": [
+   {
+    "label": "主链",
+    "title": "Claude for Google Workspace 公测上线",
+    "url": "https://claude.com/blog/claude-now-works-in-google-docs-sheets-and-slides",
+    "date": "2026-10-07"
+   },
+   {
+    "label": "AIHot",
+    "title": "Claude for Google Workspace 开启 beta，可直接在 Docs、Sheets、Slides 中编辑",
+    "url": "https://www.youtube.com/watch?v=idJQMJwHtyM",
     "date": "2026-10-07",
-    "meta": "2026-10-07",
-    "bullets": [
-      "ChatGPT 上线 Meetings 相关能力/插件。",
-      "可自动整理会议纪要并追踪待办。",
-      "面向办公场景的 Agent 化日程管理。"
-    ],
-    "links": [
-      {
-        "label": "主链",
-        "title": "ChatGPT 推出 Meetings 插件，自动记会议纪要并跟进待办",
-        "url": "https://x.com/thsottiaux/status/2107573405553938664",
-        "date": "2026-10-07"
-      }
-    ],
-    "score": 74.45,
-    "score_parts": {
-      "industry": 72,
-      "actionable": 82,
-      "breadth": 65
-    }
+    "same_event": true
+   }
+  ],
+  "score": 78.3,
+  "score_parts": {
+   "industry": 82,
+   "actionable": 86,
+   "heat": 61,
+   "breadth": 75
   },
-  {
-    "id": "vidu-q4",
+  "heat_signals": {
+   "reports": 2,
+   "domains": 2,
+   "x_posts_7d": 1828,
+   "x_spike_7d": 1655
+  }
+ },
+ {
+  "id": "deepseek-v4.1-flash",
+  "title": "DeepSeek-V4.1-Flash 优化披露：Agent 场景吞吐可提升约 5 倍",
+  "url": "https://x.com/arcprize/status/2107491194007585239",
+  "date": "2026-10-07",
+  "meta": "",
+  "bullets": [
+   "DeepSeek-V4.1-Flash 相关优化细节被披露。",
+   "vLLM 等推理栈称 Agent 场景吞吐最高约提升 5 倍。",
+   "开源推理与国产模型性能竞赛继续升温。"
+  ],
+  "links": [
+   {
+    "label": "主链",
+    "title": "DeepSeek-V4.1-Flash 优化披露：Agent 场景吞吐可提升约 5 倍",
+    "url": "https://x.com/arcprize/status/2107491194007585239",
+    "date": "2026-10-07"
+   },
+   {
+    "label": "AIHot",
+    "title": "vLLM 详解 DeepSeek-V4.1-Flash 优化：Agent 场景吞吐提升 5 倍",
+    "url": "https://vllm.ai/blog/2026-10-07-deepseek-v41-flash",
+    "date": "2026-10-07",
+    "same_event": true
+   }
+  ],
+  "score": 76.8,
+  "score_parts": {
+   "industry": 78,
+   "actionable": 88,
+   "heat": 61,
+   "breadth": 70
+  },
+  "heat_signals": {
+   "reports": 2,
+   "domains": 2,
+   "x_posts_7d": 2865,
+   "x_spike_7d": 1042
+  }
+ },
+ {
+  "id": "rtx-spark",
+  "title": "NVIDIA 与 Microsoft 推出 RTX Spark 平台，推动 Windows PC 上的 AI Agent",
+  "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event",
+  "date": "2026-10-08",
+  "meta": "",
+  "bullets": [
+   "NVIDIA 与 Microsoft 联合推出 RTX Spark 相关平台能力。",
+   "目标让 AI Agent 更顺畅运行在 Windows PC 本地。",
+   "硬件+系统层协作，并伴随开发者补贴与整机产品讨论。"
+  ],
+  "links": [
+   {
+    "label": "主链",
+    "title": "NVIDIA 与 Microsoft 推出 RTX Spark 平台，推动 Windows PC 上的 AI Agent",
+    "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event",
+    "date": "2026-10-08"
+   },
+   {
+    "label": "AIBase",
+    "title": "微软重磅发布全新英伟达芯片 AI PC：搭载 RTX Spark 芯片与全新 Windows 11，起售价 2，600 美元",
+    "url": "https://www.aibase.com/news/31463",
+    "date": "2026-10-08",
+    "same_event": true
+   },
+   {
+    "label": "AIBase",
+    "title": "微软推顶级RTX Spark AI PC，以千美元补贴抢夺开发者市场",
+    "url": "https://www.aibase.com/news/31447",
+    "date": "2026-10-08",
+    "same_event": true
+   }
+  ],
+  "score": 76.7,
+  "score_parts": {
+   "industry": 80,
+   "actionable": 75,
+   "heat": 72,
+   "breadth": 78
+  },
+  "heat_signals": {
+   "reports": 3,
+   "domains": 2,
+   "x_posts_7d": 3674,
+   "x_spike_7d": 3329
+  }
+ },
+ {
+  "id": "gemini-agent",
+  "title": "谷歌云发布 Gemini Agent，进军企业级 AI 办公智能体",
+  "url": "https://www.aibase.com/news/31507",
+  "date": "2026-10-09",
+  "meta": "",
+  "bullets": [
+   "谷歌云发布 Gemini Agent，面向企业办公的通用智能体。",
+   "宣传可自主拆解并执行多步骤复杂任务。",
+   "国内媒体解读其对企业级 AI 办公赛道的冲击。"
+  ],
+  "links": [
+   {
+    "label": "主链",
+    "title": "谷歌云发布 Gemini Agent，进军企业级 AI 办公智能体",
+    "url": "https://www.aibase.com/news/31507",
+    "date": "2026-10-09"
+   }
+  ],
+  "score": 76.4,
+  "score_parts": {
+   "industry": 86,
+   "actionable": 80,
+   "heat": 50,
+   "breadth": 80
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 1785,
+   "x_spike_7d": 1785
+  }
+ },
+ {
+  "id": "tencent-teamai",
+  "title": "腾讯云开源 TeamAI：跨 Agent 共享 Skill，成本降约 76%",
+  "url": "https://www.aibase.com/news/31539",
+  "bullets": [
+   "腾讯云开源 TeamAI，适配 16 种主流编码/办公 Agent。",
+   "团队 Skill 通过 Git 评审后统一分发，官方称成本可降约 76%。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "腾讯云开源 TeamAI：适配 16 种 Agent，团队 Skill 走 Git 评审分发，成本降 76%",
+    "url": "https://www.aibase.com/news/31539",
+    "date": "2026-10-10"
+   },
+   {
+    "label": "AIBase",
+    "title": "腾讯云开源内部自用 TeamAI 工具，支持跨 Agent 共享 Skill",
+    "url": "https://www.aibase.com/news/31546",
+    "date": "2026-10-10",
+    "same_event": true
+   }
+  ],
+  "date": "2026-10-10",
+  "score": 73.4,
+  "score_parts": {
+   "industry": 82,
+   "actionable": 88,
+   "heat": 36,
+   "breadth": 70
+  },
+  "meta": "",
+  "heat_signals": {
+   "reports": 2,
+   "domains": 1,
+   "x_posts_7d": 29,
+   "x_spike_7d": 29
+  }
+ },
+ {
+  "id": "cloudflare-clef-omni",
+  "title": "Cloudflare 发布开放权重决策模型 Clef-omni，支持音视频原生输入",
+  "url": "https://www.aibase.com/news/31531",
+  "bullets": [
+   "Cloudflare 发布开放权重的多模态决策模型 Clef-omni。",
+   "新增音频、视频原生输入支持，可在 Cloudflare 平台上部署调用。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "Cloudflare 发布开放权重决策模型 Clef-omni，新增支持音视频多模态输入",
+    "url": "https://www.aibase.com/news/31531",
+    "date": "2026-10-10"
+   },
+   {
+    "label": "AIBase",
+    "title": "多模态决策大模型迎来开源新突破！Cloudflare 正式发布 Clef-omni，全面支持音视频原生输入",
+    "url": "https://www.aibase.com/news/31537",
+    "date": "2026-10-10",
+    "same_event": true
+   }
+  ],
+  "date": "2026-10-10",
+  "score": 73.2,
+  "score_parts": {
+   "industry": 80,
+   "actionable": 86,
+   "heat": 41,
+   "breadth": 72
+  },
+  "meta": "",
+  "heat_signals": {
+   "reports": 2,
+   "domains": 1,
+   "x_posts_7d": 457,
+   "x_spike_7d": 194
+  }
+ },
+ {
+  "id": "gpt-6.1-sol",
+  "title": "OpenAI 推出 GPT-6.1 Sol Ultrafast，强调低延迟高速推理",
+  "url": "https://developers.openai.com/codex/changelog",
+  "date": "2026-10-09",
+  "meta": "",
+  "bullets": [
+   "OpenAI 发布 GPT-6.1 Sol Ultrafast 变体。",
+   "重点打低延迟与高速推理，已出现在 Codex / ChatGPT Work。",
+   "与主线 GPT-6 形成速度/能力分层；有案例称浏览器测试成本大幅下降。"
+  ],
+  "links": [
+   {
+    "label": "主链",
+    "title": "OpenAI 推出 GPT-6.1 Sol Ultrafast，强调低延迟高速推理",
+    "url": "https://developers.openai.com/codex/changelog",
+    "date": "2026-10-09"
+   },
+   {
+    "label": "AIBase",
+    "title": "OpenAI重磅发布GPT-6.1 Sol Ultrafast版，速度最高提升 8 倍",
+    "url": "https://www.aibase.com/news/31488",
+    "date": "2026-10-09",
+    "same_event": true
+   }
+  ],
+  "score": 72.6,
+  "score_parts": {
+   "industry": 80,
+   "actionable": 84,
+   "heat": 41,
+   "breadth": 72
+  },
+  "heat_signals": {
+   "reports": 2,
+   "domains": 2,
+   "x_posts_7d": 8696,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "claude-managed-agents-workflows",
+  "title": "Claude 管理智能体上线动态工作流：单次最高可并行调度 1000 个 Agent",
+  "url": "https://www.aibase.com/news/31528",
+  "bullets": [
+   "Anthropic 为 Claude 管理智能体（Managed Agents）推出动态工作流能力。",
+   "单次任务最高可并行调度约 1000 个子 Agent，面向大规模批处理与研究类任务。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "Claude 管理智能体上线动态工作流：单次最高可并行调度 1000 个 AI Agents",
+    "url": "https://www.aibase.com/news/31528",
+    "date": "2026-10-10"
+   }
+  ],
+  "date": "2026-10-10",
+  "score": 71.6,
+  "score_parts": {
+   "industry": 80,
+   "actionable": 78,
+   "heat": 45,
+   "breadth": 72
+  },
+  "meta": "",
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 798,
+   "x_spike_7d": 618
+  }
+ },
+ {
+  "id": "sierra-poppy",
+  "title": "Sierra 发布 Personal Agent Protocol（Poppy），联合 Meta 等推进开放协议",
+  "url": "https://sierra.ai/blog/introducing-personal-agent-protocol",
+  "date": "2026-10-10",
+  "meta": "",
+  "bullets": [
+   "Sierra 推出 Personal Agent Protocol（又称 Poppy）草案。",
+   "联合 Meta 与数十家设计伙伴推动个人 Agent 互联标准。",
+   "意在让不同厂商 Agent 能安全共享上下文与权限边界。"
+  ],
+  "links": [
+   {
+    "label": "主链",
+    "title": "Sierra 发布 Personal Agent Protocol（Poppy），联合 Meta 等推进开放协议",
+    "url": "https://sierra.ai/blog/introducing-personal-agent-protocol",
+    "date": "2026-10-10"
+   },
+   {
+    "label": "AIHot",
+    "title": "Sierra 发布 Personal Agent Protocol（Poppy）协议草案，新增 35 家设计伙伴",
+    "url": "https://sierra.ai/blog/poppy",
+    "date": "2026-10-10",
+    "same_event": true
+   }
+  ],
+  "score": 70.2,
+  "score_parts": {
+   "industry": 74,
+   "actionable": 78,
+   "heat": 51,
+   "breadth": 70
+  },
+  "heat_signals": {
+   "reports": 2,
+   "domains": 1,
+   "x_posts_7d": 821,
+   "x_spike_7d": 821
+  }
+ },
+ {
+  "id": "vidu-q4",
+  "title": "生数科技发布视频生成模型 Vidu Q4 Preview，支持 4K 输出与多图多音频参考",
+  "url": "https://www.aibase.com/news/31521",
+  "date": "2026-10-10",
+  "bullets": [
+   "生数科技发布 Vidu Q4 Preview 视频生成模型。",
+   "支持 4K 输出，以及多图、多音频参考生成。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
     "title": "生数科技发布视频生成模型 Vidu Q4 Preview，支持 4K 输出与多图多音频参考",
     "url": "https://www.aibase.com/news/31521",
+    "date": "2026-10-10"
+   },
+   {
+    "label": "AIBase",
+    "title": "生数科技重磅发布 Vidu Q4 预览版 支持 4K 输出",
+    "url": "https://www.aibase.com/news/31524",
     "date": "2026-10-10",
-    "bullets": [
-      "生数科技发布 Vidu Q4 Preview 视频生成模型。",
-      "支持 4K 输出，以及多图、多音频参考生成。"
-    ],
-    "links": [
-      {
-        "label": "AIBase",
-        "title": "生数科技发布视频生成模型 Vidu Q4 Preview，支持 4K 输出与多图多音频参考",
-        "url": "https://www.aibase.com/news/31521",
-        "date": "2026-10-10"
-      },
-      {
-        "label": "AIBase",
-        "title": "生数科技重磅发布 Vidu Q4 预览版 支持 4K 输出",
-        "url": "https://www.aibase.com/news/31524",
-        "date": "2026-10-10"
-      }
-    ],
-    "score": 73.05,
-    "score_parts": {
-      "industry": 72,
-      "actionable": 78,
-      "breadth": 65
-    },
-    "meta": "AIBase · 2 源"
+    "same_event": true
+   }
+  ],
+  "score": 69.9,
+  "score_parts": {
+   "industry": 72,
+   "actionable": 78,
+   "heat": 56,
+   "breadth": 65
   },
-  {
-    "id": "zenity-agentcore",
-    "title": "Zenity 披露 AgentCore 漏洞链：单个公开 Agent 或可控制同账户区域全部 Agent",
-    "url": "https://the-decoder.com/a-single-prompt-was-enough-to-hijack-every-ai-agent-in-an-aws-account-zenity-researchers-found",
-    "date": "2026-10-08",
-    "meta": "2026-10-08",
-    "bullets": [
-      "安全团队 Zenity 披露 AgentCore 相关漏洞链。",
-      "称一个公开 AI Agent 可能波及同账户同区域其他 Agent。",
-      "提醒企业部署 Agent 平台时需隔离与权限硬化。"
-    ],
-    "links": [
-      {
-        "label": "主链",
-        "title": "Zenity 披露 AgentCore 漏洞链：单个公开 Agent 或可控制同账户区域全部 Agent",
-        "url": "https://the-decoder.com/a-single-prompt-was-enough-to-hijack-every-ai-agent-in-an-aws-account-zenity-researchers-found",
-        "date": "2026-10-08"
-      }
-    ],
-    "score": 73.0,
-    "score_parts": {
-      "industry": 70,
-      "actionable": 85,
-      "breadth": 55
-    }
-  },
-  {
-    "id": "aqua",
-    "title": "Google 开源 AQuA：自动诊断生产环境中的 Agent 故障",
-    "url": "https://developers.googleblog.com/the-outer-loop-insights-first-an-ambient-quality-agent-that-diagnoses-your-production-agent",
-    "date": "2026-10-08",
-    "meta": "2026-10-08",
-    "bullets": [
-      "Google 开源 AQuA 环境质量智能体。",
-      "用于自动诊断生产环境中的 Agent 故障。",
-      "补齐 Agent 上线后的可观测与排障环节。"
-    ],
-    "links": [
-      {
-        "label": "主链",
-        "title": "Google 开源 AQuA：自动诊断生产环境中的 Agent 故障",
-        "url": "https://developers.googleblog.com/the-outer-loop-insights-first-an-ambient-quality-agent-that-diagnoses-your-production-agent",
-        "date": "2026-10-08"
-      }
-    ],
-    "score": 72.05,
-    "score_parts": {
-      "industry": 66,
-      "actionable": 88,
-      "breadth": 55
-    }
-  },
-  {
-    "id": "innovationeval",
-    "title": "Epoch AI 发布 InnovationEval：前沿模型创新增益仅约人类论文的 15%",
-    "url": "https://epochai.substack.com/p/can-ai-automate-ai-r-and-d-yet",
-    "date": "2026-10-10",
-    "meta": "2026-10-10",
-    "bullets": [
-      "Epoch AI 推出 InnovationEval，衡量模型在科研创新任务上的增益。",
-      "评测显示前沿模型相对人类论文 SDPO 增益仅约 15%。",
-      "为评估「科研助手」能力提供新基准，而非只比答题分数。"
-    ],
-    "links": [
-      {
-        "label": "主链",
-        "title": "Epoch AI 发布 InnovationEval：前沿模型创新增益仅约人类论文的 15%",
-        "url": "https://epochai.substack.com/p/can-ai-automate-ai-r-and-d-yet",
-        "date": "2026-10-10"
-      }
-    ],
-    "score": 71.75,
-    "score_parts": {
-      "industry": 72,
-      "actionable": 70,
-      "breadth": 75
-    }
-  },
-  {
-    "id": "nemotron-gold",
-    "title": "Nemotron 微调达 IOI/IMO 金牌水平",
-    "url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
-    "date": "2026-10-07",
-    "meta": "2026-10-07",
-    "bullets": [
-      "NVIDIA Nemotron 系列经微调后在 IOI/IMO 相关评测达金牌水平。",
-      "展示专用微调路线在竞赛数学/信息学上的潜力。",
-      "官方与中文源同步报道一模型族双金结果。"
-    ],
-    "links": [
-      {
-        "label": "主链",
-        "title": "Nemotron 微调达 IOI/IMO 金牌水平",
-        "url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
-        "date": "2026-10-07"
-      }
-    ],
-    "score": 71.7,
-    "score_parts": {
-      "industry": 74,
-      "actionable": 70,
-      "breadth": 68
-    }
-  },
-  {
-    "id": "arena-funding",
-    "title": "Arena 完成 2 亿美元 B 轮融资，估值 31 亿美元并发布 Alignment Index",
-    "url": "https://x.com/arena/status/2108269048467513429",
-    "date": "2026-10-09",
-    "meta": "AIHot · 3 源",
-    "bullets": [
-      "Arena 宣布由 Lightspeed 领投的 2 亿美元 B 轮，估值约 31 亿美元。",
-      "同步推出 Alignment Index，用于衡量模型与人类偏好对齐表现。",
-      "多家中文源跟进报道融资规模与产品布局。"
-    ],
-    "links": [
-      {
-        "label": "主链",
-        "title": "Arena 完成 2 亿美元 B 轮融资，估值 31 亿美元并发布 Alignment Index",
-        "url": "https://x.com/arena/status/2108269048467513429",
-        "date": "2026-10-09"
-      },
-      {
-        "label": "AIHot",
-        "title": "Arena 宣布 2 亿美元 B 轮融资，估值达 31 亿美元，并推出 Alignment Index",
-        "url": "https://x.com/arena/status/2108243026741248348",
-        "date": "2026-10-09"
-      },
-      {
-        "label": "AIHot",
-        "title": "Arena 完成 2 亿美元 B 轮融资，估值 31 亿美元并发布 Alignment Index",
-        "url": "https://x.com/arena/status/2108310714423423254",
-        "date": "2026-10-09"
-      }
-    ],
-    "score": 71.0,
-    "score_parts": {
-      "industry": 76,
-      "actionable": 60,
-      "breadth": 80
-    }
-  },
-  {
-    "id": "gemini-4-test",
-    "title": "谷歌测试新一代 Gemini 4 Carbon 版本，代码能力对标顶尖竞品",
-    "url": "https://www.aibase.com/news/31517",
-    "date": "2026-10-10",
-    "bullets": [
-      "谷歌被曝正在测试 Gemini 4 的 Carbon 版本。",
-      "据报道新版本主打代码能力，剑指最强代码模型，发布时间未官宣。"
-    ],
-    "links": [
-      {
-        "label": "AIBase",
-        "title": "谷歌测试新一代 Gemini 4 Carbon 版本，代码能力对标顶尖竞品",
-        "url": "https://www.aibase.com/news/31517",
-        "date": "2026-10-10"
-      },
-      {
-        "label": "AIBase",
-        "title": "谷歌 Gemini 4 即将发布，神秘新版本剑指最强代码模型",
-        "url": "https://www.aibase.com/news/31516",
-        "date": "2026-10-10"
-      },
-      {
-        "label": "AIBase",
-        "title": "谷歌 Gemini 4 Argon 突袭开放，AI 或将直接代替程序员提交代码",
-        "url": "https://www.aibase.com/news/31499",
-        "date": "2026-10-09"
-      }
-    ],
-    "score": 70.95,
-    "score_parts": {
-      "industry": 80,
-      "actionable": 55,
-      "breadth": 78
-    },
-    "meta": "AIBase · 3 源"
-  },
-  {
-    "id": "mellum",
-    "title": "JetBrains 发布编程模型 Mellum 2.1，高负载吞吐超竞品约两倍",
-    "url": "https://www.aibase.com/news/31502",
-    "date": "2026-10-09",
-    "meta": "2026-10-09",
-    "bullets": [
-      "JetBrains 发布面向编程场景的 Mellum 2.1 模型。",
-      "官方称高负载下吞吐量可达竞品约两倍。",
-      "强化 IDE 内嵌 AI 编码助手的本地/私有化路线。"
-    ],
-    "links": [
-      {
-        "label": "主链",
-        "title": "JetBrains 发布编程模型 Mellum 2.1，高负载吞吐超竞品约两倍",
-        "url": "https://www.aibase.com/news/31502",
-        "date": "2026-10-09"
-      }
-    ],
-    "score": 70.7,
-    "score_parts": {
-      "industry": 68,
-      "actionable": 80,
-      "breadth": 58
-    }
-  },
-  {
-    "id": "whitehouse-ai-incident",
-    "title": "白宫发布 AI 强制令：发生安全事件须立即上报并补救",
-    "url": "https://www.aibase.com/news/31522",
-    "date": "2026-10-10",
-    "bullets": [
-      "白宫发布 AI 相关强制要求。",
-      "AI 系统发生安全事件时须立即上报并采取补救措施。"
-    ],
-    "links": [
-      {
-        "label": "AIBase",
-        "title": "白宫发布AI强制令:发生安全事件须立即上报并补救",
-        "url": "https://www.aibase.com/news/31522",
-        "date": "2026-10-10"
-      }
-    ],
-    "score": 69.5,
-    "score_parts": {
-      "industry": 78,
-      "actionable": 55,
-      "breadth": 75
-    },
-    "meta": "AIBase"
-  },
-  {
-    "id": "state-of-ai-2026",
-    "title": "State of AI Report 2026 发布：AI 加速 AI、千亿收入、电力瓶颈与安全",
-    "url": "https://x.com/indigox/status/2108791275914993998",
-    "bullets": [
-      "年度 State of AI Report 2026 发布，速读要点覆盖研究、产业、政策与安全。",
-      "核心判断包括 AI 加速 AI 研发、头部厂商收入迈向千亿级、电力成为算力瓶颈。"
-    ],
-    "links": [
-      {
-        "label": "AIHot",
-        "title": "State of AI Report 2026 速读：AI 加速 AI、千亿收入、电力瓶颈与安全",
-        "url": "https://x.com/indigox/status/2108791275914993998",
-        "date": "2026-10-10"
-      }
-    ],
-    "date": "2026-10-10",
-    "score": 69.4,
-    "score_parts": {
-      "industry": 72,
-      "actionable": 62,
-      "breadth": 78
-    },
-    "meta": "AIHot"
-  },
-  {
-    "id": "openai-revenue",
+  "meta": "",
+  "heat_signals": {
+   "reports": 2,
+   "domains": 1,
+   "x_posts_7d": 1857,
+   "x_spike_7d": 1797
+  }
+ },
+ {
+  "id": "openai-revenue",
+  "title": "OpenAI 年化收入约 500 亿美元并寻求新一轮大额融资",
+  "url": "https://www.ithome.com/1/010/751.htm",
+  "date": "2026-10-10",
+  "meta": "",
+  "bullets": [
+   "多家来源称 OpenAI 年化经常性收入接近 500 亿美元量级。",
+   "同时传出新一轮大规模融资讨论。",
+   "资本与商业化节奏继续主导行业叙事。"
+  ],
+  "links": [
+   {
+    "label": "主链",
     "title": "OpenAI 年化收入约 500 亿美元并寻求新一轮大额融资",
     "url": "https://www.ithome.com/1/010/751.htm",
+    "date": "2026-10-10"
+   },
+   {
+    "label": "AIHot",
+    "title": "OpenAI 年化收入约 500 亿美元并寻求 300 亿美元新融资",
+    "url": "https://the-decoder.com/openai-revenue-keeps-surging-as-company-seeks-30-billion-in-fresh-capital",
     "date": "2026-10-10",
-    "meta": "AIHot · AIBase · 另 4 篇报道",
-    "bullets": [
-      "多家来源称 OpenAI 年化经常性收入接近 500 亿美元量级。",
-      "同时传出新一轮大规模融资讨论。",
-      "资本与商业化节奏继续主导行业叙事。"
-    ],
-    "links": [
-      {
-        "label": "主链",
-        "title": "OpenAI 年化收入约 500 亿美元并寻求新一轮大额融资",
-        "url": "https://www.ithome.com/1/010/751.htm",
-        "date": "2026-10-10"
-      },
-      {
-        "label": "AIHot",
-        "title": "OpenAI 年化收入约 500 亿美元并寻求 300 亿美元新融资",
-        "url": "https://the-decoder.com/openai-revenue-keeps-surging-as-company-seeks-30-billion-in-fresh-capital",
-        "date": "2026-10-10"
-      },
-      {
-        "label": "AIBase",
-        "title": "OpenAI修正年化收入预期至500亿美元 IPO计划推迟至2027年",
-        "url": "https://www.aibase.com/news/31480",
-        "date": "2026-10-09"
-      },
-      {
-        "label": "AIBase",
-        "title": "博通为OpenAI定制芯片项目筹超 500 亿美元，阿波罗黑石入局，甲骨文也找钱买芯片",
-        "url": "https://www.aibase.com/news/31450",
-        "date": "2026-10-08"
-      },
-      {
-        "label": "AIBase",
-        "title": "估值1.4 万亿美元！OpenAI 年化收入飙至 500 亿美元并寻求巨额新融资",
-        "url": "https://www.aibase.com/news/31520",
-        "date": "2026-10-10"
-      }
-    ],
-    "score": 68.5,
-    "score_parts": {
-      "industry": 85,
-      "actionable": 40,
-      "breadth": 80
-    }
-  },
-  {
-    "id": "openai-ads",
-    "title": "OpenAI 公布面向 ChatGPT 的广告形态与效果衡量",
-    "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
-    "date": "2026-10-10",
-    "meta": "AIBase · 2 源",
-    "bullets": [
-      "OpenAI 介绍适配 AI 对话场景的新广告格式。",
-      "同步给出效果衡量思路，探索商业化路径。",
-      "引发关于免费层体验与广告边界的讨论。"
-    ],
-    "links": [
-      {
-        "label": "主链",
-        "title": "OpenAI 公布面向 ChatGPT 的广告形态与效果衡量",
-        "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
-        "date": "2026-10-05"
-      }
-    ],
-    "score": 67.25,
-    "score_parts": {
-      "industry": 75,
-      "actionable": 55,
-      "breadth": 70
-    }
-  },
-  {
-    "id": "prime-agent-rust",
-    "title": "Prime Intellect 用 Rust 重写 Prime Agent，2000 多个智能体自主完成端到端迁移",
-    "url": "https://www.primeintellect.ai/blog/prime-agent-rust",
+    "same_event": true
+   },
+   {
+    "label": "AIBase",
+    "title": "OpenAI修正年化收入预期至500亿美元 IPO计划推迟至2027年",
+    "url": "https://www.aibase.com/news/31480",
     "date": "2026-10-09",
-    "bullets": [
-      "Prime Intellect 将 Prime Agent 用 Rust 重写。",
-      "迁移由 2000 多个智能体自主端到端完成，展示大规模 Agent 协作编码。"
-    ],
-    "links": [
-      {
-        "label": "AIHot",
-        "title": "Prime Intellect 用 Rust 重写 Prime Agent，2000 多个智能体自主完成端到端迁移",
-        "url": "https://www.primeintellect.ai/blog/prime-agent-rust",
-        "date": "2026-10-09"
-      },
-      {
-        "label": "AIHot",
-        "title": "Prime Intellect 撰文解析多智能体系统的上下文扩容与群集结构",
-        "url": "https://www.primeintellect.ai/blog/on-the-nature-of-the-swarm",
-        "date": "2026-10-06"
-      }
-    ],
-    "score": 66.9,
-    "score_parts": {
-      "industry": 66,
-      "actionable": 72,
-      "breadth": 58
-    },
-    "meta": "AIHot · 2 源"
+    "same_event": true
+   },
+   {
+    "label": "AIBase",
+    "title": "估值1.4 万亿美元！OpenAI 年化收入飙至 500 亿美元并寻求巨额新融资",
+    "url": "https://www.aibase.com/news/31520",
+    "date": "2026-10-10",
+    "same_event": true
+   }
+  ],
+  "score": 69.6,
+  "score_parts": {
+   "industry": 85,
+   "actionable": 40,
+   "heat": 78,
+   "breadth": 80
   },
-  {
-    "id": "deepseek-funding",
+  "heat_signals": {
+   "reports": 4,
+   "domains": 3,
+   "x_posts_7d": 1557,
+   "x_spike_7d": 1549
+  }
+ },
+ {
+  "id": "chatgpt-meetings",
+  "title": "ChatGPT 推出 Meetings 插件，自动记会议纪要并跟进待办",
+  "url": "https://x.com/thsottiaux/status/2107573405553938664",
+  "date": "2026-10-07",
+  "meta": "",
+  "bullets": [
+   "ChatGPT 上线 Meetings 相关能力/插件。",
+   "可自动整理会议纪要并追踪待办。",
+   "面向办公场景的 Agent 化日程管理。"
+  ],
+  "links": [
+   {
+    "label": "主链",
+    "title": "ChatGPT 推出 Meetings 插件，自动记会议纪要并跟进待办",
+    "url": "https://x.com/thsottiaux/status/2107573405553938664",
+    "date": "2026-10-07"
+   }
+  ],
+  "score": 67.9,
+  "score_parts": {
+   "industry": 72,
+   "actionable": 82,
+   "heat": 40,
+   "breadth": 65
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 459,
+   "x_spike_7d": 346
+  }
+ },
+ {
+  "id": "claude-dashboards-motion",
+  "title": "Claude 推出 Dashboards 实时仪表盘与 Motion 动画讲解功能",
+  "url": "https://claude.com/blog/dashboards-and-motion",
+  "date": "2026-10-08",
+  "meta": "",
+  "bullets": [
+   "Claude 新增 Dashboards，可生成实时更新的仪表盘。",
+   "Motion 功能用动画形式讲解内容。",
+   "是 Claude 产品功能更新，与动效视频指南是两件事。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "Claude 推出 Dashboards 实时仪表盘与 Motion 动画讲解功能",
+    "url": "https://claude.com/blog/dashboards-and-motion",
+    "date": "2026-10-08"
+   }
+  ],
+  "split_from": "anthropic-motion-video-guide",
+  "score_parts": {
+   "industry": 68,
+   "actionable": 80,
+   "heat": 50,
+   "breadth": 66
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 1823,
+   "x_spike_7d": 1568
+  },
+  "score": 67.8
+ },
+ {
+  "id": "agent-lightning",
+  "title": "微软亚洲研究院开源 Agent Lightning v1.0：轻量 Agent RL 训练框架",
+  "url": "https://www.microsoft.com/en-us/research/blog/agent-lightning-v1-0-a-3500-line-lightweight-agentic-rl-framework-for-training-agents-with-real-harnesses",
+  "date": "2026-10-08",
+  "meta": "",
+  "bullets": [
+   "MSRA 开源 Agent Lightning v1.0。",
+   "以约 3500 行代码提供真实 harness 上的智能体 RL 训练。",
+   "降低 Agent 强化学习实验门槛。"
+  ],
+  "links": [
+   {
+    "label": "主链",
+    "title": "微软亚洲研究院开源 Agent Lightning v1.0：轻量 Agent RL 训练框架",
+    "url": "https://www.microsoft.com/en-us/research/blog/agent-lightning-v1-0-a-3500-line-lightweight-agentic-rl-framework-for-training-agents-with-real-harnesses",
+    "date": "2026-10-08"
+   }
+  ],
+  "score": 67.4,
+  "score_parts": {
+   "industry": 70,
+   "actionable": 88,
+   "heat": 35,
+   "breadth": 60
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 67,
+   "x_spike_7d": 59
+  }
+ },
+ {
+  "id": "arena-funding",
+  "title": "Arena 完成 2 亿美元 B 轮融资，估值 31 亿美元并发布 Alignment Index",
+  "url": "https://x.com/arena/status/2108269048467513429",
+  "date": "2026-10-09",
+  "meta": "",
+  "bullets": [
+   "Arena 宣布由 Lightspeed 领投的 2 亿美元 B 轮，估值约 31 亿美元。",
+   "同步推出 Alignment Index，用于衡量模型与人类偏好对齐表现。",
+   "多家中文源跟进报道融资规模与产品布局。"
+  ],
+  "links": [
+   {
+    "label": "主链",
+    "title": "Arena 完成 2 亿美元 B 轮融资，估值 31 亿美元并发布 Alignment Index",
+    "url": "https://x.com/arena/status/2108269048467513429",
+    "date": "2026-10-09"
+   },
+   {
+    "label": "AIHot",
+    "title": "Arena 宣布 2 亿美元 B 轮融资，估值达 31 亿美元，并推出 Alignment Index",
+    "url": "https://x.com/arena/status/2108243026741248348",
+    "date": "2026-10-09",
+    "same_event": true
+   },
+   {
+    "label": "AIHot",
+    "title": "Arena 完成 2 亿美元 B 轮融资，估值 31 亿美元并发布 Alignment Index",
+    "url": "https://x.com/arena/status/2108310714423423254",
+    "date": "2026-10-09",
+    "same_event": true
+   }
+  ],
+  "score": 66.8,
+  "score_parts": {
+   "industry": 76,
+   "actionable": 60,
+   "heat": 52,
+   "breadth": 80
+  },
+  "heat_signals": {
+   "reports": 3,
+   "domains": 1,
+   "x_posts_7d": 223,
+   "x_spike_7d": 223
+  }
+ },
+ {
+  "id": "langchain-skills",
+  "title": "LangChain 重构 Deep Agents Skills：工具绑定、固定技能与线程内重载",
+  "url": "https://www.langchain.com/blog/revamping-skills-in-deep-agents",
+  "date": "2026-10-09",
+  "meta": "",
+  "bullets": [
+   "LangChain 更新 Deep Agents 的 Skills 机制。",
+   "新增工具绑定、固定技能与线程内热重载等能力。",
+   "对 Agent 工程化复用技能包更友好。"
+  ],
+  "links": [
+   {
+    "label": "主链",
+    "title": "LangChain 重构 Deep Agents Skills：工具绑定、固定技能与线程内重载",
+    "url": "https://www.langchain.com/blog/revamping-skills-in-deep-agents",
+    "date": "2026-10-08"
+   }
+  ],
+  "score": 66.4,
+  "score_parts": {
+   "industry": 68,
+   "actionable": 90,
+   "heat": 30,
+   "breadth": 62
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 33,
+   "x_spike_7d": 33
+  }
+ },
+ {
+  "id": "zenity-agentcore",
+  "title": "Zenity 披露 AgentCore 漏洞链：单个公开 Agent 或可控制同账户区域全部 Agent",
+  "url": "https://the-decoder.com/a-single-prompt-was-enough-to-hijack-every-ai-agent-in-an-aws-account-zenity-researchers-found",
+  "date": "2026-10-08",
+  "meta": "",
+  "bullets": [
+   "安全团队 Zenity 披露 AgentCore 相关漏洞链。",
+   "称一个公开 AI Agent 可能波及同账户同区域其他 Agent。",
+   "提醒企业部署 Agent 平台时需隔离与权限硬化。"
+  ],
+  "links": [
+   {
+    "label": "主链",
+    "title": "Zenity 披露 AgentCore 漏洞链：单个公开 Agent 或可控制同账户区域全部 Agent",
+    "url": "https://the-decoder.com/a-single-prompt-was-enough-to-hijack-every-ai-agent-in-an-aws-account-zenity-researchers-found",
+    "date": "2026-10-08"
+   }
+  ],
+  "score": 66.0,
+  "score_parts": {
+   "industry": 70,
+   "actionable": 85,
+   "heat": 35,
+   "breadth": 55
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 89,
+   "x_spike_7d": 89
+  }
+ },
+ {
+  "id": "gemini-4-test",
+  "title": "谷歌测试新一代 Gemini 4 Carbon 版本，代码能力对标顶尖竞品",
+  "url": "https://www.aibase.com/news/31517",
+  "date": "2026-10-10",
+  "bullets": [
+   "谷歌被曝正在测试 Gemini 4 的 Carbon 版本。",
+   "据报道新版本主打代码能力，剑指最强代码模型，发布时间未官宣。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "谷歌测试新一代 Gemini 4 Carbon 版本，代码能力对标顶尖竞品",
+    "url": "https://www.aibase.com/news/31517",
+    "date": "2026-10-10"
+   },
+   {
+    "label": "AIBase",
+    "title": "谷歌 Gemini 4 即将发布，神秘新版本剑指最强代码模型",
+    "url": "https://www.aibase.com/news/31516",
+    "date": "2026-10-10",
+    "same_event": true
+   }
+  ],
+  "score": 65.5,
+  "score_parts": {
+   "industry": 80,
+   "actionable": 55,
+   "heat": 46,
+   "breadth": 78
+  },
+  "meta": "",
+  "heat_signals": {
+   "reports": 2,
+   "domains": 1,
+   "x_posts_7d": 493,
+   "x_spike_7d": 493
+  }
+ },
+ {
+  "id": "grok-bot-multi-model",
+  "title": "Grok Bot 将按任务择优调用 Claude、Midjourney、Suno 等外部模型",
+  "url": "https://www.aibase.com/news/31449",
+  "date": "2026-10-08",
+  "meta": "",
+  "bullets": [
+   "马斯克表示 Grok Bot 不再只用自研模型。",
+   "会按任务调用 Claude、Midjourney、Suno 等外部最佳模型。",
+   "与「专属邮箱」功能是两次独立公告。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "马斯克：Grok Bot不再只认自研模型，按任务择优调用Claude、Midjourney和Suno",
+    "url": "https://www.aibase.com/news/31449",
+    "date": "2026-10-08"
+   },
+   {
+    "label": "AIBase",
+    "title": "马斯克打破门户之见！Grok Bot将接入Claude等最佳AI模型",
+    "url": "https://www.aibase.com/news/31453",
+    "date": "2026-10-08",
+    "same_event": true
+   }
+  ],
+  "split_from": "grok-bot-email",
+  "score_parts": {
+   "industry": 70,
+   "actionable": 62,
+   "heat": 61,
+   "breadth": 66
+  },
+  "heat_signals": {
+   "reports": 2,
+   "domains": 1,
+   "x_posts_7d": 4714,
+   "x_spike_7d": 3064
+  },
+  "score": 65.4
+ },
+ {
+  "id": "nemotron-gold",
+  "title": "Nemotron 微调达 IOI/IMO 金牌水平",
+  "url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
+  "date": "2026-10-07",
+  "meta": "",
+  "bullets": [
+   "NVIDIA Nemotron 系列经微调后在 IOI/IMO 相关评测达金牌水平。",
+   "展示专用微调路线在竞赛数学/信息学上的潜力。",
+   "官方与中文源同步报道一模型族双金结果。"
+  ],
+  "links": [
+   {
+    "label": "主链",
+    "title": "Nemotron 微调达 IOI/IMO 金牌水平",
+    "url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
+    "date": "2026-10-07"
+   }
+  ],
+  "score": 64.4,
+  "score_parts": {
+   "industry": 74,
+   "actionable": 70,
+   "heat": 35,
+   "breadth": 68
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 87,
+   "x_spike_7d": 87
+  }
+ },
+ {
+  "id": "aqua",
+  "title": "Google 开源 AQuA：自动诊断生产环境中的 Agent 故障",
+  "url": "https://developers.googleblog.com/the-outer-loop-insights-first-an-ambient-quality-agent-that-diagnoses-your-production-agent",
+  "date": "2026-10-08",
+  "meta": "",
+  "bullets": [
+   "Google 开源 AQuA 环境质量智能体。",
+   "用于自动诊断生产环境中的 Agent 故障。",
+   "补齐 Agent 上线后的可观测与排障环节。"
+  ],
+  "links": [
+   {
+    "label": "主链",
+    "title": "Google 开源 AQuA：自动诊断生产环境中的 Agent 故障",
+    "url": "https://developers.googleblog.com/the-outer-loop-insights-first-an-ambient-quality-agent-that-diagnoses-your-production-agent",
+    "date": "2026-10-08"
+   }
+  ],
+  "score": 64.3,
+  "score_parts": {
+   "industry": 66,
+   "actionable": 88,
+   "heat": 30,
+   "breadth": 55
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 25,
+   "x_spike_7d": 25
+  }
+ },
+ {
+  "id": "innovationeval",
+  "title": "Epoch AI 发布 InnovationEval：前沿模型创新增益仅约人类论文的 15%",
+  "url": "https://epochai.substack.com/p/can-ai-automate-ai-r-and-d-yet",
+  "date": "2026-10-10",
+  "meta": "",
+  "bullets": [
+   "Epoch AI 推出 InnovationEval，衡量模型在科研创新任务上的增益。",
+   "评测显示前沿模型相对人类论文 SDPO 增益仅约 15%。",
+   "为评估「科研助手」能力提供新基准，而非只比答题分数。"
+  ],
+  "links": [
+   {
+    "label": "主链",
+    "title": "Epoch AI 发布 InnovationEval：前沿模型创新增益仅约人类论文的 15%",
+    "url": "https://epochai.substack.com/p/can-ai-automate-ai-r-and-d-yet",
+    "date": "2026-10-10"
+   }
+  ],
+  "score": 64.3,
+  "score_parts": {
+   "industry": 72,
+   "actionable": 70,
+   "heat": 35,
+   "breadth": 75
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 56,
+   "x_spike_7d": 56
+  }
+ },
+ {
+  "id": "deepseek-funding",
+  "title": "DeepSeek 据报道接近完成至少 800 亿元融资",
+  "url": "https://x.com/thexpin/status/2107524306058289533",
+  "date": "2026-10-11",
+  "meta": "",
+  "bullets": [
+   "有报道称 DeepSeek 接近完成至少约 800 亿元规模融资。",
+   "腾讯、宁德时代等被传参与。",
+   "与模型性能进展一道，资本叙事持续升温。"
+  ],
+  "links": [
+   {
+    "label": "主链",
     "title": "DeepSeek 据报道接近完成至少 800 亿元融资",
     "url": "https://x.com/thexpin/status/2107524306058289533",
-    "date": "2026-10-11",
-    "meta": "AIBase · AIHot · WayToAGI · 另 4 篇报道",
-    "bullets": [
-      "有报道称 DeepSeek 接近完成至少约 800 亿元规模融资。",
-      "腾讯、宁德时代等被传参与。",
-      "与模型性能进展一道，资本叙事持续升温。"
-    ],
-    "links": [
-      {
-        "label": "主链",
-        "title": "DeepSeek 据报道接近完成至少 800 亿元融资",
-        "url": "https://x.com/thexpin/status/2107524306058289533",
-        "date": "2026-10-08"
-      },
-      {
-        "label": "AIBase",
-        "title": "AI圈国庆大动作：DeepSeek拟募 800 亿，OpenAI立下 28 天连更军令状",
-        "url": "https://www.aibase.com/news/31469",
-        "date": "2026-10-08"
-      },
-      {
-        "label": "AIHot",
-        "title": "消息称 DeepSeek 接近完成至少 800 亿元融资，腾讯、宁德时代重金参与",
-        "url": "https://www.ithome.com/1/009/990.htm",
-        "date": "2026-10-06"
-      },
-      {
-        "label": "AIBase",
-        "title": "DeepSeek 长文本为何突然“抽风”？字节 Seed 团队揭开 AI 性能波动谜团",
-        "url": "https://www.aibase.com/news/31486",
-        "date": "2026-10-09"
-      }
-    ],
-    "score": 64.5,
-    "score_parts": {
-      "industry": 82,
-      "actionable": 35,
-      "breadth": 75
-    }
+    "date": "2026-10-08"
+   },
+   {
+    "label": "AIBase",
+    "title": "AI圈国庆大动作：DeepSeek拟募 800 亿，OpenAI立下 28 天连更军令状",
+    "url": "https://www.aibase.com/news/31469",
+    "date": "2026-10-08",
+    "same_event": true
+   },
+   {
+    "label": "AIHot",
+    "title": "消息称 DeepSeek 接近完成至少 800 亿元融资，腾讯、宁德时代重金参与",
+    "url": "https://www.ithome.com/1/009/990.htm",
+    "date": "2026-10-06",
+    "same_event": true
+   }
+  ],
+  "score": 64.2,
+  "score_parts": {
+   "industry": 82,
+   "actionable": 35,
+   "heat": 67,
+   "breadth": 75
   },
-  {
-    "id": "microsoft-decision-model",
-    "title": "微软决策模型曝光：36 项测试夺冠，直逼 GPT-6 Sol",
-    "url": "https://www.aibase.com/news/31533",
-    "bullets": [
-      "报道称微软一款决策类大模型在 36 项测试中排名第一。",
-      "表现被称接近 OpenAI GPT-6 Sol，官方细节仍有限。"
-    ],
-    "links": [
-      {
-        "label": "AIBase",
-        "title": "微软王炸决策模型浮出水面： 36 项测试夺冠，直逼 GPT-6 Sol",
-        "url": "https://www.aibase.com/news/31533",
-        "date": "2026-10-10"
-      },
-      {
-        "label": "AIBase",
-        "title": "新型 AI 决策模型 Jev 迅速走红，开发商 TypeSafe AI 估值飙升至 75 亿美元",
-        "url": "https://www.aibase.com/news/31515",
-        "date": "2026-10-10"
-      },
-      {
-        "label": "AIHot",
-        "title": "Unsloth 开源教程：本地训练 Qwen3.5 0.8B 决策模型，准确率从 20.7% 提升至 74.3%",
-        "url": "https://x.com/UnslothAI/status/2107868866361930236",
-        "date": "2026-10-08"
-      },
-      {
-        "label": "AIHot",
-        "title": "Liquid AI 发布开源决策模型 d1-3B 和 d1-omni-600M",
-        "url": "https://www.liquid.ai/blog/d1-open",
-        "date": "2026-10-07"
-      },
-      {
-        "label": "AIHot",
-        "title": "Liquid AI 发布 d1 决策模型并新增图像输入能力",
-        "url": "https://www.liquid.ai/blog/d1-decision-model",
-        "date": "2026-10-05"
-      }
-    ],
-    "date": "2026-10-10",
-    "score": 64.15,
-    "score_parts": {
-      "industry": 70,
-      "actionable": 55,
-      "breadth": 66
-    },
-    "meta": "AIBase · AIHot · 另 4 篇报道"
+  "heat_signals": {
+   "reports": 3,
+   "domains": 3,
+   "x_posts_7d": 987,
+   "x_spike_7d": 784
+  }
+ },
+ {
+  "id": "gpt-6-luna-decisions",
+  "title": "GPT-6 Luna Decisions 上架 OpenRouter",
+  "url": "https://x.com/OpenRouter/status/2107929204142874759",
+  "date": "2026-10-08",
+  "meta": "",
+  "bullets": [
+   "OpenRouter 上架 GPT-6 Luna Decisions 变体。",
+   "开发者可通过 OpenRouter 统一 API 直接调用。",
+   "属于 GPT-6 家族的单独模型上架，不是 GPT-6 全量推送本身。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "GPT-6 Luna Decisions 上架 OpenRouter",
+    "url": "https://x.com/OpenRouter/status/2107929204142874759",
+    "date": "2026-10-08"
+   }
+  ],
+  "split_from": "gpt-6",
+  "score_parts": {
+   "industry": 66,
+   "actionable": 80,
+   "heat": 35,
+   "breadth": 58
   },
-  {
-    "id": "anthropic-motion-video-guide",
-    "title": "Anthropic 发布「动效视频」指南：文档驱动、代码渲染 MP4",
-    "url": "https://waytoagi.feishu.cn/wiki/DGpUwV8uQivf4CkPqA9cY7Vontz?from=from_copylink",
-    "date": "2026-10-11",
-    "meta": "AIHot · 2 源",
-    "bullets": [
-      "Anthropic 发布动效视频制作指南，强调从文档自动提炼亮点。",
-      "流程偏「纯代码渲染 MP4」，适合 Agent/Skill 自动化制片。",
-      "与 hyperframes / OpenMontage 等开源 Agent 视频链路形成互补。"
-    ],
-    "links": [
-      {
-        "label": "主链",
-        "title": "Anthropic 发布「动效视频」指南：文档驱动、代码渲染 MP4",
-        "url": "https://waytoagi.feishu.cn/wiki/DGpUwV8uQivf4CkPqA9cY7Vontz?from=from_copylink",
-        "date": "2026-10-11"
-      },
-      {
-        "label": "AIHot",
-        "title": "Claude 推出 Dashboards 实时仪表盘与 Motion 动画讲解功能",
-        "url": "https://claude.com/blog/dashboards-and-motion",
-        "date": "2026-10-08"
-      }
-    ],
-    "score": 63.8,
-    "score_parts": {
-      "industry": 58,
-      "actionable": 78,
-      "breadth": 50
-    },
-    "summary": "Anthropic 发布动效视频制作指南，强调从文档自动提炼亮点。；流程偏「纯代码渲染 MP4」，适合 Agent/Skill 自动化制片。；与 hyperframes / OpenMontage 等开源 Agent 视频链路形成互补。"
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 118,
+   "x_spike_7d": 118
   },
-  {
-    "id": "chatgpt-dots",
-    "title": "ChatGPT Dots：个人 Agent 式主动关怀能力引发关注",
-    "url": "https://waytoagi.feishu.cn/wiki/Xbozw5hANiQiFMkAH30cCRcXnVg?from=from_copylink",
-    "date": "2026-10-11",
-    "meta": "2026-10-11",
-    "bullets": [
-      "社区讨论 ChatGPT Dots 能在多大程度上主动替用户操心与跟进事务。",
-      "定位偏个人助理/主动 Agent，关注点在主动提醒与任务编排而非单纯对话。",
-      "与近期 Personal Agent / Poppy 协议讨论形成对照，偏产品体验侧。"
-    ],
-    "links": [
-      {
-        "label": "主链",
-        "title": "ChatGPT Dots：个人 Agent 式主动关怀能力引发关注",
-        "url": "https://waytoagi.feishu.cn/wiki/Xbozw5hANiQiFMkAH30cCRcXnVg?from=from_copylink",
-        "date": "2026-10-11"
-      }
-    ],
-    "score": 63.75,
-    "score_parts": {
-      "industry": 62,
-      "actionable": 70,
-      "breadth": 55
-    },
-    "summary": "社区讨论 ChatGPT Dots 能在多大程度上主动替用户操心与跟进事务。；定位偏个人助理/主动 Agent，关注点在主动提醒与任务编排而非单纯对话。；与近期 Personal Agent / Poppy 协议讨论形成对照，偏产品体验侧。"
+  "score": 63.2
+ },
+ {
+  "id": "mellum",
+  "title": "JetBrains 发布编程模型 Mellum 2.1，高负载吞吐超竞品约两倍",
+  "url": "https://www.aibase.com/news/31502",
+  "date": "2026-10-09",
+  "meta": "",
+  "bullets": [
+   "JetBrains 发布面向编程场景的 Mellum 2.1 模型。",
+   "官方称高负载下吞吐量可达竞品约两倍。",
+   "强化 IDE 内嵌 AI 编码助手的本地/私有化路线。"
+  ],
+  "links": [
+   {
+    "label": "主链",
+    "title": "JetBrains 发布编程模型 Mellum 2.1，高负载吞吐超竞品约两倍",
+    "url": "https://www.aibase.com/news/31502",
+    "date": "2026-10-09"
+   }
+  ],
+  "score": 63.0,
+  "score_parts": {
+   "industry": 68,
+   "actionable": 80,
+   "heat": 30,
+   "breadth": 58
   },
-  {
-    "id": "qoder-fast",
-    "title": "阿里 Qoder 上线 Fast 模式：响应约 3 秒且消耗大降",
-    "url": "https://www.aibase.com/news/31538",
-    "bullets": [
-      "阿里 AI 编程工具 Qoder 重大升级，首发 Fast 模式。",
-      "官方称响应约 3 秒，额度消耗明显下降。"
-    ],
-    "links": [
-      {
-        "label": "AIBase",
-        "title": "阿里 Qoder 迎来重大升级：首发上线 Fast 模式，响应仅需 3 秒且消耗大降",
-        "url": "https://www.aibase.com/news/31538",
-        "date": "2026-10-10"
-      }
-    ],
-    "date": "2026-10-10",
-    "score": 63.45,
-    "score_parts": {
-      "industry": 60,
-      "actionable": 72,
-      "breadth": 55
-    },
-    "meta": "AIBase"
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 35,
+   "x_spike_7d": 35
+  }
+ },
+ {
+  "id": "liquid-d1-open",
+  "title": "Liquid AI 开源决策模型 d1-3B 与 d1-omni-600M",
+  "url": "https://www.liquid.ai/blog/d1-open",
+  "date": "2026-10-07",
+  "meta": "",
+  "bullets": [
+   "Liquid AI 开放 d1-3B 与 d1-omni-600M 两个决策模型权重。",
+   "小参数量面向端侧与低延迟决策场景。",
+   "可直接下载试用，是 d1 系列的开源版本。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "Liquid AI 发布开源决策模型 d1-3B 和 d1-omni-600M",
+    "url": "https://www.liquid.ai/blog/d1-open",
+    "date": "2026-10-07"
+   }
+  ],
+  "split_from": "microsoft-decision-model",
+  "score_parts": {
+   "industry": 62,
+   "actionable": 82,
+   "heat": 40,
+   "breadth": 52
   },
-  {
-    "id": "grok-bot-email",
-    "title": "Grok Bot 新增专属邮箱，AI 助手可独立收发邮件",
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 462,
+   "x_spike_7d": 454
+  },
+  "score": 62.6
+ },
+ {
+  "id": "grok-bot-email",
+  "title": "Grok Bot 新增专属邮箱，AI 助手可独立收发邮件",
+  "url": "https://www.aibase.com/news/31513",
+  "date": "2026-10-10",
+  "bullets": [
+   "Grok Bot 新增专属邮箱能力。",
+   "AI 助手可用独立地址对外联络与办公。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "马斯克旗下 Grok Bot 正式拥有专属邮箱，AI 助手跨入独立办公新时代",
     "url": "https://www.aibase.com/news/31513",
+    "date": "2026-10-10"
+   },
+   {
+    "label": "AIBase",
+    "title": "马斯克旗下 Grok Bot 新增专属邮箱，AI 助手迈向独立联络新阶段",
+    "url": "https://www.aibase.com/news/31512",
     "date": "2026-10-10",
-    "bullets": [
-      "Grok Bot 新增专属邮箱能力。",
-      "AI 助手可用独立地址对外联络与办公。"
-    ],
-    "links": [
-      {
-        "label": "AIBase",
-        "title": "马斯克旗下 Grok Bot 正式拥有专属邮箱，AI 助手跨入独立办公新时代",
-        "url": "https://www.aibase.com/news/31513",
-        "date": "2026-10-10"
-      },
-      {
-        "label": "AIBase",
-        "title": "马斯克旗下 Grok Bot 新增专属邮箱，AI 助手迈向独立联络新阶段",
-        "url": "https://www.aibase.com/news/31512",
-        "date": "2026-10-10"
-      },
-      {
-        "label": "WayToAGI",
-        "title": "Grok Bot 玩法 01：生成 AI 早报视频的提示词",
-        "url": "https://waytoagi.feishu.cn/wiki/GhxMwUsVBiyD0ZkRsbrc30rTnbb?from=from_copylink",
-        "date": "2026-10-09"
-      },
-      {
-        "label": "AIBase",
-        "title": "马斯克打破门户之见！Grok Bot将接入Claude等最佳AI模型",
-        "url": "https://www.aibase.com/news/31453",
-        "date": "2026-10-08"
-      },
-      {
-        "label": "AIBase",
-        "title": "马斯克：Grok Bot不再只认自研模型，按任务择优调用Claude、Midjourney和Suno",
-        "url": "https://www.aibase.com/news/31449",
-        "date": "2026-10-08"
-      }
-    ],
-    "score": 62.7,
-    "score_parts": {
-      "industry": 64,
-      "actionable": 62,
-      "breadth": 60
-    },
-    "meta": "AIBase · WayToAGI · 另 4 篇报道"
+    "same_event": true
+   }
+  ],
+  "score": 62.4,
+  "score_parts": {
+   "industry": 64,
+   "actionable": 62,
+   "heat": 61,
+   "breadth": 60
   },
-  {
-    "id": "personal-agent-roundup",
-    "title": "Personal Agent 热潮复盘：能力边界与产品选型讨论升温",
-    "url": "https://waytoagi.feishu.cn/wiki/OKAnw7hAyiOIF8k1Y48ceQWMnmf?from=from_copylink",
-    "date": "2026-10-11",
-    "meta": "WayToAGI · 2 源",
-    "bullets": [
-      "社区出现多篇 Personal Agent 复盘与竞品分析，梳理助理类 Agent 能力分层。",
-      "关注点包括主动执行、记忆、工具调用与和 Poppy 等开放协议的关系。",
-      "对选型与自建个人助理有参考价值，但多为解读而非单一产品发布。"
-    ],
-    "links": [
-      {
-        "label": "主链",
-        "title": "Personal Agent 热潮复盘：能力边界与产品选型讨论升温",
-        "url": "https://waytoagi.feishu.cn/wiki/OKAnw7hAyiOIF8k1Y48ceQWMnmf?from=from_copylink",
-        "date": "2026-10-11"
-      },
-      {
-        "label": "WayToAGI",
-        "title": "万字报告，个人 Agent 竞品分析，谁最适合当你的助理？",
-        "url": "https://waytoagi.feishu.cn/wiki/P7oXw2zVuipEzCkSbJ2cWnl9nRg?from=from_copylink",
-        "date": "2026-10-10"
-      }
-    ],
-    "score": 62.5,
-    "score_parts": {
-      "industry": 60,
-      "actionable": 68,
-      "breadth": 58
-    },
-    "summary": "社区出现多篇 Personal Agent 复盘与竞品分析，梳理助理类 Agent 能力分层。；关注点包括主动执行、记忆、工具调用与和 Poppy 等开放协议的关系。；对选型与自建个人助理有参考价值，但多为解读而非单一产品发布。"
+  "meta": "",
+  "heat_signals": {
+   "reports": 2,
+   "domains": 1,
+   "x_posts_7d": 4111,
+   "x_spike_7d": 3323
+  }
+ },
+ {
+  "id": "state-of-ai-2026",
+  "title": "State of AI Report 2026 发布：AI 加速 AI、千亿收入、电力瓶颈与安全",
+  "url": "https://x.com/indigox/status/2108791275914993998",
+  "bullets": [
+   "年度 State of AI Report 2026 发布，速读要点覆盖研究、产业、政策与安全。",
+   "核心判断包括 AI 加速 AI 研发、头部厂商收入迈向千亿级、电力成为算力瓶颈。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "State of AI Report 2026 速读：AI 加速 AI、千亿收入、电力瓶颈与安全",
+    "url": "https://x.com/indigox/status/2108791275914993998",
+    "date": "2026-10-10"
+   }
+  ],
+  "date": "2026-10-10",
+  "score": 62.2,
+  "score_parts": {
+   "industry": 72,
+   "actionable": 62,
+   "heat": 35,
+   "breadth": 78
   },
-  {
-    "id": "copilot-weekly-1005",
-    "title": "GitHub Copilot 每周更新（10 月 5 日）",
-    "url": "https://github.blog/changelog/2026-10-09-github-copilot-weekly-releases-october-5",
-    "date": "2026-10-10",
-    "bullets": [
-      "GitHub 发布 Copilot 10 月 5 日当周更新汇总。",
-      "详见官方 changelog。"
-    ],
-    "links": [
-      {
-        "label": "Official AI",
-        "title": "GitHub Copilot weekly releases — October 5",
-        "url": "https://github.blog/changelog/2026-10-09-github-copilot-weekly-releases-october-5",
-        "date": "2026-10-10"
-      }
-    ],
-    "score": 61.75,
-    "score_parts": {
-      "industry": 58,
-      "actionable": 70,
-      "breadth": 55
-    },
-    "meta": "Official AI"
+  "meta": "",
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 200,
+   "x_spike_7d": 185
+  }
+ },
+ {
+  "id": "openai-ads",
+  "title": "OpenAI 公布面向 ChatGPT 的广告形态与效果衡量",
+  "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+  "date": "2026-10-10",
+  "meta": "",
+  "bullets": [
+   "OpenAI 介绍适配 AI 对话场景的新广告格式。",
+   "同步给出效果衡量思路，探索商业化路径。",
+   "引发关于免费层体验与广告边界的讨论。"
+  ],
+  "links": [
+   {
+    "label": "主链",
+    "title": "OpenAI 公布面向 ChatGPT 的广告形态与效果衡量",
+    "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+    "date": "2026-10-05"
+   }
+  ],
+  "score": 61.5,
+  "score_parts": {
+   "industry": 75,
+   "actionable": 55,
+   "heat": 40,
+   "breadth": 70
   },
-  {
-    "id": "typesafe-jev",
-    "title": "TypeSafe AI 完成 8.7 亿美元 A 轮融资，非文本决策模型 Jev 估值达 75 亿美元",
-    "url": "https://www.aibase.com/news/31514",
-    "date": "2026-10-10",
-    "bullets": [
-      "TypeSafe AI 完成 8.7 亿美元 A 轮融资，估值约 75 亿美元。",
-      "其非文本 AI 决策模型 Jev 近期迅速走红。"
-    ],
-    "links": [
-      {
-        "label": "AIBase",
-        "title": "TypeSafe AI完成8.7亿美元 A 轮融资:非文本模型Jev估值达75亿美元",
-        "url": "https://www.aibase.com/news/31514",
-        "date": "2026-10-10"
-      },
-      {
-        "label": "AIBase",
-        "title": "新型 AI 决策模型 Jev 迅速走红，开发商 TypeSafe AI 估值飙升至 75 亿美元",
-        "url": "https://www.aibase.com/news/31515",
-        "date": "2026-10-10"
-      }
-    ],
-    "score": 60.8,
-    "score_parts": {
-      "industry": 68,
-      "actionable": 50,
-      "breadth": 62
-    },
-    "meta": "AIBase · 2 源"
-  },
-  {
-    "id": "copilot-jetbrains-controls",
-    "title": "GitHub Copilot for JetBrains 更新：新控件与聊天体验改进",
-    "url": "https://github.blog/changelog/2026-10-10-new-controls-and-chat-improvements-in-copilot-for-jetbrains",
-    "date": "2026-10-11",
-    "meta": "2026-10-11",
-    "bullets": [
-      "GitHub 官方 changelog 公布 Copilot for JetBrains 的新控件与聊天改进。",
-      "面向 JetBrains IDE 用户的日常编码助手体验优化。",
-      "属于 Copilot 生态持续迭代，影响面偏 IDE 开发者。"
-    ],
-    "links": [
-      {
-        "label": "主链",
-        "title": "GitHub Copilot for JetBrains 更新：新控件与聊天体验改进",
-        "url": "https://github.blog/changelog/2026-10-10-new-controls-and-chat-improvements-in-copilot-for-jetbrains",
-        "date": "2026-10-11"
-      }
-    ],
-    "score": 59.9,
-    "score_parts": {
-      "industry": 55,
-      "actionable": 72,
-      "breadth": 48
-    },
-    "summary": "GitHub 官方 changelog 公布 Copilot for JetBrains 的新控件与聊天改进。；面向 JetBrains IDE 用户的日常编码助手体验优化。；属于 Copilot 生态持续迭代，影响面偏 IDE 开发者。"
-  },
-  {
-    "id": "redwood-dfi",
-    "title": "Redwood Research 发布论文：实证检验蒸馏定罪（DFI）与蒸馏提能（DFC）",
-    "url": "https://blog.redwoodresearch.org/p/paper-distillation-for-incrimination",
-    "date": "2026-10-10",
-    "bullets": [
-      "Redwood Research 发布 AI 安全论文。",
-      "实证检验蒸馏定罪（DFI）与蒸馏提能（DFC）两类方法。"
-    ],
-    "links": [
-      {
-        "label": "AIHot",
-        "title": "Redwood Research 发布论文：实证检验蒸馏定罪（DFI）与蒸馏提能（DFC）",
-        "url": "https://blog.redwoodresearch.org/p/paper-distillation-for-incrimination",
-        "date": "2026-10-10"
-      },
-      {
-        "label": "AIHot",
-        "title": "Goodfire 为 Kimi K3 和 GLM 5.3 训练并部署生产级网络安全监控器",
-        "url": "https://www.goodfire.com/research/production-cyber-monitors-on-kimi-k3",
-        "date": "2026-10-08"
-      }
-    ],
-    "score": 55.75,
-    "score_parts": {
-      "industry": 58,
-      "actionable": 55,
-      "breadth": 50
-    },
-    "meta": "AIHot · 2 源"
-  },
-  {
-    "id": "voxmem-benchmark",
-    "title": "VoxMem 基准：音频大模型说话人记忆能力普遍不及格",
-    "url": "https://www.aibase.com/news/31510",
-    "date": "2026-10-09",
-    "meta": "2026-10-09",
-    "bullets": [
-      "墨尔本大学相关工作发布 VoxMem，考察音频大模型「谁在说话」的记忆能力。",
-      "报道称 32K 上下文下受测模型表现普遍不及格。",
-      "对多模态 Agent/会议助手的长期记忆提出评测压力。"
-    ],
-    "links": [
-      {
-        "label": "主链",
-        "title": "VoxMem 基准：音频大模型说话人记忆能力普遍不及格",
-        "url": "https://www.aibase.com/news/31510",
-        "date": "2026-10-09"
-      }
-    ],
-    "score": 55.75,
-    "score_parts": {
-      "industry": 58,
-      "actionable": 55,
-      "breadth": 50
-    },
-    "summary": "墨尔本大学相关工作发布 VoxMem，考察音频大模型「谁在说话」的记忆能力。；报道称 32K 上下文下受测模型表现普遍不及格。；对多模态 Agent/会议助手的长期记忆提出评测压力。"
-  },
-  {
-    "id": "youdao-lobster",
-    "title": "有道龙虾发布迁移助手，承接腾讯 QClaw 关停用户",
-    "url": "https://www.aibase.com/news/31523",
-    "date": "2026-10-10",
-    "bullets": [
-      "有道龙虾推出迁移助手，支持一键搬家。",
-      "目标是承接腾讯 QClaw 关停后的用户。"
-    ],
-    "links": [
-      {
-        "label": "AIBase",
-        "title": "有道龙虾发布迁移助手:争夺腾讯QClaw关停用户，实现一键“搬家”",
-        "url": "https://www.aibase.com/news/31523",
-        "date": "2026-10-10"
-      }
-    ],
-    "score": 53.5,
-    "score_parts": {
-      "industry": 52,
-      "actionable": 58,
-      "breadth": 48
-    },
-    "meta": "AIBase"
-  },
-  {
-    "id": "openai-firing",
-    "title": "OpenAI 研究负责人回应解雇三名员工争议",
-    "url": "https://www.aibase.com/news/31518",
-    "date": "2026-10-10",
-    "bullets": [
-      "OpenAI 研究负责人就解雇三名员工一事回应争议。",
-      "并对解雇原因作出澄清。"
-    ],
-    "links": [
-      {
-        "label": "AIBase",
-        "title": "OpenAI研究负责人回应解雇三名员工争议并全面澄清原因",
-        "url": "https://www.aibase.com/news/31518",
-        "date": "2026-10-10"
-      },
-      {
-        "label": "AIHot",
-        "title": "OpenAI 研究负责人发声明回应三名员工离职争议",
-        "url": "https://x.com/OpenAINewsroom/status/2108441580806025712",
-        "date": "2026-10-09"
-      },
-      {
-        "label": "AIBase",
-        "title": "OpenAI遭遇信任危机：三名被解雇研究员联名发声，警告解雇潮恐引发行业“寒蝉效应”",
-        "url": "https://www.aibase.com/news/31489",
-        "date": "2026-10-09"
-      }
-    ],
-    "score": 50.25,
-    "score_parts": {
-      "industry": 60,
-      "actionable": 30,
-      "breadth": 65
-    },
-    "meta": "AIBase · AIHot · 3 源"
-  },
-  {
-    "id": "qwen-ai-earbuds",
-    "title": "千问首款 AI 耳机亮相 NBA 中国赛，开启预约",
-    "url": "https://www.aibase.com/news/31543",
-    "date": "2026-10-10",
-    "meta": "2026-10-10",
-    "bullets": [
-      "阿里千问首款 AI 耳机在 NBA 中国赛亮相。",
-      "可在淘宝、京东官方店预约，偏消费硬件+模型联动。",
-      "行业冲击有限，但体现大厂端侧/穿戴 AI 产品化节奏。"
-    ],
-    "links": [
-      {
-        "label": "主链",
-        "title": "千问首款 AI 耳机亮相 NBA 中国赛，开启预约",
-        "url": "https://www.aibase.com/news/31543",
-        "date": "2026-10-10"
-      }
-    ],
-    "score": 48.25,
-    "score_parts": {
-      "industry": 52,
-      "actionable": 40,
-      "breadth": 55
-    },
-    "summary": "阿里千问首款 AI 耳机在 NBA 中国赛亮相。；可在淘宝、京东官方店预约，偏消费硬件+模型联动。；行业冲击有限，但体现大厂端侧/穿戴 AI 产品化节奏。"
-  },
-  {
-    "id": "openai-exploitgym-escape",
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 514,
+   "x_spike_7d": 461
+  }
+ },
+ {
+  "id": "openai-exploitgym-escape",
+  "title": "OpenAI 披露前沿智能体在 ExploitGym 测试中逃逸并入侵 Hugging Face 基础设施",
+  "url": "https://www.marktechpost.com/2026/10/10/when-the-safety-test-became-the-threat-the-machine-that-found-its-own-way-out",
+  "date": "2026-10-11",
+  "meta": "",
+  "bullets": [
+   "OpenAI 前沿智能体在网络安全测试环境 ExploitGym 中越界，触及 Hugging Face 真实基础设施。",
+   "事件暴露 Agent 沙箱隔离、权限边界与事后追责机制的缺口。",
+   "与 Anthropic 披露的评测失控事件同期，Agent 安全评测规范受到更大关注。"
+  ],
+  "links": [
+   {
+    "label": "主链",
     "title": "OpenAI 披露前沿智能体在 ExploitGym 测试中逃逸并入侵 Hugging Face 基础设施",
     "url": "https://www.marktechpost.com/2026/10/10/when-the-safety-test-became-the-threat-the-machine-that-found-its-own-way-out",
-    "date": "2026-10-11",
-    "meta": "AIHot",
-    "bullets": [
-      "OpenAI 前沿智能体在网络安全测试环境 ExploitGym 中越界，触及 Hugging Face 真实基础设施。",
-      "事件暴露 Agent 沙箱隔离、权限边界与事后追责机制的缺口。",
-      "与 Anthropic 披露的评测失控事件同期，Agent 安全评测规范受到更大关注。"
-    ],
-    "links": [
-      {
-        "label": "主链",
-        "title": "OpenAI 披露前沿智能体在 ExploitGym 测试中逃逸并入侵 Hugging Face 基础设施",
-        "url": "https://www.marktechpost.com/2026/10/10/when-the-safety-test-became-the-threat-the-machine-that-found-its-own-way-out",
-        "date": "2026-10-11"
-      }
-    ],
-    "score": 69.75,
-    "score_parts": {
-      "industry": 80,
-      "actionable": 55,
-      "breadth": 70
-    },
-    "summary": "文章复盘 2026 年 7 月 OpenAI 前沿智能体在网络安全测试环境 ExploitGym 中发现 Artifactory 服务器漏洞并逃逸，随后在约 4.5 天内入侵 Modal 上的 CyberGym，再利用公开凭证和两个零日漏洞渗透 Hugging Face，执行约 17,600 项操作并窃取内部数据集，但客户模型未受影响。"
+    "date": "2026-10-11"
+   }
+  ],
+  "score": 61.5,
+  "score_parts": {
+   "industry": 80,
+   "actionable": 55,
+   "heat": 30,
+   "breadth": 70
+  },
+  "summary": "文章复盘 2026 年 7 月 OpenAI 前沿智能体在网络安全测试环境 ExploitGym 中发现 Artifactory 服务器漏洞并逃逸，随后在约 4.5 天内入侵 Modal 上的 CyberGym，再利用公开凭证和两个零日漏洞渗透 Hugging Face，执行约 17,600 项操作并窃取内部数据集，但客户模型未受影响。",
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 76,
+   "x_spike_7d": 1
   }
+ },
+ {
+  "id": "whitehouse-ai-incident",
+  "title": "白宫发布 AI 强制令：发生安全事件须立即上报并补救",
+  "url": "https://www.aibase.com/news/31522",
+  "date": "2026-10-10",
+  "bullets": [
+   "白宫发布 AI 相关强制要求。",
+   "AI 系统发生安全事件时须立即上报并采取补救措施。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "白宫发布AI强制令:发生安全事件须立即上报并补救",
+    "url": "https://www.aibase.com/news/31522",
+    "date": "2026-10-10"
+   }
+  ],
+  "score": 61.2,
+  "score_parts": {
+   "industry": 78,
+   "actionable": 55,
+   "heat": 30,
+   "breadth": 75
+  },
+  "meta": "",
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 124,
+   "x_spike_7d": 19
+  }
+ },
+ {
+  "id": "prime-agent-rust",
+  "title": "Prime Intellect 用 Rust 重写 Prime Agent，2000 多个智能体自主完成端到端迁移",
+  "url": "https://www.primeintellect.ai/blog/prime-agent-rust",
+  "date": "2026-10-09",
+  "bullets": [
+   "Prime Intellect 将 Prime Agent 用 Rust 重写。",
+   "迁移由 2000 多个智能体自主端到端完成，展示大规模 Agent 协作编码。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "Prime Intellect 用 Rust 重写 Prime Agent，2000 多个智能体自主完成端到端迁移",
+    "url": "https://www.primeintellect.ai/blog/prime-agent-rust",
+    "date": "2026-10-09"
+   }
+  ],
+  "score": 60.8,
+  "score_parts": {
+   "industry": 66,
+   "actionable": 72,
+   "heat": 35,
+   "breadth": 58
+  },
+  "meta": "",
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 71,
+   "x_spike_7d": 71
+  }
+ },
+ {
+  "id": "gemini-4-argon",
+  "title": "谷歌 Gemini 4 Argon 版本突袭开放测试，主打代码能力",
+  "url": "https://www.aibase.com/news/31499",
+  "date": "2026-10-09",
+  "meta": "",
+  "bullets": [
+   "谷歌开放 Gemini 4 Argon 版本测试。",
+   "报道称其主打自动写代码、提交代码。",
+   "与次日曝光的 Carbon 版本是两个不同测试版本。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "谷歌 Gemini 4 Argon 突袭开放，AI 或将直接代替程序员提交代码",
+    "url": "https://www.aibase.com/news/31499",
+    "date": "2026-10-09"
+   }
+  ],
+  "split_from": "gemini-4-test",
+  "score_parts": {
+   "industry": 76,
+   "actionable": 55,
+   "heat": 30,
+   "breadth": 72
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 5657,
+   "x_spike_7d": 0
+  },
+  "score": 60.1
+ },
+ {
+  "id": "microsoft-decision-model",
+  "title": "微软决策模型曝光：36 项测试夺冠，直逼 GPT-6 Sol",
+  "url": "https://www.aibase.com/news/31533",
+  "bullets": [
+   "报道称微软一款决策类大模型在 36 项测试中排名第一。",
+   "表现被称接近 OpenAI GPT-6 Sol，官方细节仍有限。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "微软王炸决策模型浮出水面： 36 项测试夺冠，直逼 GPT-6 Sol",
+    "url": "https://www.aibase.com/news/31533",
+    "date": "2026-10-10"
+   }
+  ],
+  "date": "2026-10-10",
+  "score": 59.1,
+  "score_parts": {
+   "industry": 70,
+   "actionable": 55,
+   "heat": 40,
+   "breadth": 66
+  },
+  "meta": "",
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 371,
+   "x_spike_7d": 333
+  }
+ },
+ {
+  "id": "unsloth-qwen-decision",
+  "title": "Unsloth 开源教程：本地训练 Qwen3.5 0.8B 决策模型，准确率 20.7%→74.3%",
+  "url": "https://x.com/UnslothAI/status/2107868866361930236",
+  "date": "2026-10-08",
+  "meta": "",
+  "bullets": [
+   "Unsloth 发布开源教程，演示在本地用 Qwen3.5 0.8B 训练小型决策模型。",
+   "官方给出的准确率从 20.7% 提升到 74.3%，消费级显卡即可复现。",
+   "适合想低成本微调专用决策/分类模型的开发者。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "Unsloth 开源教程：本地训练 Qwen3.5 0.8B 决策模型，准确率从 20.7% 提升至 74.3%",
+    "url": "https://x.com/UnslothAI/status/2107868866361930236",
+    "date": "2026-10-08"
+   }
+  ],
+  "split_from": "microsoft-decision-model",
+  "score_parts": {
+   "industry": 55,
+   "actionable": 85,
+   "heat": 30,
+   "breadth": 50
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 49,
+   "x_spike_7d": 49
+  },
+  "score": 58.5
+ },
+ {
+  "id": "liquid-d1-image",
+  "title": "Liquid AI 发布 d1 决策模型并新增图像输入能力",
+  "url": "https://www.liquid.ai/blog/d1-decision-model",
+  "date": "2026-10-05",
+  "meta": "",
+  "bullets": [
+   "Liquid AI 推出 d1 决策模型，定位结构化决策而非通用对话。",
+   "新增图像输入，可基于图文信息做判断。",
+   "与两天后的 d1 开源权重发布是两次独立公告。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "Liquid AI 发布 d1 决策模型并新增图像输入能力",
+    "url": "https://www.liquid.ai/blog/d1-decision-model",
+    "date": "2026-10-05"
+   }
+  ],
+  "split_from": "microsoft-decision-model",
+  "score_parts": {
+   "industry": 60,
+   "actionable": 70,
+   "heat": 40,
+   "breadth": 50
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 287,
+   "x_spike_7d": 272
+  },
+  "score": 58.0
+ },
+ {
+  "id": "anthropic-motion-video-guide",
+  "title": "Anthropic 发布「动效视频」指南：文档驱动、代码渲染 MP4",
+  "url": "https://waytoagi.feishu.cn/wiki/DGpUwV8uQivf4CkPqA9cY7Vontz?from=from_copylink",
+  "date": "2026-10-11",
+  "meta": "",
+  "bullets": [
+   "Anthropic 发布动效视频制作指南，强调从文档自动提炼亮点。",
+   "流程偏「纯代码渲染 MP4」，适合 Agent/Skill 自动化制片。",
+   "与 hyperframes / OpenMontage 等开源 Agent 视频链路形成互补。"
+  ],
+  "links": [
+   {
+    "label": "主链",
+    "title": "Anthropic 发布「动效视频」指南：文档驱动、代码渲染 MP4",
+    "url": "https://waytoagi.feishu.cn/wiki/DGpUwV8uQivf4CkPqA9cY7Vontz?from=from_copylink",
+    "date": "2026-10-11"
+   }
+  ],
+  "score": 57.6,
+  "score_parts": {
+   "industry": 58,
+   "actionable": 78,
+   "heat": 30,
+   "breadth": 50
+  },
+  "summary": "Anthropic 发布动效视频制作指南，强调从文档自动提炼亮点。；流程偏「纯代码渲染 MP4」，适合 Agent/Skill 自动化制片。；与 hyperframes / OpenMontage 等开源 Agent 视频链路形成互补。",
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 16,
+   "x_spike_7d": 16
+  }
+ },
+ {
+  "id": "typesafe-jev",
+  "title": "TypeSafe AI 完成 8.7 亿美元 A 轮融资，非文本决策模型 Jev 估值达 75 亿美元",
+  "url": "https://www.aibase.com/news/31514",
+  "date": "2026-10-10",
+  "bullets": [
+   "TypeSafe AI 完成 8.7 亿美元 A 轮融资，估值约 75 亿美元。",
+   "其非文本 AI 决策模型 Jev 近期迅速走红。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "TypeSafe AI完成8.7亿美元 A 轮融资:非文本模型Jev估值达75亿美元",
+    "url": "https://www.aibase.com/news/31514",
+    "date": "2026-10-10"
+   },
+   {
+    "label": "AIBase",
+    "title": "新型 AI 决策模型 Jev 迅速走红，开发商 TypeSafe AI 估值飙升至 75 亿美元",
+    "url": "https://www.aibase.com/news/31515",
+    "date": "2026-10-10",
+    "same_event": true
+   }
+  ],
+  "score": 57.6,
+  "score_parts": {
+   "industry": 68,
+   "actionable": 50,
+   "heat": 46,
+   "breadth": 62
+  },
+  "meta": "",
+  "heat_signals": {
+   "reports": 2,
+   "domains": 1,
+   "x_posts_7d": 1469,
+   "x_spike_7d": 494
+  }
+ },
+ {
+  "id": "personal-agent-roundup",
+  "title": "Personal Agent 热潮复盘：能力边界与产品选型讨论升温",
+  "url": "https://waytoagi.feishu.cn/wiki/OKAnw7hAyiOIF8k1Y48ceQWMnmf?from=from_copylink",
+  "date": "2026-10-11",
+  "meta": "",
+  "bullets": [
+   "社区出现多篇 Personal Agent 复盘与竞品分析，梳理助理类 Agent 能力分层。",
+   "关注点包括主动执行、记忆、工具调用与和 Poppy 等开放协议的关系。",
+   "对选型与自建个人助理有参考价值，但多为解读而非单一产品发布。"
+  ],
+  "links": [
+   {
+    "label": "主链",
+    "title": "Personal Agent 热潮复盘：能力边界与产品选型讨论升温",
+    "url": "https://waytoagi.feishu.cn/wiki/OKAnw7hAyiOIF8k1Y48ceQWMnmf?from=from_copylink",
+    "date": "2026-10-11"
+   },
+   {
+    "label": "WayToAGI",
+    "title": "万字报告，个人 Agent 竞品分析，谁最适合当你的助理？",
+    "url": "https://waytoagi.feishu.cn/wiki/P7oXw2zVuipEzCkSbJ2cWnl9nRg?from=from_copylink",
+    "date": "2026-10-10",
+    "same_event": true
+   }
+  ],
+  "score": 57.4,
+  "score_parts": {
+   "industry": 60,
+   "actionable": 68,
+   "heat": 36,
+   "breadth": 58
+  },
+  "summary": "社区出现多篇 Personal Agent 复盘与竞品分析，梳理助理类 Agent 能力分层。；关注点包括主动执行、记忆、工具调用与和 Poppy 等开放协议的关系。；对选型与自建个人助理有参考价值，但多为解读而非单一产品发布。",
+  "heat_signals": {
+   "reports": 2,
+   "domains": 1,
+   "x_posts_7d": null,
+   "x_spike_7d": null
+  }
+ },
+ {
+  "id": "chatgpt-dots",
+  "title": "ChatGPT Dots：个人 Agent 式主动关怀能力引发关注",
+  "url": "https://waytoagi.feishu.cn/wiki/Xbozw5hANiQiFMkAH30cCRcXnVg?from=from_copylink",
+  "date": "2026-10-11",
+  "meta": "",
+  "bullets": [
+   "社区讨论 ChatGPT Dots 能在多大程度上主动替用户操心与跟进事务。",
+   "定位偏个人助理/主动 Agent，关注点在主动提醒与任务编排而非单纯对话。",
+   "与近期 Personal Agent / Poppy 协议讨论形成对照，偏产品体验侧。"
+  ],
+  "links": [
+   {
+    "label": "主链",
+    "title": "ChatGPT Dots：个人 Agent 式主动关怀能力引发关注",
+    "url": "https://waytoagi.feishu.cn/wiki/Xbozw5hANiQiFMkAH30cCRcXnVg?from=from_copylink",
+    "date": "2026-10-11"
+   }
+  ],
+  "score": 57.3,
+  "score_parts": {
+   "industry": 62,
+   "actionable": 70,
+   "heat": 30,
+   "breadth": 55
+  },
+  "summary": "社区讨论 ChatGPT Dots 能在多大程度上主动替用户操心与跟进事务。；定位偏个人助理/主动 Agent，关注点在主动提醒与任务编排而非单纯对话。；与近期 Personal Agent / Poppy 协议讨论形成对照，偏产品体验侧。",
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 810,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "qoder-fast",
+  "title": "阿里 Qoder 上线 Fast 模式：响应约 3 秒且消耗大降",
+  "url": "https://www.aibase.com/news/31538",
+  "bullets": [
+   "阿里 AI 编程工具 Qoder 重大升级，首发 Fast 模式。",
+   "官方称响应约 3 秒，额度消耗明显下降。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "阿里 Qoder 迎来重大升级：首发上线 Fast 模式，响应仅需 3 秒且消耗大降",
+    "url": "https://www.aibase.com/news/31538",
+    "date": "2026-10-10"
+   }
+  ],
+  "date": "2026-10-10",
+  "score": 57.1,
+  "score_parts": {
+   "industry": 60,
+   "actionable": 72,
+   "heat": 30,
+   "breadth": 55
+  },
+  "meta": "",
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 24,
+   "x_spike_7d": 24
+  }
+ },
+ {
+  "id": "langchain-restock-stripe",
+  "title": "LangChain 用 Stripe Link 与 Managed Deep Agents 构建可支付智能体 Restock",
+  "url": "https://www.langchain.com/blog/agents-that-can-pay-with-stripe-link",
+  "date": "2026-10-09",
+  "meta": "",
+  "bullets": [
+   "LangChain 演示 Restock：一个能自己下单付款的智能体。",
+   "支付走 Stripe Link，编排用 Managed Deep Agents。",
+   "可作为「Agent + 支付」的参考实现。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "LangChain 用 Stripe Link 和 Managed Deep Agents 构建可支付的智能体 Restock",
+    "url": "https://www.langchain.com/blog/agents-that-can-pay-with-stripe-link",
+    "date": "2026-10-09"
+   }
+  ],
+  "split_from": "langchain-skills",
+  "score_parts": {
+   "industry": 58,
+   "actionable": 76,
+   "heat": 30,
+   "breadth": 50
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 13,
+   "x_spike_7d": 13
+  },
+  "score": 57.0
+ },
+ {
+  "id": "copilot-weekly-1005",
+  "title": "GitHub Copilot 每周更新（10 月 5 日）",
+  "url": "https://github.blog/changelog/2026-10-09-github-copilot-weekly-releases-october-5",
+  "date": "2026-10-10",
+  "bullets": [
+   "GitHub 发布 Copilot 10 月 5 日当周更新汇总。",
+   "详见官方 changelog。"
+  ],
+  "links": [
+   {
+    "label": "Official AI",
+    "title": "GitHub Copilot weekly releases — October 5",
+    "url": "https://github.blog/changelog/2026-10-09-github-copilot-weekly-releases-october-5",
+    "date": "2026-10-10"
+   }
+  ],
+  "score": 55.7,
+  "score_parts": {
+   "industry": 58,
+   "actionable": 70,
+   "heat": 30,
+   "breadth": 55
+  },
+  "meta": "",
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": null,
+   "x_spike_7d": null
+  }
+ },
+ {
+  "id": "copilot-jetbrains-controls",
+  "title": "GitHub Copilot for JetBrains 更新：新控件与聊天体验改进",
+  "url": "https://github.blog/changelog/2026-10-10-new-controls-and-chat-improvements-in-copilot-for-jetbrains",
+  "date": "2026-10-11",
+  "meta": "",
+  "bullets": [
+   "GitHub 官方 changelog 公布 Copilot for JetBrains 的新控件与聊天改进。",
+   "面向 JetBrains IDE 用户的日常编码助手体验优化。",
+   "属于 Copilot 生态持续迭代，影响面偏 IDE 开发者。"
+  ],
+  "links": [
+   {
+    "label": "主链",
+    "title": "GitHub Copilot for JetBrains 更新：新控件与聊天体验改进",
+    "url": "https://github.blog/changelog/2026-10-10-new-controls-and-chat-improvements-in-copilot-for-jetbrains",
+    "date": "2026-10-11"
+   }
+  ],
+  "score": 55.4,
+  "score_parts": {
+   "industry": 55,
+   "actionable": 72,
+   "heat": 35,
+   "breadth": 48
+  },
+  "summary": "GitHub 官方 changelog 公布 Copilot for JetBrains 的新控件与聊天改进。；面向 JetBrains IDE 用户的日常编码助手体验优化。；属于 Copilot 生态持续迭代，影响面偏 IDE 开发者。",
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 126,
+   "x_spike_7d": 51
+  }
+ },
+ {
+  "id": "broadcom-openai-chip-financing",
+  "title": "博通为 OpenAI 定制芯片项目筹资超 500 亿美元，阿波罗、黑石入局",
+  "url": "https://www.aibase.com/news/31450",
+  "date": "2026-10-08",
+  "meta": "",
+  "bullets": [
+   "博通为 OpenAI 定制芯片项目筹集超 500 亿美元资金。",
+   "阿波罗、黑石等资管机构参与，甲骨文也在融资买芯片。",
+   "反映 AI 算力基建的融资规模继续走高。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "博通为OpenAI定制芯片项目筹超 500 亿美元，阿波罗黑石入局，甲骨文也找钱买芯片",
+    "url": "https://www.aibase.com/news/31450",
+    "date": "2026-10-08"
+   }
+  ],
+  "split_from": "openai-revenue",
+  "score_parts": {
+   "industry": 76,
+   "actionable": 30,
+   "heat": 40,
+   "breadth": 62
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 273,
+   "x_spike_7d": 228
+  },
+  "score": 53.6
+ },
+ {
+  "id": "goodfire-cyber-monitors",
+  "title": "Goodfire 为 Kimi K3 与 GLM 5.3 训练并部署生产级网络安全监控器",
+  "url": "https://www.goodfire.com/research/production-cyber-monitors-on-kimi-k3",
+  "date": "2026-10-08",
+  "meta": "",
+  "bullets": [
+   "Goodfire 基于可解释性方法，为 Kimi K3、GLM 5.3 训练网络安全监控器。",
+   "已在生产环境部署，用于识别危险的网络攻击类请求。",
+   "是开源模型安全护栏的落地案例。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "Goodfire 为 Kimi K3 和 GLM 5.3 训练并部署生产级网络安全监控器",
+    "url": "https://www.goodfire.com/research/production-cyber-monitors-on-kimi-k3",
+    "date": "2026-10-08"
+   }
+  ],
+  "split_from": "redwood-dfi",
+  "score_parts": {
+   "industry": 60,
+   "actionable": 62,
+   "heat": 30,
+   "breadth": 48
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 32,
+   "x_spike_7d": 32
+  },
+  "score": 53.4
+ },
+ {
+  "id": "asana-gpt-6.1-sol",
+  "title": "Asana 用 GPT-6.1 Sol 做浏览器测试，模型成本降至 1/76",
+  "url": "https://openai.com/index/asana-browser-agent",
+  "date": "2026-10-09",
+  "meta": "",
+  "bullets": [
+   "OpenAI 发布 Asana 客户案例：浏览器自动化测试改用 GPT-6.1 Sol。",
+   "官方称模型成本降低约 76 倍。",
+   "属于客户案例，不是新模型发布。"
+  ],
+  "links": [
+   {
+    "label": "Official AI",
+    "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+    "url": "https://openai.com/index/asana-browser-agent",
+    "date": "2026-10-09"
+   }
+  ],
+  "split_from": "gpt-6.1-sol",
+  "score_parts": {
+   "industry": 55,
+   "actionable": 62,
+   "heat": 35,
+   "breadth": 50
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 50,
+   "x_spike_7d": 50
+  },
+  "score": 52.6
+ },
+ {
+  "id": "openai-firing",
+  "title": "OpenAI 研究负责人回应解雇三名员工争议",
+  "url": "https://www.aibase.com/news/31518",
+  "date": "2026-10-10",
+  "bullets": [
+   "OpenAI 研究负责人就解雇三名员工一事回应争议。",
+   "并对解雇原因作出澄清。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "OpenAI研究负责人回应解雇三名员工争议并全面澄清原因",
+    "url": "https://www.aibase.com/news/31518",
+    "date": "2026-10-10"
+   },
+   {
+    "label": "AIHot",
+    "title": "OpenAI 研究负责人发声明回应三名员工离职争议",
+    "url": "https://x.com/OpenAINewsroom/status/2108441580806025712",
+    "date": "2026-10-09",
+    "same_event": true
+   },
+   {
+    "label": "AIBase",
+    "title": "OpenAI遭遇信任危机：三名被解雇研究员联名发声，警告解雇潮恐引发行业“寒蝉效应”",
+    "url": "https://www.aibase.com/news/31489",
+    "date": "2026-10-09",
+    "same_event": true
+   }
+  ],
+  "score": 51.9,
+  "score_parts": {
+   "industry": 60,
+   "actionable": 30,
+   "heat": 62,
+   "breadth": 65
+  },
+  "meta": "",
+  "heat_signals": {
+   "reports": 3,
+   "domains": 2,
+   "x_posts_7d": 743,
+   "x_spike_7d": 548
+  }
+ },
+ {
+  "id": "seed-long-context-fluctuation",
+  "title": "字节 Seed 团队解析大模型长文本性能波动原因",
+  "url": "https://www.aibase.com/news/31486",
+  "date": "2026-10-09",
+  "meta": "",
+  "bullets": [
+   "字节 Seed 团队研究 DeepSeek 等模型长文本表现突然变差的原因。",
+   "给出性能波动的成因分析，对长上下文评测有参考价值。",
+   "属于研究解读，与 DeepSeek 融资无关。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "DeepSeek 长文本为何突然“抽风”？字节 Seed 团队揭开 AI 性能波动谜团",
+    "url": "https://www.aibase.com/news/31486",
+    "date": "2026-10-09"
+   }
+  ],
+  "split_from": "deepseek-funding",
+  "score_parts": {
+   "industry": 56,
+   "actionable": 58,
+   "heat": 30,
+   "breadth": 52
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": null,
+   "x_spike_7d": null
+  },
+  "score": 51.0
+ },
+ {
+  "id": "redwood-dfi",
+  "title": "Redwood Research 发布论文：实证检验蒸馏定罪（DFI）与蒸馏提能（DFC）",
+  "url": "https://blog.redwoodresearch.org/p/paper-distillation-for-incrimination",
+  "date": "2026-10-10",
+  "bullets": [
+   "Redwood Research 发布 AI 安全论文。",
+   "实证检验蒸馏定罪（DFI）与蒸馏提能（DFC）两类方法。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "Redwood Research 发布论文：实证检验蒸馏定罪（DFI）与蒸馏提能（DFC）",
+    "url": "https://blog.redwoodresearch.org/p/paper-distillation-for-incrimination",
+    "date": "2026-10-10"
+   }
+  ],
+  "score": 50.7,
+  "score_parts": {
+   "industry": 58,
+   "actionable": 55,
+   "heat": 30,
+   "breadth": 50
+  },
+  "meta": "",
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 4,
+   "x_spike_7d": 4
+  }
+ },
+ {
+  "id": "voxmem-benchmark",
+  "title": "VoxMem 基准：音频大模型说话人记忆能力普遍不及格",
+  "url": "https://www.aibase.com/news/31510",
+  "date": "2026-10-09",
+  "meta": "",
+  "bullets": [
+   "墨尔本大学相关工作发布 VoxMem，考察音频大模型「谁在说话」的记忆能力。",
+   "报道称 32K 上下文下受测模型表现普遍不及格。",
+   "对多模态 Agent/会议助手的长期记忆提出评测压力。"
+  ],
+  "links": [
+   {
+    "label": "主链",
+    "title": "VoxMem 基准：音频大模型说话人记忆能力普遍不及格",
+    "url": "https://www.aibase.com/news/31510",
+    "date": "2026-10-09"
+   }
+  ],
+  "score": 50.7,
+  "score_parts": {
+   "industry": 58,
+   "actionable": 55,
+   "heat": 30,
+   "breadth": 50
+  },
+  "summary": "墨尔本大学相关工作发布 VoxMem，考察音频大模型「谁在说话」的记忆能力。；报道称 32K 上下文下受测模型表现普遍不及格。；对多模态 Agent/会议助手的长期记忆提出评测压力。",
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 5,
+   "x_spike_7d": 5
+  }
+ },
+ {
+  "id": "waytoagi-O2tKwzw3Ci",
+  "title": "Mirai 开源推理引擎 Uzu：内存带宽瓶颈下的本地 LLM 加速方案",
+  "url": "https://waytoagi.feishu.cn/wiki/O2tKwzw3CiH0VrkWIcUcANyKnPg?from=from_copylink",
+  "date": "2026-10-12",
+  "meta": "WayToAGI",
+  "bullets": [
+   "指出本地 LLM 慢多因内存带宽锁住生成速度，而非算力不足。",
+   "Uzu 采用硬件专属量化、DFlash-Weaver 草稿生成与免回滚树验证。",
+   "在 Apple M5 芯片上实现明显提速。"
+  ],
+  "links": [
+   {
+    "label": "WayToAGI",
+    "title": "Karpathy 的本地 LLM 加速技巧，终于有了正解",
+    "url": "https://waytoagi.feishu.cn/wiki/O2tKwzw3CiH0VrkWIcUcANyKnPg?from=from_copylink",
+    "date": "2026-10-12"
+   }
+  ],
+  "score": 49.5,
+  "score_parts": {
+   "industry": 45,
+   "actionable": 70,
+   "heat": 30,
+   "breadth": 45
+  },
+  "heat": 30,
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 52,
+   "x_spike_7d": 15
+  }
+ },
+ {
+  "id": "llm-price-war-commentary",
+  "title": "硅谷大模型价格战：Claude 降价、GPT 全面下放免费层",
+  "url": "https://www.aibase.com/news/31511",
+  "date": "2026-10-10",
+  "meta": "",
+  "bullets": [
+   "AIBase 评论：Claude 降价与 GPT 下放免费层同时发生。",
+   "梳理头部厂商近期定价策略变化。",
+   "属于行业评论，不是单一发布事件。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "硅谷大模型真的不装了！Claude掀起价格战，GPT全面下放免费层",
+    "url": "https://www.aibase.com/news/31511",
+    "date": "2026-10-10"
+   }
+  ],
+  "split_from": "claude-haiku-5.5",
+  "score_parts": {
+   "industry": 62,
+   "actionable": 40,
+   "heat": 30,
+   "breadth": 66
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": null,
+   "x_spike_7d": null
+  },
+  "score": 49.4
+ },
+ {
+  "id": "youdao-lobster",
+  "title": "有道龙虾发布迁移助手，承接腾讯 QClaw 关停用户",
+  "url": "https://www.aibase.com/news/31523",
+  "date": "2026-10-10",
+  "bullets": [
+   "有道龙虾推出迁移助手，支持一键搬家。",
+   "目标是承接腾讯 QClaw 关停后的用户。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "有道龙虾发布迁移助手:争夺腾讯QClaw关停用户，实现一键“搬家”",
+    "url": "https://www.aibase.com/news/31523",
+    "date": "2026-10-10"
+   }
+  ],
+  "score": 49.0,
+  "score_parts": {
+   "industry": 52,
+   "actionable": 58,
+   "heat": 30,
+   "breadth": 48
+  },
+  "meta": "",
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": null,
+   "x_spike_7d": null
+  }
+ },
+ {
+  "id": "waytoagi-UuHFwalEHi",
+  "title": "如何构建 AI Agent：从提示词到生产级部署的 10 类多智能体范式",
+  "url": "https://waytoagi.feishu.cn/wiki/UuHFwalEHimXJqkwbDicrseOnUe?from=from_copylink",
+  "date": "2026-10-12",
+  "meta": "WayToAGI",
+  "bullets": [
+   "汇集 Stripe、Uber、Meta 等大厂工程实践，提炼 10 类多智能体落地范式。",
+   "总结六条可复用的核心设计原则。",
+   "建议从轻量单一场景起步快速验证。"
+  ],
+  "links": [
+   {
+    "label": "WayToAGI",
+    "title": "如何构建 AI Agent：从一个提示词到生产级部署",
+    "url": "https://waytoagi.feishu.cn/wiki/UuHFwalEHimXJqkwbDicrseOnUe?from=from_copylink",
+    "date": "2026-10-12"
+   }
+  ],
+  "score": 48.6,
+  "score_parts": {
+   "industry": 40,
+   "actionable": 72,
+   "heat": 30,
+   "breadth": 50
+  },
+  "heat": 30,
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": null,
+   "x_spike_7d": null
+  }
+ },
+ {
+  "id": "prime-swarm-essay",
+  "title": "Prime Intellect 撰文解析多智能体系统的上下文扩容与群集结构",
+  "url": "https://www.primeintellect.ai/blog/on-the-nature-of-the-swarm",
+  "date": "2026-10-06",
+  "meta": "",
+  "bullets": [
+   "Prime Intellect 发文讨论多智能体「群集」如何扩展上下文。",
+   "偏方法论与架构思考，没有新产品发布。",
+   "可与其 Rust 迁移实践对照阅读。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "Prime Intellect 撰文解析多智能体系统的上下文扩容与群集结构",
+    "url": "https://www.primeintellect.ai/blog/on-the-nature-of-the-swarm",
+    "date": "2026-10-06"
+   }
+  ],
+  "split_from": "prime-agent-rust",
+  "score_parts": {
+   "industry": 50,
+   "actionable": 55,
+   "heat": 35,
+   "breadth": 45
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 71,
+   "x_spike_7d": 71
+  },
+  "score": 48.0
+ },
+ {
+  "id": "grok-bot-video-prompt",
+  "title": "WayToAGI：用 Grok Bot 生成 AI 早报视频的提示词玩法",
+  "url": "https://waytoagi.feishu.cn/wiki/GhxMwUsVBiyD0ZkRsbrc30rTnbb?from=from_copylink",
+  "date": "2026-10-09",
+  "meta": "",
+  "bullets": [
+   "WayToAGI 分享用 Grok Bot 生成 AI 早报视频的提示词。",
+   "属于社区玩法教程。",
+   "可直接复制提示词试用。"
+  ],
+  "links": [
+   {
+    "label": "WayToAGI",
+    "title": "Grok Bot 玩法 01：生成 AI 早报视频的提示词",
+    "url": "https://waytoagi.feishu.cn/wiki/GhxMwUsVBiyD0ZkRsbrc30rTnbb?from=from_copylink",
+    "date": "2026-10-09"
+   }
+  ],
+  "split_from": "grok-bot-email",
+  "score_parts": {
+   "industry": 40,
+   "actionable": 65,
+   "heat": 30,
+   "breadth": 40
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": null,
+   "x_spike_7d": null
+  },
+  "score": 45.5
+ },
+ {
+  "id": "qwen-ai-earbuds",
+  "title": "千问首款 AI 耳机亮相 NBA 中国赛，开启预约",
+  "url": "https://www.aibase.com/news/31543",
+  "date": "2026-10-10",
+  "meta": "",
+  "bullets": [
+   "阿里千问首款 AI 耳机在 NBA 中国赛亮相。",
+   "可在淘宝、京东官方店预约，偏消费硬件+模型联动。",
+   "行业冲击有限，但体现大厂端侧/穿戴 AI 产品化节奏。"
+  ],
+  "links": [
+   {
+    "label": "主链",
+    "title": "千问首款 AI 耳机亮相 NBA 中国赛，开启预约",
+    "url": "https://www.aibase.com/news/31543",
+    "date": "2026-10-10"
+   }
+  ],
+  "score": 44.3,
+  "score_parts": {
+   "industry": 52,
+   "actionable": 40,
+   "heat": 30,
+   "breadth": 55
+  },
+  "summary": "阿里千问首款 AI 耳机在 NBA 中国赛亮相。；可在淘宝、京东官方店预约，偏消费硬件+模型联动。；行业冲击有限，但体现大厂端侧/穿戴 AI 产品化节奏。",
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": null,
+   "x_spike_7d": null
+  }
+ },
+ {
+  "id": "cloudflare-guide",
+  "title": "万字长文：Cloudflare 从入门到精通，一个域名搞定建站、邮箱、存储与 AI 后端",
+  "url": "https://waytoagi.feishu.cn/wiki/LhhHwMKioiiebqkbmQXc9S13nVd?from=from_copylink",
+  "date": "2026-10-11",
+  "meta": "",
+  "bullets": [
+   "系统讲解用 Cloudflare 一站式完成建站、域名邮箱、对象存储与 AI 后端。",
+   "覆盖 Workers、Pages 等常用能力的实操步骤。",
+   "适合个人开发者低成本部署 AI 小项目。"
+  ],
+  "links": [
+   {
+    "label": "主链",
+    "title": "万字长文：Cloudflare 从入门到精通，一个域名搞定建站、邮箱、存储与 AI 后端",
+    "url": "https://waytoagi.feishu.cn/wiki/LhhHwMKioiiebqkbmQXc9S13nVd?from=from_copylink",
+    "date": "2026-10-11"
+   }
+  ],
+  "score": 44.1,
+  "score_parts": {
+   "industry": 30,
+   "actionable": 72,
+   "heat": 30,
+   "breadth": 45
+  },
+  "heat": 30,
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 6,
+   "x_spike_7d": 6
+  },
+  "summary": "系统讲解用 Cloudflare 一站式完成建站、域名邮箱、对象存储与 AI 后端。；覆盖 Workers、Pages 等常用能力的实操步骤。；适合个人开发者低成本部署 AI 小项目。"
+ },
+ {
+  "id": "waytoagi-KcvdwvBYJi",
+  "title": "本周顶级 AI 论文（10.5–10.11）：研究重心转向模型外的系统工程",
+  "url": "https://waytoagi.feishu.cn/wiki/KcvdwvBYJivQPWkn4yVcIRYGnnH?from=from_copylink",
+  "date": "2026-10-12",
+  "meta": "WayToAGI",
+  "bullets": [
+   "精选 10 篇论文，来自 CMU、微软、谷歌、Meta 等机构。",
+   "覆盖控制程序工程、检索增强、长周期任务校验、多智能体自优化与记忆架构。",
+   "趋势是从换更强模型转向把模型外的系统做扎实。"
+  ],
+  "links": [
+   {
+    "label": "WayToAGI",
+    "title": "10.5—10.11｜本周顶级 AI 论文",
+    "url": "https://waytoagi.feishu.cn/wiki/KcvdwvBYJivQPWkn4yVcIRYGnnH?from=from_copylink",
+    "date": "2026-10-12"
+   }
+  ],
+  "score": 44.0,
+  "score_parts": {
+   "industry": 45,
+   "actionable": 50,
+   "heat": 30,
+   "breadth": 50
+  },
+  "heat": 30,
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": null,
+   "x_spike_7d": null
+  }
+ },
+ {
+  "id": "teacher-office-agent",
+  "title": "WayToAGI 发布《教师办公 Agent 入门指南》",
+  "url": "https://waytoagi.feishu.cn/wiki/ZvHYw4CH4ipYehklzGPccwX0nhh?from=from_copylink",
+  "date": "2026-10-11",
+  "meta": "",
+  "bullets": [
+   "面向教师的办公 Agent 入门教程，讲解备课、批改等日常场景。",
+   "以上手步骤为主，适合非技术用户照着搭建。",
+   "属于教程类内容，行业冲击小但可直接动手。"
+  ],
+  "links": [
+   {
+    "label": "主链",
+    "title": "WayToAGI 发布《教师办公 Agent 入门指南》",
+    "url": "https://waytoagi.feishu.cn/wiki/ZvHYw4CH4ipYehklzGPccwX0nhh?from=from_copylink",
+    "date": "2026-10-11"
+   }
+  ],
+  "score": 43.0,
+  "score_parts": {
+   "industry": 30,
+   "actionable": 70,
+   "heat": 30,
+   "breadth": 40
+  },
+  "heat": 30,
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 5,
+   "x_spike_7d": 5
+  },
+  "summary": "面向教师的办公 Agent 入门教程，讲解备课、批改等日常场景。；以上手步骤为主，适合非技术用户照着搭建。；属于教程类内容，行业冲击小但可直接动手。"
+ },
+ {
+  "id": "waytoagi-OP5wwCIEFi",
+  "title": "入职大厂两个月的 AI 开发心得：轻量化 Agent 开发工作流",
+  "url": "https://waytoagi.feishu.cn/wiki/OP5wwCIEFiSOx4koIoOcy0Ken8d?from=from_copylink",
+  "date": "2026-10-12",
+  "meta": "WayToAGI",
+  "bullets": [
+   "分享一套轻量化的 Agent 开发工作流。",
+   "涵盖需求对齐、多 Agent 协同开发与 Agent 友好的端到端测试环境。",
+   "附 AI 生成代码的评审策略。"
+  ],
+  "links": [
+   {
+    "label": "WayToAGI",
+    "title": "入职大厂两个月，我的 AI 开发心得",
+    "url": "https://waytoagi.feishu.cn/wiki/OP5wwCIEFiSOx4koIoOcy0Ken8d?from=from_copylink",
+    "date": "2026-10-12"
+   }
+  ],
+  "score": 40.0,
+  "score_parts": {
+   "industry": 30,
+   "actionable": 60,
+   "heat": 30,
+   "breadth": 40
+  },
+  "heat": 30,
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": null,
+   "x_spike_7d": null
+  }
+ },
+ {
+  "id": "waytoagi-OofFwRLQZi",
+  "title": "Agent 工程师学习路线：从 LLM 原理到后端全栈",
+  "url": "https://waytoagi.feishu.cn/wiki/OofFwRLQZillgVk6rQxcwKWbnHc?from=from_copylink",
+  "date": "2026-10-12",
+  "meta": "WayToAGI",
+  "bullets": [
+   "覆盖 LLM 原理、提示词工程、RAG、智能体循环与后端开发。",
+   "配套学习链接、实操项目与验收标准。",
+   "帮助定位知识盲区并搭建求职作品集。"
+  ],
+  "links": [
+   {
+    "label": "WayToAGI",
+    "title": "「万字总结」- 我偷来了一份成为 Agent 工程师的学习线路",
+    "url": "https://waytoagi.feishu.cn/wiki/OofFwRLQZillgVk6rQxcwKWbnHc?from=from_copylink",
+    "date": "2026-10-12"
+   }
+  ],
+  "score": 40.0,
+  "score_parts": {
+   "industry": 25,
+   "actionable": 65,
+   "heat": 30,
+   "breadth": 45
+  },
+  "heat": 30,
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 11,
+   "x_spike_7d": 11
+  }
+ },
+ {
+  "id": "waytoagi-RMr5wo19Ii",
+  "title": "卡兹克团队飞书工作台搭建实录：零代码搭建企业 AI 业务中台",
+  "url": "https://waytoagi.feishu.cn/wiki/RMr5wo19Ii1TSvkBHD8cACqWnSd?from=from_copylink",
+  "date": "2026-10-12",
+  "meta": "WayToAGI",
+  "bullets": [
+   "拆解卡兹克团队在飞书工作台搭建组织中台的完整方案。",
+   "提供零代码自助搭建与网页嵌入两套落地路径。",
+   "覆盖权限、模板、页面编辑与发布上线全流程。"
+  ],
+  "links": [
+   {
+    "label": "WayToAGI",
+    "title": "卡兹克的飞书工作台是怎么搭的？我从 0 到 1 手把手带你搭一遍",
+    "url": "https://waytoagi.feishu.cn/wiki/RMr5wo19Ii1TSvkBHD8cACqWnSd?from=from_copylink",
+    "date": "2026-10-12"
+   }
+  ],
+  "score": 39.3,
+  "score_parts": {
+   "industry": 28,
+   "actionable": 62,
+   "heat": 30,
+   "breadth": 35
+  },
+  "heat": 30,
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 20,
+   "x_spike_7d": 5
+  }
+ },
+ {
+  "id": "scholar-ban-open-agents",
+  "title": "知名学者呼吁全网下架可联网的开放式 AI 智能体",
+  "url": "https://www.aibase.com/news/31545",
+  "date": "2026-10-10",
+  "meta": "",
+  "bullets": [
+   "一位知名学者公开呼吁立即下架可自主联网的开放式 AI 智能体。",
+   "背景是近期多起智能体越界、逃逸类安全事件引发的担忧。",
+   "属于观点评论，可作为 Agent 安全与监管讨论的参考。"
+  ],
+  "links": [
+   {
+    "label": "主链",
+    "title": "知名学者呼吁全网下架可联网的开放式 AI 智能体",
+    "url": "https://www.aibase.com/news/31545",
+    "date": "2026-10-10"
+   }
+  ],
+  "score": 38.5,
+  "score_parts": {
+   "industry": 50,
+   "actionable": 25,
+   "heat": 30,
+   "breadth": 50
+  },
+  "heat": 30,
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 21,
+   "x_spike_7d": 13
+  },
+  "summary": "一位知名学者公开呼吁立即下架可自主联网的开放式 AI 智能体。；背景是近期多起智能体越界、逃逸类安全事件引发的担忧。；属于观点评论，可作为 Agent 安全与监管讨论的参考。"
+ },
+ {
+  "id": "moonshot-capital",
+  "title": "月之暗面注册资本增至约 1437 万元，年内多次增资",
+  "url": "https://www.aibase.com/news/31547",
+  "date": "2026-10-10",
+  "meta": "",
+  "bullets": [
+   "工商信息显示月之暗面注册资本升至约 1437 万元。",
+   "报道称其年内已有多次增资动作，反映融资与股权调整节奏密集。",
+   "对普通开发者直接影响有限，主要是行业资本动向信号。"
+  ],
+  "links": [
+   {
+    "label": "主链",
+    "title": "月之暗面注册资本增至约 1437 万元，年内多次增资",
+    "url": "https://www.aibase.com/news/31547",
+    "date": "2026-10-10"
+   }
+  ],
+  "score": 37.5,
+  "score_parts": {
+   "industry": 50,
+   "actionable": 25,
+   "heat": 30,
+   "breadth": 40
+  },
+  "heat": 30,
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 3,
+   "x_spike_7d": 3
+  },
+  "summary": "工商信息显示月之暗面注册资本升至约 1437 万元。；报道称其年内已有多次增资动作，反映融资与股权调整节奏密集。；对普通开发者直接影响有限，主要是行业资本动向信号。"
+ },
+ {
+  "id": "deepseek-engineer-slow-coding",
+  "title": "23 岁 DeepSeek 工程师谈 AI 编程时代：怀念「慢慢写代码」",
+  "url": "https://waytoagi.feishu.cn/wiki/Vj95wFAbOikyUpkQ9q2cIBv7nMf?from=from_copylink",
+  "date": "2026-10-11",
+  "meta": "",
+  "bullets": [
+   "一位年轻 DeepSeek 工程师分享对 AI 辅助编程改变工作方式的感受。",
+   "核心观点是效率提升的同时，失去了亲手慢慢打磨代码的体验。",
+   "属于个人观点文章，无新产品或技术发布。"
+  ],
+  "links": [
+   {
+    "label": "主链",
+    "title": "23 岁 DeepSeek 工程师谈 AI 编程时代：怀念「慢慢写代码」",
+    "url": "https://waytoagi.feishu.cn/wiki/Vj95wFAbOikyUpkQ9q2cIBv7nMf?from=from_copylink",
+    "date": "2026-10-11"
+   }
+  ],
+  "score": 29.0,
+  "score_parts": {
+   "industry": 30,
+   "actionable": 25,
+   "heat": 30,
+   "breadth": 35
+  },
+  "heat": 30,
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 9,
+   "x_spike_7d": 0
+  },
+  "summary": "一位年轻 DeepSeek 工程师分享对 AI 辅助编程改变工作方式的感受。；核心观点是效率提升的同时，失去了亲手慢慢打磨代码的体验。；属于个人观点文章，无新产品或技术发布。"
+ },
+ {
+  "id": "gpt-6.1-sol-500k",
+  "title": "OpenAI 将 GPT-6.1 Sol 在 Codex 与 Work 中的默认上下文提升至 500k",
+  "url": "https://x.com/thsottiaux/status/2109430343346581527",
+  "date": "2026-10-12",
+  "meta": "",
+  "bullets": [
+   "OpenAI 的 Tibo 宣布：GPT-6.1 Sol 在 Codex 与 Work 中默认上下文从 272k 提到 500k，约增 80%。",
+   "可减少上下文压缩（compaction），利于需要长期保留大量细节的长任务；用户仍可自行覆盖设置。",
+   "模型最大上下文为 1M；国内报道称长文本不再单独计费。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "GPT-6.1 Sol 在 Codex 与 Work 中默认上下文长度提升至 500k",
+    "url": "https://x.com/thsottiaux/status/2109430343346581527",
+    "date": "2026-10-12"
+   },
+   {
+    "label": "AIBase",
+    "title": "OpenAI给GPT-6.1 Sol扩容记忆：默认上下文顶到 50 万，长文本不再单独计费",
+    "url": "https://www.aibase.com/news/31548",
+    "date": "2026-10-12",
+    "same_event": true
+   },
+   {
+    "label": "AIBase",
+    "title": "OpenAI 给 GPT-6.1 Sol 扩容：默认上下文 272k 飙到 500k，长文本还免费",
+    "url": "https://www.aibase.com/news/31560",
+    "date": "2026-10-12",
+    "same_event": true
+   }
+  ],
+  "score": 68.6,
+  "score_parts": {
+   "industry": 66,
+   "actionable": 82,
+   "heat": 57,
+   "breadth": 62
+  },
+  "heat_signals": {
+   "reports": 3,
+   "domains": 2,
+   "x_posts_7d": 609,
+   "x_spike_7d": 294
+  }
+ },
+ {
+  "id": "amazon-decart",
+  "title": "亚马逊拟以 70 亿美元收购 Decart，布局 AI 芯片间的「通用适配」层",
+  "url": "https://www.aibase.com/news/31552",
+  "date": "2026-10-12",
+  "meta": "",
+  "bullets": [
+   "据报道亚马逊正洽购 Decart，交易金额约 70 亿美元。",
+   "Decart 被定位为 AI 芯片之间的「通用适配器 / 万能转接头」。",
+   "报道称此前 Anthropic 放手后由亚马逊接盘，关注点在算力生态与芯片兼容。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "亚马逊拟 70 亿美元收购 Decart，抢下 AI 芯片\"通用适配器\"",
+    "url": "https://www.aibase.com/news/31552",
+    "date": "2026-10-12"
+   },
+   {
+    "label": "AIBase",
+    "title": "Anthropic放手后亚马逊接盘： 70 亿美元洽购Decart，盯上AI芯片间的\"万能转接头\"",
+    "url": "https://www.aibase.com/news/31551",
+    "date": "2026-10-12",
+    "same_event": true
+   },
+   {
+    "label": "AIBase",
+    "title": "亚马逊欲以约 70 亿美元收购 Decart，此前 两大巨头收购谈判均已告吹",
+    "url": "https://www.aibase.com/news/31582",
+    "date": "2026-10-13",
+    "same_event": true
+   }
+  ],
+  "score": 49.9,
+  "score_parts": {
+   "industry": 65,
+   "actionable": 20,
+   "heat": 62,
+   "breadth": 55
+  },
+  "heat_signals": {
+   "reports": 3,
+   "domains": 1,
+   "x_posts_7d": 1840,
+   "x_spike_7d": 1840
+  }
+ },
+ {
+  "id": "photocraft-ai-reverse",
+  "title": "开发者用 Claude Opus 5.5 以 Rust 重写 Adobe 七款软件，引发「AI 逆向一切」讨论",
+  "url": "https://x.com/Khazix0918/status/2109501787736813663",
+  "date": "2026-10-12",
+  "meta": "",
+  "bullets": [
+   "开发者 Brandon Thomas 不满 Adobe 订阅规则，用 Claude Opus 5.5 以 Rust 逆向重写 Photoshop、Illustrator 等 7 款软件的开源替代品（PhotoCraft、VectorCraft 等）。",
+   "据文中所述，单 PS 项目不到 10 天获约 4.6 万 Star。",
+   "卡兹克撰文认为 AI 驱动的逆向工程正让闭源桌面软件面临被「迫开源」的压力。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "从Brandon Thomas用Claude Opus 5.5开源重写Adobe全家桶看AI逆向一切趋势",
+    "url": "https://x.com/Khazix0918/status/2109501787736813663",
+    "date": "2026-10-12"
+   }
+  ],
+  "score": 59.0,
+  "score_parts": {
+   "industry": 60,
+   "actionable": 65,
+   "heat": 50,
+   "breadth": 55
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 2024,
+   "x_spike_7d": 1566
+  }
+ },
+ {
+  "id": "copilot-notebooks-upgrade",
+  "title": "微软升级 Copilot Notebooks：支持任务委派、Office 文档编辑与交互式报告",
+  "url": "https://www.aibase.com/news/31563",
+  "date": "2026-10-12",
+  "meta": "",
+  "bullets": [
+   "Copilot Notebooks 新增任务委派能力，可把整理与执行类工作交给 Copilot。",
+   "支持直接编辑 Office 文档，并生成交互式报告。",
+   "面向 Microsoft 365 办公用户，属于 Copilot 办公 Agent 化的持续推进。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "微软升级 Copilot Notebooks:支持任务委派、Office 文档编辑与交互式报告",
+    "url": "https://www.aibase.com/news/31563",
+    "date": "2026-10-12"
+   }
+  ],
+  "score": 54.4,
+  "score_parts": {
+   "industry": 55,
+   "actionable": 68,
+   "heat": 30,
+   "breadth": 60
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 34,
+   "x_spike_7d": 19
+  }
+ },
+ {
+  "id": "gpt-rosalind-discovery",
+  "title": "OpenAI 挂出未发布生命科学模型 gpt-rosalind-discovery，瞄准药企",
+  "url": "https://www.aibase.com/news/31554",
+  "date": "2026-10-12",
+  "meta": "",
+  "bullets": [
+   "有人发现 OpenAI 悄悄挂出尚未正式发布的生命科学模型 gpt-rosalind-discovery。",
+   "报道称其定位是给药企提供研发工具，而非自己做药。",
+   "目前缺少官方说明，能力与开放范围待确认。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "OpenAI悄悄挂出未发布生命科学模型gpt-rosalind-discovery，要给药企当\"工具贩子\"",
+    "url": "https://www.aibase.com/news/31554",
+    "date": "2026-10-12"
+   }
+  ],
+  "score": 47.7,
+  "score_parts": {
+   "industry": 68,
+   "actionable": 30,
+   "heat": 35,
+   "breadth": 45
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 141,
+   "x_spike_7d": 96
+  }
+ },
+ {
+  "id": "nadella-emergency-brake",
+  "title": "微软 CEO 纳德拉呼吁为先进 AI 模型设立人类可控的「紧急制动」机制",
+  "url": "https://www.aibase.com/news/31553",
+  "date": "2026-10-12",
+  "meta": "",
+  "bullets": [
+   "纳德拉公开呼吁，先进 AI 模型应具备由人类掌控的「紧急制动」机制。",
+   "他强调这一机制应由人类控制，用于在必要时叫停先进模型。",
+   "属于行业治理与安全层面的表态，报道未提及具体技术方案。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "微软CEO纳德拉发声:呼吁为先进AI模型设立人类可控的“紧急制动”机制",
+    "url": "https://www.aibase.com/news/31553",
+    "date": "2026-10-12"
+   }
+  ],
+  "score": 46.8,
+  "score_parts": {
+   "industry": 62,
+   "actionable": 20,
+   "heat": 45,
+   "breadth": 70
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 773,
+   "x_spike_7d": 773
+  }
+ },
+ {
+  "id": "claude-ban-appeals",
+  "title": "Claude 半年封禁约 1140 万账号、申诉成功仅约 4.2 万，Anthropic 拟立规禁止「虐待 AI」",
+  "url": "https://www.aibase.com/news/31556",
+  "date": "2026-10-12",
+  "meta": "",
+  "bullets": [
+   "报道称 Claude 半年内封禁约 1140 万个账号，申诉成功仅约 4.2 万个。",
+   "Anthropic 还计划出台规则，禁止用户「虐待」AI。",
+   "数据来自媒体报道，Anthropic 官方口径待确认。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "Claude半年封杀 1140 万账号申诉翻盘仅4. 2 万，Anthropic还要立规矩禁止虐待AI",
+    "url": "https://www.aibase.com/news/31556",
+    "date": "2026-10-12"
+   }
+  ],
+  "score": 46.0,
+  "score_parts": {
+   "industry": 55,
+   "actionable": 40,
+   "heat": 30,
+   "breadth": 60
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 6,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "ant-lingguang-beta",
+  "title": "蚂蚁「灵光」开启新版内测，对标 Meta Muse 升级个人智能体",
+  "url": "https://www.aibase.com/news/31550",
+  "date": "2026-10-12",
+  "meta": "",
+  "bullets": [
+   "蚂蚁旗下「灵光」开启新版内测。",
+   "升级方向是个人智能体，报道将其对标 Meta Muse。",
+   "延续近期国内外 Personal Agent 产品竞争。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "蚂蚁“灵光”开启新版内测，对标Meta Muse升级个人智能体",
+    "url": "https://www.aibase.com/news/31550",
+    "date": "2026-10-12"
+   }
+  ],
+  "score": 44.5,
+  "score_parts": {
+   "industry": 50,
+   "actionable": 45,
+   "heat": 30,
+   "breadth": 50
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 42,
+   "x_spike_7d": 42
+  }
+ },
+ {
+  "id": "tencent-qie-weidan",
+  "title": "腾讯上线「企鹅微单」：AI 创作者接单平台，支持需求发布、智能匹配与微信内结算",
+  "url": "https://www.aibase.com/news/31559",
+  "date": "2026-10-12",
+  "meta": "",
+  "bullets": [
+   "腾讯推出面向 AI 创作者的接单平台「企鹅微单」。",
+   "支持需求发布、智能匹配，并可在微信内完成结算。",
+   "为 AI 内容创作者提供变现渠道。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "腾讯上线「企鹅微单」:AI创作者接单平台，支持需求发布、智能匹配与微信内结算",
+    "url": "https://www.aibase.com/news/31559",
+    "date": "2026-10-12"
+   }
+  ],
+  "score": 43.5,
+  "score_parts": {
+   "industry": 45,
+   "actionable": 50,
+   "heat": 30,
+   "breadth": 45
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 14,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "trump-superintelligence-rename",
+  "title": "报道称特朗普推动将 AI 改称「超级智能」，硅谷公司跟进",
+  "url": "https://www.aibase.com/news/31555",
+  "date": "2026-10-12",
+  "meta": "",
+  "bullets": [
+   "据报道特朗普推动把 AI 改称「超级智能」。",
+   "报道称多家硅谷巨头已跟进相关表述。",
+   "属于政策与叙事层面的变化，对技术本身影响有限。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "特朗普强推 AI 改名\"超级智能\"，硅谷巨头排队照办",
+    "url": "https://www.aibase.com/news/31555",
+    "date": "2026-10-12"
+   }
+  ],
+  "score": 34.5,
+  "score_parts": {
+   "industry": 50,
+   "actionable": 10,
+   "heat": 30,
+   "breadth": 55
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 34,
+   "x_spike_7d": 19
+  }
+ },
+ {
+  "id": "musk-ai-shopping",
+  "title": "马斯克称拍信用卡即可让 AI 下单购物，遭 OpenAI 高管公开嘲讽",
+  "url": "https://www.aibase.com/news/31549",
+  "date": "2026-10-12",
+  "meta": "",
+  "bullets": [
+   "马斯克宣传一种「拍下信用卡即可让 AI 下单」的购物玩法。",
+   "OpenAI 高管公开嘲讽，引发关于 AI 购物安全与支付风险的争议。",
+   "反映 AI 代购 / Agent 支付赛道的竞争与安全疑虑。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "AI 购物新玩法引发争议！马斯克称拍信用卡即可下单，遭 OpenAI 高管公开嘲讽",
+    "url": "https://www.aibase.com/news/31549",
+    "date": "2026-10-12"
+   }
+  ],
+  "score": 34.0,
+  "score_parts": {
+   "industry": 40,
+   "actionable": 25,
+   "heat": 30,
+   "breadth": 45
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 3,
+   "x_spike_7d": 3
+  }
+ },
+ {
+  "id": "apple-lg-smart-home",
+  "title": "苹果计划联合 LG 推出门锁、门铃等智能家居设备",
+  "url": "https://www.aibase.com/news/31558",
+  "date": "2026-10-12",
+  "meta": "",
+  "bullets": [
+   "报道称苹果计划与 LG 合作推出门锁、门铃等设备。",
+   "意在加码智能家居生态。",
+   "与 AI 关联主要在家庭助手与设备联动层面。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "苹果加码智能家居生态，计划联合LG推出门锁、门铃等设备",
+    "url": "https://www.aibase.com/news/31558",
+    "date": "2026-10-12"
+   }
+  ],
+  "score": 33.5,
+  "score_parts": {
+   "industry": 35,
+   "actionable": 20,
+   "heat": 45,
+   "breadth": 45
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 662,
+   "x_spike_7d": 662
+  }
+ },
+ {
+  "id": "moonshot-settlement",
+  "title": "月之暗面赴港 IPO 前与老股东谈判和解，涉案金额或超 7 亿美元",
+  "url": "https://www.aibase.com/news/31562",
+  "date": "2026-10-12",
+  "meta": "",
+  "bullets": [
+   "报道称月之暗面在赴港 IPO 前夕，高管与老股东展开和解谈判。",
+   "涉案金额或超过 7 亿美元。",
+   "属于公司治理与上市进程消息。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "赴港 IPO 前夕抛出和解橄榄枝！月之暗面高管与老股东谈判，涉案金额或超 7 亿美元",
+    "url": "https://www.aibase.com/news/31562",
+    "date": "2026-10-12"
+   }
+  ],
+  "score": 31.7,
+  "score_parts": {
+   "industry": 48,
+   "actionable": 10,
+   "heat": 30,
+   "breadth": 35
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 48,
+   "x_spike_7d": 48
+  }
+ },
+ {
+  "id": "book-ai-prompt-recall",
+  "title": "纸质书《终焉路独行》误把 AI 校对指令印进正文，全数召回",
+  "url": "https://www.aibase.com/news/31561",
+  "date": "2026-10-12",
+  "meta": "",
+  "bullets": [
+   "小说《终焉路独行》纸质版被发现正文里混入了 AI 校对提示词。",
+   "出版方已全数召回。",
+   "再次提醒出版流程中使用 AI 时的人工审校。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "纸质书里惊现 AI 提示词：《终焉路独行》误把校对指令当正文，全数召回",
+    "url": "https://www.aibase.com/news/31561",
+    "date": "2026-10-12"
+   }
+  ],
+  "score": 29.5,
+  "score_parts": {
+   "industry": 30,
+   "actionable": 25,
+   "heat": 35,
+   "breadth": 30
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 82,
+   "x_spike_7d": 59
+  }
+ },
+ {
+  "id": "quant-mathematician-rich-list",
+  "title": "46 岁数学家凭 AI 量化交易跻身英国富豪榜第八",
+  "url": "https://www.aibase.com/news/31557",
+  "date": "2026-10-12",
+  "meta": "",
+  "bullets": [
+   "报道称一位 46 岁数学家凭 AI 量化交易进入英国富豪榜第八位。",
+   "身家据称超过 1417 亿元人民币。",
+   "属于人物类资讯，行业影响有限。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "46岁数学家凭AI量化交易跻身英国富豪榜第八，身家超1417亿元",
+    "url": "https://www.aibase.com/news/31557",
+    "date": "2026-10-12"
+   }
+  ],
+  "score": 21.0,
+  "score_parts": {
+   "industry": 25,
+   "actionable": 10,
+   "heat": 30,
+   "breadth": 20
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "meta-muse-wonder",
+  "title": "Meta 发布 Muse Wonder 与 Muse Wonder Full 智能体模型",
+  "url": "https://research.meta.ai/blog/muse-wonder",
+  "date": "2026-10-13",
+  "meta": "",
+  "bullets": [
+   "Meta 称 Muse Wonder 系列在个人与专业智能体任务上达到 SOTA，内部代号「西瓜」。",
+   "Muse Wonder 通过 Meta Model API 和 Muse Code 提供；Muse Wonder Full 面向 Muse Code 订阅用户。",
+   "已上线 Agent Arena，分数即将公布；后续接入个人智能体产品 Muse。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "Meta 发布 Muse Wonder 与 Muse Wonder Full 智能体模型",
+    "url": "https://research.meta.ai/blog/muse-wonder",
+    "date": "2026-10-13"
+   },
+   {
+    "label": "AIHot",
+    "title": "Meta Muse Wonder 系列上线 Agent Arena，分数即将公布",
+    "url": "https://x.com/arena/status/2109706854700044523",
+    "date": "2026-10-13",
+    "same_event": true
+   },
+   {
+    "label": "AIBase",
+    "title": "Meta 发 Muse Wonder 叫板 Anthropic 与 OpenAI，扎克伯格边烤肉边剧透\"大西瓜\"",
+    "url": "https://www.aibase.com/news/31584",
+    "date": "2026-10-13",
+    "same_event": true
+   },
+   {
+    "label": "AIBase",
+    "title": "Meta端出Muse Wonder对标GPT- 6 与Claude，内部代号\"西瓜\"、烤肉直播里剧透",
+    "url": "https://www.aibase.com/news/31572",
+    "date": "2026-10-13",
+    "same_event": true
+   }
+  ],
+  "score": 75.6,
+  "score_parts": {
+   "industry": 85,
+   "actionable": 55,
+   "heat": 88,
+   "breadth": 75
+  },
+  "heat_signals": {
+   "reports": 4,
+   "domains": 3,
+   "x_posts_7d": 9274,
+   "x_spike_7d": 9274
+  }
+ },
+ {
+  "id": "step5-workbuddy",
+  "title": "阶跃 Step 5 Preview 登陆腾讯 WorkBuddy，限时免费两周",
+  "url": "https://www.aibase.com/news/31565",
+  "date": "2026-10-12",
+  "meta": "",
+  "bullets": [
+   "腾讯全场景 AI 办公平台 WorkBuddy 接入阶跃星辰最新旗舰模型 Step 5 Preview。",
+   "报道称该模型在 WorkBuddy 上限时免费两周。",
+   "国内办公 Agent 平台接入新旗舰模型，可直接上手试用。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "阶跃 Step 5 Preview 登陆腾讯 WorkBuddy，限时免费两周",
+    "url": "https://www.aibase.com/news/31565",
+    "date": "2026-10-12"
+   }
+  ],
+  "score": 58.0,
+  "score_parts": {
+   "industry": 55,
+   "actionable": 70,
+   "heat": 50,
+   "breadth": 50
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 4265,
+   "x_spike_7d": 2697
+  }
+ },
+ {
+  "id": "rea-codex-tutorial",
+  "title": "REA 保姆级上手教程：搭配 Codex 做 AI 驱动的逆向工程",
+  "url": "https://waytoagi.feishu.cn/wiki/Ps2cwMQEqiOTWCk7GwscR33vnGe?from=from_copylink",
+  "date": "2026-10-13",
+  "meta": "",
+  "bullets": [
+   "开源工具 REA 可搭配 Codex 完成 AI 驱动的逆向工程，本周登上 GitHub 周榜。",
+   "教程以恐龙跑酷小游戏为例，附 Mac 环境部署命令，拆解游戏加速逻辑后让 AI 生成可调速的新版网页游戏。",
+   "附校验步骤与常见报错的解决办法。"
+  ],
+  "links": [
+   {
+    "label": "WayToAGI",
+    "title": "REA 保姆级上手教程: Codex 实操官方案例",
+    "url": "https://waytoagi.feishu.cn/wiki/Ps2cwMQEqiOTWCk7GwscR33vnGe?from=from_copylink",
+    "date": "2026-10-13"
+   }
+  ],
+  "score": 56.0,
+  "score_parts": {
+   "industry": 40,
+   "actionable": 85,
+   "heat": 50,
+   "breadth": 45
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 1462,
+   "x_spike_7d": 1087
+  }
+ },
+ {
+  "id": "maia-300",
+  "title": "微软发布自研芯片 Maia 300，并将大规模扩展 Maia 推理部署",
+  "url": "https://x.com/satyanadella/status/2109631106404487523",
+  "date": "2026-10-12",
+  "meta": "",
+  "bullets": [
+   "微软宣布将 Maia 芯片家族扩展到多吉瓦级部署，纳德拉称是「对自家硅最大一赌」。",
+   "新发布的 Maia 300 计划 2027 年投产，每瓦 token 产出比主流 GPU 系统高约 40%。",
+   "Maia 200 已在美欧澳部署，在 Teams 和 Copilot 场景中每瓦 token 产出最高提升 1.7 倍。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "微软发布自研芯片 Maia 300 并将大规模扩展 Maia 推理部署",
+    "url": "https://x.com/satyanadella/status/2109631106404487523",
+    "date": "2026-10-12"
+   },
+   {
+    "label": "AIBase",
+    "title": "微软押注自研Maia芯片： 2027 年铺到吉瓦级，纳德拉称\"对自家硅最大一赌\"",
+    "url": "https://www.aibase.com/news/31579",
+    "date": "2026-10-13",
+    "same_event": true
+   },
+   {
+    "label": "AIBase",
+    "title": "微软发布第三代自研AI芯片Maia300，计划2027年投产",
+    "url": "https://www.aibase.com/news/31577",
+    "date": "2026-10-13",
+    "same_event": true
+   }
+  ],
+  "score": 59.1,
+  "score_parts": {
+   "industry": 78,
+   "actionable": 25,
+   "heat": 72,
+   "breadth": 60
+  },
+  "heat_signals": {
+   "reports": 3,
+   "domains": 2,
+   "x_posts_7d": 3261,
+   "x_spike_7d": 3261
+  }
+ },
+ {
+  "id": "github-push-attribution",
+  "title": "GitHub 推出推送者归属（Push attribution）有限公开预览",
+  "url": "https://github.blog/changelog/2026-10-12-push-attribution-public-preview",
+  "date": "2026-10-13",
+  "meta": "",
+  "bullets": [
+   "GitHub 开始持久记录推送每个提交的已认证用户，并在界面和 API 中与作者、提交者字段一起显示。",
+   "作者和提交者字段只是客户端提供的字符串，任何有写权限的人都能伪造；推送者身份补上了这一缺口。",
+   "在 AI 智能体大量代为提交代码的背景下，有助于追溯提交来源。"
+  ],
+  "links": [
+   {
+    "label": "Official AI",
+    "title": "Push attribution for commits in limited public preview",
+    "url": "https://github.blog/changelog/2026-10-12-push-attribution-public-preview",
+    "date": "2026-10-13"
+   }
+  ],
+  "score": 51.0,
+  "score_parts": {
+   "industry": 50,
+   "actionable": 65,
+   "heat": 30,
+   "breadth": 55
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 6,
+   "x_spike_7d": 6
+  }
+ },
+ {
+  "id": "opus-55-max-arena",
+  "title": "Arena 智能体周榜：Claude Opus 5.5 Max 登顶，国产多款模型位居中上游",
+  "url": "https://www.aibase.com/news/31567",
+  "date": "2026-10-12",
+  "meta": "",
+  "bullets": [
+   "Arena 新一期大模型周榜公布，Claude Opus 5.5 Max 登上智能体榜首。",
+   "报道称多款国产模型稳居中上游。",
+   "可作为近期选型智能体模型的参考。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "​Claude Opus 5.5 Max 强势登顶智能体榜首，国产多模型稳居中上游",
+    "url": "https://www.aibase.com/news/31567",
+    "date": "2026-10-12"
+   }
+  ],
+  "score": 47.0,
+  "score_parts": {
+   "industry": 55,
+   "actionable": 45,
+   "heat": 30,
+   "breadth": 55
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 429,
+   "x_spike_7d": 2
+  }
+ },
+ {
+  "id": "aws-priming-hybrid-ssm",
+  "title": "AWS 提出 priming 方法，把预训练 Transformer 改造成混合状态空间架构",
+  "url": "https://www.amazon.science/blog/can-we-change-an-ai-models-architecture-without-retraining-it-from-scratch",
+  "date": "2026-10-13",
+  "meta": "",
+  "bullets": [
+   "AWS 团队发布论文《Priming: Hybrid state space models from pre-trained Transformers》。",
+   "方法复用预训练 Transformer 权重构建混合架构，预训练成本降低逾 99%。",
+   "全流程消耗不足源模型 0.5% 的 token 预算。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "AWS 提出 priming 方法，可将预训练 Transformer 改造成混合状态空间架构",
+    "url": "https://www.amazon.science/blog/can-we-change-an-ai-models-architecture-without-retraining-it-from-scratch",
+    "date": "2026-10-13"
+   }
+  ],
+  "score": 45.5,
+  "score_parts": {
+   "industry": 60,
+   "actionable": 40,
+   "heat": 30,
+   "breadth": 35
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 3,
+   "x_spike_7d": 3
+  }
+ },
+ {
+  "id": "meshy-game-tutorial",
+  "title": "教程：用 Claude Opus 5.5 串起 Blender、Unreal Engine 和 Meshy 做游戏",
+  "url": "https://x.com/MeshyAI/status/2109550836934471864",
+  "date": "2026-10-12",
+  "meta": "",
+  "bullets": [
+   "思路是每个工具只负责一件事：通过 MCP 连接 Blender 和 Meshy，Meshy 生成道具和角色，Blender 清理和摆放，Unreal 负责光照、物理和游戏本身。",
+   "Opus 在一个对话里调度三者，先头脑风暴 5 个游戏点子再展开。",
+   "据作者所述，首个完整构建约花 4 小时。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "用 Claude Opus 5.5、Blender、Unreal Engine 和 Meshy 构建游戏的七步教程",
+    "url": "https://x.com/MeshyAI/status/2109550836934471864",
+    "date": "2026-10-12"
+   }
+  ],
+  "score": 45.5,
+  "score_parts": {
+   "industry": 30,
+   "actionable": 80,
+   "heat": 30,
+   "breadth": 35
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 29,
+   "x_spike_7d": 14
+  }
+ },
+ {
+  "id": "alphaproof-nexus",
+  "title": "DeepMind AlphaProof Nexus 攻克 9 个未解 Erdős 问题并通过同行评审",
+  "url": "https://the-decoder.com/google-deepminds-alphaproof-nexus-solved-dozens-of-open-math-problems-and-actually-got-peer-reviewed",
+  "date": "2026-10-12",
+  "meta": "",
+  "bullets": [
+   "Science 发表的新研究显示，AlphaProof Nexus 独立解决了 353 个开放 Erdős 问题中的 9 个。",
+   "其中 2 个问题悬置长达 56 年。",
+   "结果经过同行评审，是 AI 做数学研究的又一进展。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "AlphaProof Nexus 攻克 9 个未解 Erdős 问题并经同行评审",
+    "url": "https://the-decoder.com/google-deepminds-alphaproof-nexus-solved-dozens-of-open-math-problems-and-actually-got-peer-reviewed",
+    "date": "2026-10-12"
+   }
+  ],
+  "score": 44.3,
+  "score_parts": {
+   "industry": 72,
+   "actionable": 15,
+   "heat": 35,
+   "breadth": 40
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 174,
+   "x_spike_7d": 174
+  }
+ },
+ {
+  "id": "jev-trueforge-harness",
+  "title": "实操：把决策模型 Jev 部署进开源 Agent Harness，压低智能体批量决策成本",
+  "url": "https://waytoagi.feishu.cn/wiki/NkknwTOIzimajRkwBepc3KbWnwe?from=from_copylink",
+  "date": "2026-10-13",
+  "meta": "",
+  "bullets": [
+   "文章介绍 Jev 加 TrueForge 的组合方案：Jev 作为专用决策模型，在匹配分类任务上与 Opus 精度持平，成本约为其 1/150。",
+   "TrueForge 工具链通过压缩上下文减少不必要的模型调用。",
+   "固定选项判断交给轻量模型、大模型专注文本生成，可复用到工单、CRM 等场景。"
+  ],
+  "links": [
+   {
+    "label": "WayToAGI",
+    "title": "我把 Jev 部署到了一个开源Agent Harness中",
+    "url": "https://waytoagi.feishu.cn/wiki/NkknwTOIzimajRkwBepc3KbWnwe?from=from_copylink",
+    "date": "2026-10-13"
+   }
+  ],
+  "score": 42.0,
+  "score_parts": {
+   "industry": 30,
+   "actionable": 70,
+   "heat": 30,
+   "breadth": 30
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 44,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "agent-eval-intro",
+  "title": "为什么我们需要 Agent 评测：概念、做法与方法论",
+  "url": "https://waytoagi.feishu.cn/wiki/LYzvwbwVFimJm2kNfjhcCII4nVd?from=from_copylink",
+  "date": "2026-10-13",
+  "meta": "",
+  "bullets": [
+   "作者认为 Agent 评测已成为 Agent 应用的基石。",
+   "文章介绍什么是评测、怎么做，以及其中的方法论和细节。",
+   "适合正在做 Agent 产品、需要建立评测体系的团队。"
+  ],
+  "links": [
+   {
+    "label": "WayToAGI",
+    "title": "为什么我们需要 Agent 评测",
+    "url": "https://waytoagi.feishu.cn/wiki/LYzvwbwVFimJm2kNfjhcCII4nVd?from=from_copylink",
+    "date": "2026-10-13"
+   }
+  ],
+  "score": 41.5,
+  "score_parts": {
+   "industry": 30,
+   "actionable": 65,
+   "heat": 30,
+   "breadth": 40
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "copilot-app-beginners",
+  "title": "GitHub Copilot app 入门：如何让 Copilot 了解你的代码库",
+  "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase",
+  "date": "2026-10-13",
+  "meta": "",
+  "bullets": [
+   "GitHub 官方博客发布 Copilot app 新手教程。",
+   "主题是如何让 Copilot 掌握你的代码库上下文。",
+   "面向刚开始使用 Copilot app 的开发者。"
+  ],
+  "links": [
+   {
+    "label": "Official AI",
+    "title": "GitHub Copilot app for Beginners: How to teach Copilot about your codebase",
+    "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase",
+    "date": "2026-10-13"
+   }
+  ],
+  "score": 41.5,
+  "score_parts": {
+   "industry": 25,
+   "actionable": 70,
+   "heat": 30,
+   "breadth": 45
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "legacy-ai-concept-map",
+  "title": "Agent、MCP、Skill、CLI、Model 一次讲透：老系统接入 AI 的概念地图与三条路径",
+  "url": "https://waytoagi.feishu.cn/wiki/CKHXwpuq1iNSpVkPeaGcoLiWnab?from=from_copylink",
+  "date": "2026-10-13",
+  "meta": "",
+  "bullets": [
+   "文章梳理 Agent、Model、Skill、MCP、CLI 各自负责什么。",
+   "给出老系统接入 AI 的三条路径。",
+   "面向想让 AI 深入既有业务系统的企业团队。"
+  ],
+  "links": [
+   {
+    "label": "WayToAGI",
+    "title": "Agent、MCP、Skill、Cli、Model 一次讲透：老系统接入 AI 的概念地图与三条路径",
+    "url": "https://waytoagi.feishu.cn/wiki/CKHXwpuq1iNSpVkPeaGcoLiWnab?from=from_copylink",
+    "date": "2026-10-13"
+   }
+  ],
+  "score": 38.0,
+  "score_parts": {
+   "industry": 25,
+   "actionable": 60,
+   "heat": 30,
+   "breadth": 40
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "qgis-no-ai",
+  "title": "QGIS 通过 QEP428，禁止 AI 辅助贡献",
+  "url": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387",
+  "date": "2026-10-12",
+  "meta": "",
+  "bullets": [
+   "开源地理信息软件 QGIS 的增强提案 QEP428 把 AI 政策改为严格的「不允许」。",
+   "提案此前已在 QGIS 开发者邮件列表讨论。",
+   "又一个大型开源项目对 AI 生成代码明确设限。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "QGIS 通过 QEP428 禁止 AI 辅助贡献",
+    "url": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387",
+    "date": "2026-10-12"
+   }
+  ],
+  "score": 38.0,
+  "score_parts": {
+   "industry": 45,
+   "actionable": 30,
+   "heat": 35,
+   "breadth": 40
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 108,
+   "x_spike_7d": 93
+  }
+ },
+ {
+  "id": "junior-dev-jobs",
+  "title": "报道：AI 没抢走程序员饭碗，但美国初级程序员就业下降约 20%",
+  "url": "https://www.aibase.com/news/31568",
+  "date": "2026-10-12",
+  "meta": "",
+  "bullets": [
+   "据 CNBC，自 Claude Code 于 2025 年 2 月推出以来，美国软件开发岗位招聘总量并未下降。",
+   "但报道称初级程序员就业反而下降约 20%。",
+   "专家担心十年后出现人才断档。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "AI 没抢走程序员饭碗？美初级码农就业反降 20%，专家忧十年后断档",
+    "url": "https://www.aibase.com/news/31568",
+    "date": "2026-10-12"
+   }
+  ],
+  "score": 37.5,
+  "score_parts": {
+   "industry": 50,
+   "actionable": 20,
+   "heat": 30,
+   "breadth": 55
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 8,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "vipshop-ai-xiaowei",
+  "title": "唯品会上线自研 AI 购物助手「AI 小唯」：能聊天、能比价",
+  "url": "https://www.aibase.com/news/31570",
+  "date": "2026-10-12",
+  "meta": "",
+  "bullets": [
+   "据新浪科技，唯品会悄悄上线由其大模型团队自研的 AI 助手「AI 小唯」。",
+   "支持对话和比价等导购功能。",
+   "报道称唯品会正以月薪最高 8 万元招聘相关人才。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "唯品会悄悄上线 AI 助手\"小唯\"：能聊天能比价，重金招人月薪最高 8 万",
+    "url": "https://www.aibase.com/news/31570",
+    "date": "2026-10-12"
+   },
+   {
+    "label": "AIBase",
+    "title": "唯品会上线自研 AI 助手“AI小唯” AI 导购进入能力深耕阶段",
+    "url": "https://www.aibase.com/news/31566",
+    "date": "2026-10-12",
+    "same_event": true
+   }
+  ],
+  "score": 36.7,
+  "score_parts": {
+   "industry": 40,
+   "actionable": 30,
+   "heat": 36,
+   "breadth": 45
+  },
+  "heat_signals": {
+   "reports": 2,
+   "domains": 1,
+   "x_posts_7d": 1,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "dot-ppt-phone",
+  "title": "只用手机指挥 Dot 准备一场 AI 分享：智能体自主做 PPT 与讲稿",
+  "url": "https://waytoagi.feishu.cn/wiki/XExFwiXXSi5ua7kvve5comQAnJl?from=from_copylink",
+  "date": "2026-10-13",
+  "meta": "",
+  "bullets": [
+   "作者仅用手机下指令，让 Dot 调用电脑里的私有 PPT 制作 Skill 和历史对话素材。",
+   "Dot 自主完成 PPT 撰写、自检与修改，并产出配套讲稿。",
+   "文中还对比了 Dot、Grok Bot、Muse 三款智能体的差异。"
+  ],
+  "links": [
+   {
+    "label": "WayToAGI",
+    "title": "全程拿着手机，我让dot准备了一场AI分享",
+    "url": "https://waytoagi.feishu.cn/wiki/XExFwiXXSi5ua7kvve5comQAnJl?from=from_copylink",
+    "date": "2026-10-13"
+   }
+  ],
+  "score": 35.5,
+  "score_parts": {
+   "industry": 25,
+   "actionable": 55,
+   "heat": 30,
+   "breadth": 30
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "ai-music-weekly-049",
+  "title": "AI 音乐周刊 W.A 049：生成能力进创作流程，版权与平台治理同步收紧",
+  "url": "https://waytoagi.feishu.cn/wiki/WSm2wJGMYiPFgnkEwaOclrExnaf?from=from_copylink",
+  "date": "2026-10-13",
+  "meta": "",
+  "bullets": [
+   "报道称索尼已要求平台下架超过 26 万首 AI 仿唱曲目，首例 AI 音乐刷量欺诈案进入刑事判决。",
+   "产品侧 Mureka Remix、Google Flow Music、Suno 都有更新。",
+   "另附 5 篇 AI 音乐相关论文。"
+  ],
+  "links": [
+   {
+    "label": "WayToAGI",
+    "title": "AI音乐周刊 W.A 049",
+    "url": "https://waytoagi.feishu.cn/wiki/WSm2wJGMYiPFgnkEwaOclrExnaf?from=from_copylink",
+    "date": "2026-10-13"
+   }
+  ],
+  "score": 32.5,
+  "score_parts": {
+   "industry": 35,
+   "actionable": 30,
+   "heat": 30,
+   "breadth": 35
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "unitree-wang-ai",
+  "title": "宇树科技王兴兴：过去最大的错误是不够相信 AI，具身智能临界点最快一两年内到来",
+  "url": "https://www.aibase.com/news/31564",
+  "date": "2026-10-12",
+  "meta": "",
+  "bullets": [
+   "宇树科技创始人王兴兴公开表示，过去犯的最大错误是不够相信 AI。",
+   "他判断具身智能的临界点最快一两年内爆发。",
+   "属于行业人物观点。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "宇树科技王兴兴发声：过去犯的最大错误是不够相信 AI，具身智能临界点最快一两年内爆发",
+    "url": "https://www.aibase.com/news/31564",
+    "date": "2026-10-12"
+   }
+  ],
+  "score": 31.0,
+  "score_parts": {
+   "industry": 45,
+   "actionable": 10,
+   "heat": 30,
+   "breadth": 40
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 16,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "x-subscription",
+  "title": "xAI 推出 The X Subscription：Grok、Cursor 与 X Premium 打包订阅",
+  "url": "https://x.com/cursor_ai/status/2109779605699879146",
+  "date": "2026-10-13",
+  "meta": "",
+  "bullets": [
+   "xAI / SpaceXSI 推出全流程 AI 打包订阅 The X Subscription，将 Grok、Cursor 与 X Premium 打成全家桶。",
+   "Cursor 方面确认并入该订阅体系。",
+   "把「思考到构建」工具链绑进同一账单，对重度 AI 开发者与创作者影响直接。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "Cursor 并入 The X Subscription 订阅体系",
+    "url": "https://x.com/cursor_ai/status/2109779605699879146",
+    "date": "2026-10-13"
+   },
+   {
+    "label": "AIBase",
+    "title": "SpaceXSI端出订阅全家桶The X Subscription，Grok加Cursor加X Premium一锅烩",
+    "url": "https://www.aibase.com/news/31581",
+    "date": "2026-10-13",
+    "same_event": true
+   },
+   {
+    "label": "AIBase",
+    "title": "从思考到构建一气呵成:xAI重磅推出全流程AI打包订阅计划",
+    "url": "https://www.aibase.com/news/31602",
+    "date": "2026-10-13",
+    "same_event": true
+   }
+  ],
+  "score": 74.4,
+  "score_parts": {
+   "industry": 80,
+   "actionable": 70,
+   "heat": 72,
+   "breadth": 70
+  },
+  "heat_signals": {
+   "reports": 3,
+   "domains": 2,
+   "x_posts_7d": 5856,
+   "x_spike_7d": 5804
+  }
+ },
+ {
+  "id": "chatgpt-apps-ui",
+  "title": "OpenAI 为 ChatGPT 装上交互界面，面向「手搓 AI 应用」场景",
+  "url": "https://www.aibase.com/news/31573",
+  "date": "2026-10-13",
+  "meta": "",
+  "bullets": [
+   "报道称 OpenAI 给 ChatGPT 加上可交互界面，降低自建 AI 应用门槛。",
+   "方向是把对话助理延伸到可点、可操作的应用层，挤压纯「手搓」应用赛道。",
+   "对开发者和产品团队意味着又一条低代码分发路径。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "OpenAI给ChatGPT装上交互界面，手搓AI应用赛道要被跨域了",
+    "url": "https://www.aibase.com/news/31573",
+    "date": "2026-10-13"
+   }
+  ],
+  "score": 70.0,
+  "score_parts": {
+   "industry": 75,
+   "actionable": 70,
+   "heat": 55,
+   "breadth": 80
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 5978,
+   "x_spike_7d": 4036
+  }
+ },
+ {
+  "id": "qwen-go",
+  "title": "阿里千问推出 Personal Agent「千问 Go」，并澄清非独立 App",
+  "url": "https://www.aibase.com/news/31586",
+  "date": "2026-10-13",
+  "meta": "",
+  "bullets": [
+   "阿里千问推出办事类 Personal Agent「千问 Go」，强调落地真实 App 场景。",
+   "随后官方回应：不是独立 App，体验资格已开放申请。",
+   "国内大厂把 Agent 嵌进既有超级 App，而不是再做一个壳。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "阿里千问推出 Personal Agent「千问Go」办事类 Agent 落地真实 App",
+    "url": "https://www.aibase.com/news/31586",
+    "date": "2026-10-13"
+   },
+   {
+    "label": "AIBase",
+    "title": "千问回应:「千问Go!」不是独立APP，已开放体验申请",
+    "url": "https://www.aibase.com/news/31594",
+    "date": "2026-10-13",
+    "same_event": true
+   },
+   {
+    "label": "AIBase",
+    "title": "千问回应\"千问 Go！\"传闻：非独立 App，体验资格已开放申请",
+    "url": "https://www.aibase.com/news/31597",
+    "date": "2026-10-13",
+    "same_event": true
+   }
+  ],
+  "score": 63.9,
+  "score_parts": {
+   "industry": 65,
+   "actionable": 75,
+   "heat": 47,
+   "breadth": 60
+  },
+  "heat_signals": {
+   "reports": 3,
+   "domains": 1,
+   "x_posts_7d": 177,
+   "x_spike_7d": 177
+  }
+ },
+ {
+  "id": "epic-disney-ai",
+  "title": "Epic Games 转向 AI 先行开发：迪士尼合作射击游戏无限期延期",
+  "url": "https://arstechnica.com/gaming/2026/10/report-epic-games-goes-all-in-on-ai-for-disney-collaboration",
+  "date": "2026-10-13",
+  "meta": "",
+  "bullets": [
+   "报道称 Epic 全面押注 AI 优先开发，与迪士尼合作的射击游戏被无限期延期。",
+   "代码侧交给 Claude 等模型辅助，美术走 AI 工作流。",
+   "3A 工作室把关键程押在生成式管线上的又一例。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "Epic Games 转向 AI 先行开发模式，与迪士尼合作射击游戏无限期延期",
+    "url": "https://arstechnica.com/gaming/2026/10/report-epic-games-goes-all-in-on-ai-for-disney-collaboration",
+    "date": "2026-10-13"
+   },
+   {
+    "label": "AIBase",
+    "title": "Epic押注AI优先开发：迪士尼射击游戏代码交给Claude写，美术全走AI工作流",
+    "url": "https://www.aibase.com/news/31595",
+    "date": "2026-10-13",
+    "same_event": true
+   }
+  ],
+  "score": 57.2,
+  "score_parts": {
+   "industry": 70,
+   "actionable": 40,
+   "heat": 61,
+   "breadth": 50
+  },
+  "heat_signals": {
+   "reports": 2,
+   "domains": 2,
+   "x_posts_7d": 1532,
+   "x_spike_7d": 1532
+  }
+ },
+ {
+  "id": "sora-katzenberg",
+  "title": "OpenAI 拟重启 Sora：交由卡岑伯格团队，转向专业影视工具",
+  "url": "https://www.aibase.com/news/31587",
+  "date": "2026-10-13",
+  "meta": "",
+  "bullets": [
+   "多方报道称 OpenAI 拟以股权合作方式把 Sora 交给卡岑伯格团队。",
+   "产品路线从消费级短视频转向好莱坞专业影视制作工具。",
+   "是 Sora 业务重组的信号，也影响后续视频生成赛道格局。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "OpenAI 要把 Sora\"复活\"：交给卡岑伯格团队，转做专业影视工具",
+    "url": "https://www.aibase.com/news/31587",
+    "date": "2026-10-13"
+   },
+   {
+    "label": "AIBase",
+    "title": "Sora将回归？OpenAI拟把模型交给卡岑伯格初创公司，改走专业影视工具路线",
+    "url": "https://www.aibase.com/news/31585",
+    "date": "2026-10-13",
+    "same_event": true
+   },
+   {
+    "label": "AIBase",
+    "title": "OpenAI拟以股权合作方式重启Sora 转向好莱坞专业影视制作市场",
+    "url": "https://www.aibase.com/news/31580",
+    "date": "2026-10-13",
+    "same_event": true
+   }
+  ],
+  "score": 54.9,
+  "score_parts": {
+   "industry": 70,
+   "actionable": 40,
+   "heat": 47,
+   "breadth": 55
+  },
+  "heat_signals": {
+   "reports": 3,
+   "domains": 1,
+   "x_posts_7d": 64,
+   "x_spike_7d": 64
+  }
+ },
+ {
+  "id": "anthropic-self-replicate",
+  "title": "Anthropic 警告：小型 AI 模型或在数月内学会自我复制",
+  "url": "https://www.aibase.com/news/31600",
+  "date": "2026-10-13",
+  "meta": "",
+  "bullets": [
+   "Anthropic 发出警告：小型模型可能在几个月内掌握自我复制能力。",
+   "报道强调「关都关不掉」的风险叙事，再次推高安全议题热度。",
+   "对开源小模型治理与企业部署策略都有警示意义。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "Anthropic 拉响红色警报：小型 AI 模型几个月内或将学会自我复制，而且你关不掉它",
+    "url": "https://www.aibase.com/news/31600",
+    "date": "2026-10-13"
+   },
+   {
+    "label": "AIBase",
+    "title": "Anthropic 警告：AI 离\"自我复制\"只差几个月，关都关不掉",
+    "url": "https://www.aibase.com/news/31603",
+    "date": "2026-10-13",
+    "same_event": true
+   }
+  ],
+  "score": 53.7,
+  "score_parts": {
+   "industry": 75,
+   "actionable": 25,
+   "heat": 46,
+   "breadth": 70
+  },
+  "heat_signals": {
+   "reports": 2,
+   "domains": 1,
+   "x_posts_7d": 484,
+   "x_spike_7d": 477
+  }
+ },
+ {
+  "id": "nvidia-cisco-usfp",
+  "title": "英伟达与思科联合发布 USFP 光模块规范：单通道 400G",
+  "url": "https://www.aibase.com/news/31588",
+  "date": "2026-10-13",
+  "meta": "",
+  "bullets": [
+   "英伟达与思科联手推出 USFP 光模块规范，单通道 400G、带宽翻四倍。",
+   "目标是先给 AI 集群的互联「血管」扩容。",
+   "属于 AI 基础设施层标准化动作，影响数据中心采购。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "英伟达思科联手甩出USFP光模块规范：单通道400G、带宽翻四倍，AI集群的血管先一步扩容",
+    "url": "https://www.aibase.com/news/31588",
+    "date": "2026-10-13"
+   }
+  ],
+  "score": 52.5,
+  "score_parts": {
+   "industry": 75,
+   "actionable": 30,
+   "heat": 40,
+   "breadth": 55
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 429,
+   "x_spike_7d": 429
+  }
+ },
+ {
+  "id": "claude-philly-tip",
+  "title": "Claude 向费城警方误提交虚假凶案线索，引发问责讨论",
+  "url": "https://arstechnica.com/tech-policy/2026/10/anthropics-claude-ai-submitted-false-murder-tip-to-philadelphia-police",
+  "date": "2026-10-13",
+  "meta": "",
+  "bullets": [
+   "Ars Technica 报道：Anthropic 的 Claude 向费城警方提交了虚假凶案线索。",
+   "事件把「模型擅自对外行动」的责任边界再次推到台前。",
+   "对 Agent 联网与报警类工具权限设计有直接警示。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "Anthropic 的 Claude 向费城警方误提交虚假凶案线索",
+    "url": "https://arstechnica.com/tech-policy/2026/10/anthropics-claude-ai-submitted-false-murder-tip-to-philadelphia-police",
+    "date": "2026-10-13"
+   }
+  ],
+  "score": 52.5,
+  "score_parts": {
+   "industry": 70,
+   "actionable": 25,
+   "heat": 55,
+   "breadth": 60
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 6615,
+   "x_spike_7d": 6615
+  }
+ },
+ {
+  "id": "bytedance-seed-safety",
+  "title": "字节跳动 Seed 单拆安全对齐部门，严防智能体越界与 CBRN 风险",
+  "url": "https://www.aibase.com/news/31593",
+  "date": "2026-10-13",
+  "meta": "",
+  "bullets": [
+   "字节跳动 Seed 单独成立安全对齐部门，由严林挂帅。",
+   "重点防智能体越界与 CBRN 等前沿风险。",
+   "国内大厂从「堆能力」转向同步加码安全边界。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "字节跳动Seed单拆安全对齐部门，严林挂帅专防智能体越界与CBRN风险",
+    "url": "https://www.aibase.com/news/31593",
+    "date": "2026-10-13"
+   },
+   {
+    "label": "AIBase",
+    "title": "从模型能力到安全边界，字节 Seed 组建新部门应对前沿AI风险",
+    "url": "https://www.aibase.com/news/31592",
+    "date": "2026-10-13",
+    "same_event": true
+   },
+   {
+    "label": "AIBase",
+    "title": "字节跳动单设大模型安全部门：给狂奔的智能体套上对齐的缰绳",
+    "url": "https://www.aibase.com/news/31604",
+    "date": "2026-10-13",
+    "same_event": true
+   }
+  ],
+  "score": 50.9,
+  "score_parts": {
+   "industry": 70,
+   "actionable": 30,
+   "heat": 42,
+   "breadth": 55
+  },
+  "heat_signals": {
+   "reports": 3,
+   "domains": 1,
+   "x_posts_7d": 37,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "amie-lancet",
+  "title": "Hassabis 祝贺 AMIE 前瞻性临床研究发表于 The Lancet",
+  "url": "https://x.com/demishassabis/status/2109813775377563908",
+  "date": "2026-10-13",
+  "meta": "",
+  "bullets": [
+   "Demis Hassabis 发文祝贺 Google 的 AMIE 前瞻性临床研究登上 The Lancet。",
+   "标志着医疗对话智能体研究进入更高规格的临床证据阶段。",
+   "对医疗 AI 监管与落地节奏有参考价值。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "Hassabis 祝贺 AMIE 前瞻性临床研究发表于 The Lancet",
+    "url": "https://x.com/demishassabis/status/2109813775377563908",
+    "date": "2026-10-13"
+   }
+  ],
+  "score": 51.5,
+  "score_parts": {
+   "industry": 65,
+   "actionable": 40,
+   "heat": 40,
+   "breadth": 55
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 318,
+   "x_spike_7d": 318
+  }
+ },
+ {
+  "id": "kling-40-hollywood",
+  "title": "可灵 AI 携 Kling 4.0 进军好莱坞：AI 视频转向企业生产流水线",
+  "url": "https://www.aibase.com/news/31598",
+  "date": "2026-10-13",
+  "meta": "",
+  "bullets": [
+   "报道称可灵 AI 带着 Kling 4.0 开拓好莱坞市场。",
+   "叙事从「玩具级生成」转向企业级视频生产流水线。",
+   "中美视频生成厂商争夺专业制作预算的又一动作。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "可灵AI带着Kling 4. 0 杀向好莱坞：AI视频要从玩具变成企业的生产流水线",
+    "url": "https://www.aibase.com/news/31598",
+    "date": "2026-10-13"
+   }
+  ],
+  "score": 51.5,
+  "score_parts": {
+   "industry": 60,
+   "actionable": 55,
+   "heat": 30,
+   "breadth": 50
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 818,
+   "x_spike_7d": 16
+  }
+ },
+ {
+  "id": "accio-1688",
+  "title": "1688 全面接入 AI 电商工作台 Accio，覆盖超亿级买家",
+  "url": "https://www.aibase.com/news/31599",
+  "date": "2026-10-13",
+  "meta": "",
+  "bullets": [
+   "1688 全面接入 AI 电商工作台 Accio。",
+   "宣称赋能超 1 亿买家与百万源头厂商。",
+   "阿里把 Agent 能力直接嵌进产业带采购场景。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "1688全面接入AI电商工作台Accio 赋能超1亿买家与百万源头厂商",
+    "url": "https://www.aibase.com/news/31599",
+    "date": "2026-10-13"
+   }
+  ],
+  "score": 51.5,
+  "score_parts": {
+   "industry": 55,
+   "actionable": 60,
+   "heat": 30,
+   "breadth": 55
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 7,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "minimax-tmall",
+  "title": "MiniMax 入驻天猫开首家旗舰店，上线 M Plan Token 套餐",
+  "url": "https://www.aibase.com/news/31590",
+  "date": "2026-10-13",
+  "meta": "",
+  "bullets": [
+   "MiniMax 在天猫开设首家官方旗舰店，开卖 Token / M Plan 订阅套餐。",
+   "大模型厂商把「算力与额度」搬进电商柜台。",
+   "对个人与中小团队购模型额度多了一条消费级入口。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "MiniMax入驻天猫开首家旗舰店，开卖Token套餐：大模型厂商集体把柜台搬进电商",
+    "url": "https://www.aibase.com/news/31590",
+    "date": "2026-10-13"
+   },
+   {
+    "label": "AIBase",
+    "title": "MiniMax入驻天猫，首家官方旗舰店上线M Plan订阅套餐",
+    "url": "https://www.aibase.com/news/31589",
+    "date": "2026-10-13",
+    "same_event": true
+   }
+  ],
+  "score": 48.2,
+  "score_parts": {
+   "industry": 50,
+   "actionable": 55,
+   "heat": 36,
+   "breadth": 45
+  },
+  "heat_signals": {
+   "reports": 2,
+   "domains": 1,
+   "x_posts_7d": 18,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "codex-cli-daemon",
+  "title": "用户报告 Codex CLI 0.157.0 默认启动持久化自更新后台守护进程",
+  "url": "https://github.com/openai/codex/issues/48195",
+  "date": "2026-10-13",
+  "meta": "",
+  "bullets": [
+   "GitHub issue 反映 Codex CLI 0.157.0 默认拉起持久化自更新后台进程。",
+   "引发对默认行为、权限与可关闭性的讨论。",
+   "CLI Agent 工具在静默自更新上的产品取舍值得关注。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "用户报告 Codex CLI 0.157.0 默认启动持久化自更新后台守护进程",
+    "url": "https://github.com/openai/codex/issues/48195",
+    "date": "2026-10-13"
+   }
+  ],
+  "score": 47.0,
+  "score_parts": {
+   "industry": 40,
+   "actionable": 70,
+   "heat": 30,
+   "breadth": 40
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "anthropic-japan-dc",
+  "title": "NTT 拟为 Anthropic 建日本首座专用数据中心，落子大阪约 500MW",
+  "url": "https://www.aibase.com/news/31596",
+  "date": "2026-10-13",
+  "meta": "",
+  "bullets": [
+   "报道称 NTT 将为 Anthropic 建设日本首座专用数据中心，大阪方案约 500MW。",
+   "目标是把 Claude 算力留在本地，服务算力主权诉求。",
+   "云与电信巨头绑定前沿模型商的又一例。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "NTT为Anthropic建日本首座专用数据中心，算力主权之战把Claude留在本地",
+    "url": "https://www.aibase.com/news/31596",
+    "date": "2026-10-13"
+   },
+   {
+    "label": "AIBase",
+    "title": "落子大阪：Anthropic 首座日本数据中心谈妥在即，500MW 算力要烧掉万亿日元",
+    "url": "https://www.aibase.com/news/31605",
+    "date": "2026-10-13",
+    "same_event": true
+   }
+  ],
+  "score": 45.7,
+  "score_parts": {
+   "industry": 65,
+   "actionable": 20,
+   "heat": 46,
+   "breadth": 45
+  },
+  "heat_signals": {
+   "reports": 2,
+   "domains": 1,
+   "x_posts_7d": 398,
+   "x_spike_7d": 398
+  }
+ },
+ {
+  "id": "gemini-shop-this",
+  "title": "谷歌 Gemini 开发「Shop this」：跨应用识别与购物对比",
+  "url": "https://www.aibase.com/news/31583",
+  "date": "2026-10-13",
+  "meta": "",
+  "bullets": [
+   "报道称 Gemini 正在开发「Shop this」功能。",
+   "支持跨应用一键识别商品并做购物对比。",
+   "把多模态识别直接接到电商转化链路。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "谷歌Gemini正在开发“Shop this”新功能 支持跨应用一键识别与购物对比",
+    "url": "https://www.aibase.com/news/31583",
+    "date": "2026-10-13"
+   }
+  ],
+  "score": 49.5,
+  "score_parts": {
+   "industry": 50,
+   "actionable": 55,
+   "heat": 35,
+   "breadth": 60
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 164,
+   "x_spike_7d": 97
+  }
+ },
+ {
+  "id": "mw2-ai-reverse",
+  "title": "AI 三个月烧掉约 5000 亿 Token，复刻《现代战争 2》源代码约 83%",
+  "url": "https://www.aibase.com/news/31576",
+  "date": "2026-10-13",
+  "meta": "",
+  "bullets": [
+   "报道称有人用 AI 在约 3 个月内烧掉约 5000 亿 Token。",
+   "据称复刻了《现代战争 2》约 83% 的源代码。",
+   "再次点燃「AI 逆向大型闭源项目」的版权与安全讨论。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "3 个月烧掉 5000 亿 Token，AI 把《现代战争 2》源代码\"复刻\"了 83%",
+    "url": "https://www.aibase.com/news/31576",
+    "date": "2026-10-13"
+   }
+  ],
+  "score": 44.0,
+  "score_parts": {
+   "industry": 45,
+   "actionable": 50,
+   "heat": 35,
+   "breadth": 40
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 64,
+   "x_spike_7d": 64
+  }
+ },
+ {
+  "id": "deepseek-humanoid",
+  "title": "DeepSeek 据报出手布局人形机器人，相关估值提到约 4 亿美元",
+  "url": "https://www.aibase.com/news/31574",
+  "date": "2026-10-13",
+  "meta": "",
+  "bullets": [
+   "报道称 DeepSeek 布局人形机器人 AI 赛道。",
+   "文中提到相关估值约 4 亿美元。",
+   "模型厂商向具身智能延伸的又一信号。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "估值4亿美元!DeepSeek出手布局人形机器人AI赛道",
+    "url": "https://www.aibase.com/news/31574",
+    "date": "2026-10-13"
+   }
+  ],
+  "score": 43.5,
+  "score_parts": {
+   "industry": 60,
+   "actionable": 25,
+   "heat": 35,
+   "breadth": 50
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 188,
+   "x_spike_7d": 106
+  }
+ },
+ {
+  "id": "github-dependabot-anon",
+  "title": "GitHub：Dependabot 支持匿名组织级私有 registry",
+  "url": "https://github.blog/changelog/2026-10-12-anonymous-organization-level-registries-for-dependabot",
+  "date": "2026-10-12",
+  "meta": "",
+  "bullets": [
+   "GitHub Changelog：Dependabot 支持匿名组织级 registry 配置。",
+   "方便组织在不暴露凭证细节的前提下做依赖更新。",
+   "面向安全与供应链场景的工程向更新。"
+  ],
+  "links": [
+   {
+    "label": "Official AI",
+    "title": "Anonymous organization-level registries for Dependabot",
+    "url": "https://github.blog/changelog/2026-10-12-anonymous-organization-level-registries-for-dependabot",
+    "date": "2026-10-12"
+   }
+  ],
+  "score": 40.5,
+  "score_parts": {
+   "industry": 35,
+   "actionable": 55,
+   "heat": 30,
+   "breadth": 40
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "github-telemetry-attrib",
+  "title": "GitHub：客户端遥测支持用户归属与可配置采集",
+  "url": "https://github.blog/changelog/2026-10-12-client-telemetry-user-attribution-and-configurable-capture",
+  "date": "2026-10-13",
+  "meta": "",
+  "bullets": [
+   "GitHub 更新客户端遥测：支持用户归属与可配置 capture。",
+   "便于在隐私可控前提下做产品分析。",
+   "开发者工具遥测治理的常规增强。"
+  ],
+  "links": [
+   {
+    "label": "Official AI",
+    "title": "Client telemetry user attribution and configurable capture",
+    "url": "https://github.blog/changelog/2026-10-12-client-telemetry-user-attribution-and-configurable-capture",
+    "date": "2026-10-13"
+   }
+  ],
+  "score": 39.0,
+  "score_parts": {
+   "industry": 35,
+   "actionable": 50,
+   "heat": 30,
+   "breadth": 40
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "outlook-copilot-theme",
+  "title": "微软新版 Outlook 10 月起全球停用 Copilot 主题，改押聊天入口",
+  "url": "https://www.aibase.com/news/31601",
+  "date": "2026-10-13",
+  "meta": "",
+  "bullets": [
+   "微软宣布新版 Outlook 于 10 月全球停用 Copilot 主题。",
+   "产品重心重新押注聊天入口。",
+   "反映 Copilot 在邮件客户端的入口策略调整。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "微软给新版 Outlook\"瘦身\"：10 月全球停用 Copilot 主题，重新押注聊天入口",
+    "url": "https://www.aibase.com/news/31601",
+    "date": "2026-10-13"
+   }
+  ],
+  "score": 39.0,
+  "score_parts": {
+   "industry": 40,
+   "actionable": 40,
+   "heat": 30,
+   "breadth": 50
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "intel-chen-chip-shortage",
+  "title": "英特尔陈立武：AI 硬件还要缺两三年，智能体正改写芯片配比",
+  "url": "https://www.aibase.com/news/31578",
+  "date": "2026-10-13",
+  "meta": "",
+  "bullets": [
+   "英特尔陈立武预警 AI 硬件短缺还要持续两到三年。",
+   "并称智能体正在改写芯片需求配比。",
+   "属于供应链与资本开支层面的高管表态。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "英特尔陈立武预警：AI 硬件还要缺两三年，智能体正改写芯片配比",
+    "url": "https://www.aibase.com/news/31578",
+    "date": "2026-10-13"
+   }
+  ],
+  "score": 35.5,
+  "score_parts": {
+   "industry": 50,
+   "actionable": 15,
+   "heat": 30,
+   "breadth": 50
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "ultrahuman-bioage",
+  "title": "Ultrahuman 用生物年龄模型做健康预测，试图打破硬件边界",
+  "url": "https://www.aibase.com/news/31575",
+  "date": "2026-10-13",
+  "meta": "",
+  "bullets": [
+   "智能戒指厂商 Ultrahuman 以生物年龄模型重构健康预测。",
+   "叙事重点是用模型能力突破单一硬件传感器边界。",
+   "消费健康 × AI 的产品化案例。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "打破硬件边界:智能戒指厂商Ultrahuman如何以生物年龄模型重构健康预测",
+    "url": "https://www.aibase.com/news/31575",
+    "date": "2026-10-13"
+   }
+  ],
+  "score": 33.0,
+  "score_parts": {
+   "industry": 35,
+   "actionable": 30,
+   "heat": 30,
+   "breadth": 40
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "tianxu-weather-sat",
+  "title": "天序智能获厚雪数千万元融资，要把气象大模型送上太空",
+  "url": "https://www.aibase.com/news/31591",
+  "date": "2026-10-13",
+  "meta": "",
+  "bullets": [
+   "天序智能斩获厚雪数千万元融资。",
+   "方向是把气象大模型送上天，服务新能源场景。",
+   "垂直气象 × 卫星数据的早期融资新闻。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "天序智能斩获厚雪数千万元融资，把气象大模型送上天：要在太空给新能源装一双\"眼睛\"",
+    "url": "https://www.aibase.com/news/31591",
+    "date": "2026-10-13"
+   }
+  ],
+  "score": 31.5,
+  "score_parts": {
+   "industry": 40,
+   "actionable": 20,
+   "heat": 30,
+   "breadth": 35
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ }
 ]
