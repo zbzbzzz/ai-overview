@@ -1700,9 +1700,9 @@
   "date": "2026-10-14",
   "meta": "",
   "bullets": [
-   "Google DeepMind 正式发布 Gemini 4 Argon，并逐步推送到 Gemini App。",
-   "官方同步放出 Robotics、安全对齐说明，以及 GitHub Copilot / OpenRouter 接入。",
-   "第三方评测称智能指数追平 GPT-6 Astra，Cost per Task 约为其 60%。"
+   "Google DeepMind 正式发布 Gemini 4 Argon，推送到 Gemini App 并向全球开发者开放 API。",
+   "输入 Token 定价 2 美元起，单次输出最高约 100 万 Token，主打长周期复杂任务。",
+   "同步接入 GitHub Copilot / OpenRouter；第三方评测称智能指数追平 GPT-6 Astra。"
   ],
   "links": [
    {
@@ -1766,6 +1766,27 @@
     "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely",
     "date": "2026-10-14",
     "same_event": true
+   },
+   {
+    "label": "AIBase",
+    "title": "谷歌 Argon 模型开放全球开发者，输入 Token 定价2美元起",
+    "url": "https://www.aibase.com/news/31625",
+    "date": "2026-10-14",
+    "same_event": true
+   },
+   {
+    "label": "AIBase",
+    "title": "谷歌最强 AI 迎重大突破！Gemini 4 Argon 震撼上线，支持 100 万输出词元专攻复杂难题",
+    "url": "https://www.aibase.com/news/31635",
+    "date": "2026-10-14",
+    "same_event": true
+   },
+   {
+    "label": "AIBase",
+    "title": "Google DeepMind 亮出 Gemini 4 Argon：单次输出飙到百万 Token，专啃长周期硬活",
+    "url": "https://www.aibase.com/news/31634",
+    "date": "2026-10-14",
+    "same_event": true
    }
   ],
   "split_from": "gemini-4-test",
@@ -1776,10 +1797,10 @@
    "breadth": 90
   },
   "heat_signals": {
-   "reports": 9,
+   "reports": 12,
    "domains": 5,
-   "x_posts_7d": 26615,
-   "x_spike_7d": 25970
+   "x_posts_7d": 17598,
+   "x_spike_7d": 14163
   },
   "score": 88.3
  },
@@ -5051,12 +5072,12 @@
   "id": "character-ai-bankruptcy",
   "title": "Character.AI 申请 Chapter 11 破产，迪士尼约 2000 万美元接手部分资产",
   "url": "https://www.theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy-disney",
-  "date": "2026-10-13",
+  "date": "2026-10-14",
   "meta": "",
   "bullets": [
    "成立约五年的 Character.AI 申请 Chapter 11 破产保护。",
-   "报道称 Disney 以约 2000 万美元牵头竞购/接手部分资产。",
-   "消费级角色聊天赛道出清，IP 方入场整合互动叙事能力。"
+   "报道称 Disney 以约 2000 万美元牵头接手部分资产。",
+   "破产文件显示消费级角色聊天的商业模式难以为继，赛道加速出清。"
   ],
   "links": [
    {
@@ -5078,20 +5099,27 @@
     "url": "https://www.aibase.com/news/31611",
     "date": "2026-10-13",
     "same_event": true
+   },
+   {
+    "label": "AIHot",
+    "title": "Character.ai 破产文件显示 AI 商业模式难以为继",
+    "url": "https://www.404media.co/character-ais-bankruptcy-documents-show-the-economics-of-ai-dont-work",
+    "date": "2026-10-14",
+    "same_event": true
    }
   ],
-  "score": 63.4,
+  "score": 63.6,
   "score_parts": {
    "industry": 80,
    "actionable": 35,
-   "heat": 72,
+   "heat": 73,
    "breadth": 65
   },
   "heat_signals": {
-   "reports": 3,
-   "domains": 3,
-   "x_posts_7d": 841,
-   "x_spike_7d": 841
+   "reports": 4,
+   "domains": 4,
+   "x_posts_7d": 495,
+   "x_spike_7d": 495
   }
  },
  {
@@ -5171,11 +5199,11 @@
   "id": "apple-homeview",
   "title": "苹果发布 7 英寸智能音箱 HomeView，售价 299 美元并搭载 Siri AI",
   "url": "https://www.apple.com/newsroom/2026/10/meet-apple-homeview-a-new-way-to-enjoy-entertainment-and-manage-the-home",
-  "date": "2026-10-13",
+  "date": "2026-10-14",
   "meta": "",
   "bullets": [
-   "Apple 发布 HomeView：7 英寸屏幕智能家居/娱乐音箱。",
-   "售价 299 美元，强调 Siri AI 与家庭管理能力。",
+   "Apple 发布 HomeView：7 英寸屏幕智能家居/娱乐音箱，售价 299 美元。",
+   "同期多款家居新品同步亮相，Siri AI 全面进驻客厅与家庭管理场景。",
    "苹果把生成式助手更深嵌进客厅硬件入口。"
   ],
   "links": [
@@ -5184,20 +5212,27 @@
     "title": "Apple 发布 7 英寸智能音箱 HomeView，售价 299 美元并搭载 Siri AI",
     "url": "https://www.apple.com/newsroom/2026/10/meet-apple-homeview-a-new-way-to-enjoy-entertainment-and-manage-the-home",
     "date": "2026-10-13"
+   },
+   {
+    "label": "AIBase",
+    "title": "Siri AI 全面进驻智能家居:苹果连发四款重磅新品，开启客厅生态新纪元",
+    "url": "https://www.aibase.com/news/31627",
+    "date": "2026-10-14",
+    "same_event": true
    }
   ],
-  "score": 62.5,
+  "score": 64.7,
   "score_parts": {
    "industry": 70,
    "actionable": 55,
-   "heat": 55,
+   "heat": 66,
    "breadth": 70
   },
   "heat_signals": {
-   "reports": 1,
-   "domains": 1,
-   "x_posts_7d": 5971,
-   "x_spike_7d": 5971
+   "reports": 2,
+   "domains": 2,
+   "x_posts_7d": 7248,
+   "x_spike_7d": 7248
   }
  },
  {
@@ -5207,8 +5242,8 @@
   "date": "2026-10-14",
   "meta": "",
   "bullets": [
-   "OpenAI 新闻办披露办公室发现窃密录音装置。",
-   "涉事员工已被捕，安全与保密议题再度升温。",
+   "OpenAI 办公室发现窃密录音装置，涉事沙特籍工程师被捕。",
+   "报道称其偷录高管会议，最高可判 5 年。",
    "对前沿实验室物理安全与内控流程提出公开警示。"
   ],
   "links": [
@@ -5217,20 +5252,27 @@
     "title": "OpenAI 办公室发现窃密录音装置，涉事员工被捕",
     "url": "https://x.com/OpenAINewsroom/status/2110095403198849132",
     "date": "2026-10-14"
+   },
+   {
+    "label": "AIBase",
+    "title": "OpenAI 沙特籍工程师被捕：藏录音设备偷录高管会，最高判 5 年",
+    "url": "https://www.aibase.com/news/31618",
+    "date": "2026-10-14",
+    "same_event": true
    }
   ],
-  "score": 52.0,
+  "score": 52.2,
   "score_parts": {
    "industry": 75,
    "actionable": 20,
-   "heat": 50,
+   "heat": 51,
    "breadth": 60
   },
   "heat_signals": {
-   "reports": 1,
-   "domains": 1,
-   "x_posts_7d": 2096,
-   "x_spike_7d": 2013
+   "reports": 2,
+   "domains": 2,
+   "x_posts_7d": 370,
+   "x_spike_7d": 370
   }
  },
  {
@@ -5369,11 +5411,11 @@
   "id": "higgsfield-long-video",
   "title": "Higgsfield 借助 OpenAI：AI 视频从约 1 分钟拉长到 10 分钟以上",
   "url": "https://openai.com/index/higgsfield-longer-videos-voice",
-  "date": "2026-10-13",
+  "date": "2026-10-14",
   "meta": "",
   "bullets": [
-   "OpenAI 客户故事称 Higgsfield 把 AI 视频时长从约 1 分钟做到 10 分钟以上。",
-   "并提到更长内容中的语音能力。",
+   "OpenAI 客户故事称 Higgsfield 基于 GPT-6 Astra 把 AI 视频从约 1 分钟做到 10 分钟以上。",
+   "长视频里角色与场景保持一致，不再「串戏」，并加入语音能力。",
    "展示视频生成在时长与可用性上的产品突破。"
   ],
   "links": [
@@ -5382,20 +5424,27 @@
     "title": "Higgsfield takes AI video from 1 minute to over 10",
     "url": "https://openai.com/index/higgsfield-longer-videos-voice",
     "date": "2026-10-13"
+   },
+   {
+    "label": "AIBase",
+    "title": "10 分钟 AI 长视频来了：GPT-6 Astra 接管 Higgsfield，角色场景不再\"串戏\"",
+    "url": "https://www.aibase.com/news/31623",
+    "date": "2026-10-14",
+    "same_event": true
    }
   ],
-  "score": 48.0,
+  "score": 50.2,
   "score_parts": {
    "industry": 55,
    "actionable": 50,
-   "heat": 30,
+   "heat": 41,
    "breadth": 50
   },
   "heat_signals": {
-   "reports": 1,
-   "domains": 1,
-   "x_posts_7d": 0,
-   "x_spike_7d": 0
+   "reports": 2,
+   "domains": 2,
+   "x_posts_7d": 69,
+   "x_spike_7d": 9
   }
  },
  {
@@ -5603,7 +5652,7 @@
   "date": "2026-10-14",
   "meta": "",
   "bullets": [
-   "报道称 XBOW 团队借助 OpenAI GPT-5.6 Sol 完成攻击链。",
+   "XBOW 团队借助 OpenAI GPT-5.6 Sol 挖出 Chrome 三个漏洞并串成攻击链。",
    "获得 Google Chrome 约 25 万美元全链漏洞赏金。",
    "再次展示 Agent 辅助漏洞挖掘的实战收益。"
   ],
@@ -5613,20 +5662,27 @@
     "title": "XBOW 团队借助 OpenAI GPT-5.6 Sol 获 Google Chrome 25 万美元全链漏洞赏金",
     "url": "https://x.com/reach_vb/status/2110086935733833893",
     "date": "2026-10-14"
+   },
+   {
+    "label": "AIHot",
+    "title": "Xbow 用 GPT-5.6 挖出 Chrome 三个漏洞，获 Google 25 万美元全链奖励",
+    "url": "https://x.com/rohanpaul_ai/status/2110203596948353155",
+    "date": "2026-10-14",
+    "same_event": true
    }
   ],
-  "score": 52.0,
+  "score": 53.2,
   "score_parts": {
    "industry": 60,
    "actionable": 55,
-   "heat": 35,
+   "heat": 41,
    "breadth": 45
   },
   "heat_signals": {
-   "reports": 1,
+   "reports": 2,
    "domains": 1,
-   "x_posts_7d": 70,
-   "x_spike_7d": 70
+   "x_posts_7d": 148,
+   "x_spike_7d": 148
   }
  },
  {
@@ -6122,6 +6178,515 @@
    "domains": 1,
    "x_posts_7d": 0,
    "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "apple-openai-trade-secret",
+  "title": "苹果诉 OpenAI 商业秘密案：法院令 OpenAI 限期交出招聘与面试材料",
+  "url": "https://www.aibase.com/news/31626",
+  "date": "2026-10-14",
+  "meta": "",
+  "bullets": [
+   "法官批准苹果调取 OpenAI 的招聘记录与面试材料，并设定交付期限。",
+   "案件围绕 OpenAI 挖角苹果硬件人才与商业秘密展开。",
+   "折射 AI 硬件赛道的人才与技术争夺进入司法阶段。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "苹果诉 OpenAI 窃密案突破：法院准其调取招聘材料，剑指硬件争夺",
+    "url": "https://www.aibase.com/news/31626",
+    "date": "2026-10-14"
+   },
+   {
+    "label": "AIBase",
+    "title": "法官下令 OpenAI 在苹果商业秘密案中限期交出招聘记录与面试材料",
+    "url": "https://www.aibase.com/news/31619",
+    "date": "2026-10-14",
+    "same_event": true
+   }
+  ],
+  "score": 47.2,
+  "score_parts": {
+   "industry": 65,
+   "actionable": 25,
+   "heat": 41,
+   "breadth": 55
+  },
+  "heat_signals": {
+   "reports": 2,
+   "domains": 1,
+   "x_posts_7d": 63,
+   "x_spike_7d": 63
+  }
+ },
+ {
+  "id": "muse-wonder-arena",
+  "title": "Meta Muse Wonder (Max) 登上 Arena 榜单：文本第 2、WebDev 第 15",
+  "url": "https://x.com/arena/status/2110120205464846828",
+  "date": "2026-10-14",
+  "meta": "",
+  "bullets": [
+   "Meta 新智能体模型 Muse Wonder (Max) 的 Arena 成绩公布。",
+   "文本榜排名第 2，WebDev 榜第 15。",
+   "为前一日的 Muse Wonder 发布提供第三方排名参照。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "Meta Muse Wonder (Max) 进入 Arena 榜单：WebDev 第15、文本第2",
+    "url": "https://x.com/arena/status/2110120205464846828",
+    "date": "2026-10-14"
+   }
+  ],
+  "score": 52.5,
+  "score_parts": {
+   "industry": 60,
+   "actionable": 55,
+   "heat": 35,
+   "breadth": 50
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 81,
+   "x_spike_7d": 81
+  }
+ },
+ {
+  "id": "vs-copilot-cve",
+  "title": "Visual Studio Copilot 与 SSMS 远程代码执行漏洞 CVE-2026-103572 技术分析",
+  "url": "https://embracethered.com/blog/posts/2026/visual-studio-copilot-remote-code-execution",
+  "date": "2026-10-14",
+  "meta": "",
+  "bullets": [
+   "技术文章拆解 Visual Studio Copilot 与 SSMS 的远程代码执行漏洞。",
+   "漏洞编号 CVE-2026-103572，涉及 IDE 内 AI 助手的攻击面。",
+   "使用相关工具的团队应尽快核对补丁状态。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "Visual Studio Copilot 与 SSMS 远程代码执行漏洞（CVE-2026-103572）技术分析",
+    "url": "https://embracethered.com/blog/posts/2026/visual-studio-copilot-remote-code-execution",
+    "date": "2026-10-14"
+   }
+  ],
+  "score": 51.5,
+  "score_parts": {
+   "industry": 50,
+   "actionable": 70,
+   "heat": 30,
+   "breadth": 45
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 16,
+   "x_spike_7d": 16
+  }
+ },
+ {
+  "id": "github-app-least-priv",
+  "title": "GitHub App 最小权限与管理能力改进",
+  "url": "https://github.blog/changelog/2026-10-13-github-app-improvements-for-least-privilege-and-management",
+  "date": "2026-10-14",
+  "meta": "",
+  "bullets": [
+   "GitHub Changelog：GitHub App 支持更细粒度的最小权限配置。",
+   "同时改进 App 的管理体验。",
+   "面向集成与 Agent 接入权限治理的平台更新。"
+  ],
+  "links": [
+   {
+    "label": "Official AI",
+    "title": "GitHub App improvements for least privilege and management",
+    "url": "https://github.blog/changelog/2026-10-13-github-app-improvements-for-least-privilege-and-management",
+    "date": "2026-10-14"
+   }
+  ],
+  "score": 40.5,
+  "score_parts": {
+   "industry": 35,
+   "actionable": 55,
+   "heat": 30,
+   "breadth": 40
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 5,
+   "x_spike_7d": 5
+  }
+ },
+ {
+  "id": "argon-hands-on-review",
+  "title": "实测 Gemini 4 Argon：作者认为难撼动 Claude Opus 5.5 与 GPT-6 Astra",
+  "url": "https://x.com/Khazix0918/status/2110174495420064055",
+  "date": "2026-10-14",
+  "meta": "",
+  "bullets": [
+   "作者在 Gemini 4 Argon 全面开放后做了上手实测。",
+   "结论是整体表现难以撼动 Claude Opus 5.5 与 GPT-6 Astra。",
+   "属于第三方评测观点，可与官方发布稿对照阅读。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "Gemini 4 Argon 全面开放，作者实测后认为难以撼动 Claude Opus 5.5 和 GPT-6 Astra",
+    "url": "https://x.com/Khazix0918/status/2110174495420064055",
+    "date": "2026-10-14"
+   }
+  ],
+  "score": 53.0,
+  "score_parts": {
+   "industry": 50,
+   "actionable": 60,
+   "heat": 50,
+   "breadth": 50
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 2446,
+   "x_spike_7d": 1958
+  }
+ },
+ {
+  "id": "homepod-leak",
+  "title": "苹果官网泄露全尺寸 HomePod 或将搭载 Siri AI",
+  "url": "https://www.aibase.com/news/31624",
+  "date": "2026-10-14",
+  "meta": "",
+  "bullets": [
+   "苹果官网素材疑似泄露新一代全尺寸 HomePod。",
+   "外界推测其将搭载 Siri AI。",
+   "属于泄露消息，尚未正式发布。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "苹果官网泄密：全尺寸 HomePod 或将点亮\"Siri AI\"光环",
+    "url": "https://www.aibase.com/news/31624",
+    "date": "2026-10-14"
+   }
+  ],
+  "score": 40.0,
+  "score_parts": {
+   "industry": 50,
+   "actionable": 30,
+   "heat": 30,
+   "breadth": 50
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 8,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "oppo-manus",
+  "title": "OPPO 联手 Manus：Find X10 系列首发「会办事」的 AI 智能体",
+  "url": "https://www.aibase.com/news/31622",
+  "date": "2026-10-14",
+  "meta": "",
+  "bullets": [
+   "OPPO 与 Manus 合作，在 Find X10 系列首发可执行任务的 AI 智能体。",
+   "手机 AI 从问答转向跨应用办事。",
+   "Agent 能力进入主流安卓旗舰的又一节点。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "手机 AI 从问答走向任务执行，OPPO 联手 Manus 推进智能体落地",
+    "url": "https://www.aibase.com/news/31622",
+    "date": "2026-10-14"
+   },
+   {
+    "label": "AIBase",
+    "title": "OPPO 牵手 Manus：Find X10 系列首发\"会办事\"的 AI 智能体",
+    "url": "https://www.aibase.com/news/31631",
+    "date": "2026-10-14",
+    "same_event": true
+   }
+  ],
+  "score": 56.7,
+  "score_parts": {
+   "industry": 65,
+   "actionable": 55,
+   "heat": 41,
+   "breadth": 60
+  },
+  "heat_signals": {
+   "reports": 2,
+   "domains": 1,
+   "x_posts_7d": 130,
+   "x_spike_7d": 130
+  }
+ },
+ {
+  "id": "deloitte-uk-ai-jobs",
+  "title": "德勤调查：过半英国大企业计划一年内用 AI 替代岗位，青年失业创十余年新高",
+  "url": "https://www.aibase.com/news/31621",
+  "date": "2026-10-14",
+  "meta": "",
+  "bullets": [
+   "德勤调查称过半英国大企业计划在一年内部署 AI 替代人工。",
+   "同期英国青年失业率升至十余年新高。",
+   "AI 对就业结构的冲击进入宏观数据层面。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "德勤调查：过半英国大企业一年内部署 AI 替人，青年失业创十余年新高",
+    "url": "https://www.aibase.com/news/31621",
+    "date": "2026-10-14"
+   }
+  ],
+  "score": 40.0,
+  "score_parts": {
+   "industry": 55,
+   "actionable": 20,
+   "heat": 30,
+   "breadth": 60
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "nvidia-europe-2b",
+  "title": "黄仁勋在欧洲投入约 20 亿美元，联手四家法国企业",
+  "url": "https://www.aibase.com/news/31620",
+  "date": "2026-10-14",
+  "meta": "",
+  "bullets": [
+   "英伟达宣布在欧洲投入约 20 亿美元，拉拢四家法国企业。",
+   "黄仁勋喊话「欧洲必须入场」AI 基础设施竞争。",
+   "主权 AI 与区域算力布局继续升温。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "黄仁勋欧洲撒钱 20 亿美元：拉拢四家法企，喊话\"欧洲必须入场\"",
+    "url": "https://www.aibase.com/news/31620",
+    "date": "2026-10-14"
+   }
+  ],
+  "score": 41.0,
+  "score_parts": {
+   "industry": 60,
+   "actionable": 20,
+   "heat": 30,
+   "breadth": 50
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 8,
+   "x_spike_7d": 8
+  }
+ },
+ {
+  "id": "deepmind-singapore-scam",
+  "title": "Google DeepMind 与新加坡政府合作打造反诈骗微调模型",
+  "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi",
+  "date": "2026-10-14",
+  "meta": "",
+  "bullets": [
+   "Google DeepMind 与新加坡政府合作，微调专用 AI 模型识别诈骗。",
+   "面向公共部门的反诈场景落地。",
+   "前沿实验室与政府合作定制模型的案例。"
+  ],
+  "links": [
+   {
+    "label": "Official AI",
+    "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
+    "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi",
+    "date": "2026-10-14"
+   }
+  ],
+  "score": 41.0,
+  "score_parts": {
+   "industry": 50,
+   "actionable": 35,
+   "heat": 30,
+   "breadth": 45
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 25,
+   "x_spike_7d": 25
+  }
+ },
+ {
+  "id": "stepx-neo",
+  "title": "STEPX 首款大模型原生智能体手机 Neo 发布，3999 元起",
+  "url": "https://www.aibase.com/news/31633",
+  "date": "2026-10-14",
+  "meta": "",
+  "bullets": [
+   "STEPX 发布首款「软硬模」一体的大模型原生智能体手机 Neo。",
+   "售价 3999 元起。",
+   "又一家厂商押注 AI 原生手机形态。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "“软硬模”三位一体！STEPX 首款大模型原生智能体手机 Neo 登场，售价 3999 元起",
+    "url": "https://www.aibase.com/news/31633",
+    "date": "2026-10-14"
+   }
+  ],
+  "score": 48.0,
+  "score_parts": {
+   "industry": 55,
+   "actionable": 50,
+   "heat": 30,
+   "breadth": 50
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 12,
+   "x_spike_7d": 4
+  }
+ },
+ {
+  "id": "workbuddy-wecom",
+  "title": "WorkBuddy 接入企业微信：进通讯录、群聊勾选即成任务",
+  "url": "https://www.aibase.com/news/31632",
+  "date": "2026-10-14",
+  "meta": "",
+  "bullets": [
+   "腾讯 WorkBuddy 以「AI 同事」身份进入企业微信通讯录。",
+   "群聊里勾选消息即可生成任务，产物直接发回企微。",
+   "覆盖约 1400 万企业用户，办公 Agent 进入日常 IM。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "1400万企业的 AI 同事上线:WorkBuddy 进通讯录，群聊勾选即成任务、产物直接发回企微",
+    "url": "https://www.aibase.com/news/31632",
+    "date": "2026-10-14"
+   }
+  ],
+  "score": 55.0,
+  "score_parts": {
+   "industry": 55,
+   "actionable": 70,
+   "heat": 30,
+   "breadth": 60
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 43,
+   "x_spike_7d": 35
+  }
+ },
+ {
+  "id": "doubao-saep",
+  "title": "豆包手机助手 SAEP 公示期结束，逐步开放第三方应用屏幕自动化权限",
+  "url": "https://www.aibase.com/news/31630",
+  "date": "2026-10-14",
+  "meta": "",
+  "bullets": [
+   "豆包手机助手 SAEP 公示期结束。",
+   "第三方应用的屏幕自动化操作权限将逐步放开。",
+   "手机 Agent 跨应用操作的合规路径更清晰。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "豆包手机助手 SAEP 公示期结束:第三方应用屏幕自动化操作权限逐步放开",
+    "url": "https://www.aibase.com/news/31630",
+    "date": "2026-10-14"
+   }
+  ],
+  "score": 50.5,
+  "score_parts": {
+   "industry": 55,
+   "actionable": 55,
+   "heat": 30,
+   "breadth": 60
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 38,
+   "x_spike_7d": 31
+  }
+ },
+ {
+  "id": "samsung-gemini-glasses",
+  "title": "三星将于 11 月发布搭载 Gemini 的 41 克 AI 智能眼镜",
+  "url": "https://www.aibase.com/news/31629",
+  "date": "2026-10-14",
+  "meta": "",
+  "bullets": [
+   "报道称三星将在 11 月发布 AI 智能眼镜。",
+   "重量约 41 克，搭载 Google Gemini。",
+   "AI 眼镜赛道再添大厂产品。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "三星将于11月发布搭载Gemini的41克AI智能眼镜",
+    "url": "https://www.aibase.com/news/31629",
+    "date": "2026-10-14"
+   }
+  ],
+  "score": 44.0,
+  "score_parts": {
+   "industry": 55,
+   "actionable": 35,
+   "heat": 30,
+   "breadth": 55
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 8,
+   "x_spike_7d": 8
+  }
+ },
+ {
+  "id": "openai-trail-of-bits",
+  "title": "OpenAI 拟收购安全公司 Trail of Bits，谈判进行中",
+  "url": "https://www.aibase.com/news/31628",
+  "date": "2026-10-14",
+  "meta": "",
+  "bullets": [
+   "报道称 OpenAI 正在谈判收购知名安全公司 Trail of Bits。",
+   "交易尚未达成。",
+   "前沿实验室加码安全审计与漏洞研究能力。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "OpenAI 拟收购知名安全公司 Trail of Bits，谈判正在进行中",
+    "url": "https://www.aibase.com/news/31628",
+    "date": "2026-10-14"
+   }
+  ],
+  "score": 49.5,
+  "score_parts": {
+   "industry": 70,
+   "actionable": 30,
+   "heat": 35,
+   "breadth": 55
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 180,
+   "x_spike_7d": 180
   }
  }
 ]
