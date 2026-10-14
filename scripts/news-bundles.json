@@ -6531,9 +6531,9 @@
   "date": "2026-10-14",
   "meta": "",
   "bullets": [
-   "STEPX 发布首款「软硬模」一体的大模型原生智能体手机 Neo。",
-   "售价 3999 元起。",
-   "又一家厂商押注 AI 原生手机形态。"
+   "阶跃终端 STEPX 发布首款大模型原生 Agent 手机 Neo，售价 3999 元起。",
+   "大模型直接接管手机操作系统层，跨应用替用户执行任务。",
+   "又一家厂商押注「软硬模」一体的 AI 原生手机形态。"
   ],
   "links": [
    {
@@ -6541,20 +6541,27 @@
     "title": "“软硬模”三位一体！STEPX 首款大模型原生智能体手机 Neo 登场，售价 3999 元起",
     "url": "https://www.aibase.com/news/31633",
     "date": "2026-10-14"
+   },
+   {
+    "label": "AIBase",
+    "title": "阶跃终端发布首款Agent手机STEPX Neo，大模型接管手机操作系统",
+    "url": "https://www.aibase.com/news/31642",
+    "date": "2026-10-14",
+    "same_event": true
    }
   ],
-  "score": 48.0,
+  "score": 50.2,
   "score_parts": {
    "industry": 55,
    "actionable": 50,
-   "heat": 30,
+   "heat": 41,
    "breadth": 50
   },
   "heat_signals": {
-   "reports": 1,
+   "reports": 2,
    "domains": 1,
-   "x_posts_7d": 12,
-   "x_spike_7d": 4
+   "x_posts_7d": 192,
+   "x_spike_7d": 192
   }
  },
  {
@@ -6687,6 +6694,970 @@
    "domains": 1,
    "x_posts_7d": 180,
    "x_spike_7d": 180
+  }
+ },
+ {
+  "id": "grok-voice-3",
+  "title": "xAI 发布语音模型 Grok Voice 3.0，登顶 Artificial Analysis 语音到语音榜",
+  "url": "https://x.ai/news/grok-voice-3",
+  "date": "2026-10-14",
+  "meta": "",
+  "bullets": [
+   "xAI 发布 speech-to-speech 模型 Grok Voice 3.0，端到端时延低于一秒。",
+   "Artificial Analysis 语音到语音指数 86.9 分首秀第一，领先 GPT-Live-1（83.2）与 Gemini 3.8 Live（82.6）。",
+   "较 Grok Voice 2.0 提升 5.6 分，实时语音 Agent 选型多了一个强选项。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "xAI 发布 Grok Voice 3.0 语音模型",
+    "url": "https://x.ai/news/grok-voice-3",
+    "date": "2026-10-14"
+   },
+   {
+    "label": "AIHot",
+    "title": "Artificial Analysis 评测：Grok Voice 3.0 以 86.9 分登顶语音到语音模型榜",
+    "url": "https://x.com/ArtificialAnlys/status/2110421964095713743",
+    "date": "2026-10-15",
+    "same_event": true
+   }
+  ],
+  "score": 64.7,
+  "score_parts": {
+   "industry": 70,
+   "actionable": 70,
+   "heat": 46,
+   "breadth": 65
+  },
+  "heat_signals": {
+   "reports": 2,
+   "domains": 2,
+   "x_posts_7d": 89,
+   "x_spike_7d": 89
+  }
+ },
+ {
+  "id": "hydrafusion-max",
+  "title": "GitHub Copilot HydraFusion 更新并推出 HydraFusion Max：多模型协同出一个答案",
+  "url": "https://github.blog/changelog/2026-10-14-hydrafusion-updates-and-new-max-option",
+  "date": "2026-10-15",
+  "meta": "",
+  "bullets": [
+   "HydraFusion 把多个模型编排成一个回答，模型池新增 Claude Opus 5.5、GPT-6 Astra、GPT-6.1 Sol 与 GPT-6 Luna。",
+   "按步骤分配推理强度（草稿中档、审阅高档），Cascade 加入评审修复，Critique 直接用工具检查工作区。",
+   "新增更强的 HydraFusion Max，可在 VS Code、Copilot app 与 Copilot CLI 使用，仍为研究预览。"
+  ],
+  "links": [
+   {
+    "label": "Official AI",
+    "title": "HydraFusion updates and new Max option",
+    "url": "https://github.blog/changelog/2026-10-14-hydrafusion-updates-and-new-max-option",
+    "date": "2026-10-15"
+   }
+  ],
+  "score": 59.0,
+  "score_parts": {
+   "industry": 60,
+   "actionable": 75,
+   "heat": 35,
+   "breadth": 55
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 125,
+   "x_spike_7d": 50
+  }
+ },
+ {
+  "id": "doubao-chatgpt-import",
+  "title": "豆包工作上线数据迁移：一键导入 ChatGPT 历史对话与记忆",
+  "url": "https://www.aibase.com/news/31641",
+  "date": "2026-10-14",
+  "meta": "",
+  "bullets": [
+   "豆包工作支持把 ChatGPT 的历史对话和记忆一键导入。",
+   "降低从 ChatGPT 迁移到国产助手的切换成本。",
+   "助手竞争开始抢「用户记忆」这类沉淀数据。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "豆包工作上线数据迁移功能，支持一键导入 ChatGPT 对话与记忆",
+    "url": "https://www.aibase.com/news/31641",
+    "date": "2026-10-14"
+   }
+  ],
+  "score": 57.0,
+  "score_parts": {
+   "industry": 55,
+   "actionable": 70,
+   "heat": 40,
+   "breadth": 60
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 502,
+   "x_spike_7d": 494
+  }
+ },
+ {
+  "id": "google-deep-review",
+  "title": "Google 发布智能体审稿系统 Deep Review，从 CS 论文扩展到法律、金融文档",
+  "url": "https://research.google/blog/analyzing-technical-documents-with-deep-review",
+  "date": "2026-10-14",
+  "meta": "",
+  "bullets": [
+   "Google Research 公开智能体审阅系统 Deep Review，对复杂技术文档给出反馈与验证。",
+   "最初面向计算机科学论文，现已扩展到法律、金融等领域。",
+   "AI 辅助审稿与文档核查走向通用化。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "Google 发布智能体审稿系统 Deep Review，支持多领域技术文档审查",
+    "url": "https://research.google/blog/analyzing-technical-documents-with-deep-review",
+    "date": "2026-10-14"
+   }
+  ],
+  "score": 52.5,
+  "score_parts": {
+   "industry": 55,
+   "actionable": 65,
+   "heat": 30,
+   "breadth": 50
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 36,
+   "x_spike_7d": 36
+  }
+ },
+ {
+  "id": "lovable-growth-tools",
+  "title": "Lovable 推出增长工具：在建应用的同一聊天窗口里获客、投广告、做 SEO",
+  "url": "https://lovable.dev/blog/introducing-growth-tools",
+  "date": "2026-10-14",
+  "meta": "",
+  "bullets": [
+   "用户设定增长目标后，Lovable 依据应用上下文生成可执行的增长计划。",
+   "可连接 Google Ads 与 Meta 账号直接投放广告，并处理 SEO。",
+   "Vibe coding 工具从「做出应用」延伸到「卖出应用」。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "Lovable 推出增长工具，从同一聊天窗口帮你获客投广告和做 SEO",
+    "url": "https://lovable.dev/blog/introducing-growth-tools",
+    "date": "2026-10-14"
+   }
+  ],
+  "score": 52.0,
+  "score_parts": {
+   "industry": 50,
+   "actionable": 70,
+   "heat": 30,
+   "breadth": 50
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 16,
+   "x_spike_7d": 16
+  }
+ },
+ {
+  "id": "qwen-office-ecommerce",
+  "title": "千问办公电商版开启邀测：跨平台经营看板、爆款素材批量生成",
+  "url": "https://www.aibase.com/news/31638",
+  "date": "2026-10-14",
+  "meta": "",
+  "bullets": [
+   "阿里千问推出办公电商版并开启邀测。",
+   "提供跨平台经营看板，可批量生成爆款商品素材。",
+   "AI 助手向垂直行业的经营工作流下沉。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "千问办公电商版开启邀测，跨平台经营看板、爆款素材批量生成上线",
+    "url": "https://www.aibase.com/news/31638",
+    "date": "2026-10-14"
+   }
+  ],
+  "score": 50.0,
+  "score_parts": {
+   "industry": 50,
+   "actionable": 60,
+   "heat": 35,
+   "breadth": 50
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 170,
+   "x_spike_7d": 162
+  }
+ },
+ {
+  "id": "modal-series-d",
+  "title": "Modal 年化收入破 10 亿美元，完成 7.5 亿美元 D 轮融资",
+  "url": "https://modal.com/blog/1-billion-annualized-run-rate-series-d",
+  "date": "2026-10-14",
+  "meta": "",
+  "bullets": [
+   "AI 算力云 Modal 宣布年化收入突破 10 亿美元。",
+   "完成 7.5 亿美元 D 轮融资，投后估值约 157.5 亿美元，Accel 领投。",
+   "推理与 Serverless GPU 需求仍在高速增长。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "Modal 年化收入突破 10 亿美元并完成 7.5 亿美元 D 轮融资",
+    "url": "https://modal.com/blog/1-billion-annualized-run-rate-series-d",
+    "date": "2026-10-14"
+   }
+  ],
+  "score": 46.0,
+  "score_parts": {
+   "industry": 60,
+   "actionable": 35,
+   "heat": 35,
+   "breadth": 45
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 62,
+   "x_spike_7d": 62
+  }
+ },
+ {
+  "id": "iphone-ai-filing",
+  "title": "多款国行 iPhone 新增 AI 大模型备案编号，通义千问等现身",
+  "url": "https://www.aibase.com/news/31637",
+  "date": "2026-10-14",
+  "meta": "",
+  "bullets": [
+   "多款国行 iPhone 出现 AI 大模型备案编号。",
+   "通义千问等国内模型出现在备案信息中。",
+   "被视为 Apple Intelligence 国行落地的合规进展信号。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "多款 iPhone 新增 AI 大模型备案编号，通义千问等现身",
+    "url": "https://www.aibase.com/news/31637",
+    "date": "2026-10-14"
+   }
+  ],
+  "score": 49.0,
+  "score_parts": {
+   "industry": 60,
+   "actionable": 40,
+   "heat": 30,
+   "breadth": 70
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 33,
+   "x_spike_7d": 33
+  }
+ },
+ {
+  "id": "deep-agents-context",
+  "title": "LangChain 详解 Deep Agents 上下文工程：记住信息而不塞满上下文窗口",
+  "url": "https://www.langchain.com/blog/context-engineering-deep-agents-remember",
+  "date": "2026-10-15",
+  "meta": "",
+  "bullets": [
+   "LangChain 介绍开源框架 Deep Agents 如何用 middleware 做上下文工程。",
+   "针对长任务中的 context rot，给出记忆、卸载与压缩的做法。",
+   "做长时 Agent 的团队可直接参考实现。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "LangChain 详解 Deep Agents 的上下文工程：如何记住信息而不塞满上下文窗口",
+    "url": "https://www.langchain.com/blog/context-engineering-deep-agents-remember",
+    "date": "2026-10-15"
+   }
+  ],
+  "score": 49.5,
+  "score_parts": {
+   "industry": 45,
+   "actionable": 70,
+   "heat": 30,
+   "breadth": 45
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 24,
+   "x_spike_7d": 24
+  }
+ },
+ {
+  "id": "amp-openai",
+  "title": "OpenAI 客户故事：Amp 用 OpenAI 模型把 AI Agent 用到代码之外",
+  "url": "https://openai.com/index/amp-beyond-coding",
+  "date": "2026-10-14",
+  "meta": "",
+  "bullets": [
+   "OpenAI 发布客户案例，介绍 Amp 如何基于 OpenAI 模型扩展 Agent 场景。",
+   "Agent 从写代码延伸到更广的工作任务。",
+   "属于厂商客户案例，可作为 Agent 落地参考。"
+  ],
+  "links": [
+   {
+    "label": "Official AI",
+    "title": "Amp puts AI agents to work beyond code with OpenAI models",
+    "url": "https://openai.com/index/amp-beyond-coding",
+    "date": "2026-10-14"
+   }
+  ],
+  "score": 45.0,
+  "score_parts": {
+   "industry": 45,
+   "actionable": 55,
+   "heat": 30,
+   "breadth": 45
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 23,
+   "x_spike_7d": 23
+  }
+ },
+ {
+  "id": "minimax-design-v3",
+  "title": "MiniMax Design 上线 Agent V3：创作消耗降低 30% 以上",
+  "url": "https://waytoagi.feishu.cn/wiki/EGfUwEXpHi0GBjkdwymc7BHKnWh?from=from_copylink",
+  "date": "2026-10-15",
+  "meta": "",
+  "bullets": [
+   "MiniMax Design 全新 Agent V3 上线，创作消耗降低 30% 以上。",
+   "同页面素材可互通复用，自定义规则可锁定创作习惯。",
+   "素材分类管理并保留历史版本，便于反复迭代。"
+  ],
+  "links": [
+   {
+    "label": "WayToAGI",
+    "title": "MiniMax Design - 手册与指南",
+    "url": "https://waytoagi.feishu.cn/wiki/EGfUwEXpHi0GBjkdwymc7BHKnWh?from=from_copylink",
+    "date": "2026-10-15"
+   }
+  ],
+  "score": 47.0,
+  "score_parts": {
+   "industry": 45,
+   "actionable": 60,
+   "heat": 35,
+   "breadth": 40
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 57,
+   "x_spike_7d": 57
+  }
+ },
+ {
+  "id": "character-ai-ags",
+  "title": "40 位州总检察长介入 Character.AI 破产案，要求保护用户对话数据",
+  "url": "https://www.theverge.com/policy/1011417/new-york-ag-characterai-bankruptcy",
+  "date": "2026-10-15",
+  "meta": "",
+  "bullets": [
+   "纽约总检察长联合 40 位两党总检察长在破产案中提交利益通知。",
+   "要求任何资产出售方落实用户数据保护。",
+   "AI 陪伴应用的对话数据在破产处置中成为监管焦点。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "40 位总检察长介入 Character.AI 破产案，要求保护用户对话数据",
+    "url": "https://www.theverge.com/policy/1011417/new-york-ag-characterai-bankruptcy",
+    "date": "2026-10-15"
+   }
+  ],
+  "score": 39.5,
+  "score_parts": {
+   "industry": 55,
+   "actionable": 20,
+   "heat": 30,
+   "breadth": 55
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 5,
+   "x_spike_7d": 5
+  }
+ },
+ {
+  "id": "mit-subseasonal-forecast",
+  "title": "MIT 用机器学习修正误差，两到六周天气预报准确率翻倍",
+  "url": "https://news.mit.edu/2026/researchers-improve-weather-forecasts-looking-two-six-weeks-out-1014",
+  "date": "2026-10-14",
+  "meta": "",
+  "bullets": [
+   "MIT 团队在 Nature 发表机器学习后处理层，学习并修正现有预报模型的误差。",
+   "在 ECMWF 次季节预报竞赛中获第一，首次在该时间范围稳定超过气候平均。",
+   "模型开源、低成本，可附加于任意预报模型。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "MIT团队用机器学习修正误差，将两到六周天气预报准确率翻倍",
+    "url": "https://news.mit.edu/2026/researchers-improve-weather-forecasts-looking-two-six-weeks-out-1014",
+    "date": "2026-10-14"
+   }
+  ],
+  "score": 43.0,
+  "score_parts": {
+   "industry": 50,
+   "actionable": 40,
+   "heat": 30,
+   "breadth": 50
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "hiro-acev2",
+  "title": "Ai2 发布 HiRO-ACEv2：以极低成本模拟 3 公里分辨率极端天气",
+  "url": "https://huggingface.co/blog/allenai/hiro-acev2",
+  "date": "2026-10-15",
+  "meta": "",
+  "bullets": [
+   "Ai2 更新高分辨率气候模拟器 HiRO-ACE，推出 v2。",
+   "能复现极罕见的降雨、大风和气压事件，分辨率达 3 公里。",
+   "开放模型、论文、教程和 Demo。"
+  ],
+  "links": [
+   {
+    "label": "Official AI",
+    "title": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
+    "url": "https://huggingface.co/blog/allenai/hiro-acev2",
+    "date": "2026-10-15"
+   }
+  ],
+  "score": 43.0,
+  "score_parts": {
+   "industry": 45,
+   "actionable": 50,
+   "heat": 30,
+   "breadth": 40
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 1,
+   "x_spike_7d": 1
+  }
+ },
+ {
+  "id": "openai-eu-agentic",
+  "title": "OpenAI 发文谈欧盟 AI 下一章：智能体时代的政策与落地",
+  "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+  "date": "2026-10-14",
+  "meta": "",
+  "bullets": [
+   "OpenAI 发布面向欧盟的政策文章，主张欧洲 AI 的下一阶段是智能体。",
+   "讨论智能体在欧洲产业与公共服务中的落地方向。",
+   "属于政策倡议类文章。"
+  ],
+  "links": [
+   {
+    "label": "Official AI",
+    "title": "The EU’s next chapter in AI is agentic",
+    "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+    "date": "2026-10-14"
+   }
+  ],
+  "score": 39.5,
+  "score_parts": {
+   "industry": 50,
+   "actionable": 25,
+   "heat": 35,
+   "breadth": 50
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 75,
+   "x_spike_7d": 67
+  }
+ },
+ {
+  "id": "muse-wonder-agent-arena",
+  "title": "Meta Muse Wonder (Max) 进入 Agent Arena 第 12 名，净提升 +6.4%",
+  "url": "https://x.com/arena/status/2110465487914295770",
+  "date": "2026-10-15",
+  "meta": "",
+  "bullets": [
+   "Arena 基于 5000 多次真实智能体会话发布评测。",
+   "Muse Wonder (Max) 位列 Agent Arena 第 12，比 Muse Spark 1.3 (Max) 高 2.8 分。",
+   "与文本榜第 2 的成绩相比，智能体任务表现仍有差距。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "Meta 的 Muse Wonder (Max) 以 +6.4% 净提升进入 Agent Arena 第12名",
+    "url": "https://x.com/arena/status/2110465487914295770",
+    "date": "2026-10-15"
+   }
+  ],
+  "score": 44.0,
+  "score_parts": {
+   "industry": 50,
+   "actionable": 45,
+   "heat": 30,
+   "breadth": 45
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 23,
+   "x_spike_7d": 23
+  }
+ },
+ {
+  "id": "github-actions-lockfiles",
+  "title": "GitHub Actions 工作流锁文件进入公开预览",
+  "url": "https://github.blog/changelog/2026-10-14-github-actions-workflow-lockfiles-in-public-preview",
+  "date": "2026-10-14",
+  "meta": "",
+  "bullets": [
+   "GitHub Actions 推出 workflow lockfiles 公开预览，锁定依赖版本。",
+   "可配合 Dependabot 保持锁定依赖及时更新。",
+   "提升 CI 供应链安全与可复现性。"
+  ],
+  "links": [
+   {
+    "label": "Official AI",
+    "title": "GitHub Actions workflow lockfiles in public preview",
+    "url": "https://github.blog/changelog/2026-10-14-github-actions-workflow-lockfiles-in-public-preview",
+    "date": "2026-10-14"
+   }
+  ],
+  "score": 46.5,
+  "score_parts": {
+   "industry": 40,
+   "actionable": 65,
+   "heat": 30,
+   "breadth": 50
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 15,
+   "x_spike_7d": 15
+  }
+ },
+ {
+  "id": "argon-writing-test",
+  "title": "实测 Gemini 4 Argon 写作：百万上下文下长篇连贯与风格模仿表现亮眼",
+  "url": "https://waytoagi.feishu.cn/wiki/FnXzwxSgxiTdw3kGX2vc0AbUn5e?from=from_copylink",
+  "date": "2026-10-15",
+  "meta": "",
+  "bullets": [
+   "作者让 Gemini 4 Argon 用网文风格写长篇更新稿。",
+   "长篇连贯、指令遵循和风格模仿表现突出，套话更少。",
+   "属于第三方上手实测，可与官方发布对照。"
+  ],
+  "links": [
+   {
+    "label": "WayToAGI",
+    "title": "实测Gemini 4 Argon写作能力，百万上下文竟恐怖如斯",
+    "url": "https://waytoagi.feishu.cn/wiki/FnXzwxSgxiTdw3kGX2vc0AbUn5e?from=from_copylink",
+    "date": "2026-10-15"
+   }
+  ],
+  "score": 44.0,
+  "score_parts": {
+   "industry": 40,
+   "actionable": 55,
+   "heat": 35,
+   "breadth": 45
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 64,
+   "x_spike_7d": 64
+  }
+ },
+ {
+  "id": "sentinelone-openai",
+  "title": "OpenAI 客户故事：SentinelOne 把恶意软件分析从数周缩短到数小时",
+  "url": "https://openai.com/index/sentinelone",
+  "date": "2026-10-14",
+  "meta": "",
+  "bullets": [
+   "OpenAI 发布客户案例，SentinelOne 用其模型加速恶意软件分析。",
+   "分析周期从数周缩短到数小时。",
+   "安全运营中的 AI 落地参考。"
+  ],
+  "links": [
+   {
+    "label": "Official AI",
+    "title": "SentinelOne cuts malware analysis from weeks to hours",
+    "url": "https://openai.com/index/sentinelone",
+    "date": "2026-10-14"
+   }
+  ],
+  "score": 39.0,
+  "score_parts": {
+   "industry": 40,
+   "actionable": 45,
+   "heat": 30,
+   "breadth": 35
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 18,
+   "x_spike_7d": 18
+  }
+ },
+ {
+  "id": "third-moment-agents",
+  "title": "OpenAI 客户故事：Third Moment Research 让 1 万个 Agent 连续运行 36 小时以上",
+  "url": "https://openai.com/index/third-moment-research",
+  "date": "2026-10-14",
+  "meta": "",
+  "bullets": [
+   "OpenAI 介绍 Third Moment Research 的大规模 Agent 运行实践。",
+   "一次调度约 10000 个 Agent，持续运行 36 小时以上。",
+   "为长时、大规模 Agent 编排提供参考。"
+  ],
+  "links": [
+   {
+    "label": "Official AI",
+    "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
+    "url": "https://openai.com/index/third-moment-research",
+    "date": "2026-10-14"
+   }
+  ],
+  "score": 40.5,
+  "score_parts": {
+   "industry": 40,
+   "actionable": 50,
+   "heat": 30,
+   "breadth": 35
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 14,
+   "x_spike_7d": 14
+  }
+ },
+ {
+  "id": "traffic-light-prompt",
+  "title": "开源「红绿灯」提示语：让 Agent 完成任务后及时刹车、少烧 token",
+  "url": "https://waytoagi.feishu.cn/wiki/HyZOwXGMaiDuBAkv2EXc6AlsnKh?from=from_copylink",
+  "date": "2026-10-15",
+  "meta": "",
+  "bullets": [
+   "作者开源一套不到 300 字的「红绿灯」提示语。",
+   "解决 Agent 完成需求后不断追加优化、浪费额度的问题。",
+   "适合常用 Codex、Claude Code 的用户直接套用。"
+  ],
+  "links": [
+   {
+    "label": "WayToAGI",
+    "title": "开源「红绿灯」提示语，解决Agent刹不住车浪费token额度的老毛病",
+    "url": "https://waytoagi.feishu.cn/wiki/HyZOwXGMaiDuBAkv2EXc6AlsnKh?from=from_copylink",
+    "date": "2026-10-15"
+   }
+  ],
+  "score": 43.0,
+  "score_parts": {
+   "industry": 30,
+   "actionable": 70,
+   "heat": 30,
+   "breadth": 40
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "geo-fanout-skill",
+  "title": "GEO 开源 Skill：生成 ChatGPT Fan-out Queries 搜索轨迹报告",
+  "url": "https://waytoagi.feishu.cn/wiki/NpcuwadtWiSistkXxTsc2Fvqn3e?from=from_copylink",
+  "date": "2026-10-15",
+  "meta": "",
+  "bullets": [
+   "开源 chatgpt-fanout-queries Skill，调用 Responses API 保存完整搜索轨迹。",
+   "提取 Fan-out 搜索词，把搜索来源与最终引用分开统计。",
+   "输出可离线查看的 HTML 报告，便于做 GEO 优化。"
+  ],
+  "links": [
+   {
+    "label": "WayToAGI",
+    "title": "GEO 开源 Skill：ChatGPT 的 Fan-out Queries 报告",
+    "url": "https://waytoagi.feishu.cn/wiki/NpcuwadtWiSistkXxTsc2Fvqn3e?from=from_copylink",
+    "date": "2026-10-15"
+   }
+  ],
+  "score": 41.0,
+  "score_parts": {
+   "industry": 30,
+   "actionable": 65,
+   "heat": 30,
+   "breadth": 35
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 7,
+   "x_spike_7d": 7
+  }
+ },
+ {
+  "id": "ai-business-loop",
+  "title": "AI 接管业务实录：从拜访日程出发跑通业务闭环",
+  "url": "https://waytoagi.feishu.cn/wiki/E1qyw2vUpi3Yedkm7SAc3f27n4c?from=from_copylink",
+  "date": "2026-10-15",
+  "meta": "",
+  "bullets": [
+   "AI 读取日历确定拜访对象，调用调研 Skill 拆解商业模式。",
+   "按 SOP 建客户主档、关联业务并归档报告。",
+   "用定时任务扫描未来日程，形成可复用闭环。"
+  ],
+  "links": [
+   {
+    "label": "WayToAGI",
+    "title": "AI接管业务实录（落地篇）：从一场拜访日程开始，跑通真正的业务闭环",
+    "url": "https://waytoagi.feishu.cn/wiki/E1qyw2vUpi3Yedkm7SAc3f27n4c?from=from_copylink",
+    "date": "2026-10-15"
+   }
+  ],
+  "score": 41.5,
+  "score_parts": {
+   "industry": 30,
+   "actionable": 65,
+   "heat": 30,
+   "breadth": 40
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "pixverse-hk",
+  "title": "爱诗科技落子香港数码港，携实时世界模型 PixVerse R2 打造 AI 视频枢纽",
+  "url": "https://www.aibase.com/news/31640",
+  "date": "2026-10-14",
+  "meta": "",
+  "bullets": [
+   "爱诗科技在香港数码港设立办公室。",
+   "携实时世界模型 PixVerse R2 拓展海外与本地合作。",
+   "AI 视频公司加速国际化布局。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "爱诗科技香港办公室落子数码港：携实时世界模型 PixVerse R2，要做\"AI 视频枢纽\"",
+    "url": "https://www.aibase.com/news/31640",
+    "date": "2026-10-14"
+   }
+  ],
+  "score": 36.0,
+  "score_parts": {
+   "industry": 40,
+   "actionable": 35,
+   "heat": 30,
+   "breadth": 35
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 31,
+   "x_spike_7d": 31
+  }
+ },
+ {
+  "id": "ai-teacher-rumor",
+  "title": "全国网络辟谣：教师「禁用 AI 备课」系误读，政策本意是鼓励用、不滥用",
+  "url": "https://www.aibase.com/news/31644",
+  "date": "2026-10-14",
+  "meta": "",
+  "bullets": [
+   "官方辟谣称「教师禁用 AI 备课」为误读。",
+   "政策本意是鼓励合理使用 AI、防止滥用。",
+   "教育场景的 AI 使用边界更清晰。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "全国网络辟谣：教师\"禁用 AI 备课\"是误读，政策本意是\"鼓励用、不滥用\"",
+    "url": "https://www.aibase.com/news/31644",
+    "date": "2026-10-14"
+   }
+  ],
+  "score": 34.0,
+  "score_parts": {
+   "industry": 35,
+   "actionable": 30,
+   "heat": 30,
+   "breadth": 50
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "germany-robot-police",
+  "title": "德国警方没收涉案人形机器人：两名青少年涉嫌用机器人直播骚扰",
+  "url": "https://www.aibase.com/news/31636",
+  "date": "2026-10-14",
+  "meta": "",
+  "bullets": [
+   "德国警方没收一台涉案人形机器人。",
+   "两名青少年涉嫌利用机器人直播骚扰少女。",
+   "消费级机器人滥用引发监管关注。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "德国警方没收涉案人形机器人:两名青少年涉嫌利用机器人直播骚扰少女被查",
+    "url": "https://www.aibase.com/news/31636",
+    "date": "2026-10-14"
+   }
+  ],
+  "score": 29.0,
+  "score_parts": {
+   "industry": 40,
+   "actionable": 10,
+   "heat": 30,
+   "breadth": 40
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 40,
+   "x_spike_7d": 40
+  }
+ },
+ {
+  "id": "lenovo-kaitian-oil",
+  "title": "联想开天 AI PC 进入油气勘探：断网可写报告，案头工时减少约八成",
+  "url": "https://www.aibase.com/news/31639",
+  "date": "2026-10-14",
+  "meta": "",
+  "bullets": [
+   "联想开天 AI PC 在油气勘探场景落地，支持离线运行。",
+   "断网环境下也能生成报告，案头工时减少约八成。",
+   "属于端侧 AI 行业客户案例。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "联想开天 AI PC 杀入油气勘探：断网也能写报告，案头工时砍掉八成",
+    "url": "https://www.aibase.com/news/31639",
+    "date": "2026-10-14"
+   }
+  ],
+  "score": 33.0,
+  "score_parts": {
+   "industry": 35,
+   "actionable": 30,
+   "heat": 35,
+   "breadth": 30
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 53,
+   "x_spike_7d": 53
+  }
+ },
+ {
+  "id": "aibase-daily-1014",
+  "title": "AIBase 日报：豆包工作导入 ChatGPT 对话、国行 iPhone 新增 AI 备案、千问办公电商版上线",
+  "url": "https://www.aibase.com/news/31643",
+  "date": "2026-10-14",
+  "meta": "",
+  "bullets": [
+   "AIBase 当日 AI 资讯汇总。",
+   "涵盖豆包工作数据迁移、国行 iPhone AI 备案与千问办公电商版等。",
+   "属于综述，各条要闻另有独立资讯束。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "AI日报：豆包工作支持导入ChatGPT历史对话；国行iPhone新增AI备案；千问办公电商版上线",
+    "url": "https://www.aibase.com/news/31643",
+    "date": "2026-10-14"
+   }
+  ],
+  "score": 31.0,
+  "score_parts": {
+   "industry": 30,
+   "actionable": 30,
+   "heat": 30,
+   "breadth": 40
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "waytoagi-campus-wutong",
+  "title": "WaytoAGI 校园先疯：吴桐×蟹老板的 AI 双人创业故事",
+  "url": "https://waytoagi.feishu.cn/wiki/MAkAwsNCGijDGDkmj5pcKuzvn5d?from=from_copylink",
+  "date": "2026-10-15",
+  "meta": "",
+  "bullets": [
+   "专访 WaytoAGI 校园大使吴桐与搭档的 AI 创业经历。",
+   "借力 AI 快速落地项目、承接商单。",
+   "讨论 AI 依赖与效率红利背后的隐患。"
+  ],
+  "links": [
+   {
+    "label": "WayToAGI",
+    "title": "吴桐×蟹老板：AI双人成行｜WaytoAGI 校园先疯",
+    "url": "https://waytoagi.feishu.cn/wiki/MAkAwsNCGijDGDkmj5pcKuzvn5d?from=from_copylink",
+    "date": "2026-10-15"
+   }
+  ],
+  "score": 24.0,
+  "score_parts": {
+   "industry": 20,
+   "actionable": 25,
+   "heat": 30,
+   "breadth": 25
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
   }
  }
 ]
