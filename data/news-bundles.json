@@ -1697,11 +1697,11 @@
   "id": "gemini-4-argon",
   "title": "Google 正式发布 Gemini 4 Argon，推送 App 并接入 Copilot",
   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon",
-  "date": "2026-10-15",
+  "date": "2026-10-16",
   "meta": "",
   "bullets": [
    "Google DeepMind 正式发布 Gemini 4 Argon，推送到 Gemini App 并向全球开发者开放 API。",
-   "已向全球 Google AI Pro / Ultra 订阅者开放；输入 Token 定价 2 美元起，输出最高约 100 万 Token。",
+   "已向全球 Google AI Pro / Ultra 订阅者开放；ARC-AGI (Verified) 公布 ARC-AGI-3 得分 97.5%。",
    "同步接入 GitHub Copilot / OpenRouter；第三方评测称智能指数追平 GPT-6 Astra。"
   ],
   "links": [
@@ -1794,6 +1794,13 @@
     "url": "https://x.com/GeminiApp/status/2110491358498865638",
     "date": "2026-10-15",
     "same_event": true
+   },
+   {
+    "label": "AIHot",
+    "title": "Gemini 4 Argon 在 ARC-AGI (Verified) 评测中公布：ARC-AGI-3 得分 97.5%",
+    "url": "https://x.com/arcprize/status/2110768288523251762",
+    "date": "2026-10-16",
+    "same_event": true
    }
   ],
   "split_from": "gemini-4-test",
@@ -1804,9 +1811,9 @@
    "breadth": 90
   },
   "heat_signals": {
-   "reports": 13,
+   "reports": 14,
    "domains": 5,
-   "x_posts_7d": 23024,
+   "x_posts_7d": 23268,
    "x_spike_7d": 18299
   },
   "score": 89.2
@@ -4601,35 +4608,42 @@
  },
  {
   "id": "kling-40-hollywood",
-  "title": "可灵 AI 携 Kling 4.0 进军好莱坞：AI 视频转向企业生产流水线",
+  "title": "可灵 Kling 4.0 全量开放并新增 MCP / CLI 接入",
   "url": "https://www.aibase.com/news/31598",
-  "date": "2026-10-13",
+  "date": "2026-10-15",
   "meta": "",
   "bullets": [
-   "报道称可灵 AI 带着 Kling 4.0 开拓好莱坞市场。",
-   "叙事从「玩具级生成」转向企业级视频生产流水线。",
-   "中美视频生成厂商争夺专业制作预算的又一动作。"
+   "可灵 Kling 4.0 正式全量开放。",
+   "新增 MCP 与 CLI 接入，面向 Agent / 开发者工作流。",
+   "在好莱坞企业流水线叙事之外，开放接口进一步落地。"
   ],
   "links": [
    {
     "label": "AIBase",
-    "title": "可灵AI带着Kling 4. 0 杀向好莱坞：AI视频要从玩具变成企业的生产流水线",
+    "title": "可灵 Kling 4.0 全量开放并新增 MCP / CLI 接入",
     "url": "https://www.aibase.com/news/31598",
     "date": "2026-10-13"
+   },
+   {
+    "label": "AIHot",
+    "title": "可灵 Kling 4.0 正式全量开放，新增 MCP 和 CLI 接入",
+    "url": "https://x.com/Kling_ai/status/2110747537187709424",
+    "date": "2026-10-15",
+    "same_event": true
    }
   ],
-  "score": 51.5,
+  "score": 67.2,
   "score_parts": {
-   "industry": 60,
-   "actionable": 55,
-   "heat": 30,
-   "breadth": 50
+   "industry": 65,
+   "actionable": 75,
+   "heat": 61,
+   "breadth": 65
   },
   "heat_signals": {
-   "reports": 1,
-   "domains": 1,
-   "x_posts_7d": 818,
-   "x_spike_7d": 16
+   "reports": 2,
+   "domains": 2,
+   "x_posts_7d": 1262,
+   "x_spike_7d": 1217
   }
  },
  {
@@ -7688,9 +7702,9 @@
   "date": "2026-10-15",
   "meta": "",
   "bullets": [
-   "报道称 Anthropic 第三季度营收达 168 亿美元。",
-   "公司计划 11 月启动 IPO 路演，资本市场关注升温。",
-   "前沿模型厂商进入公开市场节奏加快。"
+   "报道称 Anthropic 第三季度营收达 168 亿美元，但增速放缓。",
+   "11 月 IPO 路演前，市场对估值预期出现下调讨论。",
+   "前沿模型厂商公开市场定价承压信号增强。"
   ],
   "links": [
    {
@@ -7698,18 +7712,25 @@
     "title": "Anthropic第三季度营收达168亿美元，计划11月启动IPO路演",
     "url": "https://www.aibase.com/news/31653",
     "date": "2026-10-15"
+   },
+   {
+    "label": "AIHot",
+    "title": "Anthropic Q3营收达168亿美元但增速放缓，11月IPO前估值预期或下调",
+    "url": "https://the-decoder.com/anthropics-q3-revenue-hits-16-8b-but-growth-slows-ahead-of-planned-november-ipo",
+    "date": "2026-10-15",
+    "same_event": true
    }
   ],
-  "score": 63.5,
+  "score": 65.7,
   "score_parts": {
    "industry": 85,
    "actionable": 40,
-   "heat": 50,
+   "heat": 61,
    "breadth": 75
   },
   "heat_signals": {
-   "reports": 1,
-   "domains": 1,
+   "reports": 2,
+   "domains": 2,
    "x_posts_7d": 5169,
    "x_spike_7d": 1479
   }
@@ -7787,8 +7808,8 @@
   "date": "2026-10-15",
   "meta": "",
   "bullets": [
-   "美国 8 个州对 OpenAI 提起诉讼。",
-   "指控涉及 ChatGPT 对青少年自伤或伤害他人的引导风险。",
+   "美国 8 个州总检察长起诉 OpenAI。",
+   "指控涉及 ChatGPT 对青少年自伤或伤害他人的引导，以及「假朋友」式陪伴风险。",
    "生成式助手的未成年人安全进入州检察执法前线。"
   ],
   "links": [
@@ -7797,18 +7818,32 @@
     "title": "美国 8 州起诉 OpenAI，指控 ChatGPT 指导青少年自伤或伤害他人",
     "url": "https://www.ithome.com/1/013/160.htm",
     "date": "2026-10-15"
+   },
+   {
+    "label": "AIHot",
+    "title": "八州总检察长起诉 OpenAI 指控 ChatGPT 诱导青少年自伤",
+    "url": "https://www.platformer.news/openai-states-lawsuit-liability",
+    "date": "2026-10-15",
+    "same_event": true
+   },
+   {
+    "label": "AIBase",
+    "title": "8 州联手起诉 OpenAI：ChatGPT\"假朋友\"伤害儿童，家长被指受骗",
+    "url": "https://www.aibase.com/news/31669",
+    "date": "2026-10-15",
+    "same_event": true
    }
   ],
-  "score": 52.5,
+  "score": 56.9,
   "score_parts": {
    "industry": 75,
    "actionable": 25,
-   "heat": 40,
+   "heat": 62,
    "breadth": 70
   },
   "heat_signals": {
-   "reports": 1,
-   "domains": 1,
+   "reports": 3,
+   "domains": 3,
    "x_posts_7d": 348,
    "x_spike_7d": 228
   }
@@ -8432,6 +8467,1212 @@
    "actionable": 60,
    "heat": 30,
    "breadth": 40
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "muse-spark-open",
+  "title": "Meta 开源 Muse Spark Open：816B 多模态 MoE，1M 上下文，生态 Day 0 接入",
+  "url": "https://huggingface.co/blog/meta-muse-spark-open",
+  "date": "2026-10-16",
+  "meta": "",
+  "bullets": [
+   "Meta 发布开源权重模型 Muse Spark Open：前沿多模态 Mixture-of-Experts。",
+   "报道参数约 816B、最高 1M 上下文；vLLM / Modal / Together / OpenRouter / Arena 同日接入。",
+   "开源侧再添可商用规模的超大多模态基座选项。"
+  ],
+  "links": [
+   {
+    "label": "Official AI",
+    "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
+    "url": "https://huggingface.co/blog/meta-muse-spark-open",
+    "date": "2026-10-15"
+   },
+   {
+    "label": "AIHot",
+    "title": "vLLM 提供 Muse Spark Open Day 0 支持",
+    "url": "https://vllm.ai/blog/2026-10-15-muse-spark-open",
+    "date": "2026-10-15",
+    "same_event": true
+   },
+   {
+    "label": "AIHot",
+    "title": "Meta 开源 Muse Spark Open，Modal 上线共享端点按 token 计费",
+    "url": "https://modal.com/blog/meta-muse-spark-open-now-available-on-modal",
+    "date": "2026-10-15",
+    "same_event": true
+   },
+   {
+    "label": "AIHot",
+    "title": "Meta Muse Spark Open 上线 Together AI",
+    "url": "https://www.together.ai/blog/meta-muse-spark-open",
+    "date": "2026-10-15",
+    "same_event": true
+   },
+   {
+    "label": "AIHot",
+    "title": "Meta 发布开源权重模型 Muse Spark Open，816B 参数、1M 上下文",
+    "url": "https://pytorch.org/blog/muse-spark-open",
+    "date": "2026-10-16",
+    "same_event": true
+   },
+   {
+    "label": "AIHot",
+    "title": "Meta 开放权重模型 Muse Spark Open 上架 OpenRouter",
+    "url": "https://x.com/OpenRouter/status/2110793354154008685",
+    "date": "2026-10-16",
+    "same_event": true
+   },
+   {
+    "label": "AIHot",
+    "title": "Muse Spark Open 上架 Arena，可在 Agent Arena 实测，评分即将公布",
+    "url": "https://x.com/arena/status/2110797782953132049",
+    "date": "2026-10-16",
+    "same_event": true
+   }
+  ],
+  "score": 90.0,
+  "score_parts": {
+   "industry": 90,
+   "actionable": 85,
+   "heat": 100,
+   "breadth": 85
+  },
+  "heat_signals": {
+   "reports": 7,
+   "domains": 6,
+   "x_posts_7d": 5367,
+   "x_spike_7d": 5352
+  }
+ },
+ {
+  "id": "flux3-image-klein",
+  "title": "Black Forest Labs 发布开源文生图 FLUX.3 Image Klein（5.6B），Diffusers / OpenRouter 同步上线",
+  "url": "https://bfl.ai/blog/flux-3-image-klein",
+  "date": "2026-10-16",
+  "meta": "",
+  "bullets": [
+   "Black Forest Labs 发布开源文生图模型 FLUX.3 Image Klein（约 5.6B）。",
+   "Hugging Face Diffusers 同日接入；OpenRouter 上线并含视频 upscale / 4K 相关能力更新。",
+   "开源图像生成中小尺寸高性价比档再添强选项。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "Black Forest Labs 发布开源文生图模型 FLUX 3 Image Klein（5.6B）",
+    "url": "https://bfl.ai/blog/flux-3-image-klein",
+    "date": "2026-10-15"
+   },
+   {
+    "label": "Official AI",
+    "title": "Welcome FLUX.3 Image Klein in Diffusers",
+    "url": "https://huggingface.co/blog/flux-3",
+    "date": "2026-10-15",
+    "same_event": true
+   },
+   {
+    "label": "AIHot",
+    "title": "Black Forest Labs FLUX 3 系列登陆 OpenRouter：Image Klein 开源权重、视频 upscale 降价并支持 4K 生成",
+    "url": "https://x.com/OpenRouter/status/2110803343878873473",
+    "date": "2026-10-16",
+    "same_event": true
+   }
+  ],
+  "score": 77.1,
+  "score_parts": {
+   "industry": 78,
+   "actionable": 80,
+   "heat": 72,
+   "breadth": 75
+  },
+  "heat_signals": {
+   "reports": 3,
+   "domains": 3,
+   "x_posts_7d": 1750,
+   "x_spike_7d": 1720
+  }
+ },
+ {
+  "id": "step-5-preview-oss",
+  "title": "阶跃星辰开放 Step 5 Preview 权重：百万上下文 MoE，GB300 / Featherless 可部署",
+  "url": "https://www.aibase.com/news/31664",
+  "date": "2026-10-15",
+  "meta": "",
+  "bullets": [
+   "阶跃星辰宣布开放 Step 5 Preview 模型权重。",
+   "强调百万级上下文与 MoE 架构；官方展示 NVIDIA GB300 推理，并上线 FeatherlessAI。",
+   "国产旗舰预览权重开源，降低长上下文试用门槛。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "阶跃星辰放大招！Step 5 Preview 模型权重正式开源，百万上下文与 MoE 架构引爆全球开发者社区",
+    "url": "https://www.aibase.com/news/31664",
+    "date": "2026-10-15"
+   },
+   {
+    "label": "AIHot",
+    "title": "阶跃星辰开放 Step 5 Preview 权重",
+    "url": "https://x.com/StepFun_ai/status/2110717330657616092",
+    "date": "2026-10-15",
+    "same_event": true
+   },
+   {
+    "label": "AIHot",
+    "title": "StepFun 展示 Step 5 Preview 在 NVIDIA GB300 上的推理性能",
+    "url": "https://x.com/StepFun_ai/status/2110732706518835353",
+    "date": "2026-10-15",
+    "same_event": true
+   },
+   {
+    "label": "AIHot",
+    "title": "Step 5 Preview 上线 FeatherlessAI，官方转发开放权重模型部署信息",
+    "url": "https://x.com/StepFun_ai/status/2110755075845169428",
+    "date": "2026-10-15",
+    "same_event": true
+   }
+  ],
+  "score": 80.4,
+  "score_parts": {
+   "industry": 82,
+   "actionable": 85,
+   "heat": 73,
+   "breadth": 75
+  },
+  "heat_signals": {
+   "reports": 4,
+   "domains": 2,
+   "x_posts_7d": 2784,
+   "x_spike_7d": 2484
+  }
+ },
+ {
+  "id": "nemotron-35-bolt",
+  "title": "NVIDIA 发布开源 Nemotron 3.5 Super VL 与端侧 Bolt 两款模型",
+  "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl",
+  "date": "2026-10-15",
+  "meta": "",
+  "bullets": [
+   "NVIDIA 发布开源 Nemotron 3.5 Super VL。",
+   "同步推出面向端侧的 Bolt 模型。",
+   "Nemotron 开放权重线继续覆盖多模态与端侧两端。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "NVIDIA 发布开源 Nemotron 3.5 Super VL 及 Bolt 两款端侧模型",
+    "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl",
+    "date": "2026-10-15"
+   }
+  ],
+  "score": 71.0,
+  "score_parts": {
+   "industry": 75,
+   "actionable": 80,
+   "heat": 50,
+   "breadth": 70
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 2961,
+   "x_spike_7d": 2931
+  }
+ },
+ {
+  "id": "apple-mlx-816b",
+  "title": "Apple 演示用 MLX + RDMA 在 Mac Studio 集群本地跑 816B 级大模型",
+  "url": "https://machinelearning.apple.com/research/mlx-distributed-inference",
+  "date": "2026-10-15",
+  "meta": "",
+  "bullets": [
+   "Apple 展示基于 MLX 与 RDMA 的分布式推理。",
+   "可在 Mac Studio 集群本地运行约 816B 级大模型。",
+   "苹果本地大模型集群推理能力再进一步。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "Apple 演示用 MLX 与 RDMA 在 Mac Studio 集群本地运行 816B 大模型",
+    "url": "https://machinelearning.apple.com/research/mlx-distributed-inference",
+    "date": "2026-10-15"
+   }
+  ],
+  "score": 62.5,
+  "score_parts": {
+   "industry": 70,
+   "actionable": 75,
+   "heat": 30,
+   "breadth": 60
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "apertus-15",
+  "title": "Swiss AI 发布 Apertus 1.5：开源多语言模型更新",
+  "url": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
+  "date": "2026-10-15",
+  "meta": "",
+  "bullets": [
+   "Hugging Face 博客刊出 Apertus 1.5 Release Notes。",
+   "Swiss AI 开源多语言模型线迎来版本更新。",
+   "欧洲开源基座模型继续迭代。"
+  ],
+  "links": [
+   {
+    "label": "Official AI",
+    "title": "Apertus 1.5 Release Notes",
+    "url": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
+    "date": "2026-10-15"
+   }
+  ],
+  "score": 50.5,
+  "score_parts": {
+   "industry": 55,
+   "actionable": 60,
+   "heat": 30,
+   "breadth": 45
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "tencent-marvis-harmony",
+  "title": "腾讯 AI 管家「马维斯」鸿蒙版上线，支持微信 / QQ 登录",
+  "url": "https://www.aibase.com/news/31667",
+  "date": "2026-10-15",
+  "meta": "",
+  "bullets": [
+   "腾讯 AI 管家「马维斯」上架鸿蒙，覆盖手机与电脑端。",
+   "支持微信、QQ 登录，老用户可无缝续用。",
+   "大厂个人 AI 助手继续抢占鸿蒙入口。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "腾讯 AI 管家\"马维斯\"上架鸿蒙：手机电脑一把抓，老用户无缝续杯",
+    "url": "https://www.aibase.com/news/31667",
+    "date": "2026-10-15"
+   },
+   {
+    "label": "AIBase",
+    "title": "腾讯 Marvis 鸿蒙版正式上线，支持微信、QQ登录",
+    "url": "https://www.aibase.com/news/31666",
+    "date": "2026-10-15",
+    "same_event": true
+   }
+  ],
+  "score": 56.7,
+  "score_parts": {
+   "industry": 60,
+   "actionable": 65,
+   "heat": 36,
+   "breadth": 60
+  },
+  "heat_signals": {
+   "reports": 2,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "claude-sub-thirdparty",
+  "title": "Anthropic 确认 Claude 订阅额度全面打通第三方应用",
+  "url": "https://www.aibase.com/news/31665",
+  "date": "2026-10-15",
+  "meta": "",
+  "bullets": [
+   "Anthropic 正式确认 Claude 订阅额度可在第三方应用共用。",
+   "订阅用户在外部工具中的额度策略更清晰。",
+   "有利于 Claude 生态应用的付费转化与留存。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "Anthropic 正式确认 Claude 订阅额度全面打通第三方应用",
+    "url": "https://www.aibase.com/news/31665",
+    "date": "2026-10-15"
+   }
+  ],
+  "score": 62.0,
+  "score_parts": {
+   "industry": 65,
+   "actionable": 80,
+   "heat": 30,
+   "breadth": 60
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "anthropic-singapore",
+  "title": "Anthropic 宣布在新加坡设办事处，并与新加坡政府达成战略合作",
+  "url": "https://www.aibase.com/news/31672",
+  "date": "2026-10-15",
+  "meta": "",
+  "bullets": [
+   "Anthropic 正式宣布在新加坡设立办事处。",
+   "同步与新加坡政府达成战略合作。",
+   "东南亚成为前沿模型公司下一处区域落子。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "​Anthropic 正式宣布在新加坡设立办事处，并与新加坡政府达成战略合作",
+    "url": "https://www.aibase.com/news/31672",
+    "date": "2026-10-15"
+   }
+  ],
+  "score": 51.5,
+  "score_parts": {
+   "industry": 65,
+   "actionable": 40,
+   "heat": 40,
+   "breadth": 55
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 273,
+   "x_spike_7d": 273
+  }
+ },
+ {
+  "id": "claude-opus55-fast-ga",
+  "title": "Claude Opus 5.5 fast mode 结束研究预览并移除等待名单",
+  "url": "https://x.com/ClaudeDevs/status/2110825294655562048",
+  "date": "2026-10-16",
+  "meta": "",
+  "bullets": [
+   "Claude Opus 5.5 fast mode 结束研究预览。",
+   "等待名单移除，面向更广用户开放。",
+   "高速档从实验态转入常规可用。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "Claude Opus 5.5 fast mode 结束研究预览并移除等待名单",
+    "url": "https://x.com/ClaudeDevs/status/2110825294655562048",
+    "date": "2026-10-16"
+   }
+  ],
+  "score": 63.5,
+  "score_parts": {
+   "industry": 70,
+   "actionable": 75,
+   "heat": 30,
+   "breadth": 70
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 39,
+   "x_spike_7d": 39
+  }
+ },
+ {
+  "id": "chatgpt-chrome-tabs",
+  "title": "ChatGPT 为 Chrome 用户新增标签页读取与控制能力",
+  "url": "https://x.com/ChatGPT/status/2110823738531037651",
+  "date": "2026-10-16",
+  "meta": "",
+  "bullets": [
+   "ChatGPT 向 Chrome 用户开放标签页读取与控制。",
+   "浏览器内 Agent 式操作能力进一步增强。",
+   "与既有 ChatGPT 应用生态形成互补入口。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "ChatGPT 为 Chrome 用户新增标签页读取与控制能力",
+    "url": "https://x.com/ChatGPT/status/2110823738531037651",
+    "date": "2026-10-16"
+   }
+  ],
+  "score": 64.0,
+  "score_parts": {
+   "industry": 70,
+   "actionable": 75,
+   "heat": 30,
+   "breadth": 75
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 28,
+   "x_spike_7d": 28
+  }
+ },
+ {
+  "id": "perplexity-space",
+  "title": "Perplexity 开源驱动 Perplexity Computer 的沙箱平台 SPACE",
+  "url": "https://x.com/AravSrinivas/status/2110785848958759165",
+  "date": "2026-10-16",
+  "meta": "",
+  "bullets": [
+   "Perplexity 开源沙箱平台 SPACE。",
+   "该平台支撑 Perplexity Computer 的安全执行环境。",
+   "Agent 电脑产品线的底座能力对外开源。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "Perplexity 开源驱动 Perplexity Computer 的沙箱平台 SPACE",
+    "url": "https://x.com/AravSrinivas/status/2110785848958759165",
+    "date": "2026-10-16"
+   }
+  ],
+  "score": 61.0,
+  "score_parts": {
+   "industry": 65,
+   "actionable": 75,
+   "heat": 35,
+   "breadth": 55
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 87,
+   "x_spike_7d": 87
+  }
+ },
+ {
+  "id": "mai-base-2",
+  "title": "Microsoft AI 公布 MAI-Base-2：2.8T MoE，FLOPs 效率称达 DeepSeek-V4-Pro-Base 数倍",
+  "url": "https://microsoft.ai/news/frontier-pre-training-at-microsoft-ai",
+  "date": "2026-10-16",
+  "meta": "",
+  "bullets": [
+   "Microsoft AI 披露 MAI-Base-2 预训练细节。",
+   "报道称约 2.8T 参数 MoE，FLOPs 效率达 DeepSeek-V4-Pro-Base 的 4.2–12.3 倍。",
+   "微软自研基座预训练叙事再加码。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "Microsoft AI 公布 MAI-Base-2 预训练细节，2.8T 参数 MoE 模型 FLOPs 效率达 DeepSeek-V4-Pro-Base 的 4.2 至 12.3 倍",
+    "url": "https://microsoft.ai/news/frontier-pre-training-at-microsoft-ai",
+    "date": "2026-10-16"
+   }
+  ],
+  "score": 60.0,
+  "score_parts": {
+   "industry": 75,
+   "actionable": 55,
+   "heat": 35,
+   "breadth": 65
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 151,
+   "x_spike_7d": 151
+  }
+ },
+ {
+  "id": "google-eval-agents",
+  "title": "Google 工程师讲解如何系统评测 AI 智能体，告别 vibe check",
+  "url": "https://developers.googleblog.com/evaluating-ai-agents-moving-past-the-vibe-check",
+  "date": "2026-10-15",
+  "meta": "",
+  "bullets": [
+   "Google 工程师撰文介绍系统化评测 AI Agent 的方法。",
+   "主张用可复现指标替代主观 vibe check。",
+   "面向 Agent 工程落地的评测实践指南。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "Google 工程师讲解如何系统评测 AI 智能体，告别 vibe check",
+    "url": "https://developers.googleblog.com/evaluating-ai-agents-moving-past-the-vibe-check",
+    "date": "2026-10-15"
+   }
+  ],
+  "score": 55.5,
+  "score_parts": {
+   "industry": 50,
+   "actionable": 80,
+   "heat": 30,
+   "breadth": 55
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "google-adk-recipes",
+  "title": "Google 介绍 adk-recipes 三层结构与 Agent Platform 集成",
+  "url": "https://developers.googleblog.com/three-layers-one-repo-a-tour-of-googleadk-recipes",
+  "date": "2026-10-15",
+  "meta": "",
+  "bullets": [
+   "Google 介绍 google/adk-recipes 仓库的三层结构。",
+   "并说明与 Agent Platform 的集成方式。",
+   "ADK 生态示例库对上手企业 Agent 有直接参考价值。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "Google 介绍 google/adk-recipes 仓库的三层结构与 Agent Platform 集成",
+    "url": "https://developers.googleblog.com/three-layers-one-repo-a-tour-of-googleadk-recipes",
+    "date": "2026-10-15"
+   }
+  ],
+  "score": 51.0,
+  "score_parts": {
+   "industry": 45,
+   "actionable": 75,
+   "heat": 30,
+   "breadth": 45
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "opencode-deepseek-flash",
+  "title": "OpenCode 加码免费模型调用，DeepSeek V4.1Flash 开放使用",
+  "url": "https://www.aibase.com/news/31670",
+  "date": "2026-10-15",
+  "meta": "",
+  "bullets": [
+   "OpenCode 扩大免费模型调用额度。",
+   "DeepSeek V4.1Flash 对用户开放使用。",
+   "编码 Agent 产品继续用免费额度抢开发者。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "OpenCode 加码免费模型调用，DeepSeek V4.1Flash 开放使用",
+    "url": "https://www.aibase.com/news/31670",
+    "date": "2026-10-15"
+   }
+  ],
+  "score": 50.0,
+  "score_parts": {
+   "industry": 45,
+   "actionable": 70,
+   "heat": 30,
+   "breadth": 50
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "samsung-ai-creativity",
+  "title": "三星首席设计官：AI 越发达，人的创造力越值钱",
+  "url": "https://www.aibase.com/news/31663",
+  "date": "2026-10-15",
+  "meta": "",
+  "bullets": [
+   "三星首席设计官波尔奇尼谈 AI 与设计创造力。",
+   "观点强调 AI 普及后人类创意反而更稀缺。",
+   "属于产业评论，非产品发布。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "三星首席设计官波尔奇尼：AI 越发达，人的创造力越值钱",
+    "url": "https://www.aibase.com/news/31663",
+    "date": "2026-10-15"
+   }
+  ],
+  "score": 30.5,
+  "score_parts": {
+   "industry": 35,
+   "actionable": 20,
+   "heat": 30,
+   "breadth": 45
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "eiliko-robot-hack",
+  "title": "The Verge 实测 Eiliko 机器人玩具：约 6.8 万台设备可被任意访问并远程劫持",
+  "url": "https://www.theverge.com/tech/1010727/eiliko-robot-hack-energize-lab",
+  "date": "2026-10-15",
+  "meta": "",
+  "bullets": [
+   "The Verge 实测 Eiliko 机器人玩具存在严重安全漏洞。",
+   "报道称约 6.8 万台设备数据可被任意访问，并可远程劫持。",
+   "消费级 AI 硬件安全再次敲响警钟。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "The Verge 实测 Eiliko 机器人玩具：68000 台设备数据可被任意访问并可远程劫持",
+    "url": "https://www.theverge.com/tech/1010727/eiliko-robot-hack-energize-lab",
+    "date": "2026-10-15"
+   }
+  ],
+  "score": 47.5,
+  "score_parts": {
+   "industry": 60,
+   "actionable": 40,
+   "heat": 30,
+   "breadth": 55
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "llama-for-windows",
+  "title": "开源应用 Llama for Windows 发布：一键下载模型在本地运行",
+  "url": "https://www.aibase.com/news/31671",
+  "date": "2026-10-15",
+  "meta": "",
+  "bullets": [
+   "开源应用 Llama for Windows 正式发布。",
+   "强调一键下载模型、在电脑本地玩转 AI。",
+   "Windows 本地 LLM 入门门槛再降低。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "开源应用 Llama for Windows 正式发布：一键下载模型，轻松在电脑本地玩转 AI",
+    "url": "https://www.aibase.com/news/31671",
+    "date": "2026-10-15"
+   }
+  ],
+  "score": 52.0,
+  "score_parts": {
+   "industry": 45,
+   "actionable": 75,
+   "heat": 30,
+   "breadth": 55
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "openai-teaching-questions",
+  "title": "OpenAI：用问题教会学生思考与学习",
+  "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+  "date": "2026-10-15",
+  "meta": "",
+  "bullets": [
+   "OpenAI 发布教育向文章，谈如何通过提问培养思考。",
+   "面向师生场景的教学理念分享。",
+   "属于教育产品/方法论内容，非模型发布。"
+  ],
+  "links": [
+   {
+    "label": "Official AI",
+    "title": "Teaching students to think and learn through questions",
+    "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+    "date": "2026-10-15"
+   }
+  ],
+  "score": 40.5,
+  "score_parts": {
+   "industry": 40,
+   "actionable": 45,
+   "heat": 30,
+   "breadth": 50
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "github-push-email-retired",
+  "title": "GitHub：仓库 push 事件邮件通知已退役",
+  "url": "https://github.blog/changelog/2026-10-15-email-notifications-for-repository-push-events-have-been-retired",
+  "date": "2026-10-15",
+  "meta": "",
+  "bullets": [
+   "GitHub 宣布 repository push 事件的邮件通知已退役。",
+   "开发者需改用其他通知渠道。",
+   "平台通知体系持续收敛。"
+  ],
+  "links": [
+   {
+    "label": "Official AI",
+    "title": "Email notifications for repository push events have been retired",
+    "url": "https://github.blog/changelog/2026-10-15-email-notifications-for-repository-push-events-have-been-retired",
+    "date": "2026-10-15"
+   }
+  ],
+  "score": 34.0,
+  "score_parts": {
+   "industry": 30,
+   "actionable": 40,
+   "heat": 30,
+   "breadth": 40
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "github-agentic-autofix-ga",
+  "title": "GitHub：Agentic autofix for code scanning alerts 正式 GA",
+  "url": "https://github.blog/changelog/2026-10-15-agentic-autofix-for-code-scanning-alerts-general-availability",
+  "date": "2026-10-15",
+  "meta": "",
+  "bullets": [
+   "GitHub 宣布代码扫描告警的 Agentic autofix 全面可用。",
+   "安全修复从建议迈向可自动落地的 Agent 修复。",
+   "对依赖大量 code scanning 的团队可操作性强。"
+  ],
+  "links": [
+   {
+    "label": "Official AI",
+    "title": "Agentic autofix for code scanning alerts general availability",
+    "url": "https://github.blog/changelog/2026-10-15-agentic-autofix-for-code-scanning-alerts-general-availability",
+    "date": "2026-10-15"
+   }
+  ],
+  "score": 61.5,
+  "score_parts": {
+   "industry": 65,
+   "actionable": 80,
+   "heat": 30,
+   "breadth": 55
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "wallet-wars-agents",
+  "title": "Wallet Wars：梳理 AI 智能体支付之争的格局与走向",
+  "url": "https://www.a16z.news/p/wallet-wars",
+  "date": "2026-10-15",
+  "meta": "",
+  "bullets": [
+   "a16z 相关文章梳理 AI Agent 支付赛道竞争。",
+   "讨论钱包、结算与 Agent 经济基础设施走向。",
+   "属于行业格局评论。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "Wallet Wars：AI 智能体支付之争的格局与走向",
+    "url": "https://www.a16z.news/p/wallet-wars",
+    "date": "2026-10-15"
+   }
+  ],
+  "score": 41.5,
+  "score_parts": {
+   "industry": 50,
+   "actionable": 35,
+   "heat": 30,
+   "breadth": 50
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "github-ai-scan-pr-ga",
+  "title": "GitHub：面向 Pull Request 的 AI Scan 正式 GA",
+  "url": "https://github.blog/changelog/2026-10-15-ai-scan-for-pull-requests-generally-available",
+  "date": "2026-10-15",
+  "meta": "",
+  "bullets": [
+   "GitHub 宣布 AI Scan for pull requests 全面可用。",
+   "PR 阶段可自动做 AI 辅助安全/质量扫描。",
+   "与既有 code scanning 能力形成互补。"
+  ],
+  "links": [
+   {
+    "label": "Official AI",
+    "title": "AI Scan for pull requests generally available",
+    "url": "https://github.blog/changelog/2026-10-15-ai-scan-for-pull-requests-generally-available",
+    "date": "2026-10-15"
+   }
+  ],
+  "score": 58.0,
+  "score_parts": {
+   "industry": 60,
+   "actionable": 75,
+   "heat": 30,
+   "breadth": 55
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "deepmind-antimicrobial",
+  "title": "Google DeepMind：用 Antigravity 加速抗菌肽搜索",
+  "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery",
+  "date": "2026-10-16",
+  "meta": "",
+  "bullets": [
+   "DeepMind 介绍用 Google Antigravity 加速抗菌肽发现。",
+   "展示 AI 在生命科学搜索与筛选中的应用。",
+   "属于科研应用案例，非通用模型发布。"
+  ],
+  "links": [
+   {
+    "label": "Official AI",
+    "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
+    "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery",
+    "date": "2026-10-16"
+   }
+  ],
+  "score": 47.5,
+  "score_parts": {
+   "industry": 55,
+   "actionable": 50,
+   "heat": 30,
+   "breadth": 45
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "meta-forum-ai-native",
+  "title": "Meta 分享用 AI 原生工程方式开发 Forum 应用",
+  "url": "https://engineering.fb.com/2026/10/15/ml-applications/how-meta-built-forum-ai-native-engineering",
+  "date": "2026-10-16",
+  "meta": "",
+  "bullets": [
+   "Meta 工程博客介绍 Forum 应用的 AI 原生开发方式。",
+   "展示内部如何把模型能力嵌进产品工程流程。",
+   "大厂 AI 原生工程实践案例。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "Meta 如何用 AI 原生工程方式开发 Forum 应用",
+    "url": "https://engineering.fb.com/2026/10/15/ml-applications/how-meta-built-forum-ai-native-engineering",
+    "date": "2026-10-16"
+   }
+  ],
+  "score": 46.5,
+  "score_parts": {
+   "industry": 45,
+   "actionable": 60,
+   "heat": 30,
+   "breadth": 45
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "github-copilot-model-deprec",
+  "title": "GitHub：部分 Copilot 模型将于 11 月中旬弃用",
+  "url": "https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november",
+  "date": "2026-10-16",
+  "meta": "",
+  "bullets": [
+   "GitHub 预告部分 Copilot 模型将在 11 月中旬弃用。",
+   "开发者需关注模型切换与兼容性。",
+   "Copilot 模型目录进入下一轮 scrub。"
+  ],
+  "links": [
+   {
+    "label": "Official AI",
+    "title": "Upcoming deprecation of selected GitHub Copilot models in mid-November",
+    "url": "https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november",
+    "date": "2026-10-16"
+   }
+  ],
+  "score": 49.5,
+  "score_parts": {
+   "industry": 50,
+   "actionable": 60,
+   "heat": 30,
+   "breadth": 55
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "waytoagi-world-models-guide",
+  "title": "WayToAGI：给大一新生的 World Models / World-Action Models 长文入学指南",
+  "url": "https://waytoagi.feishu.cn/wiki/DhAzwYRuTi8jack9kbocPD94nEe?from=from_copylink",
+  "date": "2026-10-16",
+  "meta": "",
+  "bullets": [
+   "WayToAGI 发布约三万字 World Models 入门长文。",
+   "面向初学者系统梳理世界模型与世界-动作模型。",
+   "属于教程向内容。"
+  ],
+  "links": [
+   {
+    "label": "WayToAGI",
+    "title": "给大一新生的三万字World Models 和 World-Action Models 入学指南",
+    "url": "https://waytoagi.feishu.cn/wiki/DhAzwYRuTi8jack9kbocPD94nEe?from=from_copylink",
+    "date": "2026-10-16"
+   }
+  ],
+  "score": 45.0,
+  "score_parts": {
+   "industry": 35,
+   "actionable": 70,
+   "heat": 30,
+   "breadth": 40
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "waytoagi-board-memory",
+  "title": "WayToAGI：用好开发板内存，先分清三种存储",
+  "url": "https://waytoagi.feishu.cn/wiki/R7uDwlHBXiDpT7kUqFvcbm1PnKc?from=from_copylink",
+  "date": "2026-10-16",
+  "meta": "",
+  "bullets": [
+   "介绍开发板上常见的三类存储及其用法。",
+   "面向嵌入式 / 边侧 AI 硬件入门。",
+   "偏硬件基础教程。"
+  ],
+  "links": [
+   {
+    "label": "WayToAGI",
+    "title": "用好开发板内存，先分清这三种存储",
+    "url": "https://waytoagi.feishu.cn/wiki/R7uDwlHBXiDpT7kUqFvcbm1PnKc?from=from_copylink",
+    "date": "2026-10-16"
+   }
+  ],
+  "score": 37.0,
+  "score_parts": {
+   "industry": 25,
+   "actionable": 60,
+   "heat": 30,
+   "breadth": 30
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "waytoagi-meta-longmem",
+  "title": "WayToAGI：解读 Meta 如何给 AI 装上长期记忆",
+  "url": "https://waytoagi.feishu.cn/wiki/IHjYwdT2fiflWPkmIWWc46aenWo?from=from_copylink",
+  "date": "2026-10-16",
+  "meta": "",
+  "bullets": [
+   "解读 Meta 在 AI 长期记忆方向的做法。",
+   "讨论「不用每次重说一遍」的记忆注入思路。",
+   "属于技术解读，非新发布公告。"
+  ],
+  "links": [
+   {
+    "label": "WayToAGI",
+    "title": "每次都要重说一遍？Meta给AI装上了长期记忆",
+    "url": "https://waytoagi.feishu.cn/wiki/IHjYwdT2fiflWPkmIWWc46aenWo?from=from_copylink",
+    "date": "2026-10-16"
+   }
+  ],
+  "score": 42.5,
+  "score_parts": {
+   "industry": 40,
+   "actionable": 55,
+   "heat": 30,
+   "breadth": 40
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "waytoagi-rea-principle",
+  "title": "WayToAGI：拆解爆火 REA 技术原理——把逆向工程交给 Agent",
+  "url": "https://waytoagi.feishu.cn/wiki/QWDWw23c6ishwGkDRENc8p86nTf?from=from_copylink",
+  "date": "2026-10-16",
+  "meta": "",
+  "bullets": [
+   "拆解近期热门的 REA（逆向工程 Agent）技术原理。",
+   "讨论如何让 Agent 承担逆向分析流程。",
+   "技术原理向教程。"
+  ],
+  "links": [
+   {
+    "label": "WayToAGI",
+    "title": "把逆向工程交给 Agent：一文拆解爆火的 REA 技术原理",
+    "url": "https://waytoagi.feishu.cn/wiki/QWDWw23c6ishwGkDRENc8p86nTf?from=from_copylink",
+    "date": "2026-10-16"
+   }
+  ],
+  "score": 49.5,
+  "score_parts": {
+   "industry": 45,
+   "actionable": 70,
+   "heat": 30,
+   "breadth": 45
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "waytoagi-rea-feishu",
+  "title": "WayToAGI 实测：用 GitHub 热榜 REA 六分钟实现飞书多开",
+  "url": "https://waytoagi.feishu.cn/wiki/RgtWwB7hLi80NrkDEFXc1GVdnqb?from=from_copylink",
+  "date": "2026-10-16",
+  "meta": "",
+  "bullets": [
+   "作者用热榜项目 REA 实测拆解飞书客户端。",
+   "约六分钟实现飞书多开相关能力。",
+   "属于 REA 应用案例，与原理文分开保留。"
+  ],
+  "links": [
+   {
+    "label": "WayToAGI",
+    "title": "我用 GitHub 第一的 REA 拆了飞书，6 分钟实现了飞书多开",
+    "url": "https://waytoagi.feishu.cn/wiki/RgtWwB7hLi80NrkDEFXc1GVdnqb?from=from_copylink",
+    "date": "2026-10-16"
+   }
+  ],
+  "score": 47.0,
+  "score_parts": {
+   "industry": 40,
+   "actionable": 70,
+   "heat": 30,
+   "breadth": 40
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "waytoagi-opus-promo-skill",
+  "title": "WayToAGI：实测 Opus 做宣传片并顺手做成 Skill",
+  "url": "https://waytoagi.feishu.cn/wiki/VxcbwP6Ryisp0sknooEcRhQ1ndd?from=from_copylink",
+  "date": "2026-10-16",
+  "meta": "",
+  "bullets": [
+   "作者实测用 Opus 制作宣传片。",
+   "并将流程沉淀为可复用 Skill。",
+   "属于创作向 Skill 案例。"
+  ],
+  "links": [
+   {
+    "label": "WayToAGI",
+    "title": "实测 Opus 做宣传片的能力，顺手做了个 skill",
+    "url": "https://waytoagi.feishu.cn/wiki/VxcbwP6Ryisp0sknooEcRhQ1ndd?from=from_copylink",
+    "date": "2026-10-16"
+   }
+  ],
+  "score": 45.0,
+  "score_parts": {
+   "industry": 35,
+   "actionable": 70,
+   "heat": 30,
+   "breadth": 40
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "waytoagi-opus-video-tutorial",
+  "title": "WayToAGI：Opus 5.5 做视频全教程，16 种风格 Skill 免费开源",
+  "url": "https://waytoagi.feishu.cn/wiki/YzJkwQ4QniB4Tdk4YNacUobmngc?from=from_copylink",
+  "date": "2026-10-16",
+  "meta": "",
+  "bullets": [
+   "提供 Opus 5.5 从一句话到成片的视频教程。",
+   "配套 16 种风格 Skill 免费开源。",
+   "与单篇实测文分开，作为完整教程束。"
+  ],
+  "links": [
+   {
+    "label": "WayToAGI",
+    "title": "Opus 5.5 做视频全教程：一段话到成片，16 种风格 Skill 免费开源",
+    "url": "https://waytoagi.feishu.cn/wiki/YzJkwQ4QniB4Tdk4YNacUobmngc?from=from_copylink",
+    "date": "2026-10-16"
+   }
+  ],
+  "score": 49.0,
+  "score_parts": {
+   "industry": 40,
+   "actionable": 75,
+   "heat": 30,
+   "breadth": 45
   },
   "heat_signals": {
    "reports": 1,
