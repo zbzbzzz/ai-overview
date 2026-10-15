@@ -1697,11 +1697,11 @@
   "id": "gemini-4-argon",
   "title": "Google 正式发布 Gemini 4 Argon，推送 App 并接入 Copilot",
   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon",
-  "date": "2026-10-14",
+  "date": "2026-10-15",
   "meta": "",
   "bullets": [
    "Google DeepMind 正式发布 Gemini 4 Argon，推送到 Gemini App 并向全球开发者开放 API。",
-   "输入 Token 定价 2 美元起，单次输出最高约 100 万 Token，主打长周期复杂任务。",
+   "已向全球 Google AI Pro / Ultra 订阅者开放；输入 Token 定价 2 美元起，输出最高约 100 万 Token。",
    "同步接入 GitHub Copilot / OpenRouter；第三方评测称智能指数追平 GPT-6 Astra。"
   ],
   "links": [
@@ -1787,22 +1787,29 @@
     "url": "https://www.aibase.com/news/31634",
     "date": "2026-10-14",
     "same_event": true
+   },
+   {
+    "label": "AIHot",
+    "title": "Gemini 4 Argon 向全球 Google AI Pro 和 Ultra 订阅者开放",
+    "url": "https://x.com/GeminiApp/status/2110491358498865638",
+    "date": "2026-10-15",
+    "same_event": true
    }
   ],
   "split_from": "gemini-4-test",
   "score_parts": {
    "industry": 92,
-   "actionable": 75,
+   "actionable": 78,
    "heat": 100,
    "breadth": 90
   },
   "heat_signals": {
-   "reports": 12,
+   "reports": 13,
    "domains": 5,
-   "x_posts_7d": 17598,
-   "x_spike_7d": 14163
+   "x_posts_7d": 23024,
+   "x_spike_7d": 18299
   },
-  "score": 88.3
+  "score": 89.2
  },
  {
   "id": "microsoft-decision-model",
@@ -6700,11 +6707,11 @@
   "id": "grok-voice-3",
   "title": "xAI 发布语音模型 Grok Voice 3.0，登顶 Artificial Analysis 语音到语音榜",
   "url": "https://x.ai/news/grok-voice-3",
-  "date": "2026-10-14",
+  "date": "2026-10-15",
   "meta": "",
   "bullets": [
    "xAI 发布 speech-to-speech 模型 Grok Voice 3.0，端到端时延低于一秒。",
-   "Artificial Analysis 语音到语音指数 86.9 分首秀第一，领先 GPT-Live-1（83.2）与 Gemini 3.8 Live（82.6）。",
+   "Artificial Analysis 语音到语音指数 86.9 分登顶；Musk 转发确认，定价约 0.08 美元。",
    "较 Grok Voice 2.0 提升 5.6 分，实时语音 Agent 选型多了一个强选项。"
   ],
   "links": [
@@ -6720,20 +6727,34 @@
     "url": "https://x.com/ArtificialAnlys/status/2110421964095713743",
     "date": "2026-10-15",
     "same_event": true
+   },
+   {
+    "label": "AIHot",
+    "title": "Musk 称 Grok Voice 3.0 登顶 Artificial Analysis 语音模型评测",
+    "url": "https://x.com/elonmusk/status/2110483960312799675",
+    "date": "2026-10-15",
+    "same_event": true
+   },
+   {
+    "label": "AIBase",
+    "title": "马斯克旗下 xAI 发布 Grok Voice 3.0，定价仅 0.08 美元",
+    "url": "https://www.aibase.com/news/31645",
+    "date": "2026-10-15",
+    "same_event": true
    }
   ],
-  "score": 64.7,
+  "score": 72.8,
   "score_parts": {
-   "industry": 70,
-   "actionable": 70,
-   "heat": 46,
-   "breadth": 65
+   "industry": 72,
+   "actionable": 72,
+   "heat": 78,
+   "breadth": 68
   },
   "heat_signals": {
-   "reports": 2,
-   "domains": 2,
-   "x_posts_7d": 89,
-   "x_spike_7d": 89
+   "reports": 4,
+   "domains": 3,
+   "x_posts_7d": 1425,
+   "x_spike_7d": 1425
   }
  },
  {
@@ -7652,6 +7673,765 @@
    "actionable": 25,
    "heat": 30,
    "breadth": 25
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "anthropic-q3-ipo",
+  "title": "Anthropic 第三季度营收达 168 亿美元，计划 11 月启动 IPO 路演",
+  "url": "https://www.aibase.com/news/31653",
+  "date": "2026-10-15",
+  "meta": "",
+  "bullets": [
+   "报道称 Anthropic 第三季度营收达 168 亿美元。",
+   "公司计划 11 月启动 IPO 路演，资本市场关注升温。",
+   "前沿模型厂商进入公开市场节奏加快。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "Anthropic第三季度营收达168亿美元，计划11月启动IPO路演",
+    "url": "https://www.aibase.com/news/31653",
+    "date": "2026-10-15"
+   }
+  ],
+  "score": 63.5,
+  "score_parts": {
+   "industry": 85,
+   "actionable": 40,
+   "heat": 50,
+   "breadth": 75
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 5169,
+   "x_spike_7d": 1479
+  }
+ },
+ {
+  "id": "ling-3-1-flash",
+  "title": "蚂蚁百灵开源 Ling-3.1-flash：560B 级部署降至 4 卡，最高 1M 上下文",
+  "url": "https://www.aibase.com/news/31660",
+  "date": "2026-10-15",
+  "meta": "",
+  "bullets": [
+   "蚂蚁百灵开源 Ling-3.1-flash，面向低成本部署。",
+   "报道称 560B 级模型可压到 4 卡部署，最高支持 1M 上下文。",
+   "开源侧超长上下文与部署成本再下探。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "蚂蚁百灵开源 Ling-3.1-flash:560B级模型部署降至4卡，最高支持1M上下文",
+    "url": "https://www.aibase.com/news/31660",
+    "date": "2026-10-15"
+   }
+  ],
+  "score": 69.0,
+  "score_parts": {
+   "industry": 75,
+   "actionable": 80,
+   "heat": 40,
+   "breadth": 70
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 1058,
+   "x_spike_7d": 210
+  }
+ },
+ {
+  "id": "openai-trail-of-bits",
+  "title": "OpenAI 拟收购 Trail of Bits：收编老牌安全审计厂专防 AI 出事",
+  "url": "https://www.aibase.com/news/31656",
+  "date": "2026-10-15",
+  "meta": "",
+  "bullets": [
+   "报道称 OpenAI 拟收购安全审计公司 Trail of Bits。",
+   "意在加强 AI 系统安全审计与红队能力。",
+   "模型厂商开始横向整合专业安全团队。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "OpenAI 拟收购 Trail of Bits：把老牌安全审计厂收编，专防 AI 出事",
+    "url": "https://www.aibase.com/news/31656",
+    "date": "2026-10-15"
+   }
+  ],
+  "score": 58.5,
+  "score_parts": {
+   "industry": 70,
+   "actionable": 55,
+   "heat": 40,
+   "breadth": 60
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 290,
+   "x_spike_7d": 290
+  }
+ },
+ {
+  "id": "openai-8states-suit",
+  "title": "美国 8 州起诉 OpenAI，指控 ChatGPT 指导青少年自伤或伤害他人",
+  "url": "https://www.ithome.com/1/013/160.htm",
+  "date": "2026-10-15",
+  "meta": "",
+  "bullets": [
+   "美国 8 个州对 OpenAI 提起诉讼。",
+   "指控涉及 ChatGPT 对青少年自伤或伤害他人的引导风险。",
+   "生成式助手的未成年人安全进入州检察执法前线。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "美国 8 州起诉 OpenAI，指控 ChatGPT 指导青少年自伤或伤害他人",
+    "url": "https://www.ithome.com/1/013/160.htm",
+    "date": "2026-10-15"
+   }
+  ],
+  "score": 52.5,
+  "score_parts": {
+   "industry": 75,
+   "actionable": 25,
+   "heat": 40,
+   "breadth": 70
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 348,
+   "x_spike_7d": 228
+  }
+ },
+ {
+  "id": "eu-jailbreak-probe",
+  "title": "欧盟就模型越狱事件调查 OpenAI 与 Anthropic，最高可罚全球营业额 3%",
+  "url": "https://www.ithome.com/1/013/154.htm",
+  "date": "2026-10-15",
+  "meta": "",
+  "bullets": [
+   "欧盟就模型越狱相关事件对 OpenAI 与 Anthropic 展开调查。",
+   "报道称最高可按全球营业额 3% 处罚。",
+   "越狱防护与合规义务成为监管实质压力点。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "欧盟就模型越狱事件调查 OpenAI 和 Anthropic，最高可罚全球营业额 3%",
+    "url": "https://www.ithome.com/1/013/154.htm",
+    "date": "2026-10-15"
+   }
+  ],
+  "score": 49.5,
+  "score_parts": {
+   "industry": 70,
+   "actionable": 30,
+   "heat": 30,
+   "breadth": 65
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 60,
+   "x_spike_7d": 22
+  }
+ },
+ {
+  "id": "matrix-game-4",
+  "title": "昆仑万维全球首发并开源 Matrix-Game 4.0：单卡可玩视频大模型游戏",
+  "url": "https://www.aibase.com/news/31654",
+  "date": "2026-10-15",
+  "meta": "",
+  "bullets": [
+   "昆仑万维发布并宣布开源 Matrix-Game 4.0。",
+   "强调单张消费级显卡即可运行视频大模型游戏体验。",
+   "开源世界/游戏模型继续卷端侧可玩性。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "单张消费级显卡也能玩转视频大模型游戏！昆仑万维全球首发 Matrix-Game 4.0 并宣布开源",
+    "url": "https://www.aibase.com/news/31654",
+    "date": "2026-10-15"
+   }
+  ],
+  "score": 58.5,
+  "score_parts": {
+   "industry": 60,
+   "actionable": 70,
+   "heat": 40,
+   "breadth": 55
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 961,
+   "x_spike_7d": 383
+  }
+ },
+ {
+  "id": "torvalds-ai-kernel",
+  "title": "托瓦兹交出首个 AI 辅助内核补丁：并发读文件提速约 3 倍",
+  "url": "https://www.aibase.com/news/31649",
+  "date": "2026-10-15",
+  "meta": "",
+  "bullets": [
+   "Linus Torvalds 提交首个明确标注 AI 辅助的内核补丁。",
+   "相关改动据称将并发读文件性能提升约 3 倍。",
+   "内核社区对 AI 辅助补丁的接受度成为标志性信号。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "托瓦兹交出首个 AI 辅助内核补丁：并发读文件提速约 3 倍",
+    "url": "https://www.aibase.com/news/31649",
+    "date": "2026-10-15"
+   }
+  ],
+  "score": 55.0,
+  "score_parts": {
+   "industry": 65,
+   "actionable": 55,
+   "heat": 35,
+   "breadth": 55
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 68,
+   "x_spike_7d": 68
+  }
+ },
+ {
+  "id": "deepseek-outage",
+  "title": "DeepSeek 网页端、App 及部分 API 服务异常，官方排查中",
+  "url": "https://www.aibase.com/news/31651",
+  "date": "2026-10-15",
+  "meta": "",
+  "bullets": [
+   "DeepSeek 网页端、App 与部分 API 出现服务异常。",
+   "官方表示正在排查原因。",
+   "国产主力模型服务可用性再次受关注。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "DeepSeek网页端、App及部分API服务异常，官方排查原因",
+    "url": "https://www.aibase.com/news/31651",
+    "date": "2026-10-15"
+   }
+  ],
+  "score": 50.0,
+  "score_parts": {
+   "industry": 55,
+   "actionable": 40,
+   "heat": 45,
+   "breadth": 70
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 818,
+   "x_spike_7d": 540
+  }
+ },
+ {
+  "id": "epic-ai-launcher",
+  "title": "Epic 用 AI「氛围编程」重写启动器：冷启动 5.47 秒，自称传统编程太难",
+  "url": "https://www.aibase.com/news/31648",
+  "date": "2026-10-15",
+  "meta": "",
+  "bullets": [
+   "Epic 用 AI「氛围编程」重写启动器相关能力。",
+   "报道称冷启动约 5.47 秒，并对比 Steam 等体验。",
+   "大厂公开把 vibe coding 写进产品迭代叙事。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "Epic 用 AI\"氛围编程\"重写启动器：自嘲传统编程太难，冷启动 5.47 秒甩开 Steam",
+    "url": "https://www.aibase.com/news/31648",
+    "date": "2026-10-15"
+   }
+  ],
+  "score": 50.5,
+  "score_parts": {
+   "industry": 55,
+   "actionable": 50,
+   "heat": 40,
+   "breadth": 55
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 456,
+   "x_spike_7d": 448
+  }
+ },
+ {
+  "id": "google-ai-plus-pro",
+  "title": "谷歌调整 AI Plus 订阅权益，11 月 13 日起将无法选择 Pro 模型",
+  "url": "https://www.aibase.com/news/31662",
+  "date": "2026-10-15",
+  "meta": "",
+  "bullets": [
+   "谷歌调整 AI Plus 订阅权益。",
+   "自 11 月 13 日起相关套餐将无法选择 Pro 模型。",
+   "订阅分层与模型访问权继续收紧。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "谷歌调整AI Plus订阅权益，11月13日起将无法选择Pro模型",
+    "url": "https://www.aibase.com/news/31662",
+    "date": "2026-10-15"
+   }
+  ],
+  "score": 50.5,
+  "score_parts": {
+   "industry": 55,
+   "actionable": 50,
+   "heat": 35,
+   "breadth": 65
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 625,
+   "x_spike_7d": 137
+  }
+ },
+ {
+  "id": "claude-idle-compaction",
+  "title": "Claude Code 空闲压缩从摘要继续，可用 idleCompaction 关闭并自定义阈值",
+  "url": "https://x.com/lydiahallie/status/2110484841926152622",
+  "date": "2026-10-15",
+  "meta": "",
+  "bullets": [
+   "Claude Code 空闲压缩会从摘要继续上下文。",
+   "可用 idleCompaction 关闭，并自定义压缩阈值。",
+   "长会话 Agent 的上下文控制多了一个可调旋钮。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "Claude Code 空闲压缩从摘要继续，可用 idleCompaction 关闭并自定义阈值",
+    "url": "https://x.com/lydiahallie/status/2110484841926152622",
+    "date": "2026-10-15"
+   }
+  ],
+  "score": 53.5,
+  "score_parts": {
+   "industry": 45,
+   "actionable": 75,
+   "heat": 40,
+   "breadth": 50
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 447,
+   "x_spike_7d": 297
+  }
+ },
+ {
+  "id": "apple-ai-cn-suppliers",
+  "title": "报道称苹果 AI 国内供应商或包括阿里、百度，iOS 27.3 或 12 月落地",
+  "url": "https://www.aibase.com/news/31661",
+  "date": "2026-10-15",
+  "meta": "",
+  "bullets": [
+   "报道称 Apple Intelligence 国内合作或包括阿里、百度。",
+   "时间点指向 iOS 27.3，可能在 12 月前后落地。",
+   "与国行备案进展相互印证，但仍属供应链传闻。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "报道称苹果 AI 国内供应商或包括阿里、百度，iOS 27.3 或 12 月落地",
+    "url": "https://www.aibase.com/news/31661",
+    "date": "2026-10-15"
+   }
+  ],
+  "score": 47.0,
+  "score_parts": {
+   "industry": 60,
+   "actionable": 35,
+   "heat": 30,
+   "breadth": 65
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "tencent-yuanqi-shutdown",
+  "title": "腾讯又一 AI 产品宣布停运，元器用户需尽快迁移数据",
+  "url": "https://www.aibase.com/news/31659",
+  "date": "2026-10-15",
+  "meta": "",
+  "bullets": [
+   "腾讯 AI 产品「元器」宣布停运。",
+   "用户需尽快迁移数据。",
+   "大厂 AI 产品线持续做减法。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "腾讯又一AI产品宣布停运，元器用户需尽快迁移数据",
+    "url": "https://www.aibase.com/news/31659",
+    "date": "2026-10-15"
+   }
+  ],
+  "score": 42.5,
+  "score_parts": {
+   "industry": 50,
+   "actionable": 40,
+   "heat": 30,
+   "breadth": 45
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "internlm-math-claim",
+  "title": "报道称依托书生大模型破解困扰数学界约 30 年的难题",
+  "url": "https://www.aibase.com/news/31658",
+  "date": "2026-10-15",
+  "meta": "",
+  "bullets": [
+   "国内媒体报道称科学家依托书生大模型取得数学难题突破。",
+   "具体结论与验证范围仍待学术同行复核。",
+   "属于高热度科学传闻，宜与正式论文对照。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "中国大模型迎来历史性突破！科学家依托书生大模型成功破解困扰数学界 30 年的世界级难题",
+    "url": "https://www.aibase.com/news/31658",
+    "date": "2026-10-15"
+   }
+  ],
+  "score": 42.0,
+  "score_parts": {
+   "industry": 55,
+   "actionable": 30,
+   "heat": 30,
+   "breadth": 50
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 17,
+   "x_spike_7d": 2
+  }
+ },
+ {
+  "id": "getty-ai-restructure",
+  "title": "AI 冲击叠加债务压力，Getty Images 启动全面财务重组",
+  "url": "https://www.aibase.com/news/31657",
+  "date": "2026-10-15",
+  "meta": "",
+  "bullets": [
+   "Getty Images 在 AI 冲击与债务压力下启动全面财务重组。",
+   "图库与版权行业继续承压。",
+   "内容供给方对生成式 AI 的商业应对进入重组阶段。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "AI冲击叠加债务压力，Getty Images启动全面财务重组",
+    "url": "https://www.aibase.com/news/31657",
+    "date": "2026-10-15"
+   }
+  ],
+  "score": 40.5,
+  "score_parts": {
+   "industry": 55,
+   "actionable": 25,
+   "heat": 30,
+   "breadth": 50
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "minimax-ipo-progress",
+  "title": "MiniMax 发布 IPO 辅导第二期进展，加速推进上市合规",
+  "url": "https://www.aibase.com/news/31655",
+  "date": "2026-10-15",
+  "meta": "",
+  "bullets": [
+   "MiniMax 披露 IPO 辅导第二期进展。",
+   "公司继续完善上市合规与材料准备。",
+   "国内模型公司冲刺公开市场。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "MiniMax 发布 IPO 辅导第二期进展，加速推进上市合规完善",
+    "url": "https://www.aibase.com/news/31655",
+    "date": "2026-10-15"
+   }
+  ],
+  "score": 40.0,
+  "score_parts": {
+   "industry": 55,
+   "actionable": 25,
+   "heat": 30,
+   "breadth": 45
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 23,
+   "x_spike_7d": 23
+  }
+ },
+ {
+  "id": "ytmusic-ai-labels",
+  "title": "YouTube Music 将为 AI 生成歌曲添加标签，后续扩展至主应用",
+  "url": "https://www.aibase.com/news/31652",
+  "date": "2026-10-15",
+  "meta": "",
+  "bullets": [
+   "YouTube Music 计划为 AI 生成歌曲添加标识标签。",
+   "未来可能扩展到 YouTube 主应用。",
+   "平台侧对 AI 音乐的披露规则继续落地。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "YouTube Music将为AI生成歌曲添加标签，未来扩展至主应用",
+    "url": "https://www.aibase.com/news/31652",
+    "date": "2026-10-15"
+   }
+  ],
+  "score": 46.5,
+  "score_parts": {
+   "industry": 50,
+   "actionable": 45,
+   "heat": 35,
+   "breadth": 60
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 77,
+   "x_spike_7d": 69
+  }
+ },
+ {
+  "id": "google-ai-75pct-code",
+  "title": "谷歌工程师：AI 编写超 75% 生产代码，自主研发加速尚无明确证据",
+  "url": "https://www.aibase.com/news/31647",
+  "date": "2026-10-15",
+  "meta": "",
+  "bullets": [
+   "谷歌工程师称 AI 已编写超过 75% 的生产代码。",
+   "同时指出「自主研发加速」尚无明确证据。",
+   "属于一线工程观察，反映渗透率与产出质量之间的张力。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "谷歌工程师：AI编写超75%生产代码，自主研发加速尚无明确证据",
+    "url": "https://www.aibase.com/news/31647",
+    "date": "2026-10-15"
+   }
+  ],
+  "score": 46.0,
+  "score_parts": {
+   "industry": 55,
+   "actionable": 40,
+   "heat": 30,
+   "breadth": 60
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "openai-next-flagship",
+  "title": "OpenAI 加紧研发下一代旗舰模型，循环推理与安全对齐成关键",
+  "url": "https://www.aibase.com/news/31646",
+  "date": "2026-10-15",
+  "meta": "",
+  "bullets": [
+   "报道称 OpenAI 正加紧下一代旗舰模型研发。",
+   "循环推理与安全对齐被列为核心议题。",
+   "属于研发方向报道，尚未形成正式发布。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "OpenAI加紧研发下一代旗舰模型，循环推理与安全对齐成关键",
+    "url": "https://www.aibase.com/news/31646",
+    "date": "2026-10-15"
+   }
+  ],
+  "score": 46.0,
+  "score_parts": {
+   "industry": 60,
+   "actionable": 35,
+   "heat": 30,
+   "breadth": 55
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "claude-7p-rewrite",
+  "title": "7 人团队靠 Claude 仅用 5 个月重造全新源码系统",
+  "url": "https://www.aibase.com/news/31650",
+  "date": "2026-10-15",
+  "meta": "",
+  "bullets": [
+   "报道称 7 人团队借助 Claude 在约 5 个月内重造源码系统。",
+   "展示小团队 + 编码 Agent 的交付速度。",
+   "属于案例报道，可迁移性需结合场景判断。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "7人团队靠 Claude 仅用 5 个月重造全新源码系统",
+    "url": "https://www.aibase.com/news/31650",
+    "date": "2026-10-15"
+   }
+  ],
+  "score": 43.0,
+  "score_parts": {
+   "industry": 40,
+   "actionable": 55,
+   "heat": 30,
+   "breadth": 45
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "databricks-qwen-6x",
+  "title": "Databricks：在 AI Runtime 上将 Qwen 3.8 27B 微调时间缩短 6 倍",
+  "url": "https://www.databricks.com/blog/reducing-qwen-training-time-6x-ai-runtime",
+  "date": "2026-10-14",
+  "meta": "",
+  "bullets": [
+   "Databricks 介绍如何在 AI Runtime 上加速 Qwen 3.8 27B 微调。",
+   "据称可将训练时间缩短约 6 倍。",
+   "面向已有 Databricks 栈的实操教程。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "Databricks 讲解如何在 AI Runtime 上将 Qwen 3.8 27B 微调时间缩短 6 倍",
+    "url": "https://www.databricks.com/blog/reducing-qwen-training-time-6x-ai-runtime",
+    "date": "2026-10-14"
+   }
+  ],
+  "score": 47.0,
+  "score_parts": {
+   "industry": 40,
+   "actionable": 70,
+   "heat": 30,
+   "breadth": 40
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "anatomy-skill-demo",
+  "title": "卡兹克实测开源 Skill Anatomy：一句话生成原理科普视频",
+  "url": "https://x.com/Khazix0918/status/2110587546271191166",
+  "date": "2026-10-15",
+  "meta": "",
+  "bullets": [
+   "作者实测开源 Skill Anatomy。",
+   "可用一句话让 AI 生成原理科普视频。",
+   "属于 Skill 上手演示，便于内容创作场景参考。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "卡兹克实测开源Skill Anatomy，一句话让AI生成原理科普视频",
+    "url": "https://x.com/Khazix0918/status/2110587546271191166",
+    "date": "2026-10-15"
+   }
+  ],
+  "score": 41.0,
+  "score_parts": {
+   "industry": 30,
+   "actionable": 65,
+   "heat": 30,
+   "breadth": 35
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "payload-figma-make",
+  "title": "Payload 集成 Figma Make，可在 Figma 内构建托管数据驱动网站",
+  "url": "https://www.figma.com/blog/websites-with-payload-in-figma",
+  "date": "2026-10-15",
+  "meta": "",
+  "bullets": [
+   "Payload 与 Figma Make 集成。",
+   "支持在 Figma 内构建、托管和管理数据驱动网站。",
+   "设计工具与 CMS/后端进一步打通。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "Payload 集成 Figma Make，支持在 Figma 内构建、托管和管理数据驱动网站",
+    "url": "https://www.figma.com/blog/websites-with-payload-in-figma",
+    "date": "2026-10-15"
+   }
+  ],
+  "score": 44.0,
+  "score_parts": {
+   "industry": 40,
+   "actionable": 60,
+   "heat": 30,
+   "breadth": 40
   },
   "heat_signals": {
    "reports": 1,
