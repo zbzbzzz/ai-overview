@@ -9680,5 +9680,231 @@
    "x_posts_7d": 0,
    "x_spike_7d": 0
   }
+ },
+ {
+  "id": "timestral",
+  "title": "Mistral 发布首个时间序列基座模型家族 Timestral（最大 209M）",
+  "url": "https://mistral.ai/news/timestral",
+  "date": "2026-10-16",
+  "meta": "",
+  "bullets": [
+   "Mistral 发布 Timestral：首个时间序列基座模型家族，最大约 209M 参数。",
+   "强调零样本概率预测，在 GIFT-Eval / TIME / fev-bench 等公开榜上领先同级。",
+   "面向工业传感、可观测性与产能规划等企业时序场景，偏 CPU 友好部署。"
+  ],
+  "links": [
+   {
+    "label": "Official AI",
+    "title": "Timestral: Mistral's First Family of Time-Series Foundation Models",
+    "url": "https://mistral.ai/news/timestral",
+    "date": "2026-10-16"
+   }
+  ],
+  "score": 63.0,
+  "score_parts": {
+   "industry": 70,
+   "actionable": 75,
+   "heat": 35,
+   "breadth": 55
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 78,
+   "x_spike_7d": 78
+  }
+ },
+ {
+  "id": "granite-switch-4.1",
+  "title": "IBM 发布 Granite Switch 4.1：聊天、决策与语音转写合一端点",
+  "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+  "date": "2026-10-16",
+  "meta": "",
+  "bullets": [
+   "IBM 在 Hugging Face 发布 Granite Switch 4.1（含 8B / 30B 配置）。",
+   "把聊天、决策适配与语音转写等能力组合进同一端点，Activated LoRA 可复用 KV cache。",
+   "企业侧可用单一部署覆盖多任务，降低多模型拼装成本。"
+  ],
+  "links": [
+   {
+    "label": "Official AI",
+    "title": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
+    "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+    "date": "2026-10-16"
+   }
+  ],
+  "score": 58.0,
+  "score_parts": {
+   "industry": 65,
+   "actionable": 70,
+   "heat": 30,
+   "breadth": 50
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 37,
+   "x_spike_7d": 37
+  }
+ },
+ {
+  "id": "krea-3",
+  "title": "Krea 发布图像编辑模型 Krea 3：原生 2K 多数编辑约 8 秒内完成",
+  "url": "https://www.krea.ai/blog/introducing-krea-3",
+  "date": "2026-10-16",
+  "meta": "",
+  "bullets": [
+   "Krea 发布图像编辑模型 Krea 3，原生 2K 多数编辑宣称约 8 秒内完成，定价约 $0.06/张（2K）。",
+   "强调保留未要求修改的产品/人物/文字；已上线 krea.ai，并接入 fal / OpenRouter / Replicate 等。",
+   "10 月 16 日 changelog：Krea 3 成为应用默认图像模型，API 支持多参考与 fast/high 模式。"
+  ],
+  "links": [
+   {
+    "label": "Official AI",
+    "title": "Introducing Krea 3",
+    "url": "https://www.krea.ai/blog/introducing-krea-3",
+    "date": "2026-10-15"
+   },
+   {
+    "label": "AIHot",
+    "title": "Krea launched Krea 3 for fast and precise image editing",
+    "url": "https://www.testingcatalog.com/krea-launched-krea-3-for-fast-and-precise-image-editing/",
+    "date": "2026-10-16",
+    "same_event": true
+   },
+   {
+    "label": "Official AI",
+    "title": "Krea changelog: Krea 3 becomes the default image model",
+    "url": "https://www.krea.ai/docs/changelog",
+    "date": "2026-10-16",
+    "same_event": true
+   }
+  ],
+  "score": 71.2,
+  "score_parts": {
+   "industry": 72,
+   "actionable": 80,
+   "heat": 62,
+   "breadth": 60
+  },
+  "heat_signals": {
+   "reports": 3,
+   "domains": 2,
+   "x_posts_7d": 815,
+   "x_spike_7d": 815
+  }
+ },
+ {
+  "id": "gpt-live-1.1",
+  "title": "OpenAI 推送 GPT-Live-1.1：新增多语言音色并改善口音，减少「checking…」",
+  "url": "https://community.openai.com/t/gpt-live-1-1-is-rolling-out-with-new-voices-and-better-accents/1406704",
+  "date": "2026-10-16",
+  "meta": "",
+  "bullets": [
+   "OpenAI 向 ChatGPT / Codex / dots 推送 GPT-Live-1.1，新增约 13 种音色并改善多语言口音。",
+   "覆盖法/德/印地/墨西哥西语/韩/日等；同步减少重复「checking…」状态播报。",
+   "已发布 system card；官方称即将登陆 API，Plus 及以上默认 GPT-Live-1.1。"
+  ],
+  "links": [
+   {
+    "label": "Official AI",
+    "title": "GPT-Live-1.1 is rolling out with new voices and better accents",
+    "url": "https://community.openai.com/t/gpt-live-1-1-is-rolling-out-with-new-voices-and-better-accents/1406704",
+    "date": "2026-10-16"
+   },
+   {
+    "label": "Official AI",
+    "title": "GPT-Live-1.1 system card",
+    "url": "https://deploymentsafety.openai.com/gpt-live-1-1/introduction",
+    "date": "2026-10-15",
+    "same_event": true
+   },
+   {
+    "label": "AIHot",
+    "title": "GPT-Live-1.1 Adds New Voices and Better Accents to ChatGPT",
+    "url": "https://diyai.io/news/gpt-live-1-1-new-voices-accents/",
+    "date": "2026-10-16",
+    "same_event": true
+   }
+  ],
+  "score": 74.9,
+  "score_parts": {
+   "industry": 75,
+   "actionable": 80,
+   "heat": 72,
+   "breadth": 65
+  },
+  "heat_signals": {
+   "reports": 3,
+   "domains": 3,
+   "x_posts_7d": 1364,
+   "x_spike_7d": 1364
+  }
+ },
+ {
+  "id": "indic-pretraining-nemotron",
+  "title": "NVIDIA × AI4Bharat：开源约 2.8T Indic 预训练数据管线（22 种印度语言）",
+  "url": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
+  "date": "2026-10-16",
+  "meta": "",
+  "bullets": [
+   "NVIDIA 与 AI4Bharat（IIT Madras）介绍 Nemotron-pretraining-Indic-v1 数据工作。",
+   "约 2.8 万亿 token，覆盖 22 种印度语言，并开源数据生成管线。",
+   "意在补齐印度语言相对英语的开源预训练数据缺口，服务后续开源模型。"
+  ],
+  "links": [
+   {
+    "label": "Official AI",
+    "title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
+    "url": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
+    "date": "2026-10-16"
+   }
+  ],
+  "score": 56.5,
+  "score_parts": {
+   "industry": 60,
+   "actionable": 70,
+   "heat": 30,
+   "breadth": 55
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 8,
+   "x_spike_7d": 8
+  }
+ },
+ {
+  "id": "devin-auto-triage",
+  "title": "Cognition 发布 Devin Auto-Triage：告警一出现即自动开查与处置",
+  "url": "https://cognition.ai/blog/auto-triage",
+  "date": "2026-10-16",
+  "meta": "",
+  "bullets": [
+   "Cognition 发布 Auto-Triage：Devin 在新 bug / 事故 / 请求出现时立即介入调查。",
+   "可检查代码库并开始响应，工程师接手时已有进展。",
+   "面向把 Slack / Sentry / Datadog 等告警接入 Agent 值班的团队。"
+  ],
+  "links": [
+   {
+    "label": "Official AI",
+    "title": "Introducing Auto-Triage",
+    "url": "https://cognition.ai/blog/auto-triage",
+    "date": "2026-10-16"
+   }
+  ],
+  "score": 55.5,
+  "score_parts": {
+   "industry": 55,
+   "actionable": 75,
+   "heat": 30,
+   "breadth": 50
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
  }
 ]
