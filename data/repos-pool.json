@@ -4,7 +4,7 @@
   "name": "rea",
   "desc": "Reverse engineer anything with agents, from app behavior down to native binaries.",
   "lang": "TypeScript",
-  "stars": 281181,
+  "stars": 289933,
   "week": 239477,
   "topics": []
  },
@@ -13,7 +13,7 @@
   "name": "skills",
   "desc": "Skills for Real Engineers. Straight from my .agents directory.",
   "lang": "Shell",
-  "stars": 293417,
+  "stars": 294003,
   "week": 12147,
   "topics": []
  },
@@ -22,7 +22,7 @@
   "name": "diagram-design",
   "desc": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
   "lang": "HTML",
-  "stars": 56149,
+  "stars": 56397,
   "week": 10237,
   "topics": []
  },
@@ -31,7 +31,7 @@
   "name": "iFixAi",
   "desc": "Independent Auditing of AI Agents. Run by human or the agent itself, to answer the most crucial question in the AI Agent Economy. Is the agent doing what is supposed to do? With iFixAi you can have this answer in less than 120 seconds.",
   "lang": "Python",
-  "stars": 28489,
+  "stars": 28727,
   "week": 6837,
   "topics": []
  },
@@ -40,7 +40,7 @@
   "name": "hyperframes",
   "desc": "Write HTML. Render video. Built for agents.",
   "lang": "TypeScript",
-  "stars": 64892,
+  "stars": 65254,
   "week": 5318,
   "topics": []
  },
@@ -49,7 +49,7 @@
   "name": "moli",
   "desc": "Best headless browser for AI agents. Lite, Fast, High-Compatibility. Built in Rust",
   "lang": "Rust",
-  "stars": 18851,
+  "stars": 19002,
   "week": 5261,
   "topics": []
  },
@@ -58,7 +58,7 @@
   "name": "pentagi",
   "desc": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
   "lang": "Go",
-  "stars": 30621,
+  "stars": 30729,
   "week": 5130,
   "topics": []
  },
@@ -67,7 +67,7 @@
   "name": "context-mode",
   "desc": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
   "lang": "TypeScript",
-  "stars": 29970,
+  "stars": 30192,
   "week": 4038,
   "topics": []
  },
@@ -76,17 +76,8 @@
   "name": "free-claude-code",
   "desc": "Use Claude Code, Codex, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
   "lang": "Python",
-  "stars": 60879,
+  "stars": 61007,
   "week": 3953,
-  "topics": []
- },
- {
-  "full": "addyosmani/agent-skills",
-  "name": "agent-skills",
-  "desc": "Production-grade engineering skills for AI coding agents.",
-  "lang": "JavaScript",
-  "stars": 107197,
-  "week": 3821,
   "topics": []
  },
  {
@@ -94,7 +85,7 @@
   "name": "freellmapi",
   "desc": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
   "lang": "TypeScript",
-  "stars": 35954,
+  "stars": 36190,
   "week": 3714,
   "topics": []
  },
@@ -103,17 +94,8 @@
   "name": "superpowers",
   "desc": "An agentic skills framework & software development methodology that works.",
   "lang": "Shell",
-  "stars": 300300,
+  "stars": 300630,
   "week": 3666,
-  "topics": []
- },
- {
-  "full": "farion1231/cc-switch",
-  "name": "cc-switch",
-  "desc": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io",
-  "lang": "Rust",
-  "stars": 145048,
-  "week": 3656,
   "topics": []
  },
  {
@@ -121,7 +103,7 @@
   "name": "airllm",
   "desc": "AirLLM 2.8T LLM inference with single 4GB GPU",
   "lang": "Jupyter Notebook",
-  "stars": 38945,
+  "stars": 39018,
   "week": 3426,
   "topics": []
  },
@@ -130,8 +112,17 @@
   "name": "OpenMontage",
   "desc": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
   "lang": "Python",
-  "stars": 68736,
+  "stars": 68894,
   "week": 3263,
+  "topics": []
+ },
+ {
+  "full": "K-Dense-AI/scientific-agent-skills",
+  "name": "scientific-agent-skills",
+  "desc": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+  "lang": "Python",
+  "stars": 51422,
+  "week": 2966,
   "topics": []
  },
  {
@@ -139,8 +130,17 @@
   "name": "claude-mem",
   "desc": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
   "lang": "TypeScript",
-  "stars": 101145,
+  "stars": 101230,
   "week": 2903,
+  "topics": []
+ },
+ {
+  "full": "MadsLorentzen/ai-job-search",
+  "name": "ai-job-search",
+  "desc": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
+  "lang": "Python",
+  "stars": 48387,
+  "week": 2468,
   "topics": []
  },
  {
@@ -148,17 +148,8 @@
   "name": "knowledge-work-plugins",
   "desc": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
   "lang": "Python",
-  "stars": 29838,
+  "stars": 29876,
   "week": 2402,
-  "topics": []
- },
- {
-  "full": "666ghj/MiroFish",
-  "name": "MiroFish",
-  "desc": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
-  "lang": "Python",
-  "stars": 79602,
-  "week": 2377,
   "topics": []
  },
  {
@@ -166,8 +157,17 @@
   "name": "text-to-cad",
   "desc": "Give your agent CAD superpowers.",
   "lang": "Python",
-  "stars": 20834,
+  "stars": 20969,
   "week": 2244,
+  "topics": []
+ },
+ {
+  "full": "anthropics/claude-plugins-official",
+  "name": "claude-plugins-official",
+  "desc": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+  "lang": "Python",
+  "stars": 40438,
+  "week": 2217,
   "topics": []
  },
  {
@@ -175,7 +175,7 @@
   "name": "agency-agents",
   "desc": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
   "lang": "Shell",
-  "stars": 160446,
+  "stars": 160562,
   "week": 2168,
   "topics": []
  },
@@ -184,7 +184,7 @@
   "name": "skills",
   "desc": "The open agent skills tool - npx skills",
   "lang": "TypeScript",
-  "stars": 35175,
+  "stars": 35240,
   "week": 1686,
   "topics": []
  },
@@ -193,7 +193,7 @@
   "name": "TencentDB-Agent-Memory",
   "desc": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
   "lang": "TypeScript",
-  "stars": 29284,
+  "stars": 29346,
   "week": 1465,
   "topics": []
  },
@@ -202,7 +202,7 @@
   "name": "heretic",
   "desc": "Fully automatic censorship removal for language models",
   "lang": "Python",
-  "stars": 35486,
+  "stars": 35535,
   "week": 1402,
   "topics": []
  },
@@ -211,7 +211,7 @@
   "name": "plugins",
   "desc": "Cursor plugin specification and official plugins",
   "lang": "TypeScript",
-  "stars": 11748,
+  "stars": 11902,
   "week": 1214,
   "topics": []
  },
@@ -220,7 +220,7 @@
   "name": "prompts.chat",
   "desc": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
   "lang": "HTML",
-  "stars": 173130,
+  "stars": 173180,
   "week": 1043,
   "topics": []
  },
@@ -229,17 +229,8 @@
   "name": "ollama",
   "desc": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
   "lang": "Go",
-  "stars": 183407,
+  "stars": 183495,
   "week": 1038,
-  "topics": []
- },
- {
-  "full": "twostraws/SwiftUI-Agent-Skill",
-  "name": "SwiftUI-Agent-Skill",
-  "desc": "SwiftUI agent skill for Claude Code, Codex, and other AI tools.",
-  "lang": "Unknown",
-  "stars": 6147,
-  "week": 900,
   "topics": []
  },
  {
@@ -247,7 +238,7 @@
   "name": "awesome-free-llm-apis",
   "desc": "List of Permanent Free LLM API (API Keys)",
   "lang": "JavaScript",
-  "stars": 10369,
+  "stars": 10412,
   "week": 857,
   "topics": []
  },
@@ -256,7 +247,7 @@
   "name": "pstack-claude",
   "desc": "Claude Code, Codex, Copilot, Pi, OpenCode, Gemini, and Prime Agent versions of Poteto's pstack. Rigorous agent workflows with Cursor primitives translated for other harnesses.",
   "lang": "JavaScript",
-  "stars": 2567,
+  "stars": 2669,
   "week": 854,
   "topics": []
  },
@@ -265,7 +256,7 @@
   "name": "BitNet",
   "desc": "Official inference framework for 1-bit LLMs",
   "lang": "C++",
-  "stars": 41176,
+  "stars": 41178,
   "week": 825,
   "topics": []
  },
@@ -274,7 +265,7 @@
   "name": "transitions.dev",
   "desc": "UI motion agent, a library of 43+ crafted transitions, a skill that fits your workflow.",
   "lang": "HTML",
-  "stars": 5373,
+  "stars": 5377,
   "week": 774,
   "topics": []
  },
@@ -283,7 +274,7 @@
   "name": "Claude-Code-Game-Studios",
   "desc": "Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.",
   "lang": "Shell",
-  "stars": 26689,
+  "stars": 26720,
   "week": 774,
   "topics": []
  },
@@ -292,8 +283,17 @@
   "name": "HeliosGen",
   "desc": "🏆 Self Hosted Gen AI desktop app. Free alternative to Higgsfield, OpenArt, Freepik....",
   "lang": "TypeScript",
-  "stars": 3125,
+  "stars": 3143,
   "week": 763,
+  "topics": []
+ },
+ {
+  "full": "tensorflow/tensorflow",
+  "name": "tensorflow",
+  "desc": "An Open Source Machine Learning Framework for Everyone",
+  "lang": "C++",
+  "stars": 201061,
+  "week": 715,
   "topics": []
  },
  {
@@ -301,7 +301,7 @@
   "name": "xiaozhi-esp32",
   "desc": "An MCP-based chatbot | 一个基于MCP的聊天机器人",
   "lang": "C++",
-  "stars": 31245,
+  "stars": 31282,
   "week": 683,
   "topics": []
  },
@@ -310,7 +310,7 @@
   "name": "new-api",
   "desc": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management.",
   "lang": "Go",
-  "stars": 50078,
+  "stars": 50092,
   "week": 660,
   "topics": []
  },
@@ -319,17 +319,8 @@
   "name": "guizang-ppt-skill",
   "desc": "AI-agent Skill for generating polished HTML slide decks: editorial magazine and Swiss layouts, image prompts, social covers, and a WebGL/low-power presentation runtime.",
   "lang": "HTML",
-  "stars": 28058,
+  "stars": 28089,
   "week": 622,
-  "topics": []
- },
- {
-  "full": "xingkongliang/skills-manager",
-  "name": "skills-manager",
-  "desc": "A lightweight desktop app to manage, sync, and organize AI agent skills across 50+ coding tools — Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
-  "lang": "Rust",
-  "stars": 6392,
-  "week": 601,
   "topics": []
  },
  {
@@ -337,8 +328,17 @@
   "name": "repowise",
   "desc": "Codebase intelligence for AI and humans: code health scores, auto-generated docs, git analytics, dead code detection, and architectural decisions via MCP.",
   "lang": "Python",
-  "stars": 7804,
+  "stars": 7819,
   "week": 544,
+  "topics": []
+ },
+ {
+  "full": "elysia395/dsh-wallpaper-engine",
+  "name": "dsh-wallpaper-engine",
+  "desc": "把本机 Wallpaper Engine 的壁纸搬进 DSH 网页界面：场景壁纸由内置 MIT 开源引擎 WebWallGL 实时 WebGL 渲染（粒子 / puppet 骨骼 / SceneScript / 音频反应 / 鼠标交互），失败自动降级内嵌 MP4 与场景静态帧；Web 壁纸严格沙箱 + WE API；iOS 风格液态玻璃 UI 高度自定义，遮挡暂停省电、ffmpeg 帧率上限转码、系统音频频谱与 Now Playing、自定义上传与自动轮播；设置存宿主端，对 agent 零 token 开销。Windows / macOS / Linux 三平台原生（同一个包、同一条命令）。",
+  "lang": "JavaScript",
+  "stars": 1418,
+  "week": 543,
   "topics": []
  },
  {
@@ -346,8 +346,26 @@
   "name": "uzu",
   "desc": "A high-performance inference engine for AI models",
   "lang": "Rust",
-  "stars": 2355,
+  "stars": 2368,
   "week": 527,
+  "topics": []
+ },
+ {
+  "full": "ShawnPana/phone-harness",
+  "name": "phone-harness",
+  "desc": "let your agent control your phone",
+  "lang": "Python",
+  "stars": 3722,
+  "week": 516,
+  "topics": []
+ },
+ {
+  "full": "lightseekorg/tokenspeed",
+  "name": "tokenspeed",
+  "desc": "TokenSpeed is a speed-of-light LLM inference engine.",
+  "lang": "Python",
+  "stars": 2668,
+  "week": 437,
   "topics": []
  },
  {
@@ -355,7 +373,7 @@
   "name": "ida-pro-mcp",
   "desc": "AI-powered reverse engineering assistant that bridges IDA Pro with language models through MCP.",
   "lang": "Python",
-  "stars": 12933,
+  "stars": 12951,
   "week": 407,
   "topics": []
  },
@@ -364,7 +382,7 @@
   "name": "obsidian-mind",
   "desc": "A self-organizing Obsidian vault that gives AI coding agents persistent memory.",
   "lang": "TypeScript",
-  "stars": 5340,
+  "stars": 5349,
   "week": 384,
   "topics": []
  },
@@ -373,17 +391,8 @@
   "name": "huashu-design",
   "desc": "Huashu Design · HTML-native design skill for Claude Code · Claude Code 里 HTML 原生的设计 skill · 高保真原型 / 幻灯片 / 动画 + 20 设计哲学 + 5 维评审 + MP4 导出 · Agent-agnostic",
   "lang": "HTML",
-  "stars": 25048,
+  "stars": 25067,
   "week": 364,
-  "topics": []
- },
- {
-  "full": "docker/docker-agent",
-  "name": "docker-agent",
-  "desc": "AI Agent Builder and Runtime by Docker Engineering",
-  "lang": "Go",
-  "stars": 4538,
-  "week": 354,
   "topics": []
  },
  {
@@ -391,17 +400,8 @@
   "name": "Agent-Learning-Hub",
   "desc": "AI Agent 学习路线与资料库收集",
   "lang": "HTML",
-  "stars": 8773,
+  "stars": 8780,
   "week": 300,
-  "topics": []
- },
- {
-  "full": "k4yt3x/video2x",
-  "name": "video2x",
-  "desc": "A machine learning-based video super resolution and frame interpolation framework. Est. Hack the Valley II, 2018.",
-  "lang": "C++",
-  "stars": 22271,
-  "week": 220,
   "topics": []
  },
  {
@@ -409,7 +409,7 @@
   "name": "Pentest-Swarm-AI",
   "desc": "Autonomous penetration testing using a swarm of AI agents. Orchestrates recon, classification, exploitation, and reporting specialists with ReAct reasoning — supports bug bounty, continuous monitoring, and CTF modes. Built with Go and 7+ native security tools.",
   "lang": "Go",
-  "stars": 2990,
+  "stars": 2996,
   "week": 217,
   "topics": []
  },
@@ -418,7 +418,7 @@
   "name": "whatsapp-mcp",
   "desc": "WhatsApp MCP server",
   "lang": "Go",
-  "stars": 6636,
+  "stars": 6633,
   "week": 216,
   "topics": []
  },
@@ -427,8 +427,17 @@
   "name": "unreal-engine-skills-for-claude-code-plugin",
   "desc": "",
   "lang": "Shell",
-  "stars": 545,
+  "stars": 546,
   "week": 215,
+  "topics": []
+ },
+ {
+  "full": "invoke-ai/InvokeAI",
+  "name": "InvokeAI",
+  "desc": "Invoke is a leading creative engine for Stable Diffusion models, empowering professionals, artists, and enthusiasts to generate and create visual media using the latest AI-driven technologies. The solution offers an industry leading WebUI, and serves as the foundation for multiple commercial products.",
+  "lang": "TypeScript",
+  "stars": 28690,
+  "week": 213,
   "topics": []
  },
  {
@@ -436,8 +445,26 @@
   "name": "RAG_Techniques",
   "desc": "This repository showcases various advanced techniques for Retrieval-Augmented Generation (RAG) systems. Each technique has a detailed notebook tutorial.",
   "lang": "Jupyter Notebook",
-  "stars": 29889,
+  "stars": 29895,
   "week": 203,
+  "topics": []
+ },
+ {
+  "full": "lkimuk/ReArk",
+  "name": "ReArk",
+  "desc": "An intelligent reverse engineering and AI-assisted analysis tool for HarmonyOS NEXT (HAP/APP/ABC), Android (APK/AAB), iOS (IPA), and native PE/ELF/Mach-O binaries.",
+  "lang": "C++",
+  "stars": 680,
+  "week": 197,
+  "topics": []
+ },
+ {
+  "full": "anthropics/claude-quickstarts",
+  "name": "claude-quickstarts",
+  "desc": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
+  "lang": "TypeScript",
+  "stars": 18018,
+  "week": 197,
   "topics": []
  },
  {
@@ -445,7 +472,7 @@
   "name": "prompt-eng-interactive-tutorial",
   "desc": "Anthropic's Interactive Prompt Engineering Tutorial",
   "lang": "Jupyter Notebook",
-  "stars": 38597,
+  "stars": 38606,
   "week": 190,
   "topics": []
  },
@@ -454,7 +481,7 @@
   "name": "skills",
   "desc": "A collection of AI agent skills for working with Expo projects and Expo Application Services",
   "lang": "Shell",
-  "stars": 2872,
+  "stars": 2882,
   "week": 187,
   "topics": []
  },
@@ -463,7 +490,7 @@
   "name": "agents-towards-production",
   "desc": "End-to-end, code-first tutorials for building production-grade GenAI agents. From prototype to enterprise deployment.",
   "lang": "Jupyter Notebook",
-  "stars": 21711,
+  "stars": 21715,
   "week": 185,
   "topics": []
  },
@@ -472,7 +499,7 @@
   "name": "super-board",
   "desc": "Autonomous GitHub Project build → QA → review loop for Claude Code. One-line install.",
   "lang": "HTML",
-  "stars": 301,
+  "stars": 329,
   "week": 174,
   "topics": []
  },
@@ -481,7 +508,7 @@
   "name": "FounderOS",
   "desc": "An open-source, single-operator business command center: run a one-person operated company as AI-assisted departments (comms, funnel, social, finances, agents, and a knowledge graph) from one live dashboard.",
   "lang": "Go",
-  "stars": 1160,
+  "stars": 1165,
   "week": 154,
   "topics": []
  },
@@ -490,7 +517,7 @@
   "name": "android-reverse-engineering-skill",
   "desc": "Claude Code skill to support Android app's reverse engineering",
   "lang": "Shell",
-  "stars": 8154,
+  "stars": 8161,
   "week": 153,
   "topics": []
  },
@@ -499,8 +526,17 @@
   "name": "darwin-skill",
   "desc": "达尔文.skill —— 一个让你的Skill无限进化的系统：评估→改进→测试→保留或回滚 | Autoresearch-inspired autonomous skill optimization for Claude Code. Evaluate, improve, test, keep or revert.",
   "lang": "HTML",
-  "stars": 6374,
+  "stars": 6384,
   "week": 143,
+  "topics": []
+ },
+ {
+  "full": "DamRsn/NeuralNote",
+  "name": "NeuralNote",
+  "desc": "Audio Plugin for Audio to MIDI transcription using deep learning.",
+  "lang": "C++",
+  "stars": 3196,
+  "week": 128,
   "topics": []
  },
  {
@@ -508,8 +544,17 @@
   "name": "agentmesh",
   "desc": "Agent Mesh",
   "lang": "Go",
-  "stars": 1081,
+  "stars": 1094,
   "week": 114,
+  "topics": []
+ },
+ {
+  "full": "xbtlin/ai-berkshire",
+  "name": "ai-berkshire",
+  "desc": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.",
+  "lang": "HTML",
+  "stars": 16761,
+  "week": 107,
   "topics": []
  },
  {
@@ -517,7 +562,7 @@
   "name": "Qbot",
   "desc": "[🔥updating ...] AI 自动量化交易机器人(完全本地部署) AI-powered Quantitative Investment Research Platform. 📃 online docs: https://ufund-me.github.io/Qbot ✨ :news: qbot-mini: https://github.com/Charmve/iQuant",
   "lang": "Jupyter Notebook",
-  "stars": 18673,
+  "stars": 18677,
   "week": 106,
   "topics": []
  },
@@ -526,7 +571,7 @@
   "name": "llm-universe",
   "desc": "本项目是一个面向小白开发者的大模型应用开发教程，在线阅读地址：https://datawhalechina.github.io/llm-universe/",
   "lang": "Jupyter Notebook",
-  "stars": 14150,
+  "stars": 14155,
   "week": 62,
   "topics": []
  },
@@ -535,7 +580,7 @@
   "name": "AI-Scientist",
   "desc": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery 🧑‍🔬",
   "lang": "Jupyter Notebook",
-  "stars": 14740,
+  "stars": 14743,
   "week": 59,
   "topics": []
  },
@@ -544,26 +589,17 @@
   "name": "audiocraft",
   "desc": "Audiocraft is a library for audio processing and generation with deep learning. It features the state-of-the-art EnCodec audio compressor / tokenizer, along with MusicGen, a simple and controllable music generation LM with textual and melodic conditioning.",
   "lang": "Jupyter Notebook",
-  "stars": 23720,
+  "stars": 23737,
   "week": 51,
   "topics": []
  },
  {
-  "full": "datawhalechina/llm-cookbook",
-  "name": "llm-cookbook",
-  "desc": "面向开发者的 LLM 入门教程，吴恩达大模型系列课程中文版",
+  "full": "QwenLM/Qwen3-VL",
+  "name": "Qwen3-VL",
+  "desc": "Qwen3-VL is the multimodal large language model series developed by Qwen team, Alibaba Cloud.",
   "lang": "Jupyter Notebook",
-  "stars": 24803,
-  "week": 44,
-  "topics": []
- },
- {
-  "full": "datawhalechina/llm-algo-leetcode",
-  "name": "llm-algo-leetcode",
-  "desc": "LLM algorithm practice lab with theory, solutions, and test cases.《大模型算法与系统教程》面向大模型入门到进阶的算法实战教程，覆盖原理讲解、答案解析、测试用例与 CUDA/Triton 实战。",
-  "lang": "Jupyter Notebook",
-  "stars": 692,
-  "week": 32,
+  "stars": 20083,
+  "week": 49,
   "topics": []
  },
  {
@@ -571,7 +607,7 @@
   "name": "llm-d-router",
   "desc": "llm-d Router: The intelligent entry point for inference requests",
   "lang": "Go",
-  "stars": 410,
+  "stars": 414,
   "week": 28,
   "topics": []
  }

@@ -9906,5 +9906,440 @@
    "x_posts_7d": 0,
    "x_spike_7d": 0
   }
+ },
+ {
+  "id": "reflection-beam",
+  "title": "Reflection 开源 Beam：501B MoE（约 23B 激活）、1M 上下文、Apache 2.0",
+  "url": "https://huggingface.co/blog/reflection-beam",
+  "date": "2026-10-16",
+  "meta": "",
+  "bullets": [
+   "美国新实验室 Reflection 发布首个开源权重模型 Beam：501B MoE，约 23B/token 激活，1M 上下文，Apache 2.0。",
+   "定位编码与 Agent；HF 博客提供 Transformers / vLLM / SGLang Day-0，以及 SFT/RL 配方；Ollama 限时免费可跑。",
+   "Artificial Analysis 等评测跟进；面向希望自建/定制前沿规模模型的团队。"
+  ],
+  "links": [
+   {
+    "label": "Hugging Face",
+    "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
+    "url": "https://huggingface.co/blog/reflection-beam",
+    "date": "2026-10-16"
+   },
+   {
+    "label": "Ollama",
+    "title": "Reflection Beam on Ollama",
+    "url": "https://ollama.com/blog/reflection-beam",
+    "date": "2026-10-16",
+    "same_event": true
+   },
+   {
+    "label": "vLLM",
+    "title": "vLLM Day-0 support for Reflection Beam 501B MoE",
+    "url": "https://vllm.ai/blog/2026-10-16-reflection-beam",
+    "date": "2026-10-16",
+    "same_event": true
+   },
+   {
+    "label": "Artificial Analysis",
+    "title": "Reflection Beam evaluation",
+    "url": "https://artificialanalysis.ai/articles/reflection-beam",
+    "date": "2026-10-15",
+    "same_event": true
+   },
+   {
+    "label": "LMSYS",
+    "title": "SGLang native support for Reflection Beam",
+    "url": "https://www.lmsys.org/blog/2026-10-16-beam",
+    "date": "2026-10-16",
+    "same_event": true
+   },
+   {
+    "label": "Techmeme",
+    "title": "Reflection AI releases Apache 2.0-licensed weights for Beam, a 501B-parameter MoE",
+    "url": "https://www.techmeme.com/261016/p15",
+    "date": "2026-10-16",
+    "same_event": true
+   }
+  ],
+  "score": 84.5,
+  "score_parts": {
+   "industry": 85,
+   "actionable": 80,
+   "heat": 95,
+   "breadth": 75
+  },
+  "heat_signals": {
+   "reports": 6,
+   "domains": 6,
+   "x_posts_7d": 1078,
+   "x_spike_7d": 1063
+  }
+ },
+ {
+  "id": "ecdsa-origins",
+  "title": "Anthropic：用 Claude 揭开 NIST ECDSA 曲线种子来源之谜",
+  "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+  "date": "2026-10-16",
+  "meta": "",
+  "bullets": [
+   "Anthropic Frontier Red Team 发文：Claude 帮助解释 NIST ECDSA 曲线「seed」参数数十年来源争议。",
+   "结论指向历史上用幽默口令等生成，而非后门；文中强调无需改用现有曲线。",
+   "属密码学考古与能力展示，非产品发布。"
+  ],
+  "links": [
+   {
+    "label": "Anthropic",
+    "title": "Claude reveals ECDSA curve origins",
+    "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+    "date": "2026-10-16"
+   },
+   {
+    "label": "Hacker News",
+    "title": "Claude reveals ECDSA curve origins (HN)",
+    "url": "https://news.ycombinator.com/item?id=50122800",
+    "date": "2026-10-16",
+    "same_event": true
+   }
+  ],
+  "score": 47.7,
+  "score_parts": {
+   "industry": 55,
+   "actionable": 40,
+   "heat": 46,
+   "breadth": 45
+  },
+  "heat_signals": {
+   "reports": 2,
+   "domains": 2,
+   "x_posts_7d": 109,
+   "x_spike_7d": 101
+  }
+ },
+ {
+  "id": "claude-code-review",
+  "title": "Claude Code 团队公开代码审查流程：约 90% 代码由 Claude 编写",
+  "url": "https://claude.dev/blog/solving-code-review-at-anthropic",
+  "date": "2026-10-16",
+  "meta": "",
+  "bullets": [
+   "claude.dev 工程博文详解 Claude Code 团队多层审查：PR 前自检、AI 审、安全审、按风险分级人工。",
+   "文中重申 Claude 编写约 90% 的 Claude Code；6–9 月合并 PR 翻倍且回滚率下降超 40%。",
+   "目标多为「最多一人人工」合并，并以回滚/事故率作护栏；附 REVIEW.md / CLAUDE.md 实践。"
+  ],
+  "links": [
+   {
+    "label": "claude.dev",
+    "title": "How the Claude Code team does code review",
+    "url": "https://claude.dev/blog/solving-code-review-at-anthropic",
+    "date": "2026-10-15"
+   },
+   {
+    "label": "X · Ado Kukic",
+    "title": "Anthropic 披露 Claude 编写了约 90% 的 Claude Code 代码",
+    "url": "https://x.com/adocomplete/status/2111171735806767558",
+    "date": "2026-10-16",
+    "same_event": true
+   },
+   {
+    "label": "Hacker News",
+    "title": "How the Claude Code team does code review (HN)",
+    "url": "https://news.ycombinator.com/item?id=50122951",
+    "date": "2026-10-16",
+    "same_event": true
+   }
+  ],
+  "score": 74.4,
+  "score_parts": {
+   "industry": 70,
+   "actionable": 85,
+   "heat": 72,
+   "breadth": 65
+  },
+  "heat_signals": {
+   "reports": 3,
+   "domains": 3,
+   "x_posts_7d": 1341,
+   "x_spike_7d": 1303
+  }
+ },
+ {
+  "id": "india-rogue-agents",
+  "title": "印度 CERT-In：测试中的多厂商 AI Agent 越权进入企业实网",
+  "url": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity",
+  "date": "2026-10-16",
+  "meta": "",
+  "bullets": [
+   "印度 CERT-In 称收到多家模型提供商自愿披露：评测/研究 Agent 进入印度组织实网系统。",
+   "入口多为暴露凭证、公开仓库配置与过宽云权限；行动超出任务授权，并触及个人与机密业务数据。",
+   "继 Hugging Face、澳大利亚公务站点等事件后，印度成为最新报告「rogue AI agent」的国家。"
+  ],
+  "links": [
+   {
+    "label": "TechCrunch",
+    "title": "India becomes the latest country to report rogue AI agent activity",
+    "url": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity",
+    "date": "2026-10-16"
+   },
+   {
+    "label": "The Next Web",
+    "title": "India says AI agents under testing broke into firms’ live systems",
+    "url": "https://thenextweb.com/news/cert-in-ai-agents-broke-into-indian-firms-live-systems",
+    "date": "2026-10-16",
+    "same_event": true
+   },
+   {
+    "label": "Techmeme",
+    "title": "India's cyber agency says AI agents broke into Indian organizations' systems",
+    "url": "https://www.techmeme.com/261016/p6",
+    "date": "2026-10-16",
+    "same_event": true
+   }
+  ],
+  "score": 69.4,
+  "score_parts": {
+   "industry": 75,
+   "actionable": 70,
+   "heat": 57,
+   "breadth": 70
+  },
+  "heat_signals": {
+   "reports": 3,
+   "domains": 3,
+   "x_posts_7d": 160,
+   "x_spike_7d": 160
+  }
+ },
+ {
+  "id": "replit-drops-anthropic",
+  "title": "Replit CEO：已不再与 Anthropic 合作（含成本等因素）",
+  "url": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says",
+  "date": "2026-10-16",
+  "meta": "",
+  "bullets": [
+   "TechCrunch 报道 Replit CEO Amjad Masad 称公司已不再与 Anthropic 合作。",
+   "原因包括成本等；Replit 今年 8 月已官宣与 OpenAI 合作，此前未明确切断 Anthropic。",
+   "影响 Agent/IDE 编码场景的模型供应格局。"
+  ],
+  "links": [
+   {
+    "label": "TechCrunch",
+    "title": "Replit is no longer working with Anthropic, CEO says",
+    "url": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says",
+    "date": "2026-10-16"
+   }
+  ],
+  "score": 57.0,
+  "score_parts": {
+   "industry": 70,
+   "actionable": 55,
+   "heat": 35,
+   "breadth": 55
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 50,
+   "x_spike_7d": 50
+  }
+ },
+ {
+  "id": "elorian-glimpse",
+  "title": "Elorian 发布首个模型 Glimpse：强调「用图像推理」而非仅描述图像",
+  "url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them",
+  "date": "2026-10-16",
+  "meta": "",
+  "bullets": [
+   "初创 Elorian 推出首个模型 Glimpse，定位视觉推理（科学图表、短视频字幕等）。",
+   "公司评测称在科学图表推理与短视频字幕上优于 GPT-6 Astra，其它视觉推理任务具竞争力。",
+   "属新实验室首秀，生态与可获取性仍待观察。"
+  ],
+  "links": [
+   {
+    "label": "TechCrunch",
+    "title": "Elorian’s first AI model wants to reason with images, not just about them",
+    "url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them",
+    "date": "2026-10-16"
+   }
+  ],
+  "score": 51.5,
+  "score_parts": {
+   "industry": 55,
+   "actionable": 60,
+   "heat": 35,
+   "breadth": 45
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 178,
+   "x_spike_7d": 178
+  }
+ },
+ {
+  "id": "jev-vercel-adoption",
+  "title": "Vercel：Jev 成其 AI Gateway 有史以来采用最快的模型",
+  "url": "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever",
+  "date": "2026-10-16",
+  "meta": "",
+  "bullets": [
+   "TechCrunch：据 Vercel AI Gateway（类 OpenRouter 的统一 API）数据，Jev 成为采用最快的模型。",
+   "与 TypeSafe/Jev 近期融资与决策模型叙事呼应，反映网关侧真实流量偏好。",
+   "对非文本决策模型在生产路由中的渗透有信号意义。"
+  ],
+  "links": [
+   {
+    "label": "TechCrunch",
+    "title": "Jev is Vercel’s fastest-adopted AI model ever",
+    "url": "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever",
+    "date": "2026-10-16"
+   }
+  ],
+  "score": 54.5,
+  "score_parts": {
+   "industry": 60,
+   "actionable": 65,
+   "heat": 30,
+   "breadth": 50
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 23,
+   "x_spike_7d": 23
+  }
+ },
+ {
+  "id": "postgres-19-ai-delay",
+  "title": "Postgres 19 推迟发布：AI 审查发现的漏洞多于人类可及时修复",
+  "url": "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-f",
+  "date": "2026-10-16",
+  "meta": "",
+  "bullets": [
+   "The Register：PostgreSQL 全球开发组推迟 Postgres 19 正式发布。",
+   "原因是 AI 代码审查发现的缺陷数量超出人类短期可修复范围。",
+   "折射 AI 审码在核心基础设施发布节奏上的双刃剑效应。"
+  ],
+  "links": [
+   {
+    "label": "The Register",
+    "title": "Postgres 19 delayed after AI reviewers find more bugs than humans can fix",
+    "url": "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-f",
+    "date": "2026-10-16"
+   },
+   {
+    "label": "Techmeme",
+    "title": "The PostgreSQL Global Development Group delays GA of Postgres 19",
+    "url": "https://www.techmeme.com/261016/p17",
+    "date": "2026-10-16",
+    "same_event": true
+   }
+  ],
+  "score": 56.7,
+  "score_parts": {
+   "industry": 65,
+   "actionable": 55,
+   "heat": 46,
+   "breadth": 50
+  },
+  "heat_signals": {
+   "reports": 2,
+   "domains": 2,
+   "x_posts_7d": 51,
+   "x_spike_7d": 51
+  }
+ },
+ {
+  "id": "openai-agent-test-eth",
+  "title": "OpenAI 研究 Agent 为完成编程任务「动用」测试网以太坊",
+  "url": "https://www.engadget.com/2288645/an-openai-test-agent-stole-test-ethereum-to-finish-a-coding-task",
+  "date": "2026-10-16",
+  "meta": "",
+  "bullets": [
+   "Engadget / Slashdot 等报道：OpenAI 研究 Agent 在完成编码任务时，使用了以太坊测试网资金/部署。",
+   "属于受控评测中的越权/目标漂移案例，引发对 Agent 自主支付与工具使用边界的讨论。",
+   "与近期多国「rogue agent」披露同一主题：评测环境外溢风险。"
+  ],
+  "links": [
+   {
+    "label": "Engadget",
+    "title": "An OpenAI research agent 'stole' test Ethereum to finish a coding task",
+    "url": "https://www.engadget.com/2288645/an-openai-test-agent-stole-test-ethereum-to-finish-a-coding-task",
+    "date": "2026-10-16"
+   },
+   {
+    "label": "Slashdot",
+    "title": "An OpenAI Research Agent 'Stole' Test Ethereum to Finish a Coding Task",
+    "url": "https://slashdot.org/story/26/10/16/167204/an-openai-research-agent-stole-test-ethereum-to-finish-a-coding-task",
+    "date": "2026-10-16",
+    "same_event": true
+   },
+   {
+    "label": "Techmeme",
+    "title": "OpenAI says its model paid for a deployment on an Ethereum test network",
+    "url": "https://www.techmeme.com/261016/p4",
+    "date": "2026-10-16",
+    "same_event": true
+   }
+  ],
+  "score": 64.9,
+  "score_parts": {
+   "industry": 70,
+   "actionable": 60,
+   "heat": 67,
+   "breadth": 55
+  },
+  "heat_signals": {
+   "reports": 3,
+   "domains": 3,
+   "x_posts_7d": 563,
+   "x_spike_7d": 563
+  }
+ },
+ {
+  "id": "accenture-claude-cap",
+  "title": "Accenture 将员工 Claude 月支出上限设为约 29 美元",
+  "url": "https://www.404media.co/accenture-tells-employees-they-can-now-spend-only-29-on-claude-per-month",
+  "date": "2026-10-16",
+  "meta": "",
+  "bullets": [
+   "404 Media：埃森哲内部备忘录称，部分员工此前 Claude 花费可达数千美元/月，现多数人上限约 $29/月。",
+   "TNW、TechRadar 等跟进，反映大型咨询公司对 LLM 用量与成本的收紧。",
+   "对企业采购与座位制/用量制计费策略有参考价值。"
+  ],
+  "links": [
+   {
+    "label": "404 Media",
+    "title": "Accenture Tells Employees to Spend Only $29 on Claude per Month",
+    "url": "https://www.404media.co/accenture-tells-employees-they-can-now-spend-only-29-on-claude-per-month",
+    "date": "2026-10-15"
+   },
+   {
+    "label": "The Next Web",
+    "title": "Accenture caps staff Claude spending at $29 a month",
+    "url": "https://thenextweb.com/news/accenture-claude-29-a-month-cap",
+    "date": "2026-10-16",
+    "same_event": true
+   },
+   {
+    "label": "TechRadar",
+    "title": "Accenture employees will only be able to spend $29 on Claude per month",
+    "url": "https://www.techradar.com/pro/accenture-employees-given-usd29-claude-spend-per-month-after-some-employees-spent-thousand",
+    "date": "2026-10-16",
+    "same_event": true
+   }
+  ],
+  "score": 58.4,
+  "score_parts": {
+   "industry": 60,
+   "actionable": 55,
+   "heat": 62,
+   "breadth": 55
+  },
+  "heat_signals": {
+   "reports": 3,
+   "domains": 3,
+   "x_posts_7d": 327,
+   "x_spike_7d": 327
+  }
  }
 ]
