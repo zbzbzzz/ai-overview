@@ -8479,7 +8479,7 @@
   "id": "muse-spark-open",
   "title": "Meta 开源 Muse Spark Open：816B 多模态 MoE，1M 上下文，生态 Day 0 接入",
   "url": "https://huggingface.co/blog/meta-muse-spark-open",
-  "date": "2026-10-16",
+  "date": "2026-10-17",
   "meta": "",
   "bullets": [
    "Meta 发布开源权重模型 Muse Spark Open：前沿多模态 Mixture-of-Experts。",
@@ -8534,6 +8534,13 @@
     "url": "https://x.com/arena/status/2110797782953132049",
     "date": "2026-10-16",
     "same_event": true
+   },
+   {
+    "label": "AIHot",
+    "title": "Muse Spark Open (Max) 登顶 Code Arena: WebDev 美国开源模型第一",
+    "url": "https://x.com/arena/status/2111221323217412318",
+    "date": "2026-10-17",
+    "same_event": true
    }
   ],
   "score": 90.0,
@@ -8544,7 +8551,7 @@
    "breadth": 85
   },
   "heat_signals": {
-   "reports": 7,
+   "reports": 8,
    "domains": 6,
    "x_posts_7d": 5367,
    "x_spike_7d": 5352
@@ -10019,7 +10026,7 @@
   "id": "claude-code-review",
   "title": "Claude Code 团队公开代码审查流程：约 90% 代码由 Claude 编写",
   "url": "https://claude.dev/blog/solving-code-review-at-anthropic",
-  "date": "2026-10-16",
+  "date": "2026-10-17",
   "meta": "",
   "bullets": [
    "claude.dev 工程博文详解 Claude Code 团队多层审查：PR 前自检、AI 审、安全审、按风险分级人工。",
@@ -10046,18 +10053,32 @@
     "url": "https://news.ycombinator.com/item?id=50122951",
     "date": "2026-10-16",
     "same_event": true
+   },
+   {
+    "label": "AIHot",
+    "title": "Anthropic 如何在 Claude 写下 Claude Code 约 90% 代码后重新设计代码评审",
+    "url": "https://x.com/shao__meng/status/2111274173192638932",
+    "date": "2026-10-17",
+    "same_event": true
+   },
+   {
+    "label": "WayToAGI",
+    "title": "Claude太能写，Anthropic把内部Git换了",
+    "url": "https://waytoagi.feishu.cn/wiki/Wntuwj9ikiWbWdk0rMFcPkwfnuf?from=from_copylink",
+    "date": "2026-10-17",
+    "same_event": true
    }
   ],
-  "score": 74.4,
+  "score": 77.8,
   "score_parts": {
    "industry": 70,
    "actionable": 85,
-   "heat": 72,
+   "heat": 89,
    "breadth": 65
   },
   "heat_signals": {
-   "reports": 3,
-   "domains": 3,
+   "reports": 5,
+   "domains": 4,
    "x_posts_7d": 1341,
    "x_spike_7d": 1303
   }
@@ -10340,6 +10361,315 @@
    "domains": 3,
    "x_posts_7d": 327,
    "x_spike_7d": 327
+  }
+ },
+ {
+  "id": "amazon-blocks-ai-shopping",
+  "title": "亚马逊等电商拦截 AI 购物 Agent；马斯克称或自建电商应对",
+  "url": "https://www.aibase.com/news/31702",
+  "date": "2026-10-16",
+  "meta": "",
+  "bullets": [
+   "多家报道称亚马逊等电商平台封杀/拦截 AI 购物代理访问，Agent 代买路径受阻。",
+   "a16z 图表周报同步跟踪「智能体购物遭电商拦截」与消费意愿滞后数据。",
+   "马斯克表态「大不了自建电商」竞争，反映 Agent 商务落地与平台利益冲突升温。"
+  ],
+  "links": [
+   {
+    "label": "AIBase",
+    "title": "AI 代理网购遭亚马逊封杀！马斯克被逼急：大不了自己建个电商帝国去竞争",
+    "url": "https://www.aibase.com/news/31702",
+    "date": "2026-10-16"
+   },
+   {
+    "label": "AIHot",
+    "title": "a16z 图表周报：智能体购物遭电商拦截，消费意愿仍滞后",
+    "url": "https://www.a16z.news/p/this-week-in-charts-agents-denied",
+    "date": "2026-10-16",
+    "same_event": true
+   }
+  ],
+  "score": 65.2,
+  "score_parts": {
+   "industry": 75,
+   "actionable": 60,
+   "heat": 51,
+   "breadth": 70
+  },
+  "heat_signals": {
+   "reports": 2,
+   "domains": 2,
+   "x_posts_7d": 647,
+   "x_spike_7d": 414
+  }
+ },
+ {
+  "id": "rtx-spark-pcs-available",
+  "title": "NVIDIA：RTX Spark PC 今日开售，主打 128GB 统一内存与本地 AI",
+  "url": "https://nvidianews.nvidia.com/news/nvidia-rtx-spark-pcs-available-today-a-new-beginning-for-windows-pcs",
+  "date": "2026-10-16",
+  "meta": "",
+  "bullets": [
+   "NVIDIA 新闻稿宣布 RTX Spark PC 正式开售，定位 Windows PC 本地 AI 新起点。",
+   "卖点包括约 128GB 统一内存，面向本地推理与 Agent 工作负载。",
+   "承接此前与 Microsoft 合作的 RTX Spark 平台叙事，进入可购买阶段。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "NVIDIA RTX Spark 笔记本今日开售，主打 128GB 统一内存与本地 AI",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-rtx-spark-pcs-available-today-a-new-beginning-for-windows-pcs",
+    "date": "2026-10-16"
+   }
+  ],
+  "score": 66.5,
+  "score_parts": {
+   "industry": 70,
+   "actionable": 75,
+   "heat": 50,
+   "breadth": 60
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 3413,
+   "x_spike_7d": 2498
+  }
+ },
+ {
+  "id": "github-oss-license-ga",
+  "title": "GitHub：开源许可证合规（Open source license compliance）正式 GA",
+  "url": "https://github.blog/changelog/2026-10-16-open-source-license-compliance-generally-available",
+  "date": "2026-10-16",
+  "meta": "",
+  "bullets": [
+   "GitHub Changelog：开源许可证合规能力一般可用（GA）。",
+   "帮助仓库识别与管理依赖许可证风险，面向企业开源治理。",
+   "属开发者平台合规产品化，非模型发布。"
+  ],
+  "links": [
+   {
+    "label": "Official AI",
+    "title": "Open source license compliance generally available",
+    "url": "https://github.blog/changelog/2026-10-16-open-source-license-compliance-generally-available",
+    "date": "2026-10-16"
+   }
+  ],
+  "score": 54.5,
+  "score_parts": {
+   "industry": 55,
+   "actionable": 70,
+   "heat": 30,
+   "breadth": 55
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 20,
+   "x_spike_7d": 20
+  }
+ },
+ {
+  "id": "deepseek-search-api",
+  "title": "DeepSeek 开放自研搜索 API；V4.1 Flash 新版强调 API 自带搜索",
+  "url": "https://api-docs.deepseek.com/zh-cn/updates",
+  "date": "2026-10-17",
+  "meta": "",
+  "bullets": [
+   "DeepSeek API 更新日志开放自研搜索能力，可在调用侧启用检索增强。",
+   "社区同步「V4.1 Flash 新版」叙事：API 自带搜索，降低外挂搜索栈成本。",
+   "对国内可用的低成本「模型+搜索」一体化路径有直接产品意义。"
+  ],
+  "links": [
+   {
+    "label": "AIHot",
+    "title": "DeepSeek 开放自研搜索 API",
+    "url": "https://api-docs.deepseek.com/zh-cn/updates",
+    "date": "2026-10-17"
+   },
+   {
+    "label": "WayToAGI",
+    "title": "DeepSeek V4.1 Flash 新版发布： api 自带搜索能力",
+    "url": "https://waytoagi.feishu.cn/wiki/ZKDtwD6K4ipDl0kApDzcEzqAnde?from=from_copylink",
+    "date": "2026-10-17",
+    "same_event": true
+   }
+  ],
+  "score": 70.7,
+  "score_parts": {
+   "industry": 75,
+   "actionable": 80,
+   "heat": 51,
+   "breadth": 65
+  },
+  "heat_signals": {
+   "reports": 2,
+   "domains": 2,
+   "x_posts_7d": 475,
+   "x_spike_7d": 302
+  }
+ },
+ {
+  "id": "itau-openai-genai",
+  "title": "OpenAI 案例：巴西 Itaú 为全体客户规模化落地生成式 AI",
+  "url": "https://openai.com/index/itau-generative-ai",
+  "date": "2026-10-17",
+  "meta": "",
+  "bullets": [
+   "OpenAI 官方案例介绍巴西银行 Itaú 如何向全体客户铺开生成式 AI。",
+   "重点在金融场景规模化部署与客户触达，而非新模型发布。",
+   "对企业级 GenAI 落地参考价值高，行业热度中等。"
+  ],
+  "links": [
+   {
+    "label": "Official AI",
+    "title": "How Itaú is building generative AI for its entire customer base",
+    "url": "https://openai.com/index/itau-generative-ai",
+    "date": "2026-10-17"
+   }
+  ],
+  "score": 59.0,
+  "score_parts": {
+   "industry": 65,
+   "actionable": 70,
+   "heat": 30,
+   "breadth": 60
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 21,
+   "x_spike_7d": 21
+  }
+ },
+ {
+  "id": "gemini-argon-quota-review",
+  "title": "WayToAGI：用 Gemini 4 Argon 跑完测评后 Pro 额度耗尽",
+  "url": "https://waytoagi.feishu.cn/wiki/Cb2pwsXO7ikJ21ks71McktHwnVe?from=from_copylink",
+  "date": "2026-10-17",
+  "meta": "",
+  "bullets": [
+   "社区实测分享：完整跑完 Gemini 4 Argon 测评后 Google AI Pro 额度用尽。",
+   "侧面反映 Argon 推理/长上下文调用成本与额度消耗。",
+   "属评测体验帖，非官方发布。"
+  ],
+  "links": [
+   {
+    "label": "WayToAGI",
+    "title": "用Gemini 4 Argon跑完这篇测评，我的Pro额度也用完了",
+    "url": "https://waytoagi.feishu.cn/wiki/Cb2pwsXO7ikJ21ks71McktHwnVe?from=from_copylink",
+    "date": "2026-10-17"
+   }
+  ],
+  "score": 44.5,
+  "score_parts": {
+   "industry": 45,
+   "actionable": 55,
+   "heat": 30,
+   "breadth": 40
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "kling-40-tutorial",
+  "title": "可灵 4.0 全流程教程：口播做 AI 短剧并自动剪辑（附提示词）",
+  "url": "https://waytoagi.feishu.cn/wiki/SjKVwu9MuiAIl8kaLE6cyyvunhh?from=from_copylink",
+  "date": "2026-10-17",
+  "meta": "",
+  "bullets": [
+   "WayToAGI 教程覆盖可灵 4.0 从口播到短剧与自动剪辑全流程。",
+   "附提示词，面向创作者上手。",
+   "承接 Kling 4.0 开放后的内容侧教学，非新版本发布。"
+  ],
+  "links": [
+   {
+    "label": "WayToAGI",
+    "title": "动动嘴就能做AI短剧，还能自动剪辑！可灵4.0全流程教程（附提示词）",
+    "url": "https://waytoagi.feishu.cn/wiki/SjKVwu9MuiAIl8kaLE6cyyvunhh?from=from_copylink",
+    "date": "2026-10-17"
+   }
+  ],
+  "score": 47.5,
+  "score_parts": {
+   "industry": 40,
+   "actionable": 70,
+   "heat": 30,
+   "breadth": 45
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "ai-office-charts-guide",
+  "title": "WayToAGI：如何用 AI 制作各类办公图表",
+  "url": "https://waytoagi.feishu.cn/wiki/YRG5wHyrkih3AGkh8V6cv66GnQe?from=from_copylink",
+  "date": "2026-10-17",
+  "meta": "",
+  "bullets": [
+   "社区一文梳理用 AI 生成办公图表的常见路径与技巧。",
+   "偏办公效率教程，受众广但事件热度低。"
+  ],
+  "links": [
+   {
+    "label": "WayToAGI",
+    "title": "一文讲清：如何用 AI 制作各种办公图表",
+    "url": "https://waytoagi.feishu.cn/wiki/YRG5wHyrkih3AGkh8V6cv66GnQe?from=from_copylink",
+    "date": "2026-10-17"
+   }
+  ],
+  "score": 44.5,
+  "score_parts": {
+   "industry": 35,
+   "actionable": 65,
+   "heat": 30,
+   "breadth": 50
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
+  }
+ },
+ {
+  "id": "grok-bot-build-course",
+  "title": "WayToAGI：用 Grok Bot 构建任何东西（完整课程）",
+  "url": "https://waytoagi.feishu.cn/wiki/Fci0wDaBsiLxz5kjw2ic97TTnUc?from=from_copylink",
+  "date": "2026-10-17",
+  "meta": "",
+  "bullets": [
+   "社区发布 Grok Bot 完整课程向内容，演示用其构建各类应用/工作流。",
+   "属教程聚合，非产品功能更新。"
+  ],
+  "links": [
+   {
+    "label": "WayToAGI",
+    "title": "用 Grok Bot 构建任何东西（完整课程）",
+    "url": "https://waytoagi.feishu.cn/wiki/Fci0wDaBsiLxz5kjw2ic97TTnUc?from=from_copylink",
+    "date": "2026-10-17"
+   }
+  ],
+  "score": 46.0,
+  "score_parts": {
+   "industry": 40,
+   "actionable": 65,
+   "heat": 30,
+   "breadth": 45
+  },
+  "heat_signals": {
+   "reports": 1,
+   "domains": 1,
+   "x_posts_7d": 0,
+   "x_spike_7d": 0
   }
  }
 ]
