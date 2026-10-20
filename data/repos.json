@@ -4,8 +4,8 @@
     "name": "rea",
     "desc": "Reverse engineer anything with agents, from app behavior down to native binaries.",
     "lang": "TypeScript",
-    "stars": 335920,
-    "week": 229268,
+    "stars": 341887,
+    "week": 201065,
     "topics": []
   },
   {
@@ -13,44 +13,17 @@
     "name": "VoiceStudio",
     "desc": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
     "lang": "Python",
-    "stars": 77382,
-    "week": 16569,
+    "stars": 78105,
+    "week": 17291,
     "topics": []
   },
   {
-    "full": "cathrynlavery/diagram-design",
-    "name": "diagram-design",
-    "desc": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-    "lang": "HTML",
-    "stars": 58352,
-    "week": 7901,
-    "topics": []
-  },
-  {
-    "full": "ifixai-ai/iFixAi",
-    "name": "iFixAi",
-    "desc": "Independent Auditing of AI Agents. Run by human or the agent itself, to answer the most crucial question in the AI Agent Economy. Is the agent doing what is supposed to do? With iFixAi you can have this answer in less than 120 seconds.",
-    "lang": "Python",
-    "stars": 30073,
-    "week": 6854,
-    "topics": []
-  },
-  {
-    "full": "heygen-com/hyperframes",
-    "name": "hyperframes",
-    "desc": "Write HTML. Render video. Built for agents.",
-    "lang": "TypeScript",
-    "stars": 67602,
-    "week": 5883,
-    "topics": []
-  },
-  {
-    "full": "vxcontrol/pentagi",
-    "name": "pentagi",
-    "desc": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
-    "lang": "Go",
-    "stars": 31321,
-    "week": 5765,
+    "full": "mattpocock/skills",
+    "name": "skills",
+    "desc": "Skills for Real Engineers. Straight from my .agents directory.",
+    "lang": "Shell",
+    "stars": 298020,
+    "week": 9866,
     "topics": []
   },
   {
@@ -58,17 +31,44 @@
     "name": "ai-job-search",
     "desc": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
     "lang": "Python",
-    "stars": 56945,
-    "week": 5742,
+    "stars": 58776,
+    "week": 9073,
+    "topics": []
+  },
+  {
+    "full": "ifixai-ai/iFixAi",
+    "name": "iFixAi",
+    "desc": "Independent Auditing of AI Agents. Run by human or the agent itself, to answer the most crucial question in the AI Agent Economy. Is the agent doing what is supposed to do? With iFixAi you can have this answer in less than 120 seconds.",
+    "lang": "Python",
+    "stars": 30305,
+    "week": 7106,
+    "topics": []
+  },
+  {
+    "full": "cathrynlavery/diagram-design",
+    "name": "diagram-design",
+    "desc": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+    "lang": "HTML",
+    "stars": 58726,
+    "week": 6638,
+    "topics": []
+  },
+  {
+    "full": "heygen-com/hyperframes",
+    "name": "hyperframes",
+    "desc": "Write HTML. Render video. Built for agents.",
+    "lang": "TypeScript",
+    "stars": 68000,
+    "week": 5945,
     "topics": []
   },
   {
     "full": "xerj-org/xerj",
     "name": "xerj",
-    "desc": "XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep (1974 tool). One command indexes code, docs, logs and PDFs for search, RAG, security audits and agent memory, using 40x fewer tokens than grep. It’s durable and can replace ElasticSearch saving you x10 infra costs.",
+    "desc": "Local-first search engine and MCP server for AI agents. One Rust binary indexes code, docs, logs, JSONL/CSV and PDFs for BM25 full-text, vector and hybrid search, code search without grep, agent memory and RAG. Elasticsearch-compatible API; Corpus Hub serves hundreds of reference memory corpora.",
     "lang": "Rust",
-    "stars": 10465,
-    "week": 4925,
+    "stars": 10817,
+    "week": 5573,
     "topics": []
   },
   {
@@ -76,8 +76,17 @@
     "name": "claude-plugins-official",
     "desc": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
     "lang": "Python",
-    "stars": 43157,
-    "week": 4774,
+    "stars": 43280,
+    "week": 5441,
+    "topics": []
+  },
+  {
+    "full": "vxcontrol/pentagi",
+    "name": "pentagi",
+    "desc": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
+    "lang": "Go",
+    "stars": 31428,
+    "week": 5051,
     "topics": []
   },
   {
@@ -85,8 +94,8 @@
     "name": "opencode",
     "desc": "The open source coding agent.",
     "lang": "TypeScript",
-    "stars": 217709,
-    "week": 4593,
+    "stars": 218288,
+    "week": 4917,
     "topics": []
   },
   {
@@ -94,8 +103,17 @@
     "name": "scientific-agent-skills",
     "desc": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
     "lang": "Python",
-    "stars": 52918,
-    "week": 4310,
+    "stars": 53105,
+    "week": 4355,
+    "topics": []
+  },
+  {
+    "full": "obra/superpowers",
+    "name": "superpowers",
+    "desc": "An agentic skills framework & software development methodology that works.",
+    "lang": "Shell",
+    "stars": 302346,
+    "week": 4260,
     "topics": []
   },
   {
@@ -103,17 +121,8 @@
     "name": "context-mode",
     "desc": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
     "lang": "TypeScript",
-    "stars": 31056,
-    "week": 4138,
-    "topics": []
-  },
-  {
-    "full": "Alishahryar1/free-claude-code",
-    "name": "free-claude-code",
-    "desc": "Use Claude Code, Codex, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
-    "lang": "Python",
-    "stars": 61903,
-    "week": 3838,
+    "stars": 31230,
+    "week": 4224,
     "topics": []
   },
   {
@@ -121,17 +130,8 @@
     "name": "freellmapi",
     "desc": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
     "lang": "TypeScript",
-    "stars": 37614,
-    "week": 3815,
-    "topics": []
-  },
-  {
-    "full": "lyogavin/airllm",
-    "name": "airllm",
-    "desc": "AirLLM 2.8T LLM inference with single 4GB GPU",
-    "lang": "Jupyter Notebook",
-    "stars": 39534,
-    "week": 2966,
+    "stars": 37910,
+    "week": 3789,
     "topics": []
   }
 ]
