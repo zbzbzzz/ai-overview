@@ -36,10 +36,10 @@
   },
   "ifixai-ai/iFixAi": {
     "types": [
-      "Agent",
-      "数据与评测"
+      "数据与评测",
+      "Agent"
     ],
-    "updated": "2026-10-21",
+    "updated": "2026-10-22",
     "source": "executor"
   },
   "heygen-com/hyperframes": {
@@ -768,10 +768,10 @@
   "NirDiamant/RAG_Techniques": {
     "types": [
       "数据与评测",
-      "模型与推理"
+      "应用与产品"
     ],
-    "updated": "2026-10-12",
-    "source": "model"
+    "updated": "2026-10-22",
+    "source": "executor"
   },
   "gepa-ai/gepa": {
     "types": [
@@ -799,9 +799,10 @@
   "xerj-org/xerj": {
     "types": [
       "Skill",
-      "开发工具链"
+      "开发工具链",
+      "数据与评测"
     ],
-    "updated": "2026-10-21",
+    "updated": "2026-10-22",
     "source": "executor"
   },
   "EpicGames/unreal-engine-skills-for-claude-code-plugin": {
@@ -1229,9 +1230,10 @@
   },
   "ruvnet/ruflo": {
     "types": [
-      "Agent"
+      "Agent",
+      "数据与评测"
     ],
-    "updated": "2026-10-21",
+    "updated": "2026-10-22",
     "source": "executor"
   },
   "huggingface/transformers": {
@@ -1327,8 +1329,8 @@
       "数据与评测",
       "模型与推理"
     ],
-    "updated": "2026-10-19",
-    "source": "model"
+    "updated": "2026-10-22",
+    "source": "executor"
   },
   "devaccuracy/ledgerforge": {
     "types": [
@@ -1642,9 +1644,10 @@
       "Skill",
       "Agent",
       "模型与推理",
-      "应用与产品"
+      "应用与产品",
+      "数据与评测"
     ],
-    "updated": "2026-10-21",
+    "updated": "2026-10-22",
     "source": "keyword-fallback"
   },
   "mudler/LocalAI": {
@@ -1676,7 +1679,7 @@
       "数据与评测",
       "模型与推理"
     ],
-    "updated": "2026-10-21",
+    "updated": "2026-10-22",
     "source": "executor"
   },
   "wshobson/agents": {
@@ -1707,7 +1710,7 @@
     "types": [
       "数据与评测"
     ],
-    "updated": "2026-10-21",
+    "updated": "2026-10-22",
     "source": "executor"
   },
   "Unity-Technologies/unity-agent-plugin": {
@@ -1733,6 +1736,210 @@
       "开发工具链"
     ],
     "updated": "2026-10-21",
+    "source": "executor"
+  },
+  "DuarteSantos8/openGym": {
+    "types": [
+      "开发工具链"
+    ],
+    "updated": "2026-10-22",
+    "source": "executor"
+  },
+  "harry0703/MoneyPrinterTurbo": {
+    "types": [
+      "应用与产品"
+    ],
+    "updated": "2026-10-22",
+    "source": "executor"
+  },
+  "multica-ai/andrej-karpathy-skills": {
+    "types": [
+      "Skill",
+      "模型与推理"
+    ],
+    "updated": "2026-10-22",
+    "source": "executor"
+  },
+  "emilkowalski/skills": {
+    "types": [
+      "Skill"
+    ],
+    "updated": "2026-10-22",
+    "source": "executor"
+  },
+  "ethanplusai/harvey": {
+    "types": [
+      "Agent"
+    ],
+    "updated": "2026-10-22",
+    "source": "executor"
+  },
+  "localsend/localsend": {
+    "types": [
+      "开发工具链"
+    ],
+    "updated": "2026-10-22",
+    "source": "executor"
+  },
+  "GCWing/OpenBitFun": {
+    "types": [
+      "Agent",
+      "应用与产品",
+      "开发工具链"
+    ],
+    "updated": "2026-10-22",
+    "source": "executor"
+  },
+  "tailscale/tailscale": {
+    "types": [
+      "开发工具链"
+    ],
+    "updated": "2026-10-22",
+    "source": "executor"
+  },
+  "FreeCAD/FreeCAD": {
+    "types": [
+      "开发工具链"
+    ],
+    "updated": "2026-10-22",
+    "source": "executor"
+  },
+  "KittenML/KittenTTS": {
+    "types": [
+      "模型与推理"
+    ],
+    "updated": "2026-10-22",
+    "source": "executor"
+  },
+  "phuryn/pm-skills": {
+    "types": [
+      "Skill",
+      "Agent",
+      "开发工具链"
+    ],
+    "updated": "2026-10-22",
+    "source": "executor"
+  },
+  "chatwoot/chatwoot": {
+    "types": [
+      "开发工具链"
+    ],
+    "updated": "2026-10-22",
+    "source": "executor"
+  },
+  "googleworkspace/cli": {
+    "types": [
+      "Skill",
+      "Agent",
+      "开发工具链"
+    ],
+    "updated": "2026-10-22",
+    "source": "executor"
+  },
+  "ModernRelay/omnigraph": {
+    "types": [
+      "开发工具链",
+      "数据与评测"
+    ],
+    "updated": "2026-10-22",
+    "source": "executor"
+  },
+  "javaht/claude-desktop-zh-cn": {
+    "types": [
+      "应用与产品"
+    ],
+    "updated": "2026-10-22",
+    "source": "executor"
+  },
+  "1lck/Lithe-IDEA": {
+    "types": [
+      "开发工具链"
+    ],
+    "updated": "2026-10-22",
+    "source": "executor"
+  },
+  "iFurySt/open-computer-use": {
+    "types": [
+      "开发工具链"
+    ],
+    "updated": "2026-10-22",
+    "source": "executor"
+  },
+  "altstoreio/AltStore": {
+    "types": [
+      "应用与产品"
+    ],
+    "updated": "2026-10-22",
+    "source": "executor"
+  },
+  "Autumn-27/ScopeSentry": {
+    "types": [
+      "开发工具链"
+    ],
+    "updated": "2026-10-22",
+    "source": "executor"
+  },
+  "go-gitea/gitea": {
+    "types": [
+      "开发工具链"
+    ],
+    "updated": "2026-10-22",
+    "source": "executor"
+  },
+  "AI4Finance-Foundation/FinRL": {
+    "types": [
+      "开发工具链"
+    ],
+    "updated": "2026-10-22",
+    "source": "executor"
+  },
+  "hashicorp/terraform": {
+    "types": [
+      "开发工具链"
+    ],
+    "updated": "2026-10-22",
+    "source": "executor"
+  },
+  "opf/openproject": {
+    "types": [
+      "开发工具链"
+    ],
+    "updated": "2026-10-22",
+    "source": "executor"
+  },
+  "OrcaSlicer/OrcaSlicer": {
+    "types": [
+      "开发工具链"
+    ],
+    "updated": "2026-10-22",
+    "source": "executor"
+  },
+  "opa334/Dopamine": {
+    "types": [
+      "开发工具链"
+    ],
+    "updated": "2026-10-22",
+    "source": "executor"
+  },
+  "agentscope-ai/agentscope-java": {
+    "types": [
+      "Agent"
+    ],
+    "updated": "2026-10-22",
+    "source": "executor"
+  },
+  "auscaster/frantic-board": {
+    "types": [
+      "Agent"
+    ],
+    "updated": "2026-10-22",
+    "source": "executor"
+  },
+  "tisfeng/Easydict": {
+    "types": [
+      "应用与产品"
+    ],
+    "updated": "2026-10-22",
     "source": "executor"
   }
 }

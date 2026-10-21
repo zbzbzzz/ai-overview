@@ -4,8 +4,8 @@
     "name": "rea",
     "desc": "Reverse engineer anything with agents, from app behavior down to native binaries.",
     "lang": "TypeScript",
-    "stars": 347282,
-    "week": 201065,
+    "stars": 357223,
+    "week": 157631,
     "topics": [
       "agent-skills",
       "ai-agents",
@@ -33,10 +33,10 @@
   {
     "full": "debpalash/VoiceStudio",
     "name": "VoiceStudio",
-    "desc": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+    "desc": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription &amp; audiobook creation in 646 languages.",
     "lang": "Python",
-    "stars": 78852,
-    "week": 17291,
+    "stars": 80284,
+    "week": 17057,
     "topics": [
       "ai",
       "audiobook",
@@ -61,34 +61,11 @@
     "url": "https://github.com/debpalash/VoiceStudio"
   },
   {
-    "full": "MadsLorentzen/ai-job-search",
-    "name": "ai-job-search",
-    "desc": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
-    "lang": "Python",
-    "stars": 60335,
-    "week": 12848,
-    "topics": [
-      "ai",
-      "ai-agents",
-      "career",
-      "claude-code",
-      "cover-letter",
-      "cv",
-      "interview-preparation",
-      "job-application",
-      "job-hunting",
-      "job-search",
-      "latex",
-      "resume"
-    ],
-    "url": "https://github.com/MadsLorentzen/ai-job-search"
-  },
-  {
     "full": "mattpocock/skills",
     "name": "skills",
     "desc": "Skills for Real Engineers. Straight from my .agents directory.",
     "lang": "Shell",
-    "stars": 298576,
+    "stars": 299796,
     "week": 9473,
     "topics": [],
     "url": "https://github.com/mattpocock/skills"
@@ -98,7 +75,7 @@
     "name": "orca",
     "desc": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
     "lang": "TypeScript",
-    "stars": 99636,
+    "stars": 101138,
     "week": 8173,
     "topics": [
       "ade",
@@ -129,7 +106,7 @@
     "name": "xerj",
     "desc": "Local-first search engine and MCP server for AI agents. One Rust binary indexes code, docs, logs, JSONL/CSV and PDFs for BM25 full-text, vector and hybrid search, code search without grep, agent memory and RAG. Elasticsearch-compatible API; Corpus Hub serves hundreds of reference memory corpora.",
     "lang": "Rust",
-    "stars": 12406,
+    "stars": 12771,
     "week": 8074,
     "topics": [
       "agent-memory",
@@ -156,30 +133,32 @@
     "url": "https://github.com/xerj-org/xerj"
   },
   {
-    "full": "cathrynlavery/diagram-design",
-    "name": "diagram-design",
-    "desc": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-    "lang": "HTML",
-    "stars": 58949,
-    "week": 6638,
+    "full": "DietrichGebert/ponytail",
+    "name": "ponytail",
+    "desc": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+    "lang": "JavaScript",
+    "stars": 171464,
+    "week": 7812,
     "topics": [
       "agent-skills",
+      "ai-agents",
+      "claude",
       "claude-code",
-      "codex",
-      "data-visualization",
-      "diagrams",
-      "drawio",
-      "mermaid",
-      "svg"
+      "claude-code-plugin",
+      "cursor-rules",
+      "developer-tools",
+      "llm",
+      "prompt-engineering",
+      "yagni"
     ],
-    "url": "https://github.com/cathrynlavery/diagram-design"
+    "url": "https://github.com/DietrichGebert/ponytail"
   },
   {
     "full": "heygen-com/hyperframes",
     "name": "hyperframes",
     "desc": "Write HTML. Render video. Built for agents.",
     "lang": "TypeScript",
-    "stars": 68435,
+    "stars": 69165,
     "week": 5994,
     "topics": [
       "ai",
@@ -205,40 +184,42 @@
     "name": "opencode",
     "desc": "The open source coding agent.",
     "lang": "TypeScript",
-    "stars": 218826,
+    "stars": 219632,
     "week": 5792,
     "topics": [],
     "url": "https://github.com/anomalyco/opencode"
   },
   {
-    "full": "ifixai-ai/iFixAi",
-    "name": "iFixAi",
-    "desc": "Independent Auditing of AI Agents. Run by human or the agent itself, to answer the most crucial question in the AI Agent Economy. Is the agent doing what is supposed to do? With iFixAi you can have this answer in less than 120 seconds.",
+    "full": "anthropics/claude-plugins-official",
+    "name": "claude-plugins-official",
+    "desc": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
     "lang": "Python",
-    "stars": 30628,
-    "week": 5712,
+    "stars": 43617,
+    "week": 5650,
     "topics": [
-      "agent-evaluation",
-      "ai",
-      "ai-alignment",
-      "ai-evaluation",
-      "ai-governance",
-      "ai-safety",
-      "cli",
-      "diagnostic-tool",
-      "eu-ai-act",
-      "hallucination-detection",
-      "iso-42001",
-      "llm-evaluation",
-      "llm-security",
-      "nist-ai-rmf",
-      "owasp-llm",
-      "prompt-injection",
-      "python",
-      "responsible-ai",
-      "risk-assessment",
-      "risk-management"
+      "claude-code",
+      "mcp",
+      "skills"
     ],
-    "url": "https://github.com/ifixai-ai/iFixAi"
+    "url": "https://github.com/anthropics/claude-plugins-official"
+  },
+  {
+    "full": "cathrynlavery/diagram-design",
+    "name": "diagram-design",
+    "desc": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+    "lang": "HTML",
+    "stars": 59494,
+    "week": 5473,
+    "topics": [
+      "agent-skills",
+      "claude-code",
+      "codex",
+      "data-visualization",
+      "diagrams",
+      "drawio",
+      "mermaid",
+      "svg"
+    ],
+    "url": "https://github.com/cathrynlavery/diagram-design"
   }
 ]
