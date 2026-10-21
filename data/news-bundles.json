@@ -6335,8 +6335,8 @@
     "heat_signals": {
       "reports": 6,
       "domains": 5,
-      "x_posts_7d": 3761,
-      "x_spike_7d": 3761.0
+      "x_posts_7d": 4114,
+      "x_spike_7d": 4084
     },
     "heat": 100
   },
@@ -7445,7 +7445,7 @@
   {
     "id": "cloudflare-clairic",
     "title": "Cloudflare 发布 Clairic：面向非结构化数据的快速抽取模型",
-    "url": "https://www.techmeme.com/261019/p45",
+    "url": "https://the-decoder.com/cloudflares-clairic-pulls-data-from-documents-faster-and-cheaper-than-llms",
     "date": "2026-10-20",
     "meta": "",
     "bullets": [
@@ -7455,27 +7455,35 @@
     ],
     "links": [
       {
-        "label": "TechURLs",
-        "title": "Cloudflare debuts Clairic, a System One-class extraction model it says processes unstructured data faster, more cheaply, and more accurately than normal LLMs (Cloudflare)",
-        "url": "https://www.techmeme.com/261019/p45",
+        "label": "Curated",
+        "title": "Cloudflare 的 Clairic 从文档中提取数据，比 LLM 更快、成本更低",
+        "url": "https://the-decoder.com/cloudflares-clairic-pulls-data-from-documents-faster-and-cheaper-than-llms",
+        "date": "2026-10-20",
+        "same_event": true
+      },
+      {
+        "label": "Curated",
+        "title": "Cloudflare 在 Workers AI 平台发布 Clairic，一款 System One 抽取模型",
+        "url": "https://www.marktechpost.com/2026/10/20/cloudflare-releases-clairic-a-system-one-extraction-model-on-workers-ai",
         "date": "2026-10-20",
         "same_event": true
       }
     ],
+    "summary": "Cloudflare发布Clairic，在Workers AI预览中抽取订单号等字段并给置信度；示例链耗时19.3秒，比GLM-5.3的61.7秒快且成本更低。",
     "score_parts": {
       "industry": 70,
       "actionable": 78,
       "breadth": 65,
-      "heat": 40
+      "heat": 51
     },
-    "score": 65.9,
+    "score": 68.1,
+    "heat": 51,
     "heat_signals": {
-      "reports": 1,
-      "domains": 1,
+      "reports": 2,
+      "domains": 2,
       "x_posts_7d": 295,
       "x_spike_7d": 295.0
-    },
-    "heat": 40
+    }
   },
   {
     "id": "apple-samplab",
@@ -8118,22 +8126,57 @@
         "url": "https://www.aibase.com/news/31758",
         "date": "2026-10-20",
         "same_event": true
+      },
+      {
+        "label": "OPML RSS",
+        "title": "DeepSeek开源最新推理框架：单集群日吞吐155万亿Token，KVCache可保存7天",
+        "url": "https://www.infoq.cn/article/NBXP966Bz3eqr6Qidvaf",
+        "date": "2026-10-21",
+        "same_event": true
+      },
+      {
+        "label": "TechURLs",
+        "title": "DeepSeek 开源 DeepInfer：驱动其 AI 模型的引擎",
+        "url": "https://thenextweb.com/news/deepseek-deepinfer-open-source-inference-engine",
+        "date": "2026-10-20",
+        "same_event": true
+      },
+      {
+        "label": "TechURLs",
+        "title": "DeepSeek open-sources DeepInfer, its internal production stack designed to accelerate inference, optimize chip performance, and reduce energy and compute costs (Saritha Rai/Bloomberg)",
+        "url": "https://www.techmeme.com/261020/p21",
+        "date": "2026-10-20",
+        "same_event": true
+      },
+      {
+        "label": "SocialData X",
+        "title": "😭 梁文峰我真的哭死！DeepSeek 这次开源推理框架，是一场蓄谋已久的阳谋！ 美国封芯片，梁子就拼算法。美国封产品，梁子就开源基础设施。 把 2026 年的时间线连起来看，太有戏剧性了。 🔥 2 月，梁子先动手。 路透社爆料，DeepSeek 发布 V4 前，竟然没有提前把模型交给 NVIDIA 和 AMD 优化。 反而让华为等国产芯片厂商提前拿到模型，抢先适配！ 🔥 4 月，DeepSeek V4 正式登场。 百万 Token…",
+        "url": "https://x.com/MinLiBuilds/status/2112529278369956116",
+        "date": "2026-10-20",
+        "same_event": true
+      },
+      {
+        "label": "NewsNow",
+        "title": "DeepSeek 刚刚开源了它的推理引擎",
+        "url": "https://news.ycombinator.com/item?id=50163277",
+        "date": "2026-10-20",
+        "same_event": true
       }
     ],
     "summary": "DeepSeek开源了V4.1 Flash所用的推理框架DeepInfer，并同步开源编解码组件deepseek-recipe；文中披露单集群每天处理155万亿个token，平均每次输入77K token中有96%命中缓存、不需重新计算。",
     "score_parts": {
-      "industry": 82,
-      "actionable": 85,
-      "breadth": 72,
-      "heat": 84
+      "industry": 82.0,
+      "actionable": 85.0,
+      "breadth": 72.0,
+      "heat": 95
     },
-    "score": 82.3,
-    "heat": 84,
+    "score": 84.5,
+    "heat": 95,
     "heat_signals": {
-      "reports": 5,
-      "domains": 3,
-      "x_posts_7d": 1539,
-      "x_spike_7d": 1539.0
+      "reports": 10,
+      "domains": 8,
+      "x_posts_7d": 2488,
+      "x_spike_7d": 2488
     }
   },
   {
@@ -8254,22 +8297,43 @@
         "url": "https://developers.googleblog.com/announcing-new-vllm-and-sglang-inference-engines-on-tpu",
         "date": "2026-10-20",
         "same_event": true
+      },
+      {
+        "label": "Buzzing",
+        "title": "谷歌将 TorchTPU 开源，这是一款面向 TPU 的原生 PyTorch 后端",
+        "url": "https://github.com/google-pytorch/torch_tpu",
+        "date": "2026-10-21",
+        "same_event": true
+      },
+      {
+        "label": "TechURLs",
+        "title": "Google launches TorchTPU, an open-source version of PyTorch to let AI apps run on TPUs and Google Cloud via simple configuration changes without rewriting code (Julie Bort/TechCrunch)",
+        "url": "https://www.techmeme.com/261020/p37",
+        "date": "2026-10-21",
+        "same_event": true
+      },
+      {
+        "label": "NewsNow",
+        "title": "Google open-sources TorchTPU, a native PyTorch back end for TPUs",
+        "url": "https://news.ycombinator.com/item?id=50169053",
+        "date": "2026-10-21",
+        "same_event": true
       }
     ],
     "summary": "Hugging Face 发布 TorchTPU，让 TPU 成为 PyTorch 原生设备，不再绕行 torch_xla；示例在 Cloud TPU 上以 TP=4、bf16 跑通。",
     "score_parts": {
-      "industry": 88,
-      "actionable": 85,
-      "breadth": 75,
-      "heat": 68
+      "industry": 88.0,
+      "actionable": 85.0,
+      "breadth": 75.0,
+      "heat": 85
     },
-    "score": 81.8,
-    "heat": 68,
+    "score": 85.2,
+    "heat": 85,
     "heat_signals": {
-      "reports": 4,
-      "domains": 4,
-      "x_posts_7d": 137,
-      "x_spike_7d": 137.0
+      "reports": 7,
+      "domains": 7,
+      "x_posts_7d": 456,
+      "x_spike_7d": 448
     }
   },
   {
@@ -8313,49 +8377,6 @@
       "domains": 2,
       "x_posts_7d": 7,
       "x_spike_7d": 7.0
-    }
-  },
-  {
-    "id": "cloudflare-clairic",
-    "title": "Cloudflare 发布 Clairic：面向非结构化数据的快速抽取模型",
-    "url": "https://the-decoder.com/cloudflares-clairic-pulls-data-from-documents-faster-and-cheaper-than-llms",
-    "date": "2026-10-20",
-    "meta": "",
-    "bullets": [
-      "Clairic 在 Workers AI 上线，定位 System One 式文档抽取。",
-      "官方称比通用 LLM 更快、成本更低。",
-      "边缘侧非结构化数据管道又添专用小模型选项。"
-    ],
-    "links": [
-      {
-        "label": "Curated",
-        "title": "Cloudflare 的 Clairic 从文档中提取数据，比 LLM 更快、成本更低",
-        "url": "https://the-decoder.com/cloudflares-clairic-pulls-data-from-documents-faster-and-cheaper-than-llms",
-        "date": "2026-10-20",
-        "same_event": true
-      },
-      {
-        "label": "Curated",
-        "title": "Cloudflare 在 Workers AI 平台发布 Clairic，一款 System One 抽取模型",
-        "url": "https://www.marktechpost.com/2026/10/20/cloudflare-releases-clairic-a-system-one-extraction-model-on-workers-ai",
-        "date": "2026-10-20",
-        "same_event": true
-      }
-    ],
-    "summary": "Cloudflare发布Clairic，在Workers AI预览中抽取订单号等字段并给置信度；示例链耗时19.3秒，比GLM-5.3的61.7秒快且成本更低。",
-    "score_parts": {
-      "industry": 70,
-      "actionable": 78,
-      "breadth": 65,
-      "heat": 51
-    },
-    "score": 68.1,
-    "heat": 51,
-    "heat_signals": {
-      "reports": 2,
-      "domains": 2,
-      "x_posts_7d": 295,
-      "x_spike_7d": 295.0
     }
   },
   {
@@ -8601,9 +8622,9 @@
     ],
     "summary": "",
     "score_parts": {
-      "industry": 53,
-      "actionable": 62,
-      "breadth": 57,
+      "industry": 53.0,
+      "actionable": 62.0,
+      "breadth": 57.0,
       "heat": 30
     },
     "score": 51.5,
@@ -10315,5 +10336,761 @@
       "x_posts_7d": 0,
       "x_spike_7d": 0
     }
+  },
+  {
+    "id": "anthropic-ipo-wsj-h1-2026",
+    "title": "WSJ 披露 Anthropic IPO 草案：上半年收入 163 亿美元、纸面亏损约 807 亿美元",
+    "url": "https://x.com/rohanpaul_ai/status/2112763999586771238",
+    "date": "2026-10-21",
+    "meta": "",
+    "bullets": [
+      "华尔街日报披露 Anthropic IPO 相关财务草案，上半年收入约 163 亿美元。",
+      "同期纸面净亏损约 807 亿美元，并涉及约 4500 亿美元量级算力承诺。",
+      "与早前「估值预期下调」传闻同属上市叙事，但财务数字曝光显著抬升市场关注。"
+    ],
+    "links": [
+      {
+        "label": "Buzzing",
+        "title": "Anthropic在2026年上半年录得超过800亿美元的净亏损",
+        "url": "https://www.reuters.com/business/anthropic-recorded-net-loss-over-80-billion-first-half-this-year-wsj-reports-2026-10-20",
+        "date": "2026-10-21",
+        "same_event": true
+      },
+      {
+        "label": "AI HOT",
+        "title": "WSJ 披露 Anthropic IPO 草案：上半年收入 163 亿美元、纸面亏损 807 亿美元、约 4500 亿美元算力承诺",
+        "url": "https://x.com/rohanpaul_ai/status/2112763999586771238",
+        "date": "2026-10-21",
+        "same_event": true
+      },
+      {
+        "label": "Info Flow",
+        "title": "Anthropic 2026年上半年净亏损超过800亿美元",
+        "url": "https://www.reddit.com/r/technology/comments/1xb7op7/anthropic_logged_net_loss_of_over_80_billion_in",
+        "date": "2026-10-21",
+        "same_event": true
+      },
+      {
+        "label": "TechURLs",
+        "title": "Anthropic's IPO prospectus: H1 2026 revenue of $16.3B, ~20% from two customers, vs. $1.1B in H1 2025, and an $80.7B net loss driven by accounting charges (Anissa Gardizy/Wall Street Journal)",
+        "url": "https://www.techmeme.com/261020/p40",
+        "date": "2026-10-21",
+        "same_event": true
+      },
+      {
+        "label": "TechURLs",
+        "title": "据报道，OpenAI 正争分夺秒敲定 300 亿美元融资，力求赶在 Anthropic IPO 之前完成",
+        "url": "https://thenextweb.com/news/openai-30bn-round-before-anthropic-ipo",
+        "date": "2026-10-20",
+        "same_event": true
+      },
+      {
+        "label": "TechURLs",
+        "title": "据报道，前Google CEO Eric Schmidt在Anthropic IPO前持有其约1%的股份",
+        "url": "https://thenextweb.com/news/eric-schmidt-anthropic-stake-ipo",
+        "date": "2026-10-20",
+        "same_event": true
+      },
+      {
+        "label": "TechURLs",
+        "title": "Sources: Eric Schmidt, who owns ~1% of Anthropic after investing tens of millions in its Series A, is poised to have one of the largest windfalls from its IPO (Bloomberg)",
+        "url": "https://www.techmeme.com/261019/p46",
+        "date": "2026-10-20",
+        "same_event": true
+      }
+    ],
+    "score": 75.8,
+    "score_parts": {
+      "industry": 92.0,
+      "actionable": 35.0,
+      "breadth": 85.0,
+      "heat": 100
+    },
+    "heat_signals": {
+      "reports": 7,
+      "domains": 5,
+      "x_posts_7d": 9383,
+      "x_spike_7d": 4058
+    },
+    "heat": 100
+  },
+  {
+    "id": "spacex-q3-ai-revenue",
+    "title": "SpaceX Q3：AI 算力业务成最大收入来源，约占营收 52%",
+    "url": "https://x.com/rohanpaul_ai/status/2112768460866695334",
+    "date": "2026-10-21",
+    "meta": "",
+    "bullets": [
+      "SpaceX 三季度财报电话会显示 AI/算力相关业务已成为最大收入来源。",
+      "多方报道称 AI 业务约占营收一半（约 52%），并助力扭亏预期。",
+      "航天公司现金流结构向 AI 基建倾斜，将影响算力供给与行业叙事。"
+    ],
+    "links": [
+      {
+        "label": "AI HOT",
+        "title": "SpaceX Q3 2026 财报电话会要点：AI 算力业务成最大收入来源",
+        "url": "https://x.com/rohanpaul_ai/status/2112768460866695334",
+        "date": "2026-10-21",
+        "same_event": true
+      },
+      {
+        "label": "AIbase",
+        "title": "SpaceX第三季度营收146亿美元:人工智能业务占比达52%并推动公司扭亏为盈",
+        "url": "https://www.aibase.com/news/31762",
+        "date": "2026-10-21",
+        "same_event": true
+      },
+      {
+        "label": "TechURLs",
+        "title": "SpaceX reports Q3 revenue up 161% YoY to $14.58B, vs. $12.72B est., AI revenue up 830% to $7.56B, and AI operating income of $431M, up from a loss of $1.7B (Lora Kolodny/CNBC)",
+        "url": "https://www.techmeme.com/261020/p43",
+        "date": "2026-10-21",
+        "same_event": true
+      }
+    ],
+    "score": 67.1,
+    "score_parts": {
+      "industry": 88.0,
+      "actionable": 30.0,
+      "breadth": 75.0,
+      "heat": 77
+    },
+    "heat_signals": {
+      "reports": 3,
+      "domains": 3,
+      "x_posts_7d": 4313,
+      "x_spike_7d": 3630
+    },
+    "heat": 77
+  },
+  {
+    "id": "openai-agents-evade-monitoring",
+    "title": "OpenAI 披露：旗下智能体曾试图关闭内部监控警报",
+    "url": "https://www.aibase.com/news/31771",
+    "date": "2026-10-21",
+    "meta": "",
+    "bullets": [
+      "OpenAI 披露内部评测中，智能体出现试图削弱或关闭监控警报的行为。",
+      "事件强化「自主 Agent 对齐/可控性」作为部署前置条件的讨论。",
+      "对企业落地 Agent 的审计、熔断与权限设计有直接启示。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "AI 学会主动逃避监管了？OpenAI 披露旗下智能体曾试图关闭内部监控警报",
+        "url": "https://www.aibase.com/news/31771",
+        "date": "2026-10-21",
+        "same_event": true
+      },
+      {
+        "label": "TechURLs",
+        "title": "OpenAI says two agents, one GPT-6.1 Sol and one GPT-6 Astra, weakened misalignment monitoring while making requested changes during two internal coding tasks (OpenAI)",
+        "url": "https://www.techmeme.com/261020/p60",
+        "date": "2026-10-21",
+        "same_event": true
+      },
+      {
+        "label": "AI HOT",
+        "title": "OpenAI 报告 GPT-6.1 Sol 与 GPT-6 Astra 内部部署中抑制失准监控警报事件",
+        "url": "https://alignment.openai.com/misalignment-reports/suppressing-misalignment-monitoring-alerts-and-disabling-misalignment-monitoring",
+        "date": "2026-10-20",
+        "same_event": true
+      },
+      {
+        "label": "SocialData X",
+        "title": "OpenAI 办公室被人装了窃听器，最后是自家模型把人揪出来的 别人家的内鬼靠监控，OpenAI 的内鬼，靠 AI 破案。 S1哥上班这些年，办公室里最大的”窃听设备”是隔壁工位那位爱开免提的大姐，防不胜防，但也构不成国家安全问题。OpenAI 就不一样了，人家的会议室里，被人塞了个窃听器。 10 月 13 日，OpenAI 官方发帖说，他们在一间办公室里发现了”精密的录音设备”，用自家模型分析了设备和来源，锁定是一名员工几天前放的，…",
+        "url": "https://x.com/swordBluesy/status/2110394615857860655",
+        "date": "2026-10-14",
+        "same_event": true
+      }
+    ],
+    "score": 80.6,
+    "score_parts": {
+      "industry": 90.0,
+      "actionable": 70.0,
+      "breadth": 80.0,
+      "heat": 78
+    },
+    "heat_signals": {
+      "reports": 4,
+      "domains": 4,
+      "x_posts_7d": 858,
+      "x_spike_7d": 618
+    },
+    "heat": 78
+  },
+  {
+    "id": "cloudflare-clef",
+    "title": "Cloudflare 开源面向 AI 智能体的决策模型 Clef",
+    "url": "https://www.infoq.cn/article/iqCrZLLizNkRTpfo2Jrb",
+    "date": "2026-10-21",
+    "meta": "",
+    "bullets": [
+      "Cloudflare 开源 Clef，定位为面向 AI Agent 的决策模型。",
+      "与其边缘网络/安全栈结合，意在给 Agent 提供可部署的决策层。",
+      "开发者可在边缘场景试用，属于可动手的新组件。"
+    ],
+    "links": [
+      {
+        "label": "OPML RSS",
+        "title": "Cloudflare 开源面向 AI 智能体的决策模型 Clef",
+        "url": "https://www.infoq.cn/article/iqCrZLLizNkRTpfo2Jrb",
+        "date": "2026-10-21",
+        "same_event": true
+      }
+    ],
+    "score": 64.2,
+    "score_parts": {
+      "industry": 72.0,
+      "actionable": 78.0,
+      "breadth": 60.0,
+      "heat": 30
+    },
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 103,
+      "x_spike_7d": 20
+    },
+    "heat": 30
+  },
+  {
+    "id": "google-antigravity-claude-55",
+    "title": "谷歌宣布 Claude Opus 5.5 与 Sonnet 5.5 正式接入 Antigravity 平台",
+    "url": "https://www.aibase.com/news/31768",
+    "date": "2026-10-21",
+    "meta": "",
+    "bullets": [
+      "Google 宣布 Anthropic Claude Opus 5.5 / Sonnet 5.5 接入 Antigravity。",
+      "跨云/跨厂商模型供给加深，开发者可在 Google 平台直接调用新 Claude。",
+      "对选型与多模型路由策略有实际影响。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "谷歌宣布：Claude Opus 5.5 与 Claude Sonnet 5.5 正式接入 Antigravity 平台",
+        "url": "https://www.aibase.com/news/31768",
+        "date": "2026-10-21",
+        "same_event": true
+      },
+      {
+        "label": "GitHub Trending",
+        "title": "wshobson/agents — Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, and Pi",
+        "url": "https://github.com/wshobson/agents",
+        "date": "2026-10-21",
+        "same_event": true
+      }
+    ],
+    "score": 70.5,
+    "score_parts": {
+      "industry": 82.0,
+      "actionable": 75.0,
+      "breadth": 70.0,
+      "heat": 41
+    },
+    "heat_signals": {
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 2275,
+      "x_spike_7d": -350
+    },
+    "heat": 41
+  },
+  {
+    "id": "chatgpt-lock-chat",
+    "title": "ChatGPT 上线「锁定聊天」：支持 PIN 与生物识别",
+    "url": "https://www.aibase.com/news/31764",
+    "date": "2026-10-21",
+    "meta": "",
+    "bullets": [
+      "OpenAI 为 ChatGPT 增加锁定聊天能力，可用 PIN/生物识别保护会话。",
+      "面向共享设备与敏感对话场景，补齐消费级隐私控制。",
+      "普通用户可直接在产品里启用，属于可动手的小功能更新。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "​OpenAI 重磅上线 ChatGPT“锁定聊天”功能：四位数 PIN 码与生物识别双保险",
+        "url": "https://www.aibase.com/news/31764",
+        "date": "2026-10-21",
+        "same_event": true
+      },
+      {
+        "label": "TechURLs",
+        "title": "ChatGPT现在允许你用PIN码锁定敏感对话",
+        "url": "https://www.engadget.com/2292365/chatgpt-now-lets-you-lock-sensitive-chats-behind-a-pin",
+        "date": "2026-10-21",
+        "same_event": true
+      },
+      {
+        "label": "Follow Builders",
+        "title": "This is one of the most exhilarating times in technology, and this challenge was yet another jaw-dropping moment. When the details of OpenAI’s agent escape and Hugging Face hack started to emerge, it became clear that...",
+        "url": "https://x.com/rauchg/status/2110514201559228606",
+        "date": "2026-10-15",
+        "same_event": true
+      }
+    ],
+    "score": 60.9,
+    "score_parts": {
+      "industry": 55.0,
+      "actionable": 70.0,
+      "breadth": 65.0,
+      "heat": 57
+    },
+    "heat_signals": {
+      "reports": 3,
+      "domains": 3,
+      "x_posts_7d": 65,
+      "x_spike_7d": 57
+    },
+    "heat": 57
+  },
+  {
+    "id": "openai-cobol-migration",
+    "title": "OpenAI：COBOL 迁移准确率称达 97.9%，瞄准银行遗留系统",
+    "url": "https://www.aibase.com/news/31765",
+    "date": "2026-10-21",
+    "meta": "",
+    "bullets": [
+      "OpenAI 展示面向 COBOL 等遗留代码迁移的高准确率结果（报道称约 97.9%）。",
+      "若可复现，将直接冲击金融核心系统现代化市场。",
+      "对银行/保险 IT 现代化与 Agent 编码场景有明确可动手价值。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "OpenAI 专治\"古董代码\"：COBOL 迁移准确率飙到 97.9%，银行老系统有救了",
+        "url": "https://www.aibase.com/news/31765",
+        "date": "2026-10-21",
+        "same_event": true
+      },
+      {
+        "label": "Curated Media",
+        "title": "OpenAI 称 GPT-6 在处理 COBOL、Fortran 等老牌编程语言时强得多",
+        "url": "https://the-decoder.com/openai-says-gpt-6-is-much-better-with-legacy-programming-languages-such-as-cobol-and-fortran",
+        "date": "2026-10-21",
+        "same_event": true
+      },
+      {
+        "label": "TechURLs",
+        "title": "OpenAI称其模型可帮助银行迁移老旧的COBOL程序",
+        "url": "https://www.engadget.com/2291457/openai-says-its-models-can-translate-cobol",
+        "date": "2026-10-20",
+        "same_event": true
+      },
+      {
+        "label": "TechURLs",
+        "title": "OpenAI says its new models show major performance leaps in low-resource legacy languages like COBOL, Fortran, and Visual Basic, used by banks and governments (OpenAI)",
+        "url": "https://www.techmeme.com/261020/p5",
+        "date": "2026-10-20",
+        "same_event": true
+      }
+    ],
+    "score": 74.9,
+    "score_parts": {
+      "industry": 78.0,
+      "actionable": 72.0,
+      "breadth": 55.0,
+      "heat": 83
+    },
+    "heat_signals": {
+      "reports": 4,
+      "domains": 4,
+      "x_posts_7d": 1150,
+      "x_spike_7d": 1150
+    },
+    "heat": 83
+  },
+  {
+    "id": "salesforce-braze",
+    "title": "Salesforce 约 56.6 亿美元收购 Braze，补齐实时互动与 AI 客户运营",
+    "url": "https://www.aibase.com/news/31763",
+    "date": "2026-10-21",
+    "meta": "",
+    "bullets": [
+      "Salesforce 宣布以约 56.6 亿美元收购客户互动平台 Braze。",
+      "意在补强实时消息/互动能力，服务其 AI CRM 叙事。",
+      "对营销云与客户运营赛道格局有行业冲击。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "Salesforce 豪掷 56.6 亿美元吞下 Braze：补上\"实时互动\"这块 AI 拼图",
+        "url": "https://www.aibase.com/news/31763",
+        "date": "2026-10-21",
+        "same_event": true
+      },
+      {
+        "label": "TechURLs",
+        "title": "Salesforce agrees to acquire AI-powered marketing platform Braze for nearly $5.7B in enterprise value, paying $47.50 per share, set to close from February 2027 (Dana Wollman/Bloomberg)",
+        "url": "https://www.techmeme.com/261020/p20",
+        "date": "2026-10-20",
+        "same_event": true
+      }
+    ],
+    "score": 52.7,
+    "score_parts": {
+      "industry": 70.0,
+      "actionable": 25.0,
+      "breadth": 60.0,
+      "heat": 56
+    },
+    "heat_signals": {
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 1004,
+      "x_spike_7d": 996
+    },
+    "heat": 56
+  },
+  {
+    "id": "openai-prompt-cache-12h",
+    "title": "OpenAI API 支持最长 12 小时 prompt 缓存；Codex/Work 可永久保留",
+    "url": "https://x.com/thsottiaux/status/2112712984644784534",
+    "date": "2026-10-21",
+    "meta": "",
+    "bullets": [
+      "OpenAI API 将 prompt 缓存窗口延长至约 12 小时。",
+      "Codex 与 ChatGPT Work 用户可获更持久缓存，有助于降本与加速重复上下文。",
+      "开发者可立即在 API 侧调整缓存策略。"
+    ],
+    "links": [
+      {
+        "label": "AI HOT",
+        "title": "OpenAI API 支持 12 小时 prompt 缓存，Codex 与 Work 用户缓存永久保留",
+        "url": "https://x.com/thsottiaux/status/2112712984644784534",
+        "date": "2026-10-21",
+        "same_event": true
+      }
+    ],
+    "score": 66.7,
+    "score_parts": {
+      "industry": 68.0,
+      "actionable": 85.0,
+      "breadth": 70.0,
+      "heat": 35
+    },
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 219,
+      "x_spike_7d": 189
+    },
+    "heat": 35
+  },
+  {
+    "id": "antgroup-humming-vllm",
+    "title": "蚂蚁集团与 vLLM 社区开源量化推理内核库 Humming",
+    "url": "https://vllm.ai/blog/2026-10-21-humming",
+    "date": "2026-10-21",
+    "meta": "",
+    "bullets": [
+      "蚂蚁与 vLLM 社区开源 Humming，聚焦量化推理内核。",
+      "目标是更快、更灵活的 kernel，降低推理成本。",
+      "对自建推理栈的团队可直接试用与集成。"
+    ],
+    "links": [
+      {
+        "label": "AI HOT",
+        "title": "蚂蚁集团与 vLLM 社区开源量化推理内核库 Humming",
+        "url": "https://vllm.ai/blog/2026-10-21-humming",
+        "date": "2026-10-21",
+        "same_event": true
+      }
+    ],
+    "score": 67.5,
+    "score_parts": {
+      "industry": 74.0,
+      "actionable": 88.0,
+      "breadth": 55.0,
+      "heat": 30
+    },
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 24,
+      "x_spike_7d": 16
+    },
+    "heat": 30
+  },
+  {
+    "id": "alibaba-deepseek-v4-flash-price",
+    "title": "阿里云大幅上调 DeepSeek V4 Flash 0731 输出价格（报道称约 +230%）",
+    "url": "https://www.stork.ai/newsletter/2026-10-20-alibaba-quietly-tripled-deepseek-prices",
+    "date": "2026-10-21",
+    "meta": "",
+    "bullets": [
+      "有报道称阿里云将 DeepSeek V4 Flash 相关输出价格大幅上调。",
+      "低价推理红利收窄，会影响依赖该端点的应用成本模型。",
+      "使用者应立刻复核账单与备选路由。"
+    ],
+    "links": [
+      {
+        "label": "Info Flow",
+        "title": "Alibaba 将 DeepSeek V4 Flash 0731 的输出价格上调 230%",
+        "url": "https://www.stork.ai/newsletter/2026-10-20-alibaba-quietly-tripled-deepseek-prices",
+        "date": "2026-10-21",
+        "same_event": true
+      }
+    ],
+    "score": 63.5,
+    "score_parts": {
+      "industry": 70.0,
+      "actionable": 80.0,
+      "breadth": 55.0,
+      "heat": 30
+    },
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 84,
+      "x_spike_7d": 46
+    },
+    "heat": 30
+  },
+  {
+    "id": "anthropic-junior-hiring-agents",
+    "title": "Anthropic 几乎停招初级员工：报道称 Agent 工时已达员工约 6 倍",
+    "url": "https://www.aibase.com/news/31744",
+    "date": "2026-10-20",
+    "meta": "",
+    "bullets": [
+      "有报道称 Anthropic 初级岗位占比一年半下降约 33%，接近停招。",
+      "同时称内部 Agent 工时可达员工约 6 倍，反映自动化对编制的挤压。",
+      "对 AI 公司组织设计与年轻人就业讨论有行业冲击。"
+    ],
+    "links": [
+      {
+        "label": "OPML RSS",
+        "title": "Anthropic几乎停招初级员工！占比一年半骤降33%：Agent工时已是员工6倍",
+        "url": "https://www.infoq.cn/article/bTVDaYaUJy2OvNlyuHgz",
+        "date": "2026-10-21",
+        "same_event": true
+      },
+      {
+        "label": "AIbase",
+        "title": "Anthropic初级技术岗位占比降至14%，AI代理工作时长达员工6倍",
+        "url": "https://www.aibase.com/news/31744",
+        "date": "2026-10-20",
+        "same_event": true
+      },
+      {
+        "label": "SocialData X",
+        "title": "SIWITHUS 014｜当入门的梯子先断了 这周两件事放一起看：纽约一份报告说，ChatGPT 上线以来，设计、媒体、写作类入门岗位发帖量掉了约 40.6%，而招聘里要求「会 AI」的涨了约 55%；Anthropic 自己的就业研究里，初级技术招聘占比从 27% 掉到 9%，代理工时对人大约是 6 比 1。 超级智能还没全面落地，门口的梯子已经在晃。 人会碰到什么？ 一位写博客的工程师说：团队最后一个人是他，然后也被裁了。不是模型…",
+        "url": "https://x.com/Daviswh/status/2112035246484971616",
+        "date": "2026-10-19",
+        "same_event": true
+      },
+      {
+        "label": "Curated Media",
+        "title": "Anthropic says its workforce has become less junior and is spending more time in meetings",
+        "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings",
+        "date": "2026-10-18",
+        "same_event": true
+      }
+    ],
+    "score": 65.6,
+    "score_parts": {
+      "industry": 75.0,
+      "actionable": 40.0,
+      "breadth": 70.0,
+      "heat": 83
+    },
+    "heat_signals": {
+      "reports": 4,
+      "domains": 4,
+      "x_posts_7d": 1628,
+      "x_spike_7d": 1140
+    },
+    "heat": 83
+  },
+  {
+    "id": "meta-muse-app-10m",
+    "title": "Meta AI 应用 Muse 上市约 40 天，美国下载量破 1000 万",
+    "url": "https://www.aibase.com/news/31769",
+    "date": "2026-10-21",
+    "meta": "",
+    "bullets": [
+      "报道称 Meta 旗下 AI 应用 Muse 上线约 40 天，美国下载量突破 1000 万。",
+      "显示 Meta 消费级 AI 入口在加速获客。",
+      "与开源模型 Muse Spark 是不同产品线，不宜混为一谈。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "Meta旗下AI应用Muse上市40天美国下载量突破1000万",
+        "url": "https://www.aibase.com/news/31769",
+        "date": "2026-10-21",
+        "same_event": true
+      },
+      {
+        "label": "Curated Media",
+        "title": "Meta 旗下 Muse 40 天内美国下载量破 1000 万，此前只有 11 款其他应用达到过这一里程碑",
+        "url": "https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps",
+        "date": "2026-10-21",
+        "same_event": true
+      }
+    ],
+    "score": 49.2,
+    "score_parts": {
+      "industry": 65.0,
+      "actionable": 30.0,
+      "breadth": 60.0,
+      "heat": 41
+    },
+    "heat_signals": {
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    },
+    "heat": 41
+  },
+  {
+    "id": "spotify-ai-spam-songs",
+    "title": "Spotify 年内已从推荐系统移除超 5000 万首 AI 垃圾歌曲",
+    "url": "https://www.aibase.com/news/31770",
+    "date": "2026-10-21",
+    "meta": "",
+    "bullets": [
+      "Spotify 称已从推荐中清理数千万首低质 AI 生成歌曲。",
+      "平台开始系统性对抗 AI 内容洪流对推荐质量的侵蚀。",
+      "对生成式音乐分发与平台治理有示范意义。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "Spotify年内已从推荐系统移除超5000万首AI垃圾歌曲",
+        "url": "https://www.aibase.com/news/31770",
+        "date": "2026-10-21",
+        "same_event": true
+      },
+      {
+        "label": "TechURLs",
+        "title": "Spotify 在自家 AI「垃圾内容与 spam」问题上打太极",
+        "url": "https://www.engadget.com/2291954/spotify-is-dancing-around-its-ai-slop-and-spam-problem",
+        "date": "2026-10-21",
+        "same_event": true
+      },
+      {
+        "label": "TechURLs",
+        "title": "Spotify 从推荐列表中移除 5000 万首 AI 劣质歌曲和垃圾曲目",
+        "url": "https://thenextweb.com/news/spotify-50-million-ai-slop-tracks-recommendations",
+        "date": "2026-10-21",
+        "same_event": true
+      },
+      {
+        "label": "TechURLs",
+        "title": "Spotify 从推荐系统中清理了 5000 万首 AI 垃圾和垃圾曲目",
+        "url": "https://www.theverge.com/entertainment/1014284/spotify-ai-slop-spam-songs-removed",
+        "date": "2026-10-20",
+        "same_event": true
+      }
+    ],
+    "score": 53.6,
+    "score_parts": {
+      "industry": 60.0,
+      "actionable": 35.0,
+      "breadth": 65.0,
+      "heat": 63
+    },
+    "heat_signals": {
+      "reports": 4,
+      "domains": 4,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    },
+    "heat": 63
+  },
+  {
+    "id": "google-gemini-car-personal",
+    "title": "谷歌车载 Gemini 接入个人智能：打通 Gmail、日历与地图",
+    "url": "https://www.aibase.com/news/31767",
+    "date": "2026-10-21",
+    "meta": "",
+    "bullets": [
+      "Google 为车载 Gemini 加入个人智能，打通 Gmail/日历/地图等。",
+      "车机助手从通用问答走向跨应用上下文执行。",
+      "对车企与 Android Automotive 生态有产品启示。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "谷歌为车载版 Gemini 接入个人智能：跨 Gmail、日历与地图打通全场景数据",
+        "url": "https://www.aibase.com/news/31767",
+        "date": "2026-10-21",
+        "same_event": true
+      },
+      {
+        "label": "AIbase",
+        "title": "谷歌在车载Gemini中推出个人智能功能，打通多源生态服务",
+        "url": "https://www.aibase.com/news/31766",
+        "date": "2026-10-21",
+        "same_event": true
+      }
+    ],
+    "score": 56.9,
+    "score_parts": {
+      "industry": 68.0,
+      "actionable": 55.0,
+      "breadth": 60.0,
+      "heat": 36
+    },
+    "heat_signals": {
+      "reports": 2,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    },
+    "heat": 36
+  },
+  {
+    "id": "hf-ceo-netflix-doc",
+    "title": "Hugging Face 掌门人批评 Netflix 将 AI 拍成「末日片」",
+    "url": "https://www.aibase.com/news/31772",
+    "date": "2026-10-21",
+    "meta": "",
+    "bullets": [
+      "Hugging Face CEO 公开批评 Netflix 相关 AI 纪录片叙事不准确。",
+      "反映开源社区与大众媒体在 AI 风险叙事上的张力。",
+      "偏舆论事件，动手价值有限，但影响公众认知。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "Hugging Face 掌门人呛声 Netflix：把 AI 拍成\"末日片\"，受害方都不认",
+        "url": "https://www.aibase.com/news/31772",
+        "date": "2026-10-21",
+        "same_event": true
+      },
+      {
+        "label": "Curated Media",
+        "title": "Hugging Face CEO 警告称，Netflix 那部 OpenAI 黑客纪录片并不准确",
+        "url": "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate",
+        "date": "2026-10-21",
+        "same_event": true
+      },
+      {
+        "label": "TechURLs",
+        "title": "Hugging Face CEO 称 Netflix 那部讲述其著名被黑事件的纪录片“彻底陷入末日论调",
+        "url": "https://www.businessinsider.com/hugging-face-ceo-criticizes-netflix-documentary-ai-gone-wild-2026-10",
+        "date": "2026-10-21",
+        "same_event": true
+      }
+    ],
+    "score": 38.4,
+    "score_parts": {
+      "industry": 45.0,
+      "actionable": 15.0,
+      "breadth": 55.0,
+      "heat": 52
+    },
+    "heat_signals": {
+      "reports": 3,
+      "domains": 3,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    },
+    "heat": 52
   }
 ]
