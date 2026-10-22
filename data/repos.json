@@ -5,7 +5,7 @@
     "desc": "Reverse engineer anything with agents, from app behavior down to native binaries.",
     "lang": "TypeScript",
     "stars": 357223,
-    "week": 157631,
+    "week": 129417,
     "topics": [
       "agent-skills",
       "ai-agents",
@@ -36,7 +36,7 @@
     "desc": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription &amp; audiobook creation in 646 languages.",
     "lang": "Python",
     "stars": 80284,
-    "week": 17057,
+    "week": 15125,
     "topics": [
       "ai",
       "audiobook",
@@ -66,40 +66,9 @@
     "desc": "Skills for Real Engineers. Straight from my .agents directory.",
     "lang": "Shell",
     "stars": 299796,
-    "week": 9473,
+    "week": 9021,
     "topics": [],
     "url": "https://github.com/mattpocock/skills"
-  },
-  {
-    "full": "stablyai/orca",
-    "name": "orca",
-    "desc": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
-    "lang": "TypeScript",
-    "stars": 101138,
-    "week": 8173,
-    "topics": [
-      "ade",
-      "agent-ide",
-      "ai-agents",
-      "automation",
-      "bot",
-      "claude-code",
-      "codex",
-      "ghostty",
-      "grok-bot",
-      "hermes-agent",
-      "mobile-app",
-      "muse",
-      "openclaw",
-      "opencode",
-      "orchestration",
-      "pi",
-      "runtime",
-      "terminal",
-      "worktrees",
-      "yc-backed"
-    ],
-    "url": "https://github.com/stablyai/orca"
   },
   {
     "full": "xerj-org/xerj",
@@ -107,7 +76,7 @@
     "desc": "Local-first search engine and MCP server for AI agents. One Rust binary indexes code, docs, logs, JSONL/CSV and PDFs for BM25 full-text, vector and hybrid search, code search without grep, agent memory and RAG. Elasticsearch-compatible API; Corpus Hub serves hundreds of reference memory corpora.",
     "lang": "Rust",
     "stars": 12771,
-    "week": 8074,
+    "week": 8731,
     "topics": [
       "agent-memory",
       "ai-agents",
@@ -133,12 +102,43 @@
     "url": "https://github.com/xerj-org/xerj"
   },
   {
+    "full": "stablyai/orca",
+    "name": "orca",
+    "desc": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+    "lang": "TypeScript",
+    "stars": 101138,
+    "week": 8705,
+    "topics": [
+      "ade",
+      "agent-ide",
+      "ai-agents",
+      "automation",
+      "bot",
+      "claude-code",
+      "codex",
+      "ghostty",
+      "grok-bot",
+      "hermes-agent",
+      "mobile-app",
+      "muse",
+      "openclaw",
+      "opencode",
+      "orchestration",
+      "pi",
+      "runtime",
+      "terminal",
+      "worktrees",
+      "yc-backed"
+    ],
+    "url": "https://github.com/stablyai/orca"
+  },
+  {
     "full": "DietrichGebert/ponytail",
     "name": "ponytail",
     "desc": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
     "lang": "JavaScript",
     "stars": 171464,
-    "week": 7812,
+    "week": 8137,
     "topics": [
       "agent-skills",
       "ai-agents",
@@ -154,12 +154,22 @@
     "url": "https://github.com/DietrichGebert/ponytail"
   },
   {
+    "full": "anomalyco/opencode",
+    "name": "opencode",
+    "desc": "The open source coding agent.",
+    "lang": "TypeScript",
+    "stars": 219632,
+    "week": 6545,
+    "topics": [],
+    "url": "https://github.com/anomalyco/opencode"
+  },
+  {
     "full": "heygen-com/hyperframes",
     "name": "hyperframes",
     "desc": "Write HTML. Render video. Built for agents.",
     "lang": "TypeScript",
     "stars": 69165,
-    "week": 5994,
+    "week": 5740,
     "topics": [
       "ai",
       "ai-agents",
@@ -180,22 +190,12 @@
     "url": "https://github.com/heygen-com/hyperframes"
   },
   {
-    "full": "anomalyco/opencode",
-    "name": "opencode",
-    "desc": "The open source coding agent.",
-    "lang": "TypeScript",
-    "stars": 219632,
-    "week": 5792,
-    "topics": [],
-    "url": "https://github.com/anomalyco/opencode"
-  },
-  {
     "full": "anthropics/claude-plugins-official",
     "name": "claude-plugins-official",
     "desc": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
     "lang": "Python",
     "stars": 43617,
-    "week": 5650,
+    "week": 5703,
     "topics": [
       "claude-code",
       "mcp",
@@ -204,22 +204,31 @@
     "url": "https://github.com/anthropics/claude-plugins-official"
   },
   {
-    "full": "cathrynlavery/diagram-design",
-    "name": "diagram-design",
-    "desc": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-    "lang": "HTML",
-    "stars": 59494,
-    "week": 5473,
+    "full": "K-Dense-AI/scientific-agent-skills",
+    "name": "scientific-agent-skills",
+    "desc": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+    "lang": "Python",
+    "stars": 53569,
+    "week": 4719,
     "topics": [
       "agent-skills",
-      "claude-code",
-      "codex",
-      "data-visualization",
-      "diagrams",
-      "drawio",
-      "mermaid",
-      "svg"
+      "ai-scientist",
+      "bioinformatics",
+      "chemoinformatics",
+      "claude",
+      "claude-skills",
+      "claudecode",
+      "clinical-research",
+      "computational-biology",
+      "data-analysis",
+      "drug-discovery",
+      "genomics",
+      "materials-science",
+      "metabolomics",
+      "proteomics",
+      "scientific-computing",
+      "scientific-visualization"
     ],
-    "url": "https://github.com/cathrynlavery/diagram-design"
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
   }
 ]

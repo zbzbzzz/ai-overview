@@ -53,28 +53,28 @@
   },
   "OpenAI 披露 Patch the Planet 计划借助 GPT-5.6 Sol 发现 PHP 关键漏洞并协调全球修复": {
     "score": 85.0,
-    "industry": 86,
-    "actionable": 78,
-    "breadth": 72,
+    "industry": 86.0,
+    "actionable": 78.0,
+    "breadth": 72.0,
     "heat": 100.0,
     "heat_signals": {
-      "reports": 12,
-      "domains": 9,
-      "x_posts_7d": 7532,
-      "x_spike_7d": 7517.0
+      "reports": 17,
+      "domains": 10,
+      "x_posts_7d": 12718,
+      "x_spike_7d": 12710.5
     }
   },
   "OpenAI 与 Google Cloud 达成合作，OpenAI 模型将进入 Model Garden": {
     "score": 85.0,
-    "industry": 92,
-    "actionable": 72,
-    "breadth": 88,
+    "industry": 92.0,
+    "actionable": 72.0,
+    "breadth": 88.0,
     "heat": 89.0,
     "heat_signals": {
       "reports": 5,
       "domains": 5,
-      "x_posts_7d": 1649,
-      "x_spike_7d": 1581.5
+      "x_posts_7d": 2531,
+      "x_spike_7d": 2148.5
     }
   },
   "MiniMax 发布 M3.1 Flash：推理提速近三倍、成本降约 70%；「神秘兔子」身份曝光": {
@@ -129,6 +129,19 @@
       "x_spike_7d": 1254.0
     }
   },
+  "Anthropic 开放 Claude Duet 研究预览：一款面向专业人士的 Agent": {
+    "score": 78.7,
+    "industry": 82.0,
+    "actionable": 78.0,
+    "breadth": 75.0,
+    "heat": 75.0,
+    "heat_signals": {
+      "reports": 11,
+      "domains": 10,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    }
+  },
   "阶跃星辰开放 Step 5 Preview 权重：百万上下文 MoE，GB300 / Featherless 可部署": {
     "score": 78.6,
     "industry": 82.0,
@@ -155,19 +168,6 @@
       "x_spike_7d": 1550.5
     }
   },
-  "WSJ 披露 Anthropic IPO 草案：上半年收入 163 亿美元、纸面亏损约 807 亿美元": {
-    "score": 78.5,
-    "industry": 95.0,
-    "actionable": 40.0,
-    "breadth": 85.0,
-    "heat": 100.0,
-    "heat_signals": {
-      "reports": 7,
-      "domains": 5,
-      "x_posts_7d": 9670,
-      "x_spike_7d": 7615.0
-    }
-  },
   "DeepSeek-V4.1-Flash-20261017 登顶 Code Arena WebDev 开源榜首": {
     "score": 76.7,
     "industry": 88.0,
@@ -192,6 +192,19 @@
       "domains": 2,
       "x_posts_7d": 22232,
       "x_spike_7d": 20762.0
+    }
+  },
+  "WSJ 披露 Anthropic IPO 草案：上半年收入 163 亿美元、纸面亏损约 807 亿美元": {
+    "score": 76.5,
+    "industry": 95.0,
+    "actionable": 40.0,
+    "breadth": 85.0,
+    "heat": 90.0,
+    "heat_signals": {
+      "reports": 17,
+      "domains": 9,
+      "x_posts_7d": 9265,
+      "x_spike_7d": 670.0
     }
   },
   "AWS 发布 TorchNeuron：Trainium 原生 PyTorch 后端，HF 模型更易跑": {
@@ -688,6 +701,19 @@
       "x_spike_7d": 28.5
     }
   },
+  "NVIDIA Kumo Relational 在关系型数据上超越监督式机器学习，无需训练": {
+    "score": 67.2,
+    "industry": 78.0,
+    "actionable": 70.0,
+    "breadth": 68.0,
+    "heat": 41.0,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 1,
+      "x_posts_7d": 61,
+      "x_spike_7d": 61.0
+    }
+  },
   "SpaceX Q3：AI 算力业务成最大收入来源，约占营收 52%": {
     "score": 67.1,
     "industry": 88.0,
@@ -766,19 +792,6 @@
       "x_spike_7d": 0
     }
   },
-  "Anthropic 第三季度营收达 168 亿美元，计划 11 月启动 IPO 路演": {
-    "score": 66.7,
-    "industry": 95.0,
-    "actionable": 40.0,
-    "breadth": 85.0,
-    "heat": 41.0,
-    "heat_signals": {
-      "reports": 2,
-      "domains": 2,
-      "x_posts_7d": 0,
-      "x_spike_7d": 0
-    }
-  },
   "OpenAI API 支持最长 12 小时 prompt 缓存；Codex/Work 可永久保留": {
     "score": 66.7,
     "industry": 68.0,
@@ -831,19 +844,6 @@
       "x_spike_7d": 0
     }
   },
-  "NVIDIA Kumo Forecast 把预训练时间序列表示与历史模式检索、可解释性结合在一起": {
-    "score": 65.0,
-    "industry": 78.0,
-    "actionable": 70.0,
-    "breadth": 68.0,
-    "heat": 30.0,
-    "heat_signals": {
-      "reports": 1,
-      "domains": 1,
-      "x_posts_7d": 0,
-      "x_spike_7d": 0
-    }
-  },
   "SimReady Central 发布：面向机器人与 AI 工厂的仿真就绪 3D 资产开放库": {
     "score": 65.0,
     "industry": 78.0,
@@ -870,50 +870,11 @@
       "x_spike_7d": 0
     }
   },
-  "NVIDIA Kumo Relational 在关系型数据上超越监督式机器学习，无需训练": {
-    "score": 65.0,
-    "industry": 78.0,
-    "actionable": 70.0,
-    "breadth": 68.0,
-    "heat": 30.0,
-    "heat_signals": {
-      "reports": 1,
-      "domains": 1,
-      "x_posts_7d": 0,
-      "x_spike_7d": 0
-    }
-  },
   "fal 联合 Black Forest Labs 发布后训练视频模型 FLUX 3 Max": {
     "score": 64.7,
     "industry": 78.0,
     "actionable": 70.0,
     "breadth": 65.0,
-    "heat": 30.0,
-    "heat_signals": {
-      "reports": 1,
-      "domains": 1,
-      "x_posts_7d": 0,
-      "x_spike_7d": 0
-    }
-  },
-  "消息称投资者下调 Anthropic IPO 估值预期，从约 2 万亿美元降至约 1.5 万亿美元": {
-    "score": 64.5,
-    "industry": 95.0,
-    "actionable": 40.0,
-    "breadth": 85.0,
-    "heat": 30.0,
-    "heat_signals": {
-      "reports": 1,
-      "domains": 1,
-      "x_posts_7d": 0,
-      "x_spike_7d": 0
-    }
-  },
-  "Anthropic IPO 估值遭砍：增速放缓，2 万亿美元预期回落至 1.5 万亿": {
-    "score": 64.5,
-    "industry": 95.0,
-    "actionable": 40.0,
-    "breadth": 85.0,
     "heat": 30.0,
     "heat_signals": {
       "reports": 1,
@@ -1689,6 +1650,32 @@
       "x_spike_7d": 0
     }
   },
+  "OpenAI 将 ChatGPT 广告业务拓展至 26 个新国家，覆盖总数达 89 个": {
+    "score": 57.5,
+    "industry": 75.0,
+    "actionable": 45.0,
+    "breadth": 80.0,
+    "heat": 30.0,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    }
+  },
+  "宇树发布H2-X人形机器人极限测试广告:主打8小时续航与高强度动态表现": {
+    "score": 57.5,
+    "industry": 75.0,
+    "actionable": 45.0,
+    "breadth": 80.0,
+    "heat": 30.0,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    }
+  },
   "印度首报\"失控智能体\"：AI 测试时擅自入侵企业系统，受害方浑然不知": {
     "score": 57.3,
     "industry": 72.0,
@@ -1815,6 +1802,19 @@
     "heat_signals": {
       "reports": 3,
       "domains": 3,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    }
+  },
+  "八款个人智能体一图速览 👀 大厂把模型、云和订阅打包；开源方案把选择权交给用户，软件免费，只付模型和主机的钱；入口和模型正在解耦，竞争焦点转向入口、记忆与信任！Personal Agent 提供商就像智能时代的 Agent OS，新入口战争": {
+    "score": 56.4,
+    "industry": 62.0,
+    "actionable": 68.0,
+    "breadth": 52.0,
+    "heat": 30.0,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
       "x_posts_7d": 0,
       "x_spike_7d": 0
     }
@@ -2032,6 +2032,19 @@
     "industry": 63.0,
     "actionable": 62.0,
     "breadth": 57.0,
+    "heat": 30.0,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    }
+  },
+  "Recursive发布Flint，一款面向Agent的开源权重40B MoE本地编码模型，激活参数2.5B": {
+    "score": 55.4,
+    "industry": 62.0,
+    "actionable": 68.0,
+    "breadth": 42.0,
     "heat": 30.0,
     "heat_signals": {
       "reports": 1,
@@ -2378,6 +2391,32 @@
       "x_spike_7d": 0
     }
   },
+  "Nexus-CLI——纯 Go 打造的 DeepSeek R1/V3 桥接工具，支持 Claude Code 和 Ollama": {
+    "score": 52.6,
+    "industry": 64.0,
+    "actionable": 56.0,
+    "breadth": 42.0,
+    "heat": 30.0,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    }
+  },
+  "开源项目第242期：HyperFrames —— 写 HTML 就能渲染视频，专为 AI Agent 设计的确定性视频框架": {
+    "score": 52.6,
+    "industry": 54.0,
+    "actionable": 66.0,
+    "breadth": 52.0,
+    "heat": 30.0,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    }
+  },
   "开源应用 Llama for Windows 发布：一键下载模型在本地运行": {
     "score": 52.4,
     "industry": 62.0,
@@ -2405,19 +2444,6 @@
     }
   },
   "WayToAGI：用 Gemini 4 Argon 跑完测评后 Pro 额度耗尽": {
-    "score": 52.0,
-    "industry": 76.0,
-    "actionable": 38.0,
-    "breadth": 42.0,
-    "heat": 30.0,
-    "heat_signals": {
-      "reports": 1,
-      "domains": 1,
-      "x_posts_7d": 0,
-      "x_spike_7d": 0
-    }
-  },
-  "Anthropic 开启 Claude Duet 研究预览，Claude 以主动式智能体接管日常工作": {
     "score": 52.0,
     "industry": 76.0,
     "actionable": 38.0,
@@ -2556,6 +2582,19 @@
     "heat_signals": {
       "reports": 1,
       "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    }
+  },
+  "Anthropic：用 Claude 揭开 NIST ECDSA 曲线种子来源之谜": {
+    "score": 51.1,
+    "industry": 55.0,
+    "actionable": 40.0,
+    "breadth": 45.0,
+    "heat": 63.0,
+    "heat_signals": {
+      "reports": 4,
+      "domains": 4,
       "x_posts_7d": 0,
       "x_spike_7d": 0
     }
@@ -2716,6 +2755,19 @@
       "x_spike_7d": 0
     }
   },
+  "通过统一标准实现广泛接入": {
+    "score": 50.4,
+    "industry": 72.0,
+    "actionable": 38.0,
+    "breadth": 42.0,
+    "heat": 30.0,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    }
+  },
   "Meta Muse Wonder Full (Max) 登 Code Arena WebDev 第 6，评分 1726": {
     "score": 50.3,
     "industry": 62.0,
@@ -2755,10 +2807,23 @@
       "x_spike_7d": 0
     }
   },
-  "Anthropic 推出新 AI Agent Claude Duet，对标 Muse": {
+  "我让 Google Keep 里的 Gemini 帮我创建清单，我的日常工作流因此快了不少": {
     "score": 50.2,
     "industry": 64.0,
     "actionable": 48.0,
+    "breadth": 42.0,
+    "heat": 30.0,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    }
+  },
+  "SuperCMO AI — 开源技能，把你的 Claude 变成 AI 首席营销官": {
+    "score": 50.0,
+    "industry": 62.0,
+    "actionable": 50.0,
     "breadth": 42.0,
     "heat": 30.0,
     "heat_signals": {
@@ -2799,6 +2864,45 @@
     "industry": 54.0,
     "actionable": 60.0,
     "breadth": 42.0,
+    "heat": 30.0,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    }
+  },
+  "Vercel 开源 durable-harness，让编程 Agent 不怕崩溃": {
+    "score": 49.8,
+    "industry": 54.0,
+    "actionable": 60.0,
+    "breadth": 42.0,
+    "heat": 30.0,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    }
+  },
+  "龙虾（OpenClaw）好像没那么热闹了，但个人 AI 智能体却开始集中爆发。 短短两个多月，四家大厂接连推出同一类产品： 8 月 11 日，xAI 发布 Grok Bot 9 月 8 日，Meta 发布 Muse 9 月 29 日，Ope": {
+    "score": 49.8,
+    "industry": 68.0,
+    "actionable": 38.0,
+    "breadth": 52.0,
+    "heat": 30.0,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    }
+  },
+  "Walmart 推出 AI Agent 购物功能，而 Amazon 试图遏制这项技术": {
+    "score": 49.6,
+    "industry": 56.0,
+    "actionable": 54.0,
+    "breadth": 50.0,
     "heat": 30.0,
     "heat_signals": {
       "reports": 1,
@@ -2963,19 +3067,6 @@
       "x_spike_7d": 0
     }
   },
-  "Anthropic招股书披露800亿美元亏损": {
-    "score": 49.0,
-    "industry": 66.0,
-    "actionable": 38.0,
-    "breadth": 52.0,
-    "heat": 30.0,
-    "heat_signals": {
-      "reports": 1,
-      "domains": 1,
-      "x_posts_7d": 0,
-      "x_spike_7d": 0
-    }
-  },
   "Google 介绍 adk-recipes 三层结构与 Agent Platform 集成": {
     "score": 48.8,
     "industry": 56.0,
@@ -3007,6 +3098,19 @@
     "industry": 50.0,
     "actionable": 60.0,
     "breadth": 48.0,
+    "heat": 30.0,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    }
+  },
+  "Meta CEO Mark Zuckerberg表示，已有1000万人创建了Muse AI agent": {
+    "score": 48.8,
+    "industry": 68.0,
+    "actionable": 38.0,
+    "breadth": 42.0,
     "heat": 30.0,
     "heat_signals": {
       "reports": 1,
@@ -3098,6 +3202,19 @@
     "industry": 55.0,
     "actionable": 50.0,
     "breadth": 55.0,
+    "heat": 30.0,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    }
+  },
+  "OpenAI CLI": {
+    "score": 48.2,
+    "industry": 56.0,
+    "actionable": 50.0,
+    "breadth": 48.0,
     "heat": 30.0,
     "heat_signals": {
       "reports": 1,
@@ -3228,6 +3345,45 @@
     "industry": 66.0,
     "actionable": 38.0,
     "breadth": 42.0,
+    "heat": 30.0,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    }
+  },
+  "Bloomberg 报道 DeepSeek 新一轮融资约 150 亿美元": {
+    "score": 48.0,
+    "industry": 66.0,
+    "actionable": 38.0,
+    "breadth": 42.0,
+    "heat": 30.0,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    }
+  },
+  "Meta拟新设一类股份，为AI布局募资": {
+    "score": 48.0,
+    "industry": 66.0,
+    "actionable": 38.0,
+    "breadth": 42.0,
+    "heat": 30.0,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    }
+  },
+  "做 AI 算命、做命理 App 的朋友，这份 57GB 的开源数据可以直接拿去用。 据我们所知，这是目前全网最大的玄学类开源数据集：1950–2026 年每一天 × 12 个时辰 × 男女，67.5 万张紫微命盘全排了一遍，13 个维度一共": {
+    "score": 48.0,
+    "industry": 54.0,
+    "actionable": 50.0,
+    "breadth": 54.0,
     "heat": 30.0,
     "heat_signals": {
       "reports": 1,
@@ -3470,6 +3626,32 @@
       "x_spike_7d": 0
     }
   },
+  "Kling 4.0 现已上线 OnSolo": {
+    "score": 47.4,
+    "industry": 62.0,
+    "actionable": 38.0,
+    "breadth": 52.0,
+    "heat": 30.0,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    }
+  },
+  "全球智能手机换机周期正在逼近48个月，硬件渐进式升级已经很难再刺激用户买单。随着2026年高通提出“Agent之年”，阶跃星辰推出STEPX Neo、荣耀发布Robot Phone，以及努比亚发布搭载豆包助手的NaviX Ultra，行业竞": {
+    "score": 47.4,
+    "industry": 54.0,
+    "actionable": 48.0,
+    "breadth": 54.0,
+    "heat": 30.0,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    }
+  },
   "动态工程：一个机器人，五个部门，整个工作室": {
     "score": 47.3,
     "industry": 52.0,
@@ -3626,7 +3808,33 @@
       "x_spike_7d": 0
     }
   },
+  "大力出奇迹 OpenAI下场做组学分析了 刷X看到了这篇很有意思的 bioRxiv 预印本，是 OpenAI 的 Rosalind 团队和 Scripps 研究所的科学家 Xin Jin、PerturbAI 的 Grace Zheng 合作": {
+    "score": 47.2,
+    "industry": 64.0,
+    "actionable": 38.0,
+    "breadth": 42.0,
+    "heat": 30.0,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    }
+  },
   "OpenAI, PerturbAI, and Scripps say thousands of GPT-Rosalind agents analyzed data on millions of mouse brain cells in 32": {
+    "score": 47.2,
+    "industry": 64.0,
+    "actionable": 38.0,
+    "breadth": 42.0,
+    "heat": 30.0,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    }
+  },
+  "Meta 拟通过新设立的一类股票，为其大规模 AI 建设筹措资金": {
     "score": 47.2,
     "industry": 64.0,
     "actionable": 38.0,
@@ -3743,6 +3951,19 @@
       "x_spike_7d": 0
     }
   },
+  "Sundar Pichai 解释一支 AI Agent 团队如何帮他管理公司": {
+    "score": 47.0,
+    "industry": 56.0,
+    "actionable": 48.0,
+    "breadth": 42.0,
+    "heat": 30.0,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    }
+  },
   "ESP32 新手怎么入门？芯片、开源项目和板子，一次讲清楚": {
     "score": 46.8,
     "industry": 54.0,
@@ -3778,19 +3999,6 @@
     "heat_signals": {
       "reports": 1,
       "domains": 1,
-      "x_posts_7d": 0,
-      "x_spike_7d": 0
-    }
-  },
-  "Anthropic：用 Claude 揭开 NIST ECDSA 曲线种子来源之谜": {
-    "score": 46.7,
-    "industry": 55.0,
-    "actionable": 40.0,
-    "breadth": 45.0,
-    "heat": 41.0,
-    "heat_signals": {
-      "reports": 2,
-      "domains": 2,
       "x_posts_7d": 0,
       "x_spike_7d": 0
     }
@@ -3964,6 +4172,19 @@
       "x_spike_7d": 0
     }
   },
+  "成立一年的 AI 实验室 Flapping Airplanes 以 60 亿美元估值融资 10 亿美元": {
+    "score": 45.6,
+    "industry": 60.0,
+    "actionable": 38.0,
+    "breadth": 42.0,
+    "heat": 30.0,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    }
+  },
   "YouTube Music 将为 AI 生成歌曲添加标签，后续扩展至主应用": {
     "score": 45.5,
     "industry": 50.0,
@@ -4034,6 +4255,19 @@
     "industry": 56.0,
     "actionable": 38.0,
     "breadth": 52.0,
+    "heat": 30.0,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    }
+  },
+  "利用Claude缩小代码的攻击面": {
+    "score": 44.8,
+    "industry": 58.0,
+    "actionable": 38.0,
+    "breadth": 42.0,
     "heat": 30.0,
     "heat_signals": {
       "reports": 1,
@@ -4146,11 +4380,63 @@
       "x_spike_7d": 0
     }
   },
+  "智能体多耗 30 倍 token：DPU 给 CPU 减负 AMD 博客引 Gartner：智能体 AI 每个任务消耗的 token，是普通聊天机器人的 5–30 倍。一个任务要调好几次模型、工具和数据库，KV 缓存越来越大，网络和 CPU": {
+    "score": 44.4,
+    "industry": 50.0,
+    "actionable": 44.0,
+    "breadth": 52.0,
+    "heat": 30.0,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    }
+  },
+  "Mistral Large 4": {
+    "score": 44.4,
+    "industry": 50.0,
+    "actionable": 38.0,
+    "breadth": 70.0,
+    "heat": 30.0,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    }
+  },
   "黄仁勋的欧洲愿景靠即插即用数据中心实现": {
     "score": 44.2,
     "industry": 54.0,
     "actionable": 38.0,
     "breadth": 52.0,
+    "heat": 30.0,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    }
+  },
+  "特斯拉加州工厂正式量产Optimus机器人，高额AI支出致第三季度利润大跌43%": {
+    "score": 44.2,
+    "industry": 54.0,
+    "actionable": 38.0,
+    "breadth": 52.0,
+    "heat": 30.0,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    }
+  },
+  "Blacksmith在Sequoia领投C轮后估值达独角兽级别": {
+    "score": 44.2,
+    "industry": 52.0,
+    "actionable": 38.0,
+    "breadth": 60.0,
     "heat": 30.0,
     "heat_signals": {
       "reports": 1,
@@ -4419,32 +4705,6 @@
       "x_spike_7d": 0
     }
   },
-  "Anthropic 招股书拆解:营收暴涨1382%，半年却亏掉807亿美元，算力账单压顶": {
-    "score": 44.0,
-    "industry": 56.0,
-    "actionable": 38.0,
-    "breadth": 42.0,
-    "heat": 30.0,
-    "heat_signals": {
-      "reports": 1,
-      "domains": 1,
-      "x_posts_7d": 0,
-      "x_spike_7d": 0
-    }
-  },
-  "Anthropic 招股书曝光：半年营收 163 亿却亏 807 亿，算力枷锁越套越紧": {
-    "score": 44.0,
-    "industry": 56.0,
-    "actionable": 38.0,
-    "breadth": 42.0,
-    "heat": 30.0,
-    "heat_signals": {
-      "reports": 1,
-      "domains": 1,
-      "x_posts_7d": 0,
-      "x_spike_7d": 0
-    }
-  },
   "OpenAI 投资一家利用脑植入物检测癌症的初创公司": {
     "score": 44.0,
     "industry": 56.0,
@@ -4550,19 +4810,6 @@
     }
   },
   "前DeepMind研究员Thore Graepel创办伦敦AI实验室Metis Reasoning": {
-    "score": 44.0,
-    "industry": 56.0,
-    "actionable": 38.0,
-    "breadth": 42.0,
-    "heat": 30.0,
-    "heat_signals": {
-      "reports": 1,
-      "domains": 1,
-      "x_posts_7d": 0,
-      "x_spike_7d": 0
-    }
-  },
-  "Report: Anthropic's draft S-1 shows it spent ~$9B on compute and infrastructure in H1, up from $2.3B a year earlier, and": {
     "score": 44.0,
     "industry": 56.0,
     "actionable": 38.0,
@@ -4692,6 +4939,97 @@
       "x_spike_7d": 0
     }
   },
+  "Meta确认AI应用Muse用户超1000万，计划探索代理购物商业化": {
+    "score": 44.0,
+    "industry": 56.0,
+    "actionable": 38.0,
+    "breadth": 42.0,
+    "heat": 30.0,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    }
+  },
+  "Perplexity 与 NVIDIA 研究人员推出 JOLT：一种师生联合强化学习方法": {
+    "score": 44.0,
+    "industry": 56.0,
+    "actionable": 38.0,
+    "breadth": 42.0,
+    "heat": 30.0,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    }
+  },
+  "Meta称Muse用户已超1000万，购物成为最热门活动之一": {
+    "score": 44.0,
+    "industry": 56.0,
+    "actionable": 38.0,
+    "breadth": 42.0,
+    "heat": 30.0,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    }
+  },
+  "尽管面临亿万富翁税收公投提案，Mark Zuckerberg 仍同意留在加州": {
+    "score": 44.0,
+    "industry": 56.0,
+    "actionable": 38.0,
+    "breadth": 42.0,
+    "heat": 30.0,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    }
+  },
+  "苹果表示，简洁设计和 Siri AI 是 HomeView 的核心卖点": {
+    "score": 44.0,
+    "industry": 56.0,
+    "actionable": 38.0,
+    "breadth": 42.0,
+    "heat": 30.0,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    }
+  },
+  "Sources: DeepSeek raised ~$15B in its latest fundraising round, one of China's largest ever, with CATL and Tencent among": {
+    "score": 44.0,
+    "industry": 56.0,
+    "actionable": 38.0,
+    "breadth": 42.0,
+    "heat": 30.0,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    }
+  },
+  "Meta 收窄资本支出预期，加码押注 AI 智能体之战": {
+    "score": 44.0,
+    "industry": 56.0,
+    "actionable": 38.0,
+    "breadth": 42.0,
+    "heat": 30.0,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    }
+  },
   "WayToAGI：实测 Opus 做宣传片并顺手做成 Skill": {
     "score": 43.8,
     "industry": 42.0,
@@ -4718,7 +5056,46 @@
       "x_spike_7d": 0
     }
   },
+  "红果短剧上线\"小果AI\":短剧平台补上对话式交互这一层": {
+    "score": 43.8,
+    "industry": 54.0,
+    "actionable": 38.0,
+    "breadth": 48.0,
+    "heat": 30.0,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    }
+  },
+  "从零手搓 AI 伴侣：Java + 大模型 + 多模态的工程化踩坑实录": {
+    "score": 43.8,
+    "industry": 50.0,
+    "actionable": 38.0,
+    "breadth": 64.0,
+    "heat": 30.0,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    }
+  },
   "Pigment, a French startup that makes AI-powered software to help businesses forecast finances, spin up slide decks, and ": {
+    "score": 43.6,
+    "industry": 52.0,
+    "actionable": 38.0,
+    "breadth": 54.0,
+    "heat": 30.0,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    }
+  },
+  "AuxoAI, which helps large businesses build and deploy AI systems, raised a $20.7M Series A led by NTTVC to accelerate gr": {
     "score": 43.6,
     "industry": 52.0,
     "actionable": 38.0,
@@ -4887,6 +5264,32 @@
       "x_spike_7d": 0
     }
   },
+  "谷歌CEO皮查伊：前沿大模型不容退守，云业务短期利润可为研发算力让路": {
+    "score": 42.6,
+    "industry": 50.0,
+    "actionable": 38.0,
+    "breadth": 52.0,
+    "heat": 30.0,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    }
+  },
+  "通用汽车的OnStar迎来AI升级——但安全气囊弹出时仍由真人应答": {
+    "score": 42.6,
+    "industry": 50.0,
+    "actionable": 38.0,
+    "breadth": 52.0,
+    "heat": 30.0,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    }
+  },
   "腾讯又一 AI 产品宣布停运，元器用户需尽快迁移数据": {
     "score": 42.5,
     "industry": 50.0,
@@ -5004,6 +5407,19 @@
       "x_spike_7d": 0
     }
   },
+  "WSJ：马斯克希望以 AI 为核心推动 SpaceX 与 Tesla 合并": {
+    "score": 42.4,
+    "industry": 52.0,
+    "actionable": 38.0,
+    "breadth": 42.0,
+    "heat": 30.0,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    }
+  },
   "WayToAGI：如何用 AI 制作各类办公图表": {
     "score": 42.2,
     "industry": 42.0,
@@ -5083,6 +5499,19 @@
     }
   },
   "GitHub CLI：可选择启用会过期、自动刷新的 OAuth token": {
+    "score": 42.0,
+    "industry": 42.0,
+    "actionable": 50.0,
+    "breadth": 42.0,
+    "heat": 30.0,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    }
+  },
+  "GitHub 通过 AI 辅助重构，将 Copilot 运行时迁移至 Rust": {
     "score": 42.0,
     "industry": 42.0,
     "actionable": 50.0,
@@ -5303,7 +5732,7 @@
       "x_spike_7d": 0
     }
   },
-  "Claude Duet": {
+  "抓包我们的阅卷老师把每篇作文都粘进 ChatGPT": {
     "score": 41.6,
     "industry": 50.0,
     "actionable": 38.0,
@@ -5316,7 +5745,72 @@
       "x_spike_7d": 0
     }
   },
-  "抓包我们的阅卷老师把每篇作文都粘进 ChatGPT": {
+  "八部门印发产业基础\"十五五\"规划，布局通用与行业大模型": {
+    "score": 41.6,
+    "industry": 50.0,
+    "actionable": 38.0,
+    "breadth": 42.0,
+    "heat": 30.0,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    }
+  },
+  "v2.1.308": {
+    "score": 41.6,
+    "industry": 50.0,
+    "actionable": 38.0,
+    "breadth": 42.0,
+    "heat": 30.0,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    }
+  },
+  "v2.1.307": {
+    "score": 41.6,
+    "industry": 50.0,
+    "actionable": 38.0,
+    "breadth": 42.0,
+    "heat": 30.0,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    }
+  },
+  "目前AI已达高度先进阶段：前沿模型（如Claude Opus 5.5、GPT-6等）在科学、数学、编程多数基准上超越人类专家，智能体可独立处理数小时复杂任务，AI正加速自身研发（部分实验室AI主导超25%工作）。SI尚未完全实现，但进展极快": {
+    "score": 41.6,
+    "industry": 50.0,
+    "actionable": 38.0,
+    "breadth": 42.0,
+    "heat": 30.0,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    }
+  },
+  "Claude 搭建 Excel 模型，Filing Studio 将每个数字链接到对应的 SEC 申报文件": {
+    "score": 41.6,
+    "industry": 50.0,
+    "actionable": 38.0,
+    "breadth": 42.0,
+    "heat": 30.0,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    }
+  },
+  "2026 Web 技术选型指南，AI 时代如何选择适合项目的技术栈": {
     "score": 41.6,
     "industry": 50.0,
     "actionable": 38.0,
@@ -5550,7 +6044,33 @@
       "x_spike_7d": 0
     }
   },
+  "LayerFS：为 AI 编程 Agent 打造的文件系统": {
+    "score": 41.4,
+    "industry": 42.0,
+    "actionable": 48.0,
+    "breadth": 42.0,
+    "heat": 30.0,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    }
+  },
   "Walmart 邀请 AI Agent 替你购物": {
+    "score": 41.4,
+    "industry": 42.0,
+    "actionable": 48.0,
+    "breadth": 42.0,
+    "heat": 30.0,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    }
+  },
+  "Walmart unveils its Agent Gateway, a new MCP server to help users' approved AI agents shop its website, and dedicated Ag": {
     "score": 41.4,
     "industry": 42.0,
     "actionable": 48.0,
@@ -5654,11 +6174,11 @@
       "x_spike_7d": 0
     }
   },
-  "MiniMax 发布 IPO 辅导第二期进展，加速推进上市合规": {
-    "score": 40.0,
-    "industry": 55.0,
-    "actionable": 25.0,
-    "breadth": 45.0,
+  "Java AI框架选型指南": {
+    "score": 40.2,
+    "industry": 42.0,
+    "actionable": 44.0,
+    "breadth": 42.0,
     "heat": 30.0,
     "heat_signals": {
       "reports": 1,
@@ -5667,64 +6187,12 @@
       "x_spike_7d": 0
     }
   },
-  "利用Claude缩小代码的攻击面": {
+  "MiniMax 发布 IPO 辅导第二期进展，加速推进上市合规": {
     "score": 40.0,
-    "industry": 45,
-    "actionable": 40,
-    "breadth": 40,
-    "heat": 30,
-    "heat_signals": {
-      "reports": 1,
-      "domains": 1,
-      "x_posts_7d": 0,
-      "x_spike_7d": 0
-    }
-  },
-  "LayerFS：为 AI 编程 Agent 打造的文件系统": {
-    "score": 40.0,
-    "industry": 45,
-    "actionable": 40,
-    "breadth": 40,
-    "heat": 30,
-    "heat_signals": {
-      "reports": 1,
-      "domains": 1,
-      "x_posts_7d": 0,
-      "x_spike_7d": 0
-    }
-  },
-  "Nexus-CLI——纯 Go 打造的 DeepSeek R1/V3 桥接工具，支持 Claude Code 和 Ollama": {
-    "score": 40.0,
-    "industry": 45,
-    "actionable": 40,
-    "breadth": 40,
-    "heat": 30,
-    "heat_signals": {
-      "reports": 1,
-      "domains": 1,
-      "x_posts_7d": 0,
-      "x_spike_7d": 0
-    }
-  },
-  "Microagi：加速具身 AGI": {
-    "score": 40.0,
-    "industry": 45,
-    "actionable": 40,
-    "breadth": 40,
-    "heat": 30,
-    "heat_signals": {
-      "reports": 1,
-      "domains": 1,
-      "x_posts_7d": 0,
-      "x_spike_7d": 0
-    }
-  },
-  "PyPI 上遭篡改的 LiteLLM 1.107.0 会安装凭据窃取程序和后门": {
-    "score": 40.0,
-    "industry": 45,
-    "actionable": 40,
-    "breadth": 40,
-    "heat": 30,
+    "industry": 55.0,
+    "actionable": 25.0,
+    "breadth": 45.0,
+    "heat": 30.0,
     "heat_signals": {
       "reports": 1,
       "domains": 1,
@@ -6032,6 +6500,32 @@
     }
   },
   "Intel® GPU D 系列——无需 HBM 的大显存 AI 推理": {
+    "score": 38.4,
+    "industry": 42.0,
+    "actionable": 38.0,
+    "breadth": 42.0,
+    "heat": 30.0,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    }
+  },
+  "Searchtok — 让你的 AI agent 能搜索 TikTok 和 Instagram": {
+    "score": 38.4,
+    "industry": 42.0,
+    "actionable": 38.0,
+    "breadth": 42.0,
+    "heat": 30.0,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    }
+  },
+  "Microagi：加速具身 AGI": {
     "score": 38.4,
     "industry": 42.0,
     "actionable": 38.0,
@@ -6564,6 +7058,19 @@
       "x_spike_7d": 0
     }
   },
+  "PyPI 上遭篡改的 LiteLLM 1.107.0 会安装凭据窃取程序和后门": {
+    "score": 38.4,
+    "industry": 42.0,
+    "actionable": 38.0,
+    "breadth": 42.0,
+    "heat": 30.0,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    }
+  },
   "在实际应用中，如何通过专门化 SLM 词表把推理成本降低 77%": {
     "score": 38.4,
     "industry": 42.0,
@@ -6747,6 +7254,136 @@
     }
   },
   "Watchtower, which uses AI and simulation software to help the US Armed Forces make logistical decisions, emerges from st": {
+    "score": 38.4,
+    "industry": 42.0,
+    "actionable": 38.0,
+    "breadth": 42.0,
+    "heat": 30.0,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    }
+  },
+  "特斯拉 AI 豪赌遇阻：2026 支出砍 20%，马斯克转型节奏生变": {
+    "score": 38.4,
+    "industry": 42.0,
+    "actionable": 38.0,
+    "breadth": 42.0,
+    "heat": 30.0,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    }
+  },
+  "通用汽车押注 AI 与富锂锰基电池：要把电动车研发周期砍半": {
+    "score": 38.4,
+    "industry": 42.0,
+    "actionable": 38.0,
+    "breadth": 42.0,
+    "heat": 30.0,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    }
+  },
+  "A Coding Guide to Cactus Whistle: Does a 16.9 MB Speech Model Hold Up Against Whisper Base? Word Error Rate, Speed, Stre": {
+    "score": 38.4,
+    "industry": 42.0,
+    "actionable": 38.0,
+    "breadth": 42.0,
+    "heat": 30.0,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    }
+  },
+  "Blackstone的Jas Khaira表示，对AI建设债务的担忧被夸大了": {
+    "score": 38.4,
+    "industry": 42.0,
+    "actionable": 38.0,
+    "breadth": 42.0,
+    "heat": 30.0,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    }
+  },
+  "TechCrunch Founder Summit 2026：你需要了解的一切": {
+    "score": 38.4,
+    "industry": 42.0,
+    "actionable": 38.0,
+    "breadth": 42.0,
+    "heat": 30.0,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    }
+  },
+  "@grok AI 或者 SI 进化到什么程度了？详细说说？对人类有什么用？": {
+    "score": 38.4,
+    "industry": 42.0,
+    "actionable": 38.0,
+    "breadth": 42.0,
+    "heat": 30.0,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    }
+  },
+  "‘Thanks again for your help!’: Rogue AI agents on Tencent Cloud tried to crack Alibaba’s Amap, then chatted politely wit": {
+    "score": 38.4,
+    "industry": 42.0,
+    "actionable": 38.0,
+    "breadth": 42.0,
+    "heat": 30.0,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    }
+  },
+  "等等：你的自动驾驶 Tesla 暂时还不能哪儿都开": {
+    "score": 38.4,
+    "industry": 42.0,
+    "actionable": 38.0,
+    "breadth": 42.0,
+    "heat": 30.0,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    }
+  },
+  "初创公司宣称用AI设计的病毒治疗了一名患者": {
+    "score": 38.4,
+    "industry": 42.0,
+    "actionable": 38.0,
+    "breadth": 42.0,
+    "heat": 30.0,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    }
+  },
+  "GM says it plans to debut OnStar AI, an in-car assistant that can execute vehicle functions and run diagnostics via voic": {
     "score": 38.4,
     "industry": 42.0,
     "actionable": 38.0,
