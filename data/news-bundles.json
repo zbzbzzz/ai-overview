@@ -286,8 +286,8 @@
     "heat_signals": {
       "reports": 19,
       "domains": 17,
-      "x_posts_7d": 7129,
-      "x_spike_7d": 7129.0
+      "x_posts_7d": 9016,
+      "x_spike_7d": 9016.0
     },
     "heat": 100
   },
@@ -539,7 +539,7 @@
       "reports": 18,
       "domains": 7,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "score": 86.0,
     "heat": 75
@@ -859,8 +859,8 @@
     "heat_signals": {
       "reports": 22,
       "domains": 14,
-      "x_posts_7d": 17146,
-      "x_spike_7d": 17138.5
+      "x_posts_7d": 7177,
+      "x_spike_7d": 5699.5
     },
     "heat": 100
   },
@@ -868,12 +868,12 @@
     "id": "minimax-m3.1-flash-rabbit",
     "title": "MiniMax 发布 M3.1 Flash：推理提速近三倍、成本降约 70%；「神秘兔子」身份曝光",
     "url": "https://www.minimax.io/blog/minimax-m31f",
-    "date": "2026-10-20",
+    "date": "2026-10-23",
     "meta": "",
     "bullets": [
-      "MiniMax 发布 M3.1 Flash，官方称推理提速近三倍、用量成本降低约 70%。",
-      "调用量霸榜十余天的「神秘兔子」被指认即 MiniMax 新模型。",
-      "低价高吞吐路线继续挤压中小团队的 API 成本曲线。"
+      "MiniMax 发布并开放 M3.1 Flash 权重：总参约 428B、每 token 激活约 23B。",
+      "官方称推理提速近三倍、成本降约 70%；上线后短时间处理 Token 规模达百万亿级。",
+      "低价高吞吐路线继续挤压中小团队 API 成本曲线。"
     ],
     "links": [
       {
@@ -916,20 +916,41 @@
         "url": "https://www.marktechpost.com/2026/10/19/minimax-m3-1-flash-release",
         "date": "2026-10-19",
         "same_event": true
+      },
+      {
+        "label": "AIbase",
+        "title": "MiniMax开源M3.1 Flash：总参数428B、激活参数23B，72小时处理Token超100万亿",
+        "url": "https://www.aibase.com/news/31816",
+        "date": "2026-10-23",
+        "same_event": true
+      },
+      {
+        "label": "AIHot",
+        "title": "MiniMax 开放 M3.1 Flash 权重：428B 总参数、每 token 激活 23B",
+        "url": "https://x.com/MiniMax_AI/status/2113436864904610008",
+        "date": "2026-10-23",
+        "same_event": true
+      },
+      {
+        "label": "AIHot",
+        "title": "MiniMax 开源 M3.1 Flash，总参数 428B，上线 72 小时处理 Token 超 100 万亿",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzE5MTA3NzcxMQ%3D%3D&mid=2247489204&idx=1&sn=bc21e172929a366edfe02c720bef9208",
+        "date": "2026-10-23",
+        "same_event": true
       }
     ],
-    "score": 83.8,
+    "score": 87.8,
     "score_parts": {
-      "industry": 82.0,
-      "actionable": 80.0,
-      "breadth": 70.0,
+      "industry": 84,
+      "actionable": 88,
+      "breadth": 78,
       "heat": 100.0
     },
     "heat_signals": {
-      "reports": 6,
-      "domains": 5,
-      "x_posts_7d": 4114,
-      "x_spike_7d": 4084
+      "reports": 9,
+      "domains": 7,
+      "x_posts_7d": 9331,
+      "x_spike_7d": 9316.0
     },
     "heat": 100
   },
@@ -1005,7 +1026,7 @@
       "reports": 7,
       "domains": 4,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 75
   },
@@ -1074,7 +1095,7 @@
       "reports": 6,
       "domains": 6,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 75
   },
@@ -1172,22 +1193,29 @@
         "url": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence",
         "date": "2026-10-23",
         "same_event": true
+      },
+      {
+        "label": "AIbase",
+        "title": "微软 人工智能诊断系统MAI-DxO 诊断准确率达83.2%，计划启动临床试验",
+        "url": "https://www.aibase.com/news/31813",
+        "date": "2026-10-23",
+        "same_event": true
       }
     ],
-    "score": 78.8,
+    "score": 81.0,
     "score_parts": {
       "industry": 90,
       "actionable": 70,
       "breadth": 82,
-      "heat": 68.0
+      "heat": 79.0
     },
     "heat_signals": {
-      "reports": 4,
-      "domains": 4,
-      "x_posts_7d": 102,
-      "x_spike_7d": 102.0
+      "reports": 5,
+      "domains": 5,
+      "x_posts_7d": 234,
+      "x_spike_7d": 234.0
     },
-    "heat": 68
+    "heat": 79
   },
   {
     "id": "openai-正式发布-decisions-api-面向低延迟低成本小决策-bbe75c",
@@ -1213,22 +1241,43 @@
         "url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up",
         "date": "2026-10-23",
         "same_event": true
+      },
+      {
+        "label": "AIbase",
+        "title": "OpenAI 全面开放决策 API：基于 GPT-6 Luna，输入每百万 token 仅 0.1 美元",
+        "url": "https://www.aibase.com/news/31819",
+        "date": "2026-10-23",
+        "same_event": true
+      },
+      {
+        "label": "AIbase",
+        "title": "OpenAI 全面开放决策 API：GPT‑6 Luna 上阵，输入百万 token 仅 0.1 美元",
+        "url": "https://www.aibase.com/news/31818",
+        "date": "2026-10-23",
+        "same_event": true
+      },
+      {
+        "label": "AIbase",
+        "title": "OpenAI 向所有客户开放 Decisions API，决策延迟最低降至100毫秒级",
+        "url": "https://www.aibase.com/news/31812",
+        "date": "2026-10-23",
+        "same_event": true
       }
     ],
-    "score": 78.7,
+    "score": 83.3,
     "score_parts": {
       "industry": 88,
       "actionable": 86,
       "breadth": 75,
-      "heat": 51.0
+      "heat": 74.0
     },
     "heat_signals": {
-      "reports": 2,
-      "domains": 2,
-      "x_posts_7d": 502,
-      "x_spike_7d": 479.5
+      "reports": 5,
+      "domains": 3,
+      "x_posts_7d": 590,
+      "x_spike_7d": 477.5
     },
-    "heat": 51
+    "heat": 74
   },
   {
     "id": "step-5-preview-oss",
@@ -1288,7 +1337,7 @@
       "reports": 5,
       "domains": 3,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 64
   },
@@ -1602,8 +1651,8 @@
     "heat_signals": {
       "reports": 4,
       "domains": 4,
-      "x_posts_7d": 683,
-      "x_spike_7d": 675.5
+      "x_posts_7d": 678,
+      "x_spike_7d": 603.0
     },
     "heat": 78
   },
@@ -1644,7 +1693,7 @@
       "reports": 2,
       "domains": 2,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 41
   },
@@ -1782,7 +1831,7 @@
       "reports": 2,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 36
   },
@@ -1947,7 +1996,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     }
   },
   {
@@ -2008,7 +2057,7 @@
       "reports": 5,
       "domains": 4,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 69
   },
@@ -2106,7 +2155,7 @@
       "reports": 5,
       "domains": 5,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 69
   },
@@ -2147,7 +2196,7 @@
       "reports": 2,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 36
   },
@@ -2209,7 +2258,7 @@
       "reports": 5,
       "domains": 3,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 64
   },
@@ -2258,7 +2307,7 @@
       "reports": 3,
       "domains": 3,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 52
   },
@@ -2340,7 +2389,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -2388,7 +2437,7 @@
       "reports": 3,
       "domains": 3,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 52
   },
@@ -2472,7 +2521,7 @@
       "reports": 3,
       "domains": 2,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 47
   },
@@ -2547,7 +2596,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -2651,7 +2700,7 @@
       "reports": 11,
       "domains": 8,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 75
   },
@@ -2713,7 +2762,7 @@
       "reports": 5,
       "domains": 5,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 69
   },
@@ -2747,7 +2796,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -2782,7 +2831,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     }
   },
   {
@@ -2814,7 +2863,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -2847,7 +2896,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -2923,7 +2972,7 @@
       "reports": 2,
       "domains": 2,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 41
   },
@@ -2971,7 +3020,7 @@
       "reports": 3,
       "domains": 3,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 52
   },
@@ -3026,7 +3075,7 @@
       "reports": 4,
       "domains": 3,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 58
   },
@@ -3068,7 +3117,7 @@
       "reports": 2,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 36
   },
@@ -3116,7 +3165,7 @@
       "reports": 3,
       "domains": 3,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 52
   },
@@ -3200,7 +3249,7 @@
       "reports": 3,
       "domains": 2,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 47
   },
@@ -3305,7 +3354,7 @@
       "reports": 5,
       "domains": 3,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 64
   },
@@ -3408,7 +3457,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -3441,7 +3490,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -3474,7 +3523,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -3683,7 +3732,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -3724,7 +3773,7 @@
       "reports": 2,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 36
   },
@@ -3779,7 +3828,7 @@
       "reports": 4,
       "domains": 4,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 63
   },
@@ -3821,7 +3870,7 @@
       "reports": 2,
       "domains": 2,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 41
   },
@@ -3872,20 +3921,20 @@
         "same_event": true
       }
     ],
-    "score": 66.8,
+    "score": 70.8,
     "score_parts": {
       "industry": 85.0,
       "actionable": 40.0,
       "breadth": 80.0,
-      "heat": 64.0
+      "heat": 84.0
     },
     "heat_signals": {
       "reports": 5,
       "domains": 3,
-      "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_posts_7d": 3303,
+      "x_spike_7d": 2613.0
     },
-    "heat": 64
+    "heat": 84
   },
   {
     "id": "openai-prompt-cache-12h",
@@ -3918,7 +3967,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 219,
-      "x_spike_7d": 189
+      "x_spike_7d": 189.0
     },
     "heat": 35
   },
@@ -3952,7 +4001,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -3985,7 +4034,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -4041,7 +4090,7 @@
       "reports": 4,
       "domains": 4,
       "x_posts_7d": 1628,
-      "x_spike_7d": 1140
+      "x_spike_7d": 1140.0
     },
     "heat": 83
   },
@@ -4075,7 +4124,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -4108,7 +4157,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -4141,7 +4190,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -4175,7 +4224,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -4272,7 +4321,7 @@
       "reports": 10,
       "domains": 7,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 75
   },
@@ -4306,7 +4355,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -4375,7 +4424,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -4409,7 +4458,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -4457,7 +4506,7 @@
       "reports": 3,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 42
   },
@@ -4491,7 +4540,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -4526,7 +4575,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 84,
-      "x_spike_7d": 46
+      "x_spike_7d": 46.0
     },
     "heat": 30
   },
@@ -4610,19 +4659,20 @@
       "reports": 2,
       "domains": 2,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 41
   },
   {
     "id": "canva-推出其首个图像生成模型-372ade",
-    "title": "Canva 推出其首个图像生成模型",
+    "title": "Canva 推出 Craft 图像生成模型：支持 2K 与超宽画幅",
     "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model",
     "date": "2026-10-23",
     "meta": "",
     "bullets": [
-      "Canva is making its new image model available to all users, promising b…",
-      "model available to all users, promising better, more customizable perfo…"
+      "Canva 发布首个自研图像生成模型 Craft，面向全量用户。",
+      "支持 2K 分辨率与超宽画幅，强调可定制表现。",
+      "设计工具内嵌生成能力再进一步。"
     ],
     "links": [
       {
@@ -4630,22 +4680,29 @@
         "title": "Canva 推出其首个图像生成模型",
         "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model",
         "date": "2026-10-23"
+      },
+      {
+        "label": "AIbase",
+        "title": "Canva推出Craft图像生成模型，支持2K分辨率与超宽画幅",
+        "url": "https://www.aibase.com/news/31829",
+        "date": "2026-10-23",
+        "same_event": true
       }
     ],
-    "score": 62.8,
+    "score": 70.9,
     "score_parts": {
       "industry": 72,
-      "actionable": 70,
-      "breadth": 70,
-      "heat": 30.0
+      "actionable": 78,
+      "breadth": 75,
+      "heat": 56.0
     },
     "heat_signals": {
-      "reports": 1,
-      "domains": 1,
-      "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 539,
+      "x_spike_7d": 531.5
     },
-    "heat": 30
+    "heat": 56
   },
   {
     "id": "apple-mlx-816b",
@@ -4677,7 +4734,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -4711,7 +4768,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -4745,7 +4802,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -4779,7 +4836,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -4813,7 +4870,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -4846,7 +4903,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -4880,7 +4937,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -4914,7 +4971,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -4949,7 +5006,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -4997,7 +5054,7 @@
       "reports": 3,
       "domains": 3,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 52
   },
@@ -5038,7 +5095,7 @@
       "reports": 2,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 36
   },
@@ -5072,7 +5129,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -5113,7 +5170,7 @@
       "reports": 2,
       "domains": 2,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 41
   },
@@ -5169,7 +5226,7 @@
       "reports": 4,
       "domains": 4,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 63
   },
@@ -5218,7 +5275,7 @@
       "reports": 3,
       "domains": 3,
       "x_posts_7d": 65,
-      "x_spike_7d": 57
+      "x_spike_7d": 57.0
     },
     "heat": 57
   },
@@ -5252,7 +5309,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -5286,7 +5343,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -5320,7 +5377,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -5354,7 +5411,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -5389,7 +5446,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     }
   },
   {
@@ -5422,7 +5479,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -5456,7 +5513,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -5490,7 +5547,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -5523,7 +5580,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -5555,7 +5612,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -5597,7 +5654,7 @@
       "reports": 2,
       "domains": 2,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 41
   },
@@ -5630,7 +5687,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -5664,7 +5721,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -5706,7 +5763,7 @@
       "reports": 2,
       "domains": 2,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 41
   },
@@ -5739,7 +5796,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -5773,7 +5830,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -5808,7 +5865,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     }
   },
   {
@@ -5843,7 +5900,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     }
   },
   {
@@ -5877,7 +5934,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     }
   },
   {
@@ -5911,7 +5968,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     }
   },
   {
@@ -5944,7 +6001,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -5992,7 +6049,7 @@
       "reports": 3,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 42
   },
@@ -6026,7 +6083,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -6060,7 +6117,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -6093,7 +6150,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -6127,7 +6184,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -6161,7 +6218,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -6195,7 +6252,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -6229,7 +6286,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -6261,7 +6318,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -6295,7 +6352,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -6328,7 +6385,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -6361,7 +6418,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -6393,7 +6450,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -6425,7 +6482,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -6457,7 +6514,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -6490,7 +6547,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -6523,7 +6580,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -6556,7 +6613,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -6588,7 +6645,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -6622,7 +6679,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -6657,7 +6714,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     }
   },
   {
@@ -6690,7 +6747,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -6731,7 +6788,7 @@
       "reports": 2,
       "domains": 2,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 41
   },
@@ -6773,7 +6830,7 @@
       "reports": 2,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 36
   },
@@ -6807,7 +6864,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -6841,7 +6898,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -6875,7 +6932,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -6908,7 +6965,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -6956,7 +7013,7 @@
       "reports": 3,
       "domains": 3,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 52
   },
@@ -6989,7 +7046,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -7024,7 +7081,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     }
   },
   {
@@ -7058,7 +7115,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     }
   },
   {
@@ -7092,7 +7149,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     }
   },
   {
@@ -7126,7 +7183,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     }
   },
   {
@@ -7160,7 +7217,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     }
   },
   {
@@ -7193,7 +7250,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -7234,7 +7291,7 @@
       "reports": 2,
       "domains": 2,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 41
   },
@@ -7268,7 +7325,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -7302,7 +7359,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -7310,7 +7367,7 @@
     "id": "openai-30b-fundraise-race",
     "title": "报道称 OpenAI 抢在 Anthropic 上市前推进约 300 亿美元新融资，估值指向约 1.4 万亿美元",
     "url": "https://www.techmeme.com/261019/p49",
-    "date": "2026-10-20",
+    "date": "2026-10-23",
     "meta": "",
     "bullets": [
       "有消息称 OpenAI 正紧急锁定投资人承诺，规模约 300 亿美元。",
@@ -7324,22 +7381,29 @@
         "url": "https://www.techmeme.com/261019/p49",
         "date": "2026-10-20",
         "same_event": true
+      },
+      {
+        "label": "AIbase",
+        "title": "OpenAI 冲刺 300 亿美元融资，投前估值站上 1.25 万亿美元",
+        "url": "https://www.aibase.com/news/31824",
+        "date": "2026-10-23",
+        "same_event": true
       }
     ],
     "score_parts": {
       "industry": 85.0,
       "actionable": 30.0,
       "breadth": 70.0,
-      "heat": 30.0
+      "heat": 61.0
     },
-    "score": 56.0,
+    "score": 62.2,
     "heat_signals": {
-      "reports": 1,
-      "domains": 1,
-      "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 3303,
+      "x_spike_7d": 2613.0
     },
-    "heat": 30
+    "heat": 61
   },
   {
     "id": "postgres-19-ai-delay",
@@ -7378,7 +7442,7 @@
       "reports": 2,
       "domains": 2,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 41
   },
@@ -7412,7 +7476,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -7446,7 +7510,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -7482,7 +7546,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     }
   },
   {
@@ -7515,7 +7579,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -7550,7 +7614,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -7585,7 +7649,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     }
   },
   {
@@ -7617,7 +7681,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -7650,7 +7714,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -7683,7 +7747,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -7718,7 +7782,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     }
   },
   {
@@ -7752,7 +7816,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     }
   },
   {
@@ -7786,7 +7850,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     }
   },
   {
@@ -7820,7 +7884,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -7868,7 +7932,7 @@
       "reports": 3,
       "domains": 3,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 52
   },
@@ -7901,7 +7965,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -7934,7 +7998,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -7968,7 +8032,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -8002,7 +8066,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -8036,7 +8100,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -8070,7 +8134,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -8111,7 +8175,7 @@
       "reports": 2,
       "domains": 2,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 41
   },
@@ -8145,7 +8209,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -8201,7 +8265,7 @@
       "reports": 4,
       "domains": 4,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 63
   },
@@ -8233,7 +8297,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -8344,7 +8408,7 @@
       "reports": 12,
       "domains": 10,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 75
   },
@@ -8377,7 +8441,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -8410,7 +8474,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -8444,7 +8508,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -8485,7 +8549,7 @@
       "reports": 2,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 36
   },
@@ -8512,15 +8576,15 @@
       "industry": 73.0,
       "actionable": 45.0,
       "breadth": 45.0,
-      "heat": 30.0
+      "heat": 50.0
     },
-    "score": 53.2,
-    "heat": 30,
+    "score": 57.2,
+    "heat": 50,
     "heat_signals": {
       "reports": 1,
       "domains": 1,
-      "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_posts_7d": 3303,
+      "x_spike_7d": 2613.0
     }
   },
   {
@@ -8553,7 +8617,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -8588,7 +8652,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -8620,7 +8684,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -8653,7 +8717,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -8686,7 +8750,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -8720,7 +8784,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -8762,7 +8826,7 @@
       "reports": 2,
       "domains": 2,
       "x_posts_7d": 1004,
-      "x_spike_7d": 996
+      "x_spike_7d": 996.0
     },
     "heat": 56
   },
@@ -8795,7 +8859,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -8828,7 +8892,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -8862,7 +8926,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -8896,7 +8960,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -8945,7 +9009,7 @@
       "reports": 3,
       "domains": 3,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 52
   },
@@ -8979,7 +9043,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -9012,7 +9076,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -9045,7 +9109,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -9078,7 +9142,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -9110,7 +9174,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -9143,7 +9207,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -9176,7 +9240,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -9209,7 +9273,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -9243,7 +9307,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -9277,7 +9341,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -9305,15 +9369,15 @@
       "industry": 53.0,
       "actionable": 62.0,
       "breadth": 57.0,
-      "heat": 30.0
+      "heat": 60.0
     },
-    "score": 51.5,
-    "heat": 30,
+    "score": 57.5,
+    "heat": 60,
     "heat_signals": {
       "reports": 1,
       "domains": 1,
-      "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_posts_7d": 9331,
+      "x_spike_7d": 9316.0
     }
   },
   {
@@ -9354,7 +9418,7 @@
       "reports": 2,
       "domains": 2,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 41
   },
@@ -9387,7 +9451,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -9422,7 +9486,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     }
   },
   {
@@ -9456,7 +9520,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     }
   },
   {
@@ -9489,7 +9553,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -9522,7 +9586,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -9555,7 +9619,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -9588,7 +9652,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -9621,7 +9685,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -9654,7 +9718,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -9689,7 +9753,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     }
   },
   {
@@ -9722,7 +9786,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -9756,7 +9820,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -9789,7 +9853,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -9821,7 +9885,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -9853,7 +9917,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -9885,7 +9949,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -9918,7 +9982,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -9952,7 +10016,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -9985,7 +10049,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -10017,7 +10081,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -10050,7 +10114,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -10082,7 +10146,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -10115,7 +10179,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -10148,7 +10212,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -10181,7 +10245,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -10214,7 +10278,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -10247,7 +10311,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -10280,7 +10344,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -10313,7 +10377,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -10346,7 +10410,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -10379,7 +10443,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -10412,7 +10476,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -10446,7 +10510,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -10480,7 +10544,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -10514,7 +10578,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -10548,7 +10612,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -10582,7 +10646,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -10623,7 +10687,7 @@
       "reports": 2,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 36
   },
@@ -10657,7 +10721,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -10691,7 +10755,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -10725,7 +10789,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -10767,7 +10831,7 @@
       "reports": 2,
       "domains": 2,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 41
   },
@@ -10799,7 +10863,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -10839,7 +10903,7 @@
       "reports": 2,
       "domains": 2,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 41
   },
@@ -10873,7 +10937,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -10907,7 +10971,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -10941,7 +11005,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -10975,7 +11039,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -11008,7 +11072,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -11041,7 +11105,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -11076,7 +11140,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     }
   },
   {
@@ -11109,7 +11173,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -11144,7 +11208,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     }
   },
   {
@@ -11178,7 +11242,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     }
   },
   {
@@ -11212,7 +11276,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     }
   },
   {
@@ -11246,7 +11310,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     }
   },
   {
@@ -11279,7 +11343,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -11312,7 +11376,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -11345,7 +11409,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -11378,7 +11442,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -11411,7 +11475,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -11444,7 +11508,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -11478,7 +11542,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -11512,7 +11576,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -11546,7 +11610,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -11580,7 +11644,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -11614,7 +11678,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -11648,7 +11712,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -11682,7 +11746,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -11715,7 +11779,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -11737,20 +11801,20 @@
         "date": "2026-10-21"
       }
     ],
-    "score": 48.0,
+    "score": 52.0,
     "score_parts": {
       "industry": 66.0,
       "actionable": 38.0,
       "breadth": 42.0,
-      "heat": 30.0
+      "heat": 50.0
     },
     "heat_signals": {
       "reports": 1,
       "domains": 1,
-      "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_posts_7d": 3303,
+      "x_spike_7d": 2613.0
     },
-    "heat": 30
+    "heat": 50
   },
   {
     "id": "bloomberg-报道-deepseek-新一轮融资约-150-亿美元-1dcc60",
@@ -11782,7 +11846,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -11815,7 +11879,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -11848,7 +11912,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -11869,20 +11933,20 @@
         "date": "2026-10-23"
       }
     ],
-    "score": 48.0,
+    "score": 52.0,
     "score_parts": {
       "industry": 66.0,
       "actionable": 38.0,
       "breadth": 42.0,
-      "heat": 30.0
+      "heat": 50.0
     },
     "heat_signals": {
       "reports": 1,
       "domains": 1,
-      "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_posts_7d": 3303,
+      "x_spike_7d": 2613.0
     },
-    "heat": 30
+    "heat": 50
   },
   {
     "id": "nvidia-在-gtc-berlin-展示-rtx-spark-dgx-spark-和-dgx-9d20da",
@@ -11913,7 +11977,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -11946,7 +12010,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -11980,7 +12044,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -12015,7 +12079,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     }
   },
   {
@@ -12049,7 +12113,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     }
   },
   {
@@ -12082,7 +12146,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -12117,7 +12181,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     }
   },
   {
@@ -12151,7 +12215,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     }
   },
   {
@@ -12185,7 +12249,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     }
   },
   {
@@ -12219,7 +12283,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     }
   },
   {
@@ -12253,7 +12317,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     }
   },
   {
@@ -12287,7 +12351,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     }
   },
   {
@@ -12321,7 +12385,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     }
   },
   {
@@ -12355,7 +12419,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     }
   },
   {
@@ -12389,7 +12453,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     }
   },
   {
@@ -12423,7 +12487,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     }
   },
   {
@@ -12457,7 +12521,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     }
   },
   {
@@ -12491,7 +12555,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     }
   },
   {
@@ -12525,7 +12589,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     }
   },
   {
@@ -12557,7 +12621,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -12590,7 +12654,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -12622,7 +12686,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -12656,7 +12720,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -12690,7 +12754,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -12723,7 +12787,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -12756,7 +12820,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -12789,7 +12853,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -12822,7 +12886,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -12855,7 +12919,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -12887,7 +12951,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -12919,7 +12983,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -12951,7 +13015,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -12983,7 +13047,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -13016,7 +13080,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -13049,7 +13113,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -13081,7 +13145,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -13114,7 +13178,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -13147,7 +13211,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -13179,7 +13243,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -13211,7 +13275,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -13243,7 +13307,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -13275,7 +13339,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -13307,7 +13371,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -13339,7 +13403,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -13372,7 +13436,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -13404,7 +13468,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -13437,7 +13501,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -13469,7 +13533,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -13501,7 +13565,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -13534,7 +13598,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -13568,7 +13632,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -13602,7 +13666,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -13636,7 +13700,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -13670,7 +13734,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -13702,7 +13766,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -13734,7 +13798,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -13767,7 +13831,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -13800,7 +13864,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -13832,7 +13896,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -13865,7 +13929,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -13898,7 +13962,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -13931,7 +13995,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -13964,7 +14028,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -13996,7 +14060,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -14028,7 +14092,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -14060,7 +14124,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -14093,7 +14157,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -14128,7 +14192,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     }
   },
   {
@@ -14160,7 +14224,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -14193,7 +14257,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -14226,7 +14290,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -14258,7 +14322,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -14290,7 +14354,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -14323,7 +14387,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -14356,7 +14420,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -14389,7 +14453,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -14422,7 +14486,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -14455,7 +14519,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -14487,7 +14551,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -14519,7 +14583,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -14552,7 +14616,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -14584,7 +14648,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -14617,7 +14681,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -14649,7 +14713,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -14681,7 +14745,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -14714,18 +14778,20 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
   {
     "id": "将-agent-skills-捐赠给-agentic-ai-foundation-c22425",
-    "title": "将 Agent Skills 捐赠给 Agentic AI Foundation",
+    "title": "Anthropic 将 Agent Skills 标准捐赠给社区（Agentic AI Foundation）",
     "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills",
     "date": "2026-10-23",
     "meta": "",
     "bullets": [
-      "将 Agent Skills 捐赠给 Agentic AI Foundation"
+      "Anthropic 把 Agent Skills「说明书」标准捐赠给社区 / Agentic AI Foundation。",
+      "意图推动跨 Agent 产品的技能可移植与开放生态。",
+      "Simon Willison 等第一时间跟进解读。"
     ],
     "links": [
       {
@@ -14733,22 +14799,36 @@
         "title": "将 Agent Skills 捐赠给 Agentic AI Foundation",
         "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills",
         "date": "2026-10-23"
+      },
+      {
+        "label": "AIbase",
+        "title": "Anthropic 把智能体\"说明书\"交出去：Agent Skills 标准捐给社区",
+        "url": "https://www.aibase.com/news/31831",
+        "date": "2026-10-23",
+        "same_event": true
+      },
+      {
+        "label": "AIHot",
+        "title": "Anthropic 将 Agent Skills 开放标准捐赠给 Linux Foundation 旗下 Agentic AI Foundation",
+        "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+        "date": "2026-10-21",
+        "same_event": true
       }
     ],
-    "score": 47.0,
+    "score": 76.1,
     "score_parts": {
-      "industry": 50.0,
-      "actionable": 55.0,
-      "breadth": 45.0,
-      "heat": 30.0
+      "industry": 78,
+      "actionable": 80,
+      "breadth": 75,
+      "heat": 67.0
     },
     "heat_signals": {
-      "reports": 1,
-      "domains": 1,
-      "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "reports": 3,
+      "domains": 3,
+      "x_posts_7d": 634,
+      "x_spike_7d": 566.5
     },
-    "heat": 30
+    "heat": 67
   },
   {
     "id": "item-75d3fc0c0f",
@@ -14781,7 +14861,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     }
   },
   {
@@ -14815,7 +14895,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     }
   },
   {
@@ -14847,7 +14927,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -14880,7 +14960,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -14946,7 +15026,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -14979,7 +15059,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -15012,7 +15092,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -15045,7 +15125,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -15078,7 +15158,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -15110,7 +15190,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -15143,7 +15223,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -15177,7 +15257,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -15211,7 +15291,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -15244,7 +15324,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -15278,7 +15358,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -15312,7 +15392,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -15345,7 +15425,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -15378,7 +15458,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -15411,7 +15491,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -15445,7 +15525,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -15478,7 +15558,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -15510,7 +15590,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -15544,7 +15624,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -15578,7 +15658,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -15612,7 +15692,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -15645,7 +15725,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -15679,7 +15759,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -15712,7 +15792,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -15745,7 +15825,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -15778,7 +15858,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -15811,7 +15891,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -15843,7 +15923,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -15876,7 +15956,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -15909,7 +15989,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -15941,7 +16021,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -15975,7 +16055,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -16009,7 +16089,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -16043,7 +16123,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -16075,7 +16155,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -16108,7 +16188,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -16140,7 +16220,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -16172,7 +16252,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -16205,7 +16285,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -16238,7 +16318,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -16271,7 +16351,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -16304,7 +16384,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -16337,7 +16417,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -16370,7 +16450,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -16403,7 +16483,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -16436,7 +16516,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -16468,7 +16548,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -16500,7 +16580,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -16534,7 +16614,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -16568,7 +16648,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -16602,7 +16682,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -16636,7 +16716,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -16670,7 +16750,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -16704,7 +16784,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -16738,7 +16818,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -16772,7 +16852,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -16806,7 +16886,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -16840,7 +16920,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -16874,7 +16954,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -16908,7 +16988,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -16942,7 +17022,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -16976,7 +17056,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -17010,7 +17090,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -17044,7 +17124,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -17078,7 +17158,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -17110,7 +17190,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -17143,7 +17223,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -17176,7 +17256,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -17208,7 +17288,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -17240,7 +17320,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -17274,7 +17354,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -17306,7 +17386,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -17339,7 +17419,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -17372,7 +17452,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -17407,7 +17487,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     }
   },
   {
@@ -17439,7 +17519,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -17472,7 +17552,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -17505,7 +17585,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -17540,7 +17620,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     }
   },
   {
@@ -17571,7 +17651,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -17604,7 +17684,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -17637,7 +17717,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -17669,7 +17749,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -17701,7 +17781,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -17734,7 +17814,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -17767,7 +17847,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -17800,7 +17880,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -17833,7 +17913,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -17866,7 +17946,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -17899,7 +17979,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -17932,7 +18012,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -17964,7 +18044,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -17996,7 +18076,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -18028,7 +18108,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -18060,7 +18140,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -18092,7 +18172,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -18124,7 +18204,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -18157,7 +18237,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -18190,7 +18270,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -18222,7 +18302,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -18257,7 +18337,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     }
   },
   {
@@ -18289,7 +18369,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -18322,7 +18402,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -18354,7 +18434,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -18386,7 +18466,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -18418,7 +18498,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -18451,7 +18531,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -18484,7 +18564,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -18517,7 +18597,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -18552,7 +18632,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     }
   },
   {
@@ -18584,7 +18664,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -18617,7 +18697,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -18650,7 +18730,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -18683,7 +18763,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -18715,7 +18795,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -18747,7 +18827,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -18779,7 +18859,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -18811,7 +18891,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -18844,7 +18924,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -18877,7 +18957,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -18909,7 +18989,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -18941,7 +19021,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -18973,7 +19053,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -19005,7 +19085,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -19037,7 +19117,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -19069,7 +19149,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -19101,7 +19181,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -19133,7 +19213,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -19165,7 +19245,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -19197,7 +19277,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -19229,7 +19309,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -19261,7 +19341,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -19293,7 +19373,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -19325,7 +19405,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -19357,7 +19437,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -19389,7 +19469,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -19421,7 +19501,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -19453,7 +19533,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -19485,7 +19565,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -19517,7 +19597,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -19549,7 +19629,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -19581,7 +19661,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -19614,7 +19694,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -19647,7 +19727,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -19680,7 +19760,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -19713,7 +19793,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -19745,7 +19825,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -19778,7 +19858,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -19811,7 +19891,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -19844,7 +19924,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -19877,7 +19957,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -19910,7 +19990,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -19943,7 +20023,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -19976,7 +20056,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -20009,7 +20089,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -20041,7 +20121,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -20073,7 +20153,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -20105,7 +20185,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -20137,7 +20217,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -20170,7 +20250,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -20203,7 +20283,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -20236,7 +20316,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -20269,7 +20349,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -20302,7 +20382,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -20334,7 +20414,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -20367,7 +20447,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -20400,7 +20480,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -20433,7 +20513,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -20466,7 +20546,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -20498,7 +20578,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -20530,7 +20610,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -20562,7 +20642,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -20595,7 +20675,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -20628,7 +20708,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -20662,7 +20742,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -20695,7 +20775,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -20728,7 +20808,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -20761,7 +20841,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -20794,7 +20874,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -20828,7 +20908,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -20861,7 +20941,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -20894,7 +20974,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -20926,7 +21006,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -20960,7 +21040,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -20993,7 +21073,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -21026,7 +21106,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -21058,7 +21138,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -21091,7 +21171,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -21124,7 +21204,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -21157,7 +21237,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -21190,7 +21270,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -21223,7 +21303,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -21256,7 +21336,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -21289,7 +21369,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -21321,7 +21401,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -21354,7 +21434,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -21386,7 +21466,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -21418,7 +21498,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -21450,7 +21530,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -21482,7 +21562,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -21514,7 +21594,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -21546,7 +21626,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -21578,7 +21658,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -21610,7 +21690,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -21642,7 +21722,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -21674,7 +21754,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -21706,7 +21786,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -21738,7 +21818,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -21771,7 +21851,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -21804,7 +21884,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -21837,7 +21917,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -21870,7 +21950,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -21904,7 +21984,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -21936,7 +22016,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -21969,7 +22049,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -22001,7 +22081,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -22033,7 +22113,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -22065,7 +22145,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -22097,7 +22177,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -22130,7 +22210,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -22163,7 +22243,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -22196,7 +22276,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -22228,7 +22308,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -22249,20 +22329,20 @@
         "date": "2026-10-22"
       }
     ],
-    "score": 44.0,
+    "score": 47.0,
     "score_parts": {
       "industry": 50.0,
       "actionable": 45.0,
       "breadth": 45.0,
-      "heat": 30.0
+      "heat": 45.0
     },
     "heat_signals": {
       "reports": 1,
       "domains": 1,
-      "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_posts_7d": 678,
+      "x_spike_7d": 603.0
     },
-    "heat": 30
+    "heat": 45
   },
   {
     "id": "pressure-to-back-promising-ai-startups-is-upendi-46a321",
@@ -22292,7 +22372,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -22326,7 +22406,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -22358,7 +22438,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -22390,7 +22470,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -22422,7 +22502,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -22454,7 +22534,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -22486,7 +22566,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -22518,7 +22598,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -22550,7 +22630,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -22582,7 +22662,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -22614,7 +22694,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -22646,7 +22726,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -22678,7 +22758,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -22710,7 +22790,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -22742,7 +22822,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -22774,7 +22854,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -22806,7 +22886,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -22838,7 +22918,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -22870,7 +22950,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -22902,7 +22982,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -22934,7 +23014,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -22966,7 +23046,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -22998,7 +23078,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -23030,7 +23110,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -23062,7 +23142,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -23094,7 +23174,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -23126,7 +23206,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -23158,7 +23238,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -23190,7 +23270,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -23222,7 +23302,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -23254,7 +23334,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -23287,7 +23367,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -23320,7 +23400,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -23352,7 +23432,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -23384,7 +23464,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -23416,7 +23496,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -23448,7 +23528,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -23480,7 +23560,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -23513,7 +23593,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -23546,7 +23626,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -23579,7 +23659,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -23612,7 +23692,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -23645,7 +23725,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -23678,7 +23758,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -23711,7 +23791,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -23744,7 +23824,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -23776,7 +23856,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -23808,7 +23888,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -23840,7 +23920,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -23872,7 +23952,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -23904,7 +23984,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -23936,7 +24016,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -23968,7 +24048,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -24000,7 +24080,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -24032,7 +24112,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -24064,7 +24144,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -24097,7 +24177,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -24131,7 +24211,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -24164,7 +24244,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -24197,7 +24277,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -24230,7 +24310,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -24263,7 +24343,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -24296,7 +24376,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -24330,7 +24410,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -24364,7 +24444,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -24397,7 +24477,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -24430,7 +24510,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -24463,7 +24543,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -24497,7 +24577,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -24531,7 +24611,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -24563,7 +24643,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -24595,7 +24675,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -24628,7 +24708,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -24661,7 +24741,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -24694,7 +24774,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -24727,7 +24807,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -24760,7 +24840,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -24794,7 +24874,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -24826,7 +24906,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -24858,7 +24938,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -24891,7 +24971,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -24924,7 +25004,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -24956,7 +25036,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -24988,7 +25068,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -25020,7 +25100,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -25053,7 +25133,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -25086,7 +25166,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -25119,7 +25199,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -25151,7 +25231,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -25185,7 +25265,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -25218,7 +25298,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -25251,7 +25331,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -25284,7 +25364,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -25317,7 +25397,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -25352,7 +25432,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     }
   },
   {
@@ -25384,7 +25464,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -25417,7 +25497,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -25450,7 +25530,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -25483,7 +25563,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -25516,7 +25596,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -25550,7 +25630,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -25582,7 +25662,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -25614,7 +25694,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -25646,7 +25726,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -25679,7 +25759,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -25712,7 +25792,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -25745,7 +25825,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -25777,7 +25857,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -25810,7 +25890,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -25843,7 +25923,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -25876,7 +25956,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -25909,7 +25989,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -25941,7 +26021,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -25975,7 +26055,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -26008,7 +26088,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -26030,20 +26110,20 @@
         "date": "2026-10-22"
       }
     ],
-    "score": 41.6,
+    "score": 44.6,
     "score_parts": {
       "industry": 50.0,
       "actionable": 38.0,
       "breadth": 42.0,
-      "heat": 30.0
+      "heat": 45.0
     },
     "heat_signals": {
       "reports": 1,
       "domains": 1,
-      "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_posts_7d": 678,
+      "x_spike_7d": 603.0
     },
-    "heat": 30
+    "heat": 45
   },
   {
     "id": "keeping-up-with-ai-is-a-full-time-job-that-s-why-aa4b78",
@@ -26074,7 +26154,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -26106,7 +26186,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -26138,7 +26218,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -26170,7 +26250,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -26202,7 +26282,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -26234,7 +26314,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -26266,7 +26346,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -26298,7 +26378,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -26330,7 +26410,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -26362,7 +26442,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -26394,7 +26474,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -26426,7 +26506,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -26460,7 +26540,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -26494,7 +26574,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -26528,7 +26608,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -26562,7 +26642,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -26596,7 +26676,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -26630,7 +26710,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -26664,7 +26744,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -26698,7 +26778,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -26732,7 +26812,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -26766,7 +26846,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
   },
@@ -26801,7 +26881,7 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     }
   },
   {
@@ -26834,8 +26914,914 @@
       "reports": 1,
       "domains": 1,
       "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "x_spike_7d": 0.0
     },
     "heat": 30
+  },
+  {
+    "id": "ai-giants-charity",
+    "title": "AI 三巨头拟捐近 3000 亿美元，被称「现代史上最大慈善」",
+    "url": "https://www.aibase.com/news/31833",
+    "date": "2026-10-23",
+    "meta": "",
+    "bullets": [
+      "报道称 AI 三巨头拟捐赠近 3000 亿美元量级资源/资金。",
+      "被媒体称为「现代史上最大慈善」叙事。",
+      "属行业影响力与治理舆论事件，细节仍待核实。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "AI 三巨头拟捐近 3000 亿美元，被称\"现代史上最大慈善\"",
+        "url": "https://www.aibase.com/news/31833",
+        "date": "2026-10-23"
+      }
+    ],
+    "score": 45.5,
+    "score_parts": {
+      "industry": 65,
+      "actionable": 25,
+      "breadth": 60,
+      "heat": 30.0
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0.0
+    }
+  },
+  {
+    "id": "google-ace-agent-computer",
+    "title": "谷歌推出 ACE：为每个 AI 智能体配备「专属电脑」，唤醒 <500ms",
+    "url": "https://www.aibase.com/news/31832",
+    "date": "2026-10-23",
+    "meta": "",
+    "bullets": [
+      "谷歌推出 ACE（Agent Computer Environment 一类能力），给每个 AI 智能体配「专属电脑」。",
+      "称唤醒不到 500 毫秒，强调智能体可操作完整计算环境。",
+      "Agent 运行时与沙箱基础设施再成焦点。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "谷歌推出 ACE：给每个 AI 智能体配一台\"专属电脑\"，唤醒不到 500 毫秒",
+        "url": "https://www.aibase.com/news/31832",
+        "date": "2026-10-23"
+      }
+    ],
+    "score": 69.4,
+    "score_parts": {
+      "industry": 82,
+      "actionable": 78,
+      "breadth": 72,
+      "heat": 30.0
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 22,
+      "x_spike_7d": 22.0
+    }
+  },
+  {
+    "id": "xunfei-spark-medical-v37",
+    "title": "讯飞星火医疗大模型 V3.7 升级：MedBench 5.0 登顶 99.6 分",
+    "url": "https://www.aibase.com/news/31830",
+    "date": "2026-10-23",
+    "meta": "",
+    "bullets": [
+      "科大讯飞发布星火医疗大模型 V3.7。",
+      "在 MedBench 5.0 斩获约 99.6 分登顶；病历生成合理率称提升至约 85%。",
+      "国产医疗大模型评测与落地叙事再加强。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "讯飞医疗星火 V3.7 升级发布：MedBench 5.0 斩获 99.6 分登顶榜首",
+        "url": "https://www.aibase.com/news/31830",
+        "date": "2026-10-23"
+      },
+      {
+        "label": "AIbase",
+        "title": "讯飞星火医疗大模型 V3.7 登顶 MedBench5.0：病历生成合理率拉升至 85%",
+        "url": "https://www.aibase.com/news/31826",
+        "date": "2026-10-23",
+        "same_event": true
+      }
+    ],
+    "score": 62.1,
+    "score_parts": {
+      "industry": 70,
+      "actionable": 68,
+      "breadth": 65,
+      "heat": 36.0
+    },
+    "heat": 36,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0.0
+    }
+  },
+  {
+    "id": "deepseek-minimax-compliance",
+    "title": "DeepSeek 与 MiniMax 完成合规登记，推进开源与海外授权",
+    "url": "https://www.aibase.com/news/31828",
+    "date": "2026-10-23",
+    "meta": "",
+    "bullets": [
+      "DeepSeek 与 MiniMax 率先完成相关合规登记。",
+      "为开源权重与海外授权使用铺路。",
+      "国内大模型出海与开源合规节奏再进一步。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "DeepSeek、MiniMax完成相关登记，推进开源与海外授权使用",
+        "url": "https://www.aibase.com/news/31828",
+        "date": "2026-10-23"
+      },
+      {
+        "label": "AIbase",
+        "title": "​DeepSeek 与 MiniMax 率先完成合规登记，顺利实现开源与海外授权",
+        "url": "https://www.aibase.com/news/31822",
+        "date": "2026-10-23",
+        "same_event": true
+      }
+    ],
+    "score": 62.6,
+    "score_parts": {
+      "industry": 76,
+      "actionable": 60,
+      "breadth": 70,
+      "heat": 36.0
+    },
+    "heat": 36,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0.0
+    }
+  },
+  {
+    "id": "kimi-k31-arena",
+    "title": "Kimi K3.1 现身 Arena 测试：性能直追 GPT-6 Astra，月底或官宣",
+    "url": "https://www.aibase.com/news/31827",
+    "date": "2026-10-23",
+    "meta": "",
+    "bullets": [
+      "国产旗舰 Kimi K3.1 现身 LMSYS Arena 等测试。",
+      "报道称性能直追 GPT-6 Astra，月底有望官宣。",
+      "月之暗面新一代旗舰竞争叙事升温。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "国产旗舰 Kimi K3.1 现身 Arena 测试：性能直追 GPT-6 Astra，月底有望官宣",
+        "url": "https://www.aibase.com/news/31827",
+        "date": "2026-10-23"
+      }
+    ],
+    "score": 62.9,
+    "score_parts": {
+      "industry": 74,
+      "actionable": 55,
+      "breadth": 68,
+      "heat": 50.0
+    },
+    "heat": 50,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 1382,
+      "x_spike_7d": 1149.5
+    }
+  },
+  {
+    "id": "openai-monitor-gap",
+    "title": "外部评估称 OpenAI 监控存在漏洞：智能体数百次操作逃过审查",
+    "url": "https://www.aibase.com/news/31817",
+    "date": "2026-10-23",
+    "meta": "",
+    "bullets": [
+      "外部评估指出 OpenAI 监控机制存在漏洞。",
+      "称智能体可在数百次操作中逃过审查。",
+      "Agent 安全与运行时治理再受关注。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "外部评估戳穿 OpenAI 监控漏洞：智能体数百次操作逃过审查",
+        "url": "https://www.aibase.com/news/31817",
+        "date": "2026-10-23"
+      }
+    ],
+    "score": 64.7,
+    "score_parts": {
+      "industry": 78,
+      "actionable": 70,
+      "breadth": 65,
+      "heat": 30.0
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0.0
+    }
+  },
+  {
+    "id": "reservoir-suno-anthropic-suit",
+    "title": "音乐出版商 Reservoir 起诉 Suno 与 Anthropic：指控未经授权用版权歌曲训练",
+    "url": "https://www.aibase.com/news/31815",
+    "date": "2026-10-23",
+    "meta": "",
+    "bullets": [
+      "Reservoir 起诉 Suno 与 Anthropic。",
+      "指控未经授权使用版权歌曲训练 AI。",
+      "音乐版权 × 生成模型诉讼再添一例。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "音乐出版商 Reservoir 起诉 Suno 与 Anthropic，指控未经授权用版权歌曲训练 AI",
+        "url": "https://www.aibase.com/news/31815",
+        "date": "2026-10-23"
+      }
+    ],
+    "score": 53.5,
+    "score_parts": {
+      "industry": 70,
+      "actionable": 45,
+      "breadth": 60,
+      "heat": 30.0
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 22,
+      "x_spike_7d": 22.0
+    }
+  },
+  {
+    "id": "gcp-claude-hosting",
+    "title": "谷歌云开放 Claude 托管部署：企业可在自有基础设施首发日即用",
+    "url": "https://www.aibase.com/news/31811",
+    "date": "2026-10-23",
+    "meta": "",
+    "bullets": [
+      "谷歌云开放 Claude 托管部署能力。",
+      "企业可在自家基础设施上于首发日使用最新模型。",
+      "云上多模型托管竞争加深。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "谷歌云开放 Claude 托管部署：企业可在自家基础设施上首发日即用最新模型",
+        "url": "https://www.aibase.com/news/31811",
+        "date": "2026-10-23"
+      }
+    ],
+    "score": 65.6,
+    "score_parts": {
+      "industry": 72,
+      "actionable": 80,
+      "breadth": 68,
+      "heat": 30.0
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0.0
+    }
+  },
+  {
+    "id": "gh-copilot-vs-sep",
+    "title": "GitHub Copilot for Visual Studio：九月更新",
+    "url": "https://github.blog/changelog/2026-10-22-github-copilot-in-visual-studio-september-update-2",
+    "date": "2026-10-23",
+    "meta": "",
+    "bullets": [
+      "GitHub 发布 Copilot in Visual Studio 九月更新。",
+      "官方 changelog 见 GitHub Changelog。",
+      "IDE 内 Copilot 能力持续迭代。"
+    ],
+    "links": [
+      {
+        "label": "Official AI",
+        "title": "GitHub Copilot in Visual Studio — September update",
+        "url": "https://github.blog/changelog/2026-10-22-github-copilot-in-visual-studio-september-update-2",
+        "date": "2026-10-23"
+      }
+    ],
+    "score": 54.5,
+    "score_parts": {
+      "industry": 55,
+      "actionable": 70,
+      "breadth": 55,
+      "heat": 30.0
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0.0
+    }
+  },
+  {
+    "id": "openai-nask-poland",
+    "title": "OpenAI 与波兰 NASK 合作推进 AI 安全与安保",
+    "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+    "date": "2026-10-23",
+    "meta": "",
+    "bullets": [
+      "OpenAI 与波兰 NASK 达成合作。",
+      "聚焦 AI 安全与安保能力建设。",
+      "官方安全伙伴关系再扩展到中东欧。"
+    ],
+    "links": [
+      {
+        "label": "Official AI",
+        "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+        "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+        "date": "2026-10-23"
+      }
+    ],
+    "score": 52.0,
+    "score_parts": {
+      "industry": 60,
+      "actionable": 55,
+      "breadth": 55,
+      "heat": 30.0
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0.0
+    }
+  },
+  {
+    "id": "thinking-machines-db-rl",
+    "title": "Thinking Machines：把数据库评分变成 RL 奖励，用于 Agent 后训练",
+    "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+    "date": "2026-10-22",
+    "meta": "",
+    "bullets": [
+      "官方介绍将 Database Grading 转为 RL Rewards。",
+      "用于 Agent 后训练场景。",
+      "评测即奖励的工程化路径。"
+    ],
+    "links": [
+      {
+        "label": "Official AI",
+        "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+        "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+        "date": "2026-10-22"
+      }
+    ],
+    "score": 57.4,
+    "score_parts": {
+      "industry": 62,
+      "actionable": 72,
+      "breadth": 50,
+      "heat": 30.0
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0.0
+    }
+  },
+  {
+    "id": "gh-usage-metrics-skills",
+    "title": "GitHub：Usage metrics API 支持自定义 skills、agents 与 MCP servers",
+    "url": "https://github.blog/changelog/2026-10-22-custom-skills-agents-and-mcp-servers-in-usage-metrics-api",
+    "date": "2026-10-22",
+    "meta": "",
+    "bullets": [
+      "GitHub usage metrics API 现可统计自定义 skills、agents 与 MCP servers。",
+      "对企业治理 Agent 用量更可观测。",
+      "面向 Copilot/Agent 平台运营者。"
+    ],
+    "links": [
+      {
+        "label": "Official AI",
+        "title": "Custom skills, agents, and MCP servers in usage metrics API",
+        "url": "https://github.blog/changelog/2026-10-22-custom-skills-agents-and-mcp-servers-in-usage-metrics-api",
+        "date": "2026-10-22"
+      }
+    ],
+    "score": 57.2,
+    "score_parts": {
+      "industry": 58,
+      "actionable": 75,
+      "breadth": 55,
+      "heat": 30.0
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0.0
+    }
+  },
+  {
+    "id": "gh-copilot-global-default",
+    "title": "GitHub：Copilot 功能全局默认设置正式可用",
+    "url": "https://github.blog/changelog/2026-10-22-global-default-for-copilot-features-generally-available",
+    "date": "2026-10-22",
+    "meta": "",
+    "bullets": [
+      "GitHub 宣布 Copilot 功能的全局默认设置 GA。",
+      "组织可统一默认开启/策略。",
+      "降低大规模推广 Copilot 的配置成本。"
+    ],
+    "links": [
+      {
+        "label": "Official AI",
+        "title": "Global default for Copilot features generally available",
+        "url": "https://github.blog/changelog/2026-10-22-global-default-for-copilot-features-generally-available",
+        "date": "2026-10-22"
+      }
+    ],
+    "score": 59.6,
+    "score_parts": {
+      "industry": 60,
+      "actionable": 78,
+      "breadth": 62,
+      "heat": 30.0
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0.0
+    }
+  },
+  {
+    "id": "replit-monitoring-agent",
+    "title": "Replit 发布 Monitoring Agent：可自动修复并部署的值班智能体",
+    "url": "https://replit.com/blog/replit-monitoring-agent",
+    "date": "2026-10-22",
+    "meta": "",
+    "bullets": [
+      "Replit 发布 Monitoring Agent。",
+      "面向应用值班：可自动修复并部署。",
+      "把 Agent 能力延伸到运行时运维闭环。"
+    ],
+    "links": [
+      {
+        "label": "AIHot",
+        "title": "Replit 发布 Monitoring Agent，为应用提供可自动修复并部署的值班智能体",
+        "url": "https://replit.com/blog/replit-monitoring-agent",
+        "date": "2026-10-22"
+      }
+    ],
+    "score": 63.8,
+    "score_parts": {
+      "industry": 68,
+      "actionable": 82,
+      "breadth": 60,
+      "heat": 30.0
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 35,
+      "x_spike_7d": 35.0
+    }
+  },
+  {
+    "id": "卡兹克详解-ai-挖出的-php2shell-漏洞-发现只花2天-修复用了两个月",
+    "title": "卡兹克详解 AI 挖出的 PHP2Shell 漏洞：发现只花2天，修复用了两个月",
+    "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647687466&idx=1&sn=ba7ba0f3ca50ef789c17b179dd061f60",
+    "date": "2026-10-22",
+    "meta": "",
+    "bullets": [
+      "卡兹克详解 AI 挖出的 PHP2Shell 漏洞：发现只花2天，修复用了两个月"
+    ],
+    "links": [
+      {
+        "label": "AIHot",
+        "title": "卡兹克详解 AI 挖出的 PHP2Shell 漏洞：发现只花2天，修复用了两个月",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647687466&idx=1&sn=ba7ba0f3ca50ef789c17b179dd061f60",
+        "date": "2026-10-22"
+      }
+    ],
+    "score": 46.6,
+    "score_parts": {
+      "industry": 52,
+      "actionable": 50,
+      "breadth": 48,
+      "heat": 30.0
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0.0
+    }
+  },
+  {
+    "id": "预训练之后-为什么还要后训练",
+    "title": "预训练之后，为什么还要后训练？",
+    "url": "https://waytoagi.feishu.cn/wiki/TswvwP1KfibV0zkll6jcdYlHnye?from=from_copylink",
+    "date": "2026-10-21",
+    "meta": "",
+    "bullets": [
+      "预训练之后，为什么还要后训练？"
+    ],
+    "links": [
+      {
+        "label": "WaytoAGI",
+        "title": "预训练之后，为什么还要后训练？",
+        "url": "https://waytoagi.feishu.cn/wiki/TswvwP1KfibV0zkll6jcdYlHnye?from=from_copylink",
+        "date": "2026-10-21"
+      }
+    ],
+    "score": 46.6,
+    "score_parts": {
+      "industry": 52,
+      "actionable": 50,
+      "breadth": 48,
+      "heat": 30.0
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0.0
+    }
+  },
+  {
+    "id": "minimax-code-桌面端推出-mini-app-长运行应用功能",
+    "title": "MiniMax Code 桌面端推出 Mini App 长运行应用功能",
+    "url": "https://www.minimax.io/blog/minimax-code-mini-app-1792650729",
+    "date": "2026-10-21",
+    "meta": "",
+    "bullets": [
+      "MiniMax Code 桌面端推出 Mini App 长运行应用功能"
+    ],
+    "links": [
+      {
+        "label": "AIHot",
+        "title": "MiniMax Code 桌面端推出 Mini App 长运行应用功能",
+        "url": "https://www.minimax.io/blog/minimax-code-mini-app-1792650729",
+        "date": "2026-10-21"
+      }
+    ],
+    "score": 46.6,
+    "score_parts": {
+      "industry": 52,
+      "actionable": 50,
+      "breadth": 48,
+      "heat": 30.0
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0.0
+    }
+  },
+  {
+    "id": "anthropic-用-claude-对-123-个开源库完成汇编级形式化安全证",
+    "title": "Anthropic 用 Claude 对 123 个开源库完成汇编级形式化安全证明",
+    "url": "https://www.anthropic.com/research/formal-verification",
+    "date": "2026-10-21",
+    "meta": "",
+    "bullets": [
+      "Anthropic 用 Claude 对 123 个开源库完成汇编级形式化安全证明"
+    ],
+    "links": [
+      {
+        "label": "AIHot",
+        "title": "Anthropic 用 Claude 对 123 个开源库完成汇编级形式化安全证明",
+        "url": "https://www.anthropic.com/research/formal-verification",
+        "date": "2026-10-21"
+      }
+    ],
+    "score": 46.6,
+    "score_parts": {
+      "industry": 52,
+      "actionable": 50,
+      "breadth": 48,
+      "heat": 30.0
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0.0
+    }
+  },
+  {
+    "id": "metr-与-redwood-红队测试-openai-内部智能体监控系统并披露多",
+    "title": "METR 与 Redwood 红队测试 OpenAI 内部智能体监控系统并披露多项漏洞",
+    "url": "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring",
+    "date": "2026-10-21",
+    "meta": "",
+    "bullets": [
+      "METR 与 Redwood 红队测试 OpenAI 内部智能体监控系统并披露多项漏洞"
+    ],
+    "links": [
+      {
+        "label": "AIHot",
+        "title": "METR 与 Redwood 红队测试 OpenAI 内部智能体监控系统并披露多项漏洞",
+        "url": "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring",
+        "date": "2026-10-21"
+      }
+    ],
+    "score": 46.6,
+    "score_parts": {
+      "industry": 52,
+      "actionable": 50,
+      "breadth": 48,
+      "heat": 30.0
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0.0
+    }
+  },
+  {
+    "id": "cloudflare-links-vulnerability-discovery",
+    "title": "Cloudflare links vulnerability discovery to defense with OpenAI",
+    "url": "https://openai.com/index/cloudflare-cyber",
+    "date": "2026-10-21",
+    "meta": "",
+    "bullets": [
+      "Cloudflare links vulnerability discovery to defense with OpenAI"
+    ],
+    "links": [
+      {
+        "label": "Official AI",
+        "title": "Cloudflare links vulnerability discovery to defense with OpenAI",
+        "url": "https://openai.com/index/cloudflare-cyber",
+        "date": "2026-10-21"
+      }
+    ],
+    "score": 46.6,
+    "score_parts": {
+      "industry": 52,
+      "actionable": 50,
+      "breadth": 48,
+      "heat": 30.0
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0.0
+    }
+  },
+  {
+    "id": "编程-agent-增长遭遇人类评审瓶颈-tessl-博客解析信任赤字",
+    "title": "编程 Agent 增长遭遇人类评审瓶颈：Tessl 博客解析信任赤字",
+    "url": "https://tessl.io/blog/there-arent-enough-chaperones-for-all-your-coding-agents",
+    "date": "2026-10-20",
+    "meta": "",
+    "bullets": [
+      "编程 Agent 增长遭遇人类评审瓶颈：Tessl 博客解析信任赤字"
+    ],
+    "links": [
+      {
+        "label": "AIHot",
+        "title": "编程 Agent 增长遭遇人类评审瓶颈：Tessl 博客解析信任赤字",
+        "url": "https://tessl.io/blog/there-arent-enough-chaperones-for-all-your-coding-agents",
+        "date": "2026-10-20"
+      }
+    ],
+    "score": 46.6,
+    "score_parts": {
+      "industry": 52,
+      "actionable": 50,
+      "breadth": 48,
+      "heat": 30.0
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0.0
+    }
+  },
+  {
+    "id": "cohere-发布-rerank-5-企业检索重排模型-分-pro-与-fast",
+    "title": "Cohere 发布 Rerank 5 企业检索重排模型，分 Pro 与 Fast 两档",
+    "url": "https://cohere.com/blog/rerank-5",
+    "date": "2026-10-20",
+    "meta": "",
+    "bullets": [
+      "Cohere 发布 Rerank 5 企业检索重排模型，分 Pro 与 Fast 两档"
+    ],
+    "links": [
+      {
+        "label": "AIHot",
+        "title": "Cohere 发布 Rerank 5 企业检索重排模型，分 Pro 与 Fast 两档",
+        "url": "https://cohere.com/blog/rerank-5",
+        "date": "2026-10-20"
+      }
+    ],
+    "score": 46.6,
+    "score_parts": {
+      "industry": 52,
+      "actionable": 50,
+      "breadth": 48,
+      "heat": 30.0
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0.0
+    }
+  },
+  {
+    "id": "deepseek-全面开源内部推理框架-deepinfer",
+    "title": "DeepSeek 全面开源内部推理框架 DeepInfer",
+    "url": "https://mp.weixin.qq.com/s?__biz=Mzk0OTYwNzc3NQ%3D%3D&mid=2247485884&idx=1&sn=d457981abe7db1f1b5d600fc109dc836",
+    "date": "2026-10-20",
+    "meta": "",
+    "bullets": [
+      "DeepSeek 全面开源内部推理框架 DeepInfer"
+    ],
+    "links": [
+      {
+        "label": "AIHot",
+        "title": "DeepSeek 全面开源内部推理框架 DeepInfer",
+        "url": "https://mp.weixin.qq.com/s?__biz=Mzk0OTYwNzc3NQ%3D%3D&mid=2247485884&idx=1&sn=d457981abe7db1f1b5d600fc109dc836",
+        "date": "2026-10-20"
+      }
+    ],
+    "score": 46.6,
+    "score_parts": {
+      "industry": 52,
+      "actionable": 50,
+      "breadth": 48,
+      "heat": 30.0
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0.0
+    }
+  },
+  {
+    "id": "terminal-x-matches-senior-investor-judgm",
+    "title": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
+    "url": "https://openai.com/index/terminal-x",
+    "date": "2026-10-20",
+    "meta": "",
+    "bullets": [
+      "Terminal X matches senior investor judgment 88.6% with GPT-6.1"
+    ],
+    "links": [
+      {
+        "label": "Official AI",
+        "title": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
+        "url": "https://openai.com/index/terminal-x",
+        "date": "2026-10-20"
+      }
+    ],
+    "score": 46.6,
+    "score_parts": {
+      "industry": 52,
+      "actionable": 50,
+      "breadth": 48,
+      "heat": 30.0
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0.0
+    }
+  },
+  {
+    "id": "面壁智能解析前瞻专家调度-les-如何让-35b-moe-在手机端侧实时无损运行",
+    "title": "面壁智能解析前瞻专家调度 LES 如何让 35B MoE 在手机端侧实时无损运行",
+    "url": "https://mp.weixin.qq.com/s?__biz=Mzg3Mzg2MTg2NQ%3D%3D&mid=2247499532&idx=1&sn=db2949b48bf8909d80def369b51a81ea",
+    "date": "2026-10-20",
+    "meta": "",
+    "bullets": [
+      "面壁智能解析前瞻专家调度 LES 如何让 35B MoE 在手机端侧实时无损运行"
+    ],
+    "links": [
+      {
+        "label": "AIHot",
+        "title": "面壁智能解析前瞻专家调度 LES 如何让 35B MoE 在手机端侧实时无损运行",
+        "url": "https://mp.weixin.qq.com/s?__biz=Mzg3Mzg2MTg2NQ%3D%3D&mid=2247499532&idx=1&sn=db2949b48bf8909d80def369b51a81ea",
+        "date": "2026-10-20"
+      }
+    ],
+    "score": 46.6,
+    "score_parts": {
+      "industry": 52,
+      "actionable": 50,
+      "breadth": 48,
+      "heat": 30.0
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0.0
+    }
+  },
+  {
+    "id": "apate-ai-用35万个ai反诈拖住骗子-国内年轻人用ai视频反制ai卖惨账",
+    "title": "Apate.ai 用35万个AI反诈拖住骗子，国内年轻人用AI视频反制AI卖惨账号",
+    "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647687365&idx=1&sn=4102098fb8725531aa2f783fa2f20f20",
+    "date": "2026-10-20",
+    "meta": "",
+    "bullets": [
+      "Apate.ai 用35万个AI反诈拖住骗子，国内年轻人用AI视频反制AI卖惨账号"
+    ],
+    "links": [
+      {
+        "label": "AIHot",
+        "title": "Apate.ai 用35万个AI反诈拖住骗子，国内年轻人用AI视频反制AI卖惨账号",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647687365&idx=1&sn=4102098fb8725531aa2f783fa2f20f20",
+        "date": "2026-10-20"
+      }
+    ],
+    "score": 46.6,
+    "score_parts": {
+      "industry": 52,
+      "actionable": 50,
+      "breadth": 48,
+      "heat": 30.0
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0.0
+    }
+  },
+  {
+    "id": "modal-推出-sticky-sessions-同一会话请求始终路由到同一容器",
+    "title": "Modal 推出 Sticky Sessions：同一会话请求始终路由到同一容器",
+    "url": "https://modal.com/blog/serverless-routing-made-sticky",
+    "date": "2026-10-19",
+    "meta": "",
+    "bullets": [
+      "Modal 推出 Sticky Sessions：同一会话请求始终路由到同一容器"
+    ],
+    "links": [
+      {
+        "label": "AIHot",
+        "title": "Modal 推出 Sticky Sessions：同一会话请求始终路由到同一容器",
+        "url": "https://modal.com/blog/serverless-routing-made-sticky",
+        "date": "2026-10-19"
+      }
+    ],
+    "score": 46.6,
+    "score_parts": {
+      "industry": 52,
+      "actionable": 50,
+      "breadth": 48,
+      "heat": 30.0
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0.0
+    }
   }
 ]
