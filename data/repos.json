@@ -4,7 +4,7 @@
     "name": "rea",
     "desc": "Reverse engineer anything with agents, from app behavior down to native binaries.",
     "lang": "TypeScript",
-    "stars": 375212,
+    "stars": 378287,
     "week": 88243,
     "topics": [
       "agent-skills",
@@ -65,7 +65,7 @@
     "name": "security-audit-skill",
     "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
     "lang": "JavaScript",
-    "stars": 42819,
+    "stars": 44329,
     "week": 11223,
     "topics": [],
     "url": "https://github.com/cloudflare/security-audit-skill"
@@ -75,7 +75,7 @@
     "name": "ponytail",
     "desc": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
     "lang": "JavaScript",
-    "stars": 175090,
+    "stars": 175480,
     "week": 9858,
     "topics": [
       "agent-skills",
@@ -96,7 +96,7 @@
     "name": "orca",
     "desc": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
     "lang": "TypeScript",
-    "stars": 104311,
+    "stars": 104894,
     "week": 9545,
     "topics": [
       "ade",
@@ -127,7 +127,7 @@
     "name": "skills",
     "desc": "Skills for Real Engineers. Straight from my .agents directory.",
     "lang": "Shell",
-    "stars": 302094,
+    "stars": 302474,
     "week": 8041,
     "topics": [],
     "url": "https://github.com/mattpocock/skills"
@@ -137,7 +137,7 @@
     "name": "xerj",
     "desc": "Local-first search engine and MCP server for AI agents. One Rust binary indexes code, docs, logs, JSONL/CSV and PDFs for BM25 full-text, vector and hybrid search, code search without grep, agent memory and RAG. Elasticsearch-compatible API; Corpus Hub serves hundreds of reference memory corpora.",
     "lang": "Rust",
-    "stars": 14232,
+    "stars": 15284,
     "week": 7783,
     "topics": [
       "agent-memory",
@@ -164,11 +164,42 @@
     "url": "https://github.com/xerj-org/xerj"
   },
   {
+    "full": "Graphify-Labs/graphify",
+    "name": "graphify",
+    "desc": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
+    "lang": "Python",
+    "stars": 134390,
+    "week": 6875,
+    "topics": [
+      "ai-agents",
+      "antigravity",
+      "ast",
+      "claude-code",
+      "code-analysis",
+      "code-search",
+      "codex",
+      "cursor",
+      "developer-tools",
+      "gemini",
+      "graphify",
+      "graphrag",
+      "knowledge-graph",
+      "leiden",
+      "llm",
+      "mcp",
+      "openclaw",
+      "rag",
+      "skills",
+      "tree-sitter"
+    ],
+    "url": "https://github.com/Graphify-Labs/graphify"
+  },
+  {
     "full": "anomalyco/opencode",
     "name": "opencode",
     "desc": "The open source coding agent.",
     "lang": "TypeScript",
-    "stars": 220876,
+    "stars": 221057,
     "week": 6765,
     "topics": [],
     "url": "https://github.com/anomalyco/opencode"
@@ -178,7 +209,7 @@
     "name": "ECC",
     "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
     "lang": "JavaScript",
-    "stars": 287588,
+    "stars": 288029,
     "week": 6418,
     "topics": [
       "ai-agents",
@@ -191,31 +222,5 @@
       "productivity"
     ],
     "url": "https://github.com/affaan-m/ECC"
-  },
-  {
-    "full": "heygen-com/hyperframes",
-    "name": "hyperframes",
-    "desc": "Write HTML. Render video. Built for agents.",
-    "lang": "TypeScript",
-    "stars": 71058,
-    "week": 5553,
-    "topics": [
-      "ai",
-      "ai-agents",
-      "animation",
-      "claude-code",
-      "ffmpeg",
-      "framework",
-      "gsap",
-      "html",
-      "html-to-video",
-      "mcp",
-      "motion-graphics",
-      "puppeteer",
-      "rendering",
-      "typescript",
-      "video-editor"
-    ],
-    "url": "https://github.com/heygen-com/hyperframes"
   }
 ]
