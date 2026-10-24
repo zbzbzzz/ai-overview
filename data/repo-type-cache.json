@@ -1366,8 +1366,8 @@
     "types": [
       "开发工具链"
     ],
-    "updated": "2026-10-19",
-    "source": "keyword-fallback"
+    "updated": "2026-10-24",
+    "source": "grok-bot"
   },
   "dotnet/skills": {
     "types": [
@@ -1616,63 +1616,58 @@
   },
   "PC2005-cloud/dsh-pet": {
     "types": [
-      "Skill",
-      "开发工具链"
+      "Agent",
+      "Skill"
     ],
-    "updated": "2026-10-21",
-    "source": "keyword-fallback"
+    "source": "grok-bot",
+    "updated": "2026-10-24"
   },
   "ahujasid/mcp-for-blender": {
     "types": [
       "Skill",
       "模型与推理"
     ],
-    "updated": "2026-10-21",
-    "source": "keyword-fallback"
+    "updated": "2026-10-24",
+    "source": "grok-bot"
   },
   "mixelpixx/Konnect": {
     "types": [
-      "Skill",
+      "开发工具链",
       "Agent",
-      "模型与推理"
+      "Skill"
     ],
-    "updated": "2026-10-21",
-    "source": "keyword-fallback"
+    "source": "grok-bot",
+    "updated": "2026-10-24"
   },
   "datawhalechina/easy-vibe": {
     "types": [
-      "Skill",
-      "Agent",
-      "模型与推理",
       "应用与产品",
       "数据与评测"
     ],
-    "updated": "2026-10-22",
-    "source": "keyword-fallback"
+    "source": "grok-bot",
+    "updated": "2026-10-24"
   },
   "mudler/LocalAI": {
     "types": [
-      "Skill",
-      "Agent",
       "模型与推理",
       "应用与产品"
     ],
-    "updated": "2026-10-21",
-    "source": "keyword-fallback"
+    "source": "grok-bot",
+    "updated": "2026-10-24"
   },
   "kenn-io/agentsview": {
     "types": [
       "Agent"
     ],
-    "updated": "2026-10-21",
-    "source": "keyword-fallback"
+    "updated": "2026-10-24",
+    "source": "grok-bot"
   },
   "ed-donner/llm_engineering": {
     "types": [
       "模型与推理"
     ],
-    "updated": "2026-10-21",
-    "source": "keyword-fallback"
+    "updated": "2026-10-24",
+    "source": "grok-bot"
   },
   "mlabonne/llm-course": {
     "types": [
@@ -2835,5 +2830,63 @@
     ],
     "updated": "2026-10-24",
     "source": "executor-keywords"
+  },
+  "anthropics/claude-code": {
+    "types": [
+      "Agent",
+      "开发工具链",
+      "应用与产品"
+    ],
+    "source": "grok-bot",
+    "updated": "2026-10-24"
+  },
+  "x1xhlol/system-prompts-and-models-of-ai-tools": {
+    "types": [
+      "Agent",
+      "数据与评测"
+    ],
+    "source": "grok-bot",
+    "updated": "2026-10-24"
+  },
+  "garrytan/gstack": {
+    "types": [
+      "Skill",
+      "Agent",
+      "开发工具链"
+    ],
+    "source": "grok-bot",
+    "updated": "2026-10-24"
+  },
+  "dair-ai/Prompt-Engineering-Guide": {
+    "types": [
+      "数据与评测",
+      "应用与产品"
+    ],
+    "source": "grok-bot",
+    "updated": "2026-10-24"
+  },
+  "colbymchenry/codegraph": {
+    "types": [
+      "开发工具链",
+      "Agent"
+    ],
+    "source": "grok-bot",
+    "updated": "2026-10-24"
+  },
+  "daytonaio/daytona": {
+    "types": [
+      "开发工具链",
+      "Agent"
+    ],
+    "source": "grok-bot",
+    "updated": "2026-10-24"
+  },
+  "gsd-build/get-shit-done": {
+    "types": [
+      "Skill",
+      "Agent"
+    ],
+    "source": "grok-bot",
+    "updated": "2026-10-24"
   }
 }

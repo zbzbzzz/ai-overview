@@ -4,8 +4,8 @@
     "name": "rea",
     "desc": "Reverse engineer anything with agents, from app behavior down to native binaries.",
     "lang": "TypeScript",
-    "stars": 369535,
-    "week": 106341,
+    "stars": 375212,
+    "week": 88243,
     "topics": [
       "agent-skills",
       "ai-agents",
@@ -35,8 +35,8 @@
     "name": "VoiceStudio",
     "desc": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
     "lang": "Python",
-    "stars": 82274,
-    "week": 13581,
+    "stars": 83967,
+    "week": 12526,
     "topics": [
       "ai",
       "audiobook",
@@ -61,12 +61,43 @@
     "url": "https://github.com/debpalash/VoiceStudio"
   },
   {
+    "full": "cloudflare/security-audit-skill",
+    "name": "security-audit-skill",
+    "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+    "lang": "JavaScript",
+    "stars": 42819,
+    "week": 11223,
+    "topics": [],
+    "url": "https://github.com/cloudflare/security-audit-skill"
+  },
+  {
+    "full": "DietrichGebert/ponytail",
+    "name": "ponytail",
+    "desc": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+    "lang": "JavaScript",
+    "stars": 175090,
+    "week": 9858,
+    "topics": [
+      "agent-skills",
+      "ai-agents",
+      "claude",
+      "claude-code",
+      "claude-code-plugin",
+      "cursor-rules",
+      "developer-tools",
+      "llm",
+      "prompt-engineering",
+      "yagni"
+    ],
+    "url": "https://github.com/DietrichGebert/ponytail"
+  },
+  {
     "full": "stablyai/orca",
     "name": "orca",
     "desc": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
     "lang": "TypeScript",
-    "stars": 103256,
-    "week": 9401,
+    "stars": 104311,
+    "week": 9545,
     "topics": [
       "ade",
       "agent-ide",
@@ -92,43 +123,12 @@
     "url": "https://github.com/stablyai/orca"
   },
   {
-    "full": "cloudflare/security-audit-skill",
-    "name": "security-audit-skill",
-    "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
-    "lang": "JavaScript",
-    "stars": 40523,
-    "week": 9270,
-    "topics": [],
-    "url": "https://github.com/cloudflare/security-audit-skill"
-  },
-  {
-    "full": "DietrichGebert/ponytail",
-    "name": "ponytail",
-    "desc": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-    "lang": "JavaScript",
-    "stars": 174257,
-    "week": 9212,
-    "topics": [
-      "agent-skills",
-      "ai-agents",
-      "claude",
-      "claude-code",
-      "claude-code-plugin",
-      "cursor-rules",
-      "developer-tools",
-      "llm",
-      "prompt-engineering",
-      "yagni"
-    ],
-    "url": "https://github.com/DietrichGebert/ponytail"
-  },
-  {
     "full": "mattpocock/skills",
     "name": "skills",
     "desc": "Skills for Real Engineers. Straight from my .agents directory.",
     "lang": "Shell",
-    "stars": 301319,
-    "week": 9021,
+    "stars": 302094,
+    "week": 8041,
     "topics": [],
     "url": "https://github.com/mattpocock/skills"
   },
@@ -137,8 +137,8 @@
     "name": "xerj",
     "desc": "Local-first search engine and MCP server for AI agents. One Rust binary indexes code, docs, logs, JSONL/CSV and PDFs for BM25 full-text, vector and hybrid search, code search without grep, agent memory and RAG. Elasticsearch-compatible API; Corpus Hub serves hundreds of reference memory corpora.",
     "lang": "Rust",
-    "stars": 13250,
-    "week": 8064,
+    "stars": 14232,
+    "week": 7783,
     "topics": [
       "agent-memory",
       "ai-agents",
@@ -168,18 +168,37 @@
     "name": "opencode",
     "desc": "The open source coding agent.",
     "lang": "TypeScript",
-    "stars": 220390,
-    "week": 6750,
+    "stars": 220876,
+    "week": 6765,
     "topics": [],
     "url": "https://github.com/anomalyco/opencode"
+  },
+  {
+    "full": "affaan-m/ECC",
+    "name": "ECC",
+    "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+    "lang": "JavaScript",
+    "stars": 287588,
+    "week": 6418,
+    "topics": [
+      "ai-agents",
+      "anthropic",
+      "claude",
+      "claude-code",
+      "developer-tools",
+      "llm",
+      "mcp",
+      "productivity"
+    ],
+    "url": "https://github.com/affaan-m/ECC"
   },
   {
     "full": "heygen-com/hyperframes",
     "name": "hyperframes",
     "desc": "Write HTML. Render video. Built for agents.",
     "lang": "TypeScript",
-    "stars": 70318,
-    "week": 5669,
+    "stars": 71058,
+    "week": 5553,
     "topics": [
       "ai",
       "ai-agents",
@@ -198,19 +217,5 @@
       "video-editor"
     ],
     "url": "https://github.com/heygen-com/hyperframes"
-  },
-  {
-    "full": "anthropics/claude-plugins-official",
-    "name": "claude-plugins-official",
-    "desc": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
-    "lang": "Python",
-    "stars": 44004,
-    "week": 5649,
-    "topics": [
-      "claude-code",
-      "mcp",
-      "skills"
-    ],
-    "url": "https://github.com/anthropics/claude-plugins-official"
   }
 ]
