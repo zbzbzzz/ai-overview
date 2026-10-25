@@ -4,7 +4,7 @@
     "name": "rea",
     "desc": "Reverse engineer anything with agents, from app behavior down to native binaries.",
     "lang": "TypeScript",
-    "stars": 378287,
+    "stars": 380887,
     "week": 88243,
     "topics": [
       "agent-skills",
@@ -29,6 +29,16 @@
       "touhou"
     ],
     "url": "https://github.com/morluto/rea"
+  },
+  {
+    "full": "cloudflare/security-audit-skill",
+    "name": "security-audit-skill",
+    "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+    "lang": "JavaScript",
+    "stars": 44329,
+    "week": 12680,
+    "topics": [],
+    "url": "https://github.com/cloudflare/security-audit-skill"
   },
   {
     "full": "debpalash/VoiceStudio",
@@ -61,21 +71,11 @@
     "url": "https://github.com/debpalash/VoiceStudio"
   },
   {
-    "full": "cloudflare/security-audit-skill",
-    "name": "security-audit-skill",
-    "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
-    "lang": "JavaScript",
-    "stars": 44329,
-    "week": 11223,
-    "topics": [],
-    "url": "https://github.com/cloudflare/security-audit-skill"
-  },
-  {
     "full": "DietrichGebert/ponytail",
     "name": "ponytail",
     "desc": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
     "lang": "JavaScript",
-    "stars": 175480,
+    "stars": 175764,
     "week": 9858,
     "topics": [
       "agent-skills",
@@ -96,8 +96,8 @@
     "name": "orca",
     "desc": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
     "lang": "TypeScript",
-    "stars": 104894,
-    "week": 9545,
+    "stars": 105242,
+    "week": 9828,
     "topics": [
       "ade",
       "agent-ide",
@@ -123,22 +123,12 @@
     "url": "https://github.com/stablyai/orca"
   },
   {
-    "full": "mattpocock/skills",
-    "name": "skills",
-    "desc": "Skills for Real Engineers. Straight from my .agents directory.",
-    "lang": "Shell",
-    "stars": 302474,
-    "week": 8041,
-    "topics": [],
-    "url": "https://github.com/mattpocock/skills"
-  },
-  {
     "full": "xerj-org/xerj",
     "name": "xerj",
     "desc": "Local-first search engine and MCP server for AI agents. One Rust binary indexes code, docs, logs, JSONL/CSV and PDFs for BM25 full-text, vector and hybrid search, code search without grep, agent memory and RAG. Elasticsearch-compatible API; Corpus Hub serves hundreds of reference memory corpora.",
     "lang": "Rust",
-    "stars": 15284,
-    "week": 7783,
+    "stars": 15407,
+    "week": 8080,
     "topics": [
       "agent-memory",
       "ai-agents",
@@ -164,11 +154,21 @@
     "url": "https://github.com/xerj-org/xerj"
   },
   {
+    "full": "mattpocock/skills",
+    "name": "skills",
+    "desc": "Skills for Real Engineers. Straight from my .agents directory.",
+    "lang": "Shell",
+    "stars": 302775,
+    "week": 8041,
+    "topics": [],
+    "url": "https://github.com/mattpocock/skills"
+  },
+  {
     "full": "Graphify-Labs/graphify",
     "name": "graphify",
     "desc": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
     "lang": "Python",
-    "stars": 134390,
+    "stars": 134668,
     "week": 6875,
     "topics": [
       "ai-agents",
@@ -199,8 +199,8 @@
     "name": "opencode",
     "desc": "The open source coding agent.",
     "lang": "TypeScript",
-    "stars": 221057,
-    "week": 6765,
+    "stars": 221320,
+    "week": 6857,
     "topics": [],
     "url": "https://github.com/anomalyco/opencode"
   },
@@ -209,7 +209,7 @@
     "name": "ECC",
     "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
     "lang": "JavaScript",
-    "stars": 288029,
+    "stars": 288347,
     "week": 6418,
     "topics": [
       "ai-agents",
