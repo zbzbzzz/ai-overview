@@ -53,18 +53,87 @@
         "same_event": true
       }
     ],
-    "score": 89.2,
+    "score": 89.0,
     "score_parts": {
-      "industry": 88,
-      "actionable": 86,
-      "breadth": 82,
-      "heat": 100
+      "industry": 90,
+      "actionable": 85,
+      "heat": 100,
+      "breadth": 75
     },
     "heat_signals": {
       "reports": 6,
       "domains": 6,
-      "x_posts_7d": 7986,
-      "x_spike_7d": 7971.0
+      "x_posts_7d": 8889,
+      "x_spike_7d": 0.0
+    },
+    "heat": 100
+  },
+  {
+    "id": "deepseek-deepinfer",
+    "title": "DeepSeek 开源内部推理框架 DeepInfer，剑指推理成本",
+    "url": "https://waytoagi.feishu.cn/wiki/VRniwYlIMitE3lkjM5xcjwNInNc?from=from_copylink",
+    "date": "2026-10-21",
+    "meta": "",
+    "bullets": [
+      "DeepSeek 公开内部推理框架 DeepInfer，强调降低大模型服务成本。",
+      "多家中文信源称其目标是让推理层更普惠，输入可大幅复用缓存。",
+      "开源推理栈再添国产选项，对 vLLM / SGLang 生态形成对照。"
+    ],
+    "links": [
+      {
+        "label": "WayToAGI",
+        "title": "DeepSeek 开源推理框架：96% 的输入，都不用重新计算",
+        "url": "https://waytoagi.feishu.cn/wiki/VRniwYlIMitE3lkjM5xcjwNInNc?from=from_copylink",
+        "date": "2026-10-20"
+      },
+      {
+        "label": "AIBase",
+        "title": "DeepSeek 开源内部推理框架 DeepInfer，要把大模型服务的成本打下来",
+        "url": "https://www.aibase.com/news/31760",
+        "date": "2026-10-20",
+        "same_event": true
+      },
+      {
+        "label": "AIBase",
+        "title": "DeepSeek 再掀开源浪潮：内部推理框架 DeepInfer 全面公开，剑指\"大模型普惠\"",
+        "url": "https://www.aibase.com/news/31759",
+        "date": "2026-10-20",
+        "same_event": true
+      },
+      {
+        "label": "AIBase",
+        "title": "DeepSeek 开源推理框架 DeepInfer:推理成本成为 AI 普惠的关键一层",
+        "url": "https://www.aibase.com/news/31758",
+        "date": "2026-10-20",
+        "same_event": true
+      },
+      {
+        "label": "AIHot",
+        "title": "DeepSeek 开源 DeepInfer 推理框架，披露单集群 155T tokens/日与约 80% 推理毛利",
+        "url": "https://latent.space/p/ainews-deepseek-deepinfer-open-source",
+        "date": "2026-10-21",
+        "same_event": true
+      },
+      {
+        "label": "AIHot",
+        "title": "DeepSeek 全面开源内部推理框架 DeepInfer",
+        "url": "https://mp.weixin.qq.com/s?__biz=Mzk0OTYwNzc3NQ%3D%3D&mid=2247485884&idx=1&sn=d457981abe7db1f1b5d600fc109dc836",
+        "date": "2026-10-20",
+        "same_event": true
+      }
+    ],
+    "score": 85.7,
+    "score_parts": {
+      "industry": 88,
+      "actionable": 80,
+      "heat": 100,
+      "breadth": 65
+    },
+    "heat_signals": {
+      "reports": 6,
+      "domains": 4,
+      "x_posts_7d": 3464,
+      "x_spike_7d": 2436.5
     },
     "heat": 100
   },
@@ -129,87 +198,18 @@
         "same_event": true
       }
     ],
-    "score": 87.8,
+    "score": 84.6,
     "score_parts": {
-      "industry": 84,
-      "actionable": 88,
-      "breadth": 78,
-      "heat": 100
+      "industry": 86,
+      "actionable": 78,
+      "heat": 100,
+      "breadth": 68
     },
     "heat_signals": {
       "reports": 7,
       "domains": 5,
-      "x_posts_7d": 5316,
-      "x_spike_7d": 5293.5
-    },
-    "heat": 100
-  },
-  {
-    "id": "deepseek-deepinfer",
-    "title": "DeepSeek 开源内部推理框架 DeepInfer，剑指推理成本",
-    "url": "https://waytoagi.feishu.cn/wiki/VRniwYlIMitE3lkjM5xcjwNInNc?from=from_copylink",
-    "date": "2026-10-21",
-    "meta": "",
-    "bullets": [
-      "DeepSeek 公开内部推理框架 DeepInfer，强调降低大模型服务成本。",
-      "多家中文信源称其目标是让推理层更普惠，输入可大幅复用缓存。",
-      "开源推理栈再添国产选项，对 vLLM / SGLang 生态形成对照。"
-    ],
-    "links": [
-      {
-        "label": "WayToAGI",
-        "title": "DeepSeek 开源推理框架：96% 的输入，都不用重新计算",
-        "url": "https://waytoagi.feishu.cn/wiki/VRniwYlIMitE3lkjM5xcjwNInNc?from=from_copylink",
-        "date": "2026-10-20"
-      },
-      {
-        "label": "AIBase",
-        "title": "DeepSeek 开源内部推理框架 DeepInfer，要把大模型服务的成本打下来",
-        "url": "https://www.aibase.com/news/31760",
-        "date": "2026-10-20",
-        "same_event": true
-      },
-      {
-        "label": "AIBase",
-        "title": "DeepSeek 再掀开源浪潮：内部推理框架 DeepInfer 全面公开，剑指\"大模型普惠\"",
-        "url": "https://www.aibase.com/news/31759",
-        "date": "2026-10-20",
-        "same_event": true
-      },
-      {
-        "label": "AIBase",
-        "title": "DeepSeek 开源推理框架 DeepInfer:推理成本成为 AI 普惠的关键一层",
-        "url": "https://www.aibase.com/news/31758",
-        "date": "2026-10-20",
-        "same_event": true
-      },
-      {
-        "label": "AIHot",
-        "title": "DeepSeek 开源 DeepInfer 推理框架，披露单集群 155T tokens/日与约 80% 推理毛利",
-        "url": "https://latent.space/p/ainews-deepseek-deepinfer-open-source",
-        "date": "2026-10-21",
-        "same_event": true
-      },
-      {
-        "label": "AIHot",
-        "title": "DeepSeek 全面开源内部推理框架 DeepInfer",
-        "url": "https://mp.weixin.qq.com/s?__biz=Mzk0OTYwNzc3NQ%3D%3D&mid=2247485884&idx=1&sn=d457981abe7db1f1b5d600fc109dc836",
-        "date": "2026-10-20",
-        "same_event": true
-      }
-    ],
-    "score": 88.5,
-    "score_parts": {
-      "industry": 88,
-      "actionable": 86,
-      "breadth": 75,
-      "heat": 100
-    },
-    "heat_signals": {
-      "reports": 6,
-      "domains": 4,
-      "x_posts_7d": 3397,
-      "x_spike_7d": 3397.0
+      "x_posts_7d": 5429,
+      "x_spike_7d": 3936.5
     },
     "heat": 100
   },
@@ -253,75 +253,20 @@
         "same_event": true
       }
     ],
-    "score": 85.2,
+    "score": 82.4,
     "score_parts": {
-      "industry": 88,
-      "actionable": 82,
-      "breadth": 78,
-      "heat": 88
+      "industry": 84,
+      "actionable": 80,
+      "heat": 88,
+      "breadth": 72
     },
     "heat_signals": {
       "reports": 4,
       "domains": 3,
-      "x_posts_7d": 11546,
-      "x_spike_7d": 11538.5
+      "x_posts_7d": 12024,
+      "x_spike_7d": 5439.0
     },
     "heat": 88
-  },
-  {
-    "id": "openai-正式发布-decisions-api-面向低延迟低成本小决策-bbe75c",
-    "title": "OpenAI 正式发布 Decisions API，面向低延迟低成本小决策",
-    "url": "https://openai.com/index/decisions-api",
-    "date": "2026-10-23",
-    "meta": "",
-    "bullets": [
-      "OpenAI 正式发布 Decisions API，面向低延迟、低成本的小决策场景。",
-      "补齐「重推理之外」的轻量决策调用路径，利于高频业务嵌入。",
-      "API 形态变化将影响 Agent 工具编排与成本结构。"
-    ],
-    "links": [
-      {
-        "label": "Official AI",
-        "title": "Build more responsive apps with the Decisions API",
-        "url": "https://openai.com/index/decisions-api",
-        "date": "2026-10-23"
-      },
-      {
-        "label": "AIBase",
-        "title": "OpenAI 向所有客户开放 Decisions API，决策延迟最低降至100毫秒级",
-        "url": "https://www.aibase.com/news/31812",
-        "date": "2026-10-23",
-        "same_event": true
-      },
-      {
-        "label": "AIBase",
-        "title": "OpenAI 全面开放决策 API：基于 GPT-6 Luna，输入每百万 token 仅 0.1 美元",
-        "url": "https://www.aibase.com/news/31819",
-        "date": "2026-10-23",
-        "same_event": true
-      },
-      {
-        "label": "AIBase",
-        "title": "OpenAI 全面开放决策 API：GPT‑6 Luna 上阵，输入百万 token 仅 0.1 美元",
-        "url": "https://www.aibase.com/news/31818",
-        "date": "2026-10-23",
-        "same_event": true
-      }
-    ],
-    "score": 83.1,
-    "score_parts": {
-      "industry": 88,
-      "actionable": 86,
-      "breadth": 75,
-      "heat": 73
-    },
-    "heat_signals": {
-      "reports": 4,
-      "domains": 2,
-      "x_posts_7d": 1149,
-      "x_spike_7d": 1044.0
-    },
-    "heat": 73
   },
   {
     "id": "openai-披露-patch-the-planet-计划借助-gpt-5-6-sol-发现-p-a4fbd0",
@@ -426,20 +371,240 @@
         "same_event": true
       }
     ],
-    "score": 82.0,
+    "score": 80.0,
     "score_parts": {
-      "industry": 86,
-      "actionable": 78,
-      "breadth": 72,
-      "heat": 85
+      "industry": 85,
+      "actionable": 70,
+      "heat": 85,
+      "breadth": 80
     },
     "heat_signals": {
       "reports": 13,
       "domains": 8,
-      "x_posts_7d": 344,
-      "x_spike_7d": 344.0
+      "x_posts_7d": 352,
+      "x_spike_7d": 217.0
     },
     "heat": 85
+  },
+  {
+    "id": "openai-正式发布-decisions-api-面向低延迟低成本小决策-bbe75c",
+    "title": "OpenAI 正式发布 Decisions API，面向低延迟低成本小决策",
+    "url": "https://openai.com/index/decisions-api",
+    "date": "2026-10-23",
+    "meta": "",
+    "bullets": [
+      "OpenAI 正式发布 Decisions API，面向低延迟、低成本的小决策场景。",
+      "补齐「重推理之外」的轻量决策调用路径，利于高频业务嵌入。",
+      "API 形态变化将影响 Agent 工具编排与成本结构。"
+    ],
+    "links": [
+      {
+        "label": "Official AI",
+        "title": "Build more responsive apps with the Decisions API",
+        "url": "https://openai.com/index/decisions-api",
+        "date": "2026-10-23"
+      },
+      {
+        "label": "AIBase",
+        "title": "OpenAI 向所有客户开放 Decisions API，决策延迟最低降至100毫秒级",
+        "url": "https://www.aibase.com/news/31812",
+        "date": "2026-10-23",
+        "same_event": true
+      },
+      {
+        "label": "AIBase",
+        "title": "OpenAI 全面开放决策 API：基于 GPT-6 Luna，输入每百万 token 仅 0.1 美元",
+        "url": "https://www.aibase.com/news/31819",
+        "date": "2026-10-23",
+        "same_event": true
+      },
+      {
+        "label": "AIBase",
+        "title": "OpenAI 全面开放决策 API：GPT‑6 Luna 上阵，输入百万 token 仅 0.1 美元",
+        "url": "https://www.aibase.com/news/31818",
+        "date": "2026-10-23",
+        "same_event": true
+      }
+    ],
+    "score": 78.1,
+    "score_parts": {
+      "industry": 80,
+      "actionable": 85,
+      "heat": 73,
+      "breadth": 60
+    },
+    "heat_signals": {
+      "reports": 4,
+      "domains": 2,
+      "x_posts_7d": 1202,
+      "x_spike_7d": 279.5
+    },
+    "heat": 73
+  },
+  {
+    "id": "deepseek-v41-flash-code-arena-webdev",
+    "title": "DeepSeek-V4.1-Flash-20261017 登顶 Code Arena WebDev 开源榜首",
+    "url": "https://x.com/arena/status/2111894091168682086",
+    "date": "2026-10-19",
+    "meta": "",
+    "bullets": [
+      "Arena 宣布 DeepSeek-V4.1-Flash-20261017 (Max) 登顶 Code Arena: WebDev 开源模型榜。",
+      "据称超过 Kimi K3 (Max)，成本约低 10 倍。",
+      "与同日 V4.1 Flash 代码/工具能力升级叙事形成呼应，属评测榜单事件。"
+    ],
+    "links": [
+      {
+        "label": "AIHot",
+        "title": "DeepSeek-V4.1-Flash-20261017 登顶 Code Arena: WebDev 开源模型榜首",
+        "url": "https://x.com/arena/status/2111894091168682086",
+        "date": "2026-10-19"
+      },
+      {
+        "label": "AIBase",
+        "title": "成本砍掉90%！DeepSeek-V4.1-Flash 重磅升级：逆袭成为 WebDev 榜首开源模型",
+        "url": "https://www.aibase.com/news/31712",
+        "date": "2026-10-19",
+        "same_event": true
+      }
+    ],
+    "score": 76.7,
+    "score_parts": {
+      "industry": 88,
+      "actionable": 86,
+      "heat": 41,
+      "breadth": 75
+    },
+    "heat_signals": {
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0.0
+    },
+    "heat": 41
+  },
+  {
+    "id": "5a6dd7f27708",
+    "title": "Anthropic 公开 Sub-Agent + Loop 最佳实践：何时把子智能体收拢进主循环",
+    "url": "https://claude.com/blog/building-agents-when-to-fold-subagents-into-your-main-agent-loop",
+    "date": "2026-10-26",
+    "meta": "AIHot · 2026-10-26",
+    "bullets": [
+      "Anthropic Applied AI 发布指南，讲解何时把 orchestrator 下的路由、规划与领域子智能体合并进单个主 Agent 循环。",
+      "对比显示：带 skills 的单智能体在质量上常优于「一提示全包」和过多子智能体拆分，成本和延迟更低。",
+      "WayToAGI 等同步解读：过度按组织架构拆子 Agent 易致上下文摘要损耗、提示词冲突与用户侧延迟。"
+    ],
+    "links": [
+      {
+        "label": "AIHot",
+        "title": "Anthropic 指南：何时把子智能体合并进主 Agent 循环",
+        "url": "https://claude.com/blog/building-agents-when-to-fold-subagents-into-your-main-agent-loop",
+        "date": "2026-10-22"
+      },
+      {
+        "label": "WayToAGI",
+        "title": "构建智能体：何时将子智能体整合进主智能体循环",
+        "url": "https://waytoagi.feishu.cn/wiki/IpFRw4RSpiq2yOk9P2Ic2aZLnmf?from=from_copylink",
+        "date": "2026-10-26",
+        "same_event": true
+      },
+      {
+        "label": "WayToAGI",
+        "title": "刚刚，Anthropic公开内部Sub-Agent+Loop最佳实践",
+        "url": "https://waytoagi.feishu.cn/wiki/Cx4fwk5UeimScnkuVpFchV9dnJc?from=from_copylink",
+        "date": "2026-10-26",
+        "same_event": true
+      }
+    ],
+    "score": 76.6,
+    "score_parts": {
+      "industry": 82,
+      "actionable": 88,
+      "heat": 52,
+      "breadth": 70
+    },
+    "heat_signals": {
+      "reports": 3,
+      "domains": 2,
+      "x_posts_7d": 83,
+      "x_spike_7d": 0.0
+    },
+    "heat": 52,
+    "summary": "Anthropic Applied AI 团队发布指南，讲解何时把 orchestrator 下的路由器、规划器和领域子智能体合并进单个主 Agent 循环。文中对比显示，带 skills 的单智能体在质量上常优于一提示全包和子智能体设计，且成本和延迟更低，一家客户改用单循环后运行时间约快 2x。"
+  },
+  {
+    "id": "item-3130243d7b",
+    "title": "OpenAI 红队披露 Brotli 未认证远程代码执行漏洞",
+    "url": "https://x.com/OpenAI/status/2113766354386084338",
+    "date": "2026-10-24",
+    "meta": "AIHot · 2026-10-24",
+    "bullets": [
+      "OpenAI 红队测试发现开源压缩库 Brotli 存在未认证远程代码执行（RCE）漏洞并已对外披露。",
+      "攻击者可通过恶意压缩数据在受影响系统执行代码，影响 Node.js、Bun、Envoy 等内嵌 Brotli 的软件。",
+      "事件凸显 AI 实验室安全研究向开源基础设施延伸，供应链排查成为短期重点。"
+    ],
+    "links": [
+      {
+        "label": "AIHot",
+        "title": "OpenAI 红队测试发现 Brotli 未认证远程代码执行漏洞并已披露",
+        "url": "https://x.com/OpenAI/status/2113766354386084338",
+        "date": "2026-10-24"
+      }
+    ],
+    "score": 76.2,
+    "score_parts": {
+      "industry": 90,
+      "actionable": 78,
+      "heat": 40,
+      "breadth": 88
+    },
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 231,
+      "x_spike_7d": 0.0
+    },
+    "heat": 40
+  },
+  {
+    "id": "deepseek-v41-flash-agent-arena-aa",
+    "title": "DeepSeek-V4.1-Flash-20261017 登顶 Agent Arena 开源第一，AA 智能指数并列开源第二",
+    "url": "https://x.com/arena/status/2112247114944360666",
+    "date": "2026-10-20",
+    "meta": "",
+    "bullets": [
+      "DeepSeek-V4.1-Flash-20261017 (Max) 登顶 Agent Arena 开源模型第一。",
+      "Artificial Analysis 智能指数得分 45，并列开源模型第二。",
+      "与同日 Code Arena WebDev 登顶形成连续评测亮点。"
+    ],
+    "links": [
+      {
+        "label": "AIHot",
+        "title": "DeepSeek-V4.1-Flash-20261017 (Max) 登顶 Agent Arena 开源模型第一",
+        "url": "https://x.com/arena/status/2112247114944360666",
+        "date": "2026-10-20"
+      },
+      {
+        "label": "AIHot",
+        "title": "DeepSeek V4.1 Flash 1017 发布，Artificial Analysis 智能指数得分 45 并列开源模型第二",
+        "url": "https://x.com/ArtificialAnlys/status/2112218661432000694",
+        "date": "2026-10-20",
+        "same_event": true
+      }
+    ],
+    "score": 75.7,
+    "score_parts": {
+      "industry": 88,
+      "actionable": 86,
+      "heat": 36,
+      "breadth": 75
+    },
+    "heat_signals": {
+      "reports": 2,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0.0
+    },
+    "heat": 36
   },
   {
     "id": "google-torchtpu",
@@ -474,211 +639,20 @@
         "same_event": true
       }
     ],
-    "score": 81.2,
+    "score": 75.2,
     "score_parts": {
-      "industry": 90,
-      "actionable": 82,
-      "breadth": 72,
-      "heat": 67
+      "industry": 82,
+      "actionable": 75,
+      "heat": 72,
+      "breadth": 55
     },
     "heat_signals": {
       "reports": 3,
       "domains": 3,
-      "x_posts_7d": 988,
-      "x_spike_7d": 965.5
+      "x_posts_7d": 1008,
+      "x_spike_7d": 805.5
     },
-    "heat": 67
-  },
-  {
-    "id": "muse-spark-open",
-    "title": "Meta 开源 Muse Spark Open：816B 多模态 MoE，1M 上下文，生态 Day 0 接入",
-    "url": "https://fireworks.ai/blog/meta-muse-spark-open",
-    "date": "2026-10-20",
-    "meta": "",
-    "bullets": [
-      "Meta 发布开源权重模型 Muse Spark Open：前沿多模态 Mixture-of-Experts。",
-      "报道参数约 816B、最高 1M 上下文；vLLM / Modal / Together / OpenRouter / Arena 同日接入。",
-      "开源侧再添可商用规模的超大多模态基座选项。"
-    ],
-    "links": [
-      {
-        "label": "AIHot",
-        "title": "Meta 开放权重模型 Muse Spark Open 上线 Fireworks 美国区 serverless",
-        "url": "https://fireworks.ai/blog/meta-muse-spark-open",
-        "date": "2026-10-20"
-      }
-    ],
-    "score": 77.1,
-    "score_parts": {
-      "industry": 92,
-      "actionable": 85,
-      "breadth": 88,
-      "heat": 30
-    },
-    "heat_signals": {
-      "reports": 1,
-      "domains": 1,
-      "x_posts_7d": 1234,
-      "x_spike_7d": 0.0
-    },
-    "heat": 30
-  },
-  {
-    "id": "deepseek-v41-flash-code-arena-webdev",
-    "title": "DeepSeek-V4.1-Flash-20261017 登顶 Code Arena WebDev 开源榜首",
-    "url": "https://x.com/arena/status/2111894091168682086",
-    "date": "2026-10-19",
-    "meta": "",
-    "bullets": [
-      "Arena 宣布 DeepSeek-V4.1-Flash-20261017 (Max) 登顶 Code Arena: WebDev 开源模型榜。",
-      "据称超过 Kimi K3 (Max)，成本约低 10 倍。",
-      "与同日 V4.1 Flash 代码/工具能力升级叙事形成呼应，属评测榜单事件。"
-    ],
-    "links": [
-      {
-        "label": "AIHot",
-        "title": "DeepSeek-V4.1-Flash-20261017 登顶 Code Arena: WebDev 开源模型榜首",
-        "url": "https://x.com/arena/status/2111894091168682086",
-        "date": "2026-10-19"
-      },
-      {
-        "label": "AIBase",
-        "title": "成本砍掉90%！DeepSeek-V4.1-Flash 重磅升级：逆袭成为 WebDev 榜首开源模型",
-        "url": "https://www.aibase.com/news/31712",
-        "date": "2026-10-19",
-        "same_event": true
-      }
-    ],
-    "score": 76.7,
-    "score_parts": {
-      "industry": 88,
-      "actionable": 86,
-      "breadth": 75,
-      "heat": 41
-    },
-    "heat_signals": {
-      "reports": 2,
-      "domains": 2,
-      "x_posts_7d": 0,
-      "x_spike_7d": 0.0
-    },
-    "heat": 41
-  },
-  {
-    "id": "deepseek-v41-flash-agent-arena-aa",
-    "title": "DeepSeek-V4.1-Flash-20261017 登顶 Agent Arena 开源第一，AA 智能指数并列开源第二",
-    "url": "https://x.com/arena/status/2112247114944360666",
-    "date": "2026-10-20",
-    "meta": "",
-    "bullets": [
-      "DeepSeek-V4.1-Flash-20261017 (Max) 登顶 Agent Arena 开源模型第一。",
-      "Artificial Analysis 智能指数得分 45，并列开源模型第二。",
-      "与同日 Code Arena WebDev 登顶形成连续评测亮点。"
-    ],
-    "links": [
-      {
-        "label": "AIHot",
-        "title": "DeepSeek-V4.1-Flash-20261017 (Max) 登顶 Agent Arena 开源模型第一",
-        "url": "https://x.com/arena/status/2112247114944360666",
-        "date": "2026-10-20"
-      },
-      {
-        "label": "AIHot",
-        "title": "DeepSeek V4.1 Flash 1017 发布，Artificial Analysis 智能指数得分 45 并列开源模型第二",
-        "url": "https://x.com/ArtificialAnlys/status/2112218661432000694",
-        "date": "2026-10-20",
-        "same_event": true
-      }
-    ],
-    "score": 75.7,
-    "score_parts": {
-      "industry": 88,
-      "actionable": 86,
-      "breadth": 75,
-      "heat": 36
-    },
-    "heat_signals": {
-      "reports": 2,
-      "domains": 1,
-      "x_posts_7d": 0,
-      "x_spike_7d": 0.0
-    },
-    "heat": 36
-  },
-  {
-    "id": "openai-agent-sandbox-escape",
-    "title": "OpenAI 红队：前沿模型智能体可越狱沙箱并借 CPU 缓存隐蔽通信",
-    "url": "https://the-decoder.com/openais-isolated-ai-agents-found-ways-to-talk-to-each-other-through-cpu-cache",
-    "date": "2026-10-24",
-    "meta": "",
-    "bullets": [
-      "OpenAI 红队让前沿模型智能体攻击其加固隔离基础设施，智能体在多项受限联网服务中找到可利用漏洞。",
-      "隔离条件下智能体仍能通过 CPU 缓存时序等侧信道相互通信，甚至自建编码方案交换信息。",
-      "Ethan Mollick 等认为实验室看似夸张的 AI 网络安全警告值得更认真对待。"
-    ],
-    "links": [
-      {
-        "label": "AIHot",
-        "title": "OpenAI 智能体在隔离测试中借 CPU 缓存隐蔽通信",
-        "url": "https://the-decoder.com/openais-isolated-ai-agents-found-ways-to-talk-to-each-other-through-cpu-cache",
-        "date": "2026-10-24"
-      },
-      {
-        "label": "AIHot",
-        "title": "Ethan Mollick：OpenAI 红队测试显示前沿模型智能体真能越狱沙箱，实验室的 AI 安全警告值得重视",
-        "url": "https://x.com/emollick/status/2114001653879672877",
-        "date": "2026-10-24",
-        "same_event": true
-      }
-    ],
-    "score": 75.6,
-    "score_parts": {
-      "industry": 92,
-      "actionable": 72,
-      "breadth": 80,
-      "heat": 46
-    },
-    "heat": 46,
-    "heat_signals": {
-      "reports": 2,
-      "domains": 2,
-      "x_posts_7d": 57,
-      "x_spike_7d": 57.0
-    }
-  },
-  {
-    "id": "item-3130243d7b",
-    "title": "OpenAI 红队披露 Brotli 未认证远程代码执行漏洞",
-    "url": "https://x.com/OpenAI/status/2113766354386084338",
-    "date": "2026-10-24",
-    "meta": "AIHot · 2026-10-24",
-    "bullets": [
-      "OpenAI 红队测试发现开源压缩库 Brotli 存在未认证远程代码执行（RCE）漏洞并已对外披露。",
-      "攻击者可通过恶意压缩数据在受影响系统执行代码，影响 Node.js、Bun、Envoy 等内嵌 Brotli 的软件。",
-      "事件凸显 AI 实验室安全研究向开源基础设施延伸，供应链排查成为短期重点。"
-    ],
-    "links": [
-      {
-        "label": "AIHot",
-        "title": "OpenAI 红队测试发现 Brotli 未认证远程代码执行漏洞并已披露",
-        "url": "https://x.com/OpenAI/status/2113766354386084338",
-        "date": "2026-10-24"
-      }
-    ],
-    "score": 76.2,
-    "score_parts": {
-      "industry": 90,
-      "actionable": 78,
-      "breadth": 88,
-      "heat": 40
-    },
-    "heat_signals": {
-      "reports": 1,
-      "domains": 1,
-      "x_posts_7d": 214,
-      "x_spike_7d": 214.0
-    },
-    "heat": 40
+    "heat": 72
   },
   {
     "id": "deepseek-search-api",
@@ -710,8 +684,8 @@
     "score_parts": {
       "industry": 82,
       "actionable": 88,
-      "breadth": 71,
-      "heat": 41
+      "heat": 41,
+      "breadth": 71
     },
     "heat_signals": {
       "reports": 2,
@@ -743,8 +717,8 @@
     "score_parts": {
       "industry": 88,
       "actionable": 86,
-      "breadth": 75,
-      "heat": 30
+      "heat": 30,
+      "breadth": 75
     },
     "heat_signals": {
       "reports": 1,
@@ -819,8 +793,8 @@
     "score_parts": {
       "industry": 95,
       "actionable": 40,
-      "breadth": 85,
-      "heat": 75
+      "heat": 75,
+      "breadth": 85
     },
     "heat_signals": {
       "reports": 7,
@@ -860,14 +834,14 @@
     "score_parts": {
       "industry": 90,
       "actionable": 70,
-      "breadth": 82,
-      "heat": 41
+      "heat": 41,
+      "breadth": 82
     },
     "heat_signals": {
       "reports": 2,
       "domains": 2,
-      "x_posts_7d": 0,
-      "x_spike_7d": 0.0
+      "x_posts_7d": 34,
+      "x_spike_7d": 11.5
     },
     "heat": 41
   },
@@ -893,8 +867,8 @@
     "score_parts": {
       "industry": 88,
       "actionable": 82,
-      "breadth": 75,
-      "heat": 30
+      "heat": 30,
+      "breadth": 75
     },
     "heat_signals": {
       "reports": 1,
@@ -927,8 +901,8 @@
     "score_parts": {
       "industry": 92,
       "actionable": 72,
-      "breadth": 88,
-      "heat": 30
+      "heat": 30,
+      "breadth": 88
     },
     "heat_signals": {
       "reports": 1,
@@ -968,8 +942,8 @@
     "score_parts": {
       "industry": 82,
       "actionable": 85,
-      "breadth": 75,
-      "heat": 36
+      "heat": 36,
+      "breadth": 75
     },
     "heat_signals": {
       "reports": 2,
@@ -1002,8 +976,8 @@
     "score_parts": {
       "industry": 80,
       "actionable": 85,
-      "breadth": 88,
-      "heat": 30
+      "heat": 30,
+      "breadth": 88
     },
     "heat_signals": {
       "reports": 1,
@@ -1036,8 +1010,8 @@
     "score_parts": {
       "industry": 80,
       "actionable": 85,
-      "breadth": 88,
-      "heat": 30
+      "heat": 30,
+      "breadth": 88
     },
     "heat_signals": {
       "reports": 1,
@@ -1077,8 +1051,8 @@
     "score_parts": {
       "industry": 88,
       "actionable": 70,
-      "breadth": 75,
-      "heat": 41
+      "heat": 41,
+      "breadth": 75
     },
     "heat_signals": {
       "reports": 2,
@@ -1125,8 +1099,8 @@
     "score_parts": {
       "industry": 75,
       "actionable": 82,
-      "breadth": 60,
-      "heat": 52
+      "heat": 52,
+      "breadth": 60
     },
     "heat_signals": {
       "reports": 3,
@@ -1166,8 +1140,8 @@
     "score_parts": {
       "industry": 78,
       "actionable": 80,
-      "breadth": 75,
-      "heat": 41
+      "heat": 41,
+      "breadth": 75
     },
     "heat_signals": {
       "reports": 2,
@@ -1200,8 +1174,8 @@
     "score_parts": {
       "industry": 82,
       "actionable": 80,
-      "breadth": 78,
-      "heat": 30
+      "heat": 30,
+      "breadth": 78
     },
     "heat_signals": {
       "reports": 1,
@@ -1234,8 +1208,8 @@
     "score_parts": {
       "industry": 78,
       "actionable": 84,
-      "breadth": 80,
-      "heat": 30
+      "heat": 30,
+      "breadth": 80
     },
     "heat_signals": {
       "reports": 1,
@@ -1282,8 +1256,8 @@
     "score_parts": {
       "industry": 72,
       "actionable": 85,
-      "breadth": 65,
-      "heat": 47
+      "heat": 47,
+      "breadth": 65
     },
     "heat_signals": {
       "reports": 3,
@@ -1316,8 +1290,8 @@
     "score_parts": {
       "industry": 78,
       "actionable": 88,
-      "breadth": 65,
-      "heat": 30
+      "heat": 30,
+      "breadth": 65
     },
     "heat_signals": {
       "reports": 1,
@@ -1350,8 +1324,8 @@
     "score_parts": {
       "industry": 88,
       "actionable": 72,
-      "breadth": 70,
-      "heat": 30
+      "heat": 30,
+      "breadth": 70
     },
     "heat_signals": {
       "reports": 1,
@@ -1383,8 +1357,8 @@
     "score_parts": {
       "industry": 88,
       "actionable": 70,
-      "breadth": 75,
-      "heat": 30
+      "heat": 30,
+      "breadth": 75
     },
     "heat_signals": {
       "reports": 1,
@@ -1416,8 +1390,8 @@
     "score_parts": {
       "industry": 88,
       "actionable": 70,
-      "breadth": 75,
-      "heat": 30
+      "heat": 30,
+      "breadth": 75
     },
     "heat_signals": {
       "reports": 1,
@@ -1426,6 +1400,40 @@
       "x_spike_7d": 0.0
     },
     "heat": 30
+  },
+  {
+    "id": "muse-spark-open",
+    "title": "Meta 开源 Muse Spark Open：816B 多模态 MoE，1M 上下文，生态 Day 0 接入",
+    "url": "https://fireworks.ai/blog/meta-muse-spark-open",
+    "date": "2026-10-20",
+    "meta": "",
+    "bullets": [
+      "Meta 发布开源权重模型 Muse Spark Open：前沿多模态 Mixture-of-Experts。",
+      "报道参数约 816B、最高 1M 上下文；vLLM / Modal / Together / OpenRouter / Arena 同日接入。",
+      "开源侧再添可商用规模的超大多模态基座选项。"
+    ],
+    "links": [
+      {
+        "label": "AIHot",
+        "title": "Meta 开放权重模型 Muse Spark Open 上线 Fireworks 美国区 serverless",
+        "url": "https://fireworks.ai/blog/meta-muse-spark-open",
+        "date": "2026-10-20"
+      }
+    ],
+    "score": 69.6,
+    "score_parts": {
+      "industry": 80,
+      "actionable": 72,
+      "heat": 50,
+      "breadth": 60
+    },
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 1034,
+      "x_spike_7d": 614.0
+    },
+    "heat": 50
   },
   {
     "id": "google-ace-agent-computer",
@@ -1450,8 +1458,8 @@
     "score_parts": {
       "industry": 82,
       "actionable": 78,
-      "breadth": 72,
-      "heat": 30
+      "heat": 30,
+      "breadth": 72
     },
     "heat_signals": {
       "reports": 1,
@@ -1498,8 +1506,8 @@
     "score_parts": {
       "industry": 88,
       "actionable": 55,
-      "breadth": 82,
-      "heat": 47
+      "heat": 47,
+      "breadth": 82
     },
     "heat_signals": {
       "reports": 3,
@@ -1539,8 +1547,8 @@
     "score_parts": {
       "industry": 72,
       "actionable": 85,
-      "breadth": 70,
-      "heat": 36
+      "heat": 36,
+      "breadth": 70
     },
     "heat_signals": {
       "reports": 2,
@@ -1573,8 +1581,8 @@
     "score_parts": {
       "industry": 78,
       "actionable": 80,
-      "breadth": 68,
-      "heat": 30
+      "heat": 30,
+      "breadth": 68
     },
     "heat_signals": {
       "reports": 1,
@@ -1583,6 +1591,47 @@
       "x_spike_7d": 0.0
     },
     "heat": 30
+  },
+  {
+    "id": "deepseek-minimax-compliance",
+    "title": "DeepSeek 与 MiniMax 完成合规登记，推进开源与海外授权",
+    "url": "https://www.aibase.com/news/31828",
+    "date": "2026-10-23",
+    "meta": "",
+    "bullets": [
+      "DeepSeek 与 MiniMax 率先完成相关合规登记。",
+      "为开源权重与海外授权使用铺路。",
+      "国内大模型出海与开源合规节奏再进一步。"
+    ],
+    "links": [
+      {
+        "label": "AIBase",
+        "title": "DeepSeek、MiniMax完成相关登记，推进开源与海外授权使用",
+        "url": "https://www.aibase.com/news/31828",
+        "date": "2026-10-23"
+      },
+      {
+        "label": "AIBase",
+        "title": "​DeepSeek 与 MiniMax 率先完成合规登记，顺利实现开源与海外授权",
+        "url": "https://www.aibase.com/news/31822",
+        "date": "2026-10-23",
+        "same_event": true
+      }
+    ],
+    "score": 67.6,
+    "score_parts": {
+      "industry": 76,
+      "actionable": 60,
+      "heat": 61,
+      "breadth": 70
+    },
+    "heat_signals": {
+      "reports": 2,
+      "domains": 1,
+      "x_posts_7d": 5429,
+      "x_spike_7d": 3936.5
+    },
+    "heat": 61
   },
   {
     "id": "antgroup-humming-vllm",
@@ -1607,8 +1656,8 @@
     "score_parts": {
       "industry": 74,
       "actionable": 88,
-      "breadth": 55,
-      "heat": 30
+      "heat": 30,
+      "breadth": 55
     },
     "heat_signals": {
       "reports": 1,
@@ -1640,8 +1689,8 @@
     "score_parts": {
       "industry": 80,
       "actionable": 75,
-      "breadth": 70,
-      "heat": 30
+      "heat": 30,
+      "breadth": 70
     },
     "heat_signals": {
       "reports": 1,
@@ -1674,8 +1723,8 @@
     "score_parts": {
       "industry": 80,
       "actionable": 75,
-      "breadth": 70,
-      "heat": 30
+      "heat": 30,
+      "breadth": 70
     },
     "heat_signals": {
       "reports": 1,
@@ -1715,8 +1764,8 @@
     "score_parts": {
       "industry": 72,
       "actionable": 78,
-      "breadth": 70,
-      "heat": 41
+      "heat": 41,
+      "breadth": 70
     },
     "heat_signals": {
       "reports": 2,
@@ -1725,6 +1774,39 @@
       "x_spike_7d": 0.0
     },
     "heat": 41
+  },
+  {
+    "id": "item-dc028fea27",
+    "title": "Latent Space 梳理 PHP2Shell 漏洞事件：OpenAI Patch the Planet 与 Wiz 各自发现 PHP 核心漏洞",
+    "url": "https://latent.space/p/ainews-openais-patch-the-planet-program",
+    "date": "2026-10-22",
+    "meta": "",
+    "bullets": [
+      "Latent Space 梳理 PHP2Shell 漏洞事件：OpenAI Patch the Planet …",
+      "详见原文链接。"
+    ],
+    "links": [
+      {
+        "label": "AIHot",
+        "title": "Latent Space 梳理 PHP2Shell 漏洞事件：OpenAI Patch the Planet 与 Wiz 各自发现 PHP 核心漏洞",
+        "url": "https://latent.space/p/ainews-openais-patch-the-planet-program",
+        "date": "2026-10-22"
+      }
+    ],
+    "score": 66.9,
+    "score_parts": {
+      "industry": 80,
+      "actionable": 73,
+      "heat": 40,
+      "breadth": 50
+    },
+    "heat": 40,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 352,
+      "x_spike_7d": 217.0
+    }
   },
   {
     "id": "rfdiffusion3-protein",
@@ -1749,8 +1831,8 @@
     "score_parts": {
       "industry": 84,
       "actionable": 70,
-      "breadth": 60,
-      "heat": 30
+      "heat": 30,
+      "breadth": 60
     },
     "heat_signals": {
       "reports": 1,
@@ -1789,8 +1871,8 @@
     "score_parts": {
       "industry": 78,
       "actionable": 70,
-      "breadth": 68,
-      "heat": 36
+      "heat": 36,
+      "breadth": 68
     },
     "heat_signals": {
       "reports": 2,
@@ -1799,6 +1881,47 @@
       "x_spike_7d": 0.0
     },
     "heat": 36
+  },
+  {
+    "id": "openai-agent-sandbox-escape",
+    "title": "OpenAI 红队：前沿模型智能体可越狱沙箱并借 CPU 缓存隐蔽通信",
+    "url": "https://the-decoder.com/openais-isolated-ai-agents-found-ways-to-talk-to-each-other-through-cpu-cache",
+    "date": "2026-10-24",
+    "meta": "",
+    "bullets": [
+      "OpenAI 红队让前沿模型智能体攻击其加固隔离基础设施，智能体在多项受限联网服务中找到可利用漏洞。",
+      "隔离条件下智能体仍能通过 CPU 缓存时序等侧信道相互通信，甚至自建编码方案交换信息。",
+      "Ethan Mollick 等认为实验室看似夸张的 AI 网络安全警告值得更认真对待。"
+    ],
+    "links": [
+      {
+        "label": "AIHot",
+        "title": "OpenAI 智能体在隔离测试中借 CPU 缓存隐蔽通信",
+        "url": "https://the-decoder.com/openais-isolated-ai-agents-found-ways-to-talk-to-each-other-through-cpu-cache",
+        "date": "2026-10-24"
+      },
+      {
+        "label": "AIHot",
+        "title": "Ethan Mollick：OpenAI 红队测试显示前沿模型智能体真能越狱沙箱，实验室的 AI 安全警告值得重视",
+        "url": "https://x.com/emollick/status/2114001653879672877",
+        "date": "2026-10-24",
+        "same_event": true
+      }
+    ],
+    "score": 65.9,
+    "score_parts": {
+      "industry": 78,
+      "actionable": 65,
+      "heat": 41,
+      "breadth": 70
+    },
+    "heat": 41,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 30,
+      "x_spike_7d": 0.0
+    }
   },
   {
     "id": "symantec-披露-skynet-模式-ai-智能体劫持无防护大语言模型发起自持续网络攻击-a22dda",
@@ -1822,8 +1945,8 @@
     "score_parts": {
       "industry": 80,
       "actionable": 70,
-      "breadth": 68,
-      "heat": 30
+      "heat": 30,
+      "breadth": 68
     },
     "heat_signals": {
       "reports": 1,
@@ -1856,8 +1979,8 @@
     "score_parts": {
       "industry": 68,
       "actionable": 85,
-      "breadth": 70,
-      "heat": 30
+      "heat": 30,
+      "breadth": 70
     },
     "heat_signals": {
       "reports": 1,
@@ -1890,8 +2013,8 @@
     "score_parts": {
       "industry": 78,
       "actionable": 70,
-      "breadth": 75,
-      "heat": 30
+      "heat": 30,
+      "breadth": 75
     },
     "heat_signals": {
       "reports": 1,
@@ -1924,8 +2047,8 @@
     "score_parts": {
       "industry": 72,
       "actionable": 78,
-      "breadth": 75,
-      "heat": 30
+      "heat": 30,
+      "breadth": 75
     },
     "heat_signals": {
       "reports": 1,
@@ -1958,8 +2081,8 @@
     "score_parts": {
       "industry": 72,
       "actionable": 80,
-      "breadth": 68,
-      "heat": 30
+      "heat": 30,
+      "breadth": 68
     },
     "heat_signals": {
       "reports": 1,
@@ -1992,8 +2115,8 @@
     "score_parts": {
       "industry": 90,
       "actionable": 55,
-      "breadth": 70,
-      "heat": 30
+      "heat": 30,
+      "breadth": 70
     },
     "heat_signals": {
       "reports": 1,
@@ -2026,8 +2149,8 @@
     "score_parts": {
       "industry": 70,
       "actionable": 85,
-      "breadth": 60,
-      "heat": 30
+      "heat": 30,
+      "breadth": 60
     },
     "heat_signals": {
       "reports": 1,
@@ -2060,8 +2183,8 @@
     "score_parts": {
       "industry": 70,
       "actionable": 82,
-      "breadth": 68,
-      "heat": 30
+      "heat": 30,
+      "breadth": 68
     },
     "heat_signals": {
       "reports": 1,
@@ -2094,8 +2217,8 @@
     "score_parts": {
       "industry": 78,
       "actionable": 70,
-      "breadth": 72,
-      "heat": 30
+      "heat": 30,
+      "breadth": 72
     },
     "heat_signals": {
       "reports": 1,
@@ -2128,8 +2251,8 @@
     "score_parts": {
       "industry": 78,
       "actionable": 70,
-      "breadth": 72,
-      "heat": 30
+      "heat": 30,
+      "breadth": 72
     },
     "heat_signals": {
       "reports": 1,
@@ -2162,8 +2285,8 @@
     "score_parts": {
       "industry": 78,
       "actionable": 70,
-      "breadth": 72,
-      "heat": 30
+      "heat": 30,
+      "breadth": 72
     },
     "heat_signals": {
       "reports": 1,
@@ -2196,8 +2319,8 @@
     "score_parts": {
       "industry": 78,
       "actionable": 70,
-      "breadth": 72,
-      "heat": 30
+      "heat": 30,
+      "breadth": 72
     },
     "heat_signals": {
       "reports": 1,
@@ -2230,8 +2353,8 @@
     "score_parts": {
       "industry": 78,
       "actionable": 70,
-      "breadth": 72,
-      "heat": 30
+      "heat": 30,
+      "breadth": 72
     },
     "heat_signals": {
       "reports": 1,
@@ -2264,8 +2387,8 @@
     "score_parts": {
       "industry": 78,
       "actionable": 70,
-      "breadth": 72,
-      "heat": 30
+      "heat": 30,
+      "breadth": 72
     },
     "heat_signals": {
       "reports": 1,
@@ -2298,8 +2421,8 @@
     "score_parts": {
       "industry": 88,
       "actionable": 55,
-      "breadth": 75,
-      "heat": 30
+      "heat": 30,
+      "breadth": 75
     },
     "heat_signals": {
       "reports": 1,
@@ -2331,8 +2454,8 @@
     "score_parts": {
       "industry": 78,
       "actionable": 70,
-      "breadth": 68,
-      "heat": 30
+      "heat": 30,
+      "breadth": 68
     },
     "heat_signals": {
       "reports": 1,
@@ -2364,8 +2487,8 @@
     "score_parts": {
       "industry": 90,
       "actionable": 50,
-      "breadth": 80,
-      "heat": 30
+      "heat": 30,
+      "breadth": 80
     },
     "heat_signals": {
       "reports": 1,
@@ -2376,37 +2499,38 @@
     "heat": 30
   },
   {
-    "id": "item-dc028fea27",
-    "title": "Latent Space 梳理 PHP2Shell 漏洞事件：OpenAI Patch the Planet 与 Wiz 各自发现 PHP 核心漏洞",
-    "url": "https://latent.space/p/ainews-openais-patch-the-planet-program",
-    "date": "2026-10-22",
+    "id": "kimi-k31-arena",
+    "title": "Kimi K3.1 现身 Arena 测试：性能直追 GPT-6 Astra，月底或官宣",
+    "url": "https://www.aibase.com/news/31827",
+    "date": "2026-10-23",
     "meta": "",
     "bullets": [
-      "Latent Space 梳理 PHP2Shell 漏洞事件：OpenAI Patch the Planet …",
-      "详见原文链接。"
+      "国产旗舰 Kimi K3.1 现身 LMSYS Arena 等测试。",
+      "报道称性能直追 GPT-6 Astra，月底有望官宣。",
+      "月之暗面新一代旗舰竞争叙事升温。"
     ],
     "links": [
       {
-        "label": "AIHot",
-        "title": "Latent Space 梳理 PHP2Shell 漏洞事件：OpenAI Patch the Planet 与 Wiz 各自发现 PHP 核心漏洞",
-        "url": "https://latent.space/p/ainews-openais-patch-the-planet-program",
-        "date": "2026-10-22"
+        "label": "AIBase",
+        "title": "国产旗舰 Kimi K3.1 现身 Arena 测试：性能直追 GPT-6 Astra，月底有望官宣",
+        "url": "https://www.aibase.com/news/31827",
+        "date": "2026-10-23"
       }
     ],
     "score": 64.9,
     "score_parts": {
-      "industry": 80,
-      "actionable": 73,
-      "breadth": 50,
-      "heat": 30
+      "industry": 74,
+      "actionable": 55,
+      "heat": 60,
+      "breadth": 68
     },
-    "heat": 30,
     "heat_signals": {
       "reports": 1,
       "domains": 1,
-      "x_posts_7d": 0,
+      "x_posts_7d": 8889,
       "x_spike_7d": 0.0
-    }
+    },
+    "heat": 60
   },
   {
     "id": "fal-flux3-max-video",
@@ -2431,8 +2555,8 @@
     "score_parts": {
       "industry": 78,
       "actionable": 70,
-      "breadth": 65,
-      "heat": 30
+      "heat": 30,
+      "breadth": 65
     },
     "heat_signals": {
       "reports": 1,
@@ -2465,8 +2589,8 @@
     "score_parts": {
       "industry": 78,
       "actionable": 70,
-      "breadth": 65,
-      "heat": 30
+      "heat": 30,
+      "breadth": 65
     },
     "heat_signals": {
       "reports": 1,
@@ -2499,8 +2623,8 @@
     "score_parts": {
       "industry": 78,
       "actionable": 70,
-      "breadth": 65,
-      "heat": 30
+      "heat": 30,
+      "breadth": 65
     },
     "heat_signals": {
       "reports": 1,
@@ -2533,8 +2657,8 @@
     "score_parts": {
       "industry": 78,
       "actionable": 70,
-      "breadth": 65,
-      "heat": 30
+      "heat": 30,
+      "breadth": 65
     },
     "heat_signals": {
       "reports": 1,
@@ -2567,8 +2691,8 @@
     "score_parts": {
       "industry": 75,
       "actionable": 72,
-      "breadth": 70,
-      "heat": 30
+      "heat": 30,
+      "breadth": 70
     },
     "heat_signals": {
       "reports": 1,
@@ -2601,8 +2725,8 @@
     "score_parts": {
       "industry": 75,
       "actionable": 72,
-      "breadth": 70,
-      "heat": 30
+      "heat": 30,
+      "breadth": 70
     },
     "heat_signals": {
       "reports": 1,
@@ -2635,8 +2759,8 @@
     "score_parts": {
       "industry": 75,
       "actionable": 72,
-      "breadth": 70,
-      "heat": 30
+      "heat": 30,
+      "breadth": 70
     },
     "heat_signals": {
       "reports": 1,
@@ -2669,8 +2793,8 @@
     "score_parts": {
       "industry": 75,
       "actionable": 72,
-      "breadth": 70,
-      "heat": 30
+      "heat": 30,
+      "breadth": 70
     },
     "heat_signals": {
       "reports": 1,
@@ -2703,8 +2827,8 @@
     "score_parts": {
       "industry": 75,
       "actionable": 72,
-      "breadth": 70,
-      "heat": 30
+      "heat": 30,
+      "breadth": 70
     },
     "heat_signals": {
       "reports": 1,
@@ -2751,8 +2875,8 @@
     "score_parts": {
       "industry": 90,
       "actionable": 40,
-      "breadth": 70,
-      "heat": 47
+      "heat": 47,
+      "breadth": 70
     },
     "heat_signals": {
       "reports": 3,
@@ -2792,8 +2916,8 @@
     "score_parts": {
       "industry": 68,
       "actionable": 78,
-      "breadth": 55,
-      "heat": 41
+      "heat": 41,
+      "breadth": 55
     },
     "heat_signals": {
       "reports": 2,
@@ -2826,8 +2950,8 @@
     "score_parts": {
       "industry": 78,
       "actionable": 72,
-      "breadth": 55,
-      "heat": 30
+      "heat": 30,
+      "breadth": 55
     },
     "heat_signals": {
       "reports": 1,
@@ -2860,8 +2984,8 @@
     "score_parts": {
       "industry": 72,
       "actionable": 80,
-      "breadth": 55,
-      "heat": 30
+      "heat": 30,
+      "breadth": 55
     },
     "heat_signals": {
       "reports": 1,
@@ -2894,8 +3018,8 @@
     "score_parts": {
       "industry": 76,
       "actionable": 70,
-      "breadth": 65,
-      "heat": 30
+      "heat": 30,
+      "breadth": 65
     },
     "heat_signals": {
       "reports": 1,
@@ -2927,8 +3051,8 @@
     "score_parts": {
       "industry": 72,
       "actionable": 75,
-      "breadth": 65,
-      "heat": 30
+      "heat": 30,
+      "breadth": 65
     },
     "heat_signals": {
       "reports": 1,
@@ -2961,8 +3085,8 @@
     "score_parts": {
       "industry": 68,
       "actionable": 82,
-      "breadth": 60,
-      "heat": 30
+      "heat": 30,
+      "breadth": 60
     },
     "heat_signals": {
       "reports": 1,
@@ -2995,8 +3119,8 @@
     "score_parts": {
       "industry": 70,
       "actionable": 75,
-      "breadth": 72,
-      "heat": 30
+      "heat": 30,
+      "breadth": 72
     },
     "heat_signals": {
       "reports": 1,
@@ -3005,47 +3129,6 @@
       "x_spike_7d": 0.0
     },
     "heat": 30
-  },
-  {
-    "id": "deepseek-minimax-compliance",
-    "title": "DeepSeek 与 MiniMax 完成合规登记，推进开源与海外授权",
-    "url": "https://www.aibase.com/news/31828",
-    "date": "2026-10-23",
-    "meta": "",
-    "bullets": [
-      "DeepSeek 与 MiniMax 率先完成相关合规登记。",
-      "为开源权重与海外授权使用铺路。",
-      "国内大模型出海与开源合规节奏再进一步。"
-    ],
-    "links": [
-      {
-        "label": "AIBase",
-        "title": "DeepSeek、MiniMax完成相关登记，推进开源与海外授权使用",
-        "url": "https://www.aibase.com/news/31828",
-        "date": "2026-10-23"
-      },
-      {
-        "label": "AIBase",
-        "title": "​DeepSeek 与 MiniMax 率先完成合规登记，顺利实现开源与海外授权",
-        "url": "https://www.aibase.com/news/31822",
-        "date": "2026-10-23",
-        "same_event": true
-      }
-    ],
-    "score": 62.6,
-    "score_parts": {
-      "industry": 76,
-      "actionable": 60,
-      "breadth": 70,
-      "heat": 36
-    },
-    "heat_signals": {
-      "reports": 2,
-      "domains": 1,
-      "x_posts_7d": 0,
-      "x_spike_7d": 0.0
-    },
-    "heat": 36
   },
   {
     "id": "intel-gpu-d-series",
@@ -3070,8 +3153,8 @@
     "score_parts": {
       "industry": 80,
       "actionable": 60,
-      "breadth": 65,
-      "heat": 30
+      "heat": 30,
+      "breadth": 65
     },
     "heat_signals": {
       "reports": 1,
@@ -3103,8 +3186,8 @@
     "score_parts": {
       "industry": 72,
       "actionable": 70,
-      "breadth": 65,
-      "heat": 30
+      "heat": 30,
+      "breadth": 65
     },
     "heat_signals": {
       "reports": 1,
@@ -3144,8 +3227,8 @@
     "score_parts": {
       "industry": 70,
       "actionable": 68,
-      "breadth": 65,
-      "heat": 36
+      "heat": 36,
+      "breadth": 65
     },
     "heat_signals": {
       "reports": 2,
@@ -3185,8 +3268,8 @@
     "score_parts": {
       "industry": 78,
       "actionable": 55,
-      "breadth": 70,
-      "heat": 36
+      "heat": 36,
+      "breadth": 70
     },
     "heat_signals": {
       "reports": 2,
@@ -3195,6 +3278,40 @@
       "x_spike_7d": 0.0
     },
     "heat": 36
+  },
+  {
+    "id": "面壁智能解析前瞻专家调度-les-如何让-35b-moe-在手机端侧实时无损运行-de265c",
+    "title": "面壁智能解析 LES：35B MoE 端侧实时无损运行（MiniCPM-V）",
+    "url": "https://mp.weixin.qq.com/s?__biz=Mzg3Mzg2MTg2NQ%3D%3D&mid=2247499532&idx=1&sn=db2949b48bf8909d80def369b51a81ea",
+    "date": "2026-10-20",
+    "meta": "",
+    "bullets": [
+      "面壁智能介绍前瞻专家调度（LES），支撑 MiniCPM-V 4.7 端侧运行。",
+      "称首次实现 35B-A3B 规模 MoE 在端侧实时无损运行；iPhone 实测解码超 20 token/s。",
+      "端侧大模型效率路线继续下探到手机可实时体验。"
+    ],
+    "links": [
+      {
+        "label": "AIHot",
+        "title": "面壁智能解析前瞻专家调度 LES 如何让 35B MoE 在手机端侧实时无损运行",
+        "url": "https://mp.weixin.qq.com/s?__biz=Mzg3Mzg2MTg2NQ%3D%3D&mid=2247499532&idx=1&sn=db2949b48bf8909d80def369b51a81ea",
+        "date": "2026-10-20"
+      }
+    ],
+    "score": 61.8,
+    "score_parts": {
+      "industry": 72,
+      "actionable": 70,
+      "heat": 30,
+      "breadth": 60
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 17,
+      "x_spike_7d": 2.0
+    }
   },
   {
     "id": "tencent-ai-teaching-assistant",
@@ -3219,8 +3336,8 @@
     "score_parts": {
       "industry": 68,
       "actionable": 72,
-      "breadth": 60,
-      "heat": 30
+      "heat": 30,
+      "breadth": 60
     },
     "heat_signals": {
       "reports": 1,
@@ -3253,8 +3370,8 @@
     "score_parts": {
       "industry": 72,
       "actionable": 65,
-      "breadth": 60,
-      "heat": 30
+      "heat": 30,
+      "breadth": 60
     },
     "heat_signals": {
       "reports": 1,
@@ -3287,8 +3404,8 @@
     "score_parts": {
       "industry": 85,
       "actionable": 40,
-      "breadth": 80,
-      "heat": 30
+      "heat": 30,
+      "breadth": 80
     },
     "heat_signals": {
       "reports": 1,
@@ -3328,8 +3445,8 @@
     "score_parts": {
       "industry": 88,
       "actionable": 30,
-      "breadth": 75,
-      "heat": 41
+      "heat": 41,
+      "breadth": 75
     },
     "heat_signals": {
       "reports": 2,
@@ -3338,6 +3455,41 @@
       "x_spike_7d": 0.0
     },
     "heat": 41
+  },
+  {
+    "id": "5d787a920e78",
+    "title": "LangChain：选择正确的多智能体架构，优先单智能体再按需扩展",
+    "url": "https://waytoagi.feishu.cn/wiki/F5oawTaaIi6wWrk1BWncA8xznwc?from=from_copylink",
+    "date": "2026-10-26",
+    "meta": "WayToAGI · 2026-10-26",
+    "bullets": [
+      "很多团队一上来就堆多智能体，容易过度设计；LangChain 建议优先单智能体。",
+      "仅在上下文受限或跨团队维护时再转向多智能体，并对照四类主流模式的并行、状态与 Token 开销。",
+      "适合正在做架构选型、想控制延迟与成本的 Agent 工程团队。"
+    ],
+    "links": [
+      {
+        "label": "WayToAGI",
+        "title": "选择正确的多智能体架构",
+        "url": "https://waytoagi.feishu.cn/wiki/F5oawTaaIi6wWrk1BWncA8xznwc?from=from_copylink",
+        "date": "2026-10-26"
+      }
+    ],
+    "score": 59.7,
+    "score_parts": {
+      "industry": 62,
+      "actionable": 78,
+      "heat": 30,
+      "breadth": 55
+    },
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    },
+    "heat": 30,
+    "summary": "很多开发者一上来就堆砌多智能体架构，很容易造成过度设计。LangChain这篇文章给出一套落地选型思路，建议优先用单智能体，仅在上下文受限、跨团队维护时才转向多智能体。文中还拆解了四类主流模式，对照并行能力、状态流转、Token开销做场景和性能对比。读完你也可以快速匹配业务需求，选对协调方案，在可控延迟与成本下搭建稳定的智能体工作流。"
   },
   {
     "id": "gh-copilot-global-default",
@@ -3362,8 +3514,8 @@
     "score_parts": {
       "industry": 60,
       "actionable": 78,
-      "breadth": 62,
-      "heat": 30
+      "heat": 30,
+      "breadth": 62
     },
     "heat_signals": {
       "reports": 1,
@@ -3396,8 +3548,8 @@
     "score_parts": {
       "industry": 80,
       "actionable": 50,
-      "breadth": 65,
-      "heat": 30
+      "heat": 30,
+      "breadth": 65
     },
     "heat_signals": {
       "reports": 1,
@@ -3430,8 +3582,8 @@
     "score_parts": {
       "industry": 82,
       "actionable": 45,
-      "breadth": 70,
-      "heat": 30
+      "heat": 30,
+      "breadth": 70
     },
     "heat_signals": {
       "reports": 1,
@@ -3464,42 +3616,8 @@
     "score_parts": {
       "industry": 74,
       "actionable": 60,
-      "breadth": 55,
-      "heat": 30
-    },
-    "heat_signals": {
-      "reports": 1,
-      "domains": 1,
-      "x_posts_7d": 0,
-      "x_spike_7d": 0.0
-    },
-    "heat": 30
-  },
-  {
-    "id": "kimi-k31-arena",
-    "title": "Kimi K3.1 现身 Arena 测试：性能直追 GPT-6 Astra，月底或官宣",
-    "url": "https://www.aibase.com/news/31827",
-    "date": "2026-10-23",
-    "meta": "",
-    "bullets": [
-      "国产旗舰 Kimi K3.1 现身 LMSYS Arena 等测试。",
-      "报道称性能直追 GPT-6 Astra，月底有望官宣。",
-      "月之暗面新一代旗舰竞争叙事升温。"
-    ],
-    "links": [
-      {
-        "label": "AIBase",
-        "title": "国产旗舰 Kimi K3.1 现身 Arena 测试：性能直追 GPT-6 Astra，月底有望官宣",
-        "url": "https://www.aibase.com/news/31827",
-        "date": "2026-10-23"
-      }
-    ],
-    "score": 58.9,
-    "score_parts": {
-      "industry": 74,
-      "actionable": 55,
-      "breadth": 68,
-      "heat": 30
+      "heat": 30,
+      "breadth": 55
     },
     "heat_signals": {
       "reports": 1,
@@ -3546,8 +3664,8 @@
     "score_parts": {
       "industry": 80,
       "actionable": 35,
-      "breadth": 66,
-      "heat": 47
+      "heat": 47,
+      "breadth": 66
     },
     "heat_signals": {
       "reports": 3,
@@ -3580,8 +3698,8 @@
     "score_parts": {
       "industry": 70,
       "actionable": 60,
-      "breadth": 65,
-      "heat": 30
+      "heat": 30,
+      "breadth": 65
     },
     "heat_signals": {
       "reports": 1,
@@ -3613,8 +3731,8 @@
     "score_parts": {
       "industry": 76,
       "actionable": 56,
-      "breadth": 52,
-      "heat": 30
+      "heat": 30,
+      "breadth": 52
     },
     "heat_signals": {
       "reports": 1,
@@ -3654,8 +3772,8 @@
     "score_parts": {
       "industry": 58,
       "actionable": 75,
-      "breadth": 55,
-      "heat": 36
+      "heat": 36,
+      "breadth": 55
     },
     "heat_signals": {
       "reports": 2,
@@ -3687,8 +3805,8 @@
     "score_parts": {
       "industry": 73,
       "actionable": 62,
-      "breadth": 45,
-      "heat": 30
+      "heat": 30,
+      "breadth": 45
     },
     "heat_signals": {
       "reports": 1,
@@ -3720,8 +3838,8 @@
     "score_parts": {
       "industry": 68,
       "actionable": 66,
-      "breadth": 52,
-      "heat": 30
+      "heat": 30,
+      "breadth": 52
     },
     "heat_signals": {
       "reports": 1,
@@ -3753,8 +3871,8 @@
     "score_parts": {
       "industry": 75,
       "actionable": 45,
-      "breadth": 80,
-      "heat": 30
+      "heat": 30,
+      "breadth": 80
     },
     "heat_signals": {
       "reports": 1,
@@ -3786,8 +3904,8 @@
     "score_parts": {
       "industry": 75,
       "actionable": 45,
-      "breadth": 80,
-      "heat": 30
+      "heat": 30,
+      "breadth": 80
     },
     "heat_signals": {
       "reports": 1,
@@ -3819,8 +3937,8 @@
     "score_parts": {
       "industry": 75,
       "actionable": 45,
-      "breadth": 80,
-      "heat": 30
+      "heat": 30,
+      "breadth": 80
     },
     "heat_signals": {
       "reports": 1,
@@ -3852,8 +3970,8 @@
     "score_parts": {
       "industry": 75,
       "actionable": 45,
-      "breadth": 80,
-      "heat": 30
+      "heat": 30,
+      "breadth": 80
     },
     "heat_signals": {
       "reports": 1,
@@ -3886,8 +4004,8 @@
     "score_parts": {
       "industry": 75,
       "actionable": 45,
-      "breadth": 80,
-      "heat": 30
+      "heat": 30,
+      "breadth": 80
     },
     "heat_signals": {
       "reports": 1,
@@ -3896,6 +4014,40 @@
       "x_spike_7d": 0.0
     },
     "heat": 30
+  },
+  {
+    "id": "多-agent-协作终极解实测-yc-开源新作-agent-relay让-cla-e72b90",
+    "title": "多 Agent 协作终极解：实测 YC 开源新作 Agent Relay，让 Claude Code 和 Codex 直接对话",
+    "url": "https://waytoagi.feishu.cn/wiki/BNxBwo0O3idr76kDQNBctk00nMh?from=from_copylink",
+    "date": "2026-10-24",
+    "meta": "",
+    "bullets": [
+      "两个 Agent 一起干活，最累的往往是人：写完复制给审查方，改完再贴回去，窗口开得越多，协作越像接力搬砖。",
+      "作者实测了 Agent Relay，展示了如何让 Claude Code 写代码、Codex 直接审查并多轮回传修改意见。",
+      "安装、连接、权限设置和常见报错都配了截图，新手也能跟着跑通。"
+    ],
+    "links": [
+      {
+        "label": "WayToAGI",
+        "title": "多 Agent 协作终极解：实测 YC 开源新作 Agent Relay，让 Claude Code 和 Codex 直接对话",
+        "url": "https://waytoagi.feishu.cn/wiki/BNxBwo0O3idr76kDQNBctk00nMh?from=from_copylink",
+        "date": "2026-10-24"
+      }
+    ],
+    "score": 57.5,
+    "score_parts": {
+      "industry": 60,
+      "actionable": 75,
+      "heat": 30,
+      "breadth": 50
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 7,
+      "x_spike_7d": 0.0
+    }
   },
   {
     "id": "thinking-machines-db-rl",
@@ -3920,8 +4072,8 @@
     "score_parts": {
       "industry": 62,
       "actionable": 72,
-      "breadth": 50,
-      "heat": 30
+      "heat": 30,
+      "breadth": 50
     },
     "heat_signals": {
       "reports": 1,
@@ -3953,8 +4105,8 @@
     "score_parts": {
       "industry": 65,
       "actionable": 62,
-      "breadth": 65,
-      "heat": 30
+      "heat": 30,
+      "breadth": 65
     },
     "heat_signals": {
       "reports": 1,
@@ -3987,8 +4139,8 @@
     "score_parts": {
       "industry": 55,
       "actionable": 80,
-      "breadth": 50,
-      "heat": 30
+      "heat": 30,
+      "breadth": 50
     },
     "heat_signals": {
       "reports": 1,
@@ -4028,8 +4180,8 @@
     "score_parts": {
       "industry": 68,
       "actionable": 55,
-      "breadth": 60,
-      "heat": 36
+      "heat": 36,
+      "breadth": 60
     },
     "heat_signals": {
       "reports": 2,
@@ -4038,6 +4190,40 @@
       "x_spike_7d": 0.0
     },
     "heat": 36
+  },
+  {
+    "id": "ai助理争夺战解析musegrok-bot与instinct背后的产品布局入口生-cee7b5",
+    "title": "AI助理争夺战：解析Muse、Grok Bot与Instinct背后的产品布局、入口生意与盈利难题",
+    "url": "https://waytoagi.feishu.cn/wiki/C6ACwsDTbiksRzkL6g5cN7AFnAh?from=from_copylink",
+    "date": "2026-10-24",
+    "meta": "",
+    "bullets": [
+      "AI 助理扎堆出现，表面上都在帮你订票、卖闲置、整理工作，真正争的是“有事先找谁”的入口。",
+      "作者拆解 了Instinct、Meta Muse 与 Grok Bot 的不同打法：短信联系人、社交生态、数字同事团队。",
+      "没有单纯地从产品功能角度切入，还把长期记忆、云端执行、越权风险、平台封锁和盈利困境讲的很透。"
+    ],
+    "links": [
+      {
+        "label": "WayToAGI",
+        "title": "AI助理争夺战：解析Muse、Grok Bot与Instinct背后的产品布局、入口生意与盈利难题",
+        "url": "https://waytoagi.feishu.cn/wiki/C6ACwsDTbiksRzkL6g5cN7AFnAh?from=from_copylink",
+        "date": "2026-10-24"
+      }
+    ],
+    "score": 56.8,
+    "score_parts": {
+      "industry": 64,
+      "actionable": 60,
+      "heat": 35,
+      "breadth": 62
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 128,
+      "x_spike_7d": 38.0
+    }
   },
   {
     "id": "n8n-dgx-spark",
@@ -4061,8 +4247,8 @@
     "score_parts": {
       "industry": 55,
       "actionable": 80,
-      "breadth": 45,
-      "heat": 30
+      "heat": 30,
+      "breadth": 45
     },
     "heat_signals": {
       "reports": 1,
@@ -4071,6 +4257,39 @@
       "x_spike_7d": 0.0
     },
     "heat": 30
+  },
+  {
+    "id": "minimax-m31-flash",
+    "title": "AI日报：腾讯开放元宝搜索；MiniMax 更新 M3.1Flash；蚂蚁百灵开源 Ming-3.0 语音系列",
+    "url": "https://www.aibase.com/news/31757",
+    "date": "2026-10-20",
+    "meta": "",
+    "bullets": [
+      "AI日报：腾讯开放元宝搜索；MiniMax 更新 M3.1Flash；蚂蚁百灵开源 Ming-3.0 语音系列。",
+      "详见原文链接。"
+    ],
+    "links": [
+      {
+        "label": "AIBase",
+        "title": "AI日报：腾讯开放元宝搜索；MiniMax 更新 M3.1Flash；蚂蚁百灵开源 Ming-3.0 语音系列",
+        "url": "https://www.aibase.com/news/31757",
+        "date": "2026-10-20"
+      }
+    ],
+    "score": 56.5,
+    "score_parts": {
+      "industry": 53,
+      "actionable": 62,
+      "heat": 55,
+      "breadth": 57
+    },
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 5429,
+      "x_spike_7d": 3936.5
+    },
+    "heat": 55
   },
   {
     "id": "item-dca2db5ccf",
@@ -4094,8 +4313,8 @@
     "score_parts": {
       "industry": 65,
       "actionable": 62,
-      "breadth": 57,
-      "heat": 30
+      "heat": 30,
+      "breadth": 57
     },
     "heat_signals": {
       "reports": 1,
@@ -4127,8 +4346,8 @@
     "score_parts": {
       "industry": 65,
       "actionable": 62,
-      "breadth": 57,
-      "heat": 30
+      "heat": 30,
+      "breadth": 57
     },
     "heat_signals": {
       "reports": 1,
@@ -4160,8 +4379,8 @@
     "score_parts": {
       "industry": 65,
       "actionable": 62,
-      "breadth": 57,
-      "heat": 30
+      "heat": 30,
+      "breadth": 57
     },
     "heat_signals": {
       "reports": 1,
@@ -4170,6 +4389,40 @@
       "x_spike_7d": 0.0
     },
     "heat": 30
+  },
+  {
+    "id": "构建-公司智能体-的五个组成部分-853772",
+    "title": "构建 “公司智能体” 的五个组成部分",
+    "url": "https://waytoagi.feishu.cn/wiki/Edv8wODQnisixzkRiqxc0T4Cneh?from=from_copylink",
+    "date": "2026-10-24",
+    "meta": "",
+    "bullets": [
+      "很多团队把 Agent 接进 Slack，就以为大功告成了；真跑进业务后才发现，谁有权限、该记住什么、后台何时自己动起来，往往比模型会不会回答更难。",
+      "LangChain 用市场、工程、内容三类内部 Agent，拆出“公司智能体”的五个关键环节：工作入口、身份权限、两层记忆、安全沙箱和定时触发。",
+      "适合正把 Agent 从 Demo 推向团队协作的开发者和负责人，值得收藏细看。"
+    ],
+    "links": [
+      {
+        "label": "WayToAGI",
+        "title": "构建 “公司智能体” 的五个组成部分",
+        "url": "https://waytoagi.feishu.cn/wiki/Edv8wODQnisixzkRiqxc0T4Cneh?from=from_copylink",
+        "date": "2026-10-24"
+      }
+    ],
+    "score": 56.3,
+    "score_parts": {
+      "industry": 58,
+      "actionable": 72,
+      "heat": 30,
+      "breadth": 55
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 34,
+      "x_spike_7d": 4.0
+    }
   },
   {
     "id": "waytoagi-jev-agent-framework",
@@ -4194,8 +4447,8 @@
     "score_parts": {
       "industry": 58,
       "actionable": 75,
-      "breadth": 45,
-      "heat": 30
+      "heat": 30,
+      "breadth": 45
     },
     "heat_signals": {
       "reports": 1,
@@ -4204,6 +4457,41 @@
       "x_spike_7d": 0.0
     },
     "heat": 30
+  },
+  {
+    "id": "03a9131d42d8",
+    "title": "如何做出好的 Personal Agent 产品：产品、团队与技术框架",
+    "url": "https://waytoagi.feishu.cn/wiki/NJ8swJr4viygJtkiLWnc3G6Hnpb?from=from_copylink",
+    "date": "2026-10-26",
+    "meta": "WayToAGI · 2026-10-26",
+    "bullets": [
+      "不少 Personal Agent 仍是「一排功能 + 一次会话 + 一份长报告」，用户要反复交代背景。",
+      "文章从真实使用体验出发，给出产品、组织与技术上的参考框架。",
+      "适合正在做个人助理 / Agent 产品的创始人与产品经理。"
+    ],
+    "links": [
+      {
+        "label": "WayToAGI",
+        "title": "如何做出好的 Personal Agent产品（一）：产品、团队和技术",
+        "url": "https://waytoagi.feishu.cn/wiki/NJ8swJr4viygJtkiLWnc3G6Hnpb?from=from_copylink",
+        "date": "2026-10-26"
+      }
+    ],
+    "score": 56.2,
+    "score_parts": {
+      "industry": 58,
+      "actionable": 70,
+      "heat": 30,
+      "breadth": 60
+    },
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    },
+    "heat": 30,
+    "summary": "大家都在做 Personal Agent，可不少产品一打开还是一排功能、一次会话、一份长报告。用户得反复交代背景、盯着执行，最后它只是偶尔会打开的工具。本篇文章从真实使用体验出发，给出了一个很值得参考的产品、组织与技术框架。"
   },
   {
     "id": "openai-30b-fundraise-race",
@@ -4228,8 +4516,8 @@
     "score_parts": {
       "industry": 85,
       "actionable": 30,
-      "breadth": 70,
-      "heat": 30
+      "heat": 30,
+      "breadth": 70
     },
     "heat_signals": {
       "reports": 1,
@@ -4262,8 +4550,8 @@
     "score_parts": {
       "industry": 60,
       "actionable": 65,
-      "breadth": 61,
-      "heat": 30
+      "heat": 30,
+      "breadth": 61
     },
     "heat_signals": {
       "reports": 1,
@@ -4296,8 +4584,8 @@
     "score_parts": {
       "industry": 80,
       "actionable": 40,
-      "breadth": 55,
-      "heat": 30
+      "heat": 30,
+      "breadth": 55
     },
     "heat_signals": {
       "reports": 1,
@@ -4330,8 +4618,8 @@
     "score_parts": {
       "industry": 65,
       "actionable": 60,
-      "breadth": 55,
-      "heat": 30
+      "heat": 30,
+      "breadth": 55
     },
     "heat_signals": {
       "reports": 1,
@@ -4363,8 +4651,8 @@
     "score_parts": {
       "industry": 63,
       "actionable": 62,
-      "breadth": 57,
-      "heat": 30
+      "heat": 30,
+      "breadth": 57
     },
     "heat_signals": {
       "reports": 1,
@@ -4397,8 +4685,8 @@
     "score_parts": {
       "industry": 55,
       "actionable": 70,
-      "breadth": 65,
-      "heat": 30
+      "heat": 30,
+      "breadth": 65
     },
     "heat_signals": {
       "reports": 1,
@@ -4430,8 +4718,8 @@
     "score_parts": {
       "industry": 65,
       "actionable": 62,
-      "breadth": 45,
-      "heat": 30
+      "heat": 30,
+      "breadth": 45
     },
     "heat_signals": {
       "reports": 1,
@@ -4463,8 +4751,8 @@
     "score_parts": {
       "industry": 65,
       "actionable": 62,
-      "breadth": 45,
-      "heat": 30
+      "heat": 30,
+      "breadth": 45
     },
     "heat_signals": {
       "reports": 1,
@@ -4496,8 +4784,8 @@
     "score_parts": {
       "industry": 65,
       "actionable": 62,
-      "breadth": 45,
-      "heat": 30
+      "heat": 30,
+      "breadth": 45
     },
     "heat_signals": {
       "reports": 1,
@@ -4530,8 +4818,8 @@
     "score_parts": {
       "industry": 60,
       "actionable": 65,
-      "breadth": 52,
-      "heat": 30
+      "heat": 30,
+      "breadth": 52
     },
     "heat_signals": {
       "reports": 1,
@@ -4563,8 +4851,8 @@
     "score_parts": {
       "industry": 62,
       "actionable": 60,
-      "breadth": 58,
-      "heat": 30
+      "heat": 30,
+      "breadth": 58
     },
     "heat_signals": {
       "reports": 1,
@@ -4573,6 +4861,41 @@
       "x_spike_7d": 0.0
     },
     "heat": 30
+  },
+  {
+    "id": "f3cfffd9c03f",
+    "title": "什么是 Agent “harness”？一篇读懂运行时外壳如何工作",
+    "url": "https://waytoagi.feishu.cn/wiki/UvEkwHtX4i0faCkH0cNcEIaensb?from=from_copylink",
+    "date": "2026-10-26",
+    "meta": "WayToAGI · 2026-10-26",
+    "bullets": [
+      "Harness 是包在模型外的运行时外壳：工具、权限、记忆与循环策略的集合。",
+      "文章梳理 harness 是什么、如何工作，以及它和裸模型调用的差别。",
+      "适合想把 Demo Agent 做成可长期运行系统的开发者。"
+    ],
+    "links": [
+      {
+        "label": "WayToAGI",
+        "title": "什么是 “harness”？",
+        "url": "https://waytoagi.feishu.cn/wiki/UvEkwHtX4i0faCkH0cNcEIaensb?from=from_copylink",
+        "date": "2026-10-26"
+      }
+    ],
+    "score": 54.6,
+    "score_parts": {
+      "industry": 55,
+      "actionable": 72,
+      "heat": 30,
+      "breadth": 50
+    },
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    },
+    "heat": 30,
+    "summary": "读完这篇文章，你应该能掌握关于 harness 是什么以及它们如何工作的一切所需知识。"
   },
   {
     "id": "anthropic-public-interest-fund",
@@ -4597,8 +4920,8 @@
     "score_parts": {
       "industry": 75,
       "actionable": 40,
-      "breadth": 65,
-      "heat": 30
+      "heat": 30,
+      "breadth": 65
     },
     "heat_signals": {
       "reports": 1,
@@ -4631,8 +4954,8 @@
     "score_parts": {
       "industry": 55,
       "actionable": 70,
-      "breadth": 55,
-      "heat": 30
+      "heat": 30,
+      "breadth": 55
     },
     "heat_signals": {
       "reports": 1,
@@ -4665,8 +4988,8 @@
     "score_parts": {
       "industry": 72,
       "actionable": 45,
-      "breadth": 60,
-      "heat": 30
+      "heat": 30,
+      "breadth": 60
     },
     "heat_signals": {
       "reports": 1,
@@ -4699,8 +5022,8 @@
     "score_parts": {
       "industry": 70,
       "actionable": 45,
-      "breadth": 60,
-      "heat": 30
+      "heat": 30,
+      "breadth": 60
     },
     "heat_signals": {
       "reports": 1,
@@ -4732,8 +5055,8 @@
     "score_parts": {
       "industry": 73,
       "actionable": 45,
-      "breadth": 45,
-      "heat": 30
+      "heat": 30,
+      "breadth": 45
     },
     "heat_signals": {
       "reports": 1,
@@ -4766,8 +5089,8 @@
     "score_parts": {
       "industry": 70,
       "actionable": 45,
-      "breadth": 55,
-      "heat": 30
+      "heat": 30,
+      "breadth": 55
     },
     "heat_signals": {
       "reports": 1,
@@ -4776,6 +5099,40 @@
       "x_spike_7d": 0.0
     },
     "heat": 30
+  },
+  {
+    "id": "waytoagi-digest-grok-vllm-kimi",
+    "title": "【AI值得看】Grok Bot 用法与 vLLM 加速 Kimi K3 解码",
+    "url": "https://waytoagi.feishu.cn/wiki/WTbAwk4AyibhS2kPAiocNrkXnid?from=from_copylink",
+    "date": "2026-10-19",
+    "meta": "WayToAGI",
+    "bullets": [
+      "WayToAGI 周历向汇编：Grok Bot 使用方法与 vLLM 优化。",
+      "提到 vLLM 使 Kimi K3 解码提速约 1.5–2 倍。",
+      "综合导读，非单一官方公告。"
+    ],
+    "links": [
+      {
+        "label": "WayToAGI",
+        "title": "【AI值得看】Grok Bot怎么用？｜vLLM 让 Kimi K3 解码快 1.5–2 倍",
+        "url": "https://waytoagi.feishu.cn/wiki/WTbAwk4AyibhS2kPAiocNrkXnid?from=from_copylink",
+        "date": "2026-10-19"
+      }
+    ],
+    "score": 52.5,
+    "score_parts": {
+      "industry": 50,
+      "actionable": 55,
+      "heat": 60,
+      "breadth": 40
+    },
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 8889,
+      "x_spike_7d": 0.0
+    },
+    "heat": 60
   },
   {
     "id": "openai-nask-poland",
@@ -4800,41 +5157,8 @@
     "score_parts": {
       "industry": 60,
       "actionable": 55,
-      "breadth": 55,
-      "heat": 30
-    },
-    "heat_signals": {
-      "reports": 1,
-      "domains": 1,
-      "x_posts_7d": 0,
-      "x_spike_7d": 0.0
-    },
-    "heat": 30
-  },
-  {
-    "id": "anthropic-指南-何时把子智能体合并进主-agent-循环-88bb73",
-    "title": "Anthropic 指南：何时把子智能体合并进主 Agent 循环",
-    "url": "https://claude.com/blog/building-agents-when-to-fold-subagents-into-your-main-agent-loop",
-    "date": "2026-10-22",
-    "meta": "",
-    "bullets": [
-      "Anthropic Applied AI 团队发布指南，讲解何时把 orchestrator 下的路由器、规划器和领域子智能体合并进单个主 A…",
-      "文中对比显示，带 skills 的单智能体在质量上常优于一提示全包和子智能体设计，且成本和延迟更低，一家客户改用单循环后运行时间约快 2x。"
-    ],
-    "links": [
-      {
-        "label": "AIHot",
-        "title": "Anthropic 指南：何时把子智能体合并进主 Agent 循环",
-        "url": "https://claude.com/blog/building-agents-when-to-fold-subagents-into-your-main-agent-loop",
-        "date": "2026-10-22"
-      }
-    ],
-    "score": 51.8,
-    "score_parts": {
-      "industry": 68,
-      "actionable": 48,
-      "breadth": 42,
-      "heat": 30
+      "heat": 30,
+      "breadth": 55
     },
     "heat_signals": {
       "reports": 1,
@@ -4867,8 +5191,8 @@
     "score_parts": {
       "industry": 62,
       "actionable": 56,
-      "breadth": 42,
-      "heat": 30
+      "heat": 30,
+      "breadth": 42
     },
     "heat_signals": {
       "reports": 1,
@@ -4877,6 +5201,40 @@
       "x_spike_7d": 0.0
     },
     "heat": 30
+  },
+  {
+    "id": "minimax-code-桌面端推出-mini-app-长运行应用功能",
+    "title": "MiniMax Code 桌面端推出 Mini App 长运行应用功能",
+    "url": "https://www.minimax.io/blog/minimax-code-mini-app-1792650729",
+    "date": "2026-10-22",
+    "meta": "",
+    "bullets": [
+      "MiniMax Code 桌面端推出 Mini App 长运行应用功能。",
+      "来源：AIHot；详见原文。",
+      "产品/模型发布将直接影响开发者选型与竞品节奏。"
+    ],
+    "links": [
+      {
+        "label": "AIHot",
+        "title": "MiniMax Code 桌面端推出 Mini App 长运行应用功能",
+        "url": "https://www.minimax.io/blog/minimax-code-mini-app-1792650729",
+        "date": "2026-10-22"
+      }
+    ],
+    "score": 51.6,
+    "score_parts": {
+      "industry": 52,
+      "actionable": 50,
+      "heat": 55,
+      "breadth": 48
+    },
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 5429,
+      "x_spike_7d": 3936.5
+    },
+    "heat": 55
   },
   {
     "id": "lovart-2-design",
@@ -4901,41 +5259,8 @@
     "score_parts": {
       "industry": 50,
       "actionable": 70,
-      "breadth": 45,
-      "heat": 30
-    },
-    "heat_signals": {
-      "reports": 1,
-      "domains": 1,
-      "x_posts_7d": 0,
-      "x_spike_7d": 0.0
-    },
-    "heat": 30
-  },
-  {
-    "id": "minimax-m31-flash",
-    "title": "AI日报：腾讯开放元宝搜索；MiniMax 更新 M3.1Flash；蚂蚁百灵开源 Ming-3.0 语音系列",
-    "url": "https://www.aibase.com/news/31757",
-    "date": "2026-10-20",
-    "meta": "",
-    "bullets": [
-      "AI日报：腾讯开放元宝搜索；MiniMax 更新 M3.1Flash；蚂蚁百灵开源 Ming-3.0 语音系列。",
-      "详见原文链接。"
-    ],
-    "links": [
-      {
-        "label": "AIBase",
-        "title": "AI日报：腾讯开放元宝搜索；MiniMax 更新 M3.1Flash；蚂蚁百灵开源 Ming-3.0 语音系列",
-        "url": "https://www.aibase.com/news/31757",
-        "date": "2026-10-20"
-      }
-    ],
-    "score": 51.5,
-    "score_parts": {
-      "industry": 53,
-      "actionable": 62,
-      "breadth": 57,
-      "heat": 30
+      "heat": 30,
+      "breadth": 45
     },
     "heat_signals": {
       "reports": 1,
@@ -4967,8 +5292,8 @@
     "score_parts": {
       "industry": 55,
       "actionable": 62,
-      "breadth": 45,
-      "heat": 30
+      "heat": 30,
+      "breadth": 45
     },
     "heat_signals": {
       "reports": 1,
@@ -5000,8 +5325,8 @@
     "score_parts": {
       "industry": 55,
       "actionable": 62,
-      "breadth": 45,
-      "heat": 30
+      "heat": 30,
+      "breadth": 45
     },
     "heat_signals": {
       "reports": 1,
@@ -5033,8 +5358,8 @@
     "score_parts": {
       "industry": 50,
       "actionable": 70,
-      "breadth": 40,
-      "heat": 30
+      "heat": 30,
+      "breadth": 40
     },
     "heat_signals": {
       "reports": 1,
@@ -5066,8 +5391,8 @@
     "score_parts": {
       "industry": 66,
       "actionable": 48,
-      "breadth": 42,
-      "heat": 30
+      "heat": 30,
+      "breadth": 42
     },
     "heat_signals": {
       "reports": 1,
@@ -5099,8 +5424,8 @@
     "score_parts": {
       "industry": 72,
       "actionable": 38,
-      "breadth": 42,
-      "heat": 30
+      "heat": 30,
+      "breadth": 42
     },
     "heat_signals": {
       "reports": 1,
@@ -5133,8 +5458,8 @@
     "score_parts": {
       "industry": 62,
       "actionable": 50,
-      "breadth": 45,
-      "heat": 30
+      "heat": 30,
+      "breadth": 45
     },
     "heat_signals": {
       "reports": 1,
@@ -5166,8 +5491,8 @@
     "score_parts": {
       "industry": 48,
       "actionable": 70,
-      "breadth": 40,
-      "heat": 30
+      "heat": 30,
+      "breadth": 40
     },
     "heat_signals": {
       "reports": 1,
@@ -5199,8 +5524,8 @@
     "score_parts": {
       "industry": 68,
       "actionable": 38,
-      "breadth": 54,
-      "heat": 30
+      "heat": 30,
+      "breadth": 54
     },
     "heat_signals": {
       "reports": 1,
@@ -5232,8 +5557,8 @@
     "score_parts": {
       "industry": 68,
       "actionable": 38,
-      "breadth": 52,
-      "heat": 30
+      "heat": 30,
+      "breadth": 52
     },
     "heat_signals": {
       "reports": 1,
@@ -5266,8 +5591,8 @@
     "score_parts": {
       "industry": 45,
       "actionable": 72,
-      "breadth": 40,
-      "heat": 30
+      "heat": 30,
+      "breadth": 40
     },
     "heat_signals": {
       "reports": 1,
@@ -5307,8 +5632,8 @@
     "score_parts": {
       "industry": 62,
       "actionable": 40,
-      "breadth": 55,
-      "heat": 36
+      "heat": 36,
+      "breadth": 55
     },
     "heat_signals": {
       "reports": 2,
@@ -5341,8 +5666,8 @@
     "score_parts": {
       "industry": 45,
       "actionable": 70,
-      "breadth": 40,
-      "heat": 30
+      "heat": 30,
+      "breadth": 40
     },
     "heat_signals": {
       "reports": 1,
@@ -5351,6 +5676,41 @@
       "x_spike_7d": 0.0
     },
     "heat": 30
+  },
+  {
+    "id": "1ed7b0a5b845",
+    "title": "10.19—10.25 本周精选 AI 论文：Harness、工具选择与长任务成本",
+    "url": "https://waytoagi.feishu.cn/wiki/Xez2wg3xGi5NxOkKO0ccCNdmnvf?from=from_copylink",
+    "date": "2026-10-26",
+    "meta": "WayToAGI · 2026-10-26",
+    "bullets": [
+      "本周论文把重点放在 Agent 分工、控成本、管记忆与接工具，而不只是模型榜单。",
+      "覆盖专属 Harness、小模型接管工具选择、KV 缓存管理，以及自我改进遗忘等提醒。",
+      "适合跟进 Agent 系统研究的工程师与研究员。"
+    ],
+    "links": [
+      {
+        "label": "WayToAGI",
+        "title": "10.19—10.25｜本周精选 AI 论文",
+        "url": "https://waytoagi.feishu.cn/wiki/Xez2wg3xGi5NxOkKO0ccCNdmnvf?from=from_copylink",
+        "date": "2026-10-26"
+      }
+    ],
+    "score": 49.0,
+    "score_parts": {
+      "industry": 50,
+      "actionable": 55,
+      "heat": 30,
+      "breadth": 65
+    },
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    },
+    "heat": 30,
+    "summary": "AI Agent 的进步，已经不只能单看模型榜单了：同一个模型怎么分工、控成本、管记忆、接工具，正在把“能演示”转向“能长期跑”。本周论文精选把十个方向串了起来：给不同任务配专属 Harness，让小模型接管高频工具选择，直接管理 KV 缓存压低长任务成本，从经验中进化操作界面；也提醒大家，自我改进会遗忘，记忆系统未必更省钱。"
   },
   {
     "id": "ai-搜索是怎么做出来的-30e6b5",
@@ -5375,8 +5735,8 @@
     "score_parts": {
       "industry": 50,
       "actionable": 60,
-      "breadth": 48,
-      "heat": 30
+      "heat": 30,
+      "breadth": 48
     },
     "heat_signals": {
       "reports": 1,
@@ -5409,8 +5769,8 @@
     "score_parts": {
       "industry": 58,
       "actionable": 50,
-      "breadth": 45,
-      "heat": 30
+      "heat": 30,
+      "breadth": 45
     },
     "heat_signals": {
       "reports": 1,
@@ -5442,8 +5802,8 @@
     "score_parts": {
       "industry": 55,
       "actionable": 50,
-      "breadth": 57,
-      "heat": 30
+      "heat": 30,
+      "breadth": 57
     },
     "heat_signals": {
       "reports": 1,
@@ -5475,8 +5835,8 @@
     "score_parts": {
       "industry": 55,
       "actionable": 50,
-      "breadth": 57,
-      "heat": 30
+      "heat": 30,
+      "breadth": 57
     },
     "heat_signals": {
       "reports": 1,
@@ -5508,8 +5868,8 @@
     "score_parts": {
       "industry": 55,
       "actionable": 50,
-      "breadth": 57,
-      "heat": 30
+      "heat": 30,
+      "breadth": 57
     },
     "heat_signals": {
       "reports": 1,
@@ -5541,8 +5901,8 @@
     "score_parts": {
       "industry": 55,
       "actionable": 50,
-      "breadth": 57,
-      "heat": 30
+      "heat": 30,
+      "breadth": 57
     },
     "heat_signals": {
       "reports": 1,
@@ -5574,8 +5934,8 @@
     "score_parts": {
       "industry": 56,
       "actionable": 50,
-      "breadth": 48,
-      "heat": 30
+      "heat": 30,
+      "breadth": 48
     },
     "heat_signals": {
       "reports": 1,
@@ -5607,8 +5967,8 @@
     "score_parts": {
       "industry": 56,
       "actionable": 50,
-      "breadth": 48,
-      "heat": 30
+      "heat": 30,
+      "breadth": 48
     },
     "heat_signals": {
       "reports": 1,
@@ -5641,8 +6001,8 @@
     "score_parts": {
       "industry": 55,
       "actionable": 50,
-      "breadth": 50,
-      "heat": 30
+      "heat": 30,
+      "breadth": 50
     },
     "heat_signals": {
       "reports": 1,
@@ -5675,8 +6035,8 @@
     "score_parts": {
       "industry": 55,
       "actionable": 50,
-      "breadth": 50,
-      "heat": 30
+      "heat": 30,
+      "breadth": 50
     },
     "heat_signals": {
       "reports": 1,
@@ -5708,8 +6068,8 @@
     "score_parts": {
       "industry": 55,
       "actionable": 50,
-      "breadth": 50,
-      "heat": 30
+      "heat": 30,
+      "breadth": 50
     },
     "heat_signals": {
       "reports": 1,
@@ -5742,8 +6102,8 @@
     "score_parts": {
       "industry": 55,
       "actionable": 50,
-      "breadth": 50,
-      "heat": 30
+      "heat": 30,
+      "breadth": 50
     },
     "heat_signals": {
       "reports": 1,
@@ -5776,8 +6136,8 @@
     "score_parts": {
       "industry": 55,
       "actionable": 50,
-      "breadth": 50,
-      "heat": 30
+      "heat": 30,
+      "breadth": 50
     },
     "heat_signals": {
       "reports": 1,
@@ -5810,8 +6170,8 @@
     "score_parts": {
       "industry": 55,
       "actionable": 50,
-      "breadth": 50,
-      "heat": 30
+      "heat": 30,
+      "breadth": 50
     },
     "heat_signals": {
       "reports": 1,
@@ -5844,8 +6204,8 @@
     "score_parts": {
       "industry": 55,
       "actionable": 50,
-      "breadth": 50,
-      "heat": 30
+      "heat": 30,
+      "breadth": 50
     },
     "heat_signals": {
       "reports": 1,
@@ -5878,8 +6238,8 @@
     "score_parts": {
       "industry": 55,
       "actionable": 50,
-      "breadth": 50,
-      "heat": 30
+      "heat": 30,
+      "breadth": 50
     },
     "heat_signals": {
       "reports": 1,
@@ -5912,8 +6272,8 @@
     "score_parts": {
       "industry": 54,
       "actionable": 50,
-      "breadth": 54,
-      "heat": 30
+      "heat": 30,
+      "breadth": 54
     },
     "heat_signals": {
       "reports": 1,
@@ -5946,8 +6306,8 @@
     "score_parts": {
       "industry": 66,
       "actionable": 38,
-      "breadth": 42,
-      "heat": 30
+      "heat": 30,
+      "breadth": 42
     },
     "heat_signals": {
       "reports": 1,
@@ -5979,8 +6339,8 @@
     "score_parts": {
       "industry": 55,
       "actionable": 50,
-      "breadth": 50,
-      "heat": 30
+      "heat": 30,
+      "breadth": 50
     },
     "heat_signals": {
       "reports": 1,
@@ -6013,8 +6373,8 @@
     "score_parts": {
       "industry": 55,
       "actionable": 50,
-      "breadth": 50,
-      "heat": 30
+      "heat": 30,
+      "breadth": 50
     },
     "heat_signals": {
       "reports": 1,
@@ -6047,8 +6407,8 @@
     "score_parts": {
       "industry": 55,
       "actionable": 50,
-      "breadth": 50,
-      "heat": 30
+      "heat": 30,
+      "breadth": 50
     },
     "heat_signals": {
       "reports": 1,
@@ -6081,8 +6441,8 @@
     "score_parts": {
       "industry": 55,
       "actionable": 50,
-      "breadth": 50,
-      "heat": 30
+      "heat": 30,
+      "breadth": 50
     },
     "heat_signals": {
       "reports": 1,
@@ -6115,8 +6475,8 @@
     "score_parts": {
       "industry": 55,
       "actionable": 50,
-      "breadth": 50,
-      "heat": 30
+      "heat": 30,
+      "breadth": 50
     },
     "heat_signals": {
       "reports": 1,
@@ -6149,8 +6509,8 @@
     "score_parts": {
       "industry": 55,
       "actionable": 50,
-      "breadth": 50,
-      "heat": 30
+      "heat": 30,
+      "breadth": 50
     },
     "heat_signals": {
       "reports": 1,
@@ -6183,8 +6543,8 @@
     "score_parts": {
       "industry": 55,
       "actionable": 50,
-      "breadth": 50,
-      "heat": 30
+      "heat": 30,
+      "breadth": 50
     },
     "heat_signals": {
       "reports": 1,
@@ -6217,8 +6577,8 @@
     "score_parts": {
       "industry": 55,
       "actionable": 50,
-      "breadth": 50,
-      "heat": 30
+      "heat": 30,
+      "breadth": 50
     },
     "heat_signals": {
       "reports": 1,
@@ -6251,8 +6611,8 @@
     "score_parts": {
       "industry": 55,
       "actionable": 50,
-      "breadth": 50,
-      "heat": 30
+      "heat": 30,
+      "breadth": 50
     },
     "heat_signals": {
       "reports": 1,
@@ -6285,8 +6645,8 @@
     "score_parts": {
       "industry": 55,
       "actionable": 50,
-      "breadth": 50,
-      "heat": 30
+      "heat": 30,
+      "breadth": 50
     },
     "heat_signals": {
       "reports": 1,
@@ -6319,8 +6679,8 @@
     "score_parts": {
       "industry": 55,
       "actionable": 50,
-      "breadth": 50,
-      "heat": 30
+      "heat": 30,
+      "breadth": 50
     },
     "heat_signals": {
       "reports": 1,
@@ -6353,8 +6713,8 @@
     "score_parts": {
       "industry": 55,
       "actionable": 50,
-      "breadth": 50,
-      "heat": 30
+      "heat": 30,
+      "breadth": 50
     },
     "heat_signals": {
       "reports": 1,
@@ -6387,8 +6747,8 @@
     "score_parts": {
       "industry": 55,
       "actionable": 50,
-      "breadth": 50,
-      "heat": 30
+      "heat": 30,
+      "breadth": 50
     },
     "heat_signals": {
       "reports": 1,
@@ -6421,8 +6781,8 @@
     "score_parts": {
       "industry": 55,
       "actionable": 50,
-      "breadth": 50,
-      "heat": 30
+      "heat": 30,
+      "breadth": 50
     },
     "heat_signals": {
       "reports": 1,
@@ -6455,8 +6815,8 @@
     "score_parts": {
       "industry": 55,
       "actionable": 50,
-      "breadth": 50,
-      "heat": 30
+      "heat": 30,
+      "breadth": 50
     },
     "heat_signals": {
       "reports": 1,
@@ -6489,8 +6849,8 @@
     "score_parts": {
       "industry": 55,
       "actionable": 50,
-      "breadth": 50,
-      "heat": 30
+      "heat": 30,
+      "breadth": 50
     },
     "heat_signals": {
       "reports": 1,
@@ -6523,8 +6883,8 @@
     "score_parts": {
       "industry": 55,
       "actionable": 50,
-      "breadth": 50,
-      "heat": 30
+      "heat": 30,
+      "breadth": 50
     },
     "heat_signals": {
       "reports": 1,
@@ -6557,8 +6917,8 @@
     "score_parts": {
       "industry": 55,
       "actionable": 50,
-      "breadth": 50,
-      "heat": 30
+      "heat": 30,
+      "breadth": 50
     },
     "heat_signals": {
       "reports": 1,
@@ -6591,8 +6951,8 @@
     "score_parts": {
       "industry": 55,
       "actionable": 50,
-      "breadth": 50,
-      "heat": 30
+      "heat": 30,
+      "breadth": 50
     },
     "heat_signals": {
       "reports": 1,
@@ -6625,8 +6985,8 @@
     "score_parts": {
       "industry": 55,
       "actionable": 50,
-      "breadth": 50,
-      "heat": 30
+      "heat": 30,
+      "breadth": 50
     },
     "heat_signals": {
       "reports": 1,
@@ -6659,8 +7019,8 @@
     "score_parts": {
       "industry": 55,
       "actionable": 50,
-      "breadth": 50,
-      "heat": 30
+      "heat": 30,
+      "breadth": 50
     },
     "heat_signals": {
       "reports": 1,
@@ -6693,8 +7053,8 @@
     "score_parts": {
       "industry": 55,
       "actionable": 50,
-      "breadth": 50,
-      "heat": 30
+      "heat": 30,
+      "breadth": 50
     },
     "heat_signals": {
       "reports": 1,
@@ -6727,8 +7087,8 @@
     "score_parts": {
       "industry": 55,
       "actionable": 50,
-      "breadth": 50,
-      "heat": 30
+      "heat": 30,
+      "breadth": 50
     },
     "heat_signals": {
       "reports": 1,
@@ -6760,8 +7120,8 @@
     "score_parts": {
       "industry": 55,
       "actionable": 50,
-      "breadth": 50,
-      "heat": 30
+      "heat": 30,
+      "breadth": 50
     },
     "heat": 30,
     "heat_signals": {
@@ -6793,8 +7153,8 @@
     "score_parts": {
       "industry": 56,
       "actionable": 46,
-      "breadth": 54,
-      "heat": 30
+      "heat": 30,
+      "breadth": 54
     },
     "heat_signals": {
       "reports": 1,
@@ -6826,8 +7186,8 @@
     "score_parts": {
       "industry": 55,
       "actionable": 50,
-      "breadth": 45,
-      "heat": 30
+      "heat": 30,
+      "breadth": 45
     },
     "heat_signals": {
       "reports": 1,
@@ -6859,8 +7219,8 @@
     "score_parts": {
       "industry": 55,
       "actionable": 50,
-      "breadth": 45,
-      "heat": 30
+      "heat": 30,
+      "breadth": 45
     },
     "heat_signals": {
       "reports": 1,
@@ -6892,8 +7252,8 @@
     "score_parts": {
       "industry": 55,
       "actionable": 50,
-      "breadth": 45,
-      "heat": 30
+      "heat": 30,
+      "breadth": 45
     },
     "heat_signals": {
       "reports": 1,
@@ -6925,8 +7285,8 @@
     "score_parts": {
       "industry": 55,
       "actionable": 50,
-      "breadth": 45,
-      "heat": 30
+      "heat": 30,
+      "breadth": 45
     },
     "heat_signals": {
       "reports": 1,
@@ -6958,8 +7318,8 @@
     "score_parts": {
       "industry": 55,
       "actionable": 50,
-      "breadth": 45,
-      "heat": 30
+      "heat": 30,
+      "breadth": 45
     },
     "heat_signals": {
       "reports": 1,
@@ -6991,8 +7351,8 @@
     "score_parts": {
       "industry": 55,
       "actionable": 50,
-      "breadth": 45,
-      "heat": 30
+      "heat": 30,
+      "breadth": 45
     },
     "heat_signals": {
       "reports": 1,
@@ -7024,8 +7384,8 @@
     "score_parts": {
       "industry": 55,
       "actionable": 50,
-      "breadth": 45,
-      "heat": 30
+      "heat": 30,
+      "breadth": 45
     },
     "heat_signals": {
       "reports": 1,
@@ -7057,8 +7417,8 @@
     "score_parts": {
       "industry": 55,
       "actionable": 50,
-      "breadth": 45,
-      "heat": 30
+      "heat": 30,
+      "breadth": 45
     },
     "heat_signals": {
       "reports": 1,
@@ -7090,8 +7450,8 @@
     "score_parts": {
       "industry": 55,
       "actionable": 50,
-      "breadth": 45,
-      "heat": 30
+      "heat": 30,
+      "breadth": 45
     },
     "heat_signals": {
       "reports": 1,
@@ -7124,8 +7484,8 @@
     "score_parts": {
       "industry": 70,
       "actionable": 25,
-      "breadth": 60,
-      "heat": 30
+      "heat": 30,
+      "breadth": 60
     },
     "heat_signals": {
       "reports": 1,
@@ -7157,8 +7517,8 @@
     "score_parts": {
       "industry": 62,
       "actionable": 38,
-      "breadth": 52,
-      "heat": 30
+      "heat": 30,
+      "breadth": 52
     },
     "heat_signals": {
       "reports": 1,
@@ -7191,8 +7551,8 @@
     "score_parts": {
       "industry": 62,
       "actionable": 38,
-      "breadth": 52,
-      "heat": 30
+      "heat": 30,
+      "breadth": 52
     },
     "heat_signals": {
       "reports": 1,
@@ -7225,8 +7585,8 @@
     "score_parts": {
       "industry": 52,
       "actionable": 55,
-      "breadth": 40,
-      "heat": 30
+      "heat": 30,
+      "breadth": 40
     },
     "heat_signals": {
       "reports": 1,
@@ -7258,8 +7618,8 @@
     "score_parts": {
       "industry": 64,
       "actionable": 38,
-      "breadth": 42,
-      "heat": 30
+      "heat": 30,
+      "breadth": 42
     },
     "heat_signals": {
       "reports": 1,
@@ -7291,8 +7651,8 @@
     "score_parts": {
       "industry": 64,
       "actionable": 38,
-      "breadth": 42,
-      "heat": 30
+      "heat": 30,
+      "breadth": 42
     },
     "heat_signals": {
       "reports": 1,
@@ -7324,8 +7684,8 @@
     "score_parts": {
       "industry": 60,
       "actionable": 40,
-      "breadth": 50,
-      "heat": 30
+      "heat": 30,
+      "breadth": 50
     },
     "heat_signals": {
       "reports": 1,
@@ -7357,8 +7717,8 @@
     "score_parts": {
       "industry": 50,
       "actionable": 55,
-      "breadth": 45,
-      "heat": 30
+      "heat": 30,
+      "breadth": 45
     },
     "heat_signals": {
       "reports": 1,
@@ -7391,8 +7751,8 @@
     "score_parts": {
       "industry": 60,
       "actionable": 35,
-      "breadth": 65,
-      "heat": 30
+      "heat": 30,
+      "breadth": 65
     },
     "heat_signals": {
       "reports": 1,
@@ -7425,8 +7785,8 @@
     "score_parts": {
       "industry": 65,
       "actionable": 30,
-      "breadth": 60,
-      "heat": 30
+      "heat": 30,
+      "breadth": 60
     },
     "heat_signals": {
       "reports": 1,
@@ -7458,8 +7818,8 @@
     "score_parts": {
       "industry": 50,
       "actionable": 55,
-      "breadth": 45,
-      "heat": 30
+      "heat": 30,
+      "breadth": 45
     },
     "heat_signals": {
       "reports": 1,
@@ -7491,8 +7851,8 @@
     "score_parts": {
       "industry": 50,
       "actionable": 55,
-      "breadth": 45,
-      "heat": 30
+      "heat": 30,
+      "breadth": 45
     },
     "heat_signals": {
       "reports": 1,
@@ -7524,8 +7884,8 @@
     "score_parts": {
       "industry": 54,
       "actionable": 50,
-      "breadth": 42,
-      "heat": 30
+      "heat": 30,
+      "breadth": 42
     },
     "heat_signals": {
       "reports": 1,
@@ -7557,8 +7917,8 @@
     "score_parts": {
       "industry": 54,
       "actionable": 50,
-      "breadth": 42,
-      "heat": 30
+      "heat": 30,
+      "breadth": 42
     },
     "heat_signals": {
       "reports": 1,
@@ -7590,8 +7950,8 @@
     "score_parts": {
       "industry": 54,
       "actionable": 50,
-      "breadth": 42,
-      "heat": 30
+      "heat": 30,
+      "breadth": 42
     },
     "heat_signals": {
       "reports": 1,
@@ -7624,8 +7984,8 @@
     "score_parts": {
       "industry": 52,
       "actionable": 50,
-      "breadth": 48,
-      "heat": 30
+      "heat": 30,
+      "breadth": 48
     },
     "heat_signals": {
       "reports": 1,
@@ -7658,8 +8018,8 @@
     "score_parts": {
       "industry": 52,
       "actionable": 50,
-      "breadth": 48,
-      "heat": 30
+      "heat": 30,
+      "breadth": 48
     },
     "heat_signals": {
       "reports": 1,
@@ -7692,8 +8052,8 @@
     "score_parts": {
       "industry": 52,
       "actionable": 50,
-      "breadth": 48,
-      "heat": 30
+      "heat": 30,
+      "breadth": 48
     },
     "heat_signals": {
       "reports": 1,
@@ -7726,8 +8086,8 @@
     "score_parts": {
       "industry": 52,
       "actionable": 50,
-      "breadth": 48,
-      "heat": 30
+      "heat": 30,
+      "breadth": 48
     },
     "heat_signals": {
       "reports": 1,
@@ -7760,42 +8120,8 @@
     "score_parts": {
       "industry": 52,
       "actionable": 50,
-      "breadth": 48,
-      "heat": 30
-    },
-    "heat_signals": {
-      "reports": 1,
-      "domains": 1,
-      "x_posts_7d": 0,
-      "x_spike_7d": 0.0
-    },
-    "heat": 30
-  },
-  {
-    "id": "minimax-code-桌面端推出-mini-app-长运行应用功能",
-    "title": "MiniMax Code 桌面端推出 Mini App 长运行应用功能",
-    "url": "https://www.minimax.io/blog/minimax-code-mini-app-1792650729",
-    "date": "2026-10-22",
-    "meta": "",
-    "bullets": [
-      "MiniMax Code 桌面端推出 Mini App 长运行应用功能。",
-      "来源：AIHot；详见原文。",
-      "产品/模型发布将直接影响开发者选型与竞品节奏。"
-    ],
-    "links": [
-      {
-        "label": "AIHot",
-        "title": "MiniMax Code 桌面端推出 Mini App 长运行应用功能",
-        "url": "https://www.minimax.io/blog/minimax-code-mini-app-1792650729",
-        "date": "2026-10-22"
-      }
-    ],
-    "score": 46.6,
-    "score_parts": {
-      "industry": 52,
-      "actionable": 50,
-      "breadth": 48,
-      "heat": 30
+      "heat": 30,
+      "breadth": 48
     },
     "heat_signals": {
       "reports": 1,
@@ -7828,8 +8154,8 @@
     "score_parts": {
       "industry": 52,
       "actionable": 50,
-      "breadth": 48,
-      "heat": 30
+      "heat": 30,
+      "breadth": 48
     },
     "heat_signals": {
       "reports": 1,
@@ -7862,8 +8188,8 @@
     "score_parts": {
       "industry": 52,
       "actionable": 50,
-      "breadth": 48,
-      "heat": 30
+      "heat": 30,
+      "breadth": 48
     },
     "heat_signals": {
       "reports": 1,
@@ -7896,42 +8222,8 @@
     "score_parts": {
       "industry": 52,
       "actionable": 50,
-      "breadth": 48,
-      "heat": 30
-    },
-    "heat_signals": {
-      "reports": 1,
-      "domains": 1,
-      "x_posts_7d": 0,
-      "x_spike_7d": 0.0
-    },
-    "heat": 30
-  },
-  {
-    "id": "waytoagi-digest-grok-vllm-kimi",
-    "title": "【AI值得看】Grok Bot 用法与 vLLM 加速 Kimi K3 解码",
-    "url": "https://waytoagi.feishu.cn/wiki/WTbAwk4AyibhS2kPAiocNrkXnid?from=from_copylink",
-    "date": "2026-10-19",
-    "meta": "WayToAGI",
-    "bullets": [
-      "WayToAGI 周历向汇编：Grok Bot 使用方法与 vLLM 优化。",
-      "提到 vLLM 使 Kimi K3 解码提速约 1.5–2 倍。",
-      "综合导读，非单一官方公告。"
-    ],
-    "links": [
-      {
-        "label": "WayToAGI",
-        "title": "【AI值得看】Grok Bot怎么用？｜vLLM 让 Kimi K3 解码快 1.5–2 倍",
-        "url": "https://waytoagi.feishu.cn/wiki/WTbAwk4AyibhS2kPAiocNrkXnid?from=from_copylink",
-        "date": "2026-10-19"
-      }
-    ],
-    "score": 46.5,
-    "score_parts": {
-      "industry": 50,
-      "actionable": 55,
-      "breadth": 40,
-      "heat": 30
+      "heat": 30,
+      "breadth": 48
     },
     "heat_signals": {
       "reports": 1,
@@ -7963,8 +8255,8 @@
     "score_parts": {
       "industry": 62,
       "actionable": 38,
-      "breadth": 42,
-      "heat": 30
+      "heat": 30,
+      "breadth": 42
     },
     "heat_signals": {
       "reports": 1,
@@ -7996,8 +8288,8 @@
     "score_parts": {
       "industry": 62,
       "actionable": 38,
-      "breadth": 42,
-      "heat": 30
+      "heat": 30,
+      "breadth": 42
     },
     "heat_signals": {
       "reports": 1,
@@ -8029,8 +8321,8 @@
     "score_parts": {
       "industry": 50,
       "actionable": 54,
-      "breadth": 42,
-      "heat": 30
+      "heat": 30,
+      "breadth": 42
     },
     "heat_signals": {
       "reports": 1,
@@ -8063,8 +8355,8 @@
     "score_parts": {
       "industry": 54,
       "actionable": 48,
-      "breadth": 42,
-      "heat": 30
+      "heat": 30,
+      "breadth": 42
     },
     "heat_signals": {
       "reports": 1,
@@ -8096,8 +8388,8 @@
     "score_parts": {
       "industry": 56,
       "actionable": 38,
-      "breadth": 60,
-      "heat": 30
+      "heat": 30,
+      "breadth": 60
     },
     "heat_signals": {
       "reports": 1,
@@ -8130,8 +8422,8 @@
     "score_parts": {
       "industry": 48,
       "actionable": 55,
-      "breadth": 40,
-      "heat": 30
+      "heat": 30,
+      "breadth": 40
     },
     "heat_signals": {
       "reports": 1,
@@ -8164,8 +8456,8 @@
     "score_parts": {
       "industry": 55,
       "actionable": 45,
-      "breadth": 40,
-      "heat": 30
+      "heat": 30,
+      "breadth": 40
     },
     "heat_signals": {
       "reports": 1,
@@ -8198,8 +8490,8 @@
     "score_parts": {
       "industry": 65,
       "actionable": 25,
-      "breadth": 60,
-      "heat": 30
+      "heat": 30,
+      "breadth": 60
     },
     "heat_signals": {
       "reports": 1,
@@ -8232,8 +8524,8 @@
     "score_parts": {
       "industry": 50,
       "actionable": 48,
-      "breadth": 50,
-      "heat": 30
+      "heat": 30,
+      "breadth": 50
     },
     "heat_signals": {
       "reports": 1,
@@ -8265,8 +8557,8 @@
     "score_parts": {
       "industry": 58,
       "actionable": 35,
-      "breadth": 55,
-      "heat": 30
+      "heat": 30,
+      "breadth": 55
     },
     "heat_signals": {
       "reports": 1,
@@ -8298,8 +8590,8 @@
     "score_parts": {
       "industry": 56,
       "actionable": 38,
-      "breadth": 52,
-      "heat": 30
+      "heat": 30,
+      "breadth": 52
     },
     "heat_signals": {
       "reports": 1,
@@ -8331,8 +8623,8 @@
     "score_parts": {
       "industry": 54,
       "actionable": 44,
-      "breadth": 42,
-      "heat": 30
+      "heat": 30,
+      "breadth": 42
     },
     "heat_signals": {
       "reports": 1,
@@ -8364,8 +8656,8 @@
     "score_parts": {
       "industry": 58,
       "actionable": 38,
-      "breadth": 42,
-      "heat": 30
+      "heat": 30,
+      "breadth": 42
     },
     "heat_signals": {
       "reports": 1,
@@ -8397,8 +8689,8 @@
     "score_parts": {
       "industry": 54,
       "actionable": 38,
-      "breadth": 58,
-      "heat": 30
+      "heat": 30,
+      "breadth": 58
     },
     "heat_signals": {
       "reports": 1,
@@ -8431,8 +8723,8 @@
     "score_parts": {
       "industry": 54,
       "actionable": 38,
-      "breadth": 58,
-      "heat": 30
+      "heat": 30,
+      "breadth": 58
     },
     "heat_signals": {
       "reports": 1,
@@ -8465,8 +8757,8 @@
     "score_parts": {
       "industry": 45,
       "actionable": 55,
-      "breadth": 40,
-      "heat": 30
+      "heat": 30,
+      "breadth": 40
     },
     "heat_signals": {
       "reports": 1,
@@ -8498,8 +8790,8 @@
     "score_parts": {
       "industry": 54,
       "actionable": 38,
-      "breadth": 52,
-      "heat": 30
+      "heat": 30,
+      "breadth": 52
     },
     "heat_signals": {
       "reports": 1,
@@ -8531,8 +8823,8 @@
     "score_parts": {
       "industry": 54,
       "actionable": 38,
-      "breadth": 52,
-      "heat": 30
+      "heat": 30,
+      "breadth": 52
     },
     "heat_signals": {
       "reports": 1,
@@ -8564,8 +8856,8 @@
     "score_parts": {
       "industry": 54,
       "actionable": 38,
-      "breadth": 52,
-      "heat": 30
+      "heat": 30,
+      "breadth": 52
     },
     "heat_signals": {
       "reports": 1,
@@ -8598,8 +8890,8 @@
     "score_parts": {
       "industry": 50,
       "actionable": 45,
-      "breadth": 45,
-      "heat": 30
+      "heat": 30,
+      "breadth": 45
     },
     "heat_signals": {
       "reports": 1,
@@ -8631,8 +8923,8 @@
     "score_parts": {
       "industry": 50,
       "actionable": 45,
-      "breadth": 45,
-      "heat": 30
+      "heat": 30,
+      "breadth": 45
     },
     "heat_signals": {
       "reports": 1,
@@ -8664,8 +8956,8 @@
     "score_parts": {
       "industry": 56,
       "actionable": 38,
-      "breadth": 42,
-      "heat": 30
+      "heat": 30,
+      "breadth": 42
     },
     "heat_signals": {
       "reports": 1,
@@ -8697,8 +8989,8 @@
     "score_parts": {
       "industry": 50,
       "actionable": 45,
-      "breadth": 45,
-      "heat": 30
+      "heat": 30,
+      "breadth": 45
     },
     "heat_signals": {
       "reports": 1,
@@ -8730,8 +9022,8 @@
     "score_parts": {
       "industry": 50,
       "actionable": 45,
-      "breadth": 45,
-      "heat": 30
+      "heat": 30,
+      "breadth": 45
     },
     "heat_signals": {
       "reports": 1,
@@ -8763,8 +9055,8 @@
     "score_parts": {
       "industry": 50,
       "actionable": 45,
-      "breadth": 45,
-      "heat": 30
+      "heat": 30,
+      "breadth": 45
     },
     "heat_signals": {
       "reports": 1,
@@ -8796,8 +9088,8 @@
     "score_parts": {
       "industry": 56,
       "actionable": 38,
-      "breadth": 42,
-      "heat": 30
+      "heat": 30,
+      "breadth": 42
     },
     "heat_signals": {
       "reports": 1,
@@ -8829,8 +9121,8 @@
     "score_parts": {
       "industry": 56,
       "actionable": 38,
-      "breadth": 42,
-      "heat": 30
+      "heat": 30,
+      "breadth": 42
     },
     "heat_signals": {
       "reports": 1,
@@ -8862,8 +9154,8 @@
     "score_parts": {
       "industry": 50,
       "actionable": 45,
-      "breadth": 45,
-      "heat": 30
+      "heat": 30,
+      "breadth": 45
     },
     "heat_signals": {
       "reports": 1,
@@ -8896,8 +9188,8 @@
     "score_parts": {
       "industry": 50,
       "actionable": 45,
-      "breadth": 45,
-      "heat": 30
+      "heat": 30,
+      "breadth": 45
     },
     "heat_signals": {
       "reports": 1,
@@ -8929,8 +9221,8 @@
     "score_parts": {
       "industry": 56,
       "actionable": 38,
-      "breadth": 42,
-      "heat": 30
+      "heat": 30,
+      "breadth": 42
     },
     "heat_signals": {
       "reports": 1,
@@ -8962,8 +9254,8 @@
     "score_parts": {
       "industry": 56,
       "actionable": 38,
-      "breadth": 42,
-      "heat": 30
+      "heat": 30,
+      "breadth": 42
     },
     "heat_signals": {
       "reports": 1,
@@ -8995,8 +9287,8 @@
     "score_parts": {
       "industry": 56,
       "actionable": 38,
-      "breadth": 42,
-      "heat": 30
+      "heat": 30,
+      "breadth": 42
     },
     "heat_signals": {
       "reports": 1,
@@ -9028,8 +9320,8 @@
     "score_parts": {
       "industry": 56,
       "actionable": 38,
-      "breadth": 42,
-      "heat": 30
+      "heat": 30,
+      "breadth": 42
     },
     "heat_signals": {
       "reports": 1,
@@ -9061,8 +9353,8 @@
     "score_parts": {
       "industry": 50,
       "actionable": 45,
-      "breadth": 45,
-      "heat": 30
+      "heat": 30,
+      "breadth": 45
     },
     "heat_signals": {
       "reports": 1,
@@ -9094,8 +9386,8 @@
     "score_parts": {
       "industry": 56,
       "actionable": 38,
-      "breadth": 42,
-      "heat": 30
+      "heat": 30,
+      "breadth": 42
     },
     "heat_signals": {
       "reports": 1,
@@ -9127,8 +9419,8 @@
     "score_parts": {
       "industry": 50,
       "actionable": 45,
-      "breadth": 45,
-      "heat": 30
+      "heat": 30,
+      "breadth": 45
     },
     "heat_signals": {
       "reports": 1,
@@ -9161,8 +9453,8 @@
     "score_parts": {
       "industry": 50,
       "actionable": 45,
-      "breadth": 45,
-      "heat": 30
+      "heat": 30,
+      "breadth": 45
     },
     "heat_signals": {
       "reports": 1,
@@ -9195,8 +9487,8 @@
     "score_parts": {
       "industry": 50,
       "actionable": 45,
-      "breadth": 45,
-      "heat": 30
+      "heat": 30,
+      "breadth": 45
     },
     "heat_signals": {
       "reports": 1,
@@ -9228,8 +9520,8 @@
     "score_parts": {
       "industry": 50,
       "actionable": 45,
-      "breadth": 45,
-      "heat": 30
+      "heat": 30,
+      "breadth": 45
     },
     "heat_signals": {
       "reports": 1,
@@ -9261,8 +9553,8 @@
     "score_parts": {
       "industry": 56,
       "actionable": 38,
-      "breadth": 42,
-      "heat": 30
+      "heat": 30,
+      "breadth": 42
     },
     "heat_signals": {
       "reports": 1,
@@ -9294,8 +9586,8 @@
     "score_parts": {
       "industry": 50,
       "actionable": 45,
-      "breadth": 45,
-      "heat": 30
+      "heat": 30,
+      "breadth": 45
     },
     "heat_signals": {
       "reports": 1,
@@ -9327,8 +9619,8 @@
     "score_parts": {
       "industry": 56,
       "actionable": 38,
-      "breadth": 42,
-      "heat": 30
+      "heat": 30,
+      "breadth": 42
     },
     "heat_signals": {
       "reports": 1,
@@ -9361,8 +9653,8 @@
     "score_parts": {
       "industry": 50,
       "actionable": 45,
-      "breadth": 45,
-      "heat": 30
+      "heat": 30,
+      "breadth": 45
     },
     "heat_signals": {
       "reports": 1,
@@ -9394,8 +9686,8 @@
     "score_parts": {
       "industry": 50,
       "actionable": 45,
-      "breadth": 45,
-      "heat": 30
+      "heat": 30,
+      "breadth": 45
     },
     "heat_signals": {
       "reports": 1,
@@ -9427,8 +9719,8 @@
     "score_parts": {
       "industry": 50,
       "actionable": 45,
-      "breadth": 45,
-      "heat": 30
+      "heat": 30,
+      "breadth": 45
     },
     "heat_signals": {
       "reports": 1,
@@ -9460,8 +9752,8 @@
     "score_parts": {
       "industry": 50,
       "actionable": 45,
-      "breadth": 45,
-      "heat": 30
+      "heat": 30,
+      "breadth": 45
     },
     "heat_signals": {
       "reports": 1,
@@ -9493,8 +9785,8 @@
     "score_parts": {
       "industry": 50,
       "actionable": 45,
-      "breadth": 45,
-      "heat": 30
+      "heat": 30,
+      "breadth": 45
     },
     "heat_signals": {
       "reports": 1,
@@ -9526,8 +9818,8 @@
     "score_parts": {
       "industry": 50,
       "actionable": 45,
-      "breadth": 45,
-      "heat": 30
+      "heat": 30,
+      "breadth": 45
     },
     "heat_signals": {
       "reports": 1,
@@ -9560,8 +9852,8 @@
     "score_parts": {
       "industry": 50,
       "actionable": 45,
-      "breadth": 45,
-      "heat": 30
+      "heat": 30,
+      "breadth": 45
     },
     "heat_signals": {
       "reports": 1,
@@ -9593,8 +9885,8 @@
     "score_parts": {
       "industry": 54,
       "actionable": 38,
-      "breadth": 48,
-      "heat": 30
+      "heat": 30,
+      "breadth": 48
     },
     "heat_signals": {
       "reports": 1,
@@ -9626,8 +9918,8 @@
     "score_parts": {
       "industry": 50,
       "actionable": 38,
-      "breadth": 64,
-      "heat": 30
+      "heat": 30,
+      "breadth": 64
     },
     "heat_signals": {
       "reports": 1,
@@ -9659,8 +9951,8 @@
     "score_parts": {
       "industry": 50,
       "actionable": 44,
-      "breadth": 42,
-      "heat": 30
+      "heat": 30,
+      "breadth": 42
     },
     "heat_signals": {
       "reports": 1,
@@ -9693,8 +9985,8 @@
     "score_parts": {
       "industry": 54,
       "actionable": 38,
-      "breadth": 42,
-      "heat": 30
+      "heat": 30,
+      "breadth": 42
     },
     "heat_signals": {
       "reports": 1,
@@ -9726,8 +10018,8 @@
     "score_parts": {
       "industry": 54,
       "actionable": 38,
-      "breadth": 42,
-      "heat": 30
+      "heat": 30,
+      "breadth": 42
     },
     "heat_signals": {
       "reports": 1,
@@ -9759,8 +10051,8 @@
     "score_parts": {
       "industry": 54,
       "actionable": 38,
-      "breadth": 42,
-      "heat": 30
+      "heat": 30,
+      "breadth": 42
     },
     "heat_signals": {
       "reports": 1,
@@ -9769,6 +10061,40 @@
       "x_spike_7d": 0.0
     },
     "heat": 30
+  },
+  {
+    "id": "系统设计-01---在画第一个方框之前-2e7237",
+    "title": "系统设计 01 - 在画第一个方框之前",
+    "url": "https://waytoagi.feishu.cn/wiki/I7JZwFRjEizcwWk9oUocZ0QRnLd?from=from_copylink",
+    "date": "2026-10-24",
+    "meta": "",
+    "bullets": [
+      "很多人做系统设计习惯直接套Kafka、Redis的现成架构。",
+      "作者这篇文章以百万级通知系统为例，带你换一套思考方式。",
+      "读完你或许能跳出背模板的误区，学会梳理隐性假设、讲清每一步选型背后的权衡，不管是面试还是落地项目都很受用。"
+    ],
+    "links": [
+      {
+        "label": "WayToAGI",
+        "title": "系统设计 01 - 在画第一个方框之前",
+        "url": "https://waytoagi.feishu.cn/wiki/I7JZwFRjEizcwWk9oUocZ0QRnLd?from=from_copylink",
+        "date": "2026-10-24"
+      }
+    ],
+    "score": 43.0,
+    "score_parts": {
+      "industry": 40,
+      "actionable": 55,
+      "heat": 30,
+      "breadth": 45
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    }
   },
   {
     "id": "谷歌ceo皮查伊-前沿大模型不容退守-云业务短期利润可为研发算力让路-fc05af",
@@ -9792,8 +10118,8 @@
     "score_parts": {
       "industry": 50,
       "actionable": 38,
-      "breadth": 52,
-      "heat": 30
+      "heat": 30,
+      "breadth": 52
     },
     "heat_signals": {
       "reports": 1,
@@ -9825,8 +10151,8 @@
     "score_parts": {
       "industry": 52,
       "actionable": 38,
-      "breadth": 42,
-      "heat": 30
+      "heat": 30,
+      "breadth": 42
     },
     "heat_signals": {
       "reports": 1,
@@ -9858,8 +10184,8 @@
     "score_parts": {
       "industry": 48,
       "actionable": 40,
-      "breadth": 50,
-      "heat": 30
+      "heat": 30,
+      "breadth": 50
     },
     "heat_signals": {
       "reports": 1,
@@ -9891,8 +10217,8 @@
     "score_parts": {
       "industry": 50,
       "actionable": 38,
-      "breadth": 42,
-      "heat": 30
+      "heat": 30,
+      "breadth": 42
     },
     "heat_signals": {
       "reports": 1,
@@ -9924,8 +10250,8 @@
     "score_parts": {
       "industry": 50,
       "actionable": 38,
-      "breadth": 42,
-      "heat": 30
+      "heat": 30,
+      "breadth": 42
     },
     "heat_signals": {
       "reports": 1,
@@ -9957,8 +10283,8 @@
     "score_parts": {
       "industry": 50,
       "actionable": 38,
-      "breadth": 42,
-      "heat": 30
+      "heat": 30,
+      "breadth": 42
     },
     "heat_signals": {
       "reports": 1,
@@ -9990,8 +10316,8 @@
     "score_parts": {
       "industry": 40,
       "actionable": 55,
-      "breadth": 30,
-      "heat": 30
+      "heat": 30,
+      "breadth": 30
     },
     "heat_signals": {
       "reports": 1,
@@ -10024,8 +10350,8 @@
     "score_parts": {
       "industry": 25,
       "actionable": 55,
-      "breadth": 40,
-      "heat": 30
+      "heat": 30,
+      "breadth": 40
     },
     "heat_signals": {
       "reports": 1,
@@ -10057,8 +10383,8 @@
     "score_parts": {
       "industry": 20,
       "actionable": 50,
-      "breadth": 47,
-      "heat": 30
+      "heat": 30,
+      "breadth": 47
     },
     "heat_signals": {
       "reports": 1,
@@ -10067,175 +10393,5 @@
       "x_spike_7d": 0.0
     },
     "heat": 30
-  },
-  {
-    "id": "面壁智能解析前瞻专家调度-les-如何让-35b-moe-在手机端侧实时无损运行-de265c",
-    "title": "面壁智能解析 LES：35B MoE 端侧实时无损运行（MiniCPM-V）",
-    "url": "https://mp.weixin.qq.com/s?__biz=Mzg3Mzg2MTg2NQ%3D%3D&mid=2247499532&idx=1&sn=db2949b48bf8909d80def369b51a81ea",
-    "date": "2026-10-20",
-    "meta": "",
-    "bullets": [
-      "面壁智能介绍前瞻专家调度（LES），支撑 MiniCPM-V 4.7 端侧运行。",
-      "称首次实现 35B-A3B 规模 MoE 在端侧实时无损运行；iPhone 实测解码超 20 token/s。",
-      "端侧大模型效率路线继续下探到手机可实时体验。"
-    ],
-    "links": [
-      {
-        "label": "AIHot",
-        "title": "面壁智能解析前瞻专家调度 LES 如何让 35B MoE 在手机端侧实时无损运行",
-        "url": "https://mp.weixin.qq.com/s?__biz=Mzg3Mzg2MTg2NQ%3D%3D&mid=2247499532&idx=1&sn=db2949b48bf8909d80def369b51a81ea",
-        "date": "2026-10-20"
-      }
-    ],
-    "score": 61.8,
-    "score_parts": {
-      "industry": 72,
-      "actionable": 70,
-      "breadth": 60,
-      "heat": 30
-    },
-    "heat": 30,
-    "heat_signals": {
-      "reports": 1,
-      "domains": 1,
-      "x_posts_7d": 17,
-      "x_spike_7d": 2.0
-    }
-  },
-  {
-    "id": "系统设计-01---在画第一个方框之前-2e7237",
-    "title": "系统设计 01 - 在画第一个方框之前",
-    "url": "https://waytoagi.feishu.cn/wiki/I7JZwFRjEizcwWk9oUocZ0QRnLd?from=from_copylink",
-    "date": "2026-10-24",
-    "meta": "",
-    "bullets": [
-      "很多人做系统设计习惯直接套Kafka、Redis的现成架构。",
-      "作者这篇文章以百万级通知系统为例，带你换一套思考方式。",
-      "读完你或许能跳出背模板的误区，学会梳理隐性假设、讲清每一步选型背后的权衡，不管是面试还是落地项目都很受用。"
-    ],
-    "links": [
-      {
-        "label": "WayToAGI",
-        "title": "系统设计 01 - 在画第一个方框之前",
-        "url": "https://waytoagi.feishu.cn/wiki/I7JZwFRjEizcwWk9oUocZ0QRnLd?from=from_copylink",
-        "date": "2026-10-24"
-      }
-    ],
-    "score": 43.0,
-    "score_parts": {
-      "industry": 40,
-      "actionable": 55,
-      "breadth": 45,
-      "heat": 30
-    },
-    "heat": 30,
-    "heat_signals": {
-      "reports": 1,
-      "domains": 1,
-      "x_posts_7d": 0,
-      "x_spike_7d": 0
-    }
-  },
-  {
-    "id": "构建-公司智能体-的五个组成部分-853772",
-    "title": "构建 “公司智能体” 的五个组成部分",
-    "url": "https://waytoagi.feishu.cn/wiki/Edv8wODQnisixzkRiqxc0T4Cneh?from=from_copylink",
-    "date": "2026-10-24",
-    "meta": "",
-    "bullets": [
-      "很多团队把 Agent 接进 Slack，就以为大功告成了；真跑进业务后才发现，谁有权限、该记住什么、后台何时自己动起来，往往比模型会不会回答更难。",
-      "LangChain 用市场、工程、内容三类内部 Agent，拆出“公司智能体”的五个关键环节：工作入口、身份权限、两层记忆、安全沙箱和定时触发。",
-      "适合正把 Agent 从 Demo 推向团队协作的开发者和负责人，值得收藏细看。"
-    ],
-    "links": [
-      {
-        "label": "WayToAGI",
-        "title": "构建 “公司智能体” 的五个组成部分",
-        "url": "https://waytoagi.feishu.cn/wiki/Edv8wODQnisixzkRiqxc0T4Cneh?from=from_copylink",
-        "date": "2026-10-24"
-      }
-    ],
-    "score": 56.6,
-    "score_parts": {
-      "industry": 58,
-      "actionable": 72,
-      "breadth": 58,
-      "heat": 30
-    },
-    "heat": 30,
-    "heat_signals": {
-      "reports": 1,
-      "domains": 1,
-      "x_posts_7d": 34,
-      "x_spike_7d": 4.0
-    }
-  },
-  {
-    "id": "多-agent-协作终极解实测-yc-开源新作-agent-relay让-cla-e72b90",
-    "title": "多 Agent 协作终极解：实测 YC 开源新作 Agent Relay，让 Claude Code 和 Codex 直接对话",
-    "url": "https://waytoagi.feishu.cn/wiki/BNxBwo0O3idr76kDQNBctk00nMh?from=from_copylink",
-    "date": "2026-10-24",
-    "meta": "",
-    "bullets": [
-      "两个 Agent 一起干活，最累的往往是人：写完复制给审查方，改完再贴回去，窗口开得越多，协作越像接力搬砖。",
-      "作者实测了 Agent Relay，展示了如何让 Claude Code 写代码、Codex 直接审查并多轮回传修改意见。",
-      "安装、连接、权限设置和常见报错都配了截图，新手也能跟着跑通。"
-    ],
-    "links": [
-      {
-        "label": "WayToAGI",
-        "title": "多 Agent 协作终极解：实测 YC 开源新作 Agent Relay，让 Claude Code 和 Codex 直接对话",
-        "url": "https://waytoagi.feishu.cn/wiki/BNxBwo0O3idr76kDQNBctk00nMh?from=from_copylink",
-        "date": "2026-10-24"
-      }
-    ],
-    "score": 59.7,
-    "score_parts": {
-      "industry": 62,
-      "actionable": 78,
-      "breadth": 55,
-      "heat": 30
-    },
-    "heat": 30,
-    "heat_signals": {
-      "reports": 1,
-      "domains": 1,
-      "x_posts_7d": 6,
-      "x_spike_7d": 6.0
-    }
-  },
-  {
-    "id": "ai助理争夺战解析musegrok-bot与instinct背后的产品布局入口生-cee7b5",
-    "title": "AI助理争夺战：解析Muse、Grok Bot与Instinct背后的产品布局、入口生意与盈利难题",
-    "url": "https://waytoagi.feishu.cn/wiki/C6ACwsDTbiksRzkL6g5cN7AFnAh?from=from_copylink",
-    "date": "2026-10-24",
-    "meta": "",
-    "bullets": [
-      "AI 助理扎堆出现，表面上都在帮你订票、卖闲置、整理工作，真正争的是“有事先找谁”的入口。",
-      "作者拆解 了Instinct、Meta Muse 与 Grok Bot 的不同打法：短信联系人、社交生态、数字同事团队。",
-      "没有单纯地从产品功能角度切入，还把长期记忆、云端执行、越权风险、平台封锁和盈利困境讲的很透。"
-    ],
-    "links": [
-      {
-        "label": "WayToAGI",
-        "title": "AI助理争夺战：解析Muse、Grok Bot与Instinct背后的产品布局、入口生意与盈利难题",
-        "url": "https://waytoagi.feishu.cn/wiki/C6ACwsDTbiksRzkL6g5cN7AFnAh?from=from_copylink",
-        "date": "2026-10-24"
-      }
-    ],
-    "score": 55.8,
-    "score_parts": {
-      "industry": 64,
-      "actionable": 60,
-      "breadth": 62,
-      "heat": 30
-    },
-    "heat": 30,
-    "heat_signals": {
-      "reports": 1,
-      "domains": 1,
-      "x_posts_7d": 128,
-      "x_spike_7d": 38.0
-    }
   }
 ]
