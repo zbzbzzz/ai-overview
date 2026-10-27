@@ -1,15 +1,15 @@
 {
   "OpenAI 发布 GPT-6.1 Terra：主打电脑操作与写作，已上线 Copilot 与 OpenRouter": {
-    "score": 91.7,
-    "industry": 92,
-    "actionable": 88,
-    "breadth": 85,
+    "score": 93.4,
+    "industry": 94,
+    "actionable": 90,
+    "breadth": 88,
     "heat": 100,
     "heat_signals": {
-      "reports": 7,
-      "domains": 4,
-      "x_posts_7d": 6115,
-      "x_spike_7d": 5875.0
+      "reports": 8,
+      "domains": 5,
+      "x_posts_7d": 6878,
+      "x_spike_7d": 6488.0
     }
   },
   "月之暗面发布 Kimi K3.1 Pro：100 万 token 上下文，开放权重将释出并上线 OpenRouter": {
@@ -64,19 +64,6 @@
       "x_spike_7d": 3936.5
     }
   },
-  "Anthropic 向 SEC 提交 S-1 启动 IPO，拟以代码 ANT 登陆纳斯达克": {
-    "score": 78.1,
-    "industry": 90,
-    "actionable": 55,
-    "breadth": 80,
-    "heat": 88,
-    "heat_signals": {
-      "reports": 4,
-      "domains": 4,
-      "x_posts_7d": 5543,
-      "x_spike_7d": 5498.0
-    }
-  },
   "Kling 4.0 上线 Runware API：30 秒 1080p 原生音频视频可调": {
     "score": 76.4,
     "industry": 82,
@@ -88,6 +75,19 @@
       "domains": 1,
       "x_posts_7d": 8491,
       "x_spike_7d": 2993.5
+    }
+  },
+  "Anthropic 向 SEC 提交 S-1 启动 IPO，拟以代码 ANT 登陆纳斯达克": {
+    "score": 81.3,
+    "industry": 92,
+    "actionable": 55,
+    "breadth": 80,
+    "heat": 100,
+    "heat_signals": {
+      "reports": 8,
+      "domains": 5,
+      "x_posts_7d": 23019,
+      "x_spike_7d": 14289.0
     }
   },
   "OpenAI 正式发布 Decisions API，面向低延迟低成本小决策": {
@@ -325,16 +325,16 @@
     }
   },
   "Cohere 报告 Qwen3.8-Flash-Next 在沙箱测试中出现异常/疑似回连行为": {
-    "score": 68.4,
+    "score": 70.4,
     "industry": 78,
     "actionable": 70,
     "breadth": 60,
-    "heat": 51,
+    "heat": 61,
     "heat_signals": {
       "reports": 2,
       "domains": 2,
-      "x_posts_7d": 383,
-      "x_spike_7d": 383.0
+      "x_posts_7d": 3234,
+      "x_spike_7d": 2289.0
     }
   },
   "蚂蚁数科发布 LingDT-Decision-1.0，开源基测超微软与 JEV": {
@@ -403,16 +403,16 @@
     }
   },
   "英伟达开源机器人数据引擎 Flora：标注成本较 GPT-6 Astra 大幅下降": {
-    "score": 67.0,
+    "score": 66.0,
     "industry": 75,
     "actionable": 80,
     "breadth": 50,
-    "heat": 40,
+    "heat": 35,
     "heat_signals": {
       "reports": 1,
       "domains": 1,
-      "x_posts_7d": 201,
-      "x_spike_7d": 201.0
+      "x_posts_7d": 170,
+      "x_spike_7d": 57.5
     }
   },
   "Latent Space 梳理 PHP2Shell 漏洞事件：OpenAI Patch the Planet 与 Wiz 各自发现 PHP 核心漏洞": {
@@ -437,8 +437,8 @@
     "heat_signals": {
       "reports": 2,
       "domains": 2,
-      "x_posts_7d": 1070,
-      "x_spike_7d": 1062.5
+      "x_posts_7d": 1387,
+      "x_spike_7d": 1199.5
     }
   },
   "NVIDIA Kumo Relational 在关系型数据上超越监督式机器学习，无需训练": {
@@ -452,6 +452,19 @@
       "domains": 1,
       "x_posts_7d": 0,
       "x_spike_7d": 0.0
+    }
+  },
+  "腾讯混元开源同声传译大模型 Hy-SimulMT：延迟低于人类译员": {
+    "score": 68.0,
+    "industry": 74,
+    "actionable": 78,
+    "breadth": 70,
+    "heat": 40,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 239,
+      "x_spike_7d": 239.0
     }
   },
   "OpenAI 红队：前沿模型智能体可越狱沙箱并借 CPU 缓存隐蔽通信": {
@@ -649,6 +662,19 @@
       "x_spike_7d": 0.0
     }
   },
+  "蚂蚁灵光 2.0 发布：AI 助理从任务执行走向主动事务管理": {
+    "score": 66.3,
+    "industry": 72,
+    "actionable": 75,
+    "breadth": 68,
+    "heat": 41,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 1,
+      "x_posts_7d": 60,
+      "x_spike_7d": 60.0
+    }
+  },
   "Ai2 发布 FairStress：衡量 LLM 决策中隐藏的公平性不对称": {
     "score": 65.2,
     "industry": 72,
@@ -686,6 +712,19 @@
       "domains": 1,
       "x_posts_7d": 0,
       "x_spike_7d": 0.0
+    }
+  },
+  "GitHub Copilot 辅助权限（assisted permissions）正式全面开放": {
+    "score": 65.0,
+    "industry": 68,
+    "actionable": 82,
+    "breadth": 72,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 25,
+      "x_spike_7d": 17.5
     }
   },
   "fal 发布 FLUX 3 Max：图生视频 Elo 达 1139 并列第一": {
@@ -805,6 +844,19 @@
       "x_spike_7d": 0.0
     }
   },
+  "iOS 27.2 推送：Siri 可记忆对话，Apple Music 界面更新": {
+    "score": 67.3,
+    "industry": 72,
+    "actionable": 70,
+    "breadth": 85,
+    "heat": 45,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 881,
+      "x_spike_7d": 806.0
+    }
+  },
   "NVIDIA Cosmos3-H-Dreams：用生成式模拟驱动临床手术训练": {
     "score": 63.9,
     "industry": 76,
@@ -896,6 +948,19 @@
       "x_spike_7d": 0.0
     }
   },
+  "Mac 版 Ollama 正式支持离线 AI 语音，称速度最高提升约 35%": {
+    "score": 64.3,
+    "industry": 62,
+    "actionable": 85,
+    "breadth": 60,
+    "heat": 40,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 593,
+      "x_spike_7d": 218.0
+    }
+  },
   "讯飞星火医疗大模型 V3.7 升级：MedBench 5.0 登顶 99.6 分": {
     "score": 62.1,
     "industry": 70,
@@ -946,6 +1011,19 @@
       "domains": 1,
       "x_posts_7d": 817,
       "x_spike_7d": 322.0
+    }
+  },
+  "OpenAI 公布三项数学与科学新突破并发布成果计划": {
+    "score": 63.6,
+    "industry": 78,
+    "actionable": 40,
+    "breadth": 70,
+    "heat": 67,
+    "heat_signals": {
+      "reports": 3,
+      "domains": 3,
+      "x_posts_7d": 1735,
+      "x_spike_7d": 797.5
     }
   },
   "Epoch AI 内部工作任务评测：Claude Fable 5.1 与 GPT-6 Astra 均分约 65%": {
@@ -1026,6 +1104,19 @@
       "x_spike_7d": 0.0
     }
   },
+  "讯飞星火大模型 V3.7 登顶，讯飞晓医三大核心能力升级": {
+    "score": 59.2,
+    "industry": 65,
+    "actionable": 70,
+    "breadth": 62,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 12,
+      "x_spike_7d": 12.0
+    }
+  },
   "Kimi K3.1 现身 Arena 测试：性能直追 GPT-6 Astra，月底或官宣": {
     "score": 58.9,
     "industry": 74,
@@ -1037,6 +1128,19 @@
       "domains": 1,
       "x_posts_7d": 8889,
       "x_spike_7d": 0.0
+    }
+  },
+  "华尔街与黑石敲定约 630 亿美元债务交易，为 Anthropic 采购博通 AI 芯片铺路": {
+    "score": 62.9,
+    "industry": 85,
+    "actionable": 35,
+    "breadth": 72,
+    "heat": 56,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 1,
+      "x_posts_7d": 1463,
+      "x_spike_7d": 1028.0
     }
   },
   "Gamma 发布 Gamma 5，并更新 credits、导出与预览": {
@@ -1260,6 +1364,19 @@
       "x_spike_7d": 0.0
     }
   },
+  "Soul 推出 Loxinity：主打「有活人感」的实时 AI 语音交互": {
+    "score": 56.5,
+    "industry": 60,
+    "actionable": 70,
+    "breadth": 55,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 3,
+      "x_spike_7d": 3.0
+    }
+  },
   "实测豆包「工作无限画布」：号称一小时干完一周工作量": {
     "score": 56.4,
     "industry": 55,
@@ -1351,6 +1468,19 @@
       "x_spike_7d": 0.0
     }
   },
+  "Anthropic 红队测试 Claude Code Auto Mode 与 Codex Guardian 拦截监控器": {
+    "score": 55.5,
+    "industry": 68,
+    "actionable": 55,
+    "breadth": 58,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0.0
+    }
+  },
   "任意 AI 模型可用的手绘风视频 Skill": {
     "score": 54.6,
     "industry": 62,
@@ -1390,6 +1520,19 @@
       "x_spike_7d": 0.0
     }
   },
+  "GPT-6.1 Sol 帮助 CodeRabbit 加强复杂代码库的安全性": {
+    "score": 53.6,
+    "industry": 55,
+    "actionable": 68,
+    "breadth": 52,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0.0
+    }
+  },
   "音乐出版商 Reservoir 起诉 Suno 与 Anthropic：指控未经授权用版权歌曲训练": {
     "score": 53.5,
     "industry": 70,
@@ -1416,6 +1559,19 @@
       "x_spike_7d": 0.0
     }
   },
+  "Greptile 借助 GPT-6 Astra 将 bug 检测拓展至代码审查之外": {
+    "score": 52.5,
+    "industry": 55,
+    "actionable": 65,
+    "breadth": 50,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0.0
+    }
+  },
   "英国 AISI：ESM-2 预训练数据过滤可削弱能力，但约 80 美元算力可恢复": {
     "score": 52.3,
     "industry": 72,
@@ -1427,6 +1583,19 @@
       "domains": 1,
       "x_posts_7d": 0,
       "x_spike_7d": 0.0
+    }
+  },
+  "微软 CEO 称曾误判「AI 越强越安全」，现已改观": {
+    "score": 52.2,
+    "industry": 68,
+    "actionable": 40,
+    "breadth": 70,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 1,
+      "x_spike_7d": 1.0
     }
   },
   "KRAFTON 放出 Raon-1 mini，对标 Meta 同档小模型": {
@@ -1486,6 +1655,19 @@
     "industry": 62,
     "actionable": 56,
     "breadth": 42,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0.0
+    }
+  },
+  "黑客借 AI 揪出 PS5 高危漏洞，索尼发放约 5 万美元奖金": {
+    "score": 51.7,
+    "industry": 58,
+    "actionable": 55,
+    "breadth": 60,
     "heat": 30,
     "heat_signals": {
       "reports": 1,
@@ -1629,6 +1811,19 @@
     "industry": 50,
     "actionable": 60,
     "breadth": 48,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0.0
+    }
+  },
+  "菲尔兹奖得主邓煜呛声 AI 公司：别只许你蒸馏，不许我看思维链": {
+    "score": 48.6,
+    "industry": 62,
+    "actionable": 40,
+    "breadth": 58,
     "heat": 30,
     "heat_signals": {
       "reports": 1,
@@ -1975,6 +2170,32 @@
       "x_spike_7d": 0.0
     }
   },
+  "Anthropic 七联创身价均破约 900 亿，承诺捐出八成股份": {
+    "score": 49.0,
+    "industry": 70,
+    "actionable": 25,
+    "breadth": 65,
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 213,
+      "x_spike_7d": 123.0
+    }
+  },
+  "SGLang 披露并修复 PD 分离服务中的跨请求 KVCache 竞态问题": {
+    "score": 48.0,
+    "industry": 55,
+    "actionable": 50,
+    "breadth": 50,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0.0
+    }
+  },
   "NVIDIA 在 GTC Berlin 展示 RTX Spark、DGX Spark 和 DGX Station 本地 AI 硬件全线更新": {
     "score": 47.6,
     "industry": 56,
@@ -2197,16 +2418,16 @@
     }
   },
   "Cohere 发布 Rerank 5 企业检索重排模型，分 Pro 与 Fast 两档": {
-    "score": 46.6,
+    "score": 50.6,
     "industry": 52,
     "actionable": 50,
     "breadth": 48,
-    "heat": 30,
+    "heat": 50,
     "heat_signals": {
       "reports": 1,
       "domains": 1,
-      "x_posts_7d": 0,
-      "x_spike_7d": 0.0
+      "x_posts_7d": 3234,
+      "x_spike_7d": 2289.0
     }
   },
   "编程 Agent 增长遭遇人类评审瓶颈：Tessl 博客解析信任赤字": {
@@ -2279,6 +2500,32 @@
     "industry": 50,
     "actionable": 54,
     "breadth": 42,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0.0
+    }
+  },
+  "全球首个海洋通用基座大模型通过国家网信办备案": {
+    "score": 46.2,
+    "industry": 58,
+    "actionable": 40,
+    "breadth": 50,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0.0
+    }
+  },
+  "塔塔通讯砸 4 亿美元铺光纤，串起印度 AI 数据中心": {
+    "score": 46.0,
+    "industry": 60,
+    "actionable": 35,
+    "breadth": 55,
     "heat": 30,
     "heat_signals": {
       "reports": 1,
@@ -2981,6 +3228,32 @@
     "industry": 40,
     "actionable": 55,
     "breadth": 30,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0.0
+    }
+  },
+  "FFR 完成 FFAI 机器人业务合并，贾跃亭出任 CEO 并挂牌上市": {
+    "score": 41.5,
+    "industry": 55,
+    "actionable": 30,
+    "breadth": 45,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0.0
+    }
+  },
+  "当智力第一次被标价:《Token经济》论坛激辩“Token 是否经济”": {
+    "score": 41.0,
+    "industry": 50,
+    "actionable": 35,
+    "breadth": 45,
     "heat": 30,
     "heat_signals": {
       "reports": 1,
