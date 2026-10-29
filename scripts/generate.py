@@ -871,6 +871,7 @@ h1 {
   border: 0;
 }
 .news-list.is-collapsed .news-card.news-extra { display: none; }
+.cards.is-collapsed .card.repo-extra { display: none; }
 .news-toggle-wrap {
   display: flex;
   justify-content: center;
@@ -1784,7 +1785,7 @@ def render_news(lists: dict[str, tuple[list[dict], str]], gen_label: str) -> str
     )
 
 
-def render_repo_card(rank: int, repo: dict, max_week: int) -> str:
+def render_repo_card(rank: int, repo: dict, max_week: int, extra: bool = False) -> str:
     name = repo["full"]
     meta = META.get(name, {
         "tag": "AI 相关",
@@ -1795,7 +1796,8 @@ def render_repo_card(rank: int, repo: dict, max_week: int) -> str:
     pct = int(round(100 * repo["week"] / max_week)) if max_week else 0
     diagram = flow_html(meta["flow"])
     intro = meta["intro"]
-    return f'''      <li class="card">
+    extra_cls = " repo-extra" if extra else ""
+    return f'''      <li class="card{extra_cls}">
         <div class="card-head">
           <span class="rank" aria-hidden="true">{rank:02d}</span>
           <div class="card-title">
@@ -1820,7 +1822,11 @@ def render_repo_card(rank: int, repo: dict, max_week: int) -> str:
         </div>
       </li>'''
 
+REPO_DEFAULT_VISIBLE = 3  # ADR 0017: fixed top 3 default; expand to Top 10
+
+
 def render_repo_section(tabs: dict[str, list[dict]]) -> str:
+    """周榜 Tab：默认前 3，展开到 Top 10；≤3 不显示按钮；切 Tab 重新收起（ADR 0017）。"""
     panels = []
     tab_btns = []
     for i, (label, _) in enumerate(TAB_DEFS):
@@ -1828,15 +1834,29 @@ def render_repo_section(tabs: dict[str, list[dict]]) -> str:
         selected = "true" if i == 0 else "false"
         tab_id = f"repo-tab-{i}"
         panel_id = f"repo-panel-{i}"
+        list_id = f"repo-list-{i}"
+        toggle_id = f"repo-toggle-{i}"
         tab_btns.append(
             f'<button type="button" class="repo-tab" role="tab" id="{tab_id}" '
             f'aria-selected="{selected}" aria-controls="{panel_id}" data-tab-index="{i}">'
             f'{esc(label)}</button>'
         )
         max_week = max((r["week"] for r in repos), default=1) or 1
+        n = len(repos)
         if repos:
-            cards = "\n\n".join(render_repo_card(j + 1, r, max_week) for j, r in enumerate(repos))
-            body = f'<ol class="cards">\n\n{cards}\n\n    </ol>'
+            cards = "\n\n".join(
+                render_repo_card(j + 1, r, max_week, extra=(j >= REPO_DEFAULT_VISIBLE))
+                for j, r in enumerate(repos)
+            )
+            collapsed_cls = " is-collapsed" if n > REPO_DEFAULT_VISIBLE else ""
+            body = f'<ol class="cards{collapsed_cls}" id="{list_id}">\n\n{cards}\n\n    </ol>'
+            if n > REPO_DEFAULT_VISIBLE:
+                body += (
+                    f'\n    <div class="news-toggle-wrap">\n'
+                    f'      <button type="button" class="news-toggle" id="{toggle_id}" '
+                    f'aria-expanded="false" aria-controls="{list_id}">展开更多</button>\n'
+                    f'    </div>'
+                )
         else:
             body = '<p class="repo-empty">本周该分类暂无足够条目。</p>'
         hidden = "" if i == 0 else " hidden"
@@ -1845,17 +1865,64 @@ def render_repo_section(tabs: dict[str, list[dict]]) -> str:
             f'aria-labelledby="{tab_id}"{hidden}>\n{body}\n    </div>'
         )
 
-    script = '\n      <script>\n      (function () {\n        var tabs = Array.prototype.slice.call(document.querySelectorAll("#repo-tabs .repo-tab"));\n        var panels = Array.prototype.slice.call(document.querySelectorAll(".repo-panel"));\n        if (!tabs.length) return;\n        function activate(idx) {\n          tabs.forEach(function (btn, i) {\n            var on = i === idx;\n            btn.setAttribute("aria-selected", on ? "true" : "false");\n            if (panels[i]) {\n              if (on) panels[i].removeAttribute("hidden");\n              else panels[i].setAttribute("hidden", "");\n            }\n          });\n        }\n        tabs.forEach(function (btn) {\n          btn.addEventListener("click", function () {\n            activate(parseInt(btn.getAttribute("data-tab-index"), 10) || 0);\n          });\n        });\n      })();\n      </script>'
+    script = """
+      <script>
+      (function () {
+        var tabs = Array.prototype.slice.call(document.querySelectorAll("#repo-tabs .repo-tab"));
+        var panels = Array.prototype.slice.call(document.querySelectorAll(".repo-panel"));
+        if (!tabs.length) return;
+        function collapsePanel(panel) {
+          if (!panel) return;
+          var list = panel.querySelector("ol.cards");
+          var btn = panel.querySelector(".news-toggle");
+          if (list) list.classList.add("is-collapsed");
+          if (btn) {
+            btn.setAttribute("aria-expanded", "false");
+            btn.textContent = "展开更多";
+          }
+        }
+        function activate(idx) {
+          tabs.forEach(function (btn, i) {
+            var on = i === idx;
+            btn.setAttribute("aria-selected", on ? "true" : "false");
+            if (panels[i]) {
+              if (on) panels[i].removeAttribute("hidden");
+              else panels[i].setAttribute("hidden", "");
+            }
+          });
+          panels.forEach(collapsePanel);
+        }
+        tabs.forEach(function (btn) {
+          btn.addEventListener("click", function () {
+            activate(parseInt(btn.getAttribute("data-tab-index"), 10) || 0);
+          });
+        });
+        panels.forEach(function (panel) {
+          var list = panel.querySelector("ol.cards");
+          var btn = panel.querySelector(".news-toggle");
+          if (!btn || !list) return;
+          btn.addEventListener("click", function () {
+            var collapsed = list.classList.toggle("is-collapsed");
+            btn.setAttribute("aria-expanded", collapsed ? "false" : "true");
+            btn.textContent = collapsed ? "展开更多" : "收起";
+            if (collapsed) {
+              panel.scrollIntoView({ behavior: "smooth", block: "start" });
+            }
+          });
+        });
+      })();
+      </script>"""
 
     return f'''    <div class="section-head" style="margin-top:1.15rem;margin-bottom:0">
       <h2>AI 周榜仓库</h2>
-      <span class="section-meta">总榜 + 分榜 · 按本周新增星标 · 可多榜</span>
+      <span class="section-meta">总榜 + 分榜 · 按本周新增星标 · 可多榜 · 默认前 3 · 可展开至 10</span>
     </div>
     <div class="repo-tabs" id="repo-tabs" role="tablist" aria-label="仓库分榜">
       {chr(10).join("      " + b for b in tab_btns)}
     </div>
 {chr(10).join(panels)}
 {script}'''
+
 
 
 def render_page(tabs: dict[str, list[dict]], news_html: str, used_fallback: bool, type_fallback: bool, merge_fallback: bool = False) -> str:
@@ -1868,7 +1935,7 @@ def render_page(tabs: dict[str, list[dict]], news_html: str, used_fallback: bool
     if type_fallback:
         foot_extra += " · <strong>分类降级</strong>"
     return f'''<!DOCTYPE html>
-<!-- cache-bust: title-nocnt-0015 -->
+<!-- cache-bust: repo-default3-0017 -->
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8" />
@@ -1903,7 +1970,7 @@ def render_page(tabs: dict[str, list[dict]], news_html: str, used_fallback: bool
 {repo_html}
 
     <footer class="foot">
-      <p>最新页始终等于当天 AI 周榜日快照。往期见 <a href="history.html" target="_blank" rel="noopener noreferrer">往期速览</a>。数据抓取时间：{TODAY.isoformat()}（Asia/Shanghai）。资讯分「24 小时」「近 7 天」两窗、各按资讯束重要度排序（ADR 0013/0014）；仓库分榜见 ADR 0012{foot_extra}。</p>
+      <p>最新页始终等于当天 AI 周榜日快照。往期见 <a href="history.html" target="_blank" rel="noopener noreferrer">往期速览</a>。数据抓取时间：{TODAY.isoformat()}（Asia/Shanghai）。资讯分「24 小时」「近 7 天」两窗、各按资讯束重要度排序（ADR 0013/0014）；仓库分榜见 ADR 0012/0017{foot_extra}。</p>
     </footer>
   </div>
 </body>

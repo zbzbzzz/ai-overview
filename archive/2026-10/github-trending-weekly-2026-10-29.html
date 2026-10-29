@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- cache-bust: title-nocnt-0015 -->
+<!-- cache-bust: repo-default3-0017 -->
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8" />
@@ -432,6 +432,7 @@ h1 {
   border: 0;
 }
 .news-list.is-collapsed .news-card.news-extra { display: none; }
+.cards.is-collapsed .card.repo-extra { display: none; }
 .news-toggle-wrap {
   display: flex;
   justify-content: center;
@@ -523,7 +524,7 @@ h1 {
         <button type="button" class="repo-tab news-tab" role="tab" id="news-tab-7d" aria-selected="false" aria-controls="news-panel-7d" data-tab-index="1">近 7 天</button>
       </div>
       <div class="news-panel" role="tabpanel" id="news-panel-24h" aria-labelledby="news-tab-24h">
-        <span class="section-meta">近 24 小时（10-28 06:07 ~ 10-29 06:07）· 按重要度 Top 10 · 雷达 archive · AI 多源 · 候选 69 束 · 资讯束 · 雷达 2026-10-29 05:40 北京时间 · <a href="https://news.learnprompt.pro" target="_blank" rel="noopener noreferrer">news.learnprompt.pro</a> · 默认 3 条（重点） · 可展开至 10 条</span>
+        <span class="section-meta">近 24 小时（10-28 09:39 ~ 10-29 09:39）· 按重要度 Top 10 · 雷达 archive · AI 多源 · 候选 61 束 · 资讯束 · 雷达 2026-10-29 05:40 北京时间 · <a href="https://news.learnprompt.pro" target="_blank" rel="noopener noreferrer">news.learnprompt.pro</a> · 默认 3 条（重点） · 可展开至 10 条</span>
       <ol class="news-list is-collapsed" id="news-list-24h">
       <li class="news-card">
         <div class="news-card-head">
@@ -1164,7 +1165,7 @@ h1 {
 
     <div class="section-head" style="margin-top:1.15rem;margin-bottom:0">
       <h2>AI 周榜仓库</h2>
-      <span class="section-meta">总榜 + 分榜 · 按本周新增星标 · 可多榜</span>
+      <span class="section-meta">总榜 + 分榜 · 按本周新增星标 · 可多榜 · 默认前 3 · 可展开至 10</span>
     </div>
     <div class="repo-tabs" id="repo-tabs" role="tablist" aria-label="仓库分榜">
             <button type="button" class="repo-tab" role="tab" id="repo-tab-0" aria-selected="true" aria-controls="repo-panel-0" data-tab-index="0">总榜</button>
@@ -1176,7 +1177,7 @@ h1 {
       <button type="button" class="repo-tab" role="tab" id="repo-tab-6" aria-selected="false" aria-controls="repo-panel-6" data-tab-index="6">数据与评测</button>
     </div>
 <div class="repo-panel" role="tabpanel" id="repo-panel-0" aria-labelledby="repo-tab-0">
-<ol class="cards">
+<ol class="cards is-collapsed" id="repo-list-0">
 
       <li class="card">
         <div class="card-head">
@@ -1253,7 +1254,7 @@ h1 {
         </div>
       </li>
 
-      <li class="card">
+      <li class="card repo-extra">
         <div class="card-head">
           <span class="rank" aria-hidden="true">04</span>
           <div class="card-title">
@@ -1278,7 +1279,7 @@ h1 {
         </div>
       </li>
 
-      <li class="card">
+      <li class="card repo-extra">
         <div class="card-head">
           <span class="rank" aria-hidden="true">05</span>
           <div class="card-title">
@@ -1303,7 +1304,7 @@ h1 {
         </div>
       </li>
 
-      <li class="card">
+      <li class="card repo-extra">
         <div class="card-head">
           <span class="rank" aria-hidden="true">06</span>
           <div class="card-title">
@@ -1328,7 +1329,7 @@ h1 {
         </div>
       </li>
 
-      <li class="card">
+      <li class="card repo-extra">
         <div class="card-head">
           <span class="rank" aria-hidden="true">07</span>
           <div class="card-title">
@@ -1353,7 +1354,7 @@ h1 {
         </div>
       </li>
 
-      <li class="card">
+      <li class="card repo-extra">
         <div class="card-head">
           <span class="rank" aria-hidden="true">08</span>
           <div class="card-title">
@@ -1378,7 +1379,7 @@ h1 {
         </div>
       </li>
 
-      <li class="card">
+      <li class="card repo-extra">
         <div class="card-head">
           <span class="rank" aria-hidden="true">09</span>
           <div class="card-title">
@@ -1403,7 +1404,7 @@ h1 {
         </div>
       </li>
 
-      <li class="card">
+      <li class="card repo-extra">
         <div class="card-head">
           <span class="rank" aria-hidden="true">10</span>
           <div class="card-title">
@@ -1429,9 +1430,12 @@ h1 {
       </li>
 
     </ol>
+    <div class="news-toggle-wrap">
+      <button type="button" class="news-toggle" id="repo-toggle-0" aria-expanded="false" aria-controls="repo-list-0">展开更多</button>
+    </div>
     </div>
 <div class="repo-panel" role="tabpanel" id="repo-panel-1" aria-labelledby="repo-tab-1" hidden>
-<ol class="cards">
+<ol class="cards is-collapsed" id="repo-list-1">
 
       <li class="card">
         <div class="card-head">
@@ -1508,7 +1512,7 @@ h1 {
         </div>
       </li>
 
-      <li class="card">
+      <li class="card repo-extra">
         <div class="card-head">
           <span class="rank" aria-hidden="true">04</span>
           <div class="card-title">
@@ -1533,7 +1537,7 @@ h1 {
         </div>
       </li>
 
-      <li class="card">
+      <li class="card repo-extra">
         <div class="card-head">
           <span class="rank" aria-hidden="true">05</span>
           <div class="card-title">
@@ -1558,7 +1562,7 @@ h1 {
         </div>
       </li>
 
-      <li class="card">
+      <li class="card repo-extra">
         <div class="card-head">
           <span class="rank" aria-hidden="true">06</span>
           <div class="card-title">
@@ -1583,7 +1587,7 @@ h1 {
         </div>
       </li>
 
-      <li class="card">
+      <li class="card repo-extra">
         <div class="card-head">
           <span class="rank" aria-hidden="true">07</span>
           <div class="card-title">
@@ -1608,7 +1612,7 @@ h1 {
         </div>
       </li>
 
-      <li class="card">
+      <li class="card repo-extra">
         <div class="card-head">
           <span class="rank" aria-hidden="true">08</span>
           <div class="card-title">
@@ -1633,7 +1637,7 @@ h1 {
         </div>
       </li>
 
-      <li class="card">
+      <li class="card repo-extra">
         <div class="card-head">
           <span class="rank" aria-hidden="true">09</span>
           <div class="card-title">
@@ -1658,7 +1662,7 @@ h1 {
         </div>
       </li>
 
-      <li class="card">
+      <li class="card repo-extra">
         <div class="card-head">
           <span class="rank" aria-hidden="true">10</span>
           <div class="card-title">
@@ -1684,9 +1688,12 @@ h1 {
       </li>
 
     </ol>
+    <div class="news-toggle-wrap">
+      <button type="button" class="news-toggle" id="repo-toggle-1" aria-expanded="false" aria-controls="repo-list-1">展开更多</button>
+    </div>
     </div>
 <div class="repo-panel" role="tabpanel" id="repo-panel-2" aria-labelledby="repo-tab-2" hidden>
-<ol class="cards">
+<ol class="cards is-collapsed" id="repo-list-2">
 
       <li class="card">
         <div class="card-head">
@@ -1763,7 +1770,7 @@ h1 {
         </div>
       </li>
 
-      <li class="card">
+      <li class="card repo-extra">
         <div class="card-head">
           <span class="rank" aria-hidden="true">04</span>
           <div class="card-title">
@@ -1788,7 +1795,7 @@ h1 {
         </div>
       </li>
 
-      <li class="card">
+      <li class="card repo-extra">
         <div class="card-head">
           <span class="rank" aria-hidden="true">05</span>
           <div class="card-title">
@@ -1813,7 +1820,7 @@ h1 {
         </div>
       </li>
 
-      <li class="card">
+      <li class="card repo-extra">
         <div class="card-head">
           <span class="rank" aria-hidden="true">06</span>
           <div class="card-title">
@@ -1838,7 +1845,7 @@ h1 {
         </div>
       </li>
 
-      <li class="card">
+      <li class="card repo-extra">
         <div class="card-head">
           <span class="rank" aria-hidden="true">07</span>
           <div class="card-title">
@@ -1863,7 +1870,7 @@ h1 {
         </div>
       </li>
 
-      <li class="card">
+      <li class="card repo-extra">
         <div class="card-head">
           <span class="rank" aria-hidden="true">08</span>
           <div class="card-title">
@@ -1888,7 +1895,7 @@ h1 {
         </div>
       </li>
 
-      <li class="card">
+      <li class="card repo-extra">
         <div class="card-head">
           <span class="rank" aria-hidden="true">09</span>
           <div class="card-title">
@@ -1913,7 +1920,7 @@ h1 {
         </div>
       </li>
 
-      <li class="card">
+      <li class="card repo-extra">
         <div class="card-head">
           <span class="rank" aria-hidden="true">10</span>
           <div class="card-title">
@@ -1939,9 +1946,12 @@ h1 {
       </li>
 
     </ol>
+    <div class="news-toggle-wrap">
+      <button type="button" class="news-toggle" id="repo-toggle-2" aria-expanded="false" aria-controls="repo-list-2">展开更多</button>
+    </div>
     </div>
 <div class="repo-panel" role="tabpanel" id="repo-panel-3" aria-labelledby="repo-tab-3" hidden>
-<ol class="cards">
+<ol class="cards is-collapsed" id="repo-list-3">
 
       <li class="card">
         <div class="card-head">
@@ -2018,7 +2028,7 @@ h1 {
         </div>
       </li>
 
-      <li class="card">
+      <li class="card repo-extra">
         <div class="card-head">
           <span class="rank" aria-hidden="true">04</span>
           <div class="card-title">
@@ -2043,7 +2053,7 @@ h1 {
         </div>
       </li>
 
-      <li class="card">
+      <li class="card repo-extra">
         <div class="card-head">
           <span class="rank" aria-hidden="true">05</span>
           <div class="card-title">
@@ -2068,7 +2078,7 @@ h1 {
         </div>
       </li>
 
-      <li class="card">
+      <li class="card repo-extra">
         <div class="card-head">
           <span class="rank" aria-hidden="true">06</span>
           <div class="card-title">
@@ -2093,7 +2103,7 @@ h1 {
         </div>
       </li>
 
-      <li class="card">
+      <li class="card repo-extra">
         <div class="card-head">
           <span class="rank" aria-hidden="true">07</span>
           <div class="card-title">
@@ -2118,7 +2128,7 @@ h1 {
         </div>
       </li>
 
-      <li class="card">
+      <li class="card repo-extra">
         <div class="card-head">
           <span class="rank" aria-hidden="true">08</span>
           <div class="card-title">
@@ -2143,7 +2153,7 @@ h1 {
         </div>
       </li>
 
-      <li class="card">
+      <li class="card repo-extra">
         <div class="card-head">
           <span class="rank" aria-hidden="true">09</span>
           <div class="card-title">
@@ -2168,7 +2178,7 @@ h1 {
         </div>
       </li>
 
-      <li class="card">
+      <li class="card repo-extra">
         <div class="card-head">
           <span class="rank" aria-hidden="true">10</span>
           <div class="card-title">
@@ -2194,9 +2204,12 @@ h1 {
       </li>
 
     </ol>
+    <div class="news-toggle-wrap">
+      <button type="button" class="news-toggle" id="repo-toggle-3" aria-expanded="false" aria-controls="repo-list-3">展开更多</button>
+    </div>
     </div>
 <div class="repo-panel" role="tabpanel" id="repo-panel-4" aria-labelledby="repo-tab-4" hidden>
-<ol class="cards">
+<ol class="cards is-collapsed" id="repo-list-4">
 
       <li class="card">
         <div class="card-head">
@@ -2273,7 +2286,7 @@ h1 {
         </div>
       </li>
 
-      <li class="card">
+      <li class="card repo-extra">
         <div class="card-head">
           <span class="rank" aria-hidden="true">04</span>
           <div class="card-title">
@@ -2298,7 +2311,7 @@ h1 {
         </div>
       </li>
 
-      <li class="card">
+      <li class="card repo-extra">
         <div class="card-head">
           <span class="rank" aria-hidden="true">05</span>
           <div class="card-title">
@@ -2323,7 +2336,7 @@ h1 {
         </div>
       </li>
 
-      <li class="card">
+      <li class="card repo-extra">
         <div class="card-head">
           <span class="rank" aria-hidden="true">06</span>
           <div class="card-title">
@@ -2348,7 +2361,7 @@ h1 {
         </div>
       </li>
 
-      <li class="card">
+      <li class="card repo-extra">
         <div class="card-head">
           <span class="rank" aria-hidden="true">07</span>
           <div class="card-title">
@@ -2373,7 +2386,7 @@ h1 {
         </div>
       </li>
 
-      <li class="card">
+      <li class="card repo-extra">
         <div class="card-head">
           <span class="rank" aria-hidden="true">08</span>
           <div class="card-title">
@@ -2398,7 +2411,7 @@ h1 {
         </div>
       </li>
 
-      <li class="card">
+      <li class="card repo-extra">
         <div class="card-head">
           <span class="rank" aria-hidden="true">09</span>
           <div class="card-title">
@@ -2423,7 +2436,7 @@ h1 {
         </div>
       </li>
 
-      <li class="card">
+      <li class="card repo-extra">
         <div class="card-head">
           <span class="rank" aria-hidden="true">10</span>
           <div class="card-title">
@@ -2449,9 +2462,12 @@ h1 {
       </li>
 
     </ol>
+    <div class="news-toggle-wrap">
+      <button type="button" class="news-toggle" id="repo-toggle-4" aria-expanded="false" aria-controls="repo-list-4">展开更多</button>
+    </div>
     </div>
 <div class="repo-panel" role="tabpanel" id="repo-panel-5" aria-labelledby="repo-tab-5" hidden>
-<ol class="cards">
+<ol class="cards is-collapsed" id="repo-list-5">
 
       <li class="card">
         <div class="card-head">
@@ -2528,7 +2544,7 @@ h1 {
         </div>
       </li>
 
-      <li class="card">
+      <li class="card repo-extra">
         <div class="card-head">
           <span class="rank" aria-hidden="true">04</span>
           <div class="card-title">
@@ -2553,7 +2569,7 @@ h1 {
         </div>
       </li>
 
-      <li class="card">
+      <li class="card repo-extra">
         <div class="card-head">
           <span class="rank" aria-hidden="true">05</span>
           <div class="card-title">
@@ -2578,7 +2594,7 @@ h1 {
         </div>
       </li>
 
-      <li class="card">
+      <li class="card repo-extra">
         <div class="card-head">
           <span class="rank" aria-hidden="true">06</span>
           <div class="card-title">
@@ -2603,7 +2619,7 @@ h1 {
         </div>
       </li>
 
-      <li class="card">
+      <li class="card repo-extra">
         <div class="card-head">
           <span class="rank" aria-hidden="true">07</span>
           <div class="card-title">
@@ -2628,7 +2644,7 @@ h1 {
         </div>
       </li>
 
-      <li class="card">
+      <li class="card repo-extra">
         <div class="card-head">
           <span class="rank" aria-hidden="true">08</span>
           <div class="card-title">
@@ -2653,7 +2669,7 @@ h1 {
         </div>
       </li>
 
-      <li class="card">
+      <li class="card repo-extra">
         <div class="card-head">
           <span class="rank" aria-hidden="true">09</span>
           <div class="card-title">
@@ -2678,7 +2694,7 @@ h1 {
         </div>
       </li>
 
-      <li class="card">
+      <li class="card repo-extra">
         <div class="card-head">
           <span class="rank" aria-hidden="true">10</span>
           <div class="card-title">
@@ -2704,9 +2720,12 @@ h1 {
       </li>
 
     </ol>
+    <div class="news-toggle-wrap">
+      <button type="button" class="news-toggle" id="repo-toggle-5" aria-expanded="false" aria-controls="repo-list-5">展开更多</button>
+    </div>
     </div>
 <div class="repo-panel" role="tabpanel" id="repo-panel-6" aria-labelledby="repo-tab-6" hidden>
-<ol class="cards">
+<ol class="cards is-collapsed" id="repo-list-6">
 
       <li class="card">
         <div class="card-head">
@@ -2783,7 +2802,7 @@ h1 {
         </div>
       </li>
 
-      <li class="card">
+      <li class="card repo-extra">
         <div class="card-head">
           <span class="rank" aria-hidden="true">04</span>
           <div class="card-title">
@@ -2808,7 +2827,7 @@ h1 {
         </div>
       </li>
 
-      <li class="card">
+      <li class="card repo-extra">
         <div class="card-head">
           <span class="rank" aria-hidden="true">05</span>
           <div class="card-title">
@@ -2833,7 +2852,7 @@ h1 {
         </div>
       </li>
 
-      <li class="card">
+      <li class="card repo-extra">
         <div class="card-head">
           <span class="rank" aria-hidden="true">06</span>
           <div class="card-title">
@@ -2858,7 +2877,7 @@ h1 {
         </div>
       </li>
 
-      <li class="card">
+      <li class="card repo-extra">
         <div class="card-head">
           <span class="rank" aria-hidden="true">07</span>
           <div class="card-title">
@@ -2883,7 +2902,7 @@ h1 {
         </div>
       </li>
 
-      <li class="card">
+      <li class="card repo-extra">
         <div class="card-head">
           <span class="rank" aria-hidden="true">08</span>
           <div class="card-title">
@@ -2908,7 +2927,7 @@ h1 {
         </div>
       </li>
 
-      <li class="card">
+      <li class="card repo-extra">
         <div class="card-head">
           <span class="rank" aria-hidden="true">09</span>
           <div class="card-title">
@@ -2933,7 +2952,7 @@ h1 {
         </div>
       </li>
 
-      <li class="card">
+      <li class="card repo-extra">
         <div class="card-head">
           <span class="rank" aria-hidden="true">10</span>
           <div class="card-title">
@@ -2959,6 +2978,9 @@ h1 {
       </li>
 
     </ol>
+    <div class="news-toggle-wrap">
+      <button type="button" class="news-toggle" id="repo-toggle-6" aria-expanded="false" aria-controls="repo-list-6">展开更多</button>
+    </div>
     </div>
 
       <script>
@@ -2966,6 +2988,16 @@ h1 {
         var tabs = Array.prototype.slice.call(document.querySelectorAll("#repo-tabs .repo-tab"));
         var panels = Array.prototype.slice.call(document.querySelectorAll(".repo-panel"));
         if (!tabs.length) return;
+        function collapsePanel(panel) {
+          if (!panel) return;
+          var list = panel.querySelector("ol.cards");
+          var btn = panel.querySelector(".news-toggle");
+          if (list) list.classList.add("is-collapsed");
+          if (btn) {
+            btn.setAttribute("aria-expanded", "false");
+            btn.textContent = "展开更多";
+          }
+        }
         function activate(idx) {
           tabs.forEach(function (btn, i) {
             var on = i === idx;
@@ -2975,17 +3007,31 @@ h1 {
               else panels[i].setAttribute("hidden", "");
             }
           });
+          panels.forEach(collapsePanel);
         }
         tabs.forEach(function (btn) {
           btn.addEventListener("click", function () {
             activate(parseInt(btn.getAttribute("data-tab-index"), 10) || 0);
           });
         });
+        panels.forEach(function (panel) {
+          var list = panel.querySelector("ol.cards");
+          var btn = panel.querySelector(".news-toggle");
+          if (!btn || !list) return;
+          btn.addEventListener("click", function () {
+            var collapsed = list.classList.toggle("is-collapsed");
+            btn.setAttribute("aria-expanded", collapsed ? "false" : "true");
+            btn.textContent = collapsed ? "展开更多" : "收起";
+            if (collapsed) {
+              panel.scrollIntoView({ behavior: "smooth", block: "start" });
+            }
+          });
+        });
       })();
       </script>
 
     <footer class="foot">
-      <p>最新页始终等于当天 AI 周榜日快照。往期见 <a href="history.html" target="_blank" rel="noopener noreferrer">往期速览</a>。数据抓取时间：2026-10-29（Asia/Shanghai）。资讯分「24 小时」「近 7 天」两窗、各按资讯束重要度排序（ADR 0013/0014）；仓库分榜见 ADR 0012。</p>
+      <p>最新页始终等于当天 AI 周榜日快照。往期见 <a href="history.html" target="_blank" rel="noopener noreferrer">往期速览</a>。数据抓取时间：2026-10-29（Asia/Shanghai）。资讯分「24 小时」「近 7 天」两窗、各按资讯束重要度排序（ADR 0013/0014）；仓库分榜见 ADR 0012/0017。</p>
     </footer>
   </div>
 </body>
