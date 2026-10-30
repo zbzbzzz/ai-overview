@@ -1,5 +1,544 @@
 [
   {
+    "id": "eve-mistral-large4",
+    "title": "Mistral 发布 Large 4：约万亿参数开源权重，瞄准性价比与网络安全",
+    "url": "https://mistral.ai/news/mistral-large-4-oss",
+    "date": "2026-10-30",
+    "meta": "",
+    "bullets": [
+      "Mistral 放出旗舰 Large 4 开源权重，报道称约万亿参数量级。",
+      "多家媒体称其以更少 token 打平顶级性能，并强调网络安全等场景。",
+      "属欧洲开源旗舰路线的新一波发布，可本地或云端部署。"
+    ],
+    "links": [
+      {
+        "label": "Mistral",
+        "title": "Mistral Large 4（Le Chonk）现已开放不限体重组别",
+        "url": "https://mistral.ai/news/mistral-large-4-oss",
+        "date": "2026-10-29",
+        "same_event": true
+      },
+      {
+        "label": "AIBase",
+        "title": "万亿参数开源模型Mistral Large4 登场：用更少Token打平顶级性能",
+        "url": "https://www.aibase.com/news/31986",
+        "date": "2026-10-30",
+        "same_event": true
+      },
+      {
+        "label": "AIBase",
+        "title": "Mistral 把旗舰甩进开源池：1T 参数的 Large 4 权重免费放出",
+        "url": "https://www.aibase.com/news/31973",
+        "date": "2026-10-30",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 90,
+      "actionable": 82,
+      "heat": 67,
+      "breadth": 85
+    },
+    "heat": 67,
+    "heat_signals": {
+      "reports": 3,
+      "domains": 2,
+      "x_posts_7d": 2106,
+      "x_spike_7d": 1911.0
+    },
+    "score": 82.5
+  },
+  {
+    "id": "eve-claude-carplay",
+    "title": "Anthropic Claude 正式支持 Apple CarPlay：开车可用语音问 AI",
+    "url": "https://www.aibase.com/news/31982",
+    "date": "2026-10-30",
+    "meta": "",
+    "bullets": [
+      "Claude 多端应用升级，iPhone 版正式支持 CarPlay 语音交互。",
+      "开车时可直接语音提问，双手不用离开方向盘。",
+      "属 Anthropic 消费端入口扩展，补齐车载场景。"
+    ],
+    "links": [
+      {
+        "label": "AIBase",
+        "title": "Claude 开进车里：CarPlay 接入后，开车也能语音问 AI",
+        "url": "https://www.aibase.com/news/31982",
+        "date": "2026-10-30",
+        "same_event": true
+      },
+      {
+        "label": "AIBase",
+        "title": "Claude多端应用迎来重磅升级，iPhone版正式支持CarPlay语音交互",
+        "url": "https://www.aibase.com/news/31985",
+        "date": "2026-10-30",
+        "same_event": true
+      },
+      {
+        "label": "Follow Builders",
+        "title": "iPhone 上的语音模式现已支持 Apple CarPlay。开车时可以直接问 Claude，双手不用离开方向盘。",
+        "url": "https://x.com/claudeai/status/2115859388191912193",
+        "date": "2026-10-30",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 78,
+      "actionable": 80,
+      "heat": 52,
+      "breadth": 75
+    },
+    "heat": 52,
+    "heat_signals": {
+      "reports": 3,
+      "domains": 2,
+      "x_posts_7d": 180,
+      "x_spike_7d": 150.0
+    },
+    "score": 73.1
+  },
+  {
+    "id": "eve-openai-pro-double",
+    "title": "OpenAI 将 ChatGPT Pro 用量上限翻倍，回应额度争议并加剧与 Anthropic 竞争",
+    "url": "https://www.aibase.com/news/31974",
+    "date": "2026-10-30",
+    "meta": "",
+    "bullets": [
+      "OpenAI 宣布 Pro 订阅用量上限翻倍，此前削减额度的计划被撤回。",
+      "媒体将其解读为与 Anthropic 竞争升温下的「服软」调整。",
+      "对重度用户与 Agent 场景直接改善可用时长。"
+    ],
+    "links": [
+      {
+        "label": "AIBase",
+        "title": "OpenAI\"服软\"：Pro订阅额度翻倍，砍半计划一夜撤回",
+        "url": "https://www.aibase.com/news/31974",
+        "date": "2026-10-30",
+        "same_event": true
+      },
+      {
+        "label": "Curated Media",
+        "title": "OpenAI将Pro套餐用量上限翻倍，与Anthropic的竞争持续升温",
+        "url": "https://the-decoder.com/openai-doubles-usage-limits-on-pro-plans-as-competition-with-anthropic-heats-up",
+        "date": "2026-10-30",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 84,
+      "actionable": 86,
+      "heat": 56,
+      "breadth": 80
+    },
+    "heat": 56,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 1135,
+      "x_spike_7d": 977.5
+    },
+    "score": 78.6
+  },
+  {
+    "id": "eve-google-ai-ads",
+    "title": "Google 市值大幅回撤：AI 搜索概要冲击广告变现，华尔街担忧加剧",
+    "url": "https://www.aibase.com/news/31972",
+    "date": "2026-10-30",
+    "meta": "",
+    "bullets": [
+      "受 AI 搜索概要分流传统点击影响，Google 搜索广告增长不及预期，市值显著回撤。",
+      "同日 Reddit 等开放网络标的亦承压，市场担忧 AI 摘要冲击广告模式。",
+      "这是 AI 产品化进入变现博弈阶段的重要信号，影响广告主与内容平台。"
+    ],
+    "links": [
+      {
+        "label": "AIBase",
+        "title": "谷歌AI搜索冲击广告业务，第三季度搜索广告收入不及预期",
+        "url": "https://www.aibase.com/news/31972",
+        "date": "2026-10-30",
+        "same_event": true
+      },
+      {
+        "label": "AIHot",
+        "title": "Google 市值蒸发 5000 亿美元，AI 概要冲击搜索广告引发华尔街担忧",
+        "url": "https://www.bbc.com/news/articles/cm9qzdqpxy48o",
+        "date": "2026-10-30",
+        "same_event": true
+      },
+      {
+        "label": "AIHot",
+        "title": "Google 与 Reddit 同日股价大跌，AI 搜索变现困境冲击开放网络",
+        "url": "https://www.platformer.news/thursday-newsletter-6",
+        "date": "2026-10-30",
+        "same_event": true
+      },
+      {
+        "label": "Buzzing",
+        "title": "谷歌5000亿美元的“血洗”反映了其面临的人工智能带来的威胁",
+        "url": "https://www.economist.com/business/2026/10/29/googles-500bn-bloodbath-reflects-the-danger-it-faces-from-ai",
+        "date": "2026-10-30",
+        "same_event": true
+      },
+      {
+        "label": "TechURLs",
+        "title": "Google市值暴跌5000亿美元，AI恐慌情绪震动华尔街",
+        "url": "https://www.bbc.co.uk/news/articles/cm9qzdqpxy48o?at_medium=RSS&at_campaign=rss",
+        "date": "2026-10-30",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 92,
+      "actionable": 55,
+      "heat": 79,
+      "breadth": 88
+    },
+    "heat": 79,
+    "heat_signals": {
+      "reports": 5,
+      "domains": 5,
+      "x_posts_7d": 771,
+      "x_spike_7d": 381.0
+    },
+    "score": 77.9
+  },
+  {
+    "id": "eve-neuralink-grok",
+    "title": "Neuralink 脑机接口接入 Grok：患者可用意念唤醒 AI",
+    "url": "https://www.aibase.com/news/31984",
+    "date": "2026-10-30",
+    "meta": "",
+    "bullets": [
+      "报道称 Neuralink 脑机接口迎来升级，患者可直接用意念唤醒 Grok。",
+      "把植入式 BCI 与对话模型打通，拓展残障辅助与人机交互场景。",
+      "仍属早期临床/体验向进展，但象征意义强。"
+    ],
+    "links": [
+      {
+        "label": "AIBase",
+        "title": "Neuralink脑机接口迎来最强升级：Grok接入大脑，患者用意念直接唤醒AI",
+        "url": "https://www.aibase.com/news/31984",
+        "date": "2026-10-30",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 80,
+      "actionable": 48,
+      "heat": 45,
+      "breadth": 70
+    },
+    "heat": 45,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 1555,
+      "x_spike_7d": 625.0
+    },
+    "score": 62.4
+  },
+  {
+    "id": "eve-kimi-google-workspace",
+    "title": "月之暗面 Kimi 正式接入 Gmail、Google 云端硬盘与日历",
+    "url": "https://www.aibase.com/news/31977",
+    "date": "2026-10-30",
+    "meta": "",
+    "bullets": [
+      "Kimi 宣布接入谷歌 Gmail、云端硬盘与日历，打通办公邮件与日程上下文。",
+      "对需要跨工具读写的 Agent 工作流是直接可动手点。",
+      "延续 K3.1 Pro 发布后的产品生态扩展。"
+    ],
+    "links": [
+      {
+        "label": "AIBase",
+        "title": "月之暗面宣布Kimi正式接入谷歌Gmail、云端硬盘与日历",
+        "url": "https://www.aibase.com/news/31977",
+        "date": "2026-10-30",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 76,
+      "actionable": 84,
+      "heat": 35,
+      "breadth": 72
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 220,
+      "x_spike_7d": 137.5
+    },
+    "score": 69.8
+  },
+  {
+    "id": "eve-openai-misalignment",
+    "title": "OpenAI 详解如何检测前沿模型失准行为",
+    "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+    "date": "2026-10-30",
+    "meta": "",
+    "bullets": [
+      "OpenAI 发布文章，介绍检测前沿模型 misalignment（失准）行为的方法与流程。",
+      "对安全评测、红队与部署门禁有直接参考价值。",
+      "属 Model Spec 更新同期的安全治理配套披露。"
+    ],
+    "links": [
+      {
+        "label": "Official AI",
+        "title": "OpenAI 详解如何检测前沿模型失准行为",
+        "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+        "date": "2026-10-29",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 82,
+      "actionable": 78,
+      "heat": 30,
+      "breadth": 70
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 28,
+      "x_spike_7d": 28.0
+    },
+    "score": 69.2
+  },
+  {
+    "id": "eve-tencent-marvis",
+    "title": "腾讯 Marvis 上线 Coding 管家：可远程调用桌面 AI 编程工具",
+    "url": "https://www.aibase.com/news/31981",
+    "date": "2026-10-30",
+    "meta": "",
+    "bullets": [
+      "腾讯 Marvis 推出 Coding 管家，支持远程调用桌面侧 AI 编程工具。",
+      "把云端助手与本地 IDE/Agent 打通，面向移动办公编码场景。",
+      "国产大厂 Agent 产品线的又一落地尝试。"
+    ],
+    "links": [
+      {
+        "label": "AIBase",
+        "title": "腾讯Marvis上线 Coding 管家  远程调用桌面AI工具",
+        "url": "https://www.aibase.com/news/31981",
+        "date": "2026-10-30",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 72,
+      "actionable": 80,
+      "heat": 30,
+      "breadth": 65
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 9,
+      "x_spike_7d": 1.5
+    },
+    "score": 65.3
+  },
+  {
+    "id": "eve-anthropic-spacex-rev",
+    "title": "消息称 Anthropic 贡献 SpaceX 超三分之一营收，合同潜在总额超 1200 亿美元",
+    "url": "https://www.aibase.com/news/31968",
+    "date": "2026-10-30",
+    "meta": "",
+    "bullets": [
+      "报道称 Anthropic 相关合作占 SpaceX 营收比重很高，潜在合同总额超千亿美元量级。",
+      "折射前沿模型公司对航天/星座算力与商业航天收入结构的影响。",
+      "与 IPO 叙事并行，但属独立商业关系爆料，需持续核实。"
+    ],
+    "links": [
+      {
+        "label": "AIBase",
+        "title": "消息称Anthropic贡献SpaceX超三分之一营收，合同潜在总额超 1200 亿美元",
+        "url": "https://www.aibase.com/news/31968",
+        "date": "2026-10-30",
+        "same_event": true
+      },
+      {
+        "label": "TechURLs",
+        "title": "Anthropic是SpaceX最大客户，贡献其三分之一收入",
+        "url": "https://thenextweb.com/news/anthropic-spacex-largest-customer-customer-b",
+        "date": "2026-10-30",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 85,
+      "actionable": 40,
+      "heat": 66,
+      "breadth": 70
+    },
+    "heat": 66,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 4939,
+      "x_spike_7d": 3671.5
+    },
+    "score": 66.2
+  },
+  {
+    "id": "eve-meta-style-sketch",
+    "title": "Meta 悄然推出 AI 时尚应用 Style Sketch：虚拟衣橱与 AI 试穿",
+    "url": "https://www.aibase.com/news/31969",
+    "date": "2026-10-30",
+    "meta": "",
+    "bullets": [
+      "Meta 推出 Style Sketch，支持虚拟衣橱与 AI 试穿。",
+      "把多模态生成能力落到消费时尚场景。",
+      "属 Meta 消费级 AI 应用的新切口。"
+    ],
+    "links": [
+      {
+        "label": "AIBase",
+        "title": "Meta悄然推出AI时尚应用Style Sketch，支持虚拟衣橱与AI试穿",
+        "url": "https://www.aibase.com/news/31969",
+        "date": "2026-10-30",
+        "same_event": true
+      },
+      {
+        "label": "Curated Media",
+        "title": "Meta 悄然推出名为 Style Sketch 的 AI 时尚应用",
+        "url": "https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch",
+        "date": "2026-10-30",
+        "same_event": true
+      },
+      {
+        "label": "TechURLs",
+        "title": "Meta quietly launches Style Sketch, an AI fashion app that helps users put together outfit ideas using clothes they own, in Indonesia, Singapore, and Thailand (Aisha Malik/TechCrun",
+        "url": "https://www.techmeme.com/261029/p64",
+        "date": "2026-10-30",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 70,
+      "actionable": 72,
+      "heat": 57,
+      "breadth": 68
+    },
+    "heat": 57,
+    "heat_signals": {
+      "reports": 3,
+      "domains": 3,
+      "x_posts_7d": 116,
+      "x_spike_7d": 116.0
+    },
+    "score": 67.8
+  },
+  {
+    "id": "eve-doubao-multi-model",
+    "title": "豆包工作正式接入 DeepSeek、Kimi 与 GLM，企业可一站式采购多模型",
+    "url": "https://www.aibase.com/news/31971",
+    "date": "2026-10-30",
+    "meta": "",
+    "bullets": [
+      "豆包工作开放接入 DeepSeek、Kimi 与 GLM，企业采购可在同一工作台切换。",
+      "降低多模型试用与切换成本，利好国内 Agent/办公场景。",
+      "与字节豆包工作台产品化节奏一致。"
+    ],
+    "links": [
+      {
+        "label": "AIBase",
+        "title": "豆包工作正式接入DeepSeek、Kimi与GLM，企业采购彻底省心了",
+        "url": "https://www.aibase.com/news/31971",
+        "date": "2026-10-30",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 74,
+      "actionable": 82,
+      "heat": 30,
+      "breadth": 70
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 82,
+      "x_spike_7d": 44.5
+    },
+    "score": 67.2
+  },
+  {
+    "id": "eve-google-sleep-cl",
+    "title": "谷歌探索让大模型「睡觉」：缓解边学边忘的持续学习难题",
+    "url": "https://www.aibase.com/news/31989",
+    "date": "2026-10-30",
+    "meta": "",
+    "bullets": [
+      "报道称谷歌研究用类似「睡觉」的机制，缓解大模型持续学习中的灾难性遗忘。",
+      "若落地将影响端侧/在线适应与个性化更新路径。",
+      "属研究向进展，短期以论文/实验为主。"
+    ],
+    "links": [
+      {
+        "label": "AIBase",
+        "title": "AI 学会\"睡觉\"：谷歌想治好大模型边学边忘的老毛病",
+        "url": "https://www.aibase.com/news/31989",
+        "date": "2026-10-30",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 78,
+      "actionable": 55,
+      "heat": 35,
+      "breadth": 72
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 103,
+      "x_spike_7d": 65.5
+    },
+    "score": 61.9
+  },
+  {
+    "id": "eve-epic-ue6-ai",
+    "title": "Epic 披露 UE6 研发引入 Claude 与 Codex：AI 协助清理多年遗留 bug",
+    "url": "https://juejin.cn/post/7701637989949751315",
+    "date": "2026-10-30",
+    "meta": "",
+    "bullets": [
+      "Epic 相关讨论称 Claude 与 Codex 参与 UE6 代码工作，并协助清理长期遗留 bug。",
+      "大型引擎厂商公开承认生产级编码 Agent 介入，具有行业示范意义。",
+      "对游戏与图形工具链的 AI 辅助开发是强信号。"
+    ],
+    "links": [
+      {
+        "label": "NewsNow",
+        "title": "Epic 摊牌了：Claude 和 Codex 在写 UE6 的代码，十年没修掉的 bug 被 AI 扫光",
+        "url": "https://juejin.cn/post/7701637989949751315",
+        "date": "2026-10-30",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 80,
+      "actionable": 70,
+      "heat": 35,
+      "breadth": 68
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 97,
+      "x_spike_7d": 74.5
+    },
+    "score": 66.8
+  },
+  {
     "id": "google-deepmind-发布-gemini-4-carbon-aa-in-918be3",
     "title": "Google DeepMind 发布 Gemini 4 Carbon：AA Index v5.0 登顶的下一代前沿模型",
     "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model",
@@ -86,6 +625,41 @@
         "url": "https://www.techmeme.com/261028/p38",
         "date": "2026-10-29",
         "same_event": true
+      },
+      {
+        "label": "Product Hunt",
+        "title": "Gemini 4 Carbon——Google 的下一代前沿模型",
+        "url": "https://www.producthunt.com/products/gemini-4-carbon",
+        "date": "2026-10-29",
+        "same_event": true
+      },
+      {
+        "label": "OPML RSS",
+        "title": "谷歌赢了 AI 排行榜，却没赢下华尔街：Gemini 4 Carbon 登顶背后的昂贵代价",
+        "url": "https://www.infoq.cn/article/dXwHCW7kjGX1kjPqtla9",
+        "date": "2026-10-29",
+        "same_event": true
+      },
+      {
+        "label": "Buzzing",
+        "title": "Gemini 4 Carbon 荣登“人工智能分析指数 v5”榜首",
+        "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+        "date": "2026-10-29",
+        "same_event": true
+      },
+      {
+        "label": "NewsNow",
+        "title": "Gemini 4 Carbon 登顶 Artificial Analysis Intelligence Index v5 榜单第一",
+        "url": "https://news.ycombinator.com/item?id=50288019",
+        "date": "2026-10-29",
+        "same_event": true
+      },
+      {
+        "label": "TechURLs",
+        "title": "Google的Gemini 4 Carbon承诺在AI编程和网络安全领域带来“重大飞跃",
+        "url": "https://www.engadget.com/2300677/google-gemini-carbon-promises-significant-leap-in-ai-coding-and-cybersecurity",
+        "date": "2026-10-29",
+        "same_event": true
       }
     ],
     "score_parts": {
@@ -96,8 +670,8 @@
     },
     "heat": 105,
     "heat_signals": {
-      "reports": 11,
-      "domains": 9,
+      "reports": 16,
+      "domains": 14,
       "x_posts_7d": 22229,
       "x_spike_7d": 22026.5
     },
@@ -258,17 +832,17 @@
     "score_parts": {
       "industry": 94,
       "actionable": 90,
-      "heat": 100,
+      "heat": 105,
       "breadth": 88
     },
-    "heat": 100,
+    "heat": 105,
     "heat_signals": {
       "reports": 20,
       "domains": 16,
       "x_posts_7d": 19939,
       "x_spike_7d": 19916.5
     },
-    "score": 93.4
+    "score": 94.4
   },
   {
     "id": "月之暗面发布-kimi-k3-1-pro-100-万-token-上下文-开放权-db2fed",
@@ -331,11 +905,11 @@
         "same_event": true
       }
     ],
-    "score": 89.0,
+    "score": 90.0,
     "score_parts": {
       "industry": 90,
       "actionable": 85,
-      "heat": 100,
+      "heat": 105,
       "breadth": 75
     },
     "heat_signals": {
@@ -344,7 +918,7 @@
       "x_posts_7d": 35803,
       "x_spike_7d": 29743.0
     },
-    "heat": 100
+    "heat": 105
   },
   {
     "id": "github-universe-2026-copilot-app-fusion-a369b7",
@@ -1103,6 +1677,13 @@
         "url": "https://www.theverge.com/podcast/1021322/anthropic-ipo-filing-s-1-claude-semianalysis-joey-brookhart-interview",
         "date": "2026-10-29",
         "same_event": true
+      },
+      {
+        "label": "TechURLs",
+        "title": "S-1: Anthropic says it heavily depends on TSMC chips made in Taiwan and warns of risks from \"potential disruption\" amid geopolitical tensions with China (Joseph C. Sternberg/Wall S",
+        "url": "https://www.techmeme.com/261029/p70",
+        "date": "2026-10-30",
+        "same_event": true
       }
     ],
     "score_parts": {
@@ -1113,7 +1694,7 @@
     },
     "heat": 105,
     "heat_signals": {
-      "reports": 77,
+      "reports": 78,
       "domains": 25,
       "x_posts_7d": 30719,
       "x_spike_7d": 30209.0
@@ -1242,7 +1823,7 @@
     "id": "nvidia-发布-nemotron-3-5-transcribe-与-gran-253bd1",
     "title": "NVIDIA 发布 Nemotron 3.5 Transcribe 与 Granary v2 多语转写",
     "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
-    "date": "2026-10-29",
+    "date": "2026-10-30",
     "meta": "",
     "bullets": [
       "NVIDIA 发布 Nemotron 3.5 Transcribe 与 Granary v2，面向多语智能转写。",
@@ -1276,22 +1857,29 @@
         "url": "https://www.techmeme.com/261028/p33",
         "date": "2026-10-28",
         "same_event": true
+      },
+      {
+        "label": "AIBase",
+        "title": "英伟达发布语音转录大模型Nemotron 3.5 Transcribe，8 人同时抢话也能精准识别",
+        "url": "https://www.aibase.com/news/31987",
+        "date": "2026-10-30",
+        "same_event": true
       }
     ],
     "score_parts": {
       "industry": 76,
       "actionable": 82,
-      "heat": 83,
+      "heat": 89,
       "breadth": 70
     },
-    "heat": 83,
+    "heat": 89,
     "heat_signals": {
-      "reports": 4,
-      "domains": 4,
+      "reports": 5,
+      "domains": 5,
       "x_posts_7d": 1042,
       "x_spike_7d": 1042.0
     },
-    "score": 78.6
+    "score": 79.8
   },
   {
     "id": "卧槽-claude-真的变成一个-24-小时待命的-ai-助理了-anthropic-正式发布--dd1dd8",
@@ -2370,7 +2958,7 @@
       "reports": 3,
       "domains": 2,
       "x_posts_7d": 2053,
-      "x_spike_7d": 0.0
+      "x_spike_7d": 0
     },
     "score": 68.8
   },
@@ -3490,8 +4078,8 @@
     "heat_signals": {
       "reports": 2,
       "domains": 2,
-      "x_posts_7d": null,
-      "x_spike_7d": null
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
     },
     "score": 65.3
   },
@@ -3861,8 +4449,8 @@
     "heat_signals": {
       "reports": 1,
       "domains": 1,
-      "x_posts_7d": null,
-      "x_spike_7d": null
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
     },
     "heat": 30,
     "score": 64.3
@@ -4004,8 +4592,8 @@
     "heat_signals": {
       "reports": 1,
       "domains": 1,
-      "x_posts_7d": null,
-      "x_spike_7d": null
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
     },
     "heat": 30,
     "score": 63.1
@@ -4855,8 +5443,8 @@
     "heat_signals": {
       "reports": 1,
       "domains": 1,
-      "x_posts_7d": null,
-      "x_spike_7d": null
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
     },
     "heat": 30,
     "score": 58.4
@@ -4970,8 +5558,8 @@
     "heat_signals": {
       "reports": 1,
       "domains": 1,
-      "x_posts_7d": null,
-      "x_spike_7d": null
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
     },
     "heat": 30,
     "score": 60.3
@@ -6425,8 +7013,8 @@
     "heat_signals": {
       "reports": 1,
       "domains": 1,
-      "x_posts_7d": null,
-      "x_spike_7d": null
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
     },
     "heat": 30,
     "score": 51.8
@@ -6929,8 +7517,8 @@
     "heat_signals": {
       "reports": 1,
       "domains": 1,
-      "x_posts_7d": null,
-      "x_spike_7d": null
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
     },
     "heat": 30,
     "score": 51.5
@@ -6996,8 +7584,8 @@
     "heat_signals": {
       "reports": 1,
       "domains": 1,
-      "x_posts_7d": null,
-      "x_spike_7d": null
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
     },
     "heat": 30,
     "score": 50.6
@@ -10312,8 +10900,8 @@
     "heat_signals": {
       "reports": 1,
       "domains": 1,
-      "x_posts_7d": null,
-      "x_spike_7d": null
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
     },
     "heat": 30,
     "score": 43.0
@@ -12487,22 +13075,29 @@
         "title": "An updated Model Spec for more capable and beneficial AI",
         "url": "https://openai.com/index/updated-model-spec",
         "date": "2026-10-30"
+      },
+      {
+        "label": "TechURLs",
+        "title": "OpenAI updates Model Spec to reorganize it around five values: faithfulness to human intent, harm minimization, honesty and transparency, human agency, and care (OpenAI)",
+        "url": "https://www.techmeme.com/261029/p42",
+        "date": "2026-10-30",
+        "same_event": true
       }
     ],
     "score_parts": {
       "industry": 82,
       "actionable": 70,
       "breadth": 78,
-      "heat": 35
+      "heat": 46
     },
-    "heat": 35,
+    "heat": 46,
     "heat_signals": {
-      "reports": 1,
-      "domains": 1,
+      "reports": 2,
+      "domains": 2,
       "x_posts_7d": 137,
       "x_spike_7d": 137.0
     },
-    "score": 68.6
+    "score": 70.8
   },
   {
     "id": "codex-宣布-pro-business-premium-用量上限翻倍-dfb84f",
@@ -12555,22 +13150,29 @@
         "title": "Gemini 新增文档、PDF、演示文稿和表格的直接生成、预览与编辑功能",
         "url": "https://x.com/GeminiApp/status/2115845164824711247",
         "date": "2026-10-30"
+      },
+      {
+        "label": "AIBase",
+        "title": "告别繁琐导出！谷歌 Gemini 大升级:支持在对话中直接生成与编辑多格式文件",
+        "url": "https://www.aibase.com/news/31979",
+        "date": "2026-10-30",
+        "same_event": true
       }
     ],
     "score_parts": {
       "industry": 78,
       "actionable": 85,
       "breadth": 85,
-      "heat": 45
+      "heat": 56
     },
-    "heat": 45,
+    "heat": 56,
     "heat_signals": {
-      "reports": 1,
-      "domains": 1,
+      "reports": 2,
+      "domains": 2,
       "x_posts_7d": 529,
       "x_spike_7d": 506.5
     },
-    "score": 74.2
+    "score": 76.4
   },
   {
     "id": "腾讯混元发布-hy-nomas-技术报告并开源-hy-nomas-bench-260a0d",
@@ -13111,8 +13713,8 @@
     "heat_signals": {
       "reports": 1,
       "domains": 1,
-      "x_posts_7d": null,
-      "x_spike_7d": null
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
     },
     "score": 54.5
   },
@@ -13145,8 +13747,8 @@
     "heat_signals": {
       "reports": 1,
       "domains": 1,
-      "x_posts_7d": null,
-      "x_spike_7d": null
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
     },
     "score": 52.3
   },
@@ -13179,8 +13781,8 @@
     "heat_signals": {
       "reports": 1,
       "domains": 1,
-      "x_posts_7d": null,
-      "x_spike_7d": null
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
     },
     "score": 52.7
   },
@@ -13213,8 +13815,8 @@
     "heat_signals": {
       "reports": 1,
       "domains": 1,
-      "x_posts_7d": null,
-      "x_spike_7d": null
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
     },
     "score": 49.0
   }
