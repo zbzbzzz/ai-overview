@@ -190,17 +190,17 @@
     "score_parts": {
       "industry": 92,
       "actionable": 55,
-      "heat": 79,
+      "heat": 84,
       "breadth": 88
     },
-    "heat": 79,
+    "heat": 84,
     "heat_signals": {
       "reports": 5,
       "domains": 5,
-      "x_posts_7d": 771,
-      "x_spike_7d": 381.0
+      "x_posts_7d": 929,
+      "x_spike_7d": 891.5
     },
-    "score": 77.9
+    "score": 78.9
   },
   {
     "id": "eve-neuralink-grok",
@@ -416,22 +416,29 @@
         "url": "https://www.techmeme.com/261029/p64",
         "date": "2026-10-30",
         "same_event": true
+      },
+      {
+        "label": "AIBase",
+        "title": "Meta 把你的朋友圈变成试衣间：Style Sketch 让旧照片生出 AI 穿搭师",
+        "url": "https://www.aibase.com/news/31994",
+        "date": "2026-10-30",
+        "same_event": true
       }
     ],
     "score_parts": {
       "industry": 70,
       "actionable": 72,
-      "heat": 57,
+      "heat": 63,
       "breadth": 68
     },
-    "heat": 57,
+    "heat": 63,
     "heat_signals": {
-      "reports": 3,
+      "reports": 4,
       "domains": 3,
-      "x_posts_7d": 116,
-      "x_spike_7d": 116.0
+      "x_posts_7d": 173,
+      "x_spike_7d": 173.0
     },
-    "score": 67.8
+    "score": 69.0
   },
   {
     "id": "eve-doubao-multi-model",
@@ -1684,22 +1691,29 @@
         "url": "https://www.techmeme.com/261029/p70",
         "date": "2026-10-30",
         "same_event": true
+      },
+      {
+        "label": "The Verge",
+        "title": "The Verge 解读 Anthropic S-1 文件中的奇迹叙事与风险披露",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1023070/anthropic-ipo-risk-factors-filing-miracles",
+        "date": "2026-10-30",
+        "same_event": true
       }
     ],
     "score_parts": {
       "industry": 92,
       "actionable": 55,
-      "heat": 105,
+      "heat": 100,
       "breadth": 80
     },
-    "heat": 105,
+    "heat": 100,
     "heat_signals": {
-      "reports": 78,
+      "reports": 79,
       "domains": 25,
-      "x_posts_7d": 30719,
-      "x_spike_7d": 30209.0
+      "x_posts_7d": 32209,
+      "x_spike_7d": 31804.0
     },
-    "score": 82.3
+    "score": 81.3
   },
   {
     "id": "openai-披露-patch-the-planet-计划借助-gpt-5-6-sol-发现-p-a4fbd0",
@@ -13082,22 +13096,29 @@
         "url": "https://www.techmeme.com/261029/p42",
         "date": "2026-10-30",
         "same_event": true
+      },
+      {
+        "label": "The Decoder",
+        "title": "OpenAI 为已被证明难以控制的 AI 模型设定新行为准则",
+        "url": "https://the-decoder.com/openai-sets-new-behavioral-guidelines-for-ai-models-that-have-already-proven-hard-to-control",
+        "date": "2026-10-30",
+        "same_event": true
       }
     ],
     "score_parts": {
       "industry": 82,
       "actionable": 70,
-      "breadth": 78,
-      "heat": 46
+      "heat": 57,
+      "breadth": 78
     },
-    "heat": 46,
+    "heat": 57,
     "heat_signals": {
-      "reports": 2,
-      "domains": 2,
+      "reports": 3,
+      "domains": 3,
       "x_posts_7d": 137,
       "x_spike_7d": 137.0
     },
-    "score": 70.8
+    "score": 73.0
   },
   {
     "id": "codex-宣布-pro-business-premium-用量上限翻倍-dfb84f",
@@ -13157,22 +13178,29 @@
         "url": "https://www.aibase.com/news/31979",
         "date": "2026-10-30",
         "same_event": true
+      },
+      {
+        "label": "AIBase",
+        "title": "在聊天窗口直接改文档！谷歌Gemini升级：全面支持PDF、表格及代码文件内联编辑",
+        "url": "https://www.aibase.com/news/31992",
+        "date": "2026-10-30",
+        "same_event": true
       }
     ],
     "score_parts": {
       "industry": 78,
       "actionable": 85,
-      "breadth": 85,
-      "heat": 56
+      "heat": 57,
+      "breadth": 85
     },
-    "heat": 56,
+    "heat": 57,
     "heat_signals": {
-      "reports": 2,
+      "reports": 3,
       "domains": 2,
-      "x_posts_7d": 529,
-      "x_spike_7d": 506.5
+      "x_posts_7d": 478,
+      "x_spike_7d": 478.0
     },
-    "score": 76.4
+    "score": 76.6
   },
   {
     "id": "腾讯混元发布-hy-nomas-技术报告并开源-hy-nomas-bench-260a0d",
@@ -13819,5 +13847,726 @@
       "x_spike_7d": 0
     },
     "score": 49.0
+  },
+  {
+    "id": "morn-openai-training-pref",
+    "title": "OpenAI 推出网站 AI 训练偏好标准，谷歌与微软等跟进拒抓取协议",
+    "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+    "date": "2026-10-30",
+    "meta": "",
+    "bullets": [
+      "OpenAI 发布机制，让网站更清晰表达是否允许内容被用于 AI 训练。",
+      "The Verge 报道谷歌、微软等大厂同步支持新的拒抓取/偏好表达标准。",
+      "对出版商、站点站长与模型训练数据合规有直接影响。"
+    ],
+    "links": [
+      {
+        "label": "OpenAI",
+        "title": "让网站更容易表达对 AI 训练的偏好",
+        "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+        "date": "2026-10-30",
+        "same_event": true
+      },
+      {
+        "label": "The Verge",
+        "title": "AI 界的大牌们正支持一种新的拒绝数据抓取方式",
+        "url": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out",
+        "date": "2026-10-30",
+        "same_event": true
+      }
+    ],
+    "heat": 41,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 43,
+      "x_spike_7d": 43.0
+    },
+    "score_parts": {
+      "industry": 88,
+      "actionable": 78,
+      "heat": 41,
+      "breadth": 85
+    },
+    "score": 75.3
+  },
+  {
+    "id": "morn-openai-teen-safety",
+    "title": "OpenAI 发布社区安全报告并推出面向青少年的新保护措施",
+    "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+    "date": "2026-10-30",
+    "meta": "",
+    "bullets": [
+      "OpenAI 公布社区安全报告，并宣布一系列面向青少年用户的新保护。",
+      "覆盖产品安全策略与监护/限制类能力，回应持续的青少年安全争议。",
+      "属官方合规与信任建设动作，影响 ChatGPT 默认安全基线。"
+    ],
+    "links": [
+      {
+        "label": "OpenAI",
+        "title": "社区安全报告及面向青少年的新保护措施",
+        "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+        "date": "2026-10-30",
+        "same_event": true
+      }
+    ],
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 47,
+      "x_spike_7d": 47.0
+    },
+    "score_parts": {
+      "industry": 82,
+      "actionable": 70,
+      "heat": 30,
+      "breadth": 80
+    },
+    "score": 67.8
+  },
+  {
+    "id": "morn-suncatcher-gemma",
+    "title": "Google Project Suncatcher：卫星 TPU 首次跑通 Gemma 推理并回传地球",
+    "url": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
+    "date": "2026-10-30",
+    "meta": "",
+    "bullets": [
+      "Google Project Suncatcher 在轨道卫星上部署 TPU，完成模型推理。",
+      "报道称 Gemma 成为首个在太空完成推理并回传回应的大模型。",
+      "展示太空算力与边缘推理的新实验路径，属基础设施级叙事。"
+    ],
+    "links": [
+      {
+        "label": "The Verge",
+        "title": "Google 的卫星 AI 服务器首次向地球发回响应",
+        "url": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
+        "date": "2026-10-30",
+        "same_event": true
+      },
+      {
+        "label": "X",
+        "title": "Project Suncatcher 在轨道卫星上运行 TPU，Gemma 模型首次在太空完成推理",
+        "url": "https://x.com/_philschmid/status/2116235686445502608",
+        "date": "2026-10-30",
+        "same_event": true
+      }
+    ],
+    "heat": 61,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 1895,
+      "x_spike_7d": 1887.5
+    },
+    "score_parts": {
+      "industry": 86,
+      "actionable": 55,
+      "heat": 61,
+      "breadth": 70
+    },
+    "score": 70.1
+  },
+  {
+    "id": "morn-claude-max-ultra",
+    "title": "Anthropic 将 Claude Max 套餐拆分为 Max 与 Ultra，Ultra 取消 5 小时限制",
+    "url": "https://x.com/adocomplete/status/2116224220539883992",
+    "date": "2026-10-30",
+    "meta": "",
+    "bullets": [
+      "Anthropic 开发者关系披露 Claude Max 更名为 Max 与 Ultra 两档。",
+      "Ultra 认证账号取消 5 小时用量窗口限制，提升重度开发者体验。",
+      "直接影响 Claude 付费档位与 Coding 场景订阅选择。"
+    ],
+    "links": [
+      {
+        "label": "X",
+        "title": "Anthropic 将 Claude Max 套餐更名为 Max 与 Ultra",
+        "url": "https://x.com/adocomplete/status/2116224220539883992",
+        "date": "2026-10-30",
+        "same_event": true
+      }
+    ],
+    "heat": 40,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 262,
+      "x_spike_7d": 239.5
+    },
+    "score_parts": {
+      "industry": 78,
+      "actionable": 88,
+      "heat": 40,
+      "breadth": 65
+    },
+    "score": 72.1
+  },
+  {
+    "id": "morn-claude-code-malware",
+    "title": "恶意 Claude Code 扩展混入 Cursor 市场：供应链攻击影响数千开发者环境",
+    "url": "https://cursor.com/blog/claude-code-extension-security-notice",
+    "date": "2026-10-30",
+    "meta": "",
+    "bullets": [
+      "Cursor 披露 Marketplace 中出现遭篡改的 Claude Code VS Code 扩展，最多影响约 5000 用户。",
+      "多家安全媒体称其植入远程访问木马/SSH 后门，可窃取开发者环境数据。",
+      "属 AI 编程工具链供应链安全重大事件，需立即卸载可疑扩展并轮换凭证。"
+    ],
+    "links": [
+      {
+        "label": "Cursor",
+        "title": "Cursor 披露 Claude Code VS Code 扩展被植入恶意软件事件",
+        "url": "https://x.com/cursor_ai/status/2116074289053175808",
+        "date": "2026-10-30",
+        "same_event": true
+      },
+      {
+        "label": "Cursor Blog",
+        "title": "在 Cursor Marketplace 中发现恶意的 Claude Code 扩展",
+        "url": "https://cursor.com/blog/claude-code-extension-security-notice",
+        "date": "2026-10-30",
+        "same_event": true
+      },
+      {
+        "label": "The Decoder",
+        "title": "Cursor 插件市场中的恶意 Claude Code 扩展试图远程访问并窃取数据",
+        "url": "https://the-decoder.com/malicious-claude-code-extension-in-cursors-marketplace-attempted-remote-access-and-data-theft",
+        "date": "2026-10-30",
+        "same_event": true
+      },
+      {
+        "label": "Wired",
+        "title": "供应链攻击让数千台设备被装上恶意的 Anthropic Claude 扩展程序",
+        "url": "https://www.wired.com/story/trojan-malware-targets-thousands-of-anthropic-claude-developer-systems",
+        "date": "2026-10-30",
+        "same_event": true
+      },
+      {
+        "label": "DoublePulsar",
+        "title": "Anthropic 遭黑客入侵，Claude 开发者的笔记本电脑被植入远程访问木马",
+        "url": "https://doublepulsar.com/anthropic-hacked-to-deliver-remote-access-trojan-to-claude-developer-laptops-worldwide-1148a92baae2",
+        "date": "2026-10-30",
+        "same_event": true
+      },
+      {
+        "label": "OpenSourceMalware",
+        "title": "被植入木马的 Claude Code 扩展暗藏 SSH 后门",
+        "url": "https://opensourcemalware.com/blog/trojanized-claude-code-extension-plants-persistent-ssh-backdoor",
+        "date": "2026-10-30",
+        "same_event": true
+      },
+      {
+        "label": "Phorion",
+        "title": "Cursor Marketplace 上适用于 VS Code 的 Claude Code 扩展中存在后门",
+        "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise",
+        "date": "2026-10-30",
+        "same_event": true
+      },
+      {
+        "label": "Hacker News",
+        "title": "Cursor Marketplace 上适用于 VS Code 的 Claude Code 扩展中存在后门",
+        "url": "https://news.ycombinator.com/item?id=50300683",
+        "date": "2026-10-30",
+        "same_event": true
+      }
+    ],
+    "heat": 95,
+    "heat_signals": {
+      "reports": 8,
+      "domains": 8,
+      "x_posts_7d": 2063,
+      "x_spike_7d": 2025.5
+    },
+    "score_parts": {
+      "industry": 92,
+      "actionable": 95,
+      "heat": 95,
+      "breadth": 75
+    },
+    "score": 91.8
+  },
+  {
+    "id": "morn-ai-capex-selloff",
+    "title": "AI 支出担忧引发美股科技股连日下跌，Intel 盘中跌逾 30%",
+    "url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo",
+    "date": "2026-10-30",
+    "meta": "",
+    "bullets": [
+      "BBC 等报道称市场担忧 AI 资本开支回报，美股科技股连续承压。",
+      "Intel 盘中跌幅超过 30%，成为本轮「AI 开支焦虑」的焦点之一。",
+      "与广告变现、云厂商巨额 capex 叙事叠加，影响行业融资与估值预期。"
+    ],
+    "links": [
+      {
+        "label": "BBC",
+        "title": "AI 支出担忧引发美股科技股连日下跌，Intel 盘中跌逾 30%",
+        "url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo",
+        "date": "2026-10-30",
+        "same_event": true
+      },
+      {
+        "label": "Hacker News",
+        "title": "AI成本担忧引发美国科技股大幅下挫",
+        "url": "https://news.ycombinator.com/item?id=50306008",
+        "date": "2026-10-30",
+        "same_event": true
+      },
+      {
+        "label": "TechCrunch",
+        "title": "AI支出热潮开始出现裂痕",
+        "url": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom",
+        "date": "2026-10-30",
+        "same_event": true
+      }
+    ],
+    "heat": 82,
+    "heat_signals": {
+      "reports": 3,
+      "domains": 3,
+      "x_posts_7d": 10413,
+      "x_spike_7d": 10315.5
+    },
+    "score_parts": {
+      "industry": 90,
+      "actionable": 40,
+      "heat": 82,
+      "breadth": 80
+    },
+    "score": 72.4
+  },
+  {
+    "id": "morn-reddit-ai-mode",
+    "title": "Reddit CEO：Google AI Mode 不为任何人带流量，每周流失超百万搜索访问",
+    "url": "https://the-decoder.com/googles-ai-mode-doesnt-drive-traffic-for-anybody-reddit-ceo-huffman-warns-the-entire-web",
+    "date": "2026-10-30",
+    "meta": "",
+    "bullets": [
+      "Reddit CEO Huffman 警告 Google AI Mode 几乎不给任何站点导流。",
+      "称 Reddit 每周因此流失超百万搜索访问，开放网络承压。",
+      "与 AI 搜索摘要冲击广告/流量的大叙事相互印证。"
+    ],
+    "links": [
+      {
+        "label": "The Decoder",
+        "title": "Reddit CEO 称 Google AI Mode 不为任何人带来流量",
+        "url": "https://the-decoder.com/googles-ai-mode-doesnt-drive-traffic-for-anybody-reddit-ceo-huffman-warns-the-entire-web",
+        "date": "2026-10-30",
+        "same_event": true
+      }
+    ],
+    "heat": 40,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 489,
+      "x_spike_7d": 489.0
+    },
+    "score_parts": {
+      "industry": 84,
+      "actionable": 45,
+      "heat": 40,
+      "breadth": 78
+    },
+    "score": 62.9
+  },
+  {
+    "id": "morn-glm53-firefox",
+    "title": "Epoch AI：GLM 5.3 可利用补丁窗口期自主构造 Firefox 攻击",
+    "url": "https://epochai.substack.com/p/glm-patch-gap-exploit-firefox",
+    "date": "2026-10-30",
+    "meta": "",
+    "bullets": [
+      "Epoch AI 实验显示 GLM 5.3 能把公开安全补丁转化为可利用的 Firefox 攻击。",
+      "突出「补丁窗口期」风险：修复披露到用户升级之间可被模型加速利用。",
+      "对模型发布安全评估与漏洞披露流程有直接政策含义。"
+    ],
+    "links": [
+      {
+        "label": "Epoch AI",
+        "title": "Epoch AI 实验显示 GLM 5.3 可利用补丁窗口期自主攻击 Firefox",
+        "url": "https://epochai.substack.com/p/glm-patch-gap-exploit-firefox",
+        "date": "2026-10-30",
+        "same_event": true
+      }
+    ],
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 112,
+      "x_spike_7d": 104.5
+    },
+    "score_parts": {
+      "industry": 88,
+      "actionable": 70,
+      "heat": 35,
+      "breadth": 70
+    },
+    "score": 70.2
+  },
+  {
+    "id": "morn-sierra-arr",
+    "title": "Sierra 宣布 ARR 突破 4 亿美元，Q3 单季新增超 1.5 亿美元",
+    "url": "https://sierra.ai/blog/our-customers-ambition-is-accelerating-our-growth",
+    "date": "2026-10-30",
+    "meta": "",
+    "bullets": [
+      "企业 AI 客服公司 Sierra 官方宣布 ARR 突破 4 亿美元。",
+      "Q3 单季新增 ARR 超过 1.5 亿美元，显示客户侧部署加速。",
+      "是 Agent 应用公司商业化速度的新标杆之一。"
+    ],
+    "links": [
+      {
+        "label": "Sierra",
+        "title": "Our customers’ ambition is accelerating our growth",
+        "url": "https://sierra.ai/blog/our-customers-ambition-is-accelerating-our-growth",
+        "date": "2026-10-30",
+        "same_event": true
+      }
+    ],
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 27,
+      "x_spike_7d": 27.0
+    },
+    "score_parts": {
+      "industry": 80,
+      "actionable": 50,
+      "heat": 30,
+      "breadth": 60
+    },
+    "score": 59.0
+  },
+  {
+    "id": "morn-spotify-ai-remix",
+    "title": "Spotify 计划 2027 年初推出付费 AI 音乐混音/翻唱工具",
+    "url": "https://www.aibase.com/news/31991",
+    "date": "2026-10-30",
+    "meta": "",
+    "bullets": [
+      "多家媒体称 Spotify 计划推出付费 AI 混音服务，支持重新编曲与翻唱。",
+      "目标窗口约 2027 年一季度，面向订阅用户的创作能力扩展。",
+      "将把生成式音乐更深嵌入主流流媒体产品。"
+    ],
+    "links": [
+      {
+        "label": "AIBase",
+        "title": "AI也能重新编曲和翻唱?Spotify计划推出付费音乐混音服务",
+        "url": "https://www.aibase.com/news/31991",
+        "date": "2026-10-30",
+        "same_event": true
+      },
+      {
+        "label": "The Next Web",
+        "title": "Spotify计划于2027年初推出AI混音工具",
+        "url": "https://thenextweb.com/news/spotify-ai-remix-tool-2027-launch",
+        "date": "2026-10-30",
+        "same_event": true
+      }
+    ],
+    "heat": 56,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 873,
+      "x_spike_7d": 745.5
+    },
+    "score_parts": {
+      "industry": 72,
+      "actionable": 55,
+      "heat": 56,
+      "breadth": 75
+    },
+    "score": 64.0
+  },
+  {
+    "id": "morn-fable55-safety",
+    "title": "Claude Fable 5.5 测试曝光：回答前隐藏「安全审判」流程",
+    "url": "https://www.aibase.com/news/31995",
+    "date": "2026-10-30",
+    "meta": "",
+    "bullets": [
+      "AIBase 称 Fable 5.5 测试显示 Claude 每次回答前存在不可见的安全裁决步骤。",
+      "揭示对齐/安全系统在新版本中的加强与可观测性争议。",
+      "对研究安全机制与提示注入绕过的人有参考价值。"
+    ],
+    "links": [
+      {
+        "label": "AIBase",
+        "title": "Fable 5. 5 测试曝光：Claude每次回答背后，都在偷偷执行你看不见的“安全审判”",
+        "url": "https://www.aibase.com/news/31995",
+        "date": "2026-10-30",
+        "same_event": true
+      }
+    ],
+    "heat": 45,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 761,
+      "x_spike_7d": 723.5
+    },
+    "score_parts": {
+      "industry": 74,
+      "actionable": 60,
+      "heat": 45,
+      "breadth": 55
+    },
+    "score": 62.1
+  },
+  {
+    "id": "morn-baidu-ai-search-api",
+    "title": "百度升级 AI 搜索及搜索 AI API，调用价格低至 4.9 元/千次",
+    "url": "https://www.aibase.com/news/31990",
+    "date": "2026-10-30",
+    "meta": "",
+    "bullets": [
+      "百度升级 AI 搜索产品，并推出/下调搜索 AI API 价格。",
+      "报道称调用价格可低至 4.9 元/千次，强调性价比。",
+      "对中国开发者接入搜索增强生成有直接成本影响。"
+    ],
+    "links": [
+      {
+        "label": "AIBase",
+        "title": "百度升级AI搜索及搜索AI API，调用价格低至4.9元/千次",
+        "url": "https://www.aibase.com/news/31990",
+        "date": "2026-10-30",
+        "same_event": true
+      }
+    ],
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 45,
+      "x_spike_7d": 45.0
+    },
+    "score_parts": {
+      "industry": 70,
+      "actionable": 80,
+      "heat": 30,
+      "breadth": 65
+    },
+    "score": 64.5
+  },
+  {
+    "id": "morn-aws-jassy-1t",
+    "title": "Andy Jassy：AWS 将成为万亿美元业务，2026 年资本开支约 2200 亿美元",
+    "url": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big",
+    "date": "2026-10-30",
+    "meta": "",
+    "bullets": [
+      "亚马逊 CEO Andy Jassy 称 AWS 长期可成为万亿美元营收级业务。",
+      "同时透露 2026 年公司资本开支约 2200 亿美元，继续加码 AI 基础设施。",
+      "强化云巨头「先狂投算力再收租金」的行业路径。"
+    ],
+    "links": [
+      {
+        "label": "TechCrunch",
+        "title": "Andy Jassy 称 AWS 将成为万亿美元营收业务",
+        "url": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big",
+        "date": "2026-10-30",
+        "same_event": true
+      }
+    ],
+    "heat": 45,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 712,
+      "x_spike_7d": 674.5
+    },
+    "score_parts": {
+      "industry": 85,
+      "actionable": 40,
+      "heat": 45,
+      "breadth": 75
+    },
+    "score": 62.5
+  },
+  {
+    "id": "morn-gemini-computer-use-ga",
+    "title": "Gemini API Computer Use 工具正式 GA 开放",
+    "url": "https://ai.google.dev/gemini-api/docs/changelog",
+    "date": "2026-10-30",
+    "meta": "",
+    "bullets": [
+      "Gemini API 更新日志显示 Computer Use 工具已正式 GA。",
+      "开发者可在生产环境调用模型操作计算机界面的能力。",
+      "降低 Agent 桌面/浏览器自动化接入门槛。"
+    ],
+    "links": [
+      {
+        "label": "Gemini API",
+        "title": "Gemini API 的 Computer Use 工具正式开放（GA）",
+        "url": "https://ai.google.dev/gemini-api/docs/changelog",
+        "date": "2026-10-30",
+        "same_event": true
+      }
+    ],
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 97,
+      "x_spike_7d": 97.0
+    },
+    "score_parts": {
+      "industry": 80,
+      "actionable": 90,
+      "heat": 35,
+      "breadth": 70
+    },
+    "score": 73.0
+  },
+  {
+    "id": "morn-suno-mcp",
+    "title": "Suno 首次开放 MCP 接口：AI 写歌可接入第三方 Agent 栈",
+    "url": "https://waytoagi.feishu.cn/wiki/YqF6wz4H7i2QUKkTbHscuMGlnVe",
+    "date": "2026-10-30",
+    "meta": "",
+    "bullets": [
+      "社区称 Suno 首次开放 MCP 接口，音乐生成可离开官网嵌入 Agent 工作流。",
+      "Product Hunt 等亦出现 Suno MCP 相关产品页曝光。",
+      "对内容 Agent 与创意工具链集成有实际价值。"
+    ],
+    "links": [
+      {
+        "label": "社区",
+        "title": "Suno 首次开放 MCP 接口",
+        "url": "https://waytoagi.feishu.cn/wiki/YqF6wz4H7i2QUKkTbHscuMGlnVe",
+        "date": "2026-10-30",
+        "same_event": true
+      },
+      {
+        "label": "Product Hunt",
+        "title": "Suno MCP——为你的 AI 技术栈提供音乐层",
+        "url": "https://www.producthunt.com/products/suno",
+        "date": "2026-10-30",
+        "same_event": true
+      }
+    ],
+    "heat": 56,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 608,
+      "x_spike_7d": 608.0
+    },
+    "score_parts": {
+      "industry": 68,
+      "actionable": 82,
+      "heat": 56,
+      "breadth": 60
+    },
+    "score": 69.0
+  },
+  {
+    "id": "morn-tokeneconomizer",
+    "title": "Microsoft 发布 TokenEconomizer：可把编程智能体成本降低最多约 30.9%",
+    "url": "https://www.marktechpost.com/2026/10/30/microsoft-tokeneconomizer-coding-agent-cost-control",
+    "date": "2026-10-30",
+    "meta": "",
+    "bullets": [
+      "Microsoft 推出 TokenEconomizer 插件，面向编程 Agent 的成本控制。",
+      "报道称最高可降低约 30.9% 的 token 开销。",
+      "对重度使用编码 Agent 的团队有直接省钱价值。"
+    ],
+    "links": [
+      {
+        "label": "MarkTechPost",
+        "title": "认识一下 TokenEconomizer：Microsoft 的插件",
+        "url": "https://www.marktechpost.com/2026/10/30/microsoft-tokeneconomizer-coding-agent-cost-control",
+        "date": "2026-10-30",
+        "same_event": true
+      }
+    ],
+    "heat": 40,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 332,
+      "x_spike_7d": 332.0
+    },
+    "score_parts": {
+      "industry": 70,
+      "actionable": 88,
+      "heat": 40,
+      "breadth": 60
+    },
+    "score": 68.4
+  },
+  {
+    "id": "morn-zest-agent",
+    "title": "Zest 推出可发短信找餐厅并完成订位的 AI Agent",
+    "url": "https://techcrunch.com/2026/10/30/zests-new-ai-agent-finds-restaurants-and-books-reservations-over-text",
+    "date": "2026-10-30",
+    "meta": "",
+    "bullets": [
+      "Zest 新 Agent 能通过短信帮用户找餐厅并完成预订。",
+      "展示消费场景里「异步消息驱动」的 Agent 产品形态。",
+      "属应用层落地案例，可动手体验门槛低。"
+    ],
+    "links": [
+      {
+        "label": "TechCrunch",
+        "title": "Zest 新推出的 AI Agent 可通过短信寻找餐厅并完成预订",
+        "url": "https://techcrunch.com/2026/10/30/zests-new-ai-agent-finds-restaurants-and-books-reservations-over-text",
+        "date": "2026-10-30",
+        "same_event": true
+      }
+    ],
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 29,
+      "x_spike_7d": 29.0
+    },
+    "score_parts": {
+      "industry": 62,
+      "actionable": 75,
+      "heat": 30,
+      "breadth": 55
+    },
+    "score": 58.8
+  },
+  {
+    "id": "morn-dsh-go",
+    "title": "DSH Go：DeepSeek Harness 装进安卓手机，可遥控电脑",
+    "url": "https://waytoagi.feishu.cn/wiki/XP3ywIJ2Wi7TwkkSAn9c0MJrnVf",
+    "date": "2026-10-30",
+    "meta": "",
+    "bullets": [
+      "社区项目 DSH Go 把 DeepSeek Harness 带到安卓，支持遥控电脑。",
+      "扩展开源 Harness 的移动端控制入口。",
+      "对喜欢本地/开源 Agent 的用户有动手价值。"
+    ],
+    "links": [
+      {
+        "label": "社区",
+        "title": "DSH Go：DeepSeek Harness 装进安卓手机，还能遥控电脑",
+        "url": "https://waytoagi.feishu.cn/wiki/XP3ywIJ2Wi7TwkkSAn9c0MJrnVf",
+        "date": "2026-10-30",
+        "same_event": true
+      }
+    ],
+    "heat": 55,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 3419,
+      "x_spike_7d": 3216.5
+    },
+    "score_parts": {
+      "industry": 55,
+      "actionable": 80,
+      "heat": 55,
+      "breadth": 45
+    },
+    "score": 61.5
   }
 ]

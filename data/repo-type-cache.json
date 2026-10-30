@@ -1252,11 +1252,10 @@
   },
   "debpalash/VoiceStudio": {
     "types": [
-      "应用与产品",
-      "模型与推理"
+      "应用与产品"
     ],
-    "updated": "2026-10-21",
-    "source": "executor"
+    "updated": "2026-10-31",
+    "source": "keyword-fallback"
   },
   "YuJunZhiXue/dsh-purge": {
     "types": [
@@ -3420,11 +3419,10 @@
   },
   "HKUDS/DeepTutor": {
     "types": [
-      "Agent",
-      "开发工具链"
+      "应用与产品"
     ],
-    "updated": "2026-10-25",
-    "source": "grok-bot"
+    "updated": "2026-10-31",
+    "source": "keyword-fallback"
   },
   "666ghj/BettaFish": {
     "types": [
@@ -5775,5 +5773,70 @@
     ],
     "updated": "2026-10-30",
     "source": "grok-bot"
+  },
+  "CopilotKit/OpenBot": {
+    "types": [
+      "Skill",
+      "Agent"
+    ],
+    "updated": "2026-10-31",
+    "source": "keyword-fallback"
+  },
+  "Nasiko-Labs/nasiko": {
+    "types": [
+      "Skill",
+      "Agent",
+      "开发工具链",
+      "数据与评测"
+    ],
+    "updated": "2026-10-31",
+    "source": "keyword-fallback"
+  },
+  "langfuse/langfuse": {
+    "types": [
+      "Agent",
+      "模型与推理",
+      "开发工具链",
+      "数据与评测"
+    ],
+    "updated": "2026-10-31",
+    "source": "keyword-fallback"
+  },
+  "NomaDamas/k-skill": {
+    "types": [
+      "Skill"
+    ],
+    "updated": "2026-10-31",
+    "source": "keyword-fallback"
+  },
+  "github/gh-aw": {
+    "types": [
+      "Agent"
+    ],
+    "updated": "2026-10-31",
+    "source": "keyword-fallback"
+  },
+  "plandex-ai/plandex": {
+    "types": [
+      "Agent",
+      "模型与推理",
+      "开发工具链"
+    ],
+    "updated": "2026-10-31",
+    "source": "keyword-fallback"
+  },
+  "JetBrains/thinkrail": {
+    "types": [
+      "开发工具链"
+    ],
+    "updated": "2026-10-31",
+    "source": "keyword-fallback"
+  },
+  "hmjz100/LinkSwift": {
+    "types": [
+      "应用与产品"
+    ],
+    "updated": "2026-10-31",
+    "source": "keyword-fallback"
   }
 }
