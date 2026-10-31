@@ -4,9 +4,20 @@
     "name": "VoiceStudio",
     "desc": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
     "lang": "Python",
-    "stars": 96170,
+    "stars": 96758,
     "week": 12910,
-    "topics": [],
+    "topics": [
+      "tts",
+      "voice-cloning",
+      "voice-generation",
+      "voice-ai",
+      "ai",
+      "cuda",
+      "mlx",
+      "huggingface",
+      "transcription",
+      "translate"
+    ],
     "url": "https://github.com/debpalash/VoiceStudio",
     "types": [
       "应用与产品"
@@ -17,38 +28,66 @@
     "name": "security-audit-skill",
     "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
     "lang": "JavaScript",
-    "stars": 54603,
+    "stars": 55214,
     "week": 12838,
     "topics": [],
-    "url": "https://github.com/cloudflare/security-audit-skill"
+    "url": "https://github.com/cloudflare/security-audit-skill",
+    "types": [
+      "Skill",
+      "数据与评测"
+    ]
+  },
+  {
+    "full": "Nutlope/hallmark",
+    "name": "hallmark",
+    "desc": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+    "lang": "CSS",
+    "stars": 43852,
+    "week": 11766,
+    "topics": [],
+    "url": "https://github.com/Nutlope/hallmark",
+    "types": [
+      "Skill"
+    ]
   },
   {
     "full": "pbakaus/impeccable",
     "name": "impeccable",
     "desc": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
     "lang": "Rust",
-    "stars": 97571,
+    "stars": 98176,
     "week": 11323,
-    "topics": [],
-    "url": "https://github.com/pbakaus/impeccable"
+    "topics": [
+      "agent-skills",
+      "ai",
+      "anti-slop",
+      "design",
+      "slop"
+    ],
+    "url": "https://github.com/pbakaus/impeccable",
+    "types": [
+      "Skill",
+      "开发工具链",
+      "应用与产品"
+    ]
   },
   {
     "full": "HKUDS/DeepTutor",
     "name": "DeepTutor",
     "desc": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
     "lang": "Python",
-    "stars": 52177,
+    "stars": 52718,
     "week": 9440,
     "topics": [
-      "ai-agents",
       "ai-tutor",
-      "clawbot",
-      "cli-tool",
       "deepresearch",
       "interactive-learning",
-      "learning",
       "multi-agent-systems",
-      "rag"
+      "rag",
+      "ai-agents",
+      "cli-tool",
+      "clawbot",
+      "learning"
     ],
     "url": "https://github.com/HKUDS/DeepTutor",
     "types": [
@@ -60,59 +99,100 @@
     "name": "ponytail",
     "desc": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
     "lang": "JavaScript",
-    "stars": 179583,
+    "stars": 181485,
     "week": 8968,
-    "topics": [],
-    "url": "https://github.com/DietrichGebert/ponytail"
-  },
-  {
-    "full": "Nutlope/hallmark",
-    "name": "hallmark",
-    "desc": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
-    "lang": "CSS",
-    "stars": 41333,
-    "week": 8612,
-    "topics": [],
-    "url": "https://github.com/Nutlope/hallmark"
+    "topics": [
+      "agent-skills",
+      "ai-agents",
+      "claude",
+      "claude-code",
+      "claude-code-plugin",
+      "cursor-rules",
+      "developer-tools",
+      "llm",
+      "prompt-engineering",
+      "yagni"
+    ],
+    "url": "https://github.com/DietrichGebert/ponytail",
+    "types": [
+      "Skill",
+      "Agent",
+      "开发工具链"
+    ]
   },
   {
     "full": "elayadesign/ai-design-skills",
     "name": "ai-design-skills",
     "desc": "",
-    "lang": "Unknown",
-    "stars": 11627,
+    "lang": "Python",
+    "stars": 13100,
     "week": 8338,
     "topics": [],
-    "url": "https://github.com/elayadesign/ai-design-skills"
+    "url": "https://github.com/elayadesign/ai-design-skills",
+    "types": [
+      "Skill",
+      "应用与产品"
+    ]
   },
   {
     "full": "stablyai/orca",
     "name": "orca",
     "desc": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
     "lang": "TypeScript",
-    "stars": 109566,
+    "stars": 111685,
     "week": 7669,
-    "topics": [],
-    "url": "https://github.com/stablyai/orca"
+    "topics": [
+      "claude-code",
+      "codex",
+      "ghostty",
+      "terminal",
+      "opencode",
+      "orchestration",
+      "worktrees",
+      "pi",
+      "ade",
+      "mobile-app"
+    ],
+    "url": "https://github.com/stablyai/orca",
+    "types": [
+      "Agent"
+    ]
   },
   {
     "full": "mattpocock/skills",
     "name": "skills",
     "desc": "Skills for Real Engineers. Straight from my .agents directory.",
     "lang": "Shell",
-    "stars": 306107,
+    "stars": 308289,
     "week": 6573,
     "topics": [],
-    "url": "https://github.com/mattpocock/skills"
+    "url": "https://github.com/mattpocock/skills",
+    "types": [
+      "Skill"
+    ]
   },
   {
     "full": "affaan-m/ECC",
     "name": "ECC",
     "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
     "lang": "JavaScript",
-    "stars": 293638,
+    "stars": 294001,
     "week": 6506,
-    "topics": [],
-    "url": "https://github.com/affaan-m/ECC"
+    "topics": [
+      "ai-agents",
+      "anthropic",
+      "claude",
+      "claude-code",
+      "developer-tools",
+      "llm",
+      "mcp",
+      "productivity"
+    ],
+    "url": "https://github.com/affaan-m/ECC",
+    "types": [
+      "Skill",
+      "Agent",
+      "模型与推理"
+    ]
   }
 ]
