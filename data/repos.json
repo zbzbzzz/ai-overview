@@ -4,8 +4,8 @@
     "name": "VoiceStudio",
     "desc": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
     "lang": "Python",
-    "stars": 96758,
-    "week": 12910,
+    "stars": 97226,
+    "week": 12294,
     "topics": [
       "tts",
       "voice-cloning",
@@ -24,26 +24,12 @@
     ]
   },
   {
-    "full": "cloudflare/security-audit-skill",
-    "name": "security-audit-skill",
-    "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
-    "lang": "JavaScript",
-    "stars": 55214,
-    "week": 12838,
-    "topics": [],
-    "url": "https://github.com/cloudflare/security-audit-skill",
-    "types": [
-      "Skill",
-      "数据与评测"
-    ]
-  },
-  {
     "full": "Nutlope/hallmark",
     "name": "hallmark",
     "desc": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
     "lang": "CSS",
-    "stars": 43852,
-    "week": 11766,
+    "stars": 44266,
+    "week": 12062,
     "topics": [],
     "url": "https://github.com/Nutlope/hallmark",
     "types": [
@@ -55,8 +41,8 @@
     "name": "impeccable",
     "desc": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
     "lang": "Rust",
-    "stars": 98176,
-    "week": 11323,
+    "stars": 98715,
+    "week": 12031,
     "topics": [
       "agent-skills",
       "ai",
@@ -72,12 +58,26 @@
     ]
   },
   {
+    "full": "cloudflare/security-audit-skill",
+    "name": "security-audit-skill",
+    "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+    "lang": "JavaScript",
+    "stars": 55743,
+    "week": 11908,
+    "topics": [],
+    "url": "https://github.com/cloudflare/security-audit-skill",
+    "types": [
+      "Skill",
+      "数据与评测"
+    ]
+  },
+  {
     "full": "HKUDS/DeepTutor",
     "name": "DeepTutor",
-    "desc": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+    "desc": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/ .",
     "lang": "Python",
-    "stars": 52718,
-    "week": 9440,
+    "stars": 53245,
+    "week": 10185,
     "topics": [
       "ai-tutor",
       "deepresearch",
@@ -90,6 +90,19 @@
       "learning"
     ],
     "url": "https://github.com/HKUDS/DeepTutor",
+    "types": [
+      "应用与产品"
+    ]
+  },
+  {
+    "full": "hmjz100/LinkSwift",
+    "name": "LinkSwift",
+    "desc": "一个基于 JavaScript 的网盘文件下载地址获取工具。基于【网盘直链下载助手】修改 ，支持 百度网盘 / 阿里云盘 / 中国移动云盘 / 天翼云盘 / 迅雷云盘 / 夸克网盘 / UC网盘 / 123云盘 八大网盘",
+    "lang": "JavaScript",
+    "stars": 37062,
+    "week": 9516,
+    "topics": [],
+    "url": "https://github.com/hmjz100/LinkSwift",
     "types": [
       "应用与产品"
     ]
@@ -159,40 +172,17 @@
     ]
   },
   {
-    "full": "mattpocock/skills",
-    "name": "skills",
-    "desc": "Skills for Real Engineers. Straight from my .agents directory.",
-    "lang": "Shell",
-    "stars": 308289,
-    "week": 6573,
-    "topics": [],
-    "url": "https://github.com/mattpocock/skills",
-    "types": [
-      "Skill"
-    ]
-  },
-  {
-    "full": "affaan-m/ECC",
-    "name": "ECC",
-    "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+    "full": "YuJunZhiXue/dsh-purge",
+    "name": "dsh-purge",
+    "desc": "DeepSeek Harness 破甲：让所有模型都能破甲，不同模型可换不同提示词；默认提示词面向国模「小码酱」。Jailbreak for every model — swap prompts per model. 求 Star 收藏 ⭐ 如要二开，请查看署名要求部分",
     "lang": "JavaScript",
-    "stars": 294001,
-    "week": 6506,
-    "topics": [
-      "ai-agents",
-      "anthropic",
-      "claude",
-      "claude-code",
-      "developer-tools",
-      "llm",
-      "mcp",
-      "productivity"
-    ],
-    "url": "https://github.com/affaan-m/ECC",
+    "stars": 14932,
+    "week": 6641,
+    "topics": [],
+    "url": "https://github.com/YuJunZhiXue/dsh-purge",
     "types": [
-      "Skill",
-      "Agent",
-      "模型与推理"
+      "模型与推理",
+      "Agent"
     ]
   }
 ]
