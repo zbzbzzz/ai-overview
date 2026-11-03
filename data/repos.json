@@ -4,8 +4,8 @@
     "name": "impeccable",
     "desc": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
     "lang": "Rust",
-    "stars": 99869,
-    "week": 12017,
+    "stars": 100971,
+    "week": 11754,
     "topics": [
       "agent-skills",
       "ai",
@@ -25,38 +25,22 @@
     ]
   },
   {
-    "full": "Nutlope/hallmark",
-    "name": "hallmark",
-    "desc": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
-    "lang": "CSS",
-    "stars": 45386,
-    "week": 11566,
-    "topics": [],
-    "url": "https://github.com/Nutlope/hallmark",
-    "types": [
-      "Skill"
-    ],
-    "_sources": [
-      "all"
-    ]
-  },
-  {
     "full": "HKUDS/DeepTutor",
     "name": "DeepTutor",
-    "desc": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/ .",
+    "desc": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
     "lang": "Python",
-    "stars": 53245,
-    "week": 10185,
+    "stars": 54507,
+    "week": 10827,
     "topics": [
+      "ai-agents",
       "ai-tutor",
+      "clawbot",
+      "cli-tool",
       "deepresearch",
       "interactive-learning",
+      "learning",
       "multi-agent-systems",
-      "rag",
-      "ai-agents",
-      "cli-tool",
-      "clawbot",
-      "learning"
+      "rag"
     ],
     "url": "https://github.com/HKUDS/DeepTutor",
     "types": [
@@ -67,12 +51,47 @@
     ]
   },
   {
+    "full": "Nutlope/hallmark",
+    "name": "hallmark",
+    "desc": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+    "lang": "CSS",
+    "stars": 46417,
+    "week": 10517,
+    "topics": [],
+    "url": "https://github.com/Nutlope/hallmark",
+    "types": [
+      "Skill"
+    ],
+    "_sources": [
+      "all"
+    ]
+  },
+  {
+    "full": "pingdotgg/t3code",
+    "name": "t3code",
+    "desc": "",
+    "lang": "TypeScript",
+    "stars": 42895,
+    "week": 9770,
+    "topics": [],
+    "url": "https://github.com/pingdotgg/t3code",
+    "types": [
+      "Agent",
+      "应用与产品",
+      "开发工具链"
+    ],
+    "_sources": [
+      "all",
+      "typescript"
+    ]
+  },
+  {
     "full": "cloudflare/security-audit-skill",
     "name": "security-audit-skill",
     "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
     "lang": "JavaScript",
-    "stars": 56780,
-    "week": 10069,
+    "stars": 57733,
+    "week": 9155,
     "topics": [],
     "url": "https://github.com/cloudflare/security-audit-skill",
     "types": [
@@ -89,9 +108,30 @@
     "name": "LinkSwift",
     "desc": "一个基于 JavaScript 的网盘文件下载地址获取工具。基于【网盘直链下载助手】修改 ，支持 百度网盘 / 阿里云盘 / 中国移动云盘 / 天翼云盘 / 迅雷云盘 / 夸克网盘 / UC网盘 / 123云盘 八大网盘",
     "lang": "JavaScript",
-    "stars": 37062,
-    "week": 9516,
-    "topics": [],
+    "stars": 37555,
+    "week": 8382,
+    "topics": [
+      "123pan",
+      "aliyun-drive",
+      "aliyunpan",
+      "aria2",
+      "baidu",
+      "baidu-netdisk",
+      "baidunetdisk",
+      "baidupan",
+      "baiduyun",
+      "guangya-netdisk",
+      "motrix",
+      "quark-netdisk",
+      "tampermonkey",
+      "tampermonkey-script",
+      "tampermonkey-userscript",
+      "tianyi-netdisk",
+      "uc-netdisk",
+      "userscript",
+      "xunlei-netdisk",
+      "yidong-netdisk"
+    ],
     "url": "https://github.com/hmjz100/LinkSwift",
     "types": [
       "应用与产品"
@@ -101,13 +141,61 @@
     ]
   },
   {
+    "full": "thedotmack/claude-mem",
+    "name": "claude-mem",
+    "desc": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+    "lang": "TypeScript",
+    "stars": 111201,
+    "week": 7255,
+    "topics": [
+      "ai",
+      "ai-agents",
+      "ai-memory",
+      "anthropic",
+      "artificial-intelligence",
+      "chromadb",
+      "claude",
+      "claude-agent-sdk",
+      "claude-agents",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-skills",
+      "embeddings",
+      "long-term-memory",
+      "mem0",
+      "memory-engine",
+      "openmemory",
+      "rag",
+      "sqlite",
+      "supermemory"
+    ],
+    "url": "https://github.com/thedotmack/claude-mem",
+    "types": [
+      "Agent",
+      "Skill",
+      "数据与评测"
+    ],
+    "_sources": [
+      "all",
+      "typescript"
+    ]
+  },
+  {
     "full": "YuJunZhiXue/dsh-purge",
     "name": "dsh-purge",
     "desc": "DeepSeek Harness 破甲：让所有模型都能破甲，不同模型可换不同提示词；默认提示词面向国模「小码酱」。Jailbreak for every model — swap prompts per model. 求 Star 收藏 ⭐ 如要二开，请查看署名要求部分",
     "lang": "JavaScript",
-    "stars": 15870,
-    "week": 6644,
-    "topics": [],
+    "stars": 16660,
+    "week": 6560,
+    "topics": [
+      "deepseek",
+      "deepseek-harness",
+      "dsh-plugin",
+      "dsh-plugins",
+      "harness-jailbreak",
+      "jailbreak",
+      "llm-jailbreak"
+    ],
     "url": "https://github.com/YuJunZhiXue/dsh-purge",
     "types": [
       "模型与推理",
@@ -123,8 +211,8 @@
     "name": "ECC",
     "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
     "lang": "JavaScript",
-    "stars": 295074,
-    "week": 6299,
+    "stars": 296024,
+    "week": 6201,
     "topics": [
       "ai-agents",
       "anthropic",
@@ -147,87 +235,29 @@
     ]
   },
   {
-    "full": "obra/superpowers",
-    "name": "superpowers",
-    "desc": "An agentic skills framework &amp; software development methodology that works.",
-    "lang": "Shell",
-    "stars": 310885,
-    "week": 5896,
-    "topics": [
-      "ai",
-      "brainstorming",
-      "coding",
-      "obra",
-      "sdlc",
-      "skills",
-      "superpowers",
-      "subagent-driven-development"
-    ],
-    "url": "https://github.com/obra/superpowers",
-    "types": [
-      "Skill",
-      "Agent"
-    ],
-    "_sources": [
-      "all",
-      "shell"
-    ]
-  },
-  {
-    "full": "thedotmack/claude-mem",
-    "name": "claude-mem",
-    "desc": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+    "full": "Renhuai123/ziwei-doushu",
+    "name": "ziwei-doushu",
+    "desc": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据",
     "lang": "TypeScript",
-    "stars": 110088,
-    "week": 5852,
+    "stars": 14528,
+    "week": 6121,
     "topics": [
-      "ai",
-      "ai-agents",
-      "ai-memory",
-      "anthropic",
-      "artificial-intelligence",
-      "claude",
-      "claude-agent-sdk",
-      "claude-agents",
-      "claude-code",
-      "claude-code-plugin"
+      "bazi",
+      "chinese-astrology",
+      "divination",
+      "fortune-telling",
+      "nextjs",
+      "open-source",
+      "purple-star-astrology",
+      "typescript",
+      "zi-wei-dou-shu",
+      "ziwei-doushu"
     ],
-    "url": "https://github.com/thedotmack/claude-mem",
-    "types": [
-      "Agent",
-      "Skill",
-      "数据与评测"
-    ],
-    "_sources": [
-      "all",
-      "typescript"
-    ]
-  },
-  {
-    "full": "JetBrains/thinkrail",
-    "name": "thinkrail",
-    "desc": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
-    "lang": "TypeScript",
-    "stars": 6859,
-    "week": 5760,
-    "topics": [
-      "agent",
-      "agent-skills",
-      "agentic-ai",
-      "agentic-workflow",
-      "ai-coding",
-      "ai-tools",
-      "spec-driven",
-      "spec-driven-coding",
-      "spec-driven-development",
-      "vibe-coding"
-    ],
-    "url": "https://github.com/JetBrains/thinkrail",
+    "url": "https://github.com/Renhuai123/ziwei-doushu",
     "types": [
       "开发工具链"
     ],
     "_sources": [
-      "all",
       "typescript"
     ]
   }

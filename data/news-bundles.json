@@ -1,5 +1,1377 @@
 [
   {
+    "id": "eve-meta-secchief-agent-logins",
+    "title": "Meta 前安全负责人：把金融账户登录交给 AI Agent「简直疯了」",
+    "url": "https://www.businessinsider.com/former-meta-security-chief-ai-agents-access-logins-insane-2026-11",
+    "date": "2026-11-03",
+    "meta": "",
+    "bullets": [
+      "Meta 前安全负责人警告勿把金融账户登录凭证交给 AI Agent。",
+      "强调 Agent 权限过大带来的盗用与欺诈风险。",
+      "对企业 Agent 权限最小化设计有警示意义。"
+    ],
+    "links": [
+      {
+        "label": "TechURLs",
+        "title": "Meta 前安全负责人称，把金融账户的登录信息交给 AI Agent「简直是疯了",
+        "url": "https://www.businessinsider.com/former-meta-security-chief-ai-agents-access-logins-insane-2026-11",
+        "date": "2026-11-03",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 65.0,
+      "actionable": 80.0,
+      "heat": 30,
+      "breadth": 70.0
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0.0
+    },
+    "score": 63.0
+  },
+  {
+    "id": "eve-github-security-risk-assess",
+    "title": "GitHub：安全风险评估纳入仓库保护状态",
+    "url": "https://github.blog/changelog/2026-11-02-security-risk-assessments-include-repository-protection-status",
+    "date": "2026-11-02",
+    "meta": "",
+    "bullets": [
+      "GitHub Changelog 称安全风险评估将包含仓库保护状态。",
+      "帮助识别保护规则不足的仓库风险。",
+      "对依赖 GitHub 的 AI/开发团队安全治理有直接用处。"
+    ],
+    "links": [
+      {
+        "label": "Official AI Updates",
+        "title": "安全风险评估纳入仓库保护状态",
+        "url": "https://github.blog/changelog/2026-11-02-security-risk-assessments-include-repository-protection-status",
+        "date": "2026-11-02",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 60.0,
+      "actionable": 75.0,
+      "heat": 30,
+      "breadth": 55.0
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0.0
+    },
+    "score": 58.0
+  },
+  {
+    "id": "eve-nvidia-china-cloud-51",
+    "title": "消息：Nvidia 口头要求云客户超半数算力服务售予非中国公司",
+    "url": "https://www.techmeme.com/261103/p1",
+    "date": "2026-11-03",
+    "meta": "",
+    "bullets": [
+      "Techmeme 援引消息称 Nvidia 口头要求云算力客户将 51%+ 服务售予非中国公司。",
+      "若属实将重塑云厂商对华客户结构与合规策略。",
+      "加剧 AI 算力地缘政治约束。"
+    ],
+    "links": [
+      {
+        "label": "TechURLs",
+        "title": "Sources: Nvidia verbally told cloud compute clients to sell 51%+ of their services to non-Chinese companies, imposing new limits on China's access to AI chips (",
+        "url": "https://www.techmeme.com/261103/p1",
+        "date": "2026-11-03",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 85.0,
+      "actionable": 70.0,
+      "heat": 35,
+      "breadth": 75.0
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 245,
+      "x_spike_7d": 147.5
+    },
+    "score": 69.5
+  },
+  {
+    "id": "eve-anthropic-valuation-cold",
+    "title": "公开市场给 AI 泼冷水：Anthropic 上市前估值叙事从约 2 万亿回落到约 1.5 万亿",
+    "url": "https://www.aibase.com/news/32030",
+    "date": "2026-11-03",
+    "meta": "",
+    "bullets": [
+      "中文报道称公开市场情绪降温，Anthropic 上市前估值叙事从约 2 万亿回落至约 1.5 万亿量级。",
+      "属于市场评论/定价预期，并非新的招股文件条款本身。",
+      "反映投资者对 AI IPO 定价更谨慎。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "​从 2 万亿到 1.5 万亿：Anthropic 上市前夜，公开市场给 AI 泼了盆冷水",
+        "url": "https://www.aibase.com/news/32030",
+        "date": "2026-11-03",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 70.0,
+      "actionable": 40.0,
+      "heat": 30,
+      "breadth": 65.0
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0.0
+    },
+    "score": 52.5
+  },
+  {
+    "id": "eve-deepseek-creator-mode",
+    "title": "DeepSeek 推出 Creator Mode：Harness 用户可创建自定义插件",
+    "url": "https://www.techmeme.com/261102/p32",
+    "date": "2026-11-03",
+    "meta": "",
+    "bullets": [
+      "DeepSeek 据报为 Harness 用户推出 Creator Mode，可创建自定义插件。",
+      "扩展 Agent 生态与第三方能力接入。",
+      "与 Super-Agent 研究原型不同，偏产品化插件生态。"
+    ],
+    "links": [
+      {
+        "label": "TechURLs",
+        "title": "DeepSeek releases a \"creator mode\" that allows users of DeepSeek Harness to create custom plugins, like a 3D model renderer and a video editing workbench (Debby",
+        "url": "https://www.techmeme.com/261102/p32",
+        "date": "2026-11-03",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 70.0,
+      "actionable": 80.0,
+      "heat": 30,
+      "breadth": 60.0
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0.0
+    },
+    "score": 64.0
+  },
+  {
+    "id": "eve-datacenter-water-190b",
+    "title": "美国数据中心年耗水近 190 亿加仑，AI 扩张催生水冷监测需求",
+    "url": "https://www.aibase.com/news/32032",
+    "date": "2026-11-03",
+    "meta": "",
+    "bullets": [
+      "报道称美国数据中心年耗水接近约 190 亿加仑。",
+      "AI 算力扩张推高水冷与水资源监测需求。",
+      "环境与地方审批压力成为数据中心扩张新约束。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "美国数据中心年耗水近190亿加仑，AI算力扩张催生水冷监测新需求",
+        "url": "https://www.aibase.com/news/32032",
+        "date": "2026-11-03",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 68.0,
+      "actionable": 55.0,
+      "heat": 30,
+      "breadth": 70.0
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0.0
+    },
+    "score": 56.7
+  },
+  {
+    "id": "eve-adnoc-openai-g42",
+    "title": "ADNOC 与 OpenAI、G42 签署协议部署 Frontier AI 智能体",
+    "url": "https://thenextweb.com/news/adnoc-openai-g42-frontier-ai-deal",
+    "date": "2026-11-02",
+    "meta": "",
+    "bullets": [
+      "阿联酋 ADNOC 与 OpenAI、G42 签约部署前沿 AI 智能体。",
+      "能源巨头场景落地 Agent，强调国家级合作。",
+      "中东主权资本与能源 AI 应用再加码。"
+    ],
+    "links": [
+      {
+        "label": "TechURLs",
+        "title": "ADNOC与OpenAI和G42签署协议，部署Frontier AI智能体",
+        "url": "https://thenextweb.com/news/adnoc-openai-g42-frontier-ai-deal",
+        "date": "2026-11-02",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 72.0,
+      "actionable": 65.0,
+      "heat": 30,
+      "breadth": 60.0
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0.0
+    },
+    "score": 60.3
+  },
+  {
+    "id": "eve-china-ai-export-48",
+    "title": "中国前沿 AI 出口管制观察：商务部第 48 号公告解读",
+    "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-china-ai-export-controls-announcement-48-2",
+    "date": "2026-11-02",
+    "meta": "",
+    "bullets": [
+      "CSA 等解读中国商务部第 48 号公告，被视为前沿 AI 出口管制重要信号。",
+      "影响模型、算力与相关物项跨境流动预期。",
+      "全球 AI 供应链合规成本上升。"
+    ],
+    "links": [
+      {
+        "label": "Buzzing",
+        "title": "中国首项前沿人工智能出口管制：商务部第48号公告",
+        "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-china-ai-export-controls-announcement-48-2",
+        "date": "2026-11-02",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 82.0,
+      "actionable": 60.0,
+      "heat": 30,
+      "breadth": 75.0
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 37,
+      "x_spike_7d": 37.0
+    },
+    "score": 64.3
+  },
+  {
+    "id": "eve-letterpress-1",
+    "title": "The Letter Company 发布 Letterpress-1：面向增长工程的编程 Agent",
+    "url": "https://www.marktechpost.com/2026/11/02/letter-letterpress-1-growth-engineering-coding-agent",
+    "date": "2026-11-03",
+    "meta": "",
+    "bullets": [
+      "Letter 发布 Letterpress-1，定位增长工程场景的编程 Agent。",
+      "强调可执行增长实验与工程改动。",
+      "垂直 Coding Agent 产品再细分。"
+    ],
+    "links": [
+      {
+        "label": "Curated Media",
+        "title": "The Letter Company 发布 Letterpress-1：一款专为增长工程打造的编程 Agent",
+        "url": "https://www.marktechpost.com/2026/11/02/letter-letterpress-1-growth-engineering-coding-agent",
+        "date": "2026-11-03",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 58.0,
+      "actionable": 72.0,
+      "heat": 30,
+      "breadth": 50.0
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0.0
+    },
+    "score": 55.8
+  },
+  {
+    "id": "eve-hydrogen-10",
+    "title": "Deep Principle 发布 Hydrogen-1.0：面向科学发现的约 753B 开放权重模型",
+    "url": "https://www.marktechpost.com/2026/11/02/deep-principle-hydrogen-1-0-open-weight-scientific-model",
+    "date": "2026-11-03",
+    "meta": "",
+    "bullets": [
+      "Deep Principle 发布 Hydrogen-1.0，约 753B 面向科学发现的开放权重模型。",
+      "瞄准科研工作流而非通用聊天。",
+      "开源科学大模型赛道再添选手。"
+    ],
+    "links": [
+      {
+        "label": "Curated Media",
+        "title": "Deep Principle 发布 Hydrogen-1.0：一款面向科学发现的 753B 开放权重模型",
+        "url": "https://www.marktechpost.com/2026/11/02/deep-principle-hydrogen-1-0-open-weight-scientific-model",
+        "date": "2026-11-03",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 70.0,
+      "actionable": 75.0,
+      "heat": 30,
+      "breadth": 55.0
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0.0
+    },
+    "score": 62.0
+  },
+  {
+    "id": "eve-alphabet-6b-bond",
+    "title": "Alphabet 启动约 60 亿欧元债券发行，为 AI 相关融资试水",
+    "url": "https://thenextweb.com/news/alphabet-6bn-euro-bond-sale-ai-debt",
+    "date": "2026-11-03",
+    "meta": "",
+    "bullets": [
+      "Alphabet 启动约 60 亿欧元债券发行。",
+      "被指为 AI 债务融资自抛售潮以来的重要试水。",
+      "大科技用债市为 AI 资本开支筹资的信号。"
+    ],
+    "links": [
+      {
+        "label": "TechURLs",
+        "title": "Alphabet启动60亿欧元债券发行，为AI债务自抛售潮以来首次试水",
+        "url": "https://thenextweb.com/news/alphabet-6bn-euro-bond-sale-ai-debt",
+        "date": "2026-11-03",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 78.0,
+      "actionable": 45.0,
+      "heat": 40,
+      "breadth": 70.0
+    },
+    "heat": 40,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 790,
+      "x_spike_7d": 452.5
+    },
+    "score": 59.7
+  },
+  {
+    "id": "eve-anthropic-rust-rewrite",
+    "title": "Anthropic 团队零 Rust 经验，靠 Claude 完成核心 API 跨语言重构",
+    "url": "https://www.infoq.cn/article/IMWM7ZXDi99sMiUVZBIF",
+    "date": "2026-11-03",
+    "meta": "",
+    "bullets": [
+      "报道称 Anthropic 团队在几乎无 Rust 经验情况下，用 Claude 完成核心 API 跨语言重构。",
+      "宣称 CPU 约省 40%、延迟约降 20%。",
+      "成为「AI 编程改造生产系统」的高信号案例。"
+    ],
+    "links": [
+      {
+        "label": "OPML RSS",
+        "title": "Anthropic团队零Rust经验起步，靠Claude完成核心API跨语言重构：CPU省40%，延迟降20%",
+        "url": "https://www.infoq.cn/article/IMWM7ZXDi99sMiUVZBIF",
+        "date": "2026-11-03",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 72.0,
+      "actionable": 85.0,
+      "heat": 30,
+      "breadth": 60.0
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0.0
+    },
+    "score": 66.3
+  },
+  {
+    "id": "eve-pichai-gemini-compute",
+    "title": "皮查伊访谈：谷歌宁愿少卖云算力也要先保障 Gemini",
+    "url": "https://www.infoq.cn/article/JmVl0yY2RYIBNpuD0xuu",
+    "date": "2026-11-03",
+    "meta": "",
+    "bullets": [
+      "皮查伊罕见长访谈披露：谷歌会优先把算力留给 Gemini，而非全部外售。",
+      "谈及 AI 自我改进与云/自用算力争夺。",
+      "揭示前沿实验室「算力内用 vs 云收入」权衡，影响云客户预期。"
+    ],
+    "links": [
+      {
+        "label": "OPML RSS",
+        "title": "谷歌宁愿少卖云算力，也要先把算力留给 Gemini：皮查伊罕见长访谈，披露 AI 自我改进与算力争夺内幕",
+        "url": "https://www.infoq.cn/article/JmVl0yY2RYIBNpuD0xuu",
+        "date": "2026-11-03",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 80.0,
+      "actionable": 60.0,
+      "heat": 35,
+      "breadth": 75.0
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 151,
+      "x_spike_7d": 98.5
+    },
+    "score": 64.5
+  },
+  {
+    "id": "eve-goldman-pulls-ai-coding",
+    "title": "高盛限制交易员与银行家使用部分 AI 编程/工具",
+    "url": "https://the-decoder.com/goldman-sachs-pulls-ai-coding-tools-from-traders-and-bankers",
+    "date": "2026-11-03",
+    "meta": "",
+    "bullets": [
+      "高盛据报从交易员和银行家手中收回/限制部分 AI 编程与相关工具。",
+      "反映大型金融机构对代码外泄、合规与模型输出风险的收紧。",
+      "企业 AI 落地从「全面铺开」转向更细权限治理。"
+    ],
+    "links": [
+      {
+        "label": "Curated Media",
+        "title": "高盛从交易员和银行家手中收回 AI 编程工具",
+        "url": "https://the-decoder.com/goldman-sachs-pulls-ai-coding-tools-from-traders-and-bankers",
+        "date": "2026-11-03",
+        "same_event": true
+      },
+      {
+        "label": "Zeli",
+        "title": "Goldman 限制交易员和银行家使用部分 AI 工具",
+        "url": "https://www.bloomberg.com/news/articles/2026-11-02/goldman-restricts-traders-and-bankers-from-using-some-ai-tools",
+        "date": "2026-11-03",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 74.0,
+      "actionable": 72.0,
+      "heat": 46,
+      "breadth": 65.0
+    },
+    "heat": 46,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 197,
+      "x_spike_7d": 167.0
+    },
+    "score": 66.9
+  },
+  {
+    "id": "eve-trajectory-45m",
+    "title": "Trajectory 融资 4500 万美元：让非技术专家也能训练 AI 模型",
+    "url": "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts",
+    "date": "2026-11-03",
+    "meta": "",
+    "bullets": [
+      "Trajectory 完成约 4500 万美元融资。",
+      "产品目标是让非技术专家也能参与模型训练。",
+      "降低定制模型门槛，服务垂直领域专家。"
+    ],
+    "links": [
+      {
+        "label": "Curated Media",
+        "title": "Trajectory 融资 4500 万美元，让非技术专家也能训练 AI 模型",
+        "url": "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts",
+        "date": "2026-11-03",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 65.0,
+      "actionable": 70.0,
+      "heat": 30,
+      "breadth": 58.0
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0.0
+    },
+    "score": 58.8
+  },
+  {
+    "id": "eve-garry-tan-200k-tokens",
+    "title": "YC 的 Garry Tan：重度使用 AI Agent，年 Token 开支可达约 20 万美元",
+    "url": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens",
+    "date": "2026-11-03",
+    "meta": "",
+    "bullets": [
+      "报道称 Garry Tan 因大量使用 AI Agent，年 Token 花费可高达约 20 万美元。",
+      "成为 Agent 工作流成本的高调样本。",
+      "提醒团队把 Token/配额纳入真实工程预算。"
+    ],
+    "links": [
+      {
+        "label": "Curated Media",
+        "title": "Y Combinator的Garry Tan用AI Agent用得太多，一年花在Token上的钱高达20万美元",
+        "url": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens",
+        "date": "2026-11-03",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 55.0,
+      "actionable": 70.0,
+      "heat": 30,
+      "breadth": 60.0
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0.0
+    },
+    "score": 55.0
+  },
+  {
+    "id": "eve-apple-thirdparty-ai-rev",
+    "title": "报道：苹果或通过第三方 AI 应用分发/分成增加收入",
+    "url": "https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps",
+    "date": "2026-11-03",
+    "meta": "",
+    "bullets": [
+      "TechCrunch 称苹果可能就第三方 AI 应用探索新的收入方式。",
+      "细节仍模糊，但涉及 App Store 与 AI 分发经济。",
+      "若落地将影响第三方模型应用在 iOS 的商业模式。"
+    ],
+    "links": [
+      {
+        "label": "Curated Media",
+        "title": "苹果可能会试着通过对第三方 AI 应用……做点什么来增加收入",
+        "url": "https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps",
+        "date": "2026-11-03",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 70.0,
+      "actionable": 55.0,
+      "heat": 30,
+      "breadth": 68.0
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0.0
+    },
+    "score": 57.3
+  },
+  {
+    "id": "eve-google-dreambeans-india",
+    "title": "Google 将 Dreambeans 引入印度：AI 生成个人故事走向大众市场",
+    "url": "https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses",
+    "date": "2026-11-03",
+    "meta": "",
+    "bullets": [
+      "Google 把 Dreambeans 扩展到印度，为首个美国以外市场。",
+      "产品用 AI 生成个人化故事，面向大众消费。",
+      "生成式内容消费产品国际化试水。"
+    ],
+    "links": [
+      {
+        "label": "Curated Media",
+        "title": "Google 将 Dreambeans 引入印度，力图让 AI 生成的个人故事走向大众",
+        "url": "https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses",
+        "date": "2026-11-03",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 60.0,
+      "actionable": 55.0,
+      "heat": 30,
+      "breadth": 62.0
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0.0
+    },
+    "score": 52.7
+  },
+  {
+    "id": "eve-apple-watch-conversation-ai",
+    "title": "Apple Watch 对话回溯与摘要 AI 功能开始测试",
+    "url": "https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing",
+    "date": "2026-11-03",
+    "meta": "",
+    "bullets": [
+      "苹果开始测试 Apple Watch 上的对话回溯与摘要 AI 功能。",
+      "可回顾/概括近期对话，强调端侧与隐私叙事。",
+      "扩展 Apple Intelligence 到手腕场景。"
+    ],
+    "links": [
+      {
+        "label": "Curated Media",
+        "title": "Apple Watch 对话回溯与摘要 AI 功能开始测试",
+        "url": "https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing",
+        "date": "2026-11-03",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 68.0,
+      "actionable": 70.0,
+      "heat": 30,
+      "breadth": 65.0
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0.0
+    },
+    "score": 60.7
+  },
+  {
+    "id": "eve-hf-transformers-mic",
+    "title": "Hugging Face：Transformers 模型集成合同（Model Integration Contracts）",
+    "url": "https://huggingface.co/blog/transformers-mic",
+    "date": "2026-11-03",
+    "meta": "",
+    "bullets": [
+      "Hugging Face 介绍 Transformers Model Integration Contracts。",
+      "规范模型接入/集成的契约与流程，降低集成摩擦。",
+      "利好生态内模型贡献者与企业集成方。"
+    ],
+    "links": [
+      {
+        "label": "Official AI Updates",
+        "title": "Transformers 模型集成合同",
+        "url": "https://huggingface.co/blog/transformers-mic",
+        "date": "2026-11-03",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 62.0,
+      "actionable": 75.0,
+      "heat": 30,
+      "breadth": 55.0
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0.0
+    },
+    "score": 58.8
+  },
+  {
+    "id": "eve-openai-scaling-git",
+    "title": "OpenAI 分享内部 Git 扩展实践：支撑大规模工程协作",
+    "url": "https://openai.com/index/scaling-git-at-openai",
+    "date": "2026-11-02",
+    "meta": "",
+    "bullets": [
+      "OpenAI 工程博客介绍如何在内部扩展 Git。",
+      "面向超大代码库与协作负载的基础设施经验。",
+      "对同类 AI 实验室工程效能有参考价值。"
+    ],
+    "links": [
+      {
+        "label": "Official AI Updates",
+        "title": "OpenAI 中的 Git 扩展",
+        "url": "https://openai.com/index/scaling-git-at-openai",
+        "date": "2026-11-02",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 55.0,
+      "actionable": 70.0,
+      "heat": 30,
+      "breadth": 45.0
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0.0
+    },
+    "score": 53.5
+  },
+  {
+    "id": "eve-openai-security-sprint",
+    "title": "OpenAI 启动新一轮安全冲刺并提高漏洞赏金以加固平台",
+    "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+    "date": "2026-11-03",
+    "meta": "",
+    "bullets": [
+      "OpenAI 宣布筹备下一轮安全冲刺（security sprint）以加固平台。",
+      "同步提高漏洞赏金，鼓励外部防御者提交高危问题。",
+      "在账户接管与供应链风险频发背景下强化安全投入信号。"
+    ],
+    "links": [
+      {
+        "label": "Official AI Updates",
+        "title": "筹备下一轮安全冲刺，加固 OpenAI",
+        "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+        "date": "2026-11-03",
+        "same_event": true
+      },
+      {
+        "label": "Official AI Updates",
+        "title": "用更高的漏洞赏金奖励防御者",
+        "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+        "date": "2026-11-03",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 78.0,
+      "actionable": 80.0,
+      "heat": 41,
+      "breadth": 72.0
+    },
+    "heat": 41,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 1,
+      "x_posts_7d": 180,
+      "x_spike_7d": 157.5
+    },
+    "score": 70.6
+  },
+  {
+    "id": "eve-openai-lifeval",
+    "title": "OpenAI 发布 LifeVal：面向生命价值相关评估/安全方向的新项目",
+    "url": "https://openai.com/index/lifeval",
+    "date": "2026-11-02",
+    "meta": "",
+    "bullets": [
+      "OpenAI 官方发布 LifeVal 页面/项目。",
+      "聚焦生命价值相关评估与安全治理议题。",
+      "补充 OpenAI 安全与社会影响工具组合。"
+    ],
+    "links": [
+      {
+        "label": "Official AI Updates",
+        "title": "LifeVal",
+        "url": "https://openai.com/index/lifeval",
+        "date": "2026-11-02",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 68.0,
+      "actionable": 60.0,
+      "heat": 30,
+      "breadth": 55.0
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0.0
+    },
+    "score": 56.7
+  },
+  {
+    "id": "eve-questmobile-doubao-deepseek",
+    "title": "QuestMobile：豆包、DeepSeek 月人均使用次数超其他 AI 应用",
+    "url": "https://www.aibase.com/news/32048",
+    "date": "2026-11-03",
+    "meta": "",
+    "bullets": [
+      "QuestMobile 数据称豆包、DeepSeek 月人均使用次数领先其他 AI 应用。",
+      "反映国内 C 端 AI 应用粘性格局。",
+      "对产品运营与增长策略有参考，非产品发布。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "QuestMobile:豆包、DeepSeek月人均使用次数超其他AI应用",
+        "url": "https://www.aibase.com/news/32048",
+        "date": "2026-11-03",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 58.0,
+      "actionable": 50.0,
+      "heat": 30,
+      "breadth": 70.0
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0.0
+    },
+    "score": 51.2
+  },
+  {
+    "id": "eve-ant-kya-factory",
+    "title": "蚂蚁数科发布「智能体超级工厂」KYA 方案，亮相香港金融科技周",
+    "url": "https://www.aibase.com/news/32038",
+    "date": "2026-11-03",
+    "meta": "",
+    "bullets": [
+      "蚂蚁数科携「智能体超级工厂」亮相香港金融科技周并发布 KYA 方案。",
+      "面向金融场景规模化生产/治理智能体。",
+      "金融 AI Agent 基础设施再加码，偏行业方案发布。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "蚂蚁数科携「智能体超级工厂」亮相香港金融科技周，全新发布KYA方案",
+        "url": "https://www.aibase.com/news/32038",
+        "date": "2026-11-03",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 62.0,
+      "actionable": 65.0,
+      "heat": 30,
+      "breadth": 55.0
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0.0
+    },
+    "score": 55.8
+  },
+  {
+    "id": "eve-hunyuan-ai-scientist",
+    "title": "腾讯混元放出「AI 科学家」：自训蛋白、造机械手并改进下一代 AI",
+    "url": "https://www.aibase.com/news/32044",
+    "date": "2026-11-03",
+    "meta": "",
+    "bullets": [
+      "腾讯混元推出「AI 科学家」能力叙事：可自训蛋白、设计机械手。",
+      "并宣称能反哺改进下一代 AI，强调科研闭环。",
+      "与 Hyra 等科研 Agent 产品线呼应，推动 AI for Science 竞争。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "腾讯混元放出\"AI 科学家\"：自己训蛋白、造机械手，还反手改进下一代 AI",
+        "url": "https://www.aibase.com/news/32044",
+        "date": "2026-11-03",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 72.0,
+      "actionable": 68.0,
+      "heat": 40,
+      "breadth": 60.0
+    },
+    "heat": 40,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 443,
+      "x_spike_7d": 240.5
+    },
+    "score": 63.2
+  },
+  {
+    "id": "eve-huawei-ascend950-award",
+    "title": "华为昇腾 950 超节点获世界互联网大会领先科技奖",
+    "url": "https://www.aibase.com/news/32034",
+    "date": "2026-11-03",
+    "meta": "",
+    "bullets": [
+      "华为昇腾 950 超节点斩获世界互联网大会领先科技奖。",
+      "定位支撑万亿参数大模型训练/推理的国产算力底座。",
+      "强化国产 AI 算力叙事，对采购决策有信号意义。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "撑起万亿大模型：华为昇腾 950 超节点斩获世界互联网大会领先科技奖",
+        "url": "https://www.aibase.com/news/32034",
+        "date": "2026-11-03",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 70.0,
+      "actionable": 55.0,
+      "heat": 35,
+      "breadth": 65.0
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 116,
+      "x_spike_7d": 86.0
+    },
+    "score": 58.0
+  },
+  {
+    "id": "eve-unitree-taishan",
+    "title": "宇树 A2 夺得登泰山机器人竞速赛冠军，B2 负重约 74 公斤获亚军",
+    "url": "https://www.aibase.com/news/32033",
+    "date": "2026-11-03",
+    "meta": "",
+    "bullets": [
+      "宇树 A2 人形机器人在登泰山竞速赛夺冠。",
+      "B2 以约 74 公斤负重获亚军，展示户外机动与负载能力。",
+      "人形机器人公开赛再刷存在感，偏事件营销与工程验证。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "宇树A2夺得登泰山机器人竞速赛冠军，B2负重74公斤获亚军",
+        "url": "https://www.aibase.com/news/32033",
+        "date": "2026-11-03",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 60.0,
+      "actionable": 45.0,
+      "heat": 30,
+      "breadth": 55.0
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0.0
+    },
+    "score": 49.0
+  },
+  {
+    "id": "eve-coze-enterprise-sunset",
+    "title": "字节跳动扣子企业版将下线：11 月 30 日起停止新客购买",
+    "url": "https://www.aibase.com/news/32041",
+    "date": "2026-11-03",
+    "meta": "",
+    "bullets": [
+      "字节跳动扣子（Coze）宣布企业版将下线，11 月 30 日起停止新客购买。",
+      "既有企业客户需评估迁移与替代 Agent 平台。",
+      "国内 Agent 搭建平台格局生变，影响中小企业与开发者选型。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "字节跳动扣子宣布企业版宣布下线:11月30日起停止新客购买",
+        "url": "https://www.aibase.com/news/32041",
+        "date": "2026-11-03",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 72.0,
+      "actionable": 78.0,
+      "heat": 35,
+      "breadth": 70.0
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 68,
+      "x_spike_7d": 68.0
+    },
+    "score": 66.2
+  },
+  {
+    "id": "eve-qwen-lijiaqi",
+    "title": "千问办公个人会员月卡登陆李佳琦直播间，半小时售出约 10 万份",
+    "url": "https://www.aibase.com/news/32027",
+    "date": "2026-11-03",
+    "meta": "",
+    "bullets": [
+      "千问办公个人会员月卡在李佳琦直播间半小时售出约 10 万份。",
+      "显示头部电商直播成为大模型会员获客新渠道。",
+      "偏营销事件，对模型能力本身影响有限但热度高。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "千问办公个人会员月卡登陆李佳琦直播间，半小时售出10万份",
+        "url": "https://www.aibase.com/news/32027",
+        "date": "2026-11-03",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 55.0,
+      "actionable": 50.0,
+      "heat": 30,
+      "breadth": 68.0
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0.0
+    },
+    "score": 49.8
+  },
+  {
+    "id": "eve-qwen-470-opensource",
+    "title": "阿里把千问「开」出约 470 款模型，蔡崇信：开源才是 AI 普及的钥匙",
+    "url": "https://www.aibase.com/news/32046",
+    "date": "2026-11-03",
+    "meta": "",
+    "bullets": [
+      "阿里称千问开源模型家族已扩展到约 470 款。",
+      "蔡崇信强调开源是 AI 普及关键，对标封闭实验室路线。",
+      "强化阿里云/千问在开源生态与开发者心智的领先叙事。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "阿里把千问\"开\"出 470 款模型，蔡崇信：开源才是 AI 普及的钥匙",
+        "url": "https://www.aibase.com/news/32046",
+        "date": "2026-11-03",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 75.0,
+      "actionable": 70.0,
+      "heat": 35,
+      "breadth": 72.0
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 136,
+      "x_spike_7d": 91.0
+    },
+    "score": 65.2
+  },
+  {
+    "id": "eve-strata-0210",
+    "title": "开源本地大模型工具 Strata 0.2.10：8GB 显存可跑 128K 上下文",
+    "url": "https://www.aibase.com/news/32047",
+    "date": "2026-11-03",
+    "meta": "",
+    "bullets": [
+      "开源本地大模型工具 Strata 发布 0.2.10。",
+      "宣称在约 8GB 显存条件下支持 128K 超长上下文。",
+      "降低本地长上下文门槛，利好个人开发者与隐私向部署。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "8GB显存也能玩转128K超长上下文！开源本地大模型工具Strata 0.2. 10 发布",
+        "url": "https://www.aibase.com/news/32047",
+        "date": "2026-11-03",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 58.0,
+      "actionable": 80.0,
+      "heat": 40,
+      "breadth": 55.0
+    },
+    "heat": 40,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 475,
+      "x_spike_7d": 287.5
+    },
+    "score": 60.7
+  },
+  {
+    "id": "eve-kimi-unity-unreal",
+    "title": "Kimi 可直接改 Unity、虚幻工程做游戏原型",
+    "url": "https://www.aibase.com/news/32051",
+    "date": "2026-11-03",
+    "meta": "",
+    "bullets": [
+      "月之暗面 Kimi 据报不再只写方案，可直接上手修改 Unity、虚幻工程。",
+      "面向游戏原型与关卡/资源改动，缩短「方案→可运行工程」链路。",
+      "提升国内大模型在游戏生产工具链的可动手价值。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "Kimi 不再只写方案：直接上手改 Unity、虚幻工程做游戏原型",
+        "url": "https://www.aibase.com/news/32051",
+        "date": "2026-11-03",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 70.0,
+      "actionable": 82.0,
+      "heat": 35,
+      "breadth": 62.0
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 139,
+      "x_spike_7d": 116.5
+    },
+    "score": 65.8
+  },
+  {
+    "id": "eve-sensenova-68-flash",
+    "title": "商汤发布日日新 SenseNova 6.8 Flash：主打真实任务执行与设计协作",
+    "url": "https://www.aibase.com/news/32049",
+    "date": "2026-11-03",
+    "meta": "",
+    "bullets": [
+      "商汤正式发布日日新 SenseNova 6.8 Flash。",
+      "定位强调真实任务执行与设计协作，而非纯聊天。",
+      "国产多模态/Agent 产品线再更新，面向办公与创作场景。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "商汤正式发布日日新SenseNova 6.8 Flash，主打真实任务执行与设计协作",
+        "url": "https://www.aibase.com/news/32049",
+        "date": "2026-11-03",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 68.0,
+      "actionable": 72.0,
+      "heat": 45,
+      "breadth": 60.0
+    },
+    "heat": 45,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 848,
+      "x_spike_7d": 690.5
+    },
+    "score": 63.8
+  },
+  {
+    "id": "eve-openai-2028-election-memo",
+    "title": "OpenAI 备忘录：推动 AI 成为 2028 大选「必答题」并向参选人推销话术",
+    "url": "https://www.aibase.com/news/32035",
+    "date": "2026-11-03",
+    "meta": "",
+    "bullets": [
+      "流出/报道称 OpenAI 私密备忘录推动把 AI 做成 2028 大选必答题。",
+      "团队据报向有意参选人士推销如何谈论 AI 的话术与政策叙事。",
+      "显示实验室加强选举周期政治沟通，影响公众对 AI 监管议程的认知。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "一份私密备忘录流出：OpenAI 想让 AI 成为 2028 大选的\"必答题\"",
+        "url": "https://www.aibase.com/news/32035",
+        "date": "2026-11-03",
+        "same_event": true
+      },
+      {
+        "label": "TechURLs",
+        "title": "OpenAI 已经开始向有意参加 2028 年大选的人士兜售 AI 话术",
+        "url": "https://www.businessinsider.com/openai-pitching-2028-hopefuls-how-to-talk-about-ai-2026-11",
+        "date": "2026-11-02",
+        "same_event": true
+      },
+      {
+        "label": "TechURLs",
+        "title": "OpenAI的Lehane将支持数据中心禁令比作2002年伊拉克战争投票",
+        "url": "https://thenextweb.com/news/chris-lehane-memo-openai-2028-ai-election",
+        "date": "2026-11-02",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 74.0,
+      "actionable": 50.0,
+      "heat": 52,
+      "breadth": 75.0
+    },
+    "heat": 52,
+    "heat_signals": {
+      "reports": 3,
+      "domains": 3,
+      "x_posts_7d": 66,
+      "x_spike_7d": 36.0
+    },
+    "score": 62.5
+  },
+  {
+    "id": "eve-openai-driscoll-advisor",
+    "title": "OpenAI 聘请前美国陆军部长丹·德里斯科尔出任高级顾问",
+    "url": "https://www.aibase.com/news/32031",
+    "date": "2026-11-03",
+    "meta": "",
+    "bullets": [
+      "OpenAI 宣布前美国陆军部长丹·德里斯科尔（Dan Driscoll）出任高级顾问。",
+      "外界解读为军用/政府业务与政策沟通能力补强。",
+      "强化 OpenAI 在华盛顿与防务场景的人脉与合规叙事。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "OpenAI重磅宣布：前美国陆军部长丹·德里斯科尔出任高级顾问",
+        "url": "https://www.aibase.com/news/32031",
+        "date": "2026-11-03",
+        "same_event": true
+      },
+      {
+        "label": "AIbase",
+        "title": "从\"禁军用\"到拿下五角大楼，OpenAI 请来前陆军部长当顾问",
+        "url": "https://www.aibase.com/news/32043",
+        "date": "2026-11-03",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 76.0,
+      "actionable": 55.0,
+      "heat": 41,
+      "breadth": 68.0
+    },
+    "heat": 41,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 1,
+      "x_posts_7d": 195,
+      "x_spike_7d": 195.0
+    },
+    "score": 61.9
+  },
+  {
+    "id": "eve-chatgpt-classic-sunset",
+    "title": "OpenAI 宣布 ChatGPT Classic 将于 2027 年 1 月 30 日停用",
+    "url": "https://www.aibase.com/news/32039",
+    "date": "2026-11-03",
+    "meta": "",
+    "bullets": [
+      "OpenAI 宣布 ChatGPT Classic 将于 2027-01-30 停用。",
+      "用户需迁移至现行 ChatGPT 体验，旧版界面/工作流将失效。",
+      "标志经典 ChatGPT 形态正式退役，影响习惯旧版的用户与企业流程。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "OpenAI宣布ChatGPT Classic将于2027年1月30日停用",
+        "url": "https://www.aibase.com/news/32039",
+        "date": "2026-11-03",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 80.0,
+      "actionable": 85.0,
+      "heat": 30,
+      "breadth": 78.0
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 44,
+      "x_spike_7d": 44.0
+    },
+    "score": 71.3
+  },
+  {
+    "id": "eve-apple-ai-companion-18",
+    "title": "苹果 App Store 新规：AI 伴侣/虚拟恋人应用将强制 18+ 分级",
+    "url": "https://www.aibase.com/news/32050",
+    "date": "2026-11-03",
+    "meta": "",
+    "bullets": [
+      "苹果将在 App Store 分级新规中把 AI 虚拟恋人/伴侣与约会类应用强制设为 18 岁以上。",
+      "新规据称下月起生效，直接影响青少年可见性与分发。",
+      "延续平台对情感陪伴类 AI 的安全与年龄治理收紧。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "App Store 分级新规下月生效，AI 虚拟恋人正式被苹果关进\"成人区\"",
+        "url": "https://www.aibase.com/news/32050",
+        "date": "2026-11-03",
+        "same_event": true
+      },
+      {
+        "label": "AIbase",
+        "title": "苹果 App Store 新规:AI 伴侣与约会应用将强制设为18岁以上限制",
+        "url": "https://www.aibase.com/news/32042",
+        "date": "2026-11-03",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 78.0,
+      "actionable": 70.0,
+      "heat": 36,
+      "breadth": 82.0
+    },
+    "heat": 36,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 1,
+      "x_posts_7d": 24,
+      "x_spike_7d": 24.0
+    },
+    "score": 67.6
+  },
+  {
     "id": "morn-chatgpt-hangup-ban",
     "title": "OpenAI：ChatGPT 将主动挂断危险对话，屡犯者或被封号",
     "url": "https://www.aibase.com/news/32025",
@@ -178,7 +1550,7 @@
     "id": "morn-openai-grid-protectors",
     "title": "OpenAI 推出 Grid Protectors：用数据中心需求响应缓解电网压力",
     "url": "https://openai.com/index/grid-protectors-program",
-    "date": "2026-11-02",
+    "date": "2026-11-03",
     "meta": "",
     "bullets": [
       "OpenAI 宣布 Grid Protectors 计划，推动数据中心参与电网需求响应。",
@@ -206,33 +1578,40 @@
         "url": "https://thenextweb.com/news/openai-grid-protectors-program-demand-response-georgia",
         "date": "2026-11-02",
         "same_event": true
+      },
+      {
+        "label": "TechURLs",
+        "title": "OpenAI launches the Grid Protectors Program, a US effort for its future data center campuses to reduce electricity demand when the grid is under strain (OpenAI)",
+        "url": "https://www.techmeme.com/261102/p34",
+        "date": "2026-11-03",
+        "same_event": true
       }
     ],
     "score_parts": {
-      "industry": 88,
-      "actionable": 72,
-      "breadth": 82,
-      "heat": 57
+      "industry": 80.0,
+      "actionable": 75.0,
+      "heat": 68,
+      "breadth": 70.0
     },
-    "heat": 57,
+    "heat": 68,
     "heat_signals": {
-      "reports": 3,
-      "domains": 3,
+      "reports": 4,
+      "domains": 4,
       "x_posts_7d": 117,
       "x_spike_7d": 117.0
     },
-    "score": 76.4
+    "score": 75.1
   },
   {
     "id": "morn-grok-bot-throttle",
     "title": "马斯克/xAI：Grok Bot 成本「高得不可持续」，收紧使用配额",
     "url": "https://the-decoder.com/spacexsi-apparently-cuts-grok-bot-quotas-weeks-after-musk-called-it-his-fastest-growing-product",
-    "date": "2026-11-02",
+    "date": "2026-11-03",
     "meta": "",
     "bullets": [
-      "多家媒体称 xAI/SpaceXSI 在马斯克称 Grok Bot 增长最快后不久即削减配额。",
-      "马斯克直言成本「高得不可持续」，用户很快用尽额度。",
-      "消费级常驻 Agent 的单位经济问题被再次摆上台面。"
+      "马斯克/xAI 称 Grok Bot 成本「高得不可持续」，暂无法无限量使用。",
+      "新报道称相关侧亦在削减配额，付费用户周额度消耗引发关注。",
+      "反映前沿 Bot 产品单位经济压力，影响重度用户与套餐策略。"
     ],
     "links": [
       {
@@ -269,22 +1648,36 @@
         "url": "https://www.businessinsider.com/grok-bot-usage-limits-costs-unsustainably-high-elon-musk-agents-2026-11",
         "date": "2026-11-02",
         "same_event": true
+      },
+      {
+        "label": "AIbase",
+        "title": "算力成本高昂难以承受？传SpaceX悄悄削减Grok Bot配额，马斯克坦言营利失衡",
+        "url": "https://www.aibase.com/news/32052",
+        "date": "2026-11-03",
+        "same_event": true
+      },
+      {
+        "label": "AIbase",
+        "title": "马斯克表示 Grok Bot 暂无法实现无限量使用，付费用户周额度消耗引发关注",
+        "url": "https://www.aibase.com/news/32028",
+        "date": "2026-11-03",
+        "same_event": true
       }
     ],
     "score_parts": {
-      "industry": 86,
-      "actionable": 78,
-      "breadth": 80,
-      "heat": 89
+      "industry": 86.0,
+      "actionable": 72.0,
+      "heat": 85,
+      "breadth": 78.0
     },
-    "heat": 89,
+    "heat": 85,
     "heat_signals": {
-      "reports": 5,
-      "domains": 5,
-      "x_posts_7d": 1541,
-      "x_spike_7d": 1428.5
+      "reports": 7,
+      "domains": 6,
+      "x_posts_7d": 506,
+      "x_spike_7d": 386.0
     },
-    "score": 83.6
+    "score": 80.8
   },
   {
     "id": "morn-marvell-lumentum-merger",
@@ -339,7 +1732,7 @@
     "id": "morn-nyt-sues-brave-ai",
     "title": "纽约时报等起诉 Brave：指控其 AI 抓取并绕过付费墙",
     "url": "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times",
-    "date": "2026-11-02",
+    "date": "2026-11-03",
     "meta": "",
     "bullets": [
       "纽约时报等报社起诉 Brave 浏览器，指控其 AI 功能抓取受版权保护内容。",
@@ -360,22 +1753,29 @@
         "url": "https://thenextweb.com/news/nyt-newspapers-sue-brave-ai-scraping",
         "date": "2026-11-02",
         "same_event": true
+      },
+      {
+        "label": "Curated Media",
+        "title": "New York Times 等媒体起诉浏览器 Brave，指控其涉嫌抓取内容",
+        "url": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping",
+        "date": "2026-11-03",
+        "same_event": true
       }
     ],
     "score_parts": {
-      "industry": 84,
-      "actionable": 70,
-      "breadth": 80,
-      "heat": 46
+      "industry": 78.0,
+      "actionable": 55.0,
+      "heat": 57,
+      "breadth": 70.0
     },
-    "heat": 46,
+    "heat": 57,
     "heat_signals": {
-      "reports": 2,
-      "domains": 2,
-      "x_posts_7d": 78,
-      "x_spike_7d": 78.0
+      "reports": 3,
+      "domains": 3,
+      "x_posts_7d": 135,
+      "x_spike_7d": 135.0
     },
-    "score": 71.8
+    "score": 66.1
   },
   {
     "id": "morn-tencent-hyra-2",
@@ -626,12 +2026,12 @@
     "id": "morn-apple-ultra-robot-2028",
     "title": "报道：Apple「Ultra」智能家居机器人或要等到 2028 年",
     "url": "https://www.theverge.com/tech/1024496/apple-homeview-ultra-robot-rumor-delay",
-    "date": "2026-11-02",
+    "date": "2026-11-03",
     "meta": "",
     "bullets": [
-      "有报道称 Apple 的「Ultra」智能家居机器人进度延后。",
-      "可能要到 2028 年前后才更明朗。",
-      "消费机器人赛道时间表再度拉长。"
+      "报道称苹果智能家居机器人（J595/「Ultra」方向）或推迟，最早约 2028 年。",
+      "产品形态传闻含桌面机器人、屏幕与可旋转机械臂等。",
+      "节奏放缓影响消费机器人预期，但对当前用户直接可用影响有限。"
     ],
     "links": [
       {
@@ -640,22 +2040,36 @@
         "url": "https://www.theverge.com/tech/1024496/apple-homeview-ultra-robot-rumor-delay",
         "date": "2026-11-02",
         "same_event": true
+      },
+      {
+        "label": "AIbase",
+        "title": "苹果智能家居机器人J595将延期，最早或推迟至2028年",
+        "url": "https://www.aibase.com/news/32036",
+        "date": "2026-11-03",
+        "same_event": true
+      },
+      {
+        "label": "TechURLs",
+        "title": "Sources: Apple is developing a tabletop robot with a 9\" screen and a swiveling arm, set for release in 2027 or 2028 for ~$1,000, as John Ternus pushes robotics ",
+        "url": "https://www.techmeme.com/261102/p24",
+        "date": "2026-11-02",
+        "same_event": true
       }
     ],
     "score_parts": {
-      "industry": 70,
-      "actionable": 40,
-      "breadth": 65,
-      "heat": 30
+      "industry": 58.0,
+      "actionable": 40.0,
+      "heat": 52,
+      "breadth": 55.0
     },
-    "heat": 30,
+    "heat": 52,
     "heat_signals": {
-      "reports": 1,
-      "domains": 1,
-      "x_posts_7d": 0,
-      "x_spike_7d": 0.0
+      "reports": 3,
+      "domains": 3,
+      "x_posts_7d": 42,
+      "x_spike_7d": 42.0
     },
-    "score": 52.5
+    "score": 51.1
   },
   {
     "id": "morn-altman-superintelligence-concentration",
@@ -1963,7 +3377,7 @@
     "id": "eve-deepseek-superagent",
     "title": "DeepSeek 开源 Super-Agent（dsh-superagent）：Router-Worker 编程 Agent 研究原型",
     "url": "https://www.marktechpost.com/2026/11/01/deepseek-dsh-superagent-router-worker-coding-agent",
-    "date": "2026-11-02",
+    "date": "2026-11-03",
     "meta": "",
     "bullets": [
       "DeepSeek 开源 dsh-superagent / Super-Agent，定位为编程 Agent 研究原型。",
@@ -2005,22 +3419,36 @@
         "url": "https://www.aibase.com/news/32016",
         "date": "2026-11-02",
         "same_event": true
+      },
+      {
+        "label": "TechURLs",
+        "title": "DeepSeek开源Super-agent，一款自主编程智能体原型",
+        "url": "https://thenextweb.com/news/deepseek-open-sources-super-agent-a-prototype-autonomous-coding-agent",
+        "date": "2026-11-02",
+        "same_event": true
+      },
+      {
+        "label": "AIbase",
+        "title": "人只够盯 5 个对话窗口，DeepSeek 让 AI 自己当\"大管家\"",
+        "url": "https://www.aibase.com/news/32037",
+        "date": "2026-11-03",
+        "same_event": true
       }
     ],
     "score_parts": {
       "industry": 84.0,
       "actionable": 88.0,
-      "heat": 89,
+      "heat": 100,
       "breadth": 70.0
     },
-    "heat": 89,
+    "heat": 100,
     "heat_signals": {
-      "reports": 5,
-      "domains": 4,
-      "x_posts_7d": 2559,
-      "x_spike_7d": 2559.0
+      "reports": 7,
+      "domains": 5,
+      "x_posts_7d": 3196,
+      "x_spike_7d": 3166.0
     },
-    "score": 84.8
+    "score": 87.0
   },
   {
     "id": "morn-chatgpt-account-takeover",
@@ -2236,7 +3664,7 @@
     "id": "morn-claude-block-game-cloning",
     "title": "Anthropic 限制 Claude 逆向/复刻视频游戏",
     "url": "https://www.gamedeveloper.com/programming/anthropic-appears-to-have-ordered-ai-tool-claude-to-stop-remaking-video-games",
-    "date": "2026-11-02",
+    "date": "2026-11-03",
     "meta": "",
     "bullets": [
       "Anthropic 据称要求 Claude 停止复刻/逆向现有视频游戏。",
@@ -2313,22 +3741,36 @@
         "url": "https://www.techmeme.com/261102/p31",
         "date": "2026-11-02",
         "same_event": true
+      },
+      {
+        "label": "Curated Media",
+        "title": "Anthropic 收紧对 Claude AI 电子游戏克隆的管控",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones",
+        "date": "2026-11-03",
+        "same_event": true
+      },
+      {
+        "label": "Hacker News",
+        "title": "Anthropic 禁止利用 Claude 进行逆向工程",
+        "url": "https://www.techpowerup.com/354351/anthropic-bans-ai-game-clones-and-reverse-engineering-with-claude",
+        "date": "2026-11-02",
+        "same_event": true
       }
     ],
     "score_parts": {
-      "industry": 78.0,
-      "actionable": 82.0,
-      "breadth": 74.0,
-      "heat": 85
+      "industry": 80.0,
+      "actionable": 78.0,
+      "heat": 80,
+      "breadth": 72.0
     },
-    "heat": 85,
+    "heat": 80,
     "heat_signals": {
-      "reports": 10,
-      "domains": 9,
-      "x_posts_7d": 308,
-      "x_spike_7d": 308.0
+      "reports": 12,
+      "domains": 11,
+      "x_posts_7d": 179,
+      "x_spike_7d": 156.5
     },
-    "score": 80.2
+    "score": 78.6
   },
   {
     "id": "morn-claude-pentagon-agent",
@@ -3813,12 +5255,12 @@
     "id": "anthropic-向-sec-提交-s-1-启动-ipo-拟以代码-ant-登-49eb0a",
     "title": "Anthropic 向 SEC 提交 S-1 启动 IPO，拟以代码 ANT 登陆纳斯达克",
     "url": "https://x.com/testingcatalog/status/2114696424021451174",
-    "date": "2026-11-02",
+    "date": "2026-11-03",
     "meta": "",
     "bullets": [
-      "Anthropic 已向 SEC 提交 S-1，拟以代码 ANT 登陆纳斯达克，进入公开上市流程。",
-      "新报道关注招股文件中的大规模隐性债务/长期算力承诺，以及或难获投资级信用评级。",
-      "IPO 披露与评级预期冲击科技股情绪，放大市场对 AI 资本开支与偿债压力的担忧。"
+      "Anthropic 已向 SEC 提交/修订 S-1，拟以代码 ANT 登陆纳斯达克。",
+      "修订文件披露 Q3 营收大增但净亏损扩大，算力采购与租赁承诺约 8950 亿美元；并警告或接近递归自我改进（RSI）能力。",
+      "IPO 披露与巨额算力负债冲击市场情绪，公开市场对 AI 估值与偿债压力更敏感。"
     ],
     "links": [
       {
@@ -4456,22 +5898,106 @@
         "url": "https://www.businessinsider.com/anthropic-q3-revenue-amended-s-1-compute-commitments-2026-11",
         "date": "2026-11-02",
         "same_event": true
+      },
+      {
+        "label": "AIbase",
+        "title": "Anthropic修订S-1文件:AI可能很快达到递归式自我改进阈值",
+        "url": "https://www.aibase.com/news/32029",
+        "date": "2026-11-03",
+        "same_event": true
+      },
+      {
+        "label": "AIbase",
+        "title": "营收狂飙却难掩巨额账单：Anthropic三季度重回亏损，近 9000 亿美元算力承诺成IPO最大考验",
+        "url": "https://www.aibase.com/news/32045",
+        "date": "2026-11-03",
+        "same_event": true
+      },
+      {
+        "label": "Curated Media",
+        "title": "Anthropic警告称，它已非常接近具备RSI能力，也就是能自我构建的AI",
+        "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai",
+        "date": "2026-11-03",
+        "same_event": true
+      },
+      {
+        "label": "Zeli",
+        "title": "Anthropic 承诺支出激增至近 9000 亿美元",
+        "url": "https://www.axios.com/2026/11/02/anthropic-spending-revenue-surge",
+        "date": "2026-11-03",
+        "same_event": true
+      },
+      {
+        "label": "Buzzing",
+        "title": "Anthropic在修订后的S-1文件中报告第三季度营收为170亿美元，承诺金额达8950亿美元",
+        "url": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html",
+        "date": "2026-11-03",
+        "same_event": true
+      },
+      {
+        "label": "TechURLs",
+        "title": "Amended S-1: Anthropic says it has purchase commitments and lease agreements of $895.4B, \"substantially all of which is related to compute and infrastructure\" (",
+        "url": "https://www.techmeme.com/261102/p29",
+        "date": "2026-11-03",
+        "same_event": true
+      },
+      {
+        "label": "TechURLs",
+        "title": "S-1: Anthropic reports Q3 revenue up 12x YoY to nearly $17B, a net loss of $23.3B, up from $12.1B in Q3 2025, and operating expenses up 292% to $17.5B (Bailey L",
+        "url": "https://www.techmeme.com/261102/p23",
+        "date": "2026-11-02",
+        "same_event": true
+      },
+      {
+        "label": "TechURLs",
+        "title": "Anthropic第三季度营收大幅增长，IPO临近",
+        "url": "https://www.nytimes.com/2026/11/02/business/anthropic-earnings-ai.html",
+        "date": "2026-11-02",
+        "same_event": true
+      },
+      {
+        "label": "TechURLs",
+        "title": "探秘 Anthropic 的 AI 算力争夺战",
+        "url": "https://www.nytimes.com/2026/11/02/technology/anthropic-ai-computing-power.html",
+        "date": "2026-11-02",
+        "same_event": true
+      },
+      {
+        "label": "TechURLs",
+        "title": "Sources detail Anthropic's compute deal spree: 3.5GW+ in expected capacity in 2026, expanding direct hardware procurement to include Nvidia and AMD, and more (N",
+        "url": "https://www.techmeme.com/261102/p26",
+        "date": "2026-11-02",
+        "same_event": true
+      },
+      {
+        "label": "TechURLs",
+        "title": "Filing: Anthropic plans to raise up to $3.5B from Japanese investors as part of its IPO, joining Australia, Canada, and parts of Europe in having direct access ",
+        "url": "https://www.techmeme.com/261102/p9",
+        "date": "2026-11-02",
+        "same_event": true
+      },
+      {
+        "label": "TechURLs",
+        "title": "亿万富翁投资者Howard Marks剖析为何给Anthropic这类AI公司估值如此棘手",
+        "url": "https://www.businessinsider.com/howard-marks-ai-anthropic-stocks-nasdaq-investing-valuation-buffett-burry-2026-11",
+        "date": "2026-11-02",
+        "same_event": true
       }
     ],
     "score_parts": {
-      "industry": 92.0,
+      "industry": 93.0,
       "actionable": 55.0,
-      "breadth": 90.0,
-      "heat": 100
+      "heat": 75,
+      "breadth": 92.0
     },
-    "heat": 100,
+    "heat": 75,
     "heat_signals": {
-      "reports": 91,
-      "domains": 28,
-      "x_posts_7d": 4190,
-      "x_spike_7d": 3140.0
+      "reports": 103,
+      "domains": 30,
+      "x_posts_7d": 23454,
+      "x_spike_7d": -12178.5
     },
-    "score": 82.3
+    "score": 77.9
   },
   {
     "id": "openai-披露-patch-the-planet-计划借助-gpt-5-6-sol-发现-p-a4fbd0",
@@ -17709,12 +19235,12 @@
     "id": "eve-meituan-longcat-25",
     "title": "美团龙猫发布 LongCat-2.5：宣称 1.6 万亿参数原生多模态模型",
     "url": "https://www.aibase.com/news/32006",
-    "date": "2026-11-02",
+    "date": "2026-11-03",
     "meta": "",
     "bullets": [
-      "美团龙猫（LongCat）发布 LongCat-2.5，报道称达 1.6 万亿参数并主打原生多模态。",
-      "国内互联网大厂继续加码自研多模态底座，对标行业前沿规模叙事。",
-      "实际可用能力、开放接口与评测成绩仍待独立验证。"
+      "美团龙猫发布 LongCat-2.5，宣称约 1.6 万亿参数原生多模态模型。",
+      "官方与报道称多项智能 Agent 基准表现靠前，面向 Agent 任务。",
+      "继续加码国产多模态与 Agent 能力竞赛。"
     ],
     "links": [
       {
@@ -17723,22 +19249,36 @@
         "url": "https://www.aibase.com/news/32006",
         "date": "2026-11-02",
         "same_event": true
+      },
+      {
+        "label": "AIbase",
+        "title": "美团发布全新1. 6 万亿多模态大模型LongCat-2.5：多项智能Agent基准登顶全球第一",
+        "url": "https://www.aibase.com/news/32040",
+        "date": "2026-11-03",
+        "same_event": true
+      },
+      {
+        "label": "Zeli",
+        "title": "LongCat-2.5：面向 Agent 任务的原生多模态",
+        "url": "https://longcat.ai/blog/longcat-2.5",
+        "date": "2026-11-02",
+        "same_event": true
       }
     ],
     "score_parts": {
-      "industry": 76.0,
+      "industry": 72.0,
       "actionable": 70.0,
-      "heat": 35,
-      "breadth": 62.0
+      "heat": 67,
+      "breadth": 65.0
     },
-    "heat": 35,
+    "heat": 67,
     "heat_signals": {
-      "reports": 1,
-      "domains": 1,
-      "x_posts_7d": 220,
-      "x_spike_7d": 197.5
+      "reports": 3,
+      "domains": 2,
+      "x_posts_7d": 1744,
+      "x_spike_7d": 1579.0
     },
-    "score": 64.6
+    "score": 69.7
   },
   {
     "id": "eve-qwen-glasses-ota",
