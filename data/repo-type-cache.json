@@ -63,10 +63,10 @@
     "types": [
       "Agent",
       "应用与产品",
-      "数据与评测"
+      "开发工具链"
     ],
-    "updated": "2026-10-10",
-    "source": "grok-bot"
+    "updated": "2026-11-04",
+    "source": "executor-morning"
   },
   "thedotmack/claude-mem": {
     "types": [
@@ -3904,12 +3904,11 @@
   },
   "NirDiamant/GenAI_Agents": {
     "types": [
-      "Skill",
       "Agent",
-      "模型与推理"
+      "数据与评测"
     ],
-    "updated": "2026-10-25",
-    "source": "keyword-fallback"
+    "updated": "2026-11-04",
+    "source": "executor-morning"
   },
   "modelcontextprotocol/python-sdk": {
     "types": [
@@ -5933,5 +5932,37 @@
     ],
     "updated": "2026-11-03",
     "source": "executor-evening-model"
+  },
+  "HunYiSage/dsh-purge": {
+    "types": [
+      "开发工具链",
+      "Skill"
+    ],
+    "updated": "2026-11-04",
+    "source": "executor-morning"
+  },
+  "kajisho5/ffmpeg-skill": {
+    "types": [
+      "Skill",
+      "开发工具链"
+    ],
+    "updated": "2026-11-04",
+    "source": "executor-morning"
+  },
+  "The-PR-Agent/pr-agent": {
+    "types": [
+      "Agent",
+      "开发工具链"
+    ],
+    "updated": "2026-11-04",
+    "source": "executor-morning"
+  },
+  "Dammyjay93/interface-design": {
+    "types": [
+      "Skill",
+      "开发工具链"
+    ],
+    "updated": "2026-11-04",
+    "source": "executor-morning"
   }
 }
