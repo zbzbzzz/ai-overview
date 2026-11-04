@@ -1,5 +1,719 @@
 [
   {
+    "id": "eve-mit-astra-edit-qwen",
+    "title": "MIT：用 GPT-6 Astra 直接编辑 Qwen 开放权重并提升数学成绩",
+    "url": "https://science.slashdot.org/story/26/11/03/0537252/mit-researchers-used-gpt-6-astra-to-edit-qwens-open-weights-directly-boosting-math-scores",
+    "date": "2026-11-04",
+    "meta": "",
+    "bullets": [
+      "MIT 研究人员据报用 GPT-6 Astra 直接编辑 Qwen 开放权重。",
+      "称由此提升了数学相关表现。",
+      "引发对模型权重可编辑性与安全对齐的讨论。"
+    ],
+    "links": [
+      {
+        "label": "TechURLs",
+        "title": "MIT 研究人员用 GPT-6 Astra 直接编辑 Qwen 的开放权重，提升了数学成绩",
+        "url": "https://science.slashdot.org/story/26/11/03/0537252/mit-researchers-used-gpt-6-astra-to-edit-qwens-open-weights-directly-boosting-math-scores",
+        "date": "2026-11-04",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 75,
+      "actionable": 70,
+      "breadth": 55,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 344,
+      "x_spike_7d": -106.0
+    },
+    "score": 62.5
+  },
+  {
+    "id": "eve-revolut-glm-cost",
+    "title": "Revolut：自托管 GLM 取代商业编码工具，推理成本降约 90%",
+    "url": "https://dealroom.co/news/169124-revolut-swaps-claude-code-for-a-chinese-open-weight-model-cutting-its-ai",
+    "date": "2026-11-04",
+    "meta": "",
+    "bullets": [
+      "Revolut 称不到一年将自托管 GLM 设为默认，取代 Claude Code 等商业工具。",
+      "AI 编程推理成本下降约 90%。",
+      "为企业降本与开源/自托管模型替代提供案例。"
+    ],
+    "links": [
+      {
+        "label": "Hacker News",
+        "title": "Revolut 把 Claude 换成 GLM 开放权重模型，AI 编程开销降低 90%",
+        "url": "https://dealroom.co/news/169124-revolut-swaps-claude-code-for-a-chinese-open-weight-model-cutting-its-ai",
+        "date": "2026-11-04",
+        "same_event": true
+      },
+      {
+        "label": "TechURLs",
+        "title": "Revolut says it cut AI coding inference costs by ~90% in less than a year by making self-hosted GLM models its default over commercial tools like Claude Code (Tobias Mann/The Register)",
+        "url": "https://www.techmeme.com/261103/p36",
+        "date": "2026-11-04",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 72,
+      "actionable": 80,
+      "breadth": 55,
+      "heat": 41
+    },
+    "heat": 41,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 546,
+      "x_spike_7d": -691.5
+    },
+    "score": 66.5
+  },
+  {
+    "id": "eve-openai-astra-hardware",
+    "title": "OpenAI：GPT-6 Astra 据称不到一周从零设计出一款硬件设备",
+    "url": "https://the-decoder.com/openai-says-gpt-6-astra-designed-a-hardware-device-from-scratch-in-under-a-week",
+    "date": "2026-11-04",
+    "meta": "",
+    "bullets": [
+      "OpenAI 称硬件团队用 GPT-6 Astra 在不到一周内为 Codex agent 设计设备。",
+      "涵盖外壳、电路板与固件，但因制造公差仍需多轮修改。",
+      "展示 AI 辅助硬件设计的能力边界与工程现实约束。"
+    ],
+    "links": [
+      {
+        "label": "Curated Media",
+        "title": "OpenAI 称 GPT-6 Astra 不到一周就从零设计出一款硬件设备",
+        "url": "https://the-decoder.com/openai-says-gpt-6-astra-designed-a-hardware-device-from-scratch-in-under-a-week",
+        "date": "2026-11-04",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 80,
+      "actionable": 60,
+      "breadth": 65,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 357,
+      "x_spike_7d": -318.0
+    },
+    "score": 62.5
+  },
+  {
+    "id": "eve-copilot-byok-usage-api",
+    "title": "GitHub Copilot 用量 API 支持 BYOK 与企业自定义模型分列",
+    "url": "https://github.blog/changelog/2026-11-03-byok-and-enterprise-custom-models-in-the-copilot-usage-api",
+    "date": "2026-11-04",
+    "meta": "",
+    "bullets": [
+      "Copilot usage metrics API 可将 BYOK 与托管模型用量分开统计。",
+      "覆盖 Ollama、Foundry Local、LM Studio、llama-server 等本地 BYOK。",
+      "企业/组织报告提供 1 天与 28 天用户与汇总数据。"
+    ],
+    "links": [
+      {
+        "label": "Official AI Updates",
+        "title": "Copilot 使用情况 API 支持 BYOK 和企业自定义模型",
+        "url": "https://github.blog/changelog/2026-11-03-byok-and-enterprise-custom-models-in-the-copilot-usage-api",
+        "date": "2026-11-04",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 65,
+      "actionable": 80,
+      "breadth": 55,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 37,
+      "x_spike_7d": -0.5
+    },
+    "score": 61.5
+  },
+  {
+    "id": "eve-aliyun-qovest",
+    "title": "阿里云发布 AI 投研工作台 Qovest：个人邀测约 99 元/月",
+    "url": "https://www.aibase.com/news/32069",
+    "date": "2026-11-04",
+    "meta": "",
+    "bullets": [
+      "阿里云发布 Qovest，支持一句话提交研究请求、自动生成报告并持续跟踪。",
+      "个人邀测定价约 99 元/月；自称 Harness Agent 在 FinFirst/IRAB 评测领先。",
+      "面向投研场景的垂直 Agent 产品化尝试。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "阿里云发布AI投研工作台Qovest:99元/月开放个人邀测",
+        "url": "https://www.aibase.com/news/32069",
+        "date": "2026-11-04",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 68,
+      "actionable": 75,
+      "breadth": 55,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 41,
+      "x_spike_7d": 3.5
+    },
+    "score": 61.2
+  },
+  {
+    "id": "eve-openai-bug-recorder-safety",
+    "title": "报道：OpenAI 会议室藏录音器事件牵出多年安全治理争议",
+    "url": "https://www.aibase.com/news/32062",
+    "date": "2026-11-04",
+    "meta": "",
+    "bullets": [
+      "报道称 OpenAI 高管会议室卫生纸中藏录音器，相关工程师被捕。",
+      "知情人士称 ChatGPT 发布前已有员工就安全管理向董事会示警。",
+      "与近期安全冲刺/赏金提高形成对照，安全文化成焦点。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "藏在卫生纸里的录音器，扯出 OpenAI 多年安全积弊",
+        "url": "https://www.aibase.com/news/32062",
+        "date": "2026-11-04",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 75,
+      "actionable": 55,
+      "breadth": 65,
+      "heat": 35
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 375,
+      "x_spike_7d": 135.0
+    },
+    "score": 60.0
+  },
+  {
+    "id": "eve-apple-china-qwen",
+    "title": "苹果中国版 Apple Intelligence 启程：Siri/视觉智能接入千问",
+    "url": "https://www.aibase.com/news/32065",
+    "date": "2026-11-04",
+    "meta": "",
+    "bullets": [
+      "随 iOS 27.3 开发者测试版，中国版 Apple Intelligence 开放首批功能。",
+      "Siri、Visual Intelligence 与 Writing Tools 接入阿里千问。",
+      "Siri 交互改为屏幕边缘光晕，并支持双击切文字输入。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "苹果 AI 加速进入中国市场，Siri、视觉智能整合千问",
+        "url": "https://www.aibase.com/news/32065",
+        "date": "2026-11-04",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 85,
+      "actionable": 70,
+      "breadth": 80,
+      "heat": 45
+    },
+    "heat": 45,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 2131,
+      "x_spike_7d": 571.0
+    },
+    "score": 72.0
+  },
+  {
+    "id": "eve-bytedance-ban-thirdparty-ai",
+    "title": "消息称字节跳动限制员工自费使用第三方 AI 编程工具",
+    "url": "https://www.aibase.com/news/32070",
+    "date": "2026-11-04",
+    "meta": "",
+    "bullets": [
+      "消息称字节对本月起对 L4 代码仓与飞书文档禁外部 AI 访问。",
+      "员工自费 Claude/Codex 等账号内部停用；此前已转向自研 Trae。",
+      "反映大厂对代码外泄与第三方 Agent 权限的收紧。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "消息称字节跳动大面积限制员工自费使用第三方AI工具",
+        "url": "https://www.aibase.com/news/32070",
+        "date": "2026-11-04",
+        "same_event": true
+      },
+      {
+        "label": "TechURLs",
+        "title": "Sources: Alibaba, Tencent, ByteDance, and other Chinese AI companies ordered 6M Nvidia RTX Pro 5500 chips worth $70B, but expect only ~1% within four months (Bloomberg)",
+        "url": "https://www.techmeme.com/261104/p1",
+        "date": "2026-11-04",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 80,
+      "actionable": 75,
+      "breadth": 65,
+      "heat": 41
+    },
+    "heat": 41,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 57,
+      "x_spike_7d": -100.5
+    },
+    "score": 69.2
+  },
+  {
+    "id": "eve-jinwen-ai",
+    "title": "三晋文化大模型「晋问 AI」上线，数字人「晋豆」同步亮相",
+    "url": "https://www.aibase.com/news/32068",
+    "date": "2026-11-04",
+    "meta": "",
+    "bullets": [
+      "国内首个三晋文化垂直大模型晋问 AI 上线，集成 DeepSeek。",
+      "宣称知识检索准确率约 99%、幻觉率约 1% 以内。",
+      "数字人「晋豆」同步亮相，服务地方文化数字化。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "国内首个三晋文化大模型“晋问AI”正式上线，数字人“晋豆”同步亮相",
+        "url": "https://www.aibase.com/news/32068",
+        "date": "2026-11-04",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 55,
+      "actionable": 50,
+      "breadth": 45,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 22,
+      "x_spike_7d": -8.0
+    },
+    "score": 47.5
+  },
+  {
+    "id": "eve-seedance-overseas-50",
+    "title": "Seedance 海外收入占比达 50%，半年增长近 5 倍",
+    "url": "https://www.aibase.com/news/32067",
+    "date": "2026-11-04",
+    "meta": "",
+    "bullets": [
+      "Seedance 海外收入占比达 50%，半年增长近 5 倍。",
+      "借与 MPA 签约及 Disney/TikTok 合作打通版权合规。",
+      "显示中国视频生成产品在海外商业化提速。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "Seedance海外收入占比达50%，半年增长近5倍",
+        "url": "https://www.aibase.com/news/32067",
+        "date": "2026-11-04",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 72,
+      "actionable": 50,
+      "breadth": 60,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 198,
+      "x_spike_7d": -117.0
+    },
+    "score": 55.8
+  },
+  {
+    "id": "eve-anthropic-catwu-exit",
+    "title": "Anthropic Claude Code 产品负责人 Cat Wu 离职",
+    "url": "https://www.aibase.com/news/32071",
+    "date": "2026-11-04",
+    "meta": "",
+    "bullets": [
+      "Claude Code / Cowork 产品负责人 Cat Wu 称周五为在 Anthropic 最后一天。",
+      "她曾参与 Claude Code 从研究预览到爆红；另一核心成员 Thariq 上月亦离开。",
+      "正值 Anthropic 冲刺 IPO 前夕，核心产品人事变动受关注。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "Anthropic产品团队出现人事变动，Claude Code负责人离开",
+        "url": "https://www.aibase.com/news/32071",
+        "date": "2026-11-04",
+        "same_event": true
+      },
+      {
+        "label": "Hacker News",
+        "title": "Claude Code 产品负责人 Cat Wu 已从 Anthropic 离职",
+        "url": "https://www.businessinsider.com/claude-code-leader-cat-wu-exits-anthropic-before-big-ipo-2026-11",
+        "date": "2026-11-04",
+        "same_event": true
+      },
+      {
+        "label": "TechURLs",
+        "title": "Cat Wu, product lead for Claude Code and Cowork, has left Anthropic; Thariq Shihipar, who worked on Claude Code, announced his departure last month (Stephen Council/Business Insider)",
+        "url": "https://www.techmeme.com/261103/p43",
+        "date": "2026-11-04",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 78,
+      "actionable": 40,
+      "breadth": 60,
+      "heat": 57
+    },
+    "heat": 57,
+    "heat_signals": {
+      "reports": 3,
+      "domains": 3,
+      "x_posts_7d": 346,
+      "x_spike_7d": 151.0
+    },
+    "score": 60.6
+  },
+  {
+    "id": "eve-canva-reorg",
+    "title": "Canva 启动大规模重组：约 22% 员工受影响，称受 AI 与效率驱动",
+    "url": "https://www.aibase.com/news/32072",
+    "date": "2026-11-04",
+    "meta": "",
+    "bullets": [
+      "Canva 宣布涉及约 1271 名员工（约 22%）的重组，CEO 称近十年首次增长放缓。",
+      "拟合并产品/增长/平台团队，部分迁回悉尼总部。",
+      "公司将其与 AI 和组织效率调整挂钩，折射设计工具赛道承压。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "AI与组织效率驱动调整 Canva启动大规模重组",
+        "url": "https://www.aibase.com/news/32072",
+        "date": "2026-11-04",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 75,
+      "actionable": 45,
+      "breadth": 65,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 146,
+      "x_spike_7d": -11.5
+    },
+    "score": 56.0
+  },
+  {
+    "id": "eve-china-oss-token-lead",
+    "title": "OpenRouter：中国开源大模型 token 用量连续 27 周超美国",
+    "url": "https://www.aibase.com/news/32074",
+    "date": "2026-11-04",
+    "meta": "",
+    "bullets": [
+      "乌镇峰会援引 OpenRouter 数据：中国大模型 token 用量连续 27 周超过美国。",
+      "全球周用量前五中中国占四席，DeepSeek 居首。",
+      "反映开源路线在海外开发者与企业侧的实际采用。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "中国开源AI凭什么火遍全球？乌镇峰会揭秘：调用量连续 27 周超越美国，成海外企业和开发者的香饽饽",
+        "url": "https://www.aibase.com/news/32074",
+        "date": "2026-11-04",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 78,
+      "actionable": 50,
+      "breadth": 75,
+      "heat": 35
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 295,
+      "x_spike_7d": 182.5
+    },
+    "score": 60.7
+  },
+  {
+    "id": "eve-youtube-replace-song",
+    "title": "YouTube 推 AI「Replace song」：一键换免版税配乐消版权声明",
+    "url": "https://www.aibase.com/news/32075",
+    "date": "2026-11-04",
+    "meta": "",
+    "bullets": [
+      "YouTube 向全球创作者推出 Replace song：收到音频版权声明后 AI 生成多条免版税器乐。",
+      "替换完成后 Content ID 声明自动移除，目前主要处理伴奏。",
+      "降低创作者版权申诉摩擦，但也引发对原创音乐生态的讨论。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "创作者最怕的\"版权申诉\"，YouTube 用 AI 配乐一键化解",
+        "url": "https://www.aibase.com/news/32075",
+        "date": "2026-11-04",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 72,
+      "actionable": 80,
+      "breadth": 75,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 10,
+      "x_spike_7d": -20.0
+    },
+    "score": 66.3
+  },
+  {
+    "id": "eve-eu-gemini-paywall",
+    "title": "欧洲法院顾问意见：Gemini 绕过付费墙或复用表达或涉侵权",
+    "url": "https://www.aibase.com/news/32076",
+    "date": "2026-11-04",
+    "meta": "",
+    "bullets": [
+      "欧盟法院 Advocate General 意见指出，Gemini 绕过付费墙或以可识别方式复用报道表达或侵犯复制权。",
+      "单纯事实与 TDM 训练例外仍受保护。",
+      "对生成式 AI 与新闻版权边界具有政策风向意义。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "欧洲法院顾问警告：Gemini若绕过付费墙或复用内容或涉嫌侵权",
+        "url": "https://www.aibase.com/news/32076",
+        "date": "2026-11-04",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 80,
+      "actionable": 65,
+      "breadth": 70,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 223,
+      "x_spike_7d": 28.0
+    },
+    "score": 64.5
+  },
+  {
+    "id": "eve-princeton-sson",
+    "title": "普林斯顿 SSoN 基准：人类 83.3%，主流 VLM 最高仅约 39.7%",
+    "url": "https://www.aibase.com/news/32081",
+    "date": "2026-11-04",
+    "meta": "",
+    "bullets": [
+      "Princeton AI Lab 发布 SSoN，用四张静态室内图挑异常场景。",
+      "人类准确率 83.3%，主流视觉语言模型最高约 39.7%，多低于随机基线。",
+      "暴露模型跨视角 3D/状态推理短板，对具身与空间智能评测有参考价值。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "普林斯顿AI Lab推出SSoN基准，人类准确率83.3%而大模型最高仅39.7%",
+        "url": "https://www.aibase.com/news/32081",
+        "date": "2026-11-04",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 70,
+      "actionable": 75,
+      "breadth": 55,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 1,
+      "x_spike_7d": 1.0
+    },
+    "score": 62.0
+  },
+  {
+    "id": "eve-ms-outlook-small-lm",
+    "title": "微软为 Outlook 引入小型 AI 模型优化邮件搜索排序",
+    "url": "https://www.aibase.com/news/32080",
+    "date": "2026-11-04",
+    "meta": "",
+    "bullets": [
+      "Microsoft 为 Outlook 搜索引入专用小型语言模型作 reranker。",
+      "由大模型监督训练，重排现有结果而非自然语言搜索。",
+      "内部早期离线测试结果称表现鼓舞。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "微软为Outlook引入小型AI模型，优化邮件搜索排序",
+        "url": "https://www.aibase.com/news/32080",
+        "date": "2026-11-04",
+        "same_event": true
+      },
+      {
+        "label": "TechURLs",
+        "title": "Block reports Q3 revenue up 10% YoY to $6.7B, above est., Cash App gross profit up 27% to $2.07B, raises its full-year profit outlook; XYZ jumps 5%+ after hours (Reuters)",
+        "url": "https://www.techmeme.com/261103/p38",
+        "date": "2026-11-04",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 72,
+      "actionable": 70,
+      "breadth": 75,
+      "heat": 51
+    },
+    "heat": 51,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 612,
+      "x_spike_7d": 319.5
+    },
+    "score": 67.5
+  },
+  {
+    "id": "eve-houmo-b-round",
+    "title": "后摩智能完成数十亿元 B 轮融资，加码端侧大模型 AI 芯片",
+    "url": "https://www.aibase.com/news/32082",
+    "date": "2026-11-04",
+    "meta": "",
+    "bullets": [
+      "后摩智能宣布完成数十亿元 B 轮，资金用于下一代端侧大模型芯片研发与量产。",
+      "投资方含产业资本、国有资本与国际投资者。",
+      "标志端侧大模型芯片进入规模化落地加速期。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "后摩智能完成数十亿元B轮融资，端侧大模型AI芯片驶入规模化落地快车道",
+        "url": "https://www.aibase.com/news/32082",
+        "date": "2026-11-04",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 78,
+      "actionable": 55,
+      "breadth": 60,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 6,
+      "x_spike_7d": 6.0
+    },
+    "score": 59.7
+  },
+  {
+    "id": "eve-anthropic-flashprove",
+    "title": "Anthropic 开源 FlashProve：用密码学证明验证模型身份、打击套壳",
+    "url": "https://www.aibase.com/news/32079",
+    "date": "2026-11-04",
+    "meta": "",
+    "bullets": [
+      "Anthropic 开源 FlashProve，以 zkSNARK/密码学指纹验证回复是否来自指定模型。",
+      "号称普通设备约 17 秒完成验真，用于防止路由偷换廉价模型。",
+      "公开代码，面向 API 调用链路上的模型出处可验证。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "Anthropic 杀手级验真系统 FlashProve 正式开源：17 秒精准戳破“套壳模型”，验身速度飙升 5000 倍",
+        "url": "https://www.aibase.com/news/32079",
+        "date": "2026-11-04",
+        "same_event": true
+      },
+      {
+        "label": "AIbase",
+        "title": "Anthropic发布开源系统FlashProve:通过密码学指纹实现AI模型身份可验证",
+        "url": "https://www.aibase.com/news/32061",
+        "date": "2026-11-04",
+        "same_event": true
+      },
+      {
+        "label": "TechURLs",
+        "title": "Anthropic releases FlashProve, open-source code that cryptographically verifies an AI response came from a given model, not a cheaper one swapped in by a router (Anthropic)",
+        "url": "https://www.techmeme.com/261103/p32",
+        "date": "2026-11-04",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 85,
+      "actionable": 80,
+      "breadth": 70,
+      "heat": 47
+    },
+    "heat": 47,
+    "heat_signals": {
+      "reports": 3,
+      "domains": 2,
+      "x_posts_7d": 956,
+      "x_spike_7d": -1901.5
+    },
+    "score": 74.4
+  },
+  {
     "id": "eve-meta-secchief-agent-logins",
     "title": "Meta 前安全负责人：把金融账户登录交给 AI Agent「简直疯了」",
     "url": "https://www.businessinsider.com/former-meta-security-chief-ai-agents-access-logins-insane-2026-11",
@@ -3473,17 +4187,17 @@
     "score_parts": {
       "industry": 84.0,
       "actionable": 88.0,
-      "heat": 85,
+      "heat": 95,
       "breadth": 70.0
     },
-    "heat": 85,
+    "heat": 95,
     "heat_signals": {
       "reports": 7,
       "domains": 5,
-      "x_posts_7d": 3367,
-      "x_spike_7d": 434.5
+      "x_posts_7d": 3467,
+      "x_spike_7d": 2769.5
     },
-    "score": 84.0
+    "score": 86.0
   },
   {
     "id": "morn-chatgpt-account-takeover",
@@ -11901,14 +12615,14 @@
   },
   {
     "id": "c3203a5161d1",
-    "title": "消息称腾讯混元 Hy4、Hy4flash 即将发布，模型能力与思维链效率将提升",
-    "url": "https://www.aibase.com/news/31948",
-    "date": "2026-10-29",
+    "title": "腾讯混元 Hy4 正式版发布：加入视觉与电脑操作，将公开权重",
+    "url": "https://www.aibase.com/news/32078",
+    "date": "2026-11-04",
     "meta": "AI 资讯",
     "bullets": [
-      "有消息称腾讯混元 Hy4 与 Hy4flash 即将发布。",
-      "称模型能力与思维链效率将全面提升。",
-      "目前为发布前传闻，需等官方确认。"
+      "腾讯 Hy4 正式版相对 8 月预览版新增视觉能力与「电脑操作」，并针对 Blender/CAD 等训练。",
+      "宣称跻身最强开源阵营，API 价格不变并将公开模型权重。",
+      "WorkBuddy/CodeBuddy 限时赠送 Hy4 免费额度（11/4–15）。"
     ],
     "links": [
       {
@@ -11916,22 +12630,29 @@
         "title": "消息称腾讯混元 Hy4、Hy4flash 即将发布，模型能力与思维链效率将提升",
         "url": "https://www.aibase.com/news/31948",
         "date": "2026-10-29"
+      },
+      {
+        "label": "SocialData X",
+        "title": "🔥速取白嫖！腾讯Hy4正式版限时免费开蹬！ 11月4日-15日，WorkBuddy/CodeBuddy上Hy4每日赠送免费额度，订阅用户更高，界面直接0.00x消耗。 打开WorkBuddy，模型列表里选Hy4，直接开干，别等额度被抢完再排队。 窗口就这十几天，错过再等就得花钱了，冲！ #ai #大模型 #AI人工智能 #hy4 #腾讯 #混元 #workbuddy #限免 #白嫖",
+        "url": "https://x.com/NFT_Chen/status/2117855726160982189",
+        "date": "2026-11-04",
+        "same_event": true
       }
     ],
     "score_parts": {
-      "industry": 70,
-      "actionable": 40,
-      "heat": 30,
-      "breadth": 55
+      "industry": 80,
+      "actionable": 75,
+      "heat": 52,
+      "breadth": 70
     },
     "heat_signals": {
-      "reports": 1,
-      "domains": 1,
-      "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "reports": 3,
+      "domains": 2,
+      "x_posts_7d": 787,
+      "x_spike_7d": 134.5
     },
-    "heat": 30,
-    "score": 51.5
+    "heat": 52,
+    "score": 71.9
   },
   {
     "id": "三星电子-依托-ai-将新型半导体材料研发周期由-5-年缩短至-2-年-c53883",
@@ -19921,22 +20642,36 @@
         "url": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
         "date": "2026-11-03",
         "same_event": true
+      },
+      {
+        "label": "AIbase",
+        "title": "OpenAI重磅宣布聘请前优步总裁吉尔·黑泽尔贝克担任首席企业事务官",
+        "url": "https://www.aibase.com/news/32059",
+        "date": "2026-11-04",
+        "same_event": true
+      },
+      {
+        "label": "TechURLs",
+        "title": "OpenAI hires Jill Hazelbaker, Uber's president and chief corporate affairs officer, as its new chief corporate affairs officer, reporting to Greg Brockman (Mike Allen/Axios)",
+        "url": "https://www.techmeme.com/261103/p31",
+        "date": "2026-11-04",
+        "same_event": true
       }
     ],
     "score_parts": {
-      "industry": 72.0,
-      "actionable": 55.0,
-      "heat": 30,
-      "breadth": 60.0
+      "industry": 70,
+      "actionable": 40,
+      "heat": 52,
+      "breadth": 55
     },
-    "heat": 30,
+    "heat": 52,
     "heat_signals": {
-      "reports": 1,
-      "domains": 1,
-      "x_posts_7d": 43,
-      "x_spike_7d": 43.0
+      "reports": 3,
+      "domains": 3,
+      "x_posts_7d": 87,
+      "x_spike_7d": -160.5
     },
-    "score": 57.3
+    "score": 55.9
   },
   {
     "id": "morn-statebench",
@@ -20374,14 +21109,14 @@
   },
   {
     "id": "morn-google-schools-ai",
-    "title": "Google 允许学校禁用其 AI 工具，但可能影响 Search 体验",
+    "title": "Google：学校禁用 AI 将失去 Search 访问（K-12 默认关闭 AI）",
     "url": "https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search",
-    "date": "2026-11-03",
+    "date": "2026-11-04",
     "meta": "",
     "bullets": [
-      "TechCrunch 称 Google 将允许学校禁用其 AI 工具，但禁用可能连带影响 Search。",
-      "教育场景的 AI 选择权与产品捆绑策略引发关注。",
-      "对教育 IT 采购与合规策略有直接含义。"
+      "Google 宣布 K-12 可禁用 Gemini 等 AI，但禁用 AI Overview/AI Mode 将无法使用 Search。",
+      "2027 年起学生账户 AI 与搜索服务默认关闭，需学校主动启用。",
+      "教育界批评其将搜索与 AI 深度捆绑，迫使用户二选一。"
     ],
     "links": [
       {
@@ -20390,33 +21125,89 @@
         "url": "https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search",
         "date": "2026-11-03",
         "same_event": true
+      },
+      {
+        "label": "AIbase",
+        "title": "谷歌宣布允许学校禁用AI工具，但代价是彻底失去谷歌搜索访问权限",
+        "url": "https://www.aibase.com/news/32063",
+        "date": "2026-11-04",
+        "same_event": true
+      },
+      {
+        "label": "TechURLs",
+        "title": "谷歌威胁学校：禁用AI就别想用搜索",
+        "url": "https://mashable.com/life/google-restricts-search-from-schools-that-ban-ai",
+        "date": "2026-11-04",
+        "same_event": true
+      },
+      {
+        "label": "TechURLs",
+        "title": "Google允许学校不用AI工具，但代价是连搜索也得放弃",
+        "url": "https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too",
+        "date": "2026-11-04",
+        "same_event": true
+      },
+      {
+        "label": "TechURLs",
+        "title": "Google 表示，在禁止 AI 的学校，学生将无法使用 Search",
+        "url": "https://www.engadget.com/2305432/google-says-that-students-in-schools-that-ban-ai-wont-have-access-to-search",
+        "date": "2026-11-04",
+        "same_event": true
+      },
+      {
+        "label": "TechURLs",
+        "title": "Google 正对不愿使用 AI 的学校完全禁用 Search",
+        "url": "https://www.theverge.com/tech/1025411/google-turn-off-search-ai-features",
+        "date": "2026-11-04",
+        "same_event": true
+      },
+      {
+        "label": "TechURLs",
+        "title": "除非学校主动选择启用，否则Google将关闭面向学生的Gemini服务",
+        "url": "https://thenextweb.com/news/google-guided-learning-classroom-search-k12-ai-off-by-default",
+        "date": "2026-11-04",
+        "same_event": true
+      },
+      {
+        "label": "Buzzing",
+        "title": "封锁谷歌人工智能的学校将导致学生无法使用其搜索引擎",
+        "url": "https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html",
+        "date": "2026-11-04",
+        "same_event": true
+      },
+      {
+        "label": "NewsNow",
+        "title": "Google 将关停拒绝 AI 学校的搜索服务",
+        "url": "https://news.ycombinator.com/item?id=50353192",
+        "date": "2026-11-03",
+        "same_event": true
       }
     ],
     "score_parts": {
-      "industry": 76.0,
-      "actionable": 70.0,
-      "heat": 35,
-      "breadth": 70.0
+      "industry": 78,
+      "actionable": 70,
+      "heat": 75,
+      "breadth": 85
     },
-    "heat": 35,
+    "heat": 75,
     "heat_signals": {
-      "reports": 1,
-      "domains": 1,
-      "x_posts_7d": 78,
-      "x_spike_7d": 78.0
+      "reports": 9,
+      "domains": 9,
+      "x_posts_7d": 1183,
+      "x_spike_7d": -1854.5
     },
-    "score": 65.4
+    "score": 75.7
   },
   {
     "id": "morn-chatgpt-search-google",
-    "title": "OpenAI 称 ChatGPT 在搜索领域正迎头赶上 Google",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/1025482/openai-says-chatgpt-is-catching-up-to-google-in-search",
-    "date": "2026-11-03",
+    "title": "OpenAI 证实：ChatGPT 搜索查询量已达 Google 的约 20%",
+    "url": "https://www.aibase.com/news/32060",
+    "date": "2026-11-04",
     "meta": "",
     "bullets": [
-      "The Verge 等报道 OpenAI 称 ChatGPT 在搜索体验上正追赶 Google。",
-      "搜索入口竞争与广告/分发格局仍是长期战役。",
-      "对流量分发与 SEO/GEO 策略有风向意义。"
+      "OpenAI 消费产品负责人 Adam Fry 证实 ChatGPT 搜索查询量约为 Google 的 20%。",
+      "显示 ChatGPT 在挑战传统搜索上已形成可观份额。",
+      "对广告与信息分发格局具有中长期影响。"
     ],
     "links": [
       {
@@ -20432,22 +21223,29 @@
         "url": "https://www.techmeme.com/261103/p19",
         "date": "2026-11-03",
         "same_event": true
+      },
+      {
+        "label": "TechURLs",
+        "title": "ChatGPT的搜索量现在大约是Google的20%。哇，大家还真是受够了Google啊？",
+        "url": "https://www.businessinsider.com/chatgpt-20-percent-google-search-volume-adam-fry-2026-11",
+        "date": "2026-11-04",
+        "same_event": true
       }
     ],
     "score_parts": {
-      "industry": 85.0,
-      "actionable": 65.0,
-      "heat": 41,
-      "breadth": 80.0
+      "industry": 82,
+      "actionable": 55,
+      "heat": 63,
+      "breadth": 80
     },
-    "heat": 41,
+    "heat": 63,
     "heat_signals": {
-      "reports": 2,
-      "domains": 2,
-      "x_posts_7d": 1997,
-      "x_spike_7d": -118.0
+      "reports": 4,
+      "domains": 4,
+      "x_posts_7d": 498,
+      "x_spike_7d": -274.5
     },
-    "score": 69.7
+    "score": 69.9
   },
   {
     "id": "morn-chatgpt-12b-wau",

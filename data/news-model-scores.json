@@ -2443,19 +2443,6 @@
       "x_spike_7d": 0
     }
   },
-  "消息称腾讯混元 Hy4、Hy4flash 即将发布，模型能力与思维链效率将提升": {
-    "score": 51.5,
-    "industry": 70,
-    "actionable": 40,
-    "breadth": 55,
-    "heat": 30,
-    "heat_signals": {
-      "reports": 1,
-      "domains": 1,
-      "x_posts_7d": 0,
-      "x_spike_7d": 0
-    }
-  },
   "三星电子：依托 AI 将新型半导体材料研发周期由 5 年缩短至 2 年": {
     "score": 51.5,
     "industry": 70,
@@ -5148,16 +5135,16 @@
     }
   },
   "DeepSeek 开源 Super-Agent（dsh-superagent）：Router-Worker 编程 Agent 研究原型": {
-    "score": 84.0,
+    "score": 86.0,
     "industry": 84.0,
     "actionable": 88.0,
     "breadth": 70.0,
-    "heat": 85,
+    "heat": 95,
     "heat_signals": {
       "reports": 7,
       "domains": 5,
-      "x_posts_7d": 3367,
-      "x_spike_7d": 434.5
+      "x_posts_7d": 3467,
+      "x_spike_7d": 2769.5
     }
   },
   "Nace AI 开源 Drex Max v1：可在 Apple Silicon 本地运行的 27B 决策模型": {
@@ -6591,16 +6578,16 @@
     }
   },
   "OpenAI 任命 Jill Hazelbaker 为首席企业事务官": {
-    "score": 57.3,
-    "industry": 72.0,
-    "actionable": 55.0,
-    "breadth": 60.0,
-    "heat": 30,
+    "score": 55.9,
+    "industry": 70,
+    "actionable": 40,
+    "breadth": 55,
+    "heat": 52,
     "heat_signals": {
-      "reports": 1,
-      "domains": 1,
-      "x_posts_7d": 43,
-      "x_spike_7d": 43.0
+      "reports": 3,
+      "domains": 3,
+      "x_posts_7d": 87,
+      "x_spike_7d": -160.5
     }
   },
   "AllenAI/HF 发布 StateBench：评测语言模型长文档状态追踪": {
@@ -6759,32 +6746,6 @@
       "x_spike_7d": 107.0
     }
   },
-  "Google 允许学校禁用其 AI 工具，但可能影响 Search 体验": {
-    "score": 65.4,
-    "industry": 76.0,
-    "actionable": 70.0,
-    "breadth": 70.0,
-    "heat": 35,
-    "heat_signals": {
-      "reports": 1,
-      "domains": 1,
-      "x_posts_7d": 78,
-      "x_spike_7d": 78.0
-    }
-  },
-  "OpenAI 称 ChatGPT 在搜索领域正迎头赶上 Google": {
-    "score": 69.7,
-    "industry": 85.0,
-    "actionable": 65.0,
-    "breadth": 80.0,
-    "heat": 41,
-    "heat_signals": {
-      "reports": 2,
-      "domains": 2,
-      "x_posts_7d": 1997,
-      "x_spike_7d": -118.0
-    }
-  },
   "ChatGPT 称已达约 12 亿周活，近月新增约 2 亿": {
     "score": 66.2,
     "industry": 88.0,
@@ -6874,6 +6835,292 @@
       "domains": 1,
       "x_posts_7d": 0,
       "x_spike_7d": 0
+    }
+  },
+  "Google：学校禁用 AI 将失去 Search 访问（K-12 默认关闭 AI）": {
+    "score": 75.7,
+    "industry": 78,
+    "actionable": 70,
+    "breadth": 85,
+    "heat": 75,
+    "heat_signals": {
+      "reports": 9,
+      "domains": 9,
+      "x_posts_7d": 1183,
+      "x_spike_7d": -1854.5
+    }
+  },
+  "OpenAI 证实：ChatGPT 搜索查询量已达 Google 的约 20%": {
+    "score": 69.9,
+    "industry": 82,
+    "actionable": 55,
+    "breadth": 80,
+    "heat": 63,
+    "heat_signals": {
+      "reports": 4,
+      "domains": 4,
+      "x_posts_7d": 498,
+      "x_spike_7d": -274.5
+    }
+  },
+  "腾讯混元 Hy4 正式版发布：加入视觉与电脑操作，将公开权重": {
+    "score": 71.9,
+    "industry": 80,
+    "actionable": 75,
+    "breadth": 70,
+    "heat": 52,
+    "heat_signals": {
+      "reports": 3,
+      "domains": 2,
+      "x_posts_7d": 787,
+      "x_spike_7d": 134.5
+    }
+  },
+  "Anthropic 开源 FlashProve：用密码学证明验证模型身份、打击套壳": {
+    "score": 74.4,
+    "industry": 85,
+    "actionable": 80,
+    "breadth": 70,
+    "heat": 47,
+    "heat_signals": {
+      "reports": 3,
+      "domains": 2,
+      "x_posts_7d": 956,
+      "x_spike_7d": -1901.5
+    }
+  },
+  "后摩智能完成数十亿元 B 轮融资，加码端侧大模型 AI 芯片": {
+    "score": 59.7,
+    "industry": 78,
+    "actionable": 55,
+    "breadth": 60,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 6,
+      "x_spike_7d": 6.0
+    }
+  },
+  "微软为 Outlook 引入小型 AI 模型优化邮件搜索排序": {
+    "score": 67.5,
+    "industry": 72,
+    "actionable": 70,
+    "breadth": 75,
+    "heat": 51,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 612,
+      "x_spike_7d": 319.5
+    }
+  },
+  "普林斯顿 SSoN 基准：人类 83.3%，主流 VLM 最高仅约 39.7%": {
+    "score": 62.0,
+    "industry": 70,
+    "actionable": 75,
+    "breadth": 55,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 1,
+      "x_spike_7d": 1.0
+    }
+  },
+  "欧洲法院顾问意见：Gemini 绕过付费墙或复用表达或涉侵权": {
+    "score": 64.5,
+    "industry": 80,
+    "actionable": 65,
+    "breadth": 70,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 223,
+      "x_spike_7d": 28.0
+    }
+  },
+  "YouTube 推 AI「Replace song」：一键换免版税配乐消版权声明": {
+    "score": 66.3,
+    "industry": 72,
+    "actionable": 80,
+    "breadth": 75,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 10,
+      "x_spike_7d": -20.0
+    }
+  },
+  "OpenRouter：中国开源大模型 token 用量连续 27 周超美国": {
+    "score": 60.7,
+    "industry": 78,
+    "actionable": 50,
+    "breadth": 75,
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 295,
+      "x_spike_7d": 182.5
+    }
+  },
+  "Canva 启动大规模重组：约 22% 员工受影响，称受 AI 与效率驱动": {
+    "score": 56.0,
+    "industry": 75,
+    "actionable": 45,
+    "breadth": 65,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 146,
+      "x_spike_7d": -11.5
+    }
+  },
+  "Anthropic Claude Code 产品负责人 Cat Wu 离职": {
+    "score": 60.6,
+    "industry": 78,
+    "actionable": 40,
+    "breadth": 60,
+    "heat": 57,
+    "heat_signals": {
+      "reports": 3,
+      "domains": 3,
+      "x_posts_7d": 346,
+      "x_spike_7d": 151.0
+    }
+  },
+  "Seedance 海外收入占比达 50%，半年增长近 5 倍": {
+    "score": 55.8,
+    "industry": 72,
+    "actionable": 50,
+    "breadth": 60,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 198,
+      "x_spike_7d": -117.0
+    }
+  },
+  "三晋文化大模型「晋问 AI」上线，数字人「晋豆」同步亮相": {
+    "score": 47.5,
+    "industry": 55,
+    "actionable": 50,
+    "breadth": 45,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 22,
+      "x_spike_7d": -8.0
+    }
+  },
+  "消息称字节跳动限制员工自费使用第三方 AI 编程工具": {
+    "score": 69.2,
+    "industry": 80,
+    "actionable": 75,
+    "breadth": 65,
+    "heat": 41,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 57,
+      "x_spike_7d": -100.5
+    }
+  },
+  "苹果中国版 Apple Intelligence 启程：Siri/视觉智能接入千问": {
+    "score": 72.0,
+    "industry": 85,
+    "actionable": 70,
+    "breadth": 80,
+    "heat": 45,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 2131,
+      "x_spike_7d": 571.0
+    }
+  },
+  "报道：OpenAI 会议室藏录音器事件牵出多年安全治理争议": {
+    "score": 60.0,
+    "industry": 75,
+    "actionable": 55,
+    "breadth": 65,
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 375,
+      "x_spike_7d": 135.0
+    }
+  },
+  "阿里云发布 AI 投研工作台 Qovest：个人邀测约 99 元/月": {
+    "score": 61.2,
+    "industry": 68,
+    "actionable": 75,
+    "breadth": 55,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 41,
+      "x_spike_7d": 3.5
+    }
+  },
+  "GitHub Copilot 用量 API 支持 BYOK 与企业自定义模型分列": {
+    "score": 61.5,
+    "industry": 65,
+    "actionable": 80,
+    "breadth": 55,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 37,
+      "x_spike_7d": -0.5
+    }
+  },
+  "OpenAI：GPT-6 Astra 据称不到一周从零设计出一款硬件设备": {
+    "score": 62.5,
+    "industry": 80,
+    "actionable": 60,
+    "breadth": 65,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 357,
+      "x_spike_7d": -318.0
+    }
+  },
+  "Revolut：自托管 GLM 取代商业编码工具，推理成本降约 90%": {
+    "score": 66.5,
+    "industry": 72,
+    "actionable": 80,
+    "breadth": 55,
+    "heat": 41,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 546,
+      "x_spike_7d": -691.5
+    }
+  },
+  "MIT：用 GPT-6 Astra 直接编辑 Qwen 开放权重并提升数学成绩": {
+    "score": 62.5,
+    "industry": 75,
+    "actionable": 70,
+    "breadth": 55,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 344,
+      "x_spike_7d": -106.0
     }
   }
 }
