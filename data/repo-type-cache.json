@@ -6011,5 +6011,37 @@
     ],
     "updated": "2026-11-05",
     "source": "grok-bot-morning"
+  },
+  "scenario-labs/skills": {
+    "types": [
+      "Skill",
+      "Agent",
+      "应用与产品"
+    ],
+    "updated": "2026-11-06",
+    "source": "keyword-fallback"
+  },
+  "liguobao/ds-harness-remote": {
+    "types": [
+      "Agent",
+      "应用与产品",
+      "开发工具链"
+    ],
+    "updated": "2026-11-06",
+    "source": "keyword-fallback"
+  },
+  "ericrisco/rsc-harness": {
+    "types": [
+      "Agent"
+    ],
+    "updated": "2026-11-06",
+    "source": "keyword-fallback"
+  },
+  "fastrepl/anarlog": {
+    "types": [
+      "开发工具链"
+    ],
+    "updated": "2026-11-06",
+    "source": "keyword-fallback"
   }
 }

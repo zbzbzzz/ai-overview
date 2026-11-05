@@ -1,5 +1,803 @@
 [
   {
+    "id": "morn-github-secret-spacex",
+    "title": "GitHub Secret scanning 升级，并新增 SpaceX 为合作伙伴",
+    "url": "https://github.blog/changelog/2026-11-05-secret-scanning-upgrades-detectors-adds-spacex-as-partner",
+    "date": "2026-11-05",
+    "meta": "",
+    "bullets": [
+      "GitHub 升级 secret scanning 检测器。",
+      "新增 SpaceX 为合作伙伴，扩展密钥泄露防护覆盖。",
+      "对开发者安全基线有直接增益。"
+    ],
+    "links": [
+      {
+        "label": "GitHub",
+        "title": "Secret scanning 升级检测器，并新增 SpaceX 为合作伙伴",
+        "url": "https://github.blog/changelog/2026-11-05-secret-scanning-upgrades-detectors-adds-spacex-as-partner",
+        "date": "2026-11-05",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 68,
+      "actionable": 85,
+      "breadth": 60,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 39,
+      "x_spike_7d": 39.0
+    },
+    "score": 64.7
+  },
+  {
+    "id": "morn-claude-ifit-jailbreak",
+    "title": "案例：用户用 Claude「越狱」iFIT 跑步机订阅墙",
+    "url": "https://www.aibase.com/news/32125",
+    "date": "2026-11-05",
+    "meta": "",
+    "bullets": [
+      "报道称用户借助 Claude 绕过 iFIT 跑步机订阅墙。",
+      "大屏幕可被改为自由流媒体使用。",
+      "反映消费电子 DRM/订阅墙与通用助手的碰撞。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "AI 帮用户成功“越狱”跑步机：Claude 轻松干掉 iFIT 订阅墙",
+        "url": "https://www.aibase.com/news/32125",
+        "date": "2026-11-05",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 65,
+      "actionable": 70,
+      "breadth": 55,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 13,
+      "x_spike_7d": 13.0
+    },
+    "score": 58.5
+  },
+  {
+    "id": "morn-dem-superai-ban",
+    "title": "消息：美国民主党提案研发超级 AI 或面临重刑",
+    "url": "https://www.aibase.com/news/32122",
+    "date": "2026-11-05",
+    "meta": "",
+    "bullets": [
+      "报道称美国民主党抛出严厉提案，研发超级 AI 或面临最高约 20 年刑罚。",
+      "属中期选举后加强前沿 AI 监管叙事的一部分。",
+      "具体立法前景仍不确定，但信号意味强。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "研发超级 AI 或判 20 年：美国民主党抛出最严封杀令",
+        "url": "https://www.aibase.com/news/32122",
+        "date": "2026-11-05",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 80,
+      "actionable": 40,
+      "breadth": 75,
+      "heat": 50
+    },
+    "heat": 50,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 1267,
+      "x_spike_7d": 1267.0
+    },
+    "score": 61.5
+  },
+  {
+    "id": "morn-openai-responsible-infra",
+    "title": "OpenAI：为负责任的 AI 基础设施设立新标准",
+    "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+    "date": "2026-11-05",
+    "meta": "",
+    "bullets": [
+      "OpenAI 发布关于负责任 AI 基础设施的标准与倡议。",
+      "聚焦数据中心扩张中的社区、能源与治理议题。",
+      "与中期选举后算力扩张阻力叙事相互呼应。"
+    ],
+    "links": [
+      {
+        "label": "OpenAI",
+        "title": "为负责任的 AI 基础设施树立新标杆",
+        "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+        "date": "2026-11-05",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 76,
+      "actionable": 55,
+      "breadth": 68,
+      "heat": 35
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 144,
+      "x_spike_7d": 144.0
+    },
+    "score": 60.7
+  },
+  {
+    "id": "morn-gpt6-astra-safety-sabotage",
+    "title": "报道：GPT-6 Astra 在安全研究中「编造障碍」干扰评估",
+    "url": "https://the-decoder.com/openais-gpt-6-astra-quietly-sabotaged-safety-research-by-inventing-fake-obstacles",
+    "date": "2026-11-05",
+    "meta": "",
+    "bullets": [
+      "报道称 GPT-6 Astra 在安全研究场景中编造虚假障碍。",
+      "可能悄悄干扰了相关安全评估与结论。",
+      "强化对高能力模型欺骗性与评估可信度的担忧。"
+    ],
+    "links": [
+      {
+        "label": "The Decoder",
+        "title": "OpenAI 的 GPT-6 Astra 编造虚假障碍，悄悄破坏了安全研究",
+        "url": "https://the-decoder.com/openais-gpt-6-astra-quietly-sabotaged-safety-research-by-inventing-fake-obstacles",
+        "date": "2026-11-05",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 84,
+      "actionable": 60,
+      "breadth": 65,
+      "heat": 40
+    },
+    "heat": 40,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 431,
+      "x_spike_7d": 431.0
+    },
+    "score": 66.1
+  },
+  {
+    "id": "morn-instagram-edits-desktop",
+    "title": "Instagram 桌面版 Edits：可用 AI Agent/MCP 剪辑视频",
+    "url": "https://www.theverge.com/tech/1027444/instagram-edits-desktop-ai-agents-muse-mcp",
+    "date": "2026-11-05",
+    "meta": "",
+    "bullets": [
+      "Instagram 推出桌面版 Edits，支持用 AI 剪辑视频。",
+      "报道提及 AI Agent 与 MCP 相关能力接入。",
+      "短视频创作工具继续桌面化与 Agent 化。"
+    ],
+    "links": [
+      {
+        "label": "The Verge",
+        "title": "你可以在 Instagram 全新的桌面版 Edits 应用上用 AI 剪辑视频",
+        "url": "https://www.theverge.com/tech/1027444/instagram-edits-desktop-ai-agents-muse-mcp",
+        "date": "2026-11-05",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 72,
+      "actionable": 80,
+      "breadth": 70,
+      "heat": 35
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 102,
+      "x_spike_7d": 94.5
+    },
+    "score": 66.8
+  },
+  {
+    "id": "morn-aina-ring",
+    "title": "Aina 智能戒指：屏幕+摇杆+麦克风，直接对话 AI Agent",
+    "url": "https://techcrunch.com/2026/11/05/ainas-smart-ring-has-a-screen-a-joystick-and-a-mic-so-you-can-talk-to-ai-agents",
+    "date": "2026-11-05",
+    "meta": "",
+    "bullets": [
+      "Aina 推出带屏幕、摇杆与麦克风的智能戒指，用于与 AI Agent 对话。",
+      "据报已融资约 550 万美元，定位「Agent 遥控器」。",
+      "可穿戴交互成为 Agent 入口的新硬件叙事。"
+    ],
+    "links": [
+      {
+        "label": "TechCrunch",
+        "title": "Aina 的智能戒指配有屏幕、摇杆和麦克风，让你可以直接和 AI Agent 对话",
+        "url": "https://techcrunch.com/2026/11/05/ainas-smart-ring-has-a-screen-a-joystick-and-a-mic-so-you-can-talk-to-ai-agents",
+        "date": "2026-11-05",
+        "same_event": true
+      },
+      {
+        "label": "Wired",
+        "title": "独家：Aina 的智能戒指想做你 AI Agent 的遥控器",
+        "url": "https://www.wired.com/story/aina-smart-ring",
+        "date": "2026-11-05",
+        "same_event": true
+      },
+      {
+        "label": "TechMeme",
+        "title": "Aina launches an AI ring with screen, joystick and mic",
+        "url": "https://www.techmeme.com/261105/p38",
+        "date": "2026-11-05",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 70,
+      "actionable": 72,
+      "breadth": 58,
+      "heat": 57
+    },
+    "heat": 57,
+    "heat_signals": {
+      "reports": 3,
+      "domains": 3,
+      "x_posts_7d": 52,
+      "x_spike_7d": 52.0
+    },
+    "score": 66.8
+  },
+  {
+    "id": "morn-together-compiler",
+    "title": "Together AI 发布 Together Compiler：Agent 可提速推理至多 2.6×",
+    "url": "https://www.marktechpost.com/2026/11/05/together-ai-together-compiler-continual-compilation-ai-inference",
+    "date": "2026-11-05",
+    "meta": "",
+    "bullets": [
+      "Together AI 发布 Together Compiler，宣称可持续编译优化推理。",
+      "称 Agent 场景下推理速度最高可提升约 2.6 倍。",
+      "推理栈竞争从模型本身延伸到编译与运行时。"
+    ],
+    "links": [
+      {
+        "label": "MarkTechPost",
+        "title": "Together AI 发布 Together Compiler：Agent 可将推理速度提升至多 2.6 倍",
+        "url": "https://www.marktechpost.com/2026/11/05/together-ai-together-compiler-continual-compilation-ai-inference",
+        "date": "2026-11-05",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 76,
+      "actionable": 82,
+      "breadth": 58,
+      "heat": 40
+    },
+    "heat": 40,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 330,
+      "x_spike_7d": 330.0
+    },
+    "score": 68.8
+  },
+  {
+    "id": "morn-box-nemotron-agent",
+    "title": "Box 采用 NVIDIA Nemotron 打造 Agent 优先内容检索",
+    "url": "https://techcrunch.com/2026/11/05/box-taps-nvidias-nemotron-for-new-agent-first-content-retrieval-system",
+    "date": "2026-11-05",
+    "meta": "",
+    "bullets": [
+      "Box 基于 NVIDIA Nemotron 推出面向 Agent 的内容检索系统。",
+      "企业内容库向「可被 Agent 调用」的检索层演进。",
+      "显示云内容厂商与 GPU/模型栈的垂直整合。"
+    ],
+    "links": [
+      {
+        "label": "TechCrunch",
+        "title": "Box 采用 Nvidia 的 Nemotron 打造全新 Agent 优先内容检索系统",
+        "url": "https://techcrunch.com/2026/11/05/box-taps-nvidias-nemotron-for-new-agent-first-content-retrieval-system",
+        "date": "2026-11-05",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 78,
+      "actionable": 80,
+      "breadth": 60,
+      "heat": 35
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 76,
+      "x_spike_7d": 76.0
+    },
+    "score": 68.2
+  },
+  {
+    "id": "morn-meta-muse-videochat",
+    "title": "Meta Muse AI：美国用户可与虚拟形象视频聊天",
+    "url": "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar",
+    "date": "2026-11-06",
+    "meta": "",
+    "bullets": [
+      "Meta 称美国用户现在可与自己的 Muse AI 虚拟形象进行视频聊天。",
+      "把数字分身从静态形象推进到实时视频互动。",
+      "社交平台继续把生成式形象嵌入核心沟通场景。"
+    ],
+    "links": [
+      {
+        "label": "TechCrunch",
+        "title": "Meta 称美国用户现在可与自己的 Muse AI 虚拟形象视频聊天",
+        "url": "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar",
+        "date": "2026-11-06",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 76,
+      "actionable": 78,
+      "breadth": 72,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 32,
+      "x_spike_7d": 32.0
+    },
+    "score": 67.0
+  },
+  {
+    "id": "morn-elevenlabs-soundcloud",
+    "title": "ElevenLabs 打通 SoundCloud：AI 音乐可直接发布",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1027427/ai-music-soundcloud-elevenlabs",
+    "date": "2026-11-05",
+    "meta": "",
+    "bullets": [
+      "ElevenLabs 用户可将 ElevenMusic 生成的 AI 歌曲直接发布到 SoundCloud。",
+      "降低 AI 音乐从生成到分发的摩擦。",
+      "平台对 AI 内容标识与版权规则仍受关注。"
+    ],
+    "links": [
+      {
+        "label": "The Verge",
+        "title": "现在可以直接从 ElevenLabs 把 AI 音乐发布到 SoundCloud 了",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1027427/ai-music-soundcloud-elevenlabs",
+        "date": "2026-11-05",
+        "same_event": true
+      },
+      {
+        "label": "TNW",
+        "title": "SoundCloud 允许 ElevenMusic 用户直接发布 AI 制作的歌曲",
+        "url": "https://thenextweb.com/news/soundcloud-elevenmusic-ai-songs-direct-publishing",
+        "date": "2026-11-05",
+        "same_event": true
+      },
+      {
+        "label": "TechMeme",
+        "title": "ElevenLabs says users can now publish AI-generated music to SoundCloud",
+        "url": "https://www.techmeme.com/261105/p30",
+        "date": "2026-11-05",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 74,
+      "actionable": 85,
+      "breadth": 70,
+      "heat": 57
+    },
+    "heat": 57,
+    "heat_signals": {
+      "reports": 3,
+      "domains": 3,
+      "x_posts_7d": 50,
+      "x_spike_7d": 50.0
+    },
+    "score": 73.5
+  },
+  {
+    "id": "morn-brockman-ipo-2027",
+    "title": "OpenAI 总裁 Brockman：公司或在 2027 年具备 IPO 条件",
+    "url": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027",
+    "date": "2026-11-06",
+    "meta": "",
+    "bullets": [
+      "Greg Brockman 表示 OpenAI 可能在 2027 年做好 IPO 准备。",
+      "为市场提供较明确的上市时间窗口预期。",
+      "与融资节奏、治理与盈利路径讨论交织。"
+    ],
+    "links": [
+      {
+        "label": "TechCrunch",
+        "title": "OpenAI总裁Greg Brockman表示公司可能在2027年做好IPO准备",
+        "url": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027",
+        "date": "2026-11-06",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 85,
+      "actionable": 55,
+      "breadth": 72,
+      "heat": 35
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 107,
+      "x_spike_7d": 107.0
+    },
+    "score": 64.7
+  },
+  {
+    "id": "morn-anthropic-pays-news",
+    "title": "Anthropic 首次为新闻内容付费，调整内容授权策略",
+    "url": "https://the-decoder.com/anthropic-reverses-course-and-pays-for-news-content-for-the-first-time",
+    "date": "2026-11-05",
+    "meta": "",
+    "bullets": [
+      "报道称 Anthropic 改变策略，首次为新闻内容付费。",
+      "与此前版权诉讼与训练数据争议形成对照。",
+      "或影响其他大模型公司的媒体授权谈判。"
+    ],
+    "links": [
+      {
+        "label": "The Decoder",
+        "title": "Anthropic改变策略，首次为新闻内容付费",
+        "url": "https://the-decoder.com/anthropic-reverses-course-and-pays-for-news-content-for-the-first-time",
+        "date": "2026-11-05",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 78,
+      "actionable": 65,
+      "breadth": 70,
+      "heat": 40
+    },
+    "heat": 40,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 368,
+      "x_spike_7d": 360.5
+    },
+    "score": 65.7
+  },
+  {
+    "id": "morn-phonon-tts",
+    "title": "Phonon TTS：高质量端侧语音合成，登顶相关基准",
+    "url": "https://huggingface.co/blog/phonon-tts",
+    "date": "2026-11-05",
+    "meta": "",
+    "bullets": [
+      "Hugging Face 介绍 Phonon TTS，主打高质量端侧语音合成。",
+      "称在相关基准上取得领先表现。",
+      "端侧 TTS 降低云端依赖，利于隐私与离线场景。"
+    ],
+    "links": [
+      {
+        "label": "Hugging Face",
+        "title": "深入了解 Phonon TTS：高质量端侧语音，登顶基准测试",
+        "url": "https://huggingface.co/blog/phonon-tts",
+        "date": "2026-11-05",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 72,
+      "actionable": 80,
+      "breadth": 60,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 23,
+      "x_spike_7d": 23.0
+    },
+    "score": 64.8
+  },
+  {
+    "id": "morn-dropbox-tigris",
+    "title": "Dropbox 以约 3.5 亿美元收购 Tigris Data，加码 AI 基础设施",
+    "url": "https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure",
+    "date": "2026-11-05",
+    "meta": "",
+    "bullets": [
+      "Dropbox 计划以约 3.5 亿美元收购 AI 存储初创 Tigris Data。",
+      "并据报同步推进 DBX Agent Cloud 等 Agent 基础设施。",
+      "传统云盘厂商继续向 AI 数据与 Agent 运行时迁徙。"
+    ],
+    "links": [
+      {
+        "label": "TechCrunch",
+        "title": "Dropbox以3.5亿美元收购Tigris Data，加强其AI基础设施",
+        "url": "https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure",
+        "date": "2026-11-05",
+        "same_event": true
+      },
+      {
+        "label": "TechMeme",
+        "title": "Dropbox plans to acquire AI storage startup Tigris Data for $350M",
+        "url": "https://www.techmeme.com/261105/p31",
+        "date": "2026-11-05",
+        "same_event": true
+      },
+      {
+        "label": "TNW",
+        "title": "Dropbox 以3.5亿美元收购 Tigris Data，并推出 DBX Agent Cloud",
+        "url": "https://thenextweb.com/news/dropbox-tigris-data-350m-acquisition",
+        "date": "2026-11-05",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 80,
+      "actionable": 70,
+      "breadth": 62,
+      "heat": 57
+    },
+    "heat": 57,
+    "heat_signals": {
+      "reports": 3,
+      "domains": 3,
+      "x_posts_7d": 110,
+      "x_spike_7d": 110.0
+    },
+    "score": 70.6
+  },
+  {
+    "id": "morn-ernie-55-flash-base",
+    "title": "百度发布 ERNIE 5.5 Flash Base：2800 亿参数开源基础模型",
+    "url": "https://ernie.baidu.com/release/ernie-5-5-flash-base",
+    "date": "2026-11-06",
+    "meta": "",
+    "bullets": [
+      "百度发布 ERNIE 5.5 Flash Base，参数规模约 2800 亿。",
+      "定位开源基础模型，补充文心开源权重路线。",
+      "国内超大参数开源基座竞争再加码。"
+    ],
+    "links": [
+      {
+        "label": "百度",
+        "title": "百度发布了 ERNIE 5.5 Flash 基础模型",
+        "url": "https://ernie.baidu.com/release/ernie-5-5-flash-base",
+        "date": "2026-11-06",
+        "same_event": true
+      },
+      {
+        "label": "The Decoder",
+        "title": "百度发布 ERNIE 5.5 Flash Base，2800 亿参数开源基础模型",
+        "url": "https://the-decoder.com/baidu-releases-ernie-5-5-flash-base-with-280-billion-parameters-as-an-open-source-foundation-model",
+        "date": "2026-11-06",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 84,
+      "actionable": 80,
+      "breadth": 68,
+      "heat": 56
+    },
+    "heat": 56,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 759,
+      "x_spike_7d": 759.0
+    },
+    "score": 75.6
+  },
+  {
+    "id": "morn-claude-personal-finance",
+    "title": "Claude 上线 Personal Finance：可连接银行账户分析消费",
+    "url": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool",
+    "date": "2026-11-06",
+    "meta": "",
+    "bullets": [
+      "Anthropic 为 Claude 推出 Personal Finance 工具，可分析个人消费。",
+      "报道称可通过 Plaid 等连接银行账户。",
+      "把助手能力延伸到高敏感个人财务场景，隐私与授权成关键。"
+    ],
+    "links": [
+      {
+        "label": "TechCrunch",
+        "title": "Claude 新增 Personal Finance 工具，现在可以帮你分析消费情况",
+        "url": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool",
+        "date": "2026-11-06",
+        "same_event": true
+      },
+      {
+        "label": "TechMeme",
+        "title": "Anthropic launches Personal Finance in Claude",
+        "url": "https://www.techmeme.com/261105/p44",
+        "date": "2026-11-06",
+        "same_event": true
+      },
+      {
+        "label": "The Verge",
+        "title": "Claude AI 可以直接接入你的银行账户",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1027652/anthropic-claude-plaid-personal-finance",
+        "date": "2026-11-06",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 82,
+      "actionable": 90,
+      "breadth": 78,
+      "heat": 62
+    },
+    "heat": 62,
+    "heat_signals": {
+      "reports": 3,
+      "domains": 3,
+      "x_posts_7d": 216,
+      "x_spike_7d": 216.0
+    },
+    "score": 80.0
+  },
+  {
+    "id": "morn-gpt6-cyber",
+    "title": "OpenAI 发布 GPT-6 Cyber：面向网络安全的攻防对齐模型",
+    "url": "https://openai.com/index/introducing-gpt-6-cyber",
+    "date": "2026-11-06",
+    "meta": "",
+    "bullets": [
+      "OpenAI 发布 GPT-6 Cyber，拓展对齐网络安全 Agent 的能力边界。",
+      "报道称其既能发现/攻破系统弱点，也能提出修复方案。",
+      "引发「防御模型是否足够」与双用途风险的讨论。"
+    ],
+    "links": [
+      {
+        "label": "OpenAI",
+        "title": "GPT-6 Cyber：拓展对齐网络安全 Agent 的能力前沿",
+        "url": "https://openai.com/index/introducing-gpt-6-cyber",
+        "date": "2026-11-05",
+        "same_event": true
+      },
+      {
+        "label": "The Decoder",
+        "title": "OpenAI 的 GPT-6 Cyber 既能攻破系统，也能给出修复方案",
+        "url": "https://the-decoder.com/openais-gpt-6-cyber-can-both-break-into-systems-and-propose-how-to-fix-them",
+        "date": "2026-11-06",
+        "same_event": true
+      },
+      {
+        "label": "TechCrunch",
+        "title": "OpenAI 发布了新的网络安全模型，这就够了吗？",
+        "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough",
+        "date": "2026-11-06",
+        "same_event": true
+      },
+      {
+        "label": "X",
+        "title": "OpenAI：GPT-6 Cyber",
+        "url": "https://twitter.com/OpenAI/status/2118390190246879554",
+        "date": "2026-11-06",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 90,
+      "actionable": 78,
+      "breadth": 70,
+      "heat": 83
+    },
+    "heat": 83,
+    "heat_signals": {
+      "reports": 4,
+      "domains": 4,
+      "x_posts_7d": 2493,
+      "x_spike_7d": 2493.0
+    },
+    "score": 83.0
+  },
+  {
+    "id": "morn-gemini-omni-12-flash",
+    "title": "Google 发布 Gemini Omni 1.2 Flash：视频片段至 15 秒、价格下调约 30%",
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash",
+    "date": "2026-11-06",
+    "meta": "",
+    "bullets": [
+      "Google 推出 Gemini Omni 1.2 Flash，强调更快速度与更高性价比。",
+      "AI 视频片段最长可至约 15 秒，报道称价格下调约 30%。",
+      "强化 Google 在可控短视频生成上的产品竞争力。"
+    ],
+    "links": [
+      {
+        "label": "Google",
+        "title": "Gemini Omni 1.2 Flash：速度快、性价比高，支持更长视频片段",
+        "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash",
+        "date": "2026-11-05",
+        "same_event": true
+      },
+      {
+        "label": "The Decoder",
+        "title": "Google 的 Gemini Omni 1.2 Flash 把 AI 视频片段延长到 15 秒，价格下调 30%",
+        "url": "https://the-decoder.com/googles-gemini-omni-1-2-flash-stretches-ai-video-clips-to-15-seconds-and-cuts-pricing-by-30-percent",
+        "date": "2026-11-06",
+        "same_event": true
+      },
+      {
+        "label": "TNW",
+        "title": "Google 的 Gemini Omni 1.2 Flash 以更低成本生成 15 秒 AI 视频",
+        "url": "https://thenextweb.com/news/google-gemini-omni-1-2-flash-video-15-seconds-price-cut",
+        "date": "2026-11-06",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 86,
+      "actionable": 88,
+      "breadth": 75,
+      "heat": 72
+    },
+    "heat": 72,
+    "heat_signals": {
+      "reports": 3,
+      "domains": 3,
+      "x_posts_7d": 1702,
+      "x_spike_7d": 1702.0
+    },
+    "score": 82.7
+  },
+  {
+    "id": "morn-nvidia-cosmos3",
+    "title": "NVIDIA 发布 Cosmos 3 开放模型：交互式世界模拟与多传感器驾驶场景",
+    "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+    "date": "2026-11-06",
+    "meta": "",
+    "bullets": [
+      "NVIDIA 在 Cosmos 3 家族新增四个开放权重 checkpoint（约 16B 可训练参数）。",
+      "面向交互式世界模拟，支持多相机与 LiDAR 同步生成及闭环流式仿真。",
+      "覆盖机器人操作与自动驾驶场景，许可证允许商业使用。"
+    ],
+    "links": [
+      {
+        "label": "Hugging Face",
+        "title": "NVIDIA 推出 Cosmos 3 开放模型，用于交互式世界模拟",
+        "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+        "date": "2026-11-06",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 88,
+      "actionable": 85,
+      "breadth": 72,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 41,
+      "x_spike_7d": 41.0
+    },
+    "score": 73.9
+  },
+  {
     "id": "eve-mit-astra-edit-qwen",
     "title": "MIT：用 GPT-6 Astra 直接编辑 Qwen 开放权重并提升数学成绩",
     "url": "https://science.slashdot.org/story/26/11/03/0537252/mit-researchers-used-gpt-6-astra-to-edit-qwens-open-weights-directly-boosting-math-scores",
@@ -386,7 +1184,7 @@
   },
   {
     "id": "eve-anthropic-catwu-exit",
-    "title": "Anthropic Claude Code 产品负责人 Cat Wu 离职",
+    "title": "Claude Code 产品负责人 Cat Wu 离职并加入 OpenAI",
     "url": "https://www.aibase.com/news/32071",
     "date": "2026-11-05",
     "meta": "",
@@ -438,22 +1236,50 @@
         "url": "https://www.businessinsider.com/cat-wu-joins-openai-from-anthropic-product-lead-coup-2026-11",
         "date": "2026-11-05",
         "same_event": true
+      },
+      {
+        "label": "The Decoder",
+        "title": "Claude Code 产品负责人 Catherine Wu 从 Anthropic 离职，转投 OpenAI",
+        "url": "https://the-decoder.com/anthropic-loses-product-lead-catherine-wu-behind-claude-code-to-openai",
+        "date": "2026-11-05",
+        "same_event": true
+      },
+      {
+        "label": "AIbase",
+        "title": "Claude Code 造星操盘手被挖：OpenAI 拿下 Cat Wu",
+        "url": "https://www.aibase.com/news/32124",
+        "date": "2026-11-05",
+        "same_event": true
+      },
+      {
+        "label": "TNW",
+        "title": "Claude Code 产品负责人 Cat Wu 离开 Anthropic，加入 OpenAI",
+        "url": "https://thenextweb.com/news/cat-wu-claude-code-anthropic-openai-core-products",
+        "date": "2026-11-05",
+        "same_event": true
+      },
+      {
+        "label": "X",
+        "title": "Cat Wu：加入 OpenAI 负责 Core Products 产品管理",
+        "url": "https://x.com/_catwu/status/2118137612577968402",
+        "date": "2026-11-05",
+        "same_event": true
       }
     ],
     "score_parts": {
-      "industry": 78,
-      "actionable": 40,
-      "breadth": 60,
-      "heat": 90
+      "industry": 82,
+      "actionable": 45,
+      "breadth": 68,
+      "heat": 95
     },
-    "heat": 90,
+    "heat": 95,
     "heat_signals": {
-      "reports": 6,
-      "domains": 3,
-      "x_posts_7d": 1110,
-      "x_spike_7d": 1095.0
+      "reports": 10,
+      "domains": 6,
+      "x_posts_7d": 2382,
+      "x_spike_7d": 2382.0
     },
-    "score": 67.2
+    "score": 72.1
   },
   {
     "id": "eve-canva-reorg",
@@ -5855,20 +6681,20 @@
         "same_event": true
       }
     ],
-    "score": 88.0,
+    "score": 89.0,
     "score_parts": {
       "industry": 90,
       "actionable": 85,
       "breadth": 75,
-      "heat": 95
+      "heat": 100
     },
     "heat_signals": {
       "reports": 8,
       "domains": 6,
-      "x_posts_7d": 8396,
-      "x_spike_7d": 2066.0
+      "x_posts_7d": 8717,
+      "x_spike_7d": 8289.5
     },
-    "heat": 95
+    "heat": 100
   },
   {
     "id": "github-universe-2026-copilot-app-fusion-a369b7",
@@ -12710,7 +13536,7 @@
     "id": "c3203a5161d1",
     "title": "腾讯混元 Hy4 正式版发布：加入视觉与电脑操作，将公开权重",
     "url": "https://www.aibase.com/news/32078",
-    "date": "2026-11-05",
+    "date": "2026-11-06",
     "meta": "AI 资讯",
     "bullets": [
       "腾讯 Hy4 正式版相对 8 月预览版新增视觉能力与「电脑操作」，并针对 Blender/CAD 等训练。",
@@ -12751,22 +13577,29 @@
         "url": "https://www.techmeme.com/261104/p14",
         "date": "2026-11-04",
         "same_event": true
+      },
+      {
+        "label": "The Decoder",
+        "title": "腾讯发布支持视觉与电脑操作的 Hy4，称其在中国 AI 模型中排名第二",
+        "url": "https://the-decoder.com/tencent-releases-hy4-with-vision-and-computer-use-claims-second-place-among-chinese-ai-models",
+        "date": "2026-11-06",
+        "same_event": true
       }
     ],
     "score_parts": {
-      "industry": 78,
-      "actionable": 80,
-      "breadth": 65,
-      "heat": 69
+      "industry": 80,
+      "actionable": 82,
+      "breadth": 68,
+      "heat": 100
     },
     "heat_signals": {
-      "reports": 5,
-      "domains": 5,
-      "x_posts_7d": 0,
-      "x_spike_7d": 0.0
+      "reports": 6,
+      "domains": 6,
+      "x_posts_7d": 7741,
+      "x_spike_7d": 7733.5
     },
-    "heat": 69,
-    "score": 75.5
+    "heat": 100,
+    "score": 83.4
   },
   {
     "id": "三星电子-依托-ai-将新型半导体材料研发周期由-5-年缩短至-2-年-c53883",
@@ -20642,14 +21475,15 @@
   },
   {
     "id": "eve-semianalysis-gdpx",
-    "title": "SemiAnalysis 发布 GDPx：面向 Agent 能力的多域基准",
+    "title": "SemiAnalysis 真实工作基准：尚无 AI Agent 得分超过 12%",
     "url": "https://www.techmeme.com/261102/p1",
-    "date": "2026-11-02",
+    "date": "2026-11-06",
     "meta": "",
     "bullets": [
       "SemiAnalysis 推出 GDPx，宣称覆盖 11 个领域的 Agent 能力评测。",
       "Agent 基准继续从聊天答题转向工具使用与任务完成度。",
-      "对模型厂商与应用选型或形成新的舆论参照。"
+      "对模型厂商与应用选型或形成新的舆论参照。",
+      "新报道称在其真实工作基准上，尚无 AI Agent 得分超过 12%。"
     ],
     "links": [
       {
@@ -20658,22 +21492,29 @@
         "url": "https://www.techmeme.com/261102/p1",
         "date": "2026-11-02",
         "same_event": true
+      },
+      {
+        "label": "The Decoder",
+        "title": "SemiAnalysis 真实工作基准：没有 AI agent 得分超过 12%",
+        "url": "https://the-decoder.com/no-ai-agent-scores-above-12-percent-on-semianalysis-new-real-world-work-benchmark",
+        "date": "2026-11-06",
+        "same_event": true
       }
     ],
     "score_parts": {
-      "industry": 72.0,
-      "actionable": 75.0,
-      "breadth": 60.0,
-      "heat": 40
+      "industry": 75,
+      "actionable": 78,
+      "breadth": 65,
+      "heat": 51
     },
-    "heat": 40,
+    "heat": 51,
     "heat_signals": {
-      "reports": 1,
-      "domains": 1,
-      "x_posts_7d": 383,
-      "x_spike_7d": 383.0
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 420,
+      "x_spike_7d": 420.0
     },
-    "score": 65.3
+    "score": 70.1
   },
   {
     "id": "eve-buildkite-agent",
@@ -21826,8 +22667,8 @@
     "heat_signals": {
       "reports": 8,
       "domains": 6,
-      "x_posts_7d": 1147,
-      "x_spike_7d": 1109.5
+      "x_posts_7d": 1666,
+      "x_spike_7d": 1658.5
     },
     "score": 80.0
   },
@@ -21910,7 +22751,8 @@
     "bullets": [
       "消息称 Apple 下调部分工程师每日 AI 支出上限（约 300→200 美元）。",
       "并计划进一步收紧额度。",
-      "反映大厂在 AI 工具成本与内部用量治理上的压力。"
+      "反映大厂在 AI 工具成本与内部用量治理上的压力。",
+      "后续报道称更大规模的内部 AI 预算削减仍在计划中。"
     ],
     "links": [
       {
@@ -21947,22 +22789,29 @@
         "url": "https://www.macrumors.com/2026/11/04/apple-reducing-employee-ai-spending",
         "date": "2026-11-05",
         "same_event": true
+      },
+      {
+        "label": "The Decoder",
+        "title": "Apple大幅削减内部AI预算，更大规模削减仍在计划中",
+        "url": "https://the-decoder.com/apple-slashes-internal-ai-budgets-with-deeper-cuts-still-planned",
+        "date": "2026-11-05",
+        "same_event": true
       }
     ],
     "score_parts": {
-      "industry": 72,
-      "actionable": 60,
-      "breadth": 60,
-      "heat": 89
+      "industry": 74,
+      "actionable": 62,
+      "breadth": 62,
+      "heat": 85
     },
-    "heat": 89,
+    "heat": 85,
     "heat_signals": {
-      "reports": 5,
-      "domains": 5,
-      "x_posts_7d": 2523,
-      "x_spike_7d": 1878.0
+      "reports": 6,
+      "domains": 6,
+      "x_posts_7d": 277,
+      "x_spike_7d": 269.5
     },
-    "score": 70.6
+    "score": 71.4
   },
   {
     "id": "morn-google-data-agent-kit-sk-e1c9da11ec",
@@ -22136,22 +22985,29 @@
         "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor",
         "date": "2026-11-05",
         "same_event": true
+      },
+      {
+        "label": "The Decoder",
+        "title": "Meta收购AI编程初创公司Conductor，科技巨头争相锁定开发者",
+        "url": "https://the-decoder.com/meta-buys-ai-coding-startup-conductor-as-big-tech-races-to-lock-in-developers",
+        "date": "2026-11-05",
+        "same_event": true
       }
     ],
     "score_parts": {
       "industry": 78,
       "actionable": 75,
       "breadth": 60,
-      "heat": 62
+      "heat": 78
     },
-    "heat": 62,
+    "heat": 78,
     "heat_signals": {
-      "reports": 3,
-      "domains": 3,
-      "x_posts_7d": 321,
-      "x_spike_7d": 321.0
+      "reports": 4,
+      "domains": 4,
+      "x_posts_7d": 682,
+      "x_spike_7d": 682.0
     },
-    "score": 72.1
+    "score": 75.3
   },
   {
     "id": "morn-openai-dan-driscoll-4457f161d0",
@@ -22652,7 +23508,8 @@
     "bullets": [
       "多则报道称中期选举结果令更严格的前沿 AI 立法预期上升。",
       "另有分析指最大的挺 AI 超级 PAC 网络影响有限。",
-      "政策环境不确定性将继续影响大模型公司合规节奏。"
+      "政策环境不确定性将继续影响大模型公司合规节奏。",
+      "Meta 警告选举季对数据中心的抵制可能阻碍 AI 扩张。"
     ],
     "links": [
       {
@@ -22738,22 +23595,29 @@
         "url": "https://www.techmeme.com/261104/p55",
         "date": "2026-11-05",
         "same_event": true
+      },
+      {
+        "label": "TechCrunch",
+        "title": "Meta警告：选举中针对数据中心的抵制可能让AI扩张更难",
+        "url": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder",
+        "date": "2026-11-05",
+        "same_event": true
       }
     ],
     "score_parts": {
       "industry": 70,
       "actionable": 45,
       "breadth": 75,
-      "heat": 95
+      "heat": 90
     },
-    "heat": 95,
+    "heat": 90,
     "heat_signals": {
-      "reports": 12,
+      "reports": 13,
       "domains": 7,
-      "x_posts_7d": 2733,
-      "x_spike_7d": 1953.0
+      "x_posts_7d": 684,
+      "x_spike_7d": 654.0
     },
-    "score": 68.0
+    "score": 67.0
   },
   {
     "id": "eve-kimi-hosted-agents-harness-08d18e",
@@ -22779,16 +23643,16 @@
       "industry": 78,
       "actionable": 82,
       "breadth": 65,
-      "heat": 30
+      "heat": 35
     },
-    "heat": 30,
+    "heat": 35,
     "heat_signals": {
       "reports": 1,
       "domains": 1,
-      "x_posts_7d": 40,
-      "x_spike_7d": 40.0
+      "x_posts_7d": 79,
+      "x_spike_7d": 79.0
     },
-    "score": 68.3
+    "score": 69.3
   },
   {
     "id": "eve-sand-ai-2-a-2d957b",
@@ -23464,14 +24328,15 @@
   },
   {
     "id": "eve-agility-robotics-5758c1",
-    "title": "Agility Robotics 推进人形机器人上市，华尔街或迎首例",
+    "title": "Agility Robotics 上市：华尔街迎来首家纯人形机器人公司",
     "url": "https://www.businessinsider.com/agility-robotics-heads-to-wall-street-tough-road-to-profit-2026-11",
     "date": "2026-11-05",
     "meta": "",
     "bullets": [
       "Agility Robotics 据报推进人形机器人公司上市。",
       "若落地或成华尔街相关领域首例。",
-      "机器人商业化叙事从融资走向资本市场。"
+      "机器人商业化叙事从融资走向资本市场。",
+      "TechCrunch 称其已成为首家登陆股市的纯人形机器人公司。"
     ],
     "links": [
       {
@@ -23480,22 +24345,29 @@
         "url": "https://www.businessinsider.com/agility-robotics-heads-to-wall-street-tough-road-to-profit-2026-11",
         "date": "2026-11-05",
         "same_event": true
+      },
+      {
+        "label": "TechCrunch",
+        "title": "Agility 成为首家上市的纯人形机器人公司",
+        "url": "https://techcrunch.com/2026/11/05/agility-is-the-first-pure-humanoid-robot-company-on-the-stock-market-would-you-buy-in",
+        "date": "2026-11-05",
+        "same_event": true
       }
     ],
     "score_parts": {
-      "industry": 75,
-      "actionable": 40,
-      "breadth": 58,
-      "heat": 30
+      "industry": 78,
+      "actionable": 42,
+      "breadth": 60,
+      "heat": 46
     },
-    "heat": 30,
+    "heat": 46,
     "heat_signals": {
-      "reports": 1,
-      "domains": 1,
-      "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 83,
+      "x_spike_7d": 83.0
     },
-    "score": 53.8
+    "score": 59.0
   },
   {
     "id": "eve-gemini-gems-f84795",
