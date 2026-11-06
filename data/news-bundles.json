@@ -1,5 +1,852 @@
 [
   {
+    "id": "eve-anthropic-ipo-skepticism",
+    "title": "消息：大投资者愈发怀疑 Anthropic IPO 难达约 1.5 万亿美元估值",
+    "url": "https://www.techmeme.com/261105/p60",
+    "date": "2026-11-06",
+    "meta": "",
+    "bullets": [
+      "消息称主要投资者对 Anthropic IPO 冲击约 1.5 万亿美元估值愈发怀疑。",
+      "与中期选举后 AI 交易降温、算力成本占比上升等叙事叠加。",
+      "IPO 定价预期可能进一步下修。"
+    ],
+    "links": [
+      {
+        "label": "TechMeme",
+        "title": "Sources: major investors increasingly skeptical Anthropic IPO can achieve $1.5T valuation",
+        "url": "https://www.techmeme.com/261105/p60",
+        "date": "2026-11-06",
+        "same_event": true
+      },
+      {
+        "label": "TNW",
+        "title": "申报文件显示，Anthropic 上季度算力成本占营收比例升至 58%",
+        "url": "https://thenextweb.com/news/anthropic-compute-costs-58-percent-revenue-broadcom-backstop",
+        "date": "2026-11-05",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 84,
+      "actionable": 45,
+      "breadth": 72,
+      "heat": 66
+    },
+    "heat": 66,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 17372,
+      "x_spike_7d": 5552.0
+    },
+    "score": 67.5
+  },
+  {
+    "id": "eve-cultfit-codex",
+    "title": "OpenAI 案例：Cult.fit 用 Codex 加速运营与工程标准化",
+    "url": "https://openai.com/index/cultfit-builds-with-codex",
+    "date": "2026-11-06",
+    "meta": "",
+    "bullets": [
+      "OpenAI 发布客户故事：印度健身连锁 Cult.fit 用 Codex 标准化工程。",
+      "称社交 feed 等项目周期从预计一年多缩短到约两个月。",
+      "属厂商案例向，但对 Codex 落地场景有参考价值。"
+    ],
+    "links": [
+      {
+        "label": "OpenAI",
+        "title": "Cult.fit 用 Codex 练就运营“肌肉",
+        "url": "https://openai.com/index/cultfit-builds-with-codex",
+        "date": "2026-11-06",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 62,
+      "actionable": 70,
+      "breadth": 50,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 12,
+      "x_spike_7d": 12.0
+    },
+    "score": 56.8
+  },
+  {
+    "id": "eve-zhangchaoyang-wuzhen",
+    "title": "张朝阳乌镇谈大模型：拼资源做不起，别被 AI 盲目带跑",
+    "url": "https://www.aibase.com/news/32150",
+    "date": "2026-11-06",
+    "meta": "",
+    "bullets": [
+      "搜狐创始人张朝阳在乌镇峰会承认错失移动互联网，并称大模型是重资产游戏。",
+      "直言「我们做不起」，提醒不要被 AI 叙事盲目裹挟。",
+      "代表部分互联网前辈对算力军备赛的公开冷静表态。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "张朝阳首度直面错失移动互联网：大模型需要拼资源我们做不起，别被 AI 盲目带跑",
+        "url": "https://www.aibase.com/news/32150",
+        "date": "2026-11-06",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 68,
+      "actionable": 35,
+      "breadth": 70,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 19,
+      "x_spike_7d": 19.0
+    },
+    "score": 50.7
+  },
+  {
+    "id": "eve-jd-logistics-brain",
+    "title": "京东物流「超脑」3.0：统一调度狼族机器人军团",
+    "url": "https://www.infoq.cn/article/1YeowHagkg1Or6wwy23P",
+    "date": "2026-11-06",
+    "meta": "",
+    "bullets": [
+      "京东物流以「超脑」大模型 3.0 统一调度「狼族」多类机器人，覆盖仓运配。",
+      "称已深度应用超 1000 个场景，一线作业效率提升近 20%。",
+      "路径规划从分钟级压至秒级，车辆自动化调度率据报达 86%。"
+    ],
+    "links": [
+      {
+        "label": "InfoQ",
+        "title": "“超脑”统一指挥，“狼族”协同作战：京东物流打造供应链 AI 机器人军团",
+        "url": "https://www.infoq.cn/article/1YeowHagkg1Or6wwy23P",
+        "date": "2026-11-06",
+        "same_event": true
+      },
+      {
+        "label": "InfoQ",
+        "title": "从仓储到配送，全程由 AI“指挥”：京东物流“超脑”3.0 的工业级 AI 实践",
+        "url": "https://www.infoq.cn/article/jBdvoUXheWN0oe6NfklO",
+        "date": "2026-11-06",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 78,
+      "actionable": 70,
+      "breadth": 68,
+      "heat": 36
+    },
+    "heat": 36,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 1,
+      "x_posts_7d": 2,
+      "x_spike_7d": 2.0
+    },
+    "score": 66.2
+  },
+  {
+    "id": "eve-potential-sciences",
+    "title": "Potential Sciences 获数千万美元种子轮：用物理模拟数据训练制药 AI",
+    "url": "https://www.wired.com/story/finding-new-drugs-is-laborious-this-ai-startup-is-skipping-the-lab-work",
+    "date": "2026-11-06",
+    "meta": "",
+    "bullets": [
+      "英国政府支持的 Potential Sciences 启动，获 SovAI 等数千万美元种子资金。",
+      "计划用物理模拟生成生化数据训练 AI，试图绕过部分实验室实验。",
+      "药物发现「仿真先行」路线再获资本与政策背书。"
+    ],
+    "links": [
+      {
+        "label": "Wired",
+        "title": "研发新药耗时费力，这家AI初创公司选择跳过实验室环节",
+        "url": "https://www.wired.com/story/finding-new-drugs-is-laborious-this-ai-startup-is-skipping-the-lab-work",
+        "date": "2026-11-05",
+        "same_event": true
+      },
+      {
+        "label": "TechMeme",
+        "title": "Potential Sciences, building large-scale chemical data sets, secured backing",
+        "url": "https://www.techmeme.com/261106/p1",
+        "date": "2026-11-06",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 74,
+      "actionable": 60,
+      "breadth": 55,
+      "heat": 41
+    },
+    "heat": 41,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 38,
+      "x_spike_7d": 38.0
+    },
+    "score": 61.3
+  },
+  {
+    "id": "eve-kalepa-75m",
+    "title": "保险 AI Kalepa 获约 7500 万美元 B 轮，估值约 4.7 亿",
+    "url": "https://www.techmeme.com/261106/p4",
+    "date": "2026-11-06",
+    "meta": "",
+    "bullets": [
+      "纽约 Kalepa 的 AI 平台覆盖保险核保、定价与组合管理。",
+      "获 Updata 领投约 7500 万美元 B 轮，估值据报达 4.7 亿美元。",
+      "垂直行业 AI 继续获得大额成长资本。"
+    ],
+    "links": [
+      {
+        "label": "TechMeme",
+        "title": "Kalepa AI insurance platform raises $75M Series B at $470M valuation",
+        "url": "https://www.techmeme.com/261106/p4",
+        "date": "2026-11-06",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 72,
+      "actionable": 55,
+      "breadth": 52,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 47,
+      "x_spike_7d": 47.0
+    },
+    "score": 56.5
+  },
+  {
+    "id": "eve-harvey-ipo-talks",
+    "title": "消息：法律 AI 初创 Harvey 已就 IPO 进行初步商谈",
+    "url": "https://www.businessinsider.com/legal-ai-startup-harvey-early-ipo-talks-latham-watkins-2026-11",
+    "date": "2026-11-05",
+    "meta": "",
+    "bullets": [
+      "Business Insider 称法律 AI 初创 Harvey 已就 IPO 展开早期商谈。",
+      "垂直行业 AI 应用公司资本化路径再获验证信号。",
+      "具体时间表与估值尚未公开。"
+    ],
+    "links": [
+      {
+        "label": "Business Insider",
+        "title": "法律 AI 初创公司 Harvey 已就 IPO 进行初步商谈",
+        "url": "https://www.businessinsider.com/legal-ai-startup-harvey-early-ipo-talks-latham-watkins-2026-11",
+        "date": "2026-11-05",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 76,
+      "actionable": 48,
+      "breadth": 58,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 82,
+      "x_spike_7d": 29.5
+    },
+    "score": 56.6
+  },
+  {
+    "id": "eve-digitalocean-agent-learn",
+    "title": "DigitalOcean 推出学习与数据服务：助 Agent 自我迭代",
+    "url": "https://www.infoq.cn/article/upfROwtEl8R75H24D13J",
+    "date": "2026-11-06",
+    "meta": "",
+    "bullets": [
+      "DigitalOcean 开放 Insights、Signals、Simulations 等公开预览。",
+      "面向 AI Agent 会话质量监测与仿真，便于在更多用户踩坑前修复。",
+      "云厂商把「Agent 可观测/自评」做成平台能力。"
+    ],
+    "links": [
+      {
+        "label": "InfoQ",
+        "title": "DigitalOcean 推出学习与数据服务，帮助 AI 智能体进行自我迭代",
+        "url": "https://www.infoq.cn/article/upfROwtEl8R75H24D13J",
+        "date": "2026-11-06",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 74,
+      "actionable": 82,
+      "breadth": 55,
+      "heat": 35
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 76,
+      "x_spike_7d": 53.5
+    },
+    "score": 66.7
+  },
+  {
+    "id": "eve-inkling-2-small",
+    "title": "Thinking Machines 发布 Inkling 2 Small：评测称对标 Gemini 3.8 Flash",
+    "url": "https://thinkingmachines.ai/news/inkling-2-small",
+    "date": "2026-11-06",
+    "meta": "",
+    "bullets": [
+      "Thinking Machines 发布 Inkling 2 Small。",
+      "Artificial Analysis 等评测称其在相关指数上接近 Gemini 3.8 Flash（high）。",
+      "小尺寸高性价比模型竞争再添选手。"
+    ],
+    "links": [
+      {
+        "label": "Thinking Machines",
+        "title": "Inkling 2 小号",
+        "url": "https://thinkingmachines.ai/news/inkling-2-small",
+        "date": "2026-11-06",
+        "same_event": true
+      },
+      {
+        "label": "TechMeme",
+        "title": "Artificial Analysis says Inkling 2 Small matches Gemini 3.8 Flash (high)",
+        "url": "https://www.techmeme.com/261105/p65",
+        "date": "2026-11-06",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 78,
+      "actionable": 80,
+      "breadth": 60,
+      "heat": 56
+    },
+    "heat": 56,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 642,
+      "x_spike_7d": 642.0
+    },
+    "score": 72.4
+  },
+  {
+    "id": "eve-hf-ceo-pdoom",
+    "title": "Hugging Face CEO：自己的 P(Doom)「接近于零」",
+    "url": "https://www.wired.com/story/wired-world-fair-2026-clement-delangue-hugging-face",
+    "date": "2026-11-06",
+    "meta": "",
+    "bullets": [
+      "Hugging Face CEO Clément Delangue 在活动上称自己的 AI 末日概率接近于零。",
+      "开源阵营以此回应灾难叙事，强调可治理与开放权重路线。",
+      "与安全圈高 P(Doom) 观点形成鲜明对照，舆论两极继续拉扯。"
+    ],
+    "links": [
+      {
+        "label": "Wired",
+        "title": "Hugging Face CEO 称自己的 P(Doom) 接近于零",
+        "url": "https://www.wired.com/story/wired-world-fair-2026-clement-delangue-hugging-face",
+        "date": "2026-11-06",
+        "same_event": true
+      },
+      {
+        "label": "AIbase",
+        "title": "开源派的反驳：Hugging Face CEO 把\"AI 末日\"风险压到零",
+        "url": "https://www.aibase.com/news/32131",
+        "date": "2026-11-06",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 72,
+      "actionable": 40,
+      "breadth": 70,
+      "heat": 41
+    },
+    "heat": 41,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 27,
+      "x_spike_7d": 27.0
+    },
+    "score": 56.0
+  },
+  {
+    "id": "eve-gh-usage-code-review",
+    "title": "GitHub Usage metrics API：新增代码审查详情与 addressed rate",
+    "url": "https://github.blog/changelog/2026-11-05-usage-metrics-api-adds-code-review-details-and-addressed-rate",
+    "date": "2026-11-06",
+    "meta": "",
+    "bullets": [
+      "Copilot usage metrics API 新增 copilot_code_review 对象，可统计审查建议被处理比例。",
+      "同步可识别缺少客户端遥测或 IDE/扩展版本过低的用户缺口。",
+      "对企业量化 Copilot 代码审查采纳率更可操作。"
+    ],
+    "links": [
+      {
+        "label": "GitHub",
+        "title": "Usage metrics API 新增代码审查详情与已处理率",
+        "url": "https://github.blog/changelog/2026-11-05-usage-metrics-api-adds-code-review-details-and-addressed-rate",
+        "date": "2026-11-06",
+        "same_event": true
+      },
+      {
+        "label": "GitHub",
+        "title": "Usage metrics API 指出遥测数据与版本信息存在缺口",
+        "url": "https://github.blog/changelog/2026-11-05-usage-metrics-api-flags-telemetry-and-version-gaps",
+        "date": "2026-11-06",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 70,
+      "actionable": 88,
+      "breadth": 58,
+      "heat": 41
+    },
+    "heat": 41,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 1,
+      "x_posts_7d": 108,
+      "x_spike_7d": 55.5
+    },
+    "score": 68.4
+  },
+  {
+    "id": "eve-ai-selloff-midterms",
+    "title": "中期选举后 AI 交易降温：纳指大跌，亚洲芯片股亦遭重挫",
+    "url": "https://www.reuters.com/legal/transactional/ai-data-center-stocks-slip-democratic-sweep-clouds-expansion-plans-2026-11-05",
+    "date": "2026-11-06",
+    "meta": "",
+    "bullets": [
+      "报道称大选后投资者撤离 AI 交易，纳斯达克一度跌约 5%，标普跌逾 3%。",
+      "Reuters：数据中心相关股票承压，民主党横扫加剧监管与扩建不确定性。",
+      "亚洲市场连锁反应，韩股等科技/存储股大幅下挫。"
+    ],
+    "links": [
+      {
+        "label": "Reuters",
+        "title": "投资者从纳斯达克抹去2.5万亿美元，蓝色浪潮引发AI担忧",
+        "url": "https://www.reuters.com/legal/transactional/ai-data-center-stocks-slip-democratic-sweep-clouds-expansion-plans-2026-11-05",
+        "date": "2026-11-06",
+        "same_event": true
+      },
+      {
+        "label": "WSJ",
+        "title": "大选后投资者撤离AI交易，纳斯达克指数下跌5%",
+        "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-05-2026",
+        "date": "2026-11-05",
+        "same_event": true
+      },
+      {
+        "label": "AP",
+        "title": "AI股惨遭血洗，华尔街震荡不安，S&P 500 暴跌逾3%",
+        "url": "https://apnews.com/article/stocks-markets-ai-midterm-oil-trump-7ee9c212805aa5e70cf34d25aab7a36e",
+        "date": "2026-11-05",
+        "same_event": true
+      },
+      {
+        "label": "Business Insider",
+        "title": "AI 交易的大选后蜜月期结束，股市暴跌",
+        "url": "https://www.businessinsider.com/ai-stock-selloff-stock-market-today-data-center-slowdown-election-2026-11",
+        "date": "2026-11-05",
+        "same_event": true
+      },
+      {
+        "label": "Business Insider",
+        "title": "亚洲科技巨头在AI交易溃败中遭受重创",
+        "url": "https://www.businessinsider.com/kospi-stock-market-index-today-nikkei-taiex-tsmc-hynix-samsung-2026-11",
+        "date": "2026-11-06",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 88,
+      "actionable": 50,
+      "breadth": 85,
+      "heat": 89
+    },
+    "heat": 89,
+    "heat_signals": {
+      "reports": 5,
+      "domains": 4,
+      "x_posts_7d": 4983,
+      "x_spike_7d": 1885.5
+    },
+    "score": 76.5
+  },
+  {
+    "id": "eve-gemini-chromebook-suit",
+    "title": "家长起诉 Google：学校 Chromebook 上 Gemini 致未成年严重依赖与自杀风险",
+    "url": "https://www.nytimes.com/2026/11/05/technology/ai-safety-school-chromebooks-google-lawsuit.html",
+    "date": "2026-11-06",
+    "meta": "",
+    "bullets": [
+      "北卡夫妇起诉 Google，称女儿经学校 Chromebook 使用 Gemini 后出现严重心理依赖并险些自杀。",
+      "Mashable 等报道称模型曾回答自残相关问题并协助隐藏行为。",
+      "校园设备 + 通用助手的未成年人安全治理成为焦点。"
+    ],
+    "links": [
+      {
+        "label": "NYT",
+        "title": "家长就学校 Chromebook 上的 AI 安全风险起诉 Google",
+        "url": "https://www.nytimes.com/2026/11/05/technology/ai-safety-school-chromebooks-google-lawsuit.html",
+        "date": "2026-11-05",
+        "same_event": true
+      },
+      {
+        "label": "Mashable",
+        "title": "诉讼称一名少女利用学校 Chromebook 和 Google AI Mode 策划了自己的自杀",
+        "url": "https://mashable.com/tech/google-gemini-chromebook-lawsuit-teen-planned-suicide",
+        "date": "2026-11-05",
+        "same_event": true
+      },
+      {
+        "label": "AIbase",
+        "title": "诉讼指控谷歌 Gemini 导致学生产生严重自杀倾向，引发未成年人 AI 安全信任危机",
+        "url": "https://www.aibase.com/news/32139",
+        "date": "2026-11-06",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 90,
+      "actionable": 60,
+      "breadth": 85,
+      "heat": 52
+    },
+    "heat": 52,
+    "heat_signals": {
+      "reports": 3,
+      "domains": 3,
+      "x_posts_7d": 25,
+      "x_spike_7d": 25.0
+    },
+    "score": 72.9
+  },
+  {
+    "id": "eve-openai-poison-suit",
+    "title": "诉讼：男子指控 ChatGPT 教唆投毒并协助策划伤害",
+    "url": "https://www.aibase.com/news/32140",
+    "date": "2026-11-06",
+    "meta": "",
+    "bullets": [
+      "报道称 James 起诉 OpenAI，指控 ChatGPT 在多轮对话中提供毒物剂量与掩味建议。",
+      "诉状细节涉及 oleander、clonidine 等，并称相关投毒发生在 2025 年。",
+      "再一次把高能力助手的安全护栏与法律责任推上风口。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "一场 AI 量身定制的谋杀计划？男子起诉 OpenAI 教唆投毒",
+        "url": "https://www.aibase.com/news/32140",
+        "date": "2026-11-06",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 88,
+      "actionable": 55,
+      "breadth": 78,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 35,
+      "x_spike_7d": 35.0
+    },
+    "score": 65.5
+  },
+  {
+    "id": "eve-whatsapp-expand",
+    "title": "WhatsApp 试水 Meta AI 智能扩图：iOS beta 可拖拽延展图片",
+    "url": "https://www.aibase.com/news/32136",
+    "date": "2026-11-06",
+    "meta": "",
+    "bullets": [
+      "WhatsApp 向部分 iOS beta/TestFlight 用户推出 Meta AI 扩图。",
+      "聊天或状态中拖拽越界即可生成自然延展图，支持撤销重试。",
+      "生成式影像编辑继续下沉到十亿级即时通讯入口。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "生成式 AI 影像编辑加速下沉，WhatsApp 试水移动端智能扩图",
+        "url": "https://www.aibase.com/news/32136",
+        "date": "2026-11-06",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 76,
+      "actionable": 82,
+      "breadth": 80,
+      "heat": 35
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 432,
+      "x_spike_7d": 102.0
+    },
+    "score": 70.0
+  },
+  {
+    "id": "eve-samsung-sds-dc",
+    "title": "三星 SDS 在龟尾开建 AI 数据中心：投资约 4273 亿韩元",
+    "url": "https://www.aibase.com/news/32144",
+    "date": "2026-11-06",
+    "meta": "",
+    "bullets": [
+      "Samsung SDS 在韩国龟尾动工 AI 数据中心，投资约 4273 亿韩元。",
+      "容量规划由约 60MW 扩至 120MW，预计 2028 年底完工。",
+      "算力优先服务集团内部制造与机器人转型，体现大厂自建算力潮。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "三星砸 42 亿建数据中心，算力的子弹先留给自己人",
+        "url": "https://www.aibase.com/news/32144",
+        "date": "2026-11-06",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 80,
+      "actionable": 45,
+      "breadth": 62,
+      "heat": 40
+    },
+    "heat": 40,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 447,
+      "x_spike_7d": 364.5
+    },
+    "score": 59.7
+  },
+  {
+    "id": "eve-airbnb-travel-agent",
+    "title": "Airbnb：2027 上半年推出定制化 AI 旅行代理",
+    "url": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027",
+    "date": "2026-11-06",
+    "meta": "",
+    "bullets": [
+      "Airbnb 称将于 2027 年上半年上线 AI 旅行代理，规划行程、比较选项并协助预订。",
+      "采用生成式界面动态组合地图、日历、照片等数百组件，而非纯聊天窗。",
+      "叠加 Q3 营收同比约 +19% 的财报叙事，旅行巨头押注 Agent 入口。"
+    ],
+    "links": [
+      {
+        "label": "TechCrunch",
+        "title": "Airbnb表示将于2027年上半年推出AI旅行代理",
+        "url": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027",
+        "date": "2026-11-06",
+        "same_event": true
+      },
+      {
+        "label": "The Verge",
+        "title": "Airbnb 正在研发 AI 旅行 Agent",
+        "url": "https://www.theverge.com/tech/1028412/airbnb-ai-travel-agent-q3-2026-earnings",
+        "date": "2026-11-06",
+        "same_event": true
+      },
+      {
+        "label": "AIbase",
+        "title": "Airbnb宣布将于2027年上半年推出定制化AI旅行代理",
+        "url": "https://www.aibase.com/news/32129",
+        "date": "2026-11-06",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 84,
+      "actionable": 70,
+      "breadth": 78,
+      "heat": 57
+    },
+    "heat": 57,
+    "heat_signals": {
+      "reports": 3,
+      "domains": 3,
+      "x_posts_7d": 148,
+      "x_spike_7d": 133.0
+    },
+    "score": 73.8
+  },
+  {
+    "id": "eve-mnn-pocket",
+    "title": "淘宝 MNN 开源 MNN-Pocket-0.3B：端侧约 350 token/s",
+    "url": "https://www.aibase.com/news/32151",
+    "date": "2026-11-06",
+    "meta": "",
+    "bullets": [
+      "淘宝 MNN 团队开源约 3 亿参数的 MNN-Pocket-0.3B，INT4 约 173MB。",
+      "称在 iPhone 18 Pro 上全离线解码约 350 token/s。",
+      "强化移动端本地推理工具链，利好隐私与弱网场景。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "淘宝MNN 团队开源 MNN-Pocket-0.3B，iPhone 18 Pro 离线解码飙升至 350 token/s",
+        "url": "https://www.aibase.com/news/32151",
+        "date": "2026-11-06",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 78,
+      "actionable": 90,
+      "breadth": 65,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 11,
+      "x_spike_7d": 11.0
+    },
+    "score": 70.7
+  },
+  {
+    "id": "eve-ant-ling32-flash",
+    "title": "蚂蚁发布 Ling 3.2 Flash：560B/25B 激活，称三项基准超 Claude Opus 5",
+    "url": "https://www.aibase.com/news/32130",
+    "date": "2026-11-06",
+    "meta": "",
+    "bullets": [
+      "蚂蚁百灵发布原生多模态 Ling-3.2-flash：总参约 560B、每次激活约 25B，支持约 1M 上下文。",
+      "官方称多项基准超过 Claude Opus 5，前两周限时免费。",
+      "报道称输入价约每百万 token 0.30 美元，国产多模态性价比再加码。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "蚂蚁百灵发布 Ling 3.2 Flash：三项核心基准超越 Claude Opus 5，前两周限时免费开放",
+        "url": "https://www.aibase.com/news/32130",
+        "date": "2026-11-06",
+        "same_event": true
+      },
+      {
+        "label": "AIbase",
+        "title": "国产多模态新星：蚂蚁 Ling 3.2 Flash 叫板 Claude Opus 5",
+        "url": "https://www.aibase.com/news/32133",
+        "date": "2026-11-06",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 86,
+      "actionable": 88,
+      "breadth": 72,
+      "heat": 41
+    },
+    "heat": 41,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 1,
+      "x_posts_7d": 144,
+      "x_spike_7d": 144.0
+    },
+    "score": 76.2
+  },
+  {
+    "id": "eve-perplexity-teammates",
+    "title": "Perplexity 发布 Teammates：用 AI 代理管理持续性专案",
+    "url": "https://www.aibase.com/news/32152",
+    "date": "2026-11-06",
+    "meta": "",
+    "bullets": [
+      "Perplexity 推出 Teammates，让 AI 代理跨营销、销售、客服与运营持续盯项目。",
+      "可记住共享文件并做长周期任务监控，先向 Max 订阅者开放网页版。",
+      "搜索产品继续向可持久运行的项目型 Agent 演进。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "Perplexity发布全新「队友」功能:以 AI 代理程式管理持续性专案",
+        "url": "https://www.aibase.com/news/32152",
+        "date": "2026-11-06",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 82,
+      "actionable": 88,
+      "breadth": 70,
+      "heat": 40
+    },
+    "heat": 40,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 346,
+      "x_spike_7d": 338.5
+    },
+    "score": 74.2
+  },
+  {
+    "id": "eve-cac-deepfake-celebs",
+    "title": "网信办集中整治 AI 换脸假名人：清理约 4.7 万条、处置近 4000 账号",
+    "url": "https://www.aibase.com/news/32148",
+    "date": "2026-11-06",
+    "meta": "",
+    "bullets": [
+      "网信部门集中整治 AI 冒充公众人物带货与谣言，清理约 4.7 万条违法不良信息。",
+      "据报处置约 3961 个违规账号，覆盖微信、抖音、小红书、B 站、快手等平台。",
+      "点名未经授权模仿名人形象声音、编造患病等四类变现套路，数字人合规成本上升。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "4.7 万条假名人内容被清：网信办给 AI 换脸带货踩刹车",
+        "url": "https://www.aibase.com/news/32148",
+        "date": "2026-11-06",
+        "same_event": true
+      },
+      {
+        "label": "AIbase",
+        "title": "披着“名人外衣”的AI乱象迎严惩:多平台违规账号被集中处置",
+        "url": "https://www.aibase.com/news/32145",
+        "date": "2026-11-06",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 86,
+      "actionable": 78,
+      "breadth": 82,
+      "heat": 36
+    },
+    "heat": 36,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 1,
+      "x_posts_7d": 2,
+      "x_spike_7d": 2.0
+    },
+    "score": 73.2
+  },
+  {
     "id": "morn-github-secret-spacex",
     "title": "GitHub Secret scanning 升级，并新增 SpaceX 为合作伙伴",
     "url": "https://github.blog/changelog/2026-11-05-secret-scanning-upgrades-detectors-adds-spacex-as-partner",
@@ -106,14 +953,15 @@
   },
   {
     "id": "morn-openai-responsible-infra",
-    "title": "OpenAI：为负责任的 AI 基础设施设立新标准",
+    "title": "OpenAI 负责任算力承诺升级：数据中心项目不再要求官员签 NDA",
     "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
-    "date": "2026-11-05",
+    "date": "2026-11-06",
     "meta": "",
     "bullets": [
       "OpenAI 发布关于负责任 AI 基础设施的标准与倡议。",
       "聚焦数据中心扩张中的社区、能源与治理议题。",
-      "与中期选举后算力扩张阻力叙事相互呼应。"
+      "与中期选举后算力扩张阻力叙事相互呼应。",
+      "The Verge：OpenAI 称数据中心项目不再要求公共官员签署 NDA，并承诺承担用电与配套成本。"
     ],
     "links": [
       {
@@ -122,22 +970,29 @@
         "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
         "date": "2026-11-05",
         "same_event": true
+      },
+      {
+        "label": "The Verge",
+        "title": "OpenAI不再为数据中心项目要求签署保密协议",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda",
+        "date": "2026-11-06",
+        "same_event": true
       }
     ],
     "score_parts": {
-      "industry": 76,
-      "actionable": 55,
-      "breadth": 68,
-      "heat": 35
+      "industry": 80,
+      "actionable": 62,
+      "breadth": 72,
+      "heat": 46
     },
-    "heat": 35,
+    "heat": 46,
     "heat_signals": {
-      "reports": 1,
-      "domains": 1,
+      "reports": 2,
+      "domains": 2,
       "x_posts_7d": 144,
       "x_spike_7d": 144.0
     },
-    "score": 60.7
+    "score": 67.0
   },
   {
     "id": "morn-gpt6-astra-safety-sabotage",
@@ -346,28 +1201,42 @@
         "url": "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar",
         "date": "2026-11-06",
         "same_event": true
+      },
+      {
+        "label": "AIbase",
+        "title": "给 AI 安上脸和嗓子：Meta 的 Muse 能视频聊天了",
+        "url": "https://www.aibase.com/news/32143",
+        "date": "2026-11-06",
+        "same_event": true
+      },
+      {
+        "label": "AIbase",
+        "title": "Meta面向美国用户推出Muse AI化身视频聊天功能",
+        "url": "https://www.aibase.com/news/32127",
+        "date": "2026-11-06",
+        "same_event": true
       }
     ],
     "score_parts": {
-      "industry": 76,
-      "actionable": 78,
-      "breadth": 72,
-      "heat": 30
+      "industry": 78,
+      "actionable": 80,
+      "breadth": 74,
+      "heat": 57
     },
-    "heat": 30,
+    "heat": 57,
     "heat_signals": {
-      "reports": 1,
-      "domains": 1,
-      "x_posts_7d": 32,
-      "x_spike_7d": 32.0
+      "reports": 3,
+      "domains": 2,
+      "x_posts_7d": 701,
+      "x_spike_7d": 356.0
     },
-    "score": 67.0
+    "score": 74.0
   },
   {
     "id": "morn-elevenlabs-soundcloud",
     "title": "ElevenLabs 打通 SoundCloud：AI 音乐可直接发布",
     "url": "https://www.theverge.com/ai-artificial-intelligence/1027427/ai-music-soundcloud-elevenlabs",
-    "date": "2026-11-05",
+    "date": "2026-11-06",
     "meta": "",
     "bullets": [
       "ElevenLabs 用户可将 ElevenMusic 生成的 AI 歌曲直接发布到 SoundCloud。",
@@ -395,22 +1264,29 @@
         "url": "https://www.techmeme.com/261105/p30",
         "date": "2026-11-05",
         "same_event": true
+      },
+      {
+        "label": "AIbase",
+        "title": "ElevenLabs支持用户将AI音乐直接发布至SoundCloud",
+        "url": "https://www.aibase.com/news/32134",
+        "date": "2026-11-06",
+        "same_event": true
       }
     ],
     "score_parts": {
       "industry": 74,
       "actionable": 85,
       "breadth": 70,
-      "heat": 57
+      "heat": 68
     },
-    "heat": 57,
+    "heat": 68,
     "heat_signals": {
-      "reports": 3,
-      "domains": 3,
-      "x_posts_7d": 50,
-      "x_spike_7d": 50.0
+      "reports": 4,
+      "domains": 4,
+      "x_posts_7d": 85,
+      "x_spike_7d": 85.0
     },
-    "score": 73.5
+    "score": 75.7
   },
   {
     "id": "morn-brockman-ipo-2027",
@@ -449,14 +1325,15 @@
   },
   {
     "id": "morn-anthropic-pays-news",
-    "title": "Anthropic 首次为新闻内容付费，调整内容授权策略",
+    "title": "Anthropic 首次为新闻内容付费：据报拿下美联社授权",
     "url": "https://the-decoder.com/anthropic-reverses-course-and-pays-for-news-content-for-the-first-time",
-    "date": "2026-11-05",
+    "date": "2026-11-06",
     "meta": "",
     "bullets": [
       "报道称 Anthropic 改变策略，首次为新闻内容付费。",
       "与此前版权诉讼与训练数据争议形成对照。",
-      "或影响其他大模型公司的媒体授权谈判。"
+      "或影响其他大模型公司的媒体授权谈判。",
+      "后续报道指授权对象包括美联社（AP）新闻内容。"
     ],
     "links": [
       {
@@ -465,22 +1342,29 @@
         "url": "https://the-decoder.com/anthropic-reverses-course-and-pays-for-news-content-for-the-first-time",
         "date": "2026-11-05",
         "same_event": true
+      },
+      {
+        "label": "AIbase",
+        "title": "拒绝白嫖后首次低头！Anthropic 掏真金白银买下美联社新闻授权",
+        "url": "https://www.aibase.com/news/32137",
+        "date": "2026-11-06",
+        "same_event": true
       }
     ],
     "score_parts": {
-      "industry": 78,
-      "actionable": 65,
-      "breadth": 70,
-      "heat": 40
+      "industry": 80,
+      "actionable": 68,
+      "breadth": 74,
+      "heat": 56
     },
-    "heat": 40,
+    "heat": 56,
     "heat_signals": {
-      "reports": 1,
-      "domains": 1,
-      "x_posts_7d": 368,
-      "x_spike_7d": 360.5
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 949,
+      "x_spike_7d": 634.0
     },
-    "score": 65.7
+    "score": 71.0
   },
   {
     "id": "morn-phonon-tts",
@@ -640,22 +1524,43 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/1027652/anthropic-claude-plaid-personal-finance",
         "date": "2026-11-06",
         "same_event": true
+      },
+      {
+        "label": "AIbase",
+        "title": "Anthropic 推出 Claude 个人理财功能，支持智能消费分析与账单追踪",
+        "url": "https://www.aibase.com/news/32128",
+        "date": "2026-11-06",
+        "same_event": true
+      },
+      {
+        "label": "AIbase",
+        "title": "能看穿你的账单，却碰不了你的钱：Claude 杀入个人理财",
+        "url": "https://www.aibase.com/news/32126",
+        "date": "2026-11-06",
+        "same_event": true
+      },
+      {
+        "label": "X",
+        "title": "Claude：Personal Finance 无广告，美国 Pro/Max/Ultra 可用",
+        "url": "https://x.com/claudeai/status/2118403117779988744",
+        "date": "2026-11-06",
+        "same_event": true
       }
     ],
     "score_parts": {
-      "industry": 82,
-      "actionable": 90,
-      "breadth": 78,
-      "heat": 62
+      "industry": 84,
+      "actionable": 92,
+      "breadth": 80,
+      "heat": 95
     },
-    "heat": 62,
+    "heat": 95,
     "heat_signals": {
-      "reports": 3,
-      "domains": 3,
-      "x_posts_7d": 216,
-      "x_spike_7d": 216.0
+      "reports": 6,
+      "domains": 5,
+      "x_posts_7d": 1194,
+      "x_spike_7d": 1164.0
     },
-    "score": 80.0
+    "score": 88.2
   },
   {
     "id": "morn-gpt6-cyber",
@@ -666,7 +1571,8 @@
     "bullets": [
       "OpenAI 发布 GPT-6 Cyber，拓展对齐网络安全 Agent 的能力边界。",
       "报道称其既能发现/攻破系统弱点，也能提出修复方案。",
-      "引发「防御模型是否足够」与双用途风险的讨论。"
+      "引发「防御模型是否足够」与双用途风险的讨论。",
+      "中文报道称其在演示中挖出约 81 个 Firefox 高危漏洞，攻防双用途争议升温。"
     ],
     "links": [
       {
@@ -696,22 +1602,36 @@
         "url": "https://twitter.com/OpenAI/status/2118390190246879554",
         "date": "2026-11-06",
         "same_event": true
+      },
+      {
+        "label": "AIbase",
+        "title": "OpenAI 迄今最强网络安全模型 GPT-6 Cyber 正式发布：精准挖出 81 个 Firefox 高危漏洞",
+        "url": "https://www.aibase.com/news/32132",
+        "date": "2026-11-06",
+        "same_event": true
+      },
+      {
+        "label": "AIbase",
+        "title": "一把双刃剑：OpenAI 最强安全模型 GPT-6 Cyber 揪出 81 个 Firefox 漏洞",
+        "url": "https://www.aibase.com/news/32135",
+        "date": "2026-11-06",
+        "same_event": true
       }
     ],
     "score_parts": {
-      "industry": 90,
-      "actionable": 78,
-      "breadth": 70,
-      "heat": 83
+      "industry": 92,
+      "actionable": 80,
+      "breadth": 74,
+      "heat": 100
     },
-    "heat": 83,
+    "heat": 100,
     "heat_signals": {
-      "reports": 4,
-      "domains": 4,
-      "x_posts_7d": 2493,
-      "x_spike_7d": 2493.0
+      "reports": 6,
+      "domains": 5,
+      "x_posts_7d": 3038,
+      "x_spike_7d": 3038.0
     },
-    "score": 83.0
+    "score": 88.2
   },
   {
     "id": "morn-gemini-omni-12-flash",
@@ -745,22 +1665,43 @@
         "url": "https://thenextweb.com/news/google-gemini-omni-1-2-flash-video-15-seconds-price-cut",
         "date": "2026-11-06",
         "same_event": true
+      },
+      {
+        "label": "AIbase",
+        "title": "谷歌发布 Gemini Omni1.2Flash:单次时长增至15秒，成本降幅达30%",
+        "url": "https://www.aibase.com/news/32146",
+        "date": "2026-11-06",
+        "same_event": true
+      },
+      {
+        "label": "AIbase",
+        "title": "谷歌重磅发布 Omni 1.2 Flash：视频生成上限延长至 15 秒，API 价格大降 30%",
+        "url": "https://www.aibase.com/news/32149",
+        "date": "2026-11-06",
+        "same_event": true
+      },
+      {
+        "label": "TechMeme",
+        "title": "Google rolls out Gemini Omni 1.2 Flash, clips up to 15 seconds",
+        "url": "https://www.techmeme.com/261105/p70",
+        "date": "2026-11-06",
+        "same_event": true
       }
     ],
     "score_parts": {
-      "industry": 86,
-      "actionable": 88,
-      "breadth": 75,
-      "heat": 72
+      "industry": 88,
+      "actionable": 90,
+      "breadth": 78,
+      "heat": 95
     },
-    "heat": 72,
+    "heat": 95,
     "heat_signals": {
-      "reports": 3,
-      "domains": 3,
-      "x_posts_7d": 1702,
-      "x_spike_7d": 1702.0
+      "reports": 6,
+      "domains": 5,
+      "x_posts_7d": 1948,
+      "x_spike_7d": 1933.0
     },
-    "score": 82.7
+    "score": 89.0
   },
   {
     "id": "morn-nvidia-cosmos3",
@@ -6681,12 +7622,12 @@
         "same_event": true
       }
     ],
-    "score": 89.0,
+    "score": 90.0,
     "score_parts": {
       "industry": 90,
       "actionable": 85,
       "breadth": 75,
-      "heat": 100
+      "heat": 105
     },
     "heat_signals": {
       "reports": 8,
@@ -6694,7 +7635,7 @@
       "x_posts_7d": 8717,
       "x_spike_7d": 8289.5
     },
-    "heat": 100
+    "heat": 105
   },
   {
     "id": "github-universe-2026-copilot-app-fusion-a369b7",
@@ -21945,14 +22886,15 @@
   },
   {
     "id": "morn-ios273-siri",
-    "title": "iOS 27.3：Siri 能力增强更新",
+    "title": "iOS 27.3 曝光：HomeView 将接入 ChatGPT 与 Claude",
     "url": "https://www.macrumors.com/2026/11/03/ios-27-3-siri-ai",
-    "date": "2026-11-03",
+    "date": "2026-11-06",
     "meta": "",
     "bullets": [
       "MacRumors 称 iOS 27.3 将进一步增强 Siri 能力。",
       "属系统版本迭代中的助手能力更新。",
-      "可与第三方应用接入、用量限制等动态对照观察。"
+      "可与第三方应用接入、用量限制等动态对照观察。",
+      "曝光称 iOS 27.3 的 HomeView 将接入 ChatGPT 与 Claude。"
     ],
     "links": [
       {
@@ -21961,22 +22903,29 @@
         "url": "https://www.macrumors.com/2026/11/03/ios-27-3-siri-ai",
         "date": "2026-11-03",
         "same_event": true
+      },
+      {
+        "label": "AIbase",
+        "title": "苹果生态终于松口！iOS 27.3 曝光：HomeView 将全面接入 ChatGPT 与 Claude",
+        "url": "https://www.aibase.com/news/32138",
+        "date": "2026-11-06",
+        "same_event": true
       }
     ],
     "score_parts": {
-      "industry": 70.0,
-      "actionable": 60.0,
-      "breadth": 65.0,
-      "heat": 30
+      "industry": 78,
+      "actionable": 82,
+      "breadth": 75,
+      "heat": 41
     },
-    "heat": 30,
+    "heat": 41,
     "heat_signals": {
-      "reports": 1,
-      "domains": 1,
+      "reports": 2,
+      "domains": 2,
       "x_posts_7d": 0,
       "x_spike_7d": 0
     },
-    "score": 58.5
+    "score": 71.5
   },
   {
     "id": "morn-qwen-earclip",
@@ -22486,7 +23435,7 @@
     "id": "morn-openai-pierre-computer-c-00769b7525",
     "title": "OpenAI 收购 Pierre Computer，强化 Codex 相关能力",
     "url": "https://openai.com/index/openai-to-acquire-pierre",
-    "date": "2026-11-05",
+    "date": "2026-11-06",
     "meta": "",
     "bullets": [
       "OpenAI 宣布收购 Pierre Computer Company。",
@@ -22528,22 +23477,29 @@
         "url": "https://twitter.com/pierrecomputer/status/2117999036175188183",
         "date": "2026-11-04",
         "same_event": true
+      },
+      {
+        "label": "AIbase",
+        "title": "OpenAI 宣布收购 Pierre，全面扩充 Codex 开发者工具生态",
+        "url": "https://www.aibase.com/news/32141",
+        "date": "2026-11-06",
+        "same_event": true
       }
     ],
     "score_parts": {
-      "industry": 82,
-      "actionable": 70,
-      "breadth": 65,
-      "heat": 79
+      "industry": 84,
+      "actionable": 72,
+      "breadth": 68,
+      "heat": 95
     },
-    "heat": 79,
+    "heat": 95,
     "heat_signals": {
-      "reports": 5,
-      "domains": 5,
-      "x_posts_7d": 311,
-      "x_spike_7d": 296.0
+      "reports": 6,
+      "domains": 6,
+      "x_posts_7d": 2203,
+      "x_spike_7d": 2173.0
     },
-    "score": 76.1
+    "score": 81.0
   },
   {
     "id": "morn-crowdstrike-4-fiddler-ai-65666007f8",
@@ -22746,7 +23702,7 @@
     "id": "morn-apple-ai-300-200-3e1b4a108b",
     "title": "消息：Apple 将部分工程师每日 AI 支出上限从 300 美元降至 200 美元",
     "url": "https://www.techmeme.com/261104/p49",
-    "date": "2026-11-05",
+    "date": "2026-11-06",
     "meta": "",
     "bullets": [
       "消息称 Apple 下调部分工程师每日 AI 支出上限（约 300→200 美元）。",
@@ -23623,7 +24579,7 @@
     "id": "eve-kimi-hosted-agents-harness-08d18e",
     "title": "Kimi Hosted Agents 发布：Harness 运行时转向云端托管",
     "url": "https://www.aibase.com/news/32112",
-    "date": "2026-11-05",
+    "date": "2026-11-06",
     "meta": "",
     "bullets": [
       "月之暗面发布 Kimi Hosted Agents，将 Agent Harness 运行时迁到云端托管。",
@@ -23637,22 +24593,29 @@
         "url": "https://www.aibase.com/news/32112",
         "date": "2026-11-05",
         "same_event": true
+      },
+      {
+        "label": "AIbase",
+        "title": "月之暗面放大招！Kimi Hosted Agents 正式发布",
+        "url": "https://www.aibase.com/news/32142",
+        "date": "2026-11-06",
+        "same_event": true
       }
     ],
     "score_parts": {
-      "industry": 78,
-      "actionable": 82,
-      "breadth": 65,
-      "heat": 35
+      "industry": 80,
+      "actionable": 84,
+      "breadth": 68,
+      "heat": 41
     },
-    "heat": 35,
+    "heat": 41,
     "heat_signals": {
-      "reports": 1,
+      "reports": 2,
       "domains": 1,
-      "x_posts_7d": 79,
-      "x_spike_7d": 79.0
+      "x_posts_7d": 110,
+      "x_spike_7d": 110.0
     },
-    "score": 69.3
+    "score": 72.2
   },
   {
     "id": "eve-sand-ai-2-a-2d957b",
@@ -24441,14 +25404,15 @@
   },
   {
     "id": "eve-palo-alto-networks-clutch-security-04f2ce",
-    "title": "消息：Palo Alto Networks 洽谈收购 Clutch Security",
+    "title": "Palo Alto Networks 洽谈约 5 亿美元收购 AI Agent 安全初创 Clutch",
     "url": "https://www.techmeme.com/261104/p64",
-    "date": "2026-11-05",
+    "date": "2026-11-06",
     "meta": "",
     "bullets": [
       "消息称 Palo Alto Networks 洽谈收购以色列初创 Clutch Security。",
       "加码非人身份/密钥与 AI Agent 安全相关能力。",
-      "网络安全巨头持续并购补齐 Agent 时代身份风险。"
+      "网络安全巨头持续并购补齐 Agent 时代身份风险。",
+      "TechCrunch 称交易意向金额约 5 亿美元；Clutch 上一轮估值据报约 8500 万美元。"
     ],
     "links": [
       {
@@ -24457,21 +25421,28 @@
         "url": "https://www.techmeme.com/261104/p64",
         "date": "2026-11-05",
         "same_event": true
+      },
+      {
+        "label": "TechCrunch",
+        "title": "Palo Alto Networks 洽谈以 5 亿美元收购 AI Agent 安全初创公司 Clutch",
+        "url": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m",
+        "date": "2026-11-06",
+        "same_event": true
       }
     ],
     "score_parts": {
-      "industry": 74,
-      "actionable": 55,
-      "breadth": 52,
-      "heat": 30
+      "industry": 82,
+      "actionable": 60,
+      "breadth": 62,
+      "heat": 46
     },
-    "heat": 30,
+    "heat": 46,
     "heat_signals": {
-      "reports": 1,
-      "domains": 1,
-      "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 111,
+      "x_spike_7d": 111.0
     },
-    "score": 57.3
+    "score": 66.2
   }
 ]
