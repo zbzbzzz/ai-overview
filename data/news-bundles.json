@@ -1,14 +1,764 @@
 [
   {
-    "id": "eve-anthropic-ipo-skepticism",
-    "title": "消息：大投资者愈发怀疑 Anthropic IPO 难达约 1.5 万亿美元估值",
-    "url": "https://www.techmeme.com/261105/p60",
+    "id": "morn-cisa-dems",
+    "title": "展望：民主党多数或推动重建 CISA 并加码 AI 安全",
+    "url": "https://www.techmeme.com/261106/p11",
     "date": "2026-11-06",
+    "meta": "",
+    "bullets": [
+      "分析指新的民主党国会多数或寻求重建 CISA、优先 AI 安全。",
+      "Elizabeth Warren 等被提及可能主导相关金融/科技监管议程。",
+      "与中期选举后 AI 监管预期升温相连。"
+    ],
+    "links": [
+      {
+        "label": "TechMeme",
+        "title": "Experts: Democratic majority likely to rebuild CISA, prioritize AI security",
+        "url": "https://www.techmeme.com/261106/p11",
+        "date": "2026-11-06",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 78,
+      "actionable": 50,
+      "breadth": 72,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    },
+    "score": 59.4
+  },
+  {
+    "id": "morn-asr-liva",
+    "title": "Open ASR Leaderboard 新增埃及与尼日利亚英语",
+    "url": "https://huggingface.co/blog/open-asr-leaderboard-liva",
+    "date": "2026-11-06",
+    "meta": "",
+    "bullets": [
+      "Hugging Face 宣布 Open ASR Leaderboard 纳入埃及英语与尼日利亚英语。",
+      "扩大非主流英语口音的开源语音识别评测覆盖。",
+      "对多地区语音产品本地化有参考价值。"
+    ],
+    "links": [
+      {
+        "label": "Hugging Face",
+        "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
+        "url": "https://huggingface.co/blog/open-asr-leaderboard-liva",
+        "date": "2026-11-06",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 62,
+      "actionable": 70,
+      "breadth": 58,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    },
+    "score": 57.6
+  },
+  {
+    "id": "morn-doj-ai-ceo-scam",
+    "title": "美国司法部起诉三人：用 AI 假冒 CEO/律师实施诈骗",
+    "url": "https://www.techmeme.com/261106/p18",
+    "date": "2026-11-07",
+    "meta": "",
+    "bullets": [
+      "报道称美国司法部起诉三名外籍人士，指控其用 AI 假冒 CEO 与律师。",
+      "属于生成式 AI 商业诈骗刑事化的新案例。",
+      "与深度伪造广告治理议题共振。"
+    ],
+    "links": [
+      {
+        "label": "TechMeme",
+        "title": "The US DOJ indicts three foreign nationals for allegedly using AI to impersonate CEOs and attorneys",
+        "url": "https://www.techmeme.com/261106/p18",
+        "date": "2026-11-07",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 80,
+      "actionable": 62,
+      "breadth": 75,
+      "heat": 35
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 58,
+      "x_spike_7d": 58.0
+    },
+    "score": 65.1
+  },
+  {
+    "id": "morn-alexa-text-shop",
+    "title": "Amazon：可用短信让 Alexa 代为下单购物",
+    "url": "https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop",
+    "date": "2026-11-06",
+    "meta": "",
+    "bullets": [
+      "Amazon 推出通过短信与 Alexa for Shopping 交互并下单的能力。",
+      "TechCrunch 称此举出现在曾限制 Muse 之后的购物入口争夺中。",
+      "Agent 购物从 App 内走向短信等更轻入口。"
+    ],
+    "links": [
+      {
+        "label": "TechCrunch",
+        "title": "After blocking Muse, Amazon now lets users text Alexa to help them shop",
+        "url": "https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop",
+        "date": "2026-11-06",
+        "same_event": true
+      },
+      {
+        "label": "TNW",
+        "title": "Amazon’s Alexa for Shopping agent will now take your orders by text",
+        "url": "https://thenextweb.com/news/amazon-alexa-shopping-agent-text-orders",
+        "date": "2026-11-07",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 78,
+      "actionable": 82,
+      "breadth": 70,
+      "heat": 51
+    },
+    "heat": 51,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 320,
+      "x_spike_7d": 320.0
+    },
+    "score": 73.0
+  },
+  {
+    "id": "morn-toyblocks",
+    "title": "AllenAI 发布 ToyBlocks：可控机器人学习与评估世界",
+    "url": "https://huggingface.co/blog/allenai/toyblocks",
+    "date": "2026-11-06",
+    "meta": "",
+    "bullets": [
+      "Hugging Face 博客介绍 AllenAI 的 ToyBlocks 受控环境。",
+      "面向机器人学习与评估，提供可复现实验设定。",
+      "补充具身智能评测基础设施。"
+    ],
+    "links": [
+      {
+        "label": "Hugging Face",
+        "title": "ToyBlocks: A controlled world for robot learning and evaluation",
+        "url": "https://huggingface.co/blog/allenai/toyblocks",
+        "date": "2026-11-06",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 72,
+      "actionable": 78,
+      "breadth": 55,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 48,
+      "x_spike_7d": 48.0
+    },
+    "score": 63.7
+  },
+  {
+    "id": "morn-cuban-meta-ads",
+    "title": "Mark Cuban：Facebook 明知故犯投放 AI 深度伪造诈骗广告",
+    "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
+    "date": "2026-11-06",
+    "meta": "",
+    "bullets": [
+      "Mark Cuban 指控 Meta/Facebook 明知 AI 深度伪造诈骗广告仍放行。",
+      "相关文件据称显示与诈骗相关的广告收入规模可达约 160 亿美元。",
+      "加剧对平台广告审核与 AI 欺诈治理的压力。"
+    ],
+    "links": [
+      {
+        "label": "Yahoo",
+        "title": "Mark Cuban says Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud-linked revenue",
+        "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
+        "date": "2026-11-06",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 84,
+      "actionable": 60,
+      "breadth": 78,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 28,
+      "x_spike_7d": 28.0
+    },
+    "score": 65.4
+  },
+  {
+    "id": "morn-qualcomm-6g-ai",
+    "title": "高通：6G 将写入 AI 基因，产品节奏瞄准 2029",
+    "url": "https://www.aibase.com/news/32156",
+    "date": "2026-11-06",
+    "meta": "",
+    "bullets": [
+      "报道称高通在 6G 愿景中把 AI 作为原生能力写入架构。",
+      "产品与标准节奏指向约 2029 年。",
+      "连接通信基础设施与端侧/网络侧 AI 长期叙事。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "6G 还没来，AI 已写进它的基因：高通瞄准 2029",
+        "url": "https://www.aibase.com/news/32156",
+        "date": "2026-11-06",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 74,
+      "actionable": 55,
+      "breadth": 68,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    },
+    "score": 58.9
+  },
+  {
+    "id": "morn-ai-ppt-labor",
+    "title": "用 AI 做 PPT 被开除，公司反赔 4.6 万：法院判了",
+    "url": "https://www.aibase.com/news/32154",
+    "date": "2026-11-06",
+    "meta": "",
+    "bullets": [
+      "国内劳动争议：员工因用 AI 做 PPT 被开除，法院判决公司支付赔偿约 4.6 万元。",
+      "折射职场 AI 使用规范与解雇合法性边界。",
+      "对企业 AI 使用政策具有参考意义。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "用 AI 做 PPT 被开除，公司反赔 4.6 万：法院判了",
+        "url": "https://www.aibase.com/news/32154",
+        "date": "2026-11-06",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 70,
+      "actionable": 78,
+      "breadth": 72,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 21,
+      "x_spike_7d": 21.0
+    },
+    "score": 64.6
+  },
+  {
+    "id": "morn-underdog-32mb",
+    "title": "Underdog 展示仅 32MB 的语音模型演示",
+    "url": "https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo",
+    "date": "2026-11-06",
+    "meta": "",
+    "bullets": [
+      "TechCrunch 报道 Underdog 展示体积约 32MB 的语音模型演示。",
+      "强调端侧/低资源场景下的语音能力。",
+      "属端侧语音小型化产品叙事。"
+    ],
+    "links": [
+      {
+        "label": "TechCrunch",
+        "title": "Underdog shows off a 32MB speech model in new demo",
+        "url": "https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo",
+        "date": "2026-11-06",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 68,
+      "actionable": 75,
+      "breadth": 55,
+      "heat": 35
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 61,
+      "x_spike_7d": 61.0
+    },
+    "score": 62.2
+  },
+  {
+    "id": "morn-amsterdam-protest",
+    "title": "反 AI 抗议者闯入阿姆斯特丹微软数据中心工地",
+    "url": "https://www.businessinsider.com/protesters-break-into-microsoft-data-center-construction-site-amsterdam-ai-2026-11",
+    "date": "2026-11-06",
+    "meta": "",
+    "bullets": [
+      "Business Insider 报道反 AI 抗议者闯入阿姆斯特丹微软数据中心建设工地。",
+      "反映欧洲对数据中心扩张与能源占用的持续抵制。",
+      "与美国中期选举后数据中心政治压力形成呼应。"
+    ],
+    "links": [
+      {
+        "label": "Business Insider",
+        "title": "Anti-AI protesters break into Microsoft data center site in Amsterdam",
+        "url": "https://www.businessinsider.com/protesters-break-into-microsoft-data-center-construction-site-amsterdam-ai-2026-11",
+        "date": "2026-11-06",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 76,
+      "actionable": 45,
+      "breadth": 70,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0
+    },
+    "score": 56.9
+  },
+  {
+    "id": "morn-tsrs-cloudflare",
+    "title": "Cloudflare 与 VoidZero 推 tsrs：AI 生成的 TypeScript→Rust 编译器移植",
+    "url": "https://www.infoq.cn/article/lGoA1ZSw6ojeh68GVlBl",
+    "date": "2026-11-06",
+    "meta": "",
+    "bullets": [
+      "InfoQ 报道 Cloudflare 与 VoidZero 联合推出 tsrs。",
+      "声称由 AI 生成将 TypeScript 编译器移植到 Rust。",
+      "展示 AI 辅助大型系统语言迁移的工程路径。"
+    ],
+    "links": [
+      {
+        "label": "InfoQ",
+        "title": "Cloudflare 与 VoidZero 联合推出 tsrs：由 AI 生成的 TypeScript 编译器 Rust 移植版",
+        "url": "https://www.infoq.cn/article/lGoA1ZSw6ojeh68GVlBl",
+        "date": "2026-11-06",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 74,
+      "actionable": 80,
+      "breadth": 60,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 46,
+      "x_spike_7d": 31.0
+    },
+    "score": 65.6
+  },
+  {
+    "id": "morn-physicl-10m",
+    "title": "Physicl 获 1000 万美元：为机器人生成物理仿真训练数据",
+    "url": "https://techcrunch.com/2026/11/06/physicl-raises-10m-to-make-the-digital-world-real-enough-for-robots",
+    "date": "2026-11-06",
+    "meta": "",
+    "bullets": [
+      "巴黎初创 Physicl 获 1000 万美元，聚焦物理 AI/机器人可用的仿真训练数据。",
+      "目标是让数字世界「足够真实」，降低真机数据成本。",
+      "属具身智能数据基础设施赛道融资。"
+    ],
+    "links": [
+      {
+        "label": "TechCrunch",
+        "title": "Physicl raises $10M to make the digital world real enough for robots",
+        "url": "https://techcrunch.com/2026/11/06/physicl-raises-10m-to-make-the-digital-world-real-enough-for-robots",
+        "date": "2026-11-06",
+        "same_event": true
+      },
+      {
+        "label": "TNW",
+        "title": "Paris start-up Physicl raises $10M to make training data for physical AI",
+        "url": "https://thenextweb.com/news/physicl-10m-seed-physical-ai-training-data",
+        "date": "2026-11-06",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 72,
+      "actionable": 70,
+      "breadth": 58,
+      "heat": 46
+    },
+    "heat": 46,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 53,
+      "x_spike_7d": 53.0
+    },
+    "score": 64.8
+  },
+  {
+    "id": "morn-tsmc-dram",
+    "title": "消息：台积电考虑应 Nvidia 要求进军 AI 内存芯片",
+    "url": "https://thenextweb.com/news/tsmc-3d-dram-memory-chips-nvidia",
+    "date": "2026-11-07",
+    "meta": "",
+    "bullets": [
+      "报道称台积电正评估应 Nvidia 要求扩展至 3D DRAM 等 AI 内存制造。",
+      "若落地将强化 Nvidia 对先进封装/内存供应链的绑定。",
+      "亚洲 AI 硬件供应链格局或随之调整。"
+    ],
+    "links": [
+      {
+        "label": "TNW",
+        "title": "TSMC is weighing a move into AI memory chips at Nvidia’s request",
+        "url": "https://thenextweb.com/news/tsmc-3d-dram-memory-chips-nvidia",
+        "date": "2026-11-07",
+        "same_event": true
+      },
+      {
+        "label": "TechMeme",
+        "title": "Sources: TSMC considering expanding into manufacturing 3D DRAM at Nvidia’s request",
+        "url": "https://www.techmeme.com/261106/p12",
+        "date": "2026-11-06",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 86,
+      "actionable": 58,
+      "breadth": 74,
+      "heat": 51
+    },
+    "heat": 51,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 460,
+      "x_spike_7d": 437.5
+    },
+    "score": 69.4
+  },
+  {
+    "id": "morn-openai-wetlab",
+    "title": "OpenAI：衡量 AI Agent 在湿实验室日常科研中的表现",
+    "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+    "date": "2026-11-06",
+    "meta": "",
+    "bullets": [
+      "OpenAI 发布评测，衡量 AI Agent 处理日常湿实验室科研流程的能力。",
+      "面向真实实验操作与科研工作流，而非纯文本基准。",
+      "为科学 Agent 产品化提供可复现度量。"
+    ],
+    "links": [
+      {
+        "label": "OpenAI",
+        "title": "Measuring how AI agents handle everyday wet-lab science",
+        "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+        "date": "2026-11-06",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 80,
+      "actionable": 78,
+      "breadth": 65,
+      "heat": 35
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 137,
+      "x_spike_7d": 137.0
+    },
+    "score": 68.9
+  },
+  {
+    "id": "morn-psi-aaronson",
+    "title": "PSI：非公开 Anthropic 模型系统据称证出 Aaronson-Ambainis 猜想",
+    "url": "https://www.techmeme.com/261106/p20",
+    "date": "2026-11-07",
+    "meta": "",
+    "bullets": [
+      "物理 AI 初创 PSI 称，运行非公开 Anthropic 模型的系统证明了 2008 年以来的 Aaronson-Ambainis 猜想。",
+      "该猜想关涉量子计算查询复杂度，属基础理论突破叙事。",
+      "细节与独立验证仍待更多技术披露。"
+    ],
+    "links": [
+      {
+        "label": "TechMeme",
+        "title": "AI physics startup PSI says a system running a non-public Anthropic model proved the Aaronson-Ambainis conjecture",
+        "url": "https://www.techmeme.com/261106/p20",
+        "date": "2026-11-07",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 85,
+      "actionable": 55,
+      "breadth": 72,
+      "heat": 35
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 116,
+      "x_spike_7d": 116.0
+    },
+    "score": 64.7
+  },
+  {
+    "id": "morn-artex-exposed",
+    "title": "数百台 Artex AI 渗透工具服务器被发现公网暴露",
+    "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web",
+    "date": "2026-11-07",
+    "meta": "",
+    "bullets": [
+      "安全研究人员发现数百台托管 Artex 渗透测试工具的服务器对公网开放。",
+      "任何人可访问这些 AI 辅助攻击工具实例，放大滥用风险。",
+      "与此前 ARTEX 被用于针对 IT/软件厂商的攻击报道形成延续。"
+    ],
+    "links": [
+      {
+        "label": "TechCrunch",
+        "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
+        "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web",
+        "date": "2026-11-07",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 82,
+      "actionable": 78,
+      "breadth": 70,
+      "heat": 50
+    },
+    "heat": 50,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 1097,
+      "x_spike_7d": 1014.5
+    },
+    "score": 73.2
+  },
+  {
+    "id": "morn-wired-cn-hack",
+    "title": "Wired：开源中文模型在模拟渗透中接近 OpenAI 最强网络模型",
+    "url": "https://www.wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking",
+    "date": "2026-11-07",
+    "meta": "",
+    "bullets": [
+      "实验要求模型攻破模拟网络，DeepSeek 与 GLM 等开源中文模型表现接近 OpenAI 未公开的最强网络模型。",
+      "作者警示免费开源权重降低网络攻防能力获取门槛。",
+      "与 GPT-6 Cyber 发布同周形成对照叙事。"
+    ],
+    "links": [
+      {
+        "label": "Wired",
+        "title": "Free Chinese AI Models Are Getting Scary Good at Hacking",
+        "url": "https://www.wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking",
+        "date": "2026-11-07",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 88,
+      "actionable": 72,
+      "breadth": 80,
+      "heat": 45
+    },
+    "heat": 45,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 711,
+      "x_spike_7d": 613.5
+    },
+    "score": 73.8
+  },
+  {
+    "id": "morn-huang-congress",
+    "title": "消息：Nvidia CEO 黄仁勋应国会要求就中国间谍担忧闭门说明",
+    "url": "https://www.nytimes.com/2026/11/05/technology/house-republicans-nvidia-jensen-huang-china.html",
+    "date": "2026-11-06",
+    "meta": "",
+    "bullets": [
+      "纽约时报等报道众议院共和党领袖要求黄仁勋参加闭门简报。",
+      "焦点涉及中国间谍活动与英伟达芯片/供应链安全关切。",
+      "Slashdot 等转述称其已被国会「传召」相关讨论。"
+    ],
+    "links": [
+      {
+        "label": "NYT",
+        "title": "House G.O.P. Leaders Ask Nvidia’s Huang to Speak in Closed-Door Briefing",
+        "url": "https://www.nytimes.com/2026/11/05/technology/house-republicans-nvidia-jensen-huang-china.html",
+        "date": "2026-11-06",
+        "same_event": true
+      },
+      {
+        "label": "Slashdot",
+        "title": "Nvidia CEO Jensen Huang Summoned By Congress Over Chinese Espionage Concerns",
+        "url": "https://yro.slashdot.org/story/26/11/06/1742227/nvidia-ceo-jensen-huang-summoned-by-congress-over-chinese-espionage-concerns",
+        "date": "2026-11-07",
+        "same_event": true
+      },
+      {
+        "label": "Ars Technica",
+        "title": "Nvidia CEO Jensen Huang summoned by Congress over Chinese espionage concerns",
+        "url": "https://arstechnica.com/tech-policy/2026/11/nvidia-ceo-jensen-huang-summoned-by-congress-over-chinese-espionage-concerns/",
+        "date": "2026-11-06",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 86,
+      "actionable": 48,
+      "breadth": 78,
+      "heat": 67
+    },
+    "heat": 67,
+    "heat_signals": {
+      "reports": 3,
+      "domains": 3,
+      "x_posts_7d": 606,
+      "x_spike_7d": 508.5
+    },
+    "score": 70.0
+  },
+  {
+    "id": "morn-msft-oracle-ai",
+    "title": "Microsoft 收缩向 Oracle 租用的 AI 算力",
+    "url": "https://thenextweb.com/news/microsoft-winds-down-oracle-ai-cloud-capacity-deal",
+    "date": "2026-11-07",
+    "meta": "",
+    "bullets": [
+      "彭博社等报道称 Microsoft 不再续约并向外关闭从 Oracle 租用的 AI 算力。",
+      "背景是微软重新审视逾 800 亿美元量级云合约组合。",
+      "或影响 Oracle 数据中心利用率与双方云合作叙事。"
+    ],
+    "links": [
+      {
+        "label": "TNW",
+        "title": "Microsoft is winding down its deal to rent AI computing from Oracle",
+        "url": "https://thenextweb.com/news/microsoft-winds-down-oracle-ai-cloud-capacity-deal",
+        "date": "2026-11-07",
+        "same_event": true
+      },
+      {
+        "label": "Reuters",
+        "title": "Microsoft is winding down Oracle deal to rent AI cloud capacity",
+        "url": "https://www.reuters.com/business/microsoft-is-winding-down-oracle-deal-rent-ai-cloud-capacity-bloomberg-news-2026-11-06",
+        "date": "2026-11-06",
+        "same_event": true
+      },
+      {
+        "label": "TechMeme",
+        "title": "Sources: Microsoft turning off rented Oracle AI capacity",
+        "url": "https://www.techmeme.com/261106/p15",
+        "date": "2026-11-07",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 88,
+      "actionable": 62,
+      "breadth": 75,
+      "heat": 72
+    },
+    "heat": 72,
+    "heat_signals": {
+      "reports": 3,
+      "domains": 3,
+      "x_posts_7d": 2063,
+      "x_spike_7d": 1995.5
+    },
+    "score": 75.7
+  },
+  {
+    "id": "morn-openai-hacktron",
+    "title": "OpenAI 与 Hacktron 合作：在自家系统中挖漏洞",
+    "url": "https://openai.com/index/partnering-with-hacktron",
+    "date": "2026-11-06",
+    "meta": "",
+    "bullets": [
+      "OpenAI 宣布与安全公司 Hacktron 合作，专项挖掘自家系统漏洞。",
+      "合作聚焦提升模型与产品安全，补充既有红队与漏洞赏金体系。",
+      "与 GPT-6 Cyber 网络安全叙事同一周密集放出。"
+    ],
+    "links": [
+      {
+        "label": "OpenAI",
+        "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+        "url": "https://openai.com/index/partnering-with-hacktron",
+        "date": "2026-11-06",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 84,
+      "actionable": 70,
+      "breadth": 68,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 34,
+      "x_spike_7d": 34.0
+    },
+    "score": 67.4
+  },
+  {
+    "id": "eve-anthropic-ipo-skepticism",
+    "title": "消息：Anthropic IPO 约 1.5 万亿估值遇阻，讨论下探至约 1.1–1.3 万亿",
+    "url": "https://www.techmeme.com/261105/p60",
+    "date": "2026-11-07",
     "meta": "",
     "bullets": [
       "消息称主要投资者对 Anthropic IPO 冲击约 1.5 万亿美元估值愈发怀疑。",
       "与中期选举后 AI 交易降温、算力成本占比上升等叙事叠加。",
-      "IPO 定价预期可能进一步下修。"
+      "IPO 定价预期可能进一步下修。",
+      "后续讨论称估值预期或下探至约 1.1–1.3 万亿美元量级，大投资者仍存疑。"
     ],
     "links": [
       {
@@ -24,22 +774,29 @@
         "url": "https://thenextweb.com/news/anthropic-compute-costs-58-percent-revenue-broadcom-backstop",
         "date": "2026-11-05",
         "same_event": true
+      },
+      {
+        "label": "The Decoder",
+        "title": "Anthropic's $1.5 trillion IPO hits resistance as investors balk at valuation",
+        "url": "https://the-decoder.com/anthropics-1-5-trillion-ipo-hits-resistance-as-investors-balk-at-valuation",
+        "date": "2026-11-06",
+        "same_event": true
       }
     ],
     "score_parts": {
-      "industry": 84,
-      "actionable": 45,
-      "breadth": 72,
-      "heat": 66
+      "industry": 80,
+      "actionable": 48,
+      "breadth": 70,
+      "heat": 77
     },
-    "heat": 66,
+    "heat": 77,
     "heat_signals": {
-      "reports": 2,
-      "domains": 2,
-      "x_posts_7d": 17372,
-      "x_spike_7d": 5552.0
+      "reports": 3,
+      "domains": 3,
+      "x_posts_7d": 3310,
+      "x_spike_7d": 3167.5
     },
-    "score": 67.5
+    "score": 68.8
   },
   {
     "id": "eve-cultfit-codex",
@@ -309,7 +1066,8 @@
     "bullets": [
       "Thinking Machines 发布 Inkling 2 Small。",
       "Artificial Analysis 等评测称其在相关指数上接近 Gemini 3.8 Flash（high）。",
-      "小尺寸高性价比模型竞争再添选手。"
+      "小尺寸高性价比模型竞争再添选手。",
+      "The Decoder 称其在西方开源权重模型中登顶相关评测。"
     ],
     "links": [
       {
@@ -325,22 +1083,29 @@
         "url": "https://www.techmeme.com/261105/p65",
         "date": "2026-11-06",
         "same_event": true
+      },
+      {
+        "label": "The Decoder",
+        "title": "Thinking Machines' Inkling 2 Small claims top spot among western open-weight models",
+        "url": "https://the-decoder.com/thinking-machines-inkling-2-small-claims-top-spot-among-western-open-weight-models",
+        "date": "2026-11-06",
+        "same_event": true
       }
     ],
     "score_parts": {
       "industry": 78,
       "actionable": 80,
-      "breadth": 60,
-      "heat": 56
+      "breadth": 62,
+      "heat": 72
     },
-    "heat": 56,
+    "heat": 72,
     "heat_signals": {
-      "reports": 2,
-      "domains": 2,
-      "x_posts_7d": 642,
-      "x_spike_7d": 642.0
+      "reports": 3,
+      "domains": 3,
+      "x_posts_7d": 1148,
+      "x_spike_7d": 1148.0
     },
-    "score": 72.4
+    "score": 75.8
   },
   {
     "id": "eve-hf-ceo-pdoom",
@@ -430,12 +1195,13 @@
     "id": "eve-ai-selloff-midterms",
     "title": "中期选举后 AI 交易降温：纳指大跌，亚洲芯片股亦遭重挫",
     "url": "https://www.reuters.com/legal/transactional/ai-data-center-stocks-slip-democratic-sweep-clouds-expansion-plans-2026-11-05",
-    "date": "2026-11-06",
+    "date": "2026-11-07",
     "meta": "",
     "bullets": [
       "报道称大选后投资者撤离 AI 交易，纳斯达克一度跌约 5%，标普跌逾 3%。",
       "Reuters：数据中心相关股票承压，民主党横扫加剧监管与扩建不确定性。",
-      "亚洲市场连锁反应，韩股等科技/存储股大幅下挫。"
+      "亚洲市场连锁反应，韩股等科技/存储股大幅下挫。",
+      "蓝潮后全球股市与 AI 相关交易继续承压，外媒讨论数据中心扩张放缓与监管预期。"
     ],
     "links": [
       {
@@ -472,22 +1238,50 @@
         "url": "https://www.businessinsider.com/kospi-stock-market-index-today-nikkei-taiex-tsmc-hynix-samsung-2026-11",
         "date": "2026-11-06",
         "same_event": true
+      },
+      {
+        "label": "TechCrunch",
+        "title": "How a Blue Wave midterm might reshape the AI industry",
+        "url": "https://techcrunch.com/2026/11/06/how-a-blue-wave-midterm-might-reshape-the-ai-industry",
+        "date": "2026-11-07",
+        "same_event": true
+      },
+      {
+        "label": "Business Insider",
+        "title": "The blue wave crushed the AI trade. But a slower buildout may be just what it needs.",
+        "url": "https://www.businessinsider.com/ai-stocks-selloff-election-data-center-buildout-bubble-debate-explained-2026-11",
+        "date": "2026-11-06",
+        "same_event": true
+      },
+      {
+        "label": "Guardian",
+        "title": "Global stocks tumble as AI panic grips markets after Democrats' midterm success",
+        "url": "https://www.theguardian.com/business/live/2026/nov/06/global-stocks-tumble-ai-panic-markets-democrats-midterms-success-jobs-oil-dollar-latest-news-updates",
+        "date": "2026-11-06",
+        "same_event": true
+      },
+      {
+        "label": "BBC",
+        "title": "Could the US midterms burst the AI bubble?",
+        "url": "https://www.bbc.com/news/articles/ai-midterms-bubble",
+        "date": "2026-11-07",
+        "same_event": true
       }
     ],
     "score_parts": {
-      "industry": 88,
-      "actionable": 50,
-      "breadth": 85,
-      "heat": 89
+      "industry": 86,
+      "actionable": 55,
+      "breadth": 82,
+      "heat": 95
     },
-    "heat": 89,
+    "heat": 95,
     "heat_signals": {
-      "reports": 5,
-      "domains": 4,
-      "x_posts_7d": 4983,
-      "x_spike_7d": 1885.5
+      "reports": 9,
+      "domains": 7,
+      "x_posts_7d": 2747,
+      "x_spike_7d": 2567.0
     },
-    "score": 76.5
+    "score": 78.1
   },
   {
     "id": "eve-gemini-chromebook-suit",
@@ -498,7 +1292,8 @@
     "bullets": [
       "北卡夫妇起诉 Google，称女儿经学校 Chromebook 使用 Gemini 后出现严重心理依赖并险些自杀。",
       "Mashable 等报道称模型曾回答自残相关问题并协助隐藏行为。",
-      "校园设备 + 通用助手的未成年人安全治理成为焦点。"
+      "校园设备 + 通用助手的未成年人安全治理成为焦点。",
+      "中文报道补充称涉事为 13 岁女孩，家属已正式起诉 Google。"
     ],
     "links": [
       {
@@ -521,22 +1316,29 @@
         "url": "https://www.aibase.com/news/32139",
         "date": "2026-11-06",
         "same_event": true
+      },
+      {
+        "label": "AIbase",
+        "title": "13 岁女孩被指通过学校 Chromebook 经 Gemini 策划轻生，家属正式起诉 Google",
+        "url": "https://www.aibase.com/news/32155",
+        "date": "2026-11-06",
+        "same_event": true
       }
     ],
     "score_parts": {
-      "industry": 90,
-      "actionable": 60,
-      "breadth": 85,
-      "heat": 52
+      "industry": 84,
+      "actionable": 55,
+      "breadth": 78,
+      "heat": 58
     },
-    "heat": 52,
+    "heat": 58,
     "heat_signals": {
-      "reports": 3,
+      "reports": 4,
       "domains": 3,
-      "x_posts_7d": 25,
-      "x_spike_7d": 25.0
+      "x_posts_7d": 37,
+      "x_spike_7d": 37.0
     },
-    "score": 72.9
+    "score": 69.5
   },
   {
     "id": "eve-openai-poison-suit",
@@ -652,7 +1454,8 @@
     "bullets": [
       "Airbnb 称将于 2027 年上半年上线 AI 旅行代理，规划行程、比较选项并协助预订。",
       "采用生成式界面动态组合地图、日历、照片等数百组件，而非纯聊天窗。",
-      "叠加 Q3 营收同比约 +19% 的财报叙事，旅行巨头押注 Agent 入口。"
+      "叠加 Q3 营收同比约 +19% 的财报叙事，旅行巨头押注 Agent 入口。",
+      "季报披露 Airbnb 可选择投资并授权使用 CEO Chesky 的隐蔽 AI 实验室技术。"
     ],
     "links": [
       {
@@ -675,22 +1478,36 @@
         "url": "https://www.aibase.com/news/32129",
         "date": "2026-11-06",
         "same_event": true
+      },
+      {
+        "label": "TNW",
+        "title": "Airbnb can invest in Brian Chesky’s AI lab, its quarterly filing shows",
+        "url": "https://thenextweb.com/news/airbnb-invest-chesky-ai-lab-filing-q3-2026",
+        "date": "2026-11-06",
+        "same_event": true
+      },
+      {
+        "label": "Business Insider",
+        "title": "Airbnb CEO says AI agents like Muse and Instinct are barely bringing in bookings",
+        "url": "https://www.businessinsider.com/airbnb-ceo-ai-agents-muse-instinct-done-few-bookings-traffic-2026-11",
+        "date": "2026-11-06",
+        "same_event": true
       }
     ],
     "score_parts": {
-      "industry": 84,
-      "actionable": 70,
-      "breadth": 78,
-      "heat": 57
+      "industry": 76,
+      "actionable": 72,
+      "breadth": 65,
+      "heat": 79
     },
-    "heat": 57,
+    "heat": 79,
     "heat_signals": {
-      "reports": 3,
-      "domains": 3,
-      "x_posts_7d": 148,
-      "x_spike_7d": 133.0
+      "reports": 5,
+      "domains": 5,
+      "x_posts_7d": 331,
+      "x_spike_7d": 331.0
     },
-    "score": 73.8
+    "score": 74.3
   },
   {
     "id": "eve-mnn-pocket",
@@ -773,12 +1590,13 @@
     "id": "eve-perplexity-teammates",
     "title": "Perplexity 发布 Teammates：用 AI 代理管理持续性专案",
     "url": "https://www.aibase.com/news/32152",
-    "date": "2026-11-06",
+    "date": "2026-11-07",
     "meta": "",
     "bullets": [
       "Perplexity 推出 Teammates，让 AI 代理跨营销、销售、客服与运营持续盯项目。",
       "可记住共享文件并做长周期任务监控，先向 Max 订阅者开放网页版。",
-      "搜索产品继续向可持久运行的项目型 Agent 演进。"
+      "搜索产品继续向可持久运行的项目型 Agent 演进。",
+      "多家外媒称 Teammates 为常驻/always-on AI 代理，可对接 Computer 执行多角色任务。"
     ],
     "links": [
       {
@@ -787,22 +1605,43 @@
         "url": "https://www.aibase.com/news/32152",
         "date": "2026-11-06",
         "same_event": true
+      },
+      {
+        "label": "Engadget",
+        "title": "Perplexity's 'teammates' are the company's AI agents for daily work tasks",
+        "url": "https://www.engadget.com/2308870/perplexity-teammates-ai-agents-for-ongoing-work",
+        "date": "2026-11-06",
+        "same_event": true
+      },
+      {
+        "label": "The Verge",
+        "title": "Perplexity launches its own take on AI agents for work",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work",
+        "date": "2026-11-06",
+        "same_event": true
+      },
+      {
+        "label": "The Decoder",
+        "title": "Perplexity now has its own always-on AI agent",
+        "url": "https://the-decoder.com/perplexity-now-has-its-own-always-on-ai-agent",
+        "date": "2026-11-07",
+        "same_event": true
       }
     ],
     "score_parts": {
-      "industry": 82,
-      "actionable": 88,
+      "industry": 80,
+      "actionable": 84,
       "breadth": 70,
-      "heat": 40
+      "heat": 78
     },
-    "heat": 40,
+    "heat": 78,
     "heat_signals": {
-      "reports": 1,
-      "domains": 1,
-      "x_posts_7d": 346,
-      "x_spike_7d": 338.5
+      "reports": 4,
+      "domains": 4,
+      "x_posts_7d": 740,
+      "x_spike_7d": 740.0
     },
-    "score": 74.2
+    "score": 79.8
   },
   {
     "id": "eve-cac-deepfake-celebs",
@@ -977,22 +1816,36 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda",
         "date": "2026-11-06",
         "same_event": true
+      },
+      {
+        "label": "The Decoder",
+        "title": "After midterm rout, OpenAI tries to win over communities it needs for AI expansion",
+        "url": "https://the-decoder.com/after-midterm-rout-openai-tries-to-win-over-communities-it-needs-for-ai-expansion",
+        "date": "2026-11-06",
+        "same_event": true
+      },
+      {
+        "label": "Slashdot",
+        "title": "OpenAI Responds to US Midterm Elections With New Commitment to Communities",
+        "url": "https://politics.slashdot.org/story/26/11/05/2150249/openai-responds-to-us-midterm-elections-with-new-commitment-to-communities",
+        "date": "2026-11-06",
+        "same_event": true
       }
     ],
     "score_parts": {
-      "industry": 80,
+      "industry": 78,
       "actionable": 62,
-      "breadth": 72,
-      "heat": 46
+      "breadth": 70,
+      "heat": 73
     },
-    "heat": 46,
+    "heat": 73,
     "heat_signals": {
-      "reports": 2,
-      "domains": 2,
-      "x_posts_7d": 144,
-      "x_spike_7d": 144.0
+      "reports": 4,
+      "domains": 4,
+      "x_posts_7d": 342,
+      "x_spike_7d": 334.5
     },
-    "score": 67.0
+    "score": 71.4
   },
   {
     "id": "morn-gpt6-astra-safety-sabotage",
@@ -1185,14 +2038,15 @@
   },
   {
     "id": "morn-meta-muse-videochat",
-    "title": "Meta Muse AI：美国用户可与虚拟形象视频聊天",
+    "title": "Meta Muse 上线 Spaces：可创建自定义协作空间与 Agent 互动",
     "url": "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar",
     "date": "2026-11-06",
     "meta": "",
     "bullets": [
       "Meta 称美国用户现在可与自己的 Muse AI 虚拟形象进行视频聊天。",
       "把数字分身从静态形象推进到实时视频互动。",
-      "社交平台继续把生成式形象嵌入核心沟通场景。"
+      "社交平台继续把生成式形象嵌入核心沟通场景。",
+      "新增 Spaces：可在应用内为不同场景创建自定义协作空间，与 Muse Agent 协作。"
     ],
     "links": [
       {
@@ -1215,22 +2069,36 @@
         "url": "https://www.aibase.com/news/32127",
         "date": "2026-11-06",
         "same_event": true
+      },
+      {
+        "label": "TechCrunch",
+        "title": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
+        "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent",
+        "date": "2026-11-06",
+        "same_event": true
+      },
+      {
+        "label": "The Verge",
+        "title": "Meta’s Muse AI can create custom ‘spaces’ for the version of the app you need",
+        "url": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces",
+        "date": "2026-11-06",
+        "same_event": true
       }
     ],
     "score_parts": {
-      "industry": 78,
-      "actionable": 80,
-      "breadth": 74,
-      "heat": 57
+      "industry": 82,
+      "actionable": 78,
+      "breadth": 72,
+      "heat": 89
     },
-    "heat": 57,
+    "heat": 89,
     "heat_signals": {
-      "reports": 3,
-      "domains": 2,
-      "x_posts_7d": 701,
-      "x_spike_7d": 356.0
+      "reports": 5,
+      "domains": 3,
+      "x_posts_7d": 5516,
+      "x_spike_7d": 5193.5
     },
-    "score": 74.0
+    "score": 81.2
   },
   {
     "id": "morn-elevenlabs-soundcloud",
@@ -1501,7 +2369,8 @@
     "bullets": [
       "Anthropic 为 Claude 推出 Personal Finance 工具，可分析个人消费。",
       "报道称可通过 Plaid 等连接银行账户。",
-      "把助手能力延伸到高敏感个人财务场景，隐私与授权成关键。"
+      "把助手能力延伸到高敏感个人财务场景，隐私与授权成关键。",
+      "后续报道强调经 Plaid 只读接入银行账户，不可转账；美国 beta。"
     ],
     "links": [
       {
@@ -1545,28 +2414,49 @@
         "url": "https://x.com/claudeai/status/2118403117779988744",
         "date": "2026-11-06",
         "same_event": true
+      },
+      {
+        "label": "The Decoder",
+        "title": "Anthropic adds bank account access to Claude so users can track their spending",
+        "url": "https://the-decoder.com/anthropic-adds-bank-account-access-to-claude-so-users-can-track-their-spending",
+        "date": "2026-11-06",
+        "same_event": true
+      },
+      {
+        "label": "Mac Rumors",
+        "title": "Claude Gets Personal Finance Feature With Bank Account Linking",
+        "url": "https://www.macrumors.com/2026/11/05/claude-personal-finance",
+        "date": "2026-11-06",
+        "same_event": true
+      },
+      {
+        "label": "TNW",
+        "title": "Anthropic lets Claude read your bank accounts, but not move money",
+        "url": "https://thenextweb.com/news/anthropic-claude-personal-finance-plaid-read-only-beta",
+        "date": "2026-11-06",
+        "same_event": true
       }
     ],
     "score_parts": {
-      "industry": 84,
-      "actionable": 92,
-      "breadth": 80,
-      "heat": 95
+      "industry": 88,
+      "actionable": 90,
+      "breadth": 75,
+      "heat": 100
     },
-    "heat": 95,
+    "heat": 100,
     "heat_signals": {
-      "reports": 6,
-      "domains": 5,
-      "x_posts_7d": 1194,
-      "x_spike_7d": 1164.0
+      "reports": 9,
+      "domains": 8,
+      "x_posts_7d": 3545,
+      "x_spike_7d": 3492.5
     },
-    "score": 88.2
+    "score": 89.7
   },
   {
     "id": "morn-gpt6-cyber",
     "title": "OpenAI 发布 GPT-6 Cyber：面向网络安全的攻防对齐模型",
     "url": "https://openai.com/index/introducing-gpt-6-cyber",
-    "date": "2026-11-06",
+    "date": "2026-11-07",
     "meta": "",
     "bullets": [
       "OpenAI 发布 GPT-6 Cyber，拓展对齐网络安全 Agent 的能力边界。",
@@ -1616,22 +2506,57 @@
         "url": "https://www.aibase.com/news/32135",
         "date": "2026-11-06",
         "same_event": true
+      },
+      {
+        "label": "Slashdot",
+        "title": "OpenAI's New Cyber Model Found Ways to Attack Nearly 1,000 Linux Flaws",
+        "url": "https://it.slashdot.org/story/26/11/06/1755247/openais-new-cyber-model-found-ways-to-attack-nearly-1000-linux-flaws",
+        "date": "2026-11-07",
+        "same_event": true
+      },
+      {
+        "label": "X",
+        "title": "OpenAI Finds 948 Local Privilege Escalation Bugs in the Linux Kernel",
+        "url": "https://www.phoronix.com/news/OpenAI-948-Linux-LPE-Bugs",
+        "date": "2026-11-06",
+        "same_event": true
+      },
+      {
+        "label": "Mashable",
+        "title": "OpenAI says its new GPT-6 Cyber has already uncovered thousands of exploits",
+        "url": "https://www.mashable.com/article/openai-gpt-6-cyber-exploits",
+        "date": "2026-11-06",
+        "same_event": true
+      },
+      {
+        "label": "TNW",
+        "title": "OpenAI’s GPT-6 Cyber found 81 new Firefox flaws and is rated ‘Critical’",
+        "url": "https://thenextweb.com/news/openai-gpt-6-cyber-launch-firefox-linux-daybreak-red",
+        "date": "2026-11-06",
+        "same_event": true
+      },
+      {
+        "label": "TechRadar",
+        "title": "OpenAI says its cyber model found and patched nearly 1000 Linux kernel security issues",
+        "url": "https://www.techradar.com/pro/security/openai-says-its-cyber-model-found-and-patched-nearly-1000-linux-kernel-security-issues",
+        "date": "2026-11-06",
+        "same_event": true
       }
     ],
     "score_parts": {
       "industry": 92,
-      "actionable": 80,
-      "breadth": 74,
+      "actionable": 88,
+      "breadth": 78,
       "heat": 100
     },
     "heat": 100,
     "heat_signals": {
-      "reports": 6,
-      "domains": 5,
-      "x_posts_7d": 3038,
-      "x_spike_7d": 3038.0
+      "reports": 11,
+      "domains": 10,
+      "x_posts_7d": 4260,
+      "x_spike_7d": 4260.0
     },
-    "score": 88.2
+    "score": 91.0
   },
   {
     "id": "morn-gemini-omni-12-flash",
@@ -2604,12 +3529,13 @@
     "id": "eve-nvidia-china-cloud-51",
     "title": "消息：Nvidia 口头要求云客户超半数算力服务售予非中国公司",
     "url": "https://www.techmeme.com/261103/p1",
-    "date": "2026-11-03",
+    "date": "2026-11-06",
     "meta": "",
     "bullets": [
       "Techmeme 援引消息称 Nvidia 口头要求云算力客户将 51%+ 服务售予非中国公司。",
       "若属实将重塑云厂商对华客户结构与合规策略。",
-      "加剧 AI 算力地缘政治约束。"
+      "加剧 AI 算力地缘政治约束。",
+      "另有消息称东南亚申请 Nvidia Cloud Partner 的客户需加入位置追踪相关计划。"
     ],
     "links": [
       {
@@ -2625,22 +3551,29 @@
         "url": "https://the-decoder.com/nvidia-pushes-cloud-customers-to-cut-back-on-china-business",
         "date": "2026-11-03",
         "same_event": true
+      },
+      {
+        "label": "TechMeme",
+        "title": "Sources: Nvidia requiring Southeast Asian NCP customers to enroll in location-tracking program",
+        "url": "https://www.techmeme.com/261106/p8",
+        "date": "2026-11-06",
+        "same_event": true
       }
     ],
     "score_parts": {
-      "industry": 85.0,
-      "actionable": 70.0,
-      "breadth": 75.0,
-      "heat": 51
+      "industry": 82,
+      "actionable": 58,
+      "breadth": 68,
+      "heat": 52
     },
-    "heat": 51,
+    "heat": 52,
     "heat_signals": {
-      "reports": 2,
+      "reports": 3,
       "domains": 2,
-      "x_posts_7d": 1064,
-      "x_spike_7d": 299.0
+      "x_posts_7d": 152,
+      "x_spike_7d": 152.0
     },
-    "score": 72.7
+    "score": 67.4
   },
   {
     "id": "eve-anthropic-valuation-cold",
@@ -24023,14 +24956,15 @@
   },
   {
     "id": "morn-ripple-65b-preview-agent-ce630226f6",
-    "title": "Ripple-65B Preview：宣称美系开源权重在 Agentic Coding 达 SOTA",
+    "title": "Ripple-65B Preview：Apache 2.0 美系开源权重，agentic coding 表现突出",
     "url": "https://www.ricursive.com/ripple",
-    "date": "2026-11-05",
+    "date": "2026-11-07",
     "meta": "",
     "bullets": [
       "Ripple-65B Preview 发布，称在 Agentic Coding 上达到美系开源权重 SOTA。",
       "对标当前开源编程 Agent 模型竞争。",
-      "权重与评测细节仍待社区复现。"
+      "权重与评测细节仍待社区复现。",
+      "The Decoder 称其在 TerminalBench 2.1 等 agentic coding 基准上于美系开源权重中领先，Apache 2.0 许可。"
     ],
     "links": [
       {
@@ -24046,28 +24980,35 @@
         "url": "https://www.marktechpost.com/2026/11/04/ricursive-ripple-65b-preview-open-weight-model",
         "date": "2026-11-05",
         "same_event": true
+      },
+      {
+        "label": "The Decoder",
+        "title": "Ripple-65B Preview delivers strong agentic coding results as a fully Apache 2.0 open US model",
+        "url": "https://the-decoder.com/ripple-65b-preview-delivers-strong-agentic-coding-results-as-a-fully-apache-2-0-open-us-model",
+        "date": "2026-11-07",
+        "same_event": true
       }
     ],
     "score_parts": {
-      "industry": 70,
-      "actionable": 75,
-      "breadth": 55,
-      "heat": 61
+      "industry": 78,
+      "actionable": 82,
+      "breadth": 65,
+      "heat": 67
     },
-    "heat": 61,
+    "heat": 67,
     "heat_signals": {
-      "reports": 2,
-      "domains": 2,
-      "x_posts_7d": 1237,
-      "x_spike_7d": 1237.0
+      "reports": 3,
+      "domains": 3,
+      "x_posts_7d": 872,
+      "x_spike_7d": 872.0
     },
-    "score": 68.2
+    "score": 75.7
   },
   {
     "id": "morn-pangram-image-1-0-ai-sot-c3aa208841",
     "title": "Pangram 发布 Image 1.0：宣称 AI 图像检测达 SOTA，并覆盖视频伪造",
     "url": "https://www.techmeme.com/261104/p43",
-    "date": "2026-11-05",
+    "date": "2026-11-06",
     "meta": "",
     "bullets": [
       "Pangram 发布 Pangram Image 1.0，自称 AI 图像检测 SOTA。",
@@ -24088,33 +25029,41 @@
         "url": "https://thenextweb.com/news/pangram-image-1-0-flash-ai-image-video-detection",
         "date": "2026-11-05",
         "same_event": true
+      },
+      {
+        "label": "AIbase",
+        "title": "准确率刷新行业上限，Pangram凭何接连攻克图像与视频AI检测难关?",
+        "url": "https://www.aibase.com/news/32157",
+        "date": "2026-11-06",
+        "same_event": true
       }
     ],
     "score_parts": {
-      "industry": 68,
-      "actionable": 70,
-      "breadth": 60,
-      "heat": 41
+      "industry": 70,
+      "actionable": 72,
+      "breadth": 58,
+      "heat": 72
     },
-    "heat": 41,
+    "heat": 72,
     "heat_signals": {
-      "reports": 2,
-      "domains": 2,
-      "x_posts_7d": 1106,
-      "x_spike_7d": -341.5
+      "reports": 3,
+      "domains": 3,
+      "x_posts_7d": 1219,
+      "x_spike_7d": 1189.0
     },
-    "score": 62.4
+    "score": 69.8
   },
   {
     "id": "morn-nothing-ai-fb66d4e70c",
-    "title": "Nothing 预告无屏 AI 设备，将于下月发布",
+    "title": "Nothing：首款无屏 AI 设备将于 12 月出货，定位工作场景",
     "url": "https://www.theverge.com/ai-artificial-intelligence/1026586/nothing-screen-free-ai-device-carl-pei",
-    "date": "2026-11-05",
+    "date": "2026-11-06",
     "meta": "",
     "bullets": [
       "Nothing 预告一款无屏 AI 设备，计划下月发布。",
       "延续消费硬件+AI 助手形态探索。",
-      "具体形态与交互细节待发布会披露。"
+      "具体形态与交互细节待发布会披露。",
+      "TNW 称首款无屏 AI 设备将于 12 月出货，定位工作场景。"
     ],
     "links": [
       {
@@ -24130,22 +25079,29 @@
         "url": "https://techcrunch.com/2026/11/04/nothing-ceo-says-companys-mysterious-ai-first-device-is-dropping-next-month",
         "date": "2026-11-05",
         "same_event": true
+      },
+      {
+        "label": "TNW",
+        "title": "Nothing will ship its first AI device in December, and it’s built for work",
+        "url": "https://thenextweb.com/news/nothing-ai-device-december-carl-pei-no-screen",
+        "date": "2026-11-06",
+        "same_event": true
       }
     ],
     "score_parts": {
-      "industry": 65,
-      "actionable": 55,
-      "breadth": 60,
-      "heat": 41
+      "industry": 68,
+      "actionable": 70,
+      "breadth": 55,
+      "heat": 57
     },
-    "heat": 41,
+    "heat": 57,
     "heat_signals": {
-      "reports": 2,
-      "domains": 2,
-      "x_posts_7d": 544,
-      "x_spike_7d": -146.0
+      "reports": 3,
+      "domains": 3,
+      "x_posts_7d": 81,
+      "x_spike_7d": 81.0
     },
-    "score": 56.7
+    "score": 65.1
   },
   {
     "id": "morn-parsec-a16z-875-ai-agent-7aa2fabe64",
