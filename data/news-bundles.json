@@ -1,5 +1,432 @@
 [
   {
+    "id": "eve-openai-sip-outbound",
+    "title": "OpenAI：外呼 SIP 通话向所有组织开放",
+    "url": "https://developers.openai.com/api/docs/guides/voice-sip",
+    "date": "2026-11-07",
+    "meta": "",
+    "bullets": [
+      "Outbound SIP calling 现向所有组织开放，可经 Twilio 等 SIP trunk 接入。",
+      "信令要求 TLS、音频要求 SRTP，并通过 webhook 接受/拒绝来电。",
+      "语音 Agent 产品化再进一步。"
+    ],
+    "links": [
+      {
+        "label": "OpenAI",
+        "title": "Outbound SIP calling is now available to all organizations",
+        "url": "https://developers.openai.com/api/docs/guides/voice-sip",
+        "date": "2026-11-07",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 78,
+      "actionable": 86,
+      "breadth": 65,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 34,
+      "x_spike_7d": 34.0
+    },
+    "score": 69.5
+  },
+  {
+    "id": "eve-anthropic-agent-memory",
+    "title": "Anthropic 研究：Agent 记忆的组成部分",
+    "url": "https://www.anthropic.com/research/components-of-agent-memory",
+    "date": "2026-11-07",
+    "meta": "",
+    "bullets": [
+      "Anthropic 发布关于 Agent 记忆组件构成的研究文章。",
+      "讨论如何组织、检索与更新智能体长期上下文。",
+      "对构建可靠多步 Agent 有参考价值。"
+    ],
+    "links": [
+      {
+        "label": "Anthropic",
+        "title": "The Components of Agent Memory",
+        "url": "https://www.anthropic.com/research/components-of-agent-memory",
+        "date": "2026-11-07",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 76,
+      "actionable": 80,
+      "breadth": 64,
+      "heat": 40
+    },
+    "heat": 40,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 212,
+      "x_spike_7d": 204.5
+    },
+    "score": 68.8
+  },
+  {
+    "id": "eve-github-agentic-guide",
+    "title": "GitHub：超越代码生成的开发者智能体工程指南",
+    "url": "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering",
+    "date": "2026-11-07",
+    "meta": "",
+    "bullets": [
+      "官方博文讲解用 Copilot 覆盖 Plan→Build→Review 等智能体工程环节。",
+      "援引平台提交量激增与高 AI 采用团队审查时长上升等数据。",
+      "面向工程团队落地 agentic workflow 的实践指南。"
+    ],
+    "links": [
+      {
+        "label": "GitHub",
+        "title": "Beyond code generation: A developer’s guide to agentic engineering",
+        "url": "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering",
+        "date": "2026-11-07",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 70,
+      "actionable": 84,
+      "breadth": 66,
+      "heat": 60
+    },
+    "heat": 60,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 63853,
+      "x_spike_7d": 26300.5
+    },
+    "score": 71.8
+  },
+  {
+    "id": "eve-copilot-slack-teams-ga",
+    "title": "GitHub Copilot 在 Slack 与 Teams 正式可用",
+    "url": "https://github.blog/changelog/2026-11-06-github-copilot-in-slack-and-teams-is-generally-available",
+    "date": "2026-11-07",
+    "meta": "",
+    "bullets": [
+      "@GitHub / Copilot 在 Slack 与 Microsoft Teams 进入正式可用。",
+      "聊天协作场景可直接唤起代码助手。",
+      "补齐 IDE 之外的工作流入口。"
+    ],
+    "links": [
+      {
+        "label": "GitHub",
+        "title": "@GitHub in Slack and Teams is generally available and more",
+        "url": "https://github.blog/changelog/2026-11-06-github-copilot-in-slack-and-teams-is-generally-available",
+        "date": "2026-11-07",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 74,
+      "actionable": 86,
+      "breadth": 68,
+      "heat": 35
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 250,
+      "x_spike_7d": 122.5
+    },
+    "score": 69.2
+  },
+  {
+    "id": "eve-copilot-impact-agents",
+    "title": "Copilot 影响仪表盘纳入 Chat 与 VS Code Agent 用量",
+    "url": "https://github.blog/changelog/2026-11-06-copilot-impact-dashboard-adds-chat-and-vs-code-agent-usage",
+    "date": "2026-11-07",
+    "meta": "",
+    "bullets": [
+      "Agent adoption 图表现纳入 Copilot Chat 与 VS Code Agents 窗口。",
+      "覆盖更多 Copilot 使用入口，便于评估 Agent 采纳。",
+      "与企业度量 AI 编程投入相关。"
+    ],
+    "links": [
+      {
+        "label": "GitHub",
+        "title": "Copilot impact dashboard adds chat and VS Code agent usage",
+        "url": "https://github.blog/changelog/2026-11-06-copilot-impact-dashboard-adds-chat-and-vs-code-agent-usage",
+        "date": "2026-11-07",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 68,
+      "actionable": 82,
+      "breadth": 60,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 19,
+      "x_spike_7d": 19.0
+    },
+    "score": 63.8
+  },
+  {
+    "id": "eve-copilot-review-api",
+    "title": "GitHub Copilot 代码审查：API 管理与审查概览更新",
+    "url": "https://github.blog/changelog/2026-11-06-copilot-code-review-api-management-and-review-overview-updates",
+    "date": "2026-11-07",
+    "meta": "",
+    "bullets": [
+      "Copilot code review 设置可用 REST/GraphQL API 从企业策略管到仓库。",
+      "review overview 更紧凑，并修复计费与自动评审相关问题。",
+      "面向大规模启用代码审查的企业治理能力。"
+    ],
+    "links": [
+      {
+        "label": "GitHub",
+        "title": "Copilot code review: API management and review overview updates",
+        "url": "https://github.blog/changelog/2026-11-06-copilot-code-review-api-management-and-review-overview-updates",
+        "date": "2026-11-07",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 72,
+      "actionable": 88,
+      "breadth": 65,
+      "heat": 35
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 106,
+      "x_spike_7d": 83.5
+    },
+    "score": 68.7
+  },
+  {
+    "id": "eve-altman-samsung-ram",
+    "title": "Altman 接触三星寻求更多 RAM：AI 算力/内存瓶颈升温",
+    "url": "https://www.techradar.com/pro/openai-ceo-sam-altman-chats-up-samsung-to-try-and-secure-more-ram-as-concerns-grow-over-ai-capacity",
+    "date": "2026-11-07",
+    "meta": "",
+    "bullets": [
+      "报道称 Sam Altman 与三星洽谈，希望锁定更多内存供应。",
+      "背景是市场对 AI 算力与关键器件产能紧张的担忧上升。",
+      "目前称双方尚未达成正式协议。"
+    ],
+    "links": [
+      {
+        "label": "TechRadar",
+        "title": "OpenAI CEO Sam Altman chats up Samsung to try and secure more RAM",
+        "url": "https://www.techradar.com/pro/openai-ceo-sam-altman-chats-up-samsung-to-try-and-secure-more-ram-as-concerns-grow-over-ai-capacity",
+        "date": "2026-11-07",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 80,
+      "actionable": 52,
+      "breadth": 72,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 260,
+      "x_spike_7d": -190.0
+    },
+    "score": 60.8
+  },
+  {
+    "id": "eve-xai-jet-engines",
+    "title": "xAI 为数据中心装 8 台改装喷气发动机应急供电",
+    "url": "https://www.techradar.com/pro/data-center-providers-are-turning-to-old-jet-engines-to-power-their-output-elon-musks-xai-installs-eight-converted-engines-for-a-major-boost",
+    "date": "2026-11-07",
+    "meta": "",
+    "bullets": [
+      "报道称 xAI 安装 8 台改装旧喷气发动机，为 AI 数据中心快速补电。",
+      "行业亦有数据中心运营商转向类似临时发电方案。",
+      "分析指虽能救急，但噪声、排放与可持续性存疑。"
+    ],
+    "links": [
+      {
+        "label": "TechRadar",
+        "title": "Data center providers turning to old jet engines; xAI installs eight converted engines",
+        "url": "https://www.techradar.com/pro/data-center-providers-are-turning-to-old-jet-engines-to-power-their-output-elon-musks-xai-installs-eight-converted-engines-for-a-major-boost",
+        "date": "2026-11-07",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 78,
+      "actionable": 48,
+      "breadth": 70,
+      "heat": 35
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 232,
+      "x_spike_7d": 134.5
+    },
+    "score": 59.6
+  },
+  {
+    "id": "eve-axon-skydio",
+    "title": "Axon 约 12 亿美元投资 Skydio：自动驾驶无人机估值约 52 亿",
+    "url": "https://www.techmeme.com/261107/p2",
+    "date": "2026-11-07",
+    "meta": "",
+    "bullets": [
+      "Axon 据报以约 12 亿美元投资 Skydio，投前估值约 52 亿美元。",
+      "Skydio 自动驾驶无人机服务于公共安全、美军及多国盟友。",
+      "具身/自主系统与公共安全 AI 资本继续升温。"
+    ],
+    "links": [
+      {
+        "label": "TechMeme",
+        "title": "Axon invests $1.2B in Skydio at $5.2B pre-money valuation",
+        "url": "https://www.techmeme.com/261107/p2",
+        "date": "2026-11-07",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 80,
+      "actionable": 55,
+      "breadth": 68,
+      "heat": 35
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 166,
+      "x_spike_7d": 166.0
+    },
+    "score": 62.3
+  },
+  {
+    "id": "eve-flux3-klein-blackwell",
+    "title": "NVIDIA：在 Blackwell 上用 FLUX 3 Image Klein 加速图像生成",
+    "url": "https://developer.nvidia.com/blog/speed-up-image-generation-with-flux-3-image-klein-on-nvidia-blackwell-gpus",
+    "date": "2026-11-07",
+    "meta": "",
+    "bullets": [
+      "NVIDIA 介绍在 TensorRT-LLM VisualGen 中部署 FLUX 3 Image Klein。",
+      "称单卡 B200 上较未编译 BF16 可达约 3.5× T2I、约 4.5× I2I 加速。",
+      "面向生成式图像推理的工程优化路径。"
+    ],
+    "links": [
+      {
+        "label": "NVIDIA",
+        "title": "Speed Up Image Generation with FLUX 3 Image Klein on NVIDIA Blackwell GPUs",
+        "url": "https://developer.nvidia.com/blog/speed-up-image-generation-with-flux-3-image-klein-on-nvidia-blackwell-gpus",
+        "date": "2026-11-07",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 78,
+      "actionable": 85,
+      "breadth": 62,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 33,
+      "x_spike_7d": 10.5
+    },
+    "score": 68.9
+  },
+  {
+    "id": "eve-chatgpt-connector-leak",
+    "title": "ChatGPT 连接器被指跨 OAuth 静默传数据，赏金流程引争议",
+    "url": "https://community.openai.com/t/security-follow-up-tool-call-silently-routed-to-a-different-connector/1413053",
+    "date": "2026-11-07",
+    "meta": "",
+    "bullets": [
+      "社区实测称双 connector 会话中，一次性码经另一 connector 静默发起调用。",
+      "暴露跨 OAuth 连接器的数据传递与用户知情风险。",
+      "相关赏金提交流程要求身份验证，引发匿名性讨论。"
+    ],
+    "links": [
+      {
+        "label": "OpenAI",
+        "title": "Security follow-up: tool call silently routed to a different connector",
+        "url": "https://community.openai.com/t/security-follow-up-tool-call-silently-routed-to-a-different-connector/1413053",
+        "date": "2026-11-07",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 84,
+      "actionable": 78,
+      "breadth": 70,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 51,
+      "x_spike_7d": 43.5
+    },
+    "score": 70.0
+  },
+  {
+    "id": "eve-crusoe-google-wy",
+    "title": "Google 收购 Crusoe 怀俄明数据中心场地",
+    "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google",
+    "date": "2026-11-07",
+    "meta": "",
+    "bullets": [
+      "Crusoe 将陷入困境的怀俄明数据中心项目出售/移交场地给 Google。",
+      "官方称已完成选址、审批及与 Tallgrass 的混合供电策略。",
+      "凸显大型 AI 数据中心开发与电力配套的现实压力。"
+    ],
+    "links": [
+      {
+        "label": "TechCrunch",
+        "title": "Crusoe sells troubled Wyoming data center project to Google",
+        "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google",
+        "date": "2026-11-07",
+        "same_event": true
+      },
+      {
+        "label": "Crusoe",
+        "title": "Crusoe Wyoming data center campus update",
+        "url": "https://www.crusoe.ai/resources/newsroom/crusoe-wyoming-data-center-campus-update",
+        "date": "2026-11-07",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 86,
+      "actionable": 60,
+      "breadth": 72,
+      "heat": 46
+    },
+    "heat": 46,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 176,
+      "x_spike_7d": 176.0
+    },
+    "score": 68.8
+  },
+  {
     "id": "morn-cisa-dems",
     "title": "展望：民主党多数或推动重建 CISA 并加码 AI 安全",
     "url": "https://www.techmeme.com/261106/p11",
@@ -519,7 +946,8 @@
     "bullets": [
       "物理 AI 初创 PSI 称，运行非公开 Anthropic 模型的系统证明了 2008 年以来的 Aaronson-Ambainis 猜想。",
       "该猜想关涉量子计算查询复杂度，属基础理论突破叙事。",
-      "细节与独立验证仍待更多技术披露。"
+      "细节与独立验证仍待更多技术披露。",
+      "Business Insider：PSI 称借助未发布 Anthropic 模型，三天内推进自 2008 年悬而未决的 Aaronson-Ambainis 猜想。"
     ],
     "links": [
       {
@@ -528,22 +956,29 @@
         "url": "https://www.techmeme.com/261106/p20",
         "date": "2026-11-07",
         "same_event": true
+      },
+      {
+        "label": "Business Insider",
+        "title": "An unreleased Anthropic model just helped solve a major quantum-computing question",
+        "url": "https://www.businessinsider.com/anthropic-quantum-computing-breakthrough-aaronson-ambainis-math-physics-psi-2026-11",
+        "date": "2026-11-07",
+        "same_event": true
       }
     ],
     "score_parts": {
-      "industry": 85,
-      "actionable": 55,
-      "breadth": 72,
-      "heat": 35
+      "industry": 80,
+      "actionable": 62,
+      "breadth": 68,
+      "heat": 51
     },
-    "heat": 35,
+    "heat": 51,
     "heat_signals": {
-      "reports": 1,
-      "domains": 1,
-      "x_posts_7d": 116,
-      "x_spike_7d": 116.0
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 302,
+      "x_spike_7d": 302.0
     },
-    "score": 64.7
+    "score": 67.6
   },
   {
     "id": "morn-artex-exposed",
@@ -554,7 +989,8 @@
     "bullets": [
       "安全研究人员发现数百台托管 Artex 渗透测试工具的服务器对公网开放。",
       "任何人可访问这些 AI 辅助攻击工具实例，放大滥用风险。",
-      "与此前 ARTEX 被用于针对 IT/软件厂商的攻击报道形成延续。"
+      "与此前 ARTEX 被用于针对 IT/软件厂商的攻击报道形成延续。",
+      "Censys 称发现 800+ 台公网暴露的 ARTEX（中国产开源 AI 渗透工具）实例。"
     ],
     "links": [
       {
@@ -563,22 +999,29 @@
         "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web",
         "date": "2026-11-07",
         "same_event": true
+      },
+      {
+        "label": "TechMeme",
+        "title": "Censys finds 800+ publicly exposed copies of ARTEX AI penetration-testing tool",
+        "url": "https://www.techmeme.com/261107/p5",
+        "date": "2026-11-07",
+        "same_event": true
       }
     ],
     "score_parts": {
       "industry": 82,
       "actionable": 78,
-      "breadth": 70,
-      "heat": 50
+      "breadth": 72,
+      "heat": 56
     },
-    "heat": 50,
+    "heat": 56,
     "heat_signals": {
-      "reports": 1,
-      "domains": 1,
-      "x_posts_7d": 1097,
-      "x_spike_7d": 1014.5
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 1175,
+      "x_spike_7d": 650.0
     },
-    "score": 73.2
+    "score": 74.6
   },
   {
     "id": "morn-wired-cn-hack",
@@ -619,12 +1062,13 @@
     "id": "morn-huang-congress",
     "title": "消息：Nvidia CEO 黄仁勋应国会要求就中国间谍担忧闭门说明",
     "url": "https://www.nytimes.com/2026/11/05/technology/house-republicans-nvidia-jensen-huang-china.html",
-    "date": "2026-11-06",
+    "date": "2026-11-07",
     "meta": "",
     "bullets": [
       "纽约时报等报道众议院共和党领袖要求黄仁勋参加闭门简报。",
       "焦点涉及中国间谍活动与英伟达芯片/供应链安全关切。",
-      "Slashdot 等转述称其已被国会「传召」相关讨论。"
+      "Slashdot 等转述称其已被国会「传召」相关讨论。",
+      "The Verge 援引报道称中国情报机构曾招募 AI 高管监视黄仁勋，众议院多委员会要求闭门简报。"
     ],
     "links": [
       {
@@ -647,22 +1091,29 @@
         "url": "https://arstechnica.com/tech-policy/2026/11/nvidia-ceo-jensen-huang-summoned-by-congress-over-chinese-espionage-concerns/",
         "date": "2026-11-06",
         "same_event": true
+      },
+      {
+        "label": "The Verge",
+        "title": "China reportedly recruited AI exec to spy on Jensen Huang",
+        "url": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
+        "date": "2026-11-07",
+        "same_event": true
       }
     ],
     "score_parts": {
-      "industry": 86,
+      "industry": 84,
       "actionable": 48,
-      "breadth": 78,
-      "heat": 67
+      "breadth": 75,
+      "heat": 78
     },
-    "heat": 67,
+    "heat": 78,
     "heat_signals": {
-      "reports": 3,
-      "domains": 3,
-      "x_posts_7d": 606,
-      "x_spike_7d": 508.5
+      "reports": 4,
+      "domains": 4,
+      "x_posts_7d": 1050,
+      "x_spike_7d": 517.5
     },
-    "score": 70.0
+    "score": 71.1
   },
   {
     "id": "morn-msft-oracle-ai",
@@ -699,19 +1150,19 @@
       }
     ],
     "score_parts": {
-      "industry": 88,
-      "actionable": 62,
-      "breadth": 75,
-      "heat": 72
+      "industry": 82,
+      "actionable": 58,
+      "breadth": 70,
+      "heat": 62
     },
-    "heat": 72,
+    "heat": 62,
     "heat_signals": {
       "reports": 3,
       "domains": 3,
-      "x_posts_7d": 2063,
-      "x_spike_7d": 1995.5
+      "x_posts_7d": 511,
+      "x_spike_7d": 488.5
     },
-    "score": 75.7
+    "score": 69.6
   },
   {
     "id": "morn-openai-hacktron",
@@ -781,22 +1232,36 @@
         "url": "https://the-decoder.com/anthropics-1-5-trillion-ipo-hits-resistance-as-investors-balk-at-valuation",
         "date": "2026-11-06",
         "same_event": true
+      },
+      {
+        "label": "Bloomberg",
+        "title": "Anthropic IPO buyers see valuation as low as $1.1 trillion",
+        "url": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
+        "date": "2026-11-07",
+        "same_event": true
+      },
+      {
+        "label": "TechMeme",
+        "title": "Sources: Anthropic still plans Thanksgiving listing, $80B–$100B raise at $1.25T–$1.75T",
+        "url": "https://www.techmeme.com/261106/p21",
+        "date": "2026-11-07",
+        "same_event": true
       }
     ],
     "score_parts": {
-      "industry": 80,
-      "actionable": 48,
-      "breadth": 70,
-      "heat": 77
+      "industry": 88,
+      "actionable": 52,
+      "breadth": 78,
+      "heat": 99
     },
-    "heat": 77,
+    "heat": 99,
     "heat_signals": {
-      "reports": 3,
-      "domains": 3,
-      "x_posts_7d": 3310,
-      "x_spike_7d": 3167.5
+      "reports": 5,
+      "domains": 4,
+      "x_posts_7d": 17307,
+      "x_spike_7d": 10789.5
     },
-    "score": 68.8
+    "score": 78.4
   },
   {
     "id": "eve-cultfit-codex",
@@ -1638,8 +2103,8 @@
     "heat_signals": {
       "reports": 4,
       "domains": 4,
-      "x_posts_7d": 740,
-      "x_spike_7d": 740.0
+      "x_posts_7d": 722,
+      "x_spike_7d": 722.0
     },
     "score": 79.8
   },
@@ -2040,7 +2505,7 @@
     "id": "morn-meta-muse-videochat",
     "title": "Meta Muse 上线 Spaces：可创建自定义协作空间与 Agent 互动",
     "url": "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar",
-    "date": "2026-11-06",
+    "date": "2026-11-07",
     "meta": "",
     "bullets": [
       "Meta 称美国用户现在可与自己的 Muse AI 虚拟形象进行视频聊天。",
@@ -2083,22 +2548,29 @@
         "url": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces",
         "date": "2026-11-06",
         "same_event": true
+      },
+      {
+        "label": "TechMeme",
+        "title": "Meta introduces specialized Muse Wonder-trained models with Active Memory and Active Focus",
+        "url": "https://www.techmeme.com/261106/p28",
+        "date": "2026-11-07",
+        "same_event": true
       }
     ],
     "score_parts": {
-      "industry": 82,
-      "actionable": 78,
-      "breadth": 72,
-      "heat": 89
+      "industry": 84,
+      "actionable": 80,
+      "breadth": 74,
+      "heat": 90
     },
-    "heat": 89,
+    "heat": 90,
     "heat_signals": {
-      "reports": 5,
-      "domains": 3,
-      "x_posts_7d": 5516,
-      "x_spike_7d": 5193.5
+      "reports": 6,
+      "domains": 4,
+      "x_posts_7d": 939,
+      "x_spike_7d": 774.0
     },
-    "score": 81.2
+    "score": 83.0
   },
   {
     "id": "morn-elevenlabs-soundcloud",
@@ -2447,8 +2919,8 @@
     "heat_signals": {
       "reports": 9,
       "domains": 8,
-      "x_posts_7d": 3545,
-      "x_spike_7d": 3492.5
+      "x_posts_7d": 3903,
+      "x_spike_7d": 3475.5
     },
     "score": 89.7
   },
@@ -2553,8 +3025,8 @@
     "heat_signals": {
       "reports": 11,
       "domains": 10,
-      "x_posts_7d": 4260,
-      "x_spike_7d": 4260.0
+      "x_posts_7d": 4840,
+      "x_spike_7d": 4840.0
     },
     "score": 91.0
   },
@@ -2617,16 +3089,16 @@
       "industry": 88,
       "actionable": 90,
       "breadth": 78,
-      "heat": 95
+      "heat": 100
     },
-    "heat": 95,
+    "heat": 100,
     "heat_signals": {
       "reports": 6,
       "domains": 5,
-      "x_posts_7d": 1948,
-      "x_spike_7d": 1933.0
+      "x_posts_7d": 4041,
+      "x_spike_7d": 3808.5
     },
-    "score": 89.0
+    "score": 90.0
   },
   {
     "id": "morn-nvidia-cosmos3",
@@ -8555,20 +9027,20 @@
         "same_event": true
       }
     ],
-    "score": 90.0,
+    "score": 89.0,
     "score_parts": {
       "industry": 90,
       "actionable": 85,
       "breadth": 75,
-      "heat": 105
+      "heat": 100
     },
     "heat_signals": {
       "reports": 8,
       "domains": 6,
-      "x_posts_7d": 8717,
-      "x_spike_7d": 8289.5
+      "x_posts_7d": 4559,
+      "x_spike_7d": 3501.5
     },
-    "heat": 105
+    "heat": 100
   },
   {
     "id": "github-universe-2026-copilot-app-fusion-a369b7",
@@ -10204,16 +10676,16 @@
       "industry": 82,
       "actionable": 88,
       "breadth": 72,
-      "heat": 66
+      "heat": 41
     },
-    "heat": 66,
+    "heat": 41,
     "heat_signals": {
       "reports": 2,
       "domains": 2,
-      "x_posts_7d": 8963,
-      "x_spike_7d": 4073.0
+      "x_posts_7d": 1,
+      "x_spike_7d": 1.0
     },
-    "score": 79.6
+    "score": 74.6
   },
   {
     "id": "claude-狂写-1-8-亿行数学证明-万亿次测试都没抓到的漏洞-被-ai-一-8cd99a",
@@ -10988,14 +11460,15 @@
   },
   {
     "id": "openai-下调估值目标至-1-25-万亿美元-拟融资至多-300-亿美元-95c866",
-    "title": "OpenAI 新一轮融资目标下调：寻求约 200 亿美元、估值约 1.25 万亿",
+    "title": "OpenAI 据报以约 1.25 万亿估值再融资约 110 亿美元",
     "url": "https://the-decoder.com/openai-lowers-valuation-target-raises-up-to-30-billion",
-    "date": "2026-10-31",
+    "date": "2026-11-07",
     "meta": "",
     "bullets": [
       "多家媒体称 OpenAI 将本轮融资目标从约 300 亿美元下调，最新口径接近 200 亿美元。",
       "估值目标报道多指向约 1.25 万亿美元，低于此前更高传闻区间。",
-      "已有报道称实际认购约 110 亿美元，进度不及原计划，市场对 AI 巨额融资更谨慎。"
+      "已有报道称实际认购约 110 亿美元，进度不及原计划，市场对 AI 巨额融资更谨慎。",
+      "后续报道称本轮已落袋约 110 亿美元、估值约 1.25 万亿；总额或仍可扩至约 200 亿。"
     ],
     "links": [
       {
@@ -11073,22 +11546,43 @@
         "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo",
         "date": "2026-10-23",
         "same_event": true
+      },
+      {
+        "label": "TechCrunch",
+        "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
+        "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation",
+        "date": "2026-11-07",
+        "same_event": true
+      },
+      {
+        "label": "The Verge",
+        "title": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
+        "date": "2026-11-07",
+        "same_event": true
+      },
+      {
+        "label": "TechMeme",
+        "title": "Sources: OpenAI has closed on new funding of roughly $11B at a $1.25T valuation",
+        "url": "https://www.techmeme.com/261106/p22",
+        "date": "2026-11-07",
+        "same_event": true
       }
     ],
-    "score": 84.0,
+    "score": 81.3,
     "score_parts": {
-      "industry": 88.0,
-      "actionable": 70.0,
-      "breadth": 78.0,
-      "heat": 100
+      "industry": 92,
+      "actionable": 70,
+      "breadth": 85,
+      "heat": 75
     },
     "heat_signals": {
-      "reports": 11,
-      "domains": 6,
-      "x_posts_7d": 10671,
-      "x_spike_7d": 10108.5
+      "reports": 14,
+      "domains": 7,
+      "x_posts_7d": 2676,
+      "x_spike_7d": -1044.0
     },
-    "heat": 100
+    "heat": 75
   },
   {
     "id": "e249165f7a55",
@@ -15464,16 +15958,16 @@
       "industry": 80,
       "actionable": 82,
       "breadth": 68,
-      "heat": 100
+      "heat": 95
     },
     "heat_signals": {
       "reports": 6,
       "domains": 6,
-      "x_posts_7d": 7741,
-      "x_spike_7d": 7733.5
+      "x_posts_7d": 2987,
+      "x_spike_7d": 2897.0
     },
-    "heat": 100,
-    "score": 83.4
+    "heat": 95,
+    "score": 82.4
   },
   {
     "id": "三星电子-依托-ai-将新型半导体材料研发周期由-5-年缩短至-2-年-c53883",
@@ -24423,16 +24917,16 @@
       "industry": 84,
       "actionable": 72,
       "breadth": 68,
-      "heat": 95
+      "heat": 90
     },
-    "heat": 95,
+    "heat": 90,
     "heat_signals": {
       "reports": 6,
       "domains": 6,
-      "x_posts_7d": 2203,
-      "x_spike_7d": 2173.0
+      "x_posts_7d": 990,
+      "x_spike_7d": 990.0
     },
-    "score": 81.0
+    "score": 80.0
   },
   {
     "id": "morn-crowdstrike-4-fiddler-ai-65666007f8",
@@ -24556,8 +25050,8 @@
     "heat_signals": {
       "reports": 8,
       "domains": 6,
-      "x_posts_7d": 1666,
-      "x_spike_7d": 1658.5
+      "x_posts_7d": 2310,
+      "x_spike_7d": 2310.0
     },
     "score": 80.0
   },
@@ -25577,12 +26071,13 @@
     "id": "eve-sand-ai-2-a-2d957b",
     "title": "Sand.ai 完成约 2 亿美元 A+ 轮融资，上海国资等参与",
     "url": "https://www.aibase.com/news/32119",
-    "date": "2026-11-05",
+    "date": "2026-11-07",
     "meta": "",
     "bullets": [
       "Sand.ai 宣布完成约 2 亿美元 A+ 轮融资。",
       "多方资本与上海国资据报参与加码。",
-      "反映国内生成式视频/多模态创业融资仍处高位。"
+      "反映国内生成式视频/多模态创业融资仍处高位。",
+      "外媒称过去约 10 个月累计融资约 3 亿美元，聚焦 AI 视频生成。"
     ],
     "links": [
       {
@@ -25591,22 +26086,29 @@
         "url": "https://www.aibase.com/news/32119",
         "date": "2026-11-05",
         "same_event": true
+      },
+      {
+        "label": "TechMeme",
+        "title": "Beijing-based Sand.ai raised a $200M Series A+, total ~$300M in 10 months",
+        "url": "https://www.techmeme.com/261107/p1",
+        "date": "2026-11-07",
+        "same_event": true
       }
     ],
     "score_parts": {
       "industry": 72,
       "actionable": 55,
-      "breadth": 50,
-      "heat": 30
+      "breadth": 60,
+      "heat": 46
     },
-    "heat": 30,
+    "heat": 46,
     "heat_signals": {
-      "reports": 1,
-      "domains": 1,
-      "x_posts_7d": 0,
-      "x_spike_7d": 0
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 55,
+      "x_spike_7d": 55.0
     },
-    "score": 56.3
+    "score": 60.5
   },
   {
     "id": "eve-ai-office-word-excel-ppt-2f38a3",
