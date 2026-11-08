@@ -355,6 +355,16 @@ META = {
         "flow": ["选模型", "文生/图生视频", "导出长片"],
         "intro": "美团 LongCat 开源长视频生成模型，面向分钟级连贯视频与 Avatar 场景。",
     },
+    "vercel-labs/agent-desktop": {
+        "tag": "电脑操控 CLI",
+        "flow": ["下指令", "操控电脑", "Agent 执行"],
+        "intro": "面向 AI Agent 的电脑操控命令行，让智能体直接操作桌面。",
+    },
+    "Orkas-AI/Orkas": {
+        "tag": "本地 AI 团队",
+        "flow": ["定目标", "Commander 拆解", "多 Agent 协作"],
+        "intro": "本地优先的桌面 AI 团队：Commander 拆任务，并调度内置专家与主流编程 Agent。",
+    },
 }
 
 # Curated 2–4 bullet notes by title prefix (from summary)
