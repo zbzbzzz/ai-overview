@@ -1,0 +1,2850 @@
+<!DOCTYPE html>
+<!-- cache-bust: repo-default3-0017 -->
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AI 速览 · 2026-11-10</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@500;600;700&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet" />
+  <style>
+
+:root {
+  --snow: #FFFFFF;
+  --ice: #EAF3FB;
+  --mist: #C8DCEF;
+  --navy: #0A3558;
+  --sky: #1A7AB8;
+  --aqua: #3B9BD4;
+  --ink: #1E3348;
+  --mute: #5A7085;
+  --soft: #F5F9FC;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { color-scheme: light; }
+body {
+  background: var(--snow);
+  background-image:
+    radial-gradient(ellipse 80% 40% at 10% -10%, #D9ECF8 0%, transparent 55%),
+    radial-gradient(ellipse 60% 30% at 100% 0%, #EAF3FB 0%, transparent 50%);
+  background-attachment: fixed;
+  color: var(--ink);
+  font-family: "Manrope", "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", system-ui, sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+a { color: var(--navy); text-decoration-thickness: 1px; text-underline-offset: 0.16em; }
+a:hover { color: var(--sky); }
+a:focus-visible {
+  outline: 2px solid var(--sky);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+.wrap {
+  width: min(44rem, calc(100% - 1.75rem));
+  margin: 0 auto;
+  padding: 1.75rem 0 3.5rem;
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+  gap: 1.15rem;
+  margin-bottom: 1.35rem;
+}
+.hero-top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 0.75rem 1.25rem;
+}
+.badge-date {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.45rem;
+  padding: 0.35rem 0.7rem;
+  background: var(--ice);
+  border: 1px solid var(--mist);
+  border-radius: 999px;
+  color: var(--navy);
+  font-size: 0.8125rem;
+  font-weight: 600;
+}
+.badge-date .dot {
+  width: 0.45rem; height: 0.45rem;
+  border-radius: 50%;
+  background: var(--aqua);
+  display: inline-block;
+}
+h1 {
+  font-family: "Source Serif 4", "Noto Serif SC", Georgia, serif;
+  font-weight: 600;
+  font-size: clamp(1.65rem, 4.5vw, 2.15rem);
+  line-height: 1.2;
+  color: var(--navy);
+  letter-spacing: -0.02em;
+}
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 0.85rem;
+  font-size: 0.875rem;
+  font-weight: 650;
+}
+.nav a {
+  text-decoration: none;
+  padding: 0.35rem 0.75rem;
+  background: var(--snow);
+  border: 1px solid var(--mist);
+  border-radius: 999px;
+  color: var(--navy);
+}
+.nav a:hover { background: var(--ice); border-color: var(--aqua); }
+
+
+.repo-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0.85rem 0 0.15rem;
+}
+.repo-tab {
+  appearance: none;
+  border: 1px solid var(--mist);
+  background: var(--snow);
+  color: var(--navy);
+  font: inherit;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  padding: 0.38rem 0.78rem;
+  border-radius: 999px;
+  cursor: pointer;
+  line-height: 1.2;
+}
+.repo-tab:hover { background: var(--ice); border-color: var(--aqua); }
+.repo-tab[aria-selected="true"] {
+  background: var(--navy);
+  border-color: var(--navy);
+  color: #fff;
+}
+.repo-tab .cnt {
+  font-weight: 650;
+  opacity: 0.75;
+  margin-left: 0.2rem;
+}
+.repo-panel[hidden] { display: none !important; }
+.news-tabs { margin: 0.35rem 0 0.15rem; }
+.news-panel[hidden] { display: none !important; }
+.news-panel .section-meta { display: block; margin-top: 0.55rem; }
+.news-empty {
+  margin-top: 0.85rem;
+  padding: 1rem 1.1rem;
+  background: var(--ice);
+  border: 1px dashed var(--mist);
+  border-radius: 12px;
+  color: var(--mute);
+  font-size: 0.9rem;
+}
+.repo-panel .cards { margin-top: 0.85rem; }
+.repo-empty {
+  margin-top: 0.85rem;
+  padding: 1rem 1.1rem;
+  background: var(--ice);
+  border: 1px dashed var(--mist);
+  border-radius: 12px;
+  color: var(--mute);
+  font-size: 0.9rem;
+}
+
+.cards {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1.15rem;
+}
+.card {
+  background: var(--ice);
+  border: 1px solid var(--mist);
+  border-radius: 16px;
+  padding: 1.15rem 1.2rem 1.2rem;
+  position: relative;
+}
+.card::before {
+  content: "";
+  position: absolute;
+  left: 0; top: 1rem; bottom: 1rem;
+  width: 3px;
+  background: var(--navy);
+  border-radius: 0 2px 2px 0;
+}
+.card-head {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.85rem;
+  padding-left: 0.35rem;
+}
+.rank {
+  flex: 0 0 auto;
+  width: 2.55rem;
+  height: 2.55rem;
+  display: grid;
+  place-items: center;
+  background: var(--snow);
+  border: 1.5px solid var(--navy);
+  border-radius: 10px;
+  font-family: "Source Serif 4", Georgia, serif;
+  font-weight: 650;
+  font-size: 1.05rem;
+  color: var(--navy);
+  font-variant-numeric: tabular-nums;
+}
+.card-title { min-width: 0; flex: 1; }
+.name {
+  font-size: 1.12rem;
+  font-weight: 700;
+  color: var(--navy);
+  text-decoration: none;
+  word-break: break-word;
+  letter-spacing: -0.01em;
+}
+.name:hover { color: var(--sky); text-decoration: underline; }
+.meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.45rem 0.75rem;
+  margin-top: 0.4rem;
+}
+.lang {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.78rem;
+  font-weight: 650;
+  color: var(--navy);
+  background: var(--snow);
+  border: 1px solid var(--mist);
+  border-radius: 999px;
+  padding: 0.15rem 0.55rem 0.15rem 0.4rem;
+}
+.lang i {
+  width: 0.55rem; height: 0.55rem;
+  border-radius: 50%;
+  display: inline-block;
+}
+.pill {
+  font-size: 0.75rem;
+  font-weight: 650;
+  color: var(--mute);
+  font-variant-numeric: tabular-nums;
+}
+.pill strong { color: var(--ink); font-weight: 700; }
+.pill.week strong { color: var(--sky); }
+.purpose {
+  margin: 0.95rem 0 0;
+  padding: 0.75rem 0.85rem;
+  background: var(--snow);
+  border: 1px dashed var(--mist);
+  border-radius: 12px;
+}
+.purpose-label {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--sky);
+  margin-bottom: 0.55rem;
+}
+.purpose-label .tag {
+  background: #DFF0FA;
+  color: var(--navy);
+  border: 1px solid var(--mist);
+  border-radius: 6px;
+  padding: 0.12rem 0.45rem;
+  font-size: 0.75rem;
+}
+.flow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem;
+}
+.flow .step {
+  background: var(--ice);
+  border: 1px solid var(--mist);
+  color: var(--navy);
+  font-size: 0.75rem;
+  font-weight: 650;
+  padding: 0.28rem 0.55rem;
+  border-radius: 8px;
+}
+.flow .arrow {
+  color: var(--aqua);
+  font-weight: 700;
+  font-size: 0.85rem;
+  line-height: 1;
+}
+.diagram {
+  margin-top: 0.15rem;
+  width: 100%;
+  overflow-x: auto;
+}
+.intro {
+  margin-top: 0.7rem;
+  font-size: 0.9rem;
+  color: var(--ink);
+  line-height: 1.5;
+  max-width: 40em;
+  padding-left: 0.35rem;
+}
+.news-note {
+  margin-top: 0.55rem;
+  padding-left: 1.05rem;
+  font-size: 0.84rem;
+  color: var(--ink);
+  line-height: 1.55;
+}
+.news-note li { margin: 0.2rem 0; }
+.news-note li::marker { color: var(--sky); }
+.bar-block {
+  margin-top: 0.9rem;
+  padding-left: 0.35rem;
+}
+.bar-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0.35rem;
+  font-size: 0.72rem;
+  font-weight: 650;
+  color: var(--mute);
+}
+.bar-head .v { color: var(--sky); font-variant-numeric: tabular-nums; }
+.bar-track {
+  height: 0.65rem;
+  background: #D6E7F5;
+  border: 1px solid var(--mist);
+  border-radius: 999px;
+  overflow: hidden;
+}
+.bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #7BC0E6, #1A7AB8);
+  border-radius: 999px;
+}
+.foot {
+  margin-top: 1.75rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--mist);
+  font-size: 0.8125rem;
+  color: var(--mute);
+}
+.foot a { font-weight: 700; }
+@media (max-width: 520px) {
+  .card { padding: 1rem; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .card { transition: border-color 0.15s ease, background 0.15s ease; }
+  .card:hover { border-color: var(--aqua); background: #E3F0FA; }
+}
+
+.section {
+  margin-top: 0.35rem;
+  margin-bottom: 1.5rem;
+}
+.section-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.4rem 1rem;
+  margin-bottom: 0.75rem;
+}
+.section-head h2 {
+  font-family: "Source Serif 4", "Noto Serif SC", Georgia, serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: var(--navy);
+  letter-spacing: -0.01em;
+}
+.section-meta {
+  font-size: 0.75rem;
+  color: var(--mute);
+  font-weight: 600;
+}
+.news-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+.news-card {
+  background: var(--snow);
+  border: 1px solid var(--mist);
+  border-radius: 14px;
+  padding: 0.85rem 1rem;
+}
+.news-card-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 0.4rem 0.55rem;
+}
+.news-card a.title {
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--navy);
+  text-decoration: none;
+  line-height: 1.4;
+  flex: 1 1 12rem;
+  min-width: 0;
+}
+.news-card a.title:hover { color: var(--sky); text-decoration: underline; }
+.badge-focus {
+  display: inline-flex;
+  align-items: center;
+  flex: 0 0 auto;
+  padding: 0.12rem 0.5rem;
+  border-radius: 999px;
+  background: #DFF0FA;
+  border: 1px solid var(--mist);
+  color: var(--navy);
+  font-size: 0.7rem;
+  font-weight: 750;
+  letter-spacing: 0.02em;
+  line-height: 1.3;
+}
+.news-meta {
+  margin-top: 0.3rem;
+  font-size: 0.72rem;
+  font-weight: 650;
+  color: var(--sky);
+}
+.section-divider {
+  height: 1px;
+  background: var(--mist);
+  margin: 1.35rem 0 0.25rem;
+  border: 0;
+}
+.news-list.is-collapsed .news-card.news-extra { display: none; }
+.cards.is-collapsed .card.repo-extra { display: none; }
+.news-toggle-wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.85rem;
+}
+.news-toggle {
+  appearance: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  color: var(--navy);
+  background: var(--snow);
+  border: 1px solid var(--mist);
+  border-radius: 999px;
+  padding: 0.45rem 1.1rem;
+  line-height: 1.3;
+}
+.news-toggle:hover {
+  background: var(--ice);
+  border-color: var(--aqua);
+  color: var(--sky);
+}
+.news-toggle:focus-visible {
+  outline: 2px solid var(--sky);
+  outline-offset: 3px;
+}
+.news-related {
+  margin-top: 0.45rem;
+  font-size: 0.75rem;
+  color: var(--mute);
+  line-height: 1.45;
+}
+.news-related summary {
+  cursor: pointer;
+  font-weight: 700;
+  color: var(--sky);
+  list-style: none;
+}
+.news-related summary::-webkit-details-marker { display: none; }
+.news-related summary::before {
+  content: "▸ ";
+  color: var(--aqua);
+}
+.news-related[open] summary::before { content: "▾ "; }
+.news-related ul {
+  list-style: none;
+  margin: 0.35rem 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+.news-related a {
+  color: var(--navy);
+  font-weight: 650;
+  text-decoration: none;
+}
+.news-related a:hover { color: var(--sky); text-decoration: underline; }
+.news-related .src {
+  color: var(--mute);
+  font-weight: 600;
+  margin-right: 0.35rem;
+}
+
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="hero">
+      <div class="hero-top">
+        <div>
+          <div class="badge-date"><span class="dot" aria-hidden="true"></span>2026-11-10 · 周二</div>
+          <h1>AI 速览</h1>
+        </div>
+        <nav class="nav" aria-label="站点导航">
+          <a href="history.html" target="_blank" rel="noopener noreferrer">往期速览</a>
+          <a href="https://github.com/trending?since=weekly" target="_blank" rel="noopener noreferrer">GitHub Trending</a>
+        </nav>
+      </div>
+    </header>
+
+    <section class="section" aria-labelledby="news-heading">
+      <div class="section-head">
+        <h2 id="news-heading">本周 AI 资讯</h2>
+      </div>
+      <div class="repo-tabs news-tabs" id="news-tabs" role="tablist" aria-label="资讯时间窗">
+        <button type="button" class="repo-tab news-tab" role="tab" id="news-tab-24h" aria-selected="true" aria-controls="news-panel-24h" data-tab-index="0">24 小时</button>
+        <button type="button" class="repo-tab news-tab" role="tab" id="news-tab-7d" aria-selected="false" aria-controls="news-panel-7d" data-tab-index="1">近 7 天</button>
+      </div>
+      <div class="news-panel" role="tabpanel" id="news-panel-24h" aria-labelledby="news-tab-24h">
+        <span class="section-meta">近 24 小时（11-09 06:11 ~ 11-10 06:11）· 按重要度 Top 10 · 雷达 archive · AI 多源 · 候选 33 束 · 资讯束 · 雷达 2026-11-10 02:52 北京时间 · <a href="https://news.learnprompt.pro" target="_blank" rel="noopener noreferrer">news.learnprompt.pro</a> · 默认 3 条（重点） · 可展开至 10 条</span>
+      <ol class="news-list is-collapsed" id="news-list-24h">
+      <li class="news-card">
+        <div class="news-card-head">
+          <a class="title" href="https://the-decoder.com/openai-lowers-valuation-target-raises-up-to-30-billion" target="_blank" rel="noopener noreferrer">OpenAI 据报以约 1.25 万亿估值再融资约 110 亿美元</a>
+          <span class="badge-focus">重点</span>
+        </div>
+        <div class="news-meta">AIHot · AIBase · WSJ · 另 14 篇报道 · 最新 11-09 10:39</div>
+        <ul class="news-note">
+          <li>多家媒体称 OpenAI 将本轮融资目标从约 300 亿美元下调，最新口径接近 200 亿美元。</li>
+          <li>估值目标报道多指向约 1.25 万亿美元，低于此前更高传闻区间。</li>
+          <li>已有报道称实际认购约 110 亿美元，进度不及原计划，市场对 AI 巨额融资更谨慎。</li>
+          <li>后续报道称本轮已落袋约 110 亿美元、估值约 1.25 万亿；总额或仍可扩至约 200 亿。</li>
+        </ul>
+        <details class="news-related">
+          <summary>另 14 篇报道</summary>
+          <ul>
+            <li><span class="src">AIBase</span><a href="https://www.aibase.com/news/31824" target="_blank" rel="noopener noreferrer">OpenAI 冲刺 300 亿美元融资，投前估值站上 1.25 万亿美元</a></li>
+            <li><span class="src">WSJ</span><a href="https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5" target="_blank" rel="noopener noreferrer">OpenAI raises less than half of $30B target</a></li>
+            <li><span class="src">Techmeme</span><a href="https://www.techmeme.com/261030/p31" target="_blank" rel="noopener noreferrer">OpenAI 最新一轮融资承诺约 110 亿美元，不及原定 300 亿一半</a></li>
+            <li><span class="src">TechCrunch</span><a href="https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round" target="_blank" rel="noopener noreferrer">OpenAI reportedly lowers funding target for new round</a></li>
+            <li><span class="src">TNW</span><a href="https://thenextweb.com/news/openai-funding-round-20bn-target-cut-ft" target="_blank" rel="noopener noreferrer">OpenAI cuts its funding round target to $20bn, FT reports</a></li>
+            <li><span class="src">The Decoder</span><a href="https://the-decoder.com/openai-raises-just-11-billion-of-its-30-billion-target-as-big-investors-lose-their-ai-appetite" target="_blank" rel="noopener noreferrer">OpenAI raises just $11 billion of its $30 billion target as big investors lose their AI appetite</a></li>
+            <li><span class="src">Techmeme</span><a href="https://www.techmeme.com/261030/p30" target="_blank" rel="noopener noreferrer">Sources: OpenAI now seeks ~$20B at a $1.25T valuation for its latest round, from $30B at a $1.4T valuation, as some investors cut commitments amid an AI selloff (Financial Times)</a></li>
+            <li><span class="src">TNW</span><a href="https://thenextweb.com/news/openai-funding-round-1-25tn-uae-coatue" target="_blank" rel="noopener noreferrer">OpenAI cuts its valuation target to $1.25tn as it nears a $30bn round</a></li>
+            <li><span class="src">Techmeme</span><a href="https://www.techmeme.com/261022/p55" target="_blank" rel="noopener noreferrer">Sources: OpenAI has cut its valuation target to $1.25T, down from the $1.4T valuation it pitched earlier this month, after facing resistance from some investors (Financial Times)</a></li>
+            <li><span class="src">TechCrunch</span><a href="https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo" target="_blank" rel="noopener noreferrer">OpenAI working on new $30B raise at $1.25T valuation ahead of IPO</a></li>
+            <li><span class="src">TechCrunch</span><a href="https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation" target="_blank" rel="noopener noreferrer">OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation</a></li>
+            <li><span class="src">The Verge</span><a href="https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation" target="_blank" rel="noopener noreferrer">OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO</a></li>
+            <li><span class="src">TechMeme</span><a href="https://www.techmeme.com/261106/p22" target="_blank" rel="noopener noreferrer">Sources: OpenAI has closed on new funding of roughly $11B at a $1.25T valuation</a></li>
+            <li><span class="src">AIBase</span><a href="https://www.aibase.com/news/32165" target="_blank" rel="noopener noreferrer">OpenAI新一轮融资筹集110亿美元，估值达1.25万亿美元</a></li>
+          </ul>
+        </details>
+      </li>
+      <li class="news-card">
+        <div class="news-card-head">
+          <a class="title" href="https://www.aibase.com/news/32186" target="_blank" rel="noopener noreferrer">字节发布 Seedream 5.5：支持百轮连续编辑与原生透明输出</a>
+          <span class="badge-focus">重点</span>
+        </div>
+        <div class="news-meta">AIBase · 另 1 篇报道 · 最新 11-09 21:54</div>
+        <ul class="news-note">
+          <li>字节 Seed 团队 11 月 9 日发布新一代图像模型 Seedream 5.5，强调像素级保留未编辑区域，同一作品可连续迭代约 100 轮。</li>
+          <li>新增原生 RGBA 透明素材输出，并提升纹理与小字渲染；严重文字损坏率降至约 0.4%。</li>
+          <li>火山引擎同步上线：单张 2K 方图编辑约 0.28 元，比 Seedream 5.0 Pro 便宜约 60%，生成速度提升近 40%。</li>
+          <li>已在即梦、豆包、豆包工作与火山方舟逐步上线，后续还将推出 Pro 版本。</li>
+        </ul>
+        <details class="news-related">
+          <summary>另 1 篇报道</summary>
+          <ul>
+            <li><span class="src">AIBase</span><a href="https://www.aibase.com/news/32185" target="_blank" rel="noopener noreferrer">火山引擎发布Seedream5.5:像素级可控编辑，百轮修改不崩坏</a></li>
+          </ul>
+        </details>
+      </li>
+      <li class="news-card">
+        <div class="news-card-head">
+          <a class="title" href="https://www.aibase.com/news/32184" target="_blank" rel="noopener noreferrer">千问办公 2.0 发布：定位 Team Agent，协作、自动任务与人机共创三线升级</a>
+          <span class="badge-focus">重点</span>
+        </div>
+        <div class="news-meta">AIBase · 2026-11-09 · 最新 11-09 21:54</div>
+        <ul class="news-note">
+          <li>千问办公 11 月 9 日发布 2.0，定位面向个人与组织协作的 Team Agent，围绕协作、自动任务与人机共创升级。</li>
+          <li>新增协作空间 Collaboration Spaces 与数字员工「小 Q」，可把钉钉群聊、会议纪要与文档接为上下文并分派任务。</li>
+          <li>自动任务可按订阅事件在云端持续运行（关机后仍继续）；开放能力覆盖第三方应用、系统内嵌与托管 Agent。</li>
+        </ul>
+      </li>
+      <li class="news-card news-extra">
+        <div class="news-card-head">
+          <a class="title" href="https://www.aibase.com/news/32160" target="_blank" rel="noopener noreferrer">千问 Qwen4 跑分首度超越 Opus 5.5，高性价比成最大卖点</a>
+          
+        </div>
+        <div class="news-meta">AIBase · 2026-11-09 · 最新 11-09 10:39</div>
+        <ul class="news-note">
+          <li>阿里千问 Qwen4-Flash 在 GameFeel Bench 游戏开发创造力评测中得到 49.9 分，首次超过 Opus 5.5 xHigh 的 47.2 分。</li>
+          <li>完成同等任务成本约 0.4 美元，远低于约 2.6 美元；Qwen4-27B 更低至约 0.16 美元。</li>
+          <li>高性价比成为此轮国产模型对比中的主要卖点。</li>
+        </ul>
+      </li>
+      <li class="news-card news-extra">
+        <div class="news-card-head">
+          <a class="title" href="https://www.aibase.com/news/32164" target="_blank" rel="noopener noreferrer">SpaceXAI 扩大 Grok Bot 访问范围，覆盖 SuperGrok 与 Cursor 全线套餐</a>
+          
+        </div>
+        <div class="news-meta">AIBase · 2026-11-09 · 最新 11-09 10:39</div>
+        <ul class="news-note">
+          <li>SpaceXAI 将 Grok Bot 访问范围扩大到全部三档 SuperGrok 以及 Cursor Pro/Ultra。</li>
+          <li>Cursor 上 20 美元/月的 Pro 套餐也可使用，Bot 在 Cursor 云电脑中运行，关机后仍可继续。</li>
+          <li>覆盖面从原先的 SuperGrok Heavy、Cursor Ultra 与 Teams Premium 明显扩大。</li>
+        </ul>
+      </li>
+      <li class="news-card news-extra">
+        <div class="news-card-head">
+          <a class="title" href="https://www.aibase.com/news/32168" target="_blank" rel="noopener noreferrer">腾讯元器平台今日正式停止服务，数据导出截至 2027 年 1 月</a>
+          
+        </div>
+        <div class="news-meta">AIBase · 2026-11-09 · 最新 11-09 10:39</div>
+        <ul class="news-note">
+          <li>腾讯元器平台今日正式停服，应用访问、API 调用与控制台全部关闭。</li>
+          <li>公众号与客服 Agent 停止响应。</li>
+          <li>用户须在 2027 年 1 月 9 日前申请导出数据，逾期除法定日志外将被删除。</li>
+        </ul>
+      </li>
+      <li class="news-card news-extra">
+        <div class="news-card-head">
+          <a class="title" href="https://www.aibase.com/news/32187" target="_blank" rel="noopener noreferrer">免费时代要结束？三星 Galaxy AI 准备收每月 4.99 美元</a>
+          
+        </div>
+        <div class="news-meta">AIBase · 2026-11-09 · 最新 11-09 21:54</div>
+        <ul class="news-note">
+          <li>三星正筹备 Galaxy AI Premium 订阅，月费 4.99 美元，年付 47.99 美元。</li>
+          <li>免费版功能开始按使用次数设上限，端侧 AI 视频生成等能力被划入付费档。</li>
+          <li>目前仍是筹备阶段，Galaxy 用户可留意后续套餐与免费额度变化。</li>
+        </ul>
+      </li>
+      <li class="news-card news-extra">
+        <div class="news-card-head">
+          <a class="title" href="https://www.aibase.com/news/32177" target="_blank" rel="noopener noreferrer">阿里云 Token Plan 全面提额：Pro 档直降 187 元，Lite 入门仅 19.5 元</a>
+          
+        </div>
+        <div class="news-meta">AIBase · 2026-11-09 · 最新 11-09 16:02</div>
+        <ul class="news-note">
+          <li>阿里云 Token Plan 全档提额，覆盖 Lite、Essential、Standard 与 Pro。</li>
+          <li>Pro 月费从 499 元降至 312 元（约降 37%），额度升至 20 万 Credits；Lite 入门约 19.5 元。</li>
+          <li>正在使用通义 API 的开发者可据此调整套餐以降低成本。</li>
+        </ul>
+      </li>
+      <li class="news-card news-extra">
+        <div class="news-card-head">
+          <a class="title" href="https://www.aibase.com/news/32171" target="_blank" rel="noopener noreferrer">xAI 全面升级 Grok Bot，重点优化 Token 效率与智能表现</a>
+          
+        </div>
+        <div class="news-meta">AIBase · 2026-11-09 · 最新 11-09 10:39</div>
+        <ul class="news-note">
+          <li>xAI 的 Matt Palmer 与马斯克在 X 宣布，Grok Bot 启动新一轮底层架构与功能优化。</li>
+          <li>重点提升 Token 效率与复杂任务的逻辑准确性，以降低开发者调用成本。</li>
+          <li>同时公开征集开发者反馈。</li>
+        </ul>
+      </li>
+      <li class="news-card news-extra">
+        <div class="news-card-head">
+          <a class="title" href="https://www.aibase.com/news/32176" target="_blank" rel="noopener noreferrer">Meta 基于 Muse Wonder 训练的专用模型登陆 Muse 与 Meta AI</a>
+          
+        </div>
+        <div class="news-meta">AIBase · 2026-11-09 · 最新 11-09 16:02</div>
+        <ul class="news-note">
+          <li>Meta 于 11 月 6 日向 Muse 与 Meta AI 推送基于 Muse Wonder 训练的专用模型。</li>
+          <li>相关评测分数从约 38% 提升至 47%，并新增 Active Memory。</li>
+          <li>目前是消费端产品升级，尚未提及 API 或开源。</li>
+        </ul>
+      </li>
+      </ol>
+      <div class="news-toggle-wrap">
+        <button type="button" class="news-toggle" id="news-toggle-24h" aria-expanded="false" aria-controls="news-list-24h">展开更多</button>
+      </div>
+      <script>
+      (function () {
+        var btn = document.getElementById("news-toggle-24h");
+        var list = document.getElementById("news-list-24h");
+        if (!btn || !list) return;
+        btn.addEventListener("click", function () {
+          var collapsed = list.classList.toggle("is-collapsed");
+          btn.setAttribute("aria-expanded", collapsed ? "false" : "true");
+          btn.textContent = collapsed ? "展开更多" : "收起";
+        });
+      })();
+      </script>
+      </div>
+      <div class="news-panel" role="tabpanel" id="news-panel-7d" aria-labelledby="news-tab-7d" hidden>
+        <span class="section-meta">近 7 天（2026-11-04 ~ 2026-11-10）· 按重要度 Top 10 · 雷达 archive · AI 多源 · 候选 208 · 资讯束 · 雷达 2026-11-10 02:52 北京时间 · <a href="https://news.learnprompt.pro" target="_blank" rel="noopener noreferrer">news.learnprompt.pro</a> · 默认 5 条（重点） · 可展开至 10 条</span>
+      <ol class="news-list is-collapsed" id="news-list-7d">
+      <li class="news-card">
+        <div class="news-card-head">
+          <a class="title" href="https://openai.com/index/introducing-gpt-6-cyber" target="_blank" rel="noopener noreferrer">OpenAI 发布 GPT-6 Cyber：面向网络安全的攻防对齐模型</a>
+          <span class="badge-focus">重点</span>
+        </div>
+        <div class="news-meta">OpenAI · The Decoder · TechCrunch · 另 10 篇报道</div>
+        <ul class="news-note">
+          <li>OpenAI 发布 GPT-6 Cyber，拓展对齐网络安全 Agent 的能力边界。</li>
+          <li>报道称其既能发现/攻破系统弱点，也能提出修复方案。</li>
+          <li>引发「防御模型是否足够」与双用途风险的讨论。</li>
+          <li>中文报道称其在演示中挖出约 81 个 Firefox 高危漏洞，攻防双用途争议升温。</li>
+        </ul>
+        <details class="news-related">
+          <summary>另 10 篇报道</summary>
+          <ul>
+            <li><span class="src">The Decoder</span><a href="https://the-decoder.com/openais-gpt-6-cyber-can-both-break-into-systems-and-propose-how-to-fix-them" target="_blank" rel="noopener noreferrer">OpenAI 的 GPT-6 Cyber 既能攻破系统，也能给出修复方案</a></li>
+            <li><span class="src">TechCrunch</span><a href="https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough" target="_blank" rel="noopener noreferrer">OpenAI 发布了新的网络安全模型，这就够了吗？</a></li>
+            <li><span class="src">X</span><a href="https://twitter.com/OpenAI/status/2118390190246879554" target="_blank" rel="noopener noreferrer">OpenAI：GPT-6 Cyber</a></li>
+            <li><span class="src">AIbase</span><a href="https://www.aibase.com/news/32132" target="_blank" rel="noopener noreferrer">OpenAI 迄今最强网络安全模型 GPT-6 Cyber 正式发布：精准挖出 81 个 Firefox 高危漏洞</a></li>
+            <li><span class="src">AIbase</span><a href="https://www.aibase.com/news/32135" target="_blank" rel="noopener noreferrer">一把双刃剑：OpenAI 最强安全模型 GPT-6 Cyber 揪出 81 个 Firefox 漏洞</a></li>
+            <li><span class="src">Slashdot</span><a href="https://it.slashdot.org/story/26/11/06/1755247/openais-new-cyber-model-found-ways-to-attack-nearly-1000-linux-flaws" target="_blank" rel="noopener noreferrer">OpenAI&#x27;s New Cyber Model Found Ways to Attack Nearly 1,000 Linux Flaws</a></li>
+            <li><span class="src">X</span><a href="https://www.phoronix.com/news/OpenAI-948-Linux-LPE-Bugs" target="_blank" rel="noopener noreferrer">OpenAI Finds 948 Local Privilege Escalation Bugs in the Linux Kernel</a></li>
+            <li><span class="src">Mashable</span><a href="https://www.mashable.com/article/openai-gpt-6-cyber-exploits" target="_blank" rel="noopener noreferrer">OpenAI says its new GPT-6 Cyber has already uncovered thousands of exploits</a></li>
+            <li><span class="src">TNW</span><a href="https://thenextweb.com/news/openai-gpt-6-cyber-launch-firefox-linux-daybreak-red" target="_blank" rel="noopener noreferrer">OpenAI’s GPT-6 Cyber found 81 new Firefox flaws and is rated ‘Critical’</a></li>
+            <li><span class="src">TechRadar</span><a href="https://www.techradar.com/pro/security/openai-says-its-cyber-model-found-and-patched-nearly-1000-linux-kernel-security-issues" target="_blank" rel="noopener noreferrer">OpenAI says its cyber model found and patched nearly 1000 Linux kernel security issues</a></li>
+          </ul>
+        </details>
+      </li>
+      <li class="news-card">
+        <div class="news-card-head">
+          <a class="title" href="https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash" target="_blank" rel="noopener noreferrer">Google 发布 Gemini Omni 1.2 Flash：视频片段至 15 秒、价格下调约 30%</a>
+          <span class="badge-focus">重点</span>
+        </div>
+        <div class="news-meta">Google · The Decoder · TNW · 另 6 篇报道</div>
+        <ul class="news-note">
+          <li>Google 推出 Gemini Omni 1.2 Flash，强调更快速度与更高性价比。</li>
+          <li>AI 视频片段最长可至约 15 秒，报道称价格下调约 30%。</li>
+          <li>强化 Google 在可控短视频生成上的产品竞争力。</li>
+        </ul>
+        <details class="news-related">
+          <summary>另 6 篇报道</summary>
+          <ul>
+            <li><span class="src">The Decoder</span><a href="https://the-decoder.com/googles-gemini-omni-1-2-flash-stretches-ai-video-clips-to-15-seconds-and-cuts-pricing-by-30-percent" target="_blank" rel="noopener noreferrer">Google 的 Gemini Omni 1.2 Flash 把 AI 视频片段延长到 15 秒，价格下调 30%</a></li>
+            <li><span class="src">TNW</span><a href="https://thenextweb.com/news/google-gemini-omni-1-2-flash-video-15-seconds-price-cut" target="_blank" rel="noopener noreferrer">Google 的 Gemini Omni 1.2 Flash 以更低成本生成 15 秒 AI 视频</a></li>
+            <li><span class="src">AIbase</span><a href="https://www.aibase.com/news/32146" target="_blank" rel="noopener noreferrer">谷歌发布 Gemini Omni1.2Flash:单次时长增至15秒，成本降幅达30%</a></li>
+            <li><span class="src">AIbase</span><a href="https://www.aibase.com/news/32149" target="_blank" rel="noopener noreferrer">谷歌重磅发布 Omni 1.2 Flash：视频生成上限延长至 15 秒，API 价格大降 30%</a></li>
+            <li><span class="src">TechMeme</span><a href="https://www.techmeme.com/261105/p70" target="_blank" rel="noopener noreferrer">Google rolls out Gemini Omni 1.2 Flash, clips up to 15 seconds</a></li>
+            <li><span class="src">Official</span><a href="https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips" target="_blank" rel="noopener noreferrer">Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips</a></li>
+          </ul>
+        </details>
+      </li>
+      <li class="news-card">
+        <div class="news-card-head">
+          <a class="title" href="https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool" target="_blank" rel="noopener noreferrer">Claude 上线 Personal Finance：可连接银行账户分析消费</a>
+          <span class="badge-focus">重点</span>
+        </div>
+        <div class="news-meta">TechCrunch · TechMeme · The Verge · 另 8 篇报道</div>
+        <ul class="news-note">
+          <li>Anthropic 为 Claude 推出 Personal Finance 工具，可分析个人消费。</li>
+          <li>报道称可通过 Plaid 等连接银行账户。</li>
+          <li>把助手能力延伸到高敏感个人财务场景，隐私与授权成关键。</li>
+          <li>后续报道强调经 Plaid 只读接入银行账户，不可转账；美国 beta。</li>
+        </ul>
+        <details class="news-related">
+          <summary>另 8 篇报道</summary>
+          <ul>
+            <li><span class="src">TechMeme</span><a href="https://www.techmeme.com/261105/p44" target="_blank" rel="noopener noreferrer">Anthropic launches Personal Finance in Claude</a></li>
+            <li><span class="src">The Verge</span><a href="https://www.theverge.com/ai-artificial-intelligence/1027652/anthropic-claude-plaid-personal-finance" target="_blank" rel="noopener noreferrer">Claude AI 可以直接接入你的银行账户</a></li>
+            <li><span class="src">AIbase</span><a href="https://www.aibase.com/news/32128" target="_blank" rel="noopener noreferrer">Anthropic 推出 Claude 个人理财功能，支持智能消费分析与账单追踪</a></li>
+            <li><span class="src">AIbase</span><a href="https://www.aibase.com/news/32126" target="_blank" rel="noopener noreferrer">能看穿你的账单，却碰不了你的钱：Claude 杀入个人理财</a></li>
+            <li><span class="src">X</span><a href="https://x.com/claudeai/status/2118403117779988744" target="_blank" rel="noopener noreferrer">Claude：Personal Finance 无广告，美国 Pro/Max/Ultra 可用</a></li>
+            <li><span class="src">The Decoder</span><a href="https://the-decoder.com/anthropic-adds-bank-account-access-to-claude-so-users-can-track-their-spending" target="_blank" rel="noopener noreferrer">Anthropic adds bank account access to Claude so users can track their spending</a></li>
+            <li><span class="src">Mac Rumors</span><a href="https://www.macrumors.com/2026/11/05/claude-personal-finance" target="_blank" rel="noopener noreferrer">Claude Gets Personal Finance Feature With Bank Account Linking</a></li>
+            <li><span class="src">TNW</span><a href="https://thenextweb.com/news/anthropic-claude-personal-finance-plaid-read-only-beta" target="_blank" rel="noopener noreferrer">Anthropic lets Claude read your bank accounts, but not move money</a></li>
+          </ul>
+        </details>
+      </li>
+      <li class="news-card">
+        <div class="news-card-head">
+          <a class="title" href="https://www.kimi.com/blog/kimi-k3-1-pro" target="_blank" rel="noopener noreferrer">月之暗面发布 Kimi K3.1 Pro：100 万 token 上下文，开放权重将释出并上线 OpenRouter</a>
+          <span class="badge-focus">重点</span>
+        </div>
+        <div class="news-meta">AIHot · AIBase · WayToAGI · 另 7 篇报道</div>
+        <ul class="news-note">
+          <li>月之暗面发布开源旗舰 Kimi K3.1 Pro，报道称参数与上下文规格显著提升。</li>
+          <li>中文媒体称其支持百万级上下文并计划开放权重。</li>
+          <li>属国产开源旗舰路线的新一波发布。</li>
+        </ul>
+        <details class="news-related">
+          <summary>另 7 篇报道</summary>
+          <ul>
+            <li><span class="src">AIHot</span><a href="https://artificialanalysis.ai/articles/kimi-k3-1-pro-launch-benchmarks" target="_blank" rel="noopener noreferrer">Kimi K3.1 Pro 发布，以 55 分位列 Artificial Analysis Intelligence Index 第 4</a></li>
+            <li><span class="src">AIBase</span><a href="https://www.aibase.com/news/31846" target="_blank" rel="noopener noreferrer">月之暗面放 K3.1 预热视频，发布日期仍捂着</a></li>
+            <li><span class="src">AIHot</span><a href="https://x.com/OpenRouter/status/2113699820124934334" target="_blank" rel="noopener noreferrer">月之暗面 Kimi K3.1 Pro 上线 OpenRouter，1M 上下文多模态开源权重模型</a></li>
+            <li><span class="src">WayToAGI</span><a href="https://waytoagi.feishu.cn/wiki/ORN6wAYH9inauakETvgcJHtonQf?from=from_copylink" target="_blank" rel="noopener noreferrer">Kimi K3.1 Pro：智能前沿，更进一步</a></li>
+            <li><span class="src">AIHot</span><a href="https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&amp;mid=2647687627&amp;idx=1&amp;sn=4816c8130f378587885913b465fd686f" target="_blank" rel="noopener noreferrer">Kimi 发布开源旗舰模型 K3.1 Pro：2.8T 参数、100万 Token 上下文，实测 3D 与视频动效</a></li>
+            <li><span class="src">AIBase</span><a href="https://www.aibase.com/news/31903" target="_blank" rel="noopener noreferrer">参数直逼2.8T、支持百万上下文：月之暗面发布开源旗舰大模型K3.1 Pro</a></li>
+            <li><span class="src">AIbase</span><a href="https://www.aibase.com/news/32100" target="_blank" rel="noopener noreferrer">月之暗面开放 2.8 万亿参数 Kimi K3.1 Pro 权重，强势登顶 Agent Arena 开源榜</a></li>
+          </ul>
+        </details>
+      </li>
+      <li class="news-card">
+        <div class="news-card-head">
+          <a class="title" href="https://www.marktechpost.com/2026/11/01/deepseek-dsh-superagent-router-worker-coding-agent" target="_blank" rel="noopener noreferrer">DeepSeek 开源 Super-Agent（dsh-superagent）：Router-Worker 编程 Agent 研究原型</a>
+          <span class="badge-focus">重点</span>
+        </div>
+        <div class="news-meta">MarkTechPost · Techmeme · WaytoAGI · 另 6 篇报道</div>
+        <ul class="news-note">
+          <li>DeepSeek 开源 dsh-superagent / Super-Agent，定位为编程 Agent 研究原型。</li>
+          <li>架构采用 Router-Worker：路由层分派任务，工作层执行编码等子任务。</li>
+          <li>Techmeme 与中文社区同步跟进，被视为 DeepSeek Harness 路线的延续扩展。</li>
+        </ul>
+        <details class="news-related">
+          <summary>另 6 篇报道</summary>
+          <ul>
+            <li><span class="src">Techmeme</span><a href="https://www.techmeme.com/261101/p2" target="_blank" rel="noopener noreferrer">DeepSeek open sources Super-Agent as a research prototype</a></li>
+            <li><span class="src">WaytoAGI</span><a href="https://waytoagi.feishu.cn/wiki/W5I3wsjESihSIbkBZU3cD9H7nOe?from=from_copylink" target="_blank" rel="noopener noreferrer">动态图解：DeepSeek 的 Super-agent 架构</a></li>
+            <li><span class="src">AIbase</span><a href="https://www.aibase.com/news/32001" target="_blank" rel="noopener noreferrer">DeepSeek开源Super-agent架构:以经典计算机系统思想突破单会话智能体瓶颈</a></li>
+            <li><span class="src">AIbase</span><a href="https://www.aibase.com/news/32016" target="_blank" rel="noopener noreferrer">DeepSeek 甩出 Super-agent：AI 从&quot;等人派活&quot;变成&quot;自己找活干&quot;</a></li>
+            <li><span class="src">TechURLs</span><a href="https://thenextweb.com/news/deepseek-open-sources-super-agent-a-prototype-autonomous-coding-agent" target="_blank" rel="noopener noreferrer">DeepSeek开源Super-agent，一款自主编程智能体原型</a></li>
+            <li><span class="src">AIbase</span><a href="https://www.aibase.com/news/32037" target="_blank" rel="noopener noreferrer">人只够盯 5 个对话窗口，DeepSeek 让 AI 自己当&quot;大管家&quot;</a></li>
+          </ul>
+        </details>
+      </li>
+      <li class="news-card news-extra">
+        <div class="news-card-head">
+          <a class="title" href="https://the-decoder.com/openai-lowers-valuation-target-raises-up-to-30-billion" target="_blank" rel="noopener noreferrer">OpenAI 据报以约 1.25 万亿估值再融资约 110 亿美元</a>
+          
+        </div>
+        <div class="news-meta">AIHot · AIBase · WSJ · 另 14 篇报道</div>
+        <ul class="news-note">
+          <li>多家媒体称 OpenAI 将本轮融资目标从约 300 亿美元下调，最新口径接近 200 亿美元。</li>
+          <li>估值目标报道多指向约 1.25 万亿美元，低于此前更高传闻区间。</li>
+          <li>已有报道称实际认购约 110 亿美元，进度不及原计划，市场对 AI 巨额融资更谨慎。</li>
+          <li>后续报道称本轮已落袋约 110 亿美元、估值约 1.25 万亿；总额或仍可扩至约 200 亿。</li>
+        </ul>
+        <details class="news-related">
+          <summary>另 14 篇报道</summary>
+          <ul>
+            <li><span class="src">AIBase</span><a href="https://www.aibase.com/news/31824" target="_blank" rel="noopener noreferrer">OpenAI 冲刺 300 亿美元融资，投前估值站上 1.25 万亿美元</a></li>
+            <li><span class="src">WSJ</span><a href="https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5" target="_blank" rel="noopener noreferrer">OpenAI raises less than half of $30B target</a></li>
+            <li><span class="src">Techmeme</span><a href="https://www.techmeme.com/261030/p31" target="_blank" rel="noopener noreferrer">OpenAI 最新一轮融资承诺约 110 亿美元，不及原定 300 亿一半</a></li>
+            <li><span class="src">TechCrunch</span><a href="https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round" target="_blank" rel="noopener noreferrer">OpenAI reportedly lowers funding target for new round</a></li>
+            <li><span class="src">TNW</span><a href="https://thenextweb.com/news/openai-funding-round-20bn-target-cut-ft" target="_blank" rel="noopener noreferrer">OpenAI cuts its funding round target to $20bn, FT reports</a></li>
+            <li><span class="src">The Decoder</span><a href="https://the-decoder.com/openai-raises-just-11-billion-of-its-30-billion-target-as-big-investors-lose-their-ai-appetite" target="_blank" rel="noopener noreferrer">OpenAI raises just $11 billion of its $30 billion target as big investors lose their AI appetite</a></li>
+            <li><span class="src">Techmeme</span><a href="https://www.techmeme.com/261030/p30" target="_blank" rel="noopener noreferrer">Sources: OpenAI now seeks ~$20B at a $1.25T valuation for its latest round, from $30B at a $1.4T valuation, as some investors cut commitments amid an AI selloff (Financial Times)</a></li>
+            <li><span class="src">TNW</span><a href="https://thenextweb.com/news/openai-funding-round-1-25tn-uae-coatue" target="_blank" rel="noopener noreferrer">OpenAI cuts its valuation target to $1.25tn as it nears a $30bn round</a></li>
+            <li><span class="src">Techmeme</span><a href="https://www.techmeme.com/261022/p55" target="_blank" rel="noopener noreferrer">Sources: OpenAI has cut its valuation target to $1.25T, down from the $1.4T valuation it pitched earlier this month, after facing resistance from some investors (Financial Times)</a></li>
+            <li><span class="src">TechCrunch</span><a href="https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo" target="_blank" rel="noopener noreferrer">OpenAI working on new $30B raise at $1.25T valuation ahead of IPO</a></li>
+            <li><span class="src">TechCrunch</span><a href="https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation" target="_blank" rel="noopener noreferrer">OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation</a></li>
+            <li><span class="src">The Verge</span><a href="https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation" target="_blank" rel="noopener noreferrer">OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO</a></li>
+            <li><span class="src">TechMeme</span><a href="https://www.techmeme.com/261106/p22" target="_blank" rel="noopener noreferrer">Sources: OpenAI has closed on new funding of roughly $11B at a $1.25T valuation</a></li>
+            <li><span class="src">AIBase</span><a href="https://www.aibase.com/news/32165" target="_blank" rel="noopener noreferrer">OpenAI新一轮融资筹集110亿美元，估值达1.25万亿美元</a></li>
+          </ul>
+        </details>
+      </li>
+      <li class="news-card news-extra">
+        <div class="news-card-head">
+          <a class="title" href="https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar" target="_blank" rel="noopener noreferrer">Meta Muse 上线 Spaces：可创建自定义协作空间与 Agent 互动</a>
+          
+        </div>
+        <div class="news-meta">TechCrunch · AIbase · The Verge · 另 5 篇报道</div>
+        <ul class="news-note">
+          <li>Meta 称美国用户现在可与自己的 Muse AI 虚拟形象进行视频聊天。</li>
+          <li>把数字分身从静态形象推进到实时视频互动。</li>
+          <li>社交平台继续把生成式形象嵌入核心沟通场景。</li>
+          <li>新增 Spaces：可在应用内为不同场景创建自定义协作空间，与 Muse Agent 协作。</li>
+        </ul>
+        <details class="news-related">
+          <summary>另 5 篇报道</summary>
+          <ul>
+            <li><span class="src">AIbase</span><a href="https://www.aibase.com/news/32143" target="_blank" rel="noopener noreferrer">给 AI 安上脸和嗓子：Meta 的 Muse 能视频聊天了</a></li>
+            <li><span class="src">AIbase</span><a href="https://www.aibase.com/news/32127" target="_blank" rel="noopener noreferrer">Meta面向美国用户推出Muse AI化身视频聊天功能</a></li>
+            <li><span class="src">TechCrunch</span><a href="https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent" target="_blank" rel="noopener noreferrer">Meta introduces Spaces, a new way to collaborate with your Muse agent</a></li>
+            <li><span class="src">The Verge</span><a href="https://www.theverge.com/tech/1028871/meta-muse-ai-spaces" target="_blank" rel="noopener noreferrer">Meta’s Muse AI can create custom ‘spaces’ for the version of the app you need</a></li>
+            <li><span class="src">TechMeme</span><a href="https://www.techmeme.com/261106/p28" target="_blank" rel="noopener noreferrer">Meta introduces specialized Muse Wonder-trained models with Active Memory and Active Focus</a></li>
+          </ul>
+        </details>
+      </li>
+      <li class="news-card news-extra">
+        <div class="news-card-head">
+          <a class="title" href="https://www.aibase.com/news/32078" target="_blank" rel="noopener noreferrer">腾讯混元 Hy4 正式版发布：加入视觉与电脑操作，将公开权重</a>
+          
+        </div>
+        <div class="news-meta">AI 资讯</div>
+        <ul class="news-note">
+          <li>腾讯 Hy4 正式版相对 8 月预览版新增视觉能力与「电脑操作」，并针对 Blender/CAD 等训练。</li>
+          <li>宣称跻身最强开源阵营，API 价格不变并将公开模型权重。</li>
+          <li>WorkBuddy/CodeBuddy 限时赠送 Hy4 免费额度（11/4–15）。</li>
+        </ul>
+        <details class="news-related">
+          <summary>另 5 篇报道</summary>
+          <ul>
+            <li><span class="src">SocialData X</span><a href="https://x.com/NFT_Chen/status/2117855726160982189" target="_blank" rel="noopener noreferrer">🔥速取白嫖！腾讯Hy4正式版限时免费开蹬！ 11月4日-15日，WorkBuddy/CodeBuddy上Hy4每日赠送免费额度，订阅用户更高，界面直接0.00x消耗。 打开WorkBuddy，模型列表里选Hy4，直接开干，别等额度被抢完再排队。 窗口就这十几天，错过再等就得花钱了，冲！ #ai #大模型 #AI人工智能 #hy4 #腾讯 #混元 #workbuddy #限免 #白嫖</a></li>
+            <li><span class="src">NewsNow</span><a href="https://juejin.cn/post/7704150793607462950" target="_blank" rel="noopener noreferrer">腾讯混元 Hy4 正式版发布了</a></li>
+            <li><span class="src">Buzzing</span><a href="https://hy.tencent.ai/research/hy4" target="_blank" rel="noopener noreferrer">腾讯 Hy4</a></li>
+            <li><span class="src">TechURLs</span><a href="https://www.techmeme.com/261104/p14" target="_blank" rel="noopener noreferrer">Tencent releases its Hy4 open-weight foundation model, which it says joins the top tier of Chinese open-weight AI for th</a></li>
+            <li><span class="src">The Decoder</span><a href="https://the-decoder.com/tencent-releases-hy4-with-vision-and-computer-use-claims-second-place-among-chinese-ai-models" target="_blank" rel="noopener noreferrer">腾讯发布支持视觉与电脑操作的 Hy4，称其在中国 AI 模型中排名第二</a></li>
+          </ul>
+        </details>
+      </li>
+      <li class="news-card news-extra">
+        <div class="news-card-head">
+          <a class="title" href="https://the-decoder.com/openais-upcoming-chat-and-work-merger-in-chatgpt-signals-the-end-of-all-you-can-prompt-pricing" target="_blank" rel="noopener noreferrer">OpenAI 引导 ChatGPT 用户付费并推进 Chat/Work 融合，预示无限提示模式走向终结</a>
+          
+        </div>
+        <div class="news-meta">The Decoder · Curated Media · TechURLs · 另 3 篇报道</div>
+        <ul class="news-note">
+          <li>The Decoder 称 OpenAI 将融合 ChatGPT 聊天与工作功能，冲击「无限提示」定价预期。</li>
+          <li>另文指 OpenAI 正引导用户转向更多付费使用。</li>
+          <li>叠加用量限制合并，消费级与工作流入口的变现逻辑更清晰。</li>
+        </ul>
+        <details class="news-related">
+          <summary>另 3 篇报道</summary>
+          <ul>
+            <li><span class="src">The Decoder</span><a href="https://the-decoder.com/openai-is-steering-chatgpt-users-toward-more-paid-usage" target="_blank" rel="noopener noreferrer">OpenAI正引导ChatGPT用户更多地为使用付费</a></li>
+            <li><span class="src">Curated Media</span><a href="https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs" target="_blank" rel="noopener noreferrer">OpenAI 终于要把 ChatGPT 的 Chat 和 Work 两个标签页合并了</a></li>
+            <li><span class="src">TechURLs</span><a href="https://www.techmeme.com/261102/p21" target="_blank" rel="noopener noreferrer">Email: OpenAI plans to merge ChatGPT&#x27;s Chat and Work tabs on desktop, rolling out to select users before a wider release; Codex remains a separate experience (Ivan Mehta/TechCrunch)</a></li>
+          </ul>
+        </details>
+      </li>
+      <li class="news-card news-extra">
+        <div class="news-card-head">
+          <a class="title" href="https://the-decoder.com/spacexsi-apparently-cuts-grok-bot-quotas-weeks-after-musk-called-it-his-fastest-growing-product" target="_blank" rel="noopener noreferrer">马斯克/xAI：Grok Bot 成本「高得不可持续」，收紧使用配额</a>
+          
+        </div>
+        <div class="news-meta">Curated Media · TechURLs · AIbase · 另 6 篇报道</div>
+        <ul class="news-note">
+          <li>马斯克/xAI 称 Grok Bot 成本「高得不可持续」，暂无法无限量使用。</li>
+          <li>新报道称相关侧亦在削减配额，付费用户周额度消耗引发关注。</li>
+          <li>反映前沿 Bot 产品单位经济压力，影响重度用户与套餐策略。</li>
+        </ul>
+        <details class="news-related">
+          <summary>另 6 篇报道</summary>
+          <ul>
+            <li><span class="src">Curated Media</span><a href="https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs" target="_blank" rel="noopener noreferrer">Elon Musk 因成本“高得不可持续”收紧 Grok Bot 的使用限制</a></li>
+            <li><span class="src">TechURLs</span><a href="https://thenextweb.com/news/grok-bot-costs-unsustainably-high-musk-usage-limits" target="_blank" rel="noopener noreferrer">Musk 称 Grok Bot 成本高得不可持续，用户很早就用完了额度</a></li>
+            <li><span class="src">TechURLs</span><a href="https://www.techmeme.com/261102/p20" target="_blank" rel="noopener noreferrer">Elon Musk says the cost of serving Grok Bot was &quot;unsustainably high relative to revenue&quot;, following subscriber complaints regarding rapid usage limit depletion (Siladitya Ray/Forbes)</a></li>
+            <li><span class="src">TechURLs</span><a href="https://www.businessinsider.com/grok-bot-usage-limits-costs-unsustainably-high-elon-musk-agents-2026-11" target="_blank" rel="noopener noreferrer">Elon Musk 称，成本“高得不可持续”是 Grok Bot 限制使用的原因</a></li>
+            <li><span class="src">AIbase</span><a href="https://www.aibase.com/news/32052" target="_blank" rel="noopener noreferrer">算力成本高昂难以承受？传SpaceX悄悄削减Grok Bot配额，马斯克坦言营利失衡</a></li>
+            <li><span class="src">AIbase</span><a href="https://www.aibase.com/news/32028" target="_blank" rel="noopener noreferrer">马斯克表示 Grok Bot 暂无法实现无限量使用，付费用户周额度消耗引发关注</a></li>
+          </ul>
+        </details>
+      </li>
+      </ol>
+      <div class="news-toggle-wrap">
+        <button type="button" class="news-toggle" id="news-toggle-7d" aria-expanded="false" aria-controls="news-list-7d">展开更多</button>
+      </div>
+      <script>
+      (function () {
+        var btn = document.getElementById("news-toggle-7d");
+        var list = document.getElementById("news-list-7d");
+        if (!btn || !list) return;
+        btn.addEventListener("click", function () {
+          var collapsed = list.classList.toggle("is-collapsed");
+          btn.setAttribute("aria-expanded", collapsed ? "false" : "true");
+          btn.textContent = collapsed ? "展开更多" : "收起";
+        });
+      })();
+      </script>
+      </div>
+      <script>
+      (function () {
+        var tabs = Array.prototype.slice.call(document.querySelectorAll("#news-tabs .news-tab"));
+        var panels = Array.prototype.slice.call(document.querySelectorAll(".news-panel"));
+        tabs.forEach(function (btn, i) {
+          btn.addEventListener("click", function () {
+            tabs.forEach(function (b, j) {
+              b.setAttribute("aria-selected", j === i ? "true" : "false");
+              if (panels[j]) {
+                if (j === i) panels[j].removeAttribute("hidden");
+                else panels[j].setAttribute("hidden", "");
+              }
+            });
+          });
+        });
+      })();
+      </script>
+    </section>
+
+    <hr class="section-divider" />
+
+    <div class="section-head" style="margin-top:1.15rem;margin-bottom:0">
+      <h2>AI 周榜仓库</h2>
+      <span class="section-meta">总榜 + 分榜 · 按本周新增星标 · 可多榜 · 默认前 3 · 可展开至 10</span>
+    </div>
+    <div class="repo-tabs" id="repo-tabs" role="tablist" aria-label="仓库分榜">
+            <button type="button" class="repo-tab" role="tab" id="repo-tab-0" aria-selected="true" aria-controls="repo-panel-0" data-tab-index="0">总榜</button>
+      <button type="button" class="repo-tab" role="tab" id="repo-tab-1" aria-selected="false" aria-controls="repo-panel-1" data-tab-index="1">Skill</button>
+      <button type="button" class="repo-tab" role="tab" id="repo-tab-2" aria-selected="false" aria-controls="repo-panel-2" data-tab-index="2">Agent</button>
+      <button type="button" class="repo-tab" role="tab" id="repo-tab-3" aria-selected="false" aria-controls="repo-panel-3" data-tab-index="3">模型与推理</button>
+      <button type="button" class="repo-tab" role="tab" id="repo-tab-4" aria-selected="false" aria-controls="repo-panel-4" data-tab-index="4">应用与产品</button>
+      <button type="button" class="repo-tab" role="tab" id="repo-tab-5" aria-selected="false" aria-controls="repo-panel-5" data-tab-index="5">开发工具链</button>
+      <button type="button" class="repo-tab" role="tab" id="repo-tab-6" aria-selected="false" aria-controls="repo-panel-6" data-tab-index="6">数据与评测</button>
+    </div>
+<div class="repo-panel" role="tabpanel" id="repo-panel-0" aria-labelledby="repo-tab-0">
+<ol class="cards is-collapsed" id="repo-list-0">
+
+      <li class="card">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">01</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/pingdotgg/t3code" target="_blank" rel="noopener noreferrer">pingdotgg/t3code</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#3178c6"></i>TypeScript</span>
+              <span class="pill">星标 <strong>★ 53,996</strong></span>
+              <span class="pill week">本周 <strong>+15,379</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">远程操控台</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：手机/Web → 调度本机 → 驱动 Agent"><span class="step">手机/Web</span><span class="arrow" aria-hidden="true">→</span><span class="step">调度本机</span><span class="arrow" aria-hidden="true">→</span><span class="step">驱动 Agent</span></div></div>
+        </div>
+        <p class="intro">用手机或网页远程调度本机 Claude Code / Cursor 等 Agent。</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+15,379</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 100%">
+            <div class="bar-fill" style="width:100%"></div>
+          </div>
+        </div>
+      </li>
+
+      <li class="card">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">02</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/vercel-labs/agent-desktop" target="_blank" rel="noopener noreferrer">vercel-labs/agent-desktop</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#dea584"></i>Rust</span>
+              <span class="pill">星标 <strong>★ 20,372</strong></span>
+              <span class="pill week">本周 <strong>+13,712</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">电脑操控 CLI</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：下指令 → 操控电脑 → Agent 执行"><span class="step">下指令</span><span class="arrow" aria-hidden="true">→</span><span class="step">操控电脑</span><span class="arrow" aria-hidden="true">→</span><span class="step">Agent 执行</span></div></div>
+        </div>
+        <p class="intro">面向 AI Agent 的电脑操控命令行，让智能体直接操作桌面。</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+13,712</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 89%">
+            <div class="bar-fill" style="width:89%"></div>
+          </div>
+        </div>
+      </li>
+
+      <li class="card">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">03</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/cloudflare/security-audit-skill" target="_blank" rel="noopener noreferrer">cloudflare/security-audit-skill</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#f1e05a"></i>JavaScript</span>
+              <span class="pill">星标 <strong>★ 67,982</strong></span>
+              <span class="pill week">本周 <strong>+10,600</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">AI 相关</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：了解 → 试用"><span class="step">了解</span><span class="arrow" aria-hidden="true">→</span><span class="step">试用</span></div></div>
+        </div>
+        <p class="intro">A coding-agent skill for multi-phase se…</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+10,600</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 69%">
+            <div class="bar-fill" style="width:69%"></div>
+          </div>
+        </div>
+      </li>
+
+      <li class="card repo-extra">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">04</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/mattpocock/skills" target="_blank" rel="noopener noreferrer">mattpocock/skills</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#89e051"></i>Shell</span>
+              <span class="pill">星标 <strong>★ 319,650</strong></span>
+              <span class="pill week">本周 <strong>+9,635</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">Agent 技能库</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：复制技能 → 装进 Agent → 复用能力"><span class="step">复制技能</span><span class="arrow" aria-hidden="true">→</span><span class="step">装进 Agent</span><span class="arrow" aria-hidden="true">→</span><span class="step">复用能力</span></div></div>
+        </div>
+        <p class="intro">开源 Agent Skills 合集，复制即用。</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+9,635</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 63%">
+            <div class="bar-fill" style="width:63%"></div>
+          </div>
+        </div>
+      </li>
+
+      <li class="card repo-extra">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">05</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/NVIDIA/auto-ontology" target="_blank" rel="noopener noreferrer">NVIDIA/auto-ontology</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#3572A5"></i>Python</span>
+              <span class="pill">星标 <strong>★ 10,987</strong></span>
+              <span class="pill week">本周 <strong>+9,327</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">AI 相关</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：了解 → 试用"><span class="step">了解</span><span class="arrow" aria-hidden="true">→</span><span class="step">试用</span></div></div>
+        </div>
+        <p class="intro">Auto Ontology is a Python framework for…</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+9,327</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 61%">
+            <div class="bar-fill" style="width:61%"></div>
+          </div>
+        </div>
+      </li>
+
+      <li class="card repo-extra">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">06</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/milind-soni/OpenMausBot" target="_blank" rel="noopener noreferrer">milind-soni/OpenMausBot</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#3178c6"></i>TypeScript</span>
+              <span class="pill">星标 <strong>★ 19,587</strong></span>
+              <span class="pill week">本周 <strong>+7,621</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">AI 相关</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：了解 → 试用"><span class="step">了解</span><span class="arrow" aria-hidden="true">→</span><span class="step">试用</span></div></div>
+        </div>
+        <p class="intro">Open-source Grok Bot alternative with a…</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+7,621</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 50%">
+            <div class="bar-fill" style="width:50%"></div>
+          </div>
+        </div>
+      </li>
+
+      <li class="card repo-extra">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">07</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/pbakaus/impeccable" target="_blank" rel="noopener noreferrer">pbakaus/impeccable</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#dea584"></i>Rust</span>
+              <span class="pill">星标 <strong>★ 106,832</strong></span>
+              <span class="pill week">本周 <strong>+7,196</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">设计语言</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：装技能 → 约束设计 → 少出烂 UI"><span class="step">装技能</span><span class="arrow" aria-hidden="true">→</span><span class="step">约束设计</span><span class="arrow" aria-hidden="true">→</span><span class="step">少出烂 UI</span></div></div>
+        </div>
+        <p class="intro">给 AI 编程 Agent 一套前端设计语言与检测规则。</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+7,196</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 47%">
+            <div class="bar-fill" style="width:47%"></div>
+          </div>
+        </div>
+      </li>
+
+      <li class="card repo-extra">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">08</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/stablyai/orca" target="_blank" rel="noopener noreferrer">stablyai/orca</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#3178c6"></i>TypeScript</span>
+              <span class="pill">星标 <strong>★ 118,093</strong></span>
+              <span class="pill week">本周 <strong>+6,921</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">AI 相关</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：了解 → 试用"><span class="step">了解</span><span class="arrow" aria-hidden="true">→</span><span class="step">试用</span></div></div>
+        </div>
+        <p class="intro">Orca is the place for working with a fl…</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+6,921</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 45%">
+            <div class="bar-fill" style="width:45%"></div>
+          </div>
+        </div>
+      </li>
+
+      <li class="card repo-extra">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">09</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/thedotmack/claude-mem" target="_blank" rel="noopener noreferrer">thedotmack/claude-mem</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#3178c6"></i>TypeScript</span>
+              <span class="pill">星标 <strong>★ 115,369</strong></span>
+              <span class="pill week">本周 <strong>+6,443</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">跨会话记忆</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：记录 → 压缩 → 下次注入"><span class="step">记录</span><span class="arrow" aria-hidden="true">→</span><span class="step">压缩</span><span class="arrow" aria-hidden="true">→</span><span class="step">下次注入</span></div></div>
+        </div>
+        <p class="intro">给 Agent 加跨会话长期记忆，自动压缩后再注入上下文。</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+6,443</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 42%">
+            <div class="bar-fill" style="width:42%"></div>
+          </div>
+        </div>
+      </li>
+
+      <li class="card repo-extra">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">10</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/HunYiSage/dsh-purge" target="_blank" rel="noopener noreferrer">HunYiSage/dsh-purge</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#f1e05a"></i>JavaScript</span>
+              <span class="pill">星标 <strong>★ 20,403</strong></span>
+              <span class="pill week">本周 <strong>+6,363</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">AI 相关</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：了解 → 试用"><span class="step">了解</span><span class="arrow" aria-hidden="true">→</span><span class="step">试用</span></div></div>
+        </div>
+        <p class="intro">DeepSeek Harness 破甲：让所有模型都能破甲，不同模型可换不同提…</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+6,363</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 41%">
+            <div class="bar-fill" style="width:41%"></div>
+          </div>
+        </div>
+      </li>
+
+    </ol>
+    <div class="news-toggle-wrap">
+      <button type="button" class="news-toggle" id="repo-toggle-0" aria-expanded="false" aria-controls="repo-list-0">展开更多</button>
+    </div>
+    </div>
+<div class="repo-panel" role="tabpanel" id="repo-panel-1" aria-labelledby="repo-tab-1" hidden>
+<ol class="cards is-collapsed" id="repo-list-1">
+
+      <li class="card">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">01</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/cloudflare/security-audit-skill" target="_blank" rel="noopener noreferrer">cloudflare/security-audit-skill</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#f1e05a"></i>JavaScript</span>
+              <span class="pill">星标 <strong>★ 67,982</strong></span>
+              <span class="pill week">本周 <strong>+10,600</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">AI 相关</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：了解 → 试用"><span class="step">了解</span><span class="arrow" aria-hidden="true">→</span><span class="step">试用</span></div></div>
+        </div>
+        <p class="intro">A coding-agent skill for multi-phase se…</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+10,600</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 100%">
+            <div class="bar-fill" style="width:100%"></div>
+          </div>
+        </div>
+      </li>
+
+      <li class="card">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">02</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/mattpocock/skills" target="_blank" rel="noopener noreferrer">mattpocock/skills</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#89e051"></i>Shell</span>
+              <span class="pill">星标 <strong>★ 319,650</strong></span>
+              <span class="pill week">本周 <strong>+9,635</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">Agent 技能库</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：复制技能 → 装进 Agent → 复用能力"><span class="step">复制技能</span><span class="arrow" aria-hidden="true">→</span><span class="step">装进 Agent</span><span class="arrow" aria-hidden="true">→</span><span class="step">复用能力</span></div></div>
+        </div>
+        <p class="intro">开源 Agent Skills 合集，复制即用。</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+9,635</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 91%">
+            <div class="bar-fill" style="width:91%"></div>
+          </div>
+        </div>
+      </li>
+
+      <li class="card">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">03</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/pbakaus/impeccable" target="_blank" rel="noopener noreferrer">pbakaus/impeccable</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#dea584"></i>Rust</span>
+              <span class="pill">星标 <strong>★ 106,832</strong></span>
+              <span class="pill week">本周 <strong>+7,196</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">设计语言</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：装技能 → 约束设计 → 少出烂 UI"><span class="step">装技能</span><span class="arrow" aria-hidden="true">→</span><span class="step">约束设计</span><span class="arrow" aria-hidden="true">→</span><span class="step">少出烂 UI</span></div></div>
+        </div>
+        <p class="intro">给 AI 编程 Agent 一套前端设计语言与检测规则。</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+7,196</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 68%">
+            <div class="bar-fill" style="width:68%"></div>
+          </div>
+        </div>
+      </li>
+
+      <li class="card repo-extra">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">04</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/thedotmack/claude-mem" target="_blank" rel="noopener noreferrer">thedotmack/claude-mem</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#3178c6"></i>TypeScript</span>
+              <span class="pill">星标 <strong>★ 115,369</strong></span>
+              <span class="pill week">本周 <strong>+6,443</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">跨会话记忆</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：记录 → 压缩 → 下次注入"><span class="step">记录</span><span class="arrow" aria-hidden="true">→</span><span class="step">压缩</span><span class="arrow" aria-hidden="true">→</span><span class="step">下次注入</span></div></div>
+        </div>
+        <p class="intro">给 Agent 加跨会话长期记忆，自动压缩后再注入上下文。</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+6,443</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 61%">
+            <div class="bar-fill" style="width:61%"></div>
+          </div>
+        </div>
+      </li>
+
+      <li class="card repo-extra">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">05</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/HunYiSage/dsh-purge" target="_blank" rel="noopener noreferrer">HunYiSage/dsh-purge</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#f1e05a"></i>JavaScript</span>
+              <span class="pill">星标 <strong>★ 20,403</strong></span>
+              <span class="pill week">本周 <strong>+6,363</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">AI 相关</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：了解 → 试用"><span class="step">了解</span><span class="arrow" aria-hidden="true">→</span><span class="step">试用</span></div></div>
+        </div>
+        <p class="intro">DeepSeek Harness 破甲：让所有模型都能破甲，不同模型可换不同提…</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+6,363</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 60%">
+            <div class="bar-fill" style="width:60%"></div>
+          </div>
+        </div>
+      </li>
+
+      <li class="card repo-extra">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">06</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/Nutlope/hallmark" target="_blank" rel="noopener noreferrer">Nutlope/hallmark</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#8b9bb4"></i>CSS</span>
+              <span class="pill">星标 <strong>★ 51,720</strong></span>
+              <span class="pill week">本周 <strong>+6,356</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">AI 相关</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：了解 → 试用"><span class="step">了解</span><span class="arrow" aria-hidden="true">→</span><span class="step">试用</span></div></div>
+        </div>
+        <p class="intro">Anti-AI-slop design skill for Claude Co…</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+6,356</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 60%">
+            <div class="bar-fill" style="width:60%"></div>
+          </div>
+        </div>
+      </li>
+
+      <li class="card repo-extra">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">07</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/DietrichGebert/ponytail" target="_blank" rel="noopener noreferrer">DietrichGebert/ponytail</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#f1e05a"></i>JavaScript</span>
+              <span class="pill">星标 <strong>★ 185,494</strong></span>
+              <span class="pill week">本周 <strong>+5,368</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">懒人技能</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：装技能 → 少写代码 → Agent 更稳"><span class="step">装技能</span><span class="arrow" aria-hidden="true">→</span><span class="step">少写代码</span><span class="arrow" aria-hidden="true">→</span><span class="step">Agent 更稳</span></div></div>
+        </div>
+        <p class="intro">让 Agent 像懒高级工程师一样少写废话代码。</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+5,368</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 51%">
+            <div class="bar-fill" style="width:51%"></div>
+          </div>
+        </div>
+      </li>
+
+      <li class="card repo-extra">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">08</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/affaan-m/ECC" target="_blank" rel="noopener noreferrer">affaan-m/ECC</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#f1e05a"></i>JavaScript</span>
+              <span class="pill">星标 <strong>★ 300,197</strong></span>
+              <span class="pill week">本周 <strong>+5,337</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">AI 相关</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：了解 → 试用"><span class="step">了解</span><span class="arrow" aria-hidden="true">→</span><span class="step">试用</span></div></div>
+        </div>
+        <p class="intro">The agent harness performance optimizat…</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+5,337</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 50%">
+            <div class="bar-fill" style="width:50%"></div>
+          </div>
+        </div>
+      </li>
+
+      <li class="card repo-extra">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">09</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/Donchitos/Claude-Code-Game-Studios" target="_blank" rel="noopener noreferrer">Donchitos/Claude-Code-Game-Studios</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#89e051"></i>Shell</span>
+              <span class="pill">星标 <strong>★ 37,508</strong></span>
+              <span class="pill week">本周 <strong>+5,235</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">游戏工作室</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：组角色 → 跑流水线 → 出游戏内容"><span class="step">组角色</span><span class="arrow" aria-hidden="true">→</span><span class="step">跑流水线</span><span class="arrow" aria-hidden="true">→</span><span class="step">出游戏内容</span></div></div>
+        </div>
+        <p class="intro">用数十个 AI Agent 角色，把 Claude Code 变成小型游戏工作室。</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+5,235</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 49%">
+            <div class="bar-fill" style="width:49%"></div>
+          </div>
+        </div>
+      </li>
+
+      <li class="card repo-extra">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">10</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/Leonxlnx/taste-skill" target="_blank" rel="noopener noreferrer">Leonxlnx/taste-skill</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#f1e05a"></i>JavaScript</span>
+              <span class="pill">星标 <strong>★ 111,365</strong></span>
+              <span class="pill week">本周 <strong>+5,064</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">审美技能</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：装技能 → 约束审美 → 少出烂设计"><span class="step">装技能</span><span class="arrow" aria-hidden="true">→</span><span class="step">约束审美</span><span class="arrow" aria-hidden="true">→</span><span class="step">少出烂设计</span></div></div>
+        </div>
+        <p class="intro">给 Agent 加审美约束，减少千篇一律的烂前端。</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+5,064</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 48%">
+            <div class="bar-fill" style="width:48%"></div>
+          </div>
+        </div>
+      </li>
+
+    </ol>
+    <div class="news-toggle-wrap">
+      <button type="button" class="news-toggle" id="repo-toggle-1" aria-expanded="false" aria-controls="repo-list-1">展开更多</button>
+    </div>
+    </div>
+<div class="repo-panel" role="tabpanel" id="repo-panel-2" aria-labelledby="repo-tab-2" hidden>
+<ol class="cards is-collapsed" id="repo-list-2">
+
+      <li class="card">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">01</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/pingdotgg/t3code" target="_blank" rel="noopener noreferrer">pingdotgg/t3code</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#3178c6"></i>TypeScript</span>
+              <span class="pill">星标 <strong>★ 53,996</strong></span>
+              <span class="pill week">本周 <strong>+15,379</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">远程操控台</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：手机/Web → 调度本机 → 驱动 Agent"><span class="step">手机/Web</span><span class="arrow" aria-hidden="true">→</span><span class="step">调度本机</span><span class="arrow" aria-hidden="true">→</span><span class="step">驱动 Agent</span></div></div>
+        </div>
+        <p class="intro">用手机或网页远程调度本机 Claude Code / Cursor 等 Agent。</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+15,379</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 100%">
+            <div class="bar-fill" style="width:100%"></div>
+          </div>
+        </div>
+      </li>
+
+      <li class="card">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">02</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/vercel-labs/agent-desktop" target="_blank" rel="noopener noreferrer">vercel-labs/agent-desktop</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#dea584"></i>Rust</span>
+              <span class="pill">星标 <strong>★ 20,372</strong></span>
+              <span class="pill week">本周 <strong>+13,712</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">电脑操控 CLI</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：下指令 → 操控电脑 → Agent 执行"><span class="step">下指令</span><span class="arrow" aria-hidden="true">→</span><span class="step">操控电脑</span><span class="arrow" aria-hidden="true">→</span><span class="step">Agent 执行</span></div></div>
+        </div>
+        <p class="intro">面向 AI Agent 的电脑操控命令行，让智能体直接操作桌面。</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+13,712</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 89%">
+            <div class="bar-fill" style="width:89%"></div>
+          </div>
+        </div>
+      </li>
+
+      <li class="card">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">03</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/NVIDIA/auto-ontology" target="_blank" rel="noopener noreferrer">NVIDIA/auto-ontology</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#3572A5"></i>Python</span>
+              <span class="pill">星标 <strong>★ 10,987</strong></span>
+              <span class="pill week">本周 <strong>+9,327</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">AI 相关</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：了解 → 试用"><span class="step">了解</span><span class="arrow" aria-hidden="true">→</span><span class="step">试用</span></div></div>
+        </div>
+        <p class="intro">Auto Ontology is a Python framework for…</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+9,327</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 61%">
+            <div class="bar-fill" style="width:61%"></div>
+          </div>
+        </div>
+      </li>
+
+      <li class="card repo-extra">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">04</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/stablyai/orca" target="_blank" rel="noopener noreferrer">stablyai/orca</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#3178c6"></i>TypeScript</span>
+              <span class="pill">星标 <strong>★ 118,093</strong></span>
+              <span class="pill week">本周 <strong>+6,921</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">AI 相关</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：了解 → 试用"><span class="step">了解</span><span class="arrow" aria-hidden="true">→</span><span class="step">试用</span></div></div>
+        </div>
+        <p class="intro">Orca is the place for working with a fl…</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+6,921</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 45%">
+            <div class="bar-fill" style="width:45%"></div>
+          </div>
+        </div>
+      </li>
+
+      <li class="card repo-extra">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">05</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/thedotmack/claude-mem" target="_blank" rel="noopener noreferrer">thedotmack/claude-mem</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#3178c6"></i>TypeScript</span>
+              <span class="pill">星标 <strong>★ 115,369</strong></span>
+              <span class="pill week">本周 <strong>+6,443</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">跨会话记忆</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：记录 → 压缩 → 下次注入"><span class="step">记录</span><span class="arrow" aria-hidden="true">→</span><span class="step">压缩</span><span class="arrow" aria-hidden="true">→</span><span class="step">下次注入</span></div></div>
+        </div>
+        <p class="intro">给 Agent 加跨会话长期记忆，自动压缩后再注入上下文。</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+6,443</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 42%">
+            <div class="bar-fill" style="width:42%"></div>
+          </div>
+        </div>
+      </li>
+
+      <li class="card repo-extra">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">06</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/DietrichGebert/ponytail" target="_blank" rel="noopener noreferrer">DietrichGebert/ponytail</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#f1e05a"></i>JavaScript</span>
+              <span class="pill">星标 <strong>★ 185,494</strong></span>
+              <span class="pill week">本周 <strong>+5,368</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">懒人技能</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：装技能 → 少写代码 → Agent 更稳"><span class="step">装技能</span><span class="arrow" aria-hidden="true">→</span><span class="step">少写代码</span><span class="arrow" aria-hidden="true">→</span><span class="step">Agent 更稳</span></div></div>
+        </div>
+        <p class="intro">让 Agent 像懒高级工程师一样少写废话代码。</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+5,368</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 35%">
+            <div class="bar-fill" style="width:35%"></div>
+          </div>
+        </div>
+      </li>
+
+      <li class="card repo-extra">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">07</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/affaan-m/ECC" target="_blank" rel="noopener noreferrer">affaan-m/ECC</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#f1e05a"></i>JavaScript</span>
+              <span class="pill">星标 <strong>★ 300,197</strong></span>
+              <span class="pill week">本周 <strong>+5,337</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">AI 相关</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：了解 → 试用"><span class="step">了解</span><span class="arrow" aria-hidden="true">→</span><span class="step">试用</span></div></div>
+        </div>
+        <p class="intro">The agent harness performance optimizat…</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+5,337</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 35%">
+            <div class="bar-fill" style="width:35%"></div>
+          </div>
+        </div>
+      </li>
+
+      <li class="card repo-extra">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">08</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/Donchitos/Claude-Code-Game-Studios" target="_blank" rel="noopener noreferrer">Donchitos/Claude-Code-Game-Studios</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#89e051"></i>Shell</span>
+              <span class="pill">星标 <strong>★ 37,508</strong></span>
+              <span class="pill week">本周 <strong>+5,235</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">游戏工作室</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：组角色 → 跑流水线 → 出游戏内容"><span class="step">组角色</span><span class="arrow" aria-hidden="true">→</span><span class="step">跑流水线</span><span class="arrow" aria-hidden="true">→</span><span class="step">出游戏内容</span></div></div>
+        </div>
+        <p class="intro">用数十个 AI Agent 角色，把 Claude Code 变成小型游戏工作室。</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+5,235</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 34%">
+            <div class="bar-fill" style="width:34%"></div>
+          </div>
+        </div>
+      </li>
+
+      <li class="card repo-extra">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">09</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/heygen-com/hyperframes" target="_blank" rel="noopener noreferrer">heygen-com/hyperframes</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#3178c6"></i>TypeScript</span>
+              <span class="pill">星标 <strong>★ 78,603</strong></span>
+              <span class="pill week">本周 <strong>+4,546</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">HTML 转视频</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：写 HTML → 渲染帧 → 导出视频"><span class="step">写 HTML</span><span class="arrow" aria-hidden="true">→</span><span class="step">渲染帧</span><span class="arrow" aria-hidden="true">→</span><span class="step">导出视频</span></div></div>
+        </div>
+        <p class="intro">用 HTML/CSS 写画面，再渲染成视频，适合 Agent 自动做片。</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+4,546</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 30%">
+            <div class="bar-fill" style="width:30%"></div>
+          </div>
+        </div>
+      </li>
+
+      <li class="card repo-extra">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">10</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/meta/astryx" target="_blank" rel="noopener noreferrer">meta/astryx</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#3178c6"></i>TypeScript</span>
+              <span class="pill">星标 <strong>★ 19,767</strong></span>
+              <span class="pill week">本周 <strong>+4,413</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">AI 相关</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：了解 → 试用"><span class="step">了解</span><span class="arrow" aria-hidden="true">→</span><span class="step">试用</span></div></div>
+        </div>
+        <p class="intro">An open source design system that&#x27;s ful…</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+4,413</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 29%">
+            <div class="bar-fill" style="width:29%"></div>
+          </div>
+        </div>
+      </li>
+
+    </ol>
+    <div class="news-toggle-wrap">
+      <button type="button" class="news-toggle" id="repo-toggle-2" aria-expanded="false" aria-controls="repo-list-2">展开更多</button>
+    </div>
+    </div>
+<div class="repo-panel" role="tabpanel" id="repo-panel-3" aria-labelledby="repo-tab-3" hidden>
+<ol class="cards is-collapsed" id="repo-list-3">
+
+      <li class="card">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">01</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/NVIDIA/auto-ontology" target="_blank" rel="noopener noreferrer">NVIDIA/auto-ontology</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#3572A5"></i>Python</span>
+              <span class="pill">星标 <strong>★ 10,987</strong></span>
+              <span class="pill week">本周 <strong>+9,327</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">AI 相关</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：了解 → 试用"><span class="step">了解</span><span class="arrow" aria-hidden="true">→</span><span class="step">试用</span></div></div>
+        </div>
+        <p class="intro">Auto Ontology is a Python framework for…</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+9,327</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 100%">
+            <div class="bar-fill" style="width:100%"></div>
+          </div>
+        </div>
+      </li>
+
+      <li class="card">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">02</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/affaan-m/ECC" target="_blank" rel="noopener noreferrer">affaan-m/ECC</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#f1e05a"></i>JavaScript</span>
+              <span class="pill">星标 <strong>★ 300,197</strong></span>
+              <span class="pill week">本周 <strong>+5,337</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">AI 相关</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：了解 → 试用"><span class="step">了解</span><span class="arrow" aria-hidden="true">→</span><span class="step">试用</span></div></div>
+        </div>
+        <p class="intro">The agent harness performance optimizat…</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+5,337</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 57%">
+            <div class="bar-fill" style="width:57%"></div>
+          </div>
+        </div>
+      </li>
+
+      <li class="card">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">03</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/Graphify-Labs/graphify" target="_blank" rel="noopener noreferrer">Graphify-Labs/graphify</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#3572A5"></i>Python</span>
+              <span class="pill">星标 <strong>★ 144,993</strong></span>
+              <span class="pill week">本周 <strong>+4,105</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">AI 相关</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：了解 → 试用"><span class="step">了解</span><span class="arrow" aria-hidden="true">→</span><span class="step">试用</span></div></div>
+        </div>
+        <p class="intro">Turn any codebase, with its docs, SQL s…</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+4,105</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 44%">
+            <div class="bar-fill" style="width:44%"></div>
+          </div>
+        </div>
+      </li>
+
+      <li class="card repo-extra">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">04</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/tashfeenahmed/freellmapi" target="_blank" rel="noopener noreferrer">tashfeenahmed/freellmapi</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#3178c6"></i>TypeScript</span>
+              <span class="pill">星标 <strong>★ 49,428</strong></span>
+              <span class="pill week">本周 <strong>+3,761</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">免费 LLM 网关</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：接网关 → 路由模型 → 省 token 费"><span class="step">接网关</span><span class="arrow" aria-hidden="true">→</span><span class="step">路由模型</span><span class="arrow" aria-hidden="true">→</span><span class="step">省 token 费</span></div></div>
+        </div>
+        <p class="intro">聚合大量免费 LLM 接口到统一 OpenAI 兼容端点。</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+3,761</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 40%">
+            <div class="bar-fill" style="width:40%"></div>
+          </div>
+        </div>
+      </li>
+
+      <li class="card repo-extra">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">05</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/multica-ai/andrej-karpathy-skills" target="_blank" rel="noopener noreferrer">multica-ai/andrej-karpathy-skills</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#8b9bb4"></i>Unknown</span>
+              <span class="pill">星标 <strong>★ 230,411</strong></span>
+              <span class="pill week">本周 <strong>+3,671</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">AI 相关</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：了解 → 试用"><span class="step">了解</span><span class="arrow" aria-hidden="true">→</span><span class="step">试用</span></div></div>
+        </div>
+        <p class="intro">A single CLAUDE.md file to improve Clau…</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+3,671</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 39%">
+            <div class="bar-fill" style="width:39%"></div>
+          </div>
+        </div>
+      </li>
+
+      <li class="card repo-extra">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">06</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/JustVugg/colibri" target="_blank" rel="noopener noreferrer">JustVugg/colibri</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#8b9bb4"></i>C</span>
+              <span class="pill">星标 <strong>★ 49,368</strong></span>
+              <span class="pill week">本周 <strong>+3,383</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">AI 相关</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：了解 → 试用"><span class="step">了解</span><span class="arrow" aria-hidden="true">→</span><span class="step">试用</span></div></div>
+        </div>
+        <p class="intro">A hierarchical inference engine for fro…</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+3,383</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 36%">
+            <div class="bar-fill" style="width:36%"></div>
+          </div>
+        </div>
+      </li>
+
+      <li class="card repo-extra">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">07</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/blader/humanizer" target="_blank" rel="noopener noreferrer">blader/humanizer</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#3572A5"></i>Python</span>
+              <span class="pill">星标 <strong>★ 67,074</strong></span>
+              <span class="pill week">本周 <strong>+3,118</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">AI 相关</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：了解 → 试用"><span class="step">了解</span><span class="arrow" aria-hidden="true">→</span><span class="step">试用</span></div></div>
+        </div>
+        <p class="intro">Agent skill that removes signs of AI-ge…</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+3,118</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 33%">
+            <div class="bar-fill" style="width:33%"></div>
+          </div>
+        </div>
+      </li>
+
+      <li class="card repo-extra">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">08</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/TauricResearch/TradingAgents" target="_blank" rel="noopener noreferrer">TauricResearch/TradingAgents</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#3572A5"></i>Python</span>
+              <span class="pill">星标 <strong>★ 120,906</strong></span>
+              <span class="pill week">本周 <strong>+2,720</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">AI 相关</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：了解 → 试用"><span class="step">了解</span><span class="arrow" aria-hidden="true">→</span><span class="step">试用</span></div></div>
+        </div>
+        <p class="intro">TradingAgents: Multi-Agents LLM Financi…</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+2,720</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 29%">
+            <div class="bar-fill" style="width:29%"></div>
+          </div>
+        </div>
+      </li>
+
+      <li class="card repo-extra">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">09</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/shiyu-coder/Kronos" target="_blank" rel="noopener noreferrer">shiyu-coder/Kronos</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#3572A5"></i>Python</span>
+              <span class="pill">星标 <strong>★ 47,427</strong></span>
+              <span class="pill week">本周 <strong>+2,423</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">AI 相关</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：了解 → 试用"><span class="step">了解</span><span class="arrow" aria-hidden="true">→</span><span class="step">试用</span></div></div>
+        </div>
+        <p class="intro">Kronos: A Foundation Model for the Lang…</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+2,423</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 26%">
+            <div class="bar-fill" style="width:26%"></div>
+          </div>
+        </div>
+      </li>
+
+      <li class="card repo-extra">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">10</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/FareedKhan-dev/kimi-k3-in-c" target="_blank" rel="noopener noreferrer">FareedKhan-dev/kimi-k3-in-c</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#8b9bb4"></i>C</span>
+              <span class="pill">星标 <strong>★ 11,466</strong></span>
+              <span class="pill week">本周 <strong>+2,085</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">AI 相关</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：了解 → 试用"><span class="step">了解</span><span class="arrow" aria-hidden="true">→</span><span class="step">试用</span></div></div>
+        </div>
+        <p class="intro">A 2.78-trillion-parameter Kimi K3 runni…</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+2,085</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 22%">
+            <div class="bar-fill" style="width:22%"></div>
+          </div>
+        </div>
+      </li>
+
+    </ol>
+    <div class="news-toggle-wrap">
+      <button type="button" class="news-toggle" id="repo-toggle-3" aria-expanded="false" aria-controls="repo-list-3">展开更多</button>
+    </div>
+    </div>
+<div class="repo-panel" role="tabpanel" id="repo-panel-4" aria-labelledby="repo-tab-4" hidden>
+<ol class="cards is-collapsed" id="repo-list-4">
+
+      <li class="card">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">01</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/pingdotgg/t3code" target="_blank" rel="noopener noreferrer">pingdotgg/t3code</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#3178c6"></i>TypeScript</span>
+              <span class="pill">星标 <strong>★ 53,996</strong></span>
+              <span class="pill week">本周 <strong>+15,379</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">远程操控台</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：手机/Web → 调度本机 → 驱动 Agent"><span class="step">手机/Web</span><span class="arrow" aria-hidden="true">→</span><span class="step">调度本机</span><span class="arrow" aria-hidden="true">→</span><span class="step">驱动 Agent</span></div></div>
+        </div>
+        <p class="intro">用手机或网页远程调度本机 Claude Code / Cursor 等 Agent。</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+15,379</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 100%">
+            <div class="bar-fill" style="width:100%"></div>
+          </div>
+        </div>
+      </li>
+
+      <li class="card">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">02</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/milind-soni/OpenMausBot" target="_blank" rel="noopener noreferrer">milind-soni/OpenMausBot</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#3178c6"></i>TypeScript</span>
+              <span class="pill">星标 <strong>★ 19,587</strong></span>
+              <span class="pill week">本周 <strong>+7,621</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">AI 相关</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：了解 → 试用"><span class="step">了解</span><span class="arrow" aria-hidden="true">→</span><span class="step">试用</span></div></div>
+        </div>
+        <p class="intro">Open-source Grok Bot alternative with a…</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+7,621</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 50%">
+            <div class="bar-fill" style="width:50%"></div>
+          </div>
+        </div>
+      </li>
+
+      <li class="card">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">03</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/pbakaus/impeccable" target="_blank" rel="noopener noreferrer">pbakaus/impeccable</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#dea584"></i>Rust</span>
+              <span class="pill">星标 <strong>★ 106,832</strong></span>
+              <span class="pill week">本周 <strong>+7,196</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">设计语言</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：装技能 → 约束设计 → 少出烂 UI"><span class="step">装技能</span><span class="arrow" aria-hidden="true">→</span><span class="step">约束设计</span><span class="arrow" aria-hidden="true">→</span><span class="step">少出烂 UI</span></div></div>
+        </div>
+        <p class="intro">给 AI 编程 Agent 一套前端设计语言与检测规则。</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+7,196</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 47%">
+            <div class="bar-fill" style="width:47%"></div>
+          </div>
+        </div>
+      </li>
+
+      <li class="card repo-extra">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">04</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/Donchitos/Claude-Code-Game-Studios" target="_blank" rel="noopener noreferrer">Donchitos/Claude-Code-Game-Studios</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#89e051"></i>Shell</span>
+              <span class="pill">星标 <strong>★ 37,508</strong></span>
+              <span class="pill week">本周 <strong>+5,235</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">游戏工作室</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：组角色 → 跑流水线 → 出游戏内容"><span class="step">组角色</span><span class="arrow" aria-hidden="true">→</span><span class="step">跑流水线</span><span class="arrow" aria-hidden="true">→</span><span class="step">出游戏内容</span></div></div>
+        </div>
+        <p class="intro">用数十个 AI Agent 角色，把 Claude Code 变成小型游戏工作室。</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+5,235</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 34%">
+            <div class="bar-fill" style="width:34%"></div>
+          </div>
+        </div>
+      </li>
+
+      <li class="card repo-extra">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">05</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/Leonxlnx/taste-skill" target="_blank" rel="noopener noreferrer">Leonxlnx/taste-skill</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#f1e05a"></i>JavaScript</span>
+              <span class="pill">星标 <strong>★ 111,365</strong></span>
+              <span class="pill week">本周 <strong>+5,064</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">审美技能</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：装技能 → 约束审美 → 少出烂设计"><span class="step">装技能</span><span class="arrow" aria-hidden="true">→</span><span class="step">约束审美</span><span class="arrow" aria-hidden="true">→</span><span class="step">少出烂设计</span></div></div>
+        </div>
+        <p class="intro">给 Agent 加审美约束，减少千篇一律的烂前端。</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+5,064</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 33%">
+            <div class="bar-fill" style="width:33%"></div>
+          </div>
+        </div>
+      </li>
+
+      <li class="card repo-extra">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">06</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/heygen-com/hyperframes" target="_blank" rel="noopener noreferrer">heygen-com/hyperframes</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#3178c6"></i>TypeScript</span>
+              <span class="pill">星标 <strong>★ 78,603</strong></span>
+              <span class="pill week">本周 <strong>+4,546</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">HTML 转视频</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：写 HTML → 渲染帧 → 导出视频"><span class="step">写 HTML</span><span class="arrow" aria-hidden="true">→</span><span class="step">渲染帧</span><span class="arrow" aria-hidden="true">→</span><span class="step">导出视频</span></div></div>
+        </div>
+        <p class="intro">用 HTML/CSS 写画面，再渲染成视频，适合 Agent 自动做片。</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+4,546</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 30%">
+            <div class="bar-fill" style="width:30%"></div>
+          </div>
+        </div>
+      </li>
+
+      <li class="card repo-extra">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">07</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/meta/astryx" target="_blank" rel="noopener noreferrer">meta/astryx</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#3178c6"></i>TypeScript</span>
+              <span class="pill">星标 <strong>★ 19,767</strong></span>
+              <span class="pill week">本周 <strong>+4,413</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">AI 相关</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：了解 → 试用"><span class="step">了解</span><span class="arrow" aria-hidden="true">→</span><span class="step">试用</span></div></div>
+        </div>
+        <p class="intro">An open source design system that&#x27;s ful…</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+4,413</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 29%">
+            <div class="bar-fill" style="width:29%"></div>
+          </div>
+        </div>
+      </li>
+
+      <li class="card repo-extra">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">08</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/calesthio/OpenMontage" target="_blank" rel="noopener noreferrer">calesthio/OpenMontage</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#3572A5"></i>Python</span>
+              <span class="pill">星标 <strong>★ 78,240</strong></span>
+              <span class="pill week">本周 <strong>+4,405</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">智能制片</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：选流水线 → Agent 制作 → 出成片"><span class="step">选流水线</span><span class="arrow" aria-hidden="true">→</span><span class="step">Agent 制作</span><span class="arrow" aria-hidden="true">→</span><span class="step">出成片</span></div></div>
+        </div>
+        <p class="intro">开源 agentic 视频制作系统，多流水线与技能包。</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+4,405</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 29%">
+            <div class="bar-fill" style="width:29%"></div>
+          </div>
+        </div>
+      </li>
+
+      <li class="card repo-extra">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">09</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/harry0703/MoneyPrinterTurbo" target="_blank" rel="noopener noreferrer">harry0703/MoneyPrinterTurbo</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#3572A5"></i>Python</span>
+              <span class="pill">星标 <strong>★ 141,574</strong></span>
+              <span class="pill week">本周 <strong>+4,048</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">AI 相关</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：了解 → 试用"><span class="step">了解</span><span class="arrow" aria-hidden="true">→</span><span class="step">试用</span></div></div>
+        </div>
+        <p class="intro">利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+4,048</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 26%">
+            <div class="bar-fill" style="width:26%"></div>
+          </div>
+        </div>
+      </li>
+
+      <li class="card repo-extra">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">10</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/HKUDS/DeepTutor" target="_blank" rel="noopener noreferrer">HKUDS/DeepTutor</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#3572A5"></i>Python</span>
+              <span class="pill">星标 <strong>★ 57,591</strong></span>
+              <span class="pill week">本周 <strong>+3,399</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">AI 相关</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：了解 → 试用"><span class="step">了解</span><span class="arrow" aria-hidden="true">→</span><span class="step">试用</span></div></div>
+        </div>
+        <p class="intro">DeepTutor: Lifelong Personalized Tutori…</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+3,399</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 22%">
+            <div class="bar-fill" style="width:22%"></div>
+          </div>
+        </div>
+      </li>
+
+    </ol>
+    <div class="news-toggle-wrap">
+      <button type="button" class="news-toggle" id="repo-toggle-4" aria-expanded="false" aria-controls="repo-list-4">展开更多</button>
+    </div>
+    </div>
+<div class="repo-panel" role="tabpanel" id="repo-panel-5" aria-labelledby="repo-tab-5" hidden>
+<ol class="cards is-collapsed" id="repo-list-5">
+
+      <li class="card">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">01</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/pingdotgg/t3code" target="_blank" rel="noopener noreferrer">pingdotgg/t3code</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#3178c6"></i>TypeScript</span>
+              <span class="pill">星标 <strong>★ 53,996</strong></span>
+              <span class="pill week">本周 <strong>+15,379</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">远程操控台</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：手机/Web → 调度本机 → 驱动 Agent"><span class="step">手机/Web</span><span class="arrow" aria-hidden="true">→</span><span class="step">调度本机</span><span class="arrow" aria-hidden="true">→</span><span class="step">驱动 Agent</span></div></div>
+        </div>
+        <p class="intro">用手机或网页远程调度本机 Claude Code / Cursor 等 Agent。</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+15,379</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 100%">
+            <div class="bar-fill" style="width:100%"></div>
+          </div>
+        </div>
+      </li>
+
+      <li class="card">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">02</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/vercel-labs/agent-desktop" target="_blank" rel="noopener noreferrer">vercel-labs/agent-desktop</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#dea584"></i>Rust</span>
+              <span class="pill">星标 <strong>★ 20,372</strong></span>
+              <span class="pill week">本周 <strong>+13,712</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">电脑操控 CLI</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：下指令 → 操控电脑 → Agent 执行"><span class="step">下指令</span><span class="arrow" aria-hidden="true">→</span><span class="step">操控电脑</span><span class="arrow" aria-hidden="true">→</span><span class="step">Agent 执行</span></div></div>
+        </div>
+        <p class="intro">面向 AI Agent 的电脑操控命令行，让智能体直接操作桌面。</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+13,712</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 89%">
+            <div class="bar-fill" style="width:89%"></div>
+          </div>
+        </div>
+      </li>
+
+      <li class="card">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">03</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/pbakaus/impeccable" target="_blank" rel="noopener noreferrer">pbakaus/impeccable</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#dea584"></i>Rust</span>
+              <span class="pill">星标 <strong>★ 106,832</strong></span>
+              <span class="pill week">本周 <strong>+7,196</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">设计语言</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：装技能 → 约束设计 → 少出烂 UI"><span class="step">装技能</span><span class="arrow" aria-hidden="true">→</span><span class="step">约束设计</span><span class="arrow" aria-hidden="true">→</span><span class="step">少出烂 UI</span></div></div>
+        </div>
+        <p class="intro">给 AI 编程 Agent 一套前端设计语言与检测规则。</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+7,196</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 47%">
+            <div class="bar-fill" style="width:47%"></div>
+          </div>
+        </div>
+      </li>
+
+      <li class="card repo-extra">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">04</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/HunYiSage/dsh-purge" target="_blank" rel="noopener noreferrer">HunYiSage/dsh-purge</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#f1e05a"></i>JavaScript</span>
+              <span class="pill">星标 <strong>★ 20,403</strong></span>
+              <span class="pill week">本周 <strong>+6,363</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">AI 相关</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：了解 → 试用"><span class="step">了解</span><span class="arrow" aria-hidden="true">→</span><span class="step">试用</span></div></div>
+        </div>
+        <p class="intro">DeepSeek Harness 破甲：让所有模型都能破甲，不同模型可换不同提…</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+6,363</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 41%">
+            <div class="bar-fill" style="width:41%"></div>
+          </div>
+        </div>
+      </li>
+
+      <li class="card repo-extra">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">05</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/DietrichGebert/ponytail" target="_blank" rel="noopener noreferrer">DietrichGebert/ponytail</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#f1e05a"></i>JavaScript</span>
+              <span class="pill">星标 <strong>★ 185,494</strong></span>
+              <span class="pill week">本周 <strong>+5,368</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">懒人技能</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：装技能 → 少写代码 → Agent 更稳"><span class="step">装技能</span><span class="arrow" aria-hidden="true">→</span><span class="step">少写代码</span><span class="arrow" aria-hidden="true">→</span><span class="step">Agent 更稳</span></div></div>
+        </div>
+        <p class="intro">让 Agent 像懒高级工程师一样少写废话代码。</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+5,368</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 35%">
+            <div class="bar-fill" style="width:35%"></div>
+          </div>
+        </div>
+      </li>
+
+      <li class="card repo-extra">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">06</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/meta/astryx" target="_blank" rel="noopener noreferrer">meta/astryx</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#3178c6"></i>TypeScript</span>
+              <span class="pill">星标 <strong>★ 19,767</strong></span>
+              <span class="pill week">本周 <strong>+4,413</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">AI 相关</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：了解 → 试用"><span class="step">了解</span><span class="arrow" aria-hidden="true">→</span><span class="step">试用</span></div></div>
+        </div>
+        <p class="intro">An open source design system that&#x27;s ful…</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+4,413</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 29%">
+            <div class="bar-fill" style="width:29%"></div>
+          </div>
+        </div>
+      </li>
+
+      <li class="card repo-extra">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">07</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/calesthio/OpenMontage" target="_blank" rel="noopener noreferrer">calesthio/OpenMontage</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#3572A5"></i>Python</span>
+              <span class="pill">星标 <strong>★ 78,240</strong></span>
+              <span class="pill week">本周 <strong>+4,405</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">智能制片</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：选流水线 → Agent 制作 → 出成片"><span class="step">选流水线</span><span class="arrow" aria-hidden="true">→</span><span class="step">Agent 制作</span><span class="arrow" aria-hidden="true">→</span><span class="step">出成片</span></div></div>
+        </div>
+        <p class="intro">开源 agentic 视频制作系统，多流水线与技能包。</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+4,405</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 29%">
+            <div class="bar-fill" style="width:29%"></div>
+          </div>
+        </div>
+      </li>
+
+      <li class="card repo-extra">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">08</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/github/spec-kit" target="_blank" rel="noopener noreferrer">github/spec-kit</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#3572A5"></i>Python</span>
+              <span class="pill">星标 <strong>★ 148,999</strong></span>
+              <span class="pill week">本周 <strong>+4,045</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">AI 相关</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：了解 → 试用"><span class="step">了解</span><span class="arrow" aria-hidden="true">→</span><span class="step">试用</span></div></div>
+        </div>
+        <p class="intro">💫 Toolkit to help you get started with…</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+4,045</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 26%">
+            <div class="bar-fill" style="width:26%"></div>
+          </div>
+        </div>
+      </li>
+
+      <li class="card repo-extra">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">09</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/tashfeenahmed/freellmapi" target="_blank" rel="noopener noreferrer">tashfeenahmed/freellmapi</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#3178c6"></i>TypeScript</span>
+              <span class="pill">星标 <strong>★ 49,428</strong></span>
+              <span class="pill week">本周 <strong>+3,761</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">免费 LLM 网关</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：接网关 → 路由模型 → 省 token 费"><span class="step">接网关</span><span class="arrow" aria-hidden="true">→</span><span class="step">路由模型</span><span class="arrow" aria-hidden="true">→</span><span class="step">省 token 费</span></div></div>
+        </div>
+        <p class="intro">聚合大量免费 LLM 接口到统一 OpenAI 兼容端点。</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+3,761</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 24%">
+            <div class="bar-fill" style="width:24%"></div>
+          </div>
+        </div>
+      </li>
+
+      <li class="card repo-extra">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">10</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/beenuar/AiSOC" target="_blank" rel="noopener noreferrer">beenuar/AiSOC</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#3572A5"></i>Python</span>
+              <span class="pill">星标 <strong>★ 7,084</strong></span>
+              <span class="pill week">本周 <strong>+2,757</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">AI 相关</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：了解 → 试用"><span class="step">了解</span><span class="arrow" aria-hidden="true">→</span><span class="step">试用</span></div></div>
+        </div>
+        <p class="intro">Open-source AI Security Operations Cent…</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+2,757</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 18%">
+            <div class="bar-fill" style="width:18%"></div>
+          </div>
+        </div>
+      </li>
+
+    </ol>
+    <div class="news-toggle-wrap">
+      <button type="button" class="news-toggle" id="repo-toggle-5" aria-expanded="false" aria-controls="repo-list-5">展开更多</button>
+    </div>
+    </div>
+<div class="repo-panel" role="tabpanel" id="repo-panel-6" aria-labelledby="repo-tab-6" hidden>
+<ol class="cards is-collapsed" id="repo-list-6">
+
+      <li class="card">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">01</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/cloudflare/security-audit-skill" target="_blank" rel="noopener noreferrer">cloudflare/security-audit-skill</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#f1e05a"></i>JavaScript</span>
+              <span class="pill">星标 <strong>★ 67,982</strong></span>
+              <span class="pill week">本周 <strong>+10,600</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">AI 相关</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：了解 → 试用"><span class="step">了解</span><span class="arrow" aria-hidden="true">→</span><span class="step">试用</span></div></div>
+        </div>
+        <p class="intro">A coding-agent skill for multi-phase se…</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+10,600</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 100%">
+            <div class="bar-fill" style="width:100%"></div>
+          </div>
+        </div>
+      </li>
+
+      <li class="card">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">02</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/thedotmack/claude-mem" target="_blank" rel="noopener noreferrer">thedotmack/claude-mem</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#3178c6"></i>TypeScript</span>
+              <span class="pill">星标 <strong>★ 115,369</strong></span>
+              <span class="pill week">本周 <strong>+6,443</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">跨会话记忆</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：记录 → 压缩 → 下次注入"><span class="step">记录</span><span class="arrow" aria-hidden="true">→</span><span class="step">压缩</span><span class="arrow" aria-hidden="true">→</span><span class="step">下次注入</span></div></div>
+        </div>
+        <p class="intro">给 Agent 加跨会话长期记忆，自动压缩后再注入上下文。</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+6,443</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 61%">
+            <div class="bar-fill" style="width:61%"></div>
+          </div>
+        </div>
+      </li>
+
+      <li class="card">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">03</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/beenuar/AiSOC" target="_blank" rel="noopener noreferrer">beenuar/AiSOC</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#3572A5"></i>Python</span>
+              <span class="pill">星标 <strong>★ 7,084</strong></span>
+              <span class="pill week">本周 <strong>+2,757</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">AI 相关</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：了解 → 试用"><span class="step">了解</span><span class="arrow" aria-hidden="true">→</span><span class="step">试用</span></div></div>
+        </div>
+        <p class="intro">Open-source AI Security Operations Cent…</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+2,757</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 26%">
+            <div class="bar-fill" style="width:26%"></div>
+          </div>
+        </div>
+      </li>
+
+      <li class="card repo-extra">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">04</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/ruvnet/RuView" target="_blank" rel="noopener noreferrer">ruvnet/RuView</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#dea584"></i>Rust</span>
+              <span class="pill">星标 <strong>★ 102,476</strong></span>
+              <span class="pill week">本周 <strong>+1,791</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">AI 相关</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：了解 → 试用"><span class="step">了解</span><span class="arrow" aria-hidden="true">→</span><span class="step">试用</span></div></div>
+        </div>
+        <p class="intro">π RuView turns commodity WiFi signals i…</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+1,791</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 17%">
+            <div class="bar-fill" style="width:17%"></div>
+          </div>
+        </div>
+      </li>
+
+      <li class="card repo-extra">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">05</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/patchy631/ai-engineering-hub" target="_blank" rel="noopener noreferrer">patchy631/ai-engineering-hub</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#8b9bb4"></i>Jupyter Notebook</span>
+              <span class="pill">星标 <strong>★ 41,617</strong></span>
+              <span class="pill week">本周 <strong>+1,334</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">AI 相关</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：了解 → 试用"><span class="step">了解</span><span class="arrow" aria-hidden="true">→</span><span class="step">试用</span></div></div>
+        </div>
+        <p class="intro">In-depth tutorials on LLMs, RAGs and re…</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+1,334</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 13%">
+            <div class="bar-fill" style="width:13%"></div>
+          </div>
+        </div>
+      </li>
+
+      <li class="card repo-extra">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">06</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/Nasiko-Labs/nasiko" target="_blank" rel="noopener noreferrer">Nasiko-Labs/nasiko</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#dea584"></i>Rust</span>
+              <span class="pill">星标 <strong>★ 11,847</strong></span>
+              <span class="pill week">本周 <strong>+1,309</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">AI 相关</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：了解 → 试用"><span class="step">了解</span><span class="arrow" aria-hidden="true">→</span><span class="step">试用</span></div></div>
+        </div>
+        <p class="intro">The Open Runtime for AI Agents。</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+1,309</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 12%">
+            <div class="bar-fill" style="width:12%"></div>
+          </div>
+        </div>
+      </li>
+
+      <li class="card repo-extra">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">07</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/lfnovo/open-notebook" target="_blank" rel="noopener noreferrer">lfnovo/open-notebook</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#3178c6"></i>TypeScript</span>
+              <span class="pill">星标 <strong>★ 41,735</strong></span>
+              <span class="pill week">本周 <strong>+735</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">AI 相关</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：了解 → 试用"><span class="step">了解</span><span class="arrow" aria-hidden="true">→</span><span class="step">试用</span></div></div>
+        </div>
+        <p class="intro">An Open Source implementation of Notebo…</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+735</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 7%">
+            <div class="bar-fill" style="width:7%"></div>
+          </div>
+        </div>
+      </li>
+
+      <li class="card repo-extra">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">08</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/microsoft/ai-agents-for-beginners" target="_blank" rel="noopener noreferrer">microsoft/ai-agents-for-beginners</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#8b9bb4"></i>Jupyter Notebook</span>
+              <span class="pill">星标 <strong>★ 79,302</strong></span>
+              <span class="pill week">本周 <strong>+654</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">AI 相关</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：了解 → 试用"><span class="step">了解</span><span class="arrow" aria-hidden="true">→</span><span class="step">试用</span></div></div>
+        </div>
+        <p class="intro">18 Lessons to Get Started Building AI A…</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+654</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 6%">
+            <div class="bar-fill" style="width:6%"></div>
+          </div>
+        </div>
+      </li>
+
+      <li class="card repo-extra">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">09</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/infiniflow/ragflow" target="_blank" rel="noopener noreferrer">infiniflow/ragflow</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#00ADD8"></i>Go</span>
+              <span class="pill">星标 <strong>★ 93,889</strong></span>
+              <span class="pill week">本周 <strong>+542</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">AI 相关</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：了解 → 试用"><span class="step">了解</span><span class="arrow" aria-hidden="true">→</span><span class="step">试用</span></div></div>
+        </div>
+        <p class="intro">RAGFlow is an agent-native database: a…</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+542</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 5%">
+            <div class="bar-fill" style="width:5%"></div>
+          </div>
+        </div>
+      </li>
+
+      <li class="card repo-extra">
+        <div class="card-head">
+          <span class="rank" aria-hidden="true">10</span>
+          <div class="card-title">
+            <a class="name" href="https://github.com/MemPalace/mempalace" target="_blank" rel="noopener noreferrer">MemPalace/mempalace</a>
+            <div class="meta">
+              <span class="lang"><i style="background:#3572A5"></i>Python</span>
+              <span class="pill">星标 <strong>★ 60,425</strong></span>
+              <span class="pill week">本周 <strong>+517</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="purpose" aria-label="项目作用">
+          <div class="purpose-label">作用 <span class="tag">AI 相关</span></div>
+          <div class="diagram"><div class="flow" role="img" aria-label="流程：了解 → 试用"><span class="step">了解</span><span class="arrow" aria-hidden="true">→</span><span class="step">试用</span></div></div>
+        </div>
+        <p class="intro">The best-benchmarked open-source AI mem…</p>
+        <div class="bar-block">
+          <div class="bar-head"><span>本周星标</span><span class="v">+517</span></div>
+          <div class="bar-track" role="img" aria-label="本周星标占比 5%">
+            <div class="bar-fill" style="width:5%"></div>
+          </div>
+        </div>
+      </li>
+
+    </ol>
+    <div class="news-toggle-wrap">
+      <button type="button" class="news-toggle" id="repo-toggle-6" aria-expanded="false" aria-controls="repo-list-6">展开更多</button>
+    </div>
+    </div>
+
+      <script>
+      (function () {
+        var tabs = Array.prototype.slice.call(document.querySelectorAll("#repo-tabs .repo-tab"));
+        var panels = Array.prototype.slice.call(document.querySelectorAll(".repo-panel"));
+        if (!tabs.length) return;
+        function collapsePanel(panel) {
+          if (!panel) return;
+          var list = panel.querySelector("ol.cards");
+          var btn = panel.querySelector(".news-toggle");
+          if (list) list.classList.add("is-collapsed");
+          if (btn) {
+            btn.setAttribute("aria-expanded", "false");
+            btn.textContent = "展开更多";
+          }
+        }
+        function activate(idx) {
+          tabs.forEach(function (btn, i) {
+            var on = i === idx;
+            btn.setAttribute("aria-selected", on ? "true" : "false");
+            if (panels[i]) {
+              if (on) panels[i].removeAttribute("hidden");
+              else panels[i].setAttribute("hidden", "");
+            }
+          });
+          panels.forEach(collapsePanel);
+        }
+        tabs.forEach(function (btn) {
+          btn.addEventListener("click", function () {
+            activate(parseInt(btn.getAttribute("data-tab-index"), 10) || 0);
+          });
+        });
+        panels.forEach(function (panel) {
+          var list = panel.querySelector("ol.cards");
+          var btn = panel.querySelector(".news-toggle");
+          if (!btn || !list) return;
+          btn.addEventListener("click", function () {
+            var collapsed = list.classList.toggle("is-collapsed");
+            btn.setAttribute("aria-expanded", collapsed ? "false" : "true");
+            btn.textContent = collapsed ? "展开更多" : "收起";
+            if (collapsed) {
+              panel.scrollIntoView({ behavior: "smooth", block: "start" });
+            }
+          });
+        });
+      })();
+      </script>
+
+    <footer class="foot">
+      <p>最新页始终等于当天 AI 周榜日快照。往期见 <a href="history.html" target="_blank" rel="noopener noreferrer">往期速览</a>。数据抓取时间：2026-11-10（Asia/Shanghai）。资讯分「24 小时」「近 7 天」两窗、各按资讯束重要度排序（ADR 0013/0014）；仓库分榜见 ADR 0012/0017。</p>
+    </footer>
+  </div>
+</body>
+</html>
