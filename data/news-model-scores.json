@@ -234,13 +234,13 @@
     }
   },
   "千问 Qwen4 跑分首度超越 Opus 5.5，高性价比成最大卖点": {
-    "score": 66.2,
+    "score": 67.4,
     "industry": 80,
     "actionable": 70,
     "breadth": 72,
-    "heat": 30,
+    "heat": 36,
     "heat_signals": {
-      "reports": 1,
+      "reports": 2,
       "domains": 1,
       "x_posts_7d": 146,
       "x_spike_7d": 11.0
@@ -494,14 +494,14 @@
     }
   },
   "消息：Anthropic IPO 约 1.5 万亿估值遇阻，讨论下探至约 1.1–1.3 万亿": {
-    "score": 78.4,
+    "score": 78.6,
     "industry": 88,
     "actionable": 52,
     "breadth": 78,
-    "heat": 99,
+    "heat": 100,
     "heat_signals": {
-      "reports": 5,
-      "domains": 4,
+      "reports": 6,
+      "domains": 5,
       "x_posts_7d": 17307,
       "x_spike_7d": 10789.5
     }
@@ -4820,6 +4820,253 @@
       "domains": 1,
       "x_posts_7d": 0,
       "x_spike_7d": 0.0
+    }
+  },
+  "Anthropic 发布 Claude Fable 5.2 与 Mythos 5.2：登顶跑分并调度千个智能体造系统": {
+    "score": 82.4,
+    "industry": 94,
+    "actionable": 80,
+    "breadth": 88,
+    "heat": 60,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 26043,
+      "x_spike_7d": 26005.5
+    }
+  },
+  "Claude Fable 5.2 登陆 GitHub Copilot，可处理大型代码库多步任务": {
+    "score": 67.1,
+    "industry": 70,
+    "actionable": 82,
+    "breadth": 75,
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 180,
+      "x_spike_7d": 180.0
+    }
+  },
+  "Meta 发布轻量模型 Muse Ember：约 1M 上下文，跑分逼近 Haiku、任务成本约三分之一": {
+    "score": 78.6,
+    "industry": 86,
+    "actionable": 80,
+    "breadth": 78,
+    "heat": 62,
+    "heat_signals": {
+      "reports": 3,
+      "domains": 1,
+      "x_posts_7d": 2553,
+      "x_spike_7d": 2553.0
+    }
+  },
+  "OpenAI 上线 Control Room：可在 35 秒内中止研究设施中的模型负载": {
+    "score": 65.7,
+    "industry": 80,
+    "actionable": 55,
+    "breadth": 60,
+    "heat": 56,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 962,
+      "x_spike_7d": 962.0
+    }
+  },
+  "ChatGPT Enterprise 上架 AWS Marketplace，可用现有 AWS 账单采购": {
+    "score": 62.4,
+    "industry": 68,
+    "actionable": 70,
+    "breadth": 72,
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 158,
+      "x_spike_7d": 158.0
+    }
+  },
+  "腾讯首款 AI 游戏陪伴 Agent「鹅次元」开启内测": {
+    "score": 58.9,
+    "industry": 62,
+    "actionable": 68,
+    "breadth": 65,
+    "heat": 36,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 1,
+      "x_posts_7d": 48,
+      "x_spike_7d": 3.0
+    }
+  },
+  "金鸡百花电影节首次设立 AI 单元：287 支团队 72 小时极限创作": {
+    "score": 50.0,
+    "industry": 55,
+    "actionable": 50,
+    "breadth": 58,
+    "heat": 36,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 1,
+      "x_posts_7d": 13,
+      "x_spike_7d": 5.5
+    }
+  },
+  "美团开源 LongCat-2.5：长序列 SFT 单卡吞吐较 DDP 提升 86%": {
+    "score": 68.0,
+    "industry": 72,
+    "actionable": 80,
+    "breadth": 62,
+    "heat": 45,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 753,
+      "x_spike_7d": 618.0
+    }
+  },
+  "迪士尼与 Adobe 达成多年合作，共研基于迪士尼 IP 的专属生成式 AI 模型": {
+    "score": 59.7,
+    "industry": 78,
+    "actionable": 45,
+    "breadth": 70,
+    "heat": 40,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 267,
+      "x_spike_7d": 267.0
+    }
+  },
+  "苹果 Siri AI 隐藏调度规则曝光：Skimmer 前置拦截，约 2% 英文高频请求走本地": {
+    "score": 50.6,
+    "industry": 64,
+    "actionable": 40,
+    "breadth": 70,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 11,
+      "x_spike_7d": 11.0
+    }
+  },
+  "个人版 Gemini 关联邮箱与网盘后，部分摘要与敏感内容将面临人工审核": {
+    "score": 60.2,
+    "industry": 70,
+    "actionable": 60,
+    "breadth": 82,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 54,
+      "x_spike_7d": 46.5
+    }
+  },
+  "蚂蚁灵波发布 LingBot-Touch 触觉基础模型": {
+    "score": 54.7,
+    "industry": 66,
+    "actionable": 55,
+    "breadth": 48,
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 185,
+      "x_spike_7d": 185.0
+    }
+  },
+  "原今日头条 CEO 陈林离职，加入「小鹿爱学」投身 AI 教育创业": {
+    "score": 35.8,
+    "industry": 42,
+    "actionable": 30,
+    "breadth": 40,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 10,
+      "x_spike_7d": 10.0
+    }
+  },
+  "北京副中心首届 OPC 嘉年华宋庄季闭幕，推动 AIGC 创作与版权闭环": {
+    "score": 35.7,
+    "industry": 38,
+    "actionable": 35,
+    "breadth": 40,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 1,
+      "x_spike_7d": 1.0
+    }
+  },
+  "MiniMax 在珠海横琴新设科技公司，注册资本 500 万元": {
+    "score": 33.0,
+    "industry": 40,
+    "actionable": 25,
+    "breadth": 35,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 5,
+      "x_spike_7d": 5.0
+    }
+  },
+  "法学教授让 Claude 更新页码，回来发现全年课堂笔记被删": {
+    "score": 50.3,
+    "industry": 52,
+    "actionable": 60,
+    "breadth": 55,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 217,
+      "x_spike_7d": -255.5
+    }
+  },
+  "CodeRabbit 用 Codex 规模化智能体软件开发，据称交付提速约 20 倍": {
+    "score": 46.2,
+    "industry": 48,
+    "actionable": 55,
+    "breadth": 45,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 44,
+      "x_spike_7d": 21.5
+    }
+  },
+  "Kuken Industries 用 AI 在数分钟内检索 70 年图纸": {
+    "score": 43.0,
+    "industry": 45,
+    "actionable": 50,
+    "breadth": 40,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 25,
+      "x_spike_7d": 25.0
+    }
+  },
+  "GitHub Secret scanning 可检测 Actions 工作流日志中的密钥": {
+    "score": 50.6,
+    "industry": 44,
+    "actionable": 70,
+    "breadth": 60,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 21,
+      "x_spike_7d": 21.0
     }
   }
 }
