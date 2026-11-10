@@ -1,5 +1,501 @@
 [
   {
+    "id": "morn-gemini-4-carbon",
+    "title": "Google 发布 Gemini 4 Carbon：登顶多项独立基准，并预览 Agent「群体」协作",
+    "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available",
+    "date": "2026-11-11",
+    "meta": "",
+    "bullets": [
+      "Google 向开发者、企业、科研与消费者开放 Gemini 4 Carbon，定位为目前最强模型，侧重网络安全与长周期 Agent 工作流；Argon 仍被推荐用于大多数工程与知识工作。",
+      "官方称其在 CursorBench 4.0、Perplexity WANDR 与 Zapier AutomationBench 三项独立基准排名第一，单任务成本不到次优外部模型的一半；导入价为每百万 token 输入 2 美元、输出 10 美元。",
+      "付费 API、Google AI Studio、Gemini for business 与 AI Ultra（Gemini 应用、Search 的 AI Mode、Antigravity）现已可用；Antigravity 预览 /swarm，可将一条提示拆成可实时跟踪的智能体团队。"
+    ],
+    "links": [
+      {
+        "label": "Google DeepMind",
+        "title": "Gemini 4 Carbon is now available",
+        "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available",
+        "date": "2026-11-10",
+        "same_event": true
+      },
+      {
+        "label": "Google",
+        "title": "Gemini 4 Carbon is now available",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available",
+        "date": "2026-11-10",
+        "same_event": true
+      },
+      {
+        "label": "The Verge",
+        "title": "Google releases Gemini 4 Carbon with agent ‘swarm’ feature",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout",
+        "date": "2026-11-10",
+        "same_event": true
+      },
+      {
+        "label": "Engadget",
+        "title": "Google Gemini 4 Carbon 现已在全球广泛上线",
+        "url": "https://www.engadget.com/2311855/gemini-4-carbon-now-available-worldwide",
+        "date": "2026-11-10",
+        "same_event": true
+      },
+      {
+        "label": "Techmeme",
+        "title": "Google rolls out Gemini 4 Carbon to paid API and AI Ultra users two weeks after Fairwind preview",
+        "url": "https://www.techmeme.com/261110/p30",
+        "date": "2026-11-10",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 94,
+      "actionable": 88,
+      "breadth": 90,
+      "heat": 94
+    },
+    "heat": 94,
+    "heat_signals": {
+      "reports": 5,
+      "domains": 5,
+      "x_posts_7d": 6250,
+      "x_spike_7d": 4225.0
+    },
+    "score": 91.8
+  },
+  {
+    "id": "morn-alphaproof-code",
+    "title": "DeepMind 推出 AlphaProof Code：四周完成 Signal 核心加密协议的机器指令级验证",
+    "url": "https://deepmind.google/blog/introducing-alphaproof-code",
+    "date": "2026-11-10",
+    "meta": "",
+    "bullets": [
+      "Google DeepMind 发布面向复杂软件的形式化验证系统 AlphaProof Code，用智能体框架生成逾 300 万行 Lean 机器可检验证明。",
+      "团队据报仅用四周将 Signal 核心加密保护验证到机器指令级，而同类工作通常需要数年。",
+      "该方法把数学证明助手扩展到真实协议与生产级代码，面向高保证软件安全场景。"
+    ],
+    "links": [
+      {
+        "label": "Google DeepMind",
+        "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software",
+        "url": "https://deepmind.google/blog/introducing-alphaproof-code",
+        "date": "2026-11-10",
+        "same_event": true
+      },
+      {
+        "label": "Techmeme",
+        "title": "Google DeepMind researchers used agentic AI framework AlphaProof Code to verify Signal’s protocol",
+        "url": "https://www.techmeme.com/261110/p14",
+        "date": "2026-11-10",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 82,
+      "actionable": 55,
+      "breadth": 55,
+      "heat": 51
+    },
+    "heat": 51,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 396,
+      "x_spike_7d": 396.0
+    },
+    "score": 65.0
+  },
+  {
+    "id": "morn-gemini-robotics-25",
+    "title": "DeepMind 发布 Gemini Robotics 2.5，并推出开源安全基准 ASIMOV-jailbreak",
+    "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence",
+    "date": "2026-11-10",
+    "meta": "",
+    "bullets": [
+      "Google DeepMind 发布 Gemini Robotics 2.5，意在加快通用灵巧操作在真实世界的落地。",
+      "同期推出开源安全基准 ASIMOV-jailbreak，用于评估机器人模型面对越狱与不安全指令时的表现。",
+      "该系列面向感知、推理、工具使用与物理交互，是 DeepMind 通用机器人模型的新一版。"
+    ],
+    "links": [
+      {
+        "label": "Google DeepMind",
+        "title": "Gemini Robotics 2.5 accelerates real-world general dexterous manipulation",
+        "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence",
+        "date": "2026-11-09",
+        "same_event": true
+      },
+      {
+        "label": "Ars Technica",
+        "title": "DeepMind reveals Gemini Robotics 2.5 and open safety benchmark ASIMOV-jailbreak",
+        "url": "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak",
+        "date": "2026-11-10",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 80,
+      "actionable": 55,
+      "breadth": 55,
+      "heat": 51
+    },
+    "heat": 51,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 385,
+      "x_spike_7d": 385.0
+    },
+    "score": 64.2
+  },
+  {
+    "id": "morn-gemini-healthcare",
+    "title": "Google Cloud 推出 Gemini for healthcare：整合病历与账单，预览病历综合与事前授权",
+    "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare",
+    "date": "2026-11-10",
+    "meta": "",
+    "bullets": [
+      "Google Cloud 发布面向医疗的 Gemini，用于打通分散的临床、运营与行政系统，把电子病历、账单平台、指南与 Medicare 数据连到同一工作流。",
+      "官方指临床人员每周约损失 28 小时在文书上；系统可在护栏与人工监督下执行病历综合、事前授权审核等多步任务。",
+      "目前与 HCA Healthcare、Highmark Health、Northwell Health 等合作方一起进入预览。"
+    ],
+    "links": [
+      {
+        "label": "Google Cloud",
+        "title": "Google Cloud launches Gemini for healthcare.",
+        "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare",
+        "date": "2026-11-10",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 78,
+      "actionable": 60,
+      "breadth": 70,
+      "heat": 35
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 199,
+      "x_spike_7d": 199.0
+    },
+    "score": 63.2
+  },
+  {
+    "id": "morn-google-adobe-max",
+    "title": "Google 与 Adobe 在 Adobe MAX 扩大合作：Drive 直达 Acrobat，Gemini 将用上 Adobe AI",
+    "url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration",
+    "date": "2026-11-10",
+    "meta": "",
+    "bullets": [
+      "双方在 Adobe MAX 宣布扩大合作：Google Drive 与 Gmail 将提供通往 Adobe Acrobat 的入口，文件预览中会出现「Edit with」。",
+      "Adobe 将把 Acrobat 与更多创作工具接入 Gemini 及 Gemini Enterprise，并进入 Google 搜索的 AI Mode；企业还可在 Gemini Enterprise 中使用 CX Enterprise Coworker 智能体。",
+      "Adobe 与 Google DeepMind 还将探索面向创意专业人员的新编辑能力，起步是可用于 Photoshop、接近实时改图的图像模型。"
+    ],
+    "links": [
+      {
+        "label": "Google",
+        "title": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
+        "url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration",
+        "date": "2026-11-10",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 75,
+      "actionable": 70,
+      "breadth": 80,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 40,
+      "x_spike_7d": 25.0
+    },
+    "score": 65.0
+  },
+  {
+    "id": "morn-openai-freelance",
+    "title": "OpenAI 与 Upwork 研究：在 63 类工作中，有 43 类常见 ChatGPT 任务的接单份额下降",
+    "url": "https://openai.com/index/ai-effect-on-freelance-work",
+    "date": "2026-11-10",
+    "meta": "",
+    "bullets": [
+      "OpenAI 发布《Work at the Frontier: AI’s effect on freelance work》，与 Upwork 合作观察自由职业市场如何先于传统岗位感受到模型冲击。",
+      "报告称约 38% 的美国知识工作者从事自由职业，2024 年相关收入约 1.5 万亿美元。",
+      "在统计的 63 类工作里，有 43 类常见 ChatGPT 任务在 Upwork 上的份额下降。"
+    ],
+    "links": [
+      {
+        "label": "OpenAI",
+        "title": "Work at the Frontier: AI’s effect on freelance work",
+        "url": "https://openai.com/index/ai-effect-on-freelance-work",
+        "date": "2026-11-10",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 72,
+      "actionable": 40,
+      "breadth": 75,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 50,
+      "x_spike_7d": 5.0
+    },
+    "score": 54.3
+  },
+  {
+    "id": "morn-gemini-memory-summary",
+    "title": "Gemini 上线 Memory summary：可查看、编辑并删除模型记住的个人信息",
+    "url": "https://www.aibase.com/news/32215",
+    "date": "2026-11-10",
+    "meta": "",
+    "bullets": [
+      "Google 为 Gemini 推出 Memory summary，把原先散落的记忆归入个人背景、关系、工作、兴趣与偏好等类别，并可查看更改历史。",
+      "入口在设置的 Personal Intelligence（个性化智能服务）下，网页版已支持简体中文。",
+      "目前主要面向年满 18 岁、开通 Google AI 订阅，并启用英语、Keep Activity 与记忆功能的美国用户，其他地区仍需等待。"
+    ],
+    "links": [
+      {
+        "label": "AIBase",
+        "title": "谷歌给 Gemini 装“删除键”：AI 记住的隐私，现在你能看能改能删",
+        "url": "https://www.aibase.com/news/32215",
+        "date": "2026-11-10",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 68,
+      "actionable": 75,
+      "breadth": 60,
+      "heat": 35
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 107,
+      "x_spike_7d": 84.5
+    },
+    "score": 62.7
+  },
+  {
+    "id": "morn-hf-decision-models",
+    "title": "Hugging Face 介绍决策模型：直接对选项输出概率，不必先生成文本",
+    "url": "https://huggingface.co/blog/decision",
+    "date": "2026-11-10",
+    "meta": "",
+    "bullets": [
+      "Hugging Face 发文介绍 decision model：面对客服分流、紧急程度等结构化选择，模型直接给出选项上的概率分布，而不是先生成一段文本再解析。",
+      "文章对比传统分类与零样本分类，指出决策模型在新增类别（例如新的法务部门）时不必只靠改分类头。",
+      "生态侧已支持用 Transformers、llama.cpp 部署，并可在 Hub 上发现与训练这类模型。"
+    ],
+    "links": [
+      {
+        "label": "Hugging Face",
+        "title": "Decision Models in Hugging Face",
+        "url": "https://huggingface.co/blog/decision",
+        "date": "2026-11-10",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 55,
+      "actionable": 70,
+      "breadth": 50,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 42,
+      "x_spike_7d": 34.5
+    },
+    "score": 54.0
+  },
+  {
+    "id": "morn-openai-edu-guidance",
+    "title": "OpenAI：调查称 79% 受访学生用 AI 做作业，但仅 47% 得到使用指导",
+    "url": "https://openai.com/index/closing-ai-guidance-gap-education",
+    "date": "2026-11-10",
+    "meta": "",
+    "bullets": [
+      "OpenAI 发布「弥合教育领域的 AI 指导缺口」报告，讨论学校如何给学生提供可用的使用规范。",
+      "文中引用 ThinkYoung 调查：79% 受访学生已用 AI 完成作业，但只有 47% 表示被指导过该如何使用。",
+      "报告面向教育机构与政策讨论，并未同时推出新的面向学生的产品功能。"
+    ],
+    "links": [
+      {
+        "label": "OpenAI",
+        "title": "Closing the AI guidance gap in education",
+        "url": "https://openai.com/index/closing-ai-guidance-gap-education",
+        "date": "2026-11-10",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 58,
+      "actionable": 45,
+      "breadth": 70,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 17,
+      "x_spike_7d": 17.0
+    },
+    "score": 49.7
+  },
+  {
+    "id": "morn-neohorse-15-flash",
+    "title": "基元律动发布 NeoHorse-1.5-Flash Preview：180B 总参、6B 激活，开放限量内测",
+    "url": "https://www.aibase.com/news/32218",
+    "date": "2026-11-10",
+    "meta": "",
+    "bullets": [
+      "基元律动（TokenRhythm）发布面向 Agent 的 NeoHorse-1.5-Flash Preview，基于 Qwen3.8-Flash 训练，总参数约 180B、激活约 6B，目前开放限量内测。",
+      "对比基座模型，Agents’ Last Exam 总分提高 9.23 分，Natural Language to Repository 提高 5.92 分，物理科学任务提升超过 20 分。",
+      "该系列继续探索递归自我改进；开源 Agent 产品 OpenSquilla 已同步支持按任务意图选择模型档位，并在重试时升档。"
+    ],
+    "links": [
+      {
+        "label": "AIBase",
+        "title": "基元律动发布NeoHorse-1.5-Flash Preview，开放限量内测",
+        "url": "https://www.aibase.com/news/32218",
+        "date": "2026-11-10",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 58,
+      "actionable": 60,
+      "breadth": 40,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 17,
+      "x_spike_7d": 17.0
+    },
+    "score": 51.2
+  },
+  {
+    "id": "morn-openai-caregivers",
+    "title": "OpenAI 在美国五座城市开办免费工作坊，教照护者用 ChatGPT 整理日程与查资源",
+    "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+    "date": "2026-11-10",
+    "meta": "",
+    "bullets": [
+      "OpenAI 于 11 月 10 日在五座美国城市举办免费线下工作坊，教照护者用 ChatGPT 整理日程、查找资源。",
+      "公司分析称，美国每周约 4000 万条医疗相关消息是在为他人咨询。",
+      "这是面向照护场景的使用指导活动，而非新的独立产品发布。"
+    ],
+    "links": [
+      {
+        "label": "OpenAI",
+        "title": "Helping caregivers use AI in everyday life",
+        "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+        "date": "2026-11-10",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 50,
+      "actionable": 55,
+      "breadth": 50,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 16,
+      "x_spike_7d": 16.0
+    },
+    "score": 47.5
+  },
+  {
+    "id": "morn-kfc-japan-ai-images",
+    "title": "肯德基日本试销新品使用 AI 商品图，冰块被画成与汽水同色后遭质疑",
+    "url": "https://www.aibase.com/news/32216",
+    "date": "2026-11-10",
+    "meta": "",
+    "bullets": [
+      "ITmedia 11 月 10 日报道，肯德基日本试销新品的商品图由生成式 AI 制作，冰块被染成与汽水相近的颜色并带有果冻光泽，被网友识破。",
+      "品牌随后承认使用了 AI 图片，但拒绝说明是否会把这一做法推广到更多商品。",
+      "事件再次把零售商品图是否该标明 AI 生成推到台前。"
+    ],
+    "links": [
+      {
+        "label": "AIBase",
+        "title": "肯德基在日本翻车：AI 画的商品图，连冰块都“染了色”",
+        "url": "https://www.aibase.com/news/32216",
+        "date": "2026-11-10",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 42,
+      "actionable": 30,
+      "breadth": 55,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 7,
+      "x_spike_7d": 7.0
+    },
+    "score": 37.3
+  },
+  {
+    "id": "morn-latch-ai",
+    "title": "Latch.ai 上线 Product Hunt：号称不用写提示词即可自动完成复杂会计工作",
+    "url": "https://www.producthunt.com/products/latch-ai-2",
+    "date": "2026-11-10",
+    "meta": "",
+    "bullets": [
+      "Latch.ai 在 Product Hunt 推出，定位为无需手写提示词就能自动处理复杂会计任务的工具。",
+      "产品仍处早期发布阶段，公开资料主要来自产品页介绍，实际效果与覆盖的会计流程还有待验证。"
+    ],
+    "links": [
+      {
+        "label": "Product Hunt",
+        "title": "Latch.ai — Automate complex accounting work without a single prompt",
+        "url": "https://www.producthunt.com/products/latch-ai-2",
+        "date": "2026-11-10",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 40,
+      "actionable": 55,
+      "breadth": 35,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 11,
+      "x_spike_7d": 11.0
+    },
+    "score": 42.0
+  },
+  {
     "id": "eve-claude-fable-52",
     "title": "Anthropic 发布 Claude Fable 5.2 与 Mythos 5.2：登顶跑分并调度千个智能体造系统",
     "url": "https://www.aibase.com/news/32205",
@@ -17,22 +513,29 @@
         "url": "https://www.aibase.com/news/32205",
         "date": "2026-11-10",
         "same_event": true
+      },
+      {
+        "label": "The Verge",
+        "title": "Anthropic launches new Claude Fable and Mythos 5.2 models",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2",
+        "date": "2026-11-09",
+        "same_event": true
       }
     ],
     "score_parts": {
       "industry": 94,
       "actionable": 80,
       "breadth": 88,
-      "heat": 60
+      "heat": 71
     },
-    "heat": 60,
+    "heat": 71,
     "heat_signals": {
-      "reports": 1,
-      "domains": 1,
+      "reports": 2,
+      "domains": 2,
       "x_posts_7d": 26043,
       "x_spike_7d": 26005.5
     },
-    "score": 82.4
+    "score": 84.6
   },
   {
     "id": "eve-claude-fable-52-copilot",
@@ -1038,7 +1541,7 @@
     "id": "seedream-55-release",
     "title": "字节发布 Seedream 5.5：支持百轮连续编辑与原生透明输出",
     "url": "https://www.aibase.com/news/32186",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "meta": "",
     "bullets": [
       "字节 Seed 团队 11 月 9 日发布新一代图像模型 Seedream 5.5，强调像素级保留未编辑区域，同一作品可连续迭代约 100 轮。",
@@ -1060,22 +1563,29 @@
         "url": "https://www.aibase.com/news/32185",
         "date": "2026-11-09",
         "same_event": true
+      },
+      {
+        "label": "AIBase",
+        "title": "字节跳动 Seedream 5.5 正式登陆豆包：图片设计能力迎全方位升级",
+        "url": "https://www.aibase.com/news/32217",
+        "date": "2026-11-10",
+        "same_event": true
       }
     ],
     "score_parts": {
       "industry": 80,
       "actionable": 78,
       "breadth": 72,
-      "heat": 56
+      "heat": 62
     },
-    "heat": 56,
+    "heat": 62,
     "heat_signals": {
-      "reports": 2,
+      "reports": 3,
       "domains": 1,
       "x_posts_7d": 1341,
       "x_spike_7d": 1326.0
     },
-    "score": 73.8
+    "score": 75.0
   },
   {
     "id": "eve-msft-20m-agents",

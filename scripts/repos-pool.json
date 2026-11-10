@@ -1700,7 +1700,7 @@
     "desc": "Lightweight coding agent that runs in your terminal",
     "lang": "Rust",
     "stars": 134132,
-    "week": 1160,
+    "week": 1908,
     "topics": [],
     "url": "https://github.com/openai/codex",
     "types": [
@@ -2160,7 +2160,7 @@
     "desc": "LLM inference in C/C++",
     "lang": "C++",
     "stars": 133665,
-    "week": 782,
+    "week": 773,
     "topics": [
       "ggml"
     ],
@@ -2169,7 +2169,8 @@
       "模型与推理"
     ],
     "_sources": [
-      "c++"
+      "c++",
+      "cpp"
     ]
   },
   {
@@ -3348,13 +3349,15 @@
     "desc": "Get Android app updates straight from the source.",
     "lang": "Dart",
     "stars": 20998,
-    "week": 311,
+    "week": 272,
     "topics": [],
     "url": "https://github.com/ImranR98/Obtainium",
     "types": [
       "应用与产品"
     ],
-    "_sources": []
+    "_sources": [
+      "dart"
+    ]
   },
   {
     "full": "netbirdio/netbird",
@@ -4895,7 +4898,7 @@
     "desc": "Repo to accompany my mastering LLM engineering course",
     "lang": "Jupyter Notebook",
     "stars": 7901,
-    "week": 71,
+    "week": 67,
     "topics": [],
     "url": "https://github.com/ed-donner/llm_engineering",
     "types": [
@@ -6157,5 +6160,188 @@
       "Agent"
     ],
     "_sources": []
+  },
+  {
+    "full": "Anil-matcha/Open-Generative-AI",
+    "name": "Open-Generative-AI",
+    "desc": "Uncensored Open-source alternative to AI video platforms — Free AI image & video generation studio with 600+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.",
+    "lang": "JavaScript",
+    "stars": 33900,
+    "week": 1675,
+    "topics": [
+      "ai-art-generator",
+      "ai-image-generation",
+      "ai-video-generation",
+      "generative-ai",
+      "text-to-image",
+      "text-to-video",
+      "open-source"
+    ],
+    "types": [
+      "应用与产品"
+    ],
+    "url": "https://github.com/Anil-matcha/Open-Generative-AI",
+    "_sources": [
+      "javascript"
+    ]
+  },
+  {
+    "full": "anthropics/claude-quickstarts",
+    "name": "claude-quickstarts",
+    "desc": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
+    "lang": "Python",
+    "stars": 20451,
+    "week": 1151,
+    "topics": [],
+    "types": [
+      "开发工具链"
+    ],
+    "url": "https://github.com/anthropics/claude-quickstarts",
+    "_sources": [
+      "python"
+    ]
+  },
+  {
+    "full": "ParadevAI/Paradev",
+    "name": "Paradev",
+    "desc": "Paradev is an open-source Codex App and Conductor alternative. Orchestrate an army coding agents in parallel with your own subscriptions.",
+    "lang": "TypeScript",
+    "stars": 16187,
+    "week": 325,
+    "topics": [
+      "agent",
+      "agent-orchestration",
+      "ai-agents",
+      "ai-coding",
+      "coding-agents",
+      "developer-tools"
+    ],
+    "types": [
+      "Agent",
+      "开发工具链"
+    ],
+    "url": "https://github.com/ParadevAI/Paradev",
+    "_sources": [
+      "typescript"
+    ]
+  },
+  {
+    "full": "AAswordman/Operit",
+    "name": "Operit",
+    "desc": "The most powerful AI agent and AI chat software on Android/Operit是一款Android上能力最为强大、发展最久的AI Agent",
+    "lang": "Kotlin",
+    "stars": 9504,
+    "week": 321,
+    "topics": [
+      "agent",
+      "ai",
+      "android",
+      "llm"
+    ],
+    "types": [
+      "Agent",
+      "应用与产品"
+    ],
+    "url": "https://github.com/AAswordman/Operit",
+    "_sources": [
+      "kotlin"
+    ]
+  },
+  {
+    "full": "umlx5h/LLPlayer",
+    "name": "LLPlayer",
+    "desc": "The media player for language learning, with dual subtitles, AI-generated subtitles, real-time translation, and more!",
+    "lang": "C#",
+    "stars": 4629,
+    "week": 149,
+    "topics": [
+      "asr",
+      "language-learning",
+      "llm",
+      "ocr",
+      "whisper"
+    ],
+    "types": [
+      "应用与产品"
+    ],
+    "url": "https://github.com/umlx5h/LLPlayer",
+    "_sources": [
+      "csharp"
+    ]
+  },
+  {
+    "full": "conductor-oss/conductor",
+    "name": "conductor",
+    "desc": "Conductor is an event driven agentic workflow engine providing durable and highly resilient execution engine for applications and AI Agents",
+    "lang": "Java",
+    "stars": 32460,
+    "week": 60,
+    "topics": [
+      "workflow-engine",
+      "orchestration-engine",
+      "durable-execution"
+    ],
+    "types": [
+      "Agent",
+      "开发工具链"
+    ],
+    "url": "https://github.com/conductor-oss/conductor",
+    "_sources": [
+      "java"
+    ]
+  },
+  {
+    "full": "QwenLM/Qwen3-VL",
+    "name": "Qwen3-VL",
+    "desc": "Qwen3-VL is the multimodal large language model series developed by Qwen team, Alibaba Cloud.",
+    "lang": "Jupyter Notebook",
+    "stars": 20191,
+    "week": 47,
+    "topics": [],
+    "types": [
+      "模型与推理"
+    ],
+    "url": "https://github.com/QwenLM/Qwen3-VL",
+    "_sources": [
+      "jupyter-notebook"
+    ]
+  },
+  {
+    "full": "freescout-help-desk/freescout",
+    "name": "freescout",
+    "desc": "FreeScout — Free self-hosted omnichannel AI-powered helpdesk & shared mailbox",
+    "lang": "PHP",
+    "stars": 4655,
+    "week": 29,
+    "topics": [
+      "helpdesk",
+      "customer-support"
+    ],
+    "types": [
+      "应用与产品"
+    ],
+    "url": "https://github.com/freescout-help-desk/freescout",
+    "_sources": [
+      "php"
+    ]
+  },
+  {
+    "full": "ranxianglei/billion-context",
+    "name": "billion-context",
+    "desc": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need",
+    "lang": "TypeScript",
+    "stars": 6258,
+    "week": 2150,
+    "topics": [
+      "dsh-plugin"
+    ],
+    "types": [
+      "开发工具链",
+      "Skill"
+    ],
+    "url": "https://github.com/ranxianglei/billion-context",
+    "_sources": [
+      "typescript"
+    ]
   }
 ]
