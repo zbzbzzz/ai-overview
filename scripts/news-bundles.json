@@ -1,5 +1,1410 @@
 [
   {
+    "id": "eve11-claude-office",
+    "title": "Anthropic 上线 Claude Sheets、Whiteboards，并将 Dashboards 升级为 Claude Data，同步推出会议助手",
+    "url": "https://claude.com/resources/articles/sheets-whiteboards-data",
+    "date": "2026-11-11",
+    "meta": "",
+    "bullets": [
+      "Anthropic 在付费套餐上线 beta 版 Claude Whiteboards 与 Claude Sheets，并把 10 月的 Claude Dashboards 正式更名为 Claude Data 全面开放。",
+      "Sheets 可按提示生成带标签页、公式和下拉项的表格并与团队共编，需要完整 Excel 能力时可导出或使用 Claude for Excel；Whiteboards 可把口头讨论整理成带负责人和日期的协作板。",
+      "同期推出 Claude Meetings，可加入 Google Meet 跟踪讨论并生成计划与待办，检测到外部嘉宾时会自动离开以保护数据。Enterprise 上 Whiteboards 与 Sheets 默认关闭，Claude Data 将于 11 月 19 日默认开启。"
+    ],
+    "links": [
+      {
+        "label": "Anthropic",
+        "title": "Introducing Claude Whiteboards, Claude Sheets, and Claude Data",
+        "url": "https://claude.com/resources/articles/sheets-whiteboards-data",
+        "date": "2026-11-11",
+        "same_event": true
+      },
+      {
+        "label": "The Decoder",
+        "title": "Anthropic turns Claude into a full workspace with Plugins, spreadsheets, whiteboards, and soon meeting notes",
+        "url": "https://the-decoder.com/anthropic-turns-claude-into-a-full-workspace-with-plugins-spreadsheets-whiteboards-and-soon-meeting-notes",
+        "date": "2026-11-11",
+        "same_event": true
+      },
+      {
+        "label": "TechCrunch",
+        "title": "Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks",
+        "url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks",
+        "date": "2026-11-11",
+        "same_event": true
+      },
+      {
+        "label": "AIBase",
+        "title": "Anthropic 杀入办公腹地：Claude Sheets 叫板 Excel，IPO 前夜贴脸微软谷歌",
+        "url": "https://www.aibase.com/news/32234",
+        "date": "2026-11-11",
+        "same_event": true
+      },
+      {
+        "label": "AIBase",
+        "title": "Anthropic 办公套件升级：会议助手、智能表格齐发，全面杀入传统协同巨头腹地",
+        "url": "https://www.aibase.com/news/32240",
+        "date": "2026-11-11",
+        "same_event": true
+      },
+      {
+        "label": "AIBase",
+        "title": "Anthropic 升级 AI 办公套件：从头脑风暴到数据看板，全面覆盖团队协作全流程",
+        "url": "https://www.aibase.com/news/32226",
+        "date": "2026-11-11",
+        "same_event": true
+      },
+      {
+        "label": "AIBase",
+        "title": "Anthropic 正面宣战微软谷歌：推出 Claude Sheets 与视频通话助手，全面进军智能办公软件领域",
+        "url": "https://www.aibase.com/news/32221",
+        "date": "2026-11-11",
+        "same_event": true
+      },
+      {
+        "label": "The Next Web",
+        "title": "Anthropic adds Claude Sheets and a call assistant, taking on its backers",
+        "url": "https://thenextweb.com/news/anthropic-claude-sheets-office-tools-microsoft-google",
+        "date": "2026-11-11",
+        "same_event": true
+      },
+      {
+        "label": "Engadget",
+        "title": "Anthropic takes on Google and Microsoft with Claude Sheets",
+        "url": "https://www.engadget.com/2312177/anthropic-takes-on-google-and-microsoft-with-claude-sheets",
+        "date": "2026-11-11",
+        "same_event": true
+      },
+      {
+        "label": "Business Insider",
+        "title": "Microsoft stock drops after Anthropic unveils tools to rival Office",
+        "url": "https://www.businessinsider.com/microsoft-stock-price-anthropic-claude-sheets-office365-2026-11",
+        "date": "2026-11-11",
+        "same_event": true
+      },
+      {
+        "label": "Techmeme",
+        "title": "Anthropic unveils office tools, including a video call assistant, a data dashboard, and spreadsheets",
+        "url": "https://www.techmeme.com/261110/p35",
+        "date": "2026-11-11",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 88,
+      "actionable": 82,
+      "breadth": 78,
+      "heat": 95
+    },
+    "heat": 95,
+    "heat_signals": {
+      "reports": 11,
+      "domains": 8,
+      "x_posts_7d": 2136,
+      "x_spike_7d": 2113.5
+    },
+    "score": 86.6
+  },
+  {
+    "id": "eve11-chatgpt-businesses",
+    "title": "OpenAI 推出 Businesses in ChatGPT：商家认领资料，美国电商可上线 Business Agent",
+    "url": "https://openai.com/index/introducing-businesses-chatgpt",
+    "date": "2026-11-11",
+    "meta": "",
+    "bullets": [
+      "OpenAI 开始公测 Businesses in ChatGPT：商家可通过 Business Hub 认领并核实企业资料，更新信息并接入含价格与库存的商品数据，面向每周约 12 亿 ChatGPT 用户。",
+      "符合条件的美国电商与在线服务商可上线 Business Agent，在独立、带标识的对话里回答产品问题；也可将 Agent 作为 ChatGPT Ads 的落地页。",
+      "Shopify 商家已可通过 Business Hub 或 Shopify 后台完成验证，Insights 只提供达到阈值后的汇总提及与点击，不向商家共享用户对话。"
+    ],
+    "links": [
+      {
+        "label": "OpenAI",
+        "title": "Introducing Businesses in ChatGPT",
+        "url": "https://openai.com/index/introducing-businesses-chatgpt",
+        "date": "2026-11-11",
+        "same_event": true
+      },
+      {
+        "label": "The Verge",
+        "title": "ChatGPT is getting verified AI ‘Business Agents’",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1030552/openai-chatgpt-business-agents-hub",
+        "date": "2026-11-11",
+        "same_event": true
+      },
+      {
+        "label": "The Decoder",
+        "title": "OpenAI turns ChatGPT into a business directory with AI agents that handle customer questions",
+        "url": "https://the-decoder.com/openai-turns-chatgpt-into-a-business-directory-with-ai-agents-that-handle-customer-questions",
+        "date": "2026-11-11",
+        "same_event": true
+      },
+      {
+        "label": "AIBase",
+        "title": "ChatGPT 开起“商家门面”：12 亿周活变广告位，企业能认领资料、架 AI 客服",
+        "url": "https://www.aibase.com/news/32231",
+        "date": "2026-11-11",
+        "same_event": true
+      },
+      {
+        "label": "AIBase",
+        "title": "OpenAI 正面宣战谷歌地图：推出 ChatGPT 企业信息主页，12 亿月活流量正式切入本地商业搜索",
+        "url": "https://www.aibase.com/news/32245",
+        "date": "2026-11-11",
+        "same_event": true
+      },
+      {
+        "label": "Techmeme",
+        "title": "OpenAI launches Businesses in ChatGPT in beta, including Business Agents",
+        "url": "https://www.techmeme.com/261110/p39",
+        "date": "2026-11-11",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 86,
+      "actionable": 75,
+      "breadth": 85,
+      "heat": 95
+    },
+    "heat": 95,
+    "heat_signals": {
+      "reports": 6,
+      "domains": 5,
+      "x_posts_7d": 1390,
+      "x_spike_7d": 1142.5
+    },
+    "score": 84.4
+  },
+  {
+    "id": "eve11-h3-image",
+    "title": "MiniMax 开源 H3-Image：约 10 秒直出 4K 图像，权重与 API 同步开放",
+    "url": "https://www.aibase.com/news/32227",
+    "date": "2026-11-11",
+    "meta": "",
+    "bullets": [
+      "MiniMax 开源 H3-Image 图像生成模型，权重与 API 同步开放，支持文生图、图像参考与编辑。",
+      "官方称约 10 秒可生成 4096×4096（约 16MP）图像，速度约为同类主流工具的 5 倍，价格约为同档工具的 50%–70%。",
+      "公司将其定位为开源图像第一梯队，宣称综合性能进入全球前列。"
+    ],
+    "links": [
+      {
+        "label": "AIBase",
+        "title": "MiniMax 震撼开源 H3 Image 模型：定位全球第一梯队，支持 4K 图像秒级直出",
+        "url": "https://www.aibase.com/news/32227",
+        "date": "2026-11-11",
+        "same_event": true
+      },
+      {
+        "label": "AIBase",
+        "title": "MiniMax开源H3-Image:10秒生成16MP图像，价格仅同档工具50%–70%",
+        "url": "https://www.aibase.com/news/32222",
+        "date": "2026-11-11",
+        "same_event": true
+      },
+      {
+        "label": "WayToAGI",
+        "title": "MiniMax H3-Image 开源：让 4K 图像生成进入 10 秒时代",
+        "url": "https://waytoagi.feishu.cn/wiki/SqFqweYOuidH5fkJg1Acko3inYg?from=from_copylink",
+        "date": "2026-11-11",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 74,
+      "actionable": 88,
+      "breadth": 70,
+      "heat": 67
+    },
+    "heat": 67,
+    "heat_signals": {
+      "reports": 3,
+      "domains": 2,
+      "x_posts_7d": 3337,
+      "x_spike_7d": 1327.0
+    },
+    "score": 76.4
+  },
+  {
+    "id": "eve11-qwen4-preview",
+    "title": "阿里官宣 Qwen4，Qwen4-Max 预览版上线 Token Plan，限时最低一折",
+    "url": "https://www.aibase.com/news/32241",
+    "date": "2026-11-11",
+    "meta": "",
+    "bullets": [
+      "阿里千问团队 11 月 11 日官宣 Qwen4 即将全面发布，Qwen4-Max 预览版已上线 Alibaba Token Plan。",
+      "预览期提供限时折扣，报道称最低可至一折；Personal Lite 与 Essential 版 39 元/月，新客可再享五折。",
+      "官方尚未在此次预告中披露完整参数规模与基准分数，Qwen Office 等应用将同步集成。"
+    ],
+    "links": [
+      {
+        "label": "AIBase",
+        "title": "阿里千问全新一代 Qwen4 大模型官宣：多维能力大幅进化，预览版已正式上线",
+        "url": "https://www.aibase.com/news/32241",
+        "date": "2026-11-11",
+        "same_event": true
+      },
+      {
+        "label": "AIBase",
+        "title": "千问预告Qwen4:Qwen4-Max预览版上线阿里Token Plan，限时最低1折",
+        "url": "https://www.aibase.com/news/32235",
+        "date": "2026-11-11",
+        "same_event": true
+      },
+      {
+        "label": "千问",
+        "title": "Qwen4-Max is now in Preview",
+        "url": "https://twitter.com/Alibaba_Qwen/status/2120335993643684315",
+        "date": "2026-11-11",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 78,
+      "actionable": 80,
+      "breadth": 72,
+      "heat": 67
+    },
+    "heat": 67,
+    "heat_signals": {
+      "reports": 3,
+      "domains": 2,
+      "x_posts_7d": 1798,
+      "x_spike_7d": 1370.5
+    },
+    "score": 75.8
+  },
+  {
+    "id": "eve11-gemini-copilot",
+    "title": "Gemini 4 Carbon 登陆 GitHub Copilot，面向复杂编码与 Agent 任务",
+    "url": "https://github.blog/changelog/2026-11-10-gemini-4-carbon-in-github-copilot",
+    "date": "2026-11-11",
+    "meta": "",
+    "bullets": [
+      "Google 的 Gemini 4 Carbon 已在 GitHub Copilot 正式可用，定位复杂编码、agentic 与推理任务，并强调安全代码生成。",
+      "面向 Copilot Pro+、Max、Business 与 Enterprise 用户，可在 VS Code、Visual Studio、Copilot CLI、coding agent、github.com 与 JetBrains、Xcode、Eclipse 等处的模型选择器中选用。",
+      "按提供方列表价计入用量计费；企业管理员可通过模型策略管理开关，默认可随新模型自动启用。"
+    ],
+    "links": [
+      {
+        "label": "GitHub",
+        "title": "Gemini 4 Carbon in GitHub Copilot",
+        "url": "https://github.blog/changelog/2026-11-10-gemini-4-carbon-in-github-copilot",
+        "date": "2026-11-11",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 72,
+      "actionable": 86,
+      "breadth": 78,
+      "heat": 35
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 106,
+      "x_spike_7d": 98.5
+    },
+    "score": 69.4
+  },
+  {
+    "id": "eve11-adobe-ps",
+    "title": "Adobe MAX：Photoshop 上线 Relight 与增强清除，并预告 2027 年让 AI 代理直接操控软件",
+    "url": "https://www.aibase.com/news/32243",
+    "date": "2026-11-11",
+    "meta": "",
+    "bullets": [
+      "在 Adobe MAX 2026 上，Photoshop 的 Relight 可凭空添加光源并调节位置、颜色和亮度，Remove 能连带倒影、脚印一并清除并重建背景。",
+      "Adobe 还预览 MCP 计划，拟于 2027 年初让第三方 AI 代理直接操作 Photoshop 等项目文件。",
+      "这是 Adobe 产品能力发布，与此前 Google 和 Adobe 的平台合作公告不是同一件事。"
+    ],
+    "links": [
+      {
+        "label": "AIBase",
+        "title": "Adobe MAX 放招：Photoshop 能重打光清倒影，更要把软件交给 AI 代理操控",
+        "url": "https://www.aibase.com/news/32243",
+        "date": "2026-11-11",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 74,
+      "actionable": 82,
+      "breadth": 72,
+      "heat": 40
+    },
+    "heat": 40,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 281,
+      "x_spike_7d": 258.5
+    },
+    "score": 69.4
+  },
+  {
+    "id": "eve11-ernie-preview",
+    "title": "百度发布文心 5.5 Flash Preview：2800 亿参数、百万 token 上下文，权重拟 11 月 25 日开源",
+    "url": "https://www.aibase.com/news/32250",
+    "date": "2026-11-11",
+    "meta": "",
+    "bullets": [
+      "百度发布 ERNIE 5.5 Flash Preview，总参数约 2800 亿、激活约 140 亿，并宣称支持约 100 万 token 上下文。",
+      "报道称权重计划于 11 月 25 日开源，并提到编码与 3D 建模相关能力。",
+      "这是有别于此前已发布的 ERNIE 5.5 Flash Base 基础模型的 Preview 版本公告。"
+    ],
+    "links": [
+      {
+        "label": "AIBase",
+        "title": "百度发布文心5.5Flash Preview:2800亿参数、百万Token上下文，权重11月25日开源",
+        "url": "https://www.aibase.com/news/32250",
+        "date": "2026-11-11",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 72,
+      "actionable": 70,
+      "breadth": 65,
+      "heat": 35
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 139,
+      "x_spike_7d": 139.0
+    },
+    "score": 63.3
+  },
+  {
+    "id": "eve11-gemini-intel",
+    "title": "Gemini Intelligence 登陆 Pixel 10 等更多设备，Rambler 口述整理与任务自动化扩围",
+    "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices",
+    "date": "2026-11-11",
+    "meta": "",
+    "bullets": [
+      "Google 将 Gemini Intelligence 扩展到 Pixel 10 / Pro XL / Pro Fold，以及摩托罗拉首款相关机型 signature 27（美国 11 月 19 日开启预购）。",
+      "可实时把口述整理成文字的 Rambler 登陆上述 Pixel 10 机型；任务自动化扩展至英国、印度和日本。",
+      "即将上线的 Create My Widget 可用一句话生成主屏小组件，Device Assistance 可按语音清理空间、检查定位权限等。"
+    ],
+    "links": [
+      {
+        "label": "Google",
+        "title": "Gemini Intelligence: New features, on more devices",
+        "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices",
+        "date": "2026-11-11",
+        "same_event": true
+      },
+      {
+        "label": "Engadget",
+        "title": "Google's impressive Rambler dictation tech is now available on Pixel 10 devices too",
+        "url": "https://www.engadget.com/2312136/google-november-pixel-drop-rambler-hilight-updates",
+        "date": "2026-11-11",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 62,
+      "actionable": 75,
+      "breadth": 68,
+      "heat": 51
+    },
+    "heat": 51,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 206,
+      "x_spike_7d": 206.0
+    },
+    "score": 64.3
+  },
+  {
+    "id": "eve11-reddit-reviews",
+    "title": "Reddit 测试 AI 购物功能 Reviews：汇总约 1 万种产品的社区评价与购买链接",
+    "url": "https://techcrunch.com/2026/11/10/reddit-is-turning-user-conversations-into-ai-powered-product-reviews",
+    "date": "2026-11-11",
+    "meta": "",
+    "bullets": [
+      "Reddit 正在测试 Reviews，用 AI 把社区讨论汇总成约 1 万种产品的摘要、优缺点和购买链接。",
+      "部分版主担忧这会变成隐形营销，且目前没有明确退出机制。"
+    ],
+    "links": [
+      {
+        "label": "TechCrunch",
+        "title": "Reddit is turning user conversations into AI-powered product reviews",
+        "url": "https://techcrunch.com/2026/11/10/reddit-is-turning-user-conversations-into-ai-powered-product-reviews",
+        "date": "2026-11-10",
+        "same_event": true
+      },
+      {
+        "label": "The Verge",
+        "title": "Reddit wants to guide your next purchase",
+        "url": "https://www.theverge.com/tech/1030211/reddit-reviews-product-recommendations-electronics-beauty-shopping",
+        "date": "2026-11-10",
+        "same_event": true
+      },
+      {
+        "label": "Engadget",
+        "title": "Reddit is (sort of) getting into the product reviews business",
+        "url": "https://www.engadget.com/2310918/reddit-is-sort-of-getting-into-the-product-reviews-business",
+        "date": "2026-11-10",
+        "same_event": true
+      },
+      {
+        "label": "The Next Web",
+        "title": "Reddit turns user threads into AI reviews for 10,000 products",
+        "url": "https://thenextweb.com/news/reddit-turns-user-threads-into-ai-reviews-for-10000-products",
+        "date": "2026-11-11",
+        "same_event": true
+      },
+      {
+        "label": "The Next Web",
+        "title": "Reddit Reviews uses AI to summarise what users say about 10,000 products",
+        "url": "https://thenextweb.com/news/reddit-reviews-ai-product-summaries-no-cut-tnw",
+        "date": "2026-11-11",
+        "same_event": true
+      },
+      {
+        "label": "Slashdot",
+        "title": "Reddit Is Turning User Conversations Into AI-Powered Product Reviews",
+        "url": "https://tech.slashdot.org/story/26/11/10/1654224/reddit-is-turning-user-conversations-into-ai-powered-product-reviews",
+        "date": "2026-11-11",
+        "same_event": true
+      },
+      {
+        "label": "Techmeme",
+        "title": "Reddit launches Reddit Reviews, a built-in hub using AI to turn subreddit comments into product reviews",
+        "url": "https://www.techmeme.com/261110/p26",
+        "date": "2026-11-10",
+        "same_event": true
+      },
+      {
+        "label": "AIBase",
+        "title": "Reddit测试AI购物功能Reviews，可自动汇总产品评价与购买链接",
+        "url": "https://www.aibase.com/news/32238",
+        "date": "2026-11-11",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 58,
+      "actionable": 50,
+      "breadth": 72,
+      "heat": 80
+    },
+    "heat": 80,
+    "heat_signals": {
+      "reports": 8,
+      "domains": 7,
+      "x_posts_7d": 70,
+      "x_spike_7d": 70.0
+    },
+    "score": 61.4
+  },
+  {
+    "id": "eve11-openai-q3",
+    "title": "消息：OpenAI 三季度营收约 100 亿美元，环比增近 50%，企业业务单季翻倍",
+    "url": "https://www.aibase.com/news/32249",
+    "date": "2026-11-11",
+    "meta": "",
+    "bullets": [
+      "多方报道称，CFO Sarah Friar 向投资者披露 OpenAI 截至 9 月的第三季度营收约 100 亿美元，环比增长近 50%，年化约 500 亿美元。",
+      "企业业务收入据报环比翻倍，已与消费业务大约各占一半，增长来自代码生成、网络安全产品和 Dots 等企业 Agent 平台。",
+      "同期报道也提到亏损仍高：调整后经营利润率由约 -150% 收窄至约 -109%，但经营亏损额仍有扩大。"
+    ],
+    "links": [
+      {
+        "label": "AIBase",
+        "title": "OpenAI 三季度营收飙升至 100 亿美元：环比大增近 50%，企业业务单季实现翻倍",
+        "url": "https://www.aibase.com/news/32249",
+        "date": "2026-11-11",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 88,
+      "actionable": 25,
+      "breadth": 70,
+      "heat": 40
+    },
+    "heat": 40,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 404,
+      "x_spike_7d": 351.5
+    },
+    "score": 57.7
+  },
+  {
+    "id": "eve11-botpsy",
+    "title": "Tether AI Research 发布 0.8B 端侧助理 BotPsy：基于 Qwen3.5，专攻工具调用",
+    "url": "https://huggingface.co/blog/qvac/botpsy",
+    "date": "2026-11-11",
+    "meta": "",
+    "bullets": [
+      "Tether AI Research 推出基于 Qwen3.5-0.8B 的 BotPsy，面向函数调用与端侧 Agent 工作流，官方称在不超过 1.2B 的对比模型中工具使用评测领先。",
+      "BFCL v4、ACEBench 与 τ-bench 分别报 44.0、58.7 和 51.5，并称在五项评测上超过 2.5 倍参数的 Qwen3.5-2B-Think。",
+      "权重将以 Apache 2.0 开源，提供 bf16 / Q8 / Q4 的 safetensors 与 GGUF；官方提醒它仍会出错，不适合高风险自动决策。"
+    ],
+    "links": [
+      {
+        "label": "Hugging Face",
+        "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+        "url": "https://huggingface.co/blog/qvac/botpsy",
+        "date": "2026-11-11",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 58,
+      "actionable": 80,
+      "breadth": 50,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 36,
+      "x_spike_7d": 36.0
+    },
+    "score": 58.2
+  },
+  {
+    "id": "eve11-yuanbao",
+    "title": "腾讯元宝搜索上线独立网页版 so.qq.com，默认 AI 模式",
+    "url": "https://www.aibase.com/news/32248",
+    "date": "2026-11-11",
+    "meta": "",
+    "bullets": [
+      "腾讯元宝搜索上线独立网页版 so.qq.com，默认以 AI 模式作答，左侧答案、右侧参考资料，回车可切回传统关键词搜索。",
+      "PC 版还可单独搜索微信公众号与视频号内容，被视作把 B 端能力向 C 端延伸。"
+    ],
+    "links": [
+      {
+        "label": "AIBase",
+        "title": "腾讯元宝搜索上线独立网页版，B端能力向C端延伸",
+        "url": "https://www.aibase.com/news/32248",
+        "date": "2026-11-11",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 55,
+      "actionable": 70,
+      "breadth": 60,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 30,
+      "x_spike_7d": 15.0
+    },
+    "score": 55.0
+  },
+  {
+    "id": "eve11-double11",
+    "title": "双 11 大模型促销：智谱、MiniMax 与阿里云等集体下调 Token 价格",
+    "url": "https://www.aibase.com/news/32242",
+    "date": "2026-11-11",
+    "meta": "",
+    "bullets": [
+      "双 11 期间，MiniMax、千问办公与阿里云等厂商在天猫 AI 空间站 Token 充值中心推出促销。",
+      "报道称 MiniMax 三款月卡五折，千问办公 Basic 月卡首月七折起。"
+    ],
+    "links": [
+      {
+        "label": "AIBase",
+        "title": "AI 大模型也赶双 11：智谱、MiniMax 与阿里云等集体开启低折扣促销",
+        "url": "https://www.aibase.com/news/32242",
+        "date": "2026-11-11",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 50,
+      "actionable": 75,
+      "breadth": 65,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 67,
+      "x_spike_7d": 29.5
+    },
+    "score": 55.0
+  },
+  {
+    "id": "eve11-harbor",
+    "title": "消息：苹果子公司 Claris 测试 Harbor，可把多台 Mac 连成本地模型集群",
+    "url": "https://www.macrumors.com/2026/11/10/apple-claris-harbor-app",
+    "date": "2026-11-11",
+    "meta": "",
+    "bullets": [
+      "MacRumors 等报道称，苹果全资子公司 Claris 正在测试名为 Harbor 的应用，让搭载苹果芯片的 Mac 在本地运行大模型。",
+      "多台 Mac 可通过 Thunderbolt 5 组成集群，以便敏感数据不必上传到云端。目前仍属测试，尚未正式发布。"
+    ],
+    "links": [
+      {
+        "label": "MacRumors",
+        "title": "Apple's Claris Testing 'Harbor' App for Local AI on Macs",
+        "url": "https://www.macrumors.com/2026/11/10/apple-claris-harbor-app",
+        "date": "2026-11-11",
+        "same_event": true
+      },
+      {
+        "label": "AIBase",
+        "title": "Mac 也能当 AI 机房？苹果全资子公司暗测 Harbor，把端侧算力拼成集群",
+        "url": "https://www.aibase.com/news/32220",
+        "date": "2026-11-11",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 64,
+      "actionable": 35,
+      "breadth": 45,
+      "heat": 46
+    },
+    "heat": 46,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 171,
+      "x_spike_7d": 163.5
+    },
+    "score": 49.8
+  },
+  {
+    "id": "eve11-thead",
+    "title": "阿里确认分拆平头哥赴港上市，称国产 AI 芯片出货居国内第二",
+    "url": "https://www.aibase.com/news/32229",
+    "date": "2026-11-11",
+    "meta": "",
+    "bullets": [
+      "阿里确认分拆芯片设计子公司平头哥（T-Head）赴港交所主板上市，此前已于 9 月 11 日递交申请。",
+      "报道称其祯武系列 AI 芯片截至 2026 年 4 月累计出货约 56 万颗、服务 400 多家客户，2025 年云 AI 加速器出货约 26.5 万颗，位居国内第二。"
+    ],
+    "links": [
+      {
+        "label": "AIBase",
+        "title": "阿里确认分拆平头哥独立上市，国产AI芯片出货量位居国内第二",
+        "url": "https://www.aibase.com/news/32229",
+        "date": "2026-11-11",
+        "same_event": true
+      },
+      {
+        "label": "Techmeme",
+        "title": "Filing: Alibaba says its chip design unit T-Head filed on September 11 for a Hong Kong listing",
+        "url": "https://www.techmeme.com/261110/p17",
+        "date": "2026-11-10",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 70,
+      "actionable": 25,
+      "breadth": 55,
+      "heat": 51
+    },
+    "heat": 51,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 383,
+      "x_spike_7d": 323.0
+    },
+    "score": 51.2
+  },
+  {
+    "id": "eve11-copilot-seats",
+    "title": "GitHub App 现可调用企业级 Copilot 席位管理 API",
+    "url": "https://github.blog/changelog/2026-11-10-github-app-support-for-enterprise-copilot-seat-management",
+    "date": "2026-11-11",
+    "meta": "",
+    "bullets": [
+      "GitHub 宣布 Enterprise GitHub Apps 现可调用企业级 Copilot seat management API。",
+      "通过新增的 Enterprise Copilot license management 细粒度权限，可控制哪些用户和企业团队被分配 Copilot 席位。"
+    ],
+    "links": [
+      {
+        "label": "GitHub",
+        "title": "GitHub App support for Enterprise Copilot seat management",
+        "url": "https://github.blog/changelog/2026-11-10-github-app-support-for-enterprise-copilot-seat-management",
+        "date": "2026-11-11",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 50,
+      "actionable": 70,
+      "breadth": 48,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 8,
+      "x_spike_7d": 8.0
+    },
+    "score": 51.8
+  },
+  {
+    "id": "eve11-artark",
+    "title": "国产文生图模型 ArtArk 据报登顶 SuperCLUE 11 月榜，图文一致性获唯一满分",
+    "url": "https://www.aibase.com/news/32236",
+    "date": "2026-11-11",
+    "meta": "",
+    "bullets": [
+      "报道称 SuperCLUE 11 月文生图榜中，国产模型 ArtArk 以 95.14 分登顶，超过 GPT Image 2.5 Sunburst。",
+      "其在图文一致性项拿下全场唯一满分。"
+    ],
+    "links": [
+      {
+        "label": "AIBase",
+        "title": "国产文生图模型首度登顶全球第一！ArtArk 斩获 SuperCLUE 榜首：图文一致性唯一斩获满分",
+        "url": "https://www.aibase.com/news/32236",
+        "date": "2026-11-11",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 58,
+      "actionable": 55,
+      "breadth": 48,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0.0
+    },
+    "score": 50.5
+  },
+  {
+    "id": "eve11-siri-health",
+    "title": "iOS 27.3 开发者预览为 Siri AI 加入读取健康数据开关，默认关闭",
+    "url": "https://www.aibase.com/news/32246",
+    "date": "2026-11-11",
+    "meta": "",
+    "bullets": [
+      "报道称 iOS 27.3 首个开发者预览 beta 中，苹果为 Siri AI 加入读取 Health 的开关，可查询约 92 种 HealthKit 数据。",
+      "该能力目前锁在 beta 里，且默认全部关闭。这与此前 Siri 调度规则或第三方接入的报道不是同一公告。"
+    ],
+    "links": [
+      {
+        "label": "AIBase",
+        "title": "Siri AI 终于要懂你的体检数据了，苹果却把它锁在 Beta 里",
+        "url": "https://www.aibase.com/news/32246",
+        "date": "2026-11-11",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 60,
+      "actionable": 40,
+      "breadth": 62,
+      "heat": 35
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 87,
+      "x_spike_7d": 72.0
+    },
+    "score": 49.2
+  },
+  {
+    "id": "eve11-amd-coder",
+    "title": "AMD 推出本地编程平台 Instinct Coder 355，宣称单机可达前沿模型约 98% 表现",
+    "url": "https://www.aibase.com/news/32237",
+    "date": "2026-11-11",
+    "meta": "",
+    "bullets": [
+      "AMD 联合 Spectro Cloud 推出 Instinct Coder 355，配置 8 块 Instinct MI355X、2 颗 64 核 EPYC 9575F、3TB 内存和约 63.36TB 存储，用于本地运行 GLM-5.3。",
+      "官方称可达前沿模型约 98% 的性能，单节点可服务约 85 名开发者、50 人同时在线，默认不走云 API。"
+    ],
+    "links": [
+      {
+        "label": "AIBase",
+        "title": "AMD 亮出本地编程平台 Instinct Coder 355：一台机器塞进 98% 前沿模型",
+        "url": "https://www.aibase.com/news/32237",
+        "date": "2026-11-11",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 62,
+      "actionable": 45,
+      "breadth": 40,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 16,
+      "x_spike_7d": 16.0
+    },
+    "score": 48.3
+  },
+  {
+    "id": "eve11-odessia",
+    "title": "OpenAI 收购 AI 旅行初创 Odessia，创始人加入团队",
+    "url": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder",
+    "date": "2026-11-11",
+    "meta": "",
+    "bullets": [
+      "OpenAI 收购成立约一年、由 Sonder 创始人 Francis Davidson 创办的 AI 旅行代理公司 Odessia，Davidson 将加入 OpenAI。",
+      "该公司曾获红杉领投约 600 万美元种子轮；交易金额未披露，报道多视为人才收购，其原平台已关闭。"
+    ],
+    "links": [
+      {
+        "label": "TechCrunch",
+        "title": "OpenAI acquires Odessia, travel startup created by Sonder founder",
+        "url": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder",
+        "date": "2026-11-11",
+        "same_event": true
+      },
+      {
+        "label": "The Next Web",
+        "title": "OpenAI buys Odessia, the AI travel agent from Sonder’s founder",
+        "url": "https://thenextweb.com/news/openai-acquires-odessia-ai-travel-agent",
+        "date": "2026-11-11",
+        "same_event": true
+      },
+      {
+        "label": "AIBase",
+        "title": "OpenAI 买下 AI 旅行公司 Odessia：醉翁之意在“人”",
+        "url": "https://www.aibase.com/news/32233",
+        "date": "2026-11-11",
+        "same_event": true
+      },
+      {
+        "label": "AIBase",
+        "title": "OpenAI收购AI旅行初创公司Odessia，创始人加入团队",
+        "url": "https://www.aibase.com/news/32224",
+        "date": "2026-11-11",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 58,
+      "actionable": 20,
+      "breadth": 40,
+      "heat": 68
+    },
+    "heat": 68,
+    "heat_signals": {
+      "reports": 4,
+      "domains": 3,
+      "x_posts_7d": 352,
+      "x_spike_7d": 352.0
+    },
+    "score": 46.8
+  },
+  {
+    "id": "eve11-gpt62-sol",
+    "title": "实测还在灰度的 GPT-6.2 Sol：有作者称代码动画与 UI 审美开始挑战 Opus 5.5",
+    "url": "https://waytoagi.feishu.cn/wiki/P8cpwN7m1iA3L2kMMo7chz5ynGf?from=from_copylink",
+    "date": "2026-11-11",
+    "meta": "",
+    "bullets": [
+      "WayToAGI 一篇评测称作者灰度到 GPT-6.2 Sol 后，在一小时内跑完多个案例，覆盖代码动画、动效、UI 审美、配色和 AI 剪辑。",
+      "文章认为 Opus 5.5 在审美上的优势可能被打破，并提到收录约 29 种画风 Skill 的 carl motion。这是个人评测，不是 OpenAI 官方发布。"
+    ],
+    "links": [
+      {
+        "label": "WayToAGI",
+        "title": "实测还在灰度的GPT 6.2 sol，Opus5.5的审美霸权时代要结束了",
+        "url": "https://waytoagi.feishu.cn/wiki/P8cpwN7m1iA3L2kMMo7chz5ynGf?from=from_copylink",
+        "date": "2026-11-11",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 60,
+      "actionable": 40,
+      "breadth": 45,
+      "heat": 40
+    },
+    "heat": 40,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 2700,
+      "x_spike_7d": 210.0
+    },
+    "score": 48.5
+  },
+  {
+    "id": "eve11-anthropic-founders",
+    "title": "报道：Anthropic 七位创始人 IPO 前拟各售约 337.8 万股，合计套现近 17.5 亿美元",
+    "url": "https://www.aibase.com/news/32225",
+    "date": "2026-11-11",
+    "meta": "",
+    "bullets": [
+      "报道称 Anthropic 七位创始人在 IPO 前各计划出售 3,378,400 股，约占各自持股的 1.4%。",
+      "按发行价中值 74 美元计算，每人套现约 2.5 亿美元、合计近 17.5 亿美元，七人仍控约 51.1% 投票权，每股剩余权益仍约 180 亿美元量级。",
+      "这是创始人减持安排的报道，与此前估值遇阻或 S-1 申报不是同一条公告。"
+    ],
+    "links": [
+      {
+        "label": "AIBase",
+        "title": "IPO前夕，Anthropic七位创始人计划合计套现近17.5亿美元",
+        "url": "https://www.aibase.com/news/32225",
+        "date": "2026-11-11",
+        "same_event": true
+      },
+      {
+        "label": "AIBase",
+        "title": "Anthropic 创富样本：七创始人各售 2.5 亿，每人仍值 180 亿",
+        "url": "https://www.aibase.com/news/32228",
+        "date": "2026-11-11",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 70,
+      "actionable": 15,
+      "breadth": 50,
+      "heat": 46
+    },
+    "heat": 46,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 1,
+      "x_posts_7d": 292,
+      "x_spike_7d": 217.0
+    },
+    "score": 46.7
+  },
+  {
+    "id": "eve11-lingguang",
+    "title": "灵光 2.0 累计托管事务超 300 万，个人 AI 助理转向长期管事",
+    "url": "https://www.aibase.com/news/32239",
+    "date": "2026-11-11",
+    "meta": "",
+    "bullets": [
+      "报道称灵光 2.0 累计托管事务已超 300 万件。",
+      "文章以家长用它盯钉钉班级群、汇总通知待办为例，说明个人 AI 助理正从即时问答转向长期事务管理。"
+    ],
+    "links": [
+      {
+        "label": "AIBase",
+        "title": "灵光托管事务量突破300万，个人AI助理开始比拼“管事能力”",
+        "url": "https://www.aibase.com/news/32239",
+        "date": "2026-11-11",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 48,
+      "actionable": 55,
+      "breadth": 50,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 32,
+      "x_spike_7d": 17.0
+    },
+    "score": 46.7
+  },
+  {
+    "id": "eve11-synaptics",
+    "title": "爱好者用 Claude 写开源 DisplayLink 驱动，Synaptics 发函威胁索赔 2.5 万美元",
+    "url": "https://www.aibase.com/news/32247",
+    "date": "2026-11-11",
+    "meta": "",
+    "bullets": [
+      "个人开发者 Lothian 用 Claude 辅助编写开源 Vino 驱动，使 DisplayLink 在 Dell D6000 上工作。",
+      "Synaptics 随后发出停止函，并以两项英国专利为由威胁：若不照做将索赔 2.5 万美元，之后每 7 天再加 2.5 万美元。LWN 亦跟踪了相关专利主张。"
+    ],
+    "links": [
+      {
+        "label": "AIBase",
+        "title": "用 Claude 写开源驱动，引来 Synaptics 的 2.5 万美元索赔威胁",
+        "url": "https://www.aibase.com/news/32247",
+        "date": "2026-11-11",
+        "same_event": true
+      },
+      {
+        "label": "LWN",
+        "title": "Synaptics patent claims stop work on DisplayLink drivers",
+        "url": "https://lwn.net/SubscriberLink/1102549/acbc92e00cee3a3f",
+        "date": "2026-11-11",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 50,
+      "actionable": 45,
+      "breadth": 35,
+      "heat": 41
+    },
+    "heat": 41,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 78,
+      "x_spike_7d": -27.0
+    },
+    "score": 45.2
+  },
+  {
+    "id": "eve11-veterans",
+    "title": "OpenAI：已有超过 2 万名过渡期军人与退伍军人领取一年免费 ChatGPT Plus",
+    "url": "https://openai.com/index/chatgpt-plus-for-veterans",
+    "date": "2026-11-11",
+    "meta": "",
+    "bullets": [
+      "时值退伍军人日，OpenAI 称过去一年已有超过 2 万名过渡期军人与退伍军人领取一年免费 ChatGPT Plus。",
+      "OpenAI Academy 及合作机构已为近 1000 名军事社区成员举办十余场培训，年底前还有七场，并继续与 ID.me 等合作发放名额。"
+    ],
+    "links": [
+      {
+        "label": "OpenAI",
+        "title": "ChatGPT Plus for veterans and servicemembers",
+        "url": "https://openai.com/index/chatgpt-plus-for-veterans",
+        "date": "2026-11-11",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 40,
+      "actionable": 55,
+      "breadth": 45,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 16,
+      "x_spike_7d": 16.0
+    },
+    "score": 43.0
+  },
+  {
+    "id": "eve11-cogent",
+    "title": "Cogent 与 OpenAI 合作为企业搭建网络安全防御工厂",
+    "url": "https://openai.com/index/cogent-security",
+    "date": "2026-11-10",
+    "meta": "",
+    "bullets": [
+      "OpenAI 发布客户案例：Cogent 与其合作，为企业搭建网络安全防御工厂。",
+      "这是单独的客户故事，不是新模型或新平台发布。"
+    ],
+    "links": [
+      {
+        "label": "OpenAI",
+        "title": "Cogent and OpenAI build cyber defense factories for enterprises",
+        "url": "https://openai.com/index/cogent-security",
+        "date": "2026-11-10",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 52,
+      "actionable": 40,
+      "breadth": 40,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 8,
+      "x_spike_7d": 8.0
+    },
+    "score": 42.8
+  },
+  {
+    "id": "eve11-hongguo",
+    "title": "红果短剧上线 AI 虚拟形象确权，创作者可上传授权与登记材料留痕",
+    "url": "https://www.aibase.com/news/32244",
+    "date": "2026-11-11",
+    "meta": "",
+    "bullets": [
+      "红果短剧上线 AI 短剧虚拟形象确权能力，创作者可上传真人授权、上游 IP 授权或著作权登记证书申请。",
+      "平台审核后形成记录，供后续使用与风险处理参考，官方亦说明这不构成绝对兜底。"
+    ],
+    "links": [
+      {
+        "label": "AIBase",
+        "title": "AI剧虚拟形象权属如何留痕?红果短剧上线确权新能力",
+        "url": "https://www.aibase.com/news/32244",
+        "date": "2026-11-11",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 40,
+      "actionable": 50,
+      "breadth": 40,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": null
+    },
+    "score": 41.0
+  },
+  {
+    "id": "eve11-seedream-30round",
+    "title": "用 Seedream 5.5 画 LLM 原理图：同一张图连续改 30 轮",
+    "url": "https://waytoagi.feishu.cn/wiki/KBvtwX1URiNs9OkTDwzcOcVNnlf?from=from_copylink",
+    "date": "2026-11-11",
+    "meta": "",
+    "bullets": [
+      "作者用 Seedream 5.5 在豆包同一对话中把一张 LLM 原理图连续改了 30 轮，称单轮最大改动仅约占画面 1.02%。",
+      "最终画出 Qwen3-0.6B 回答“Is OpenAI open?”时 9 个 token、13 个 token ID 与 151,936 词表打分流程。这是教程，不是新产品发布。"
+    ],
+    "links": [
+      {
+        "label": "WayToAGI",
+        "title": "用 Seedream 5.5 画 LLM 原理图：同一张图连续改 30 轮",
+        "url": "https://waytoagi.feishu.cn/wiki/KBvtwX1URiNs9OkTDwzcOcVNnlf?from=from_copylink",
+        "date": "2026-11-11",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 35,
+      "actionable": 70,
+      "breadth": 30,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": null
+    },
+    "score": 44.0
+  },
+  {
+    "id": "eve11-latent-stanford",
+    "title": "Latent Space 对谈斯坦福 CS146S 老师：AI 时代工程师该学什么",
+    "url": "https://waytoagi.feishu.cn/wiki/UFPwwKj1iiKGdZkzTVbc63KYnEf?from=from_copylink",
+    "date": "2026-11-11",
+    "meta": "",
+    "bullets": [
+      "Latent Space 对谈斯坦福 CS146S 课程老师 Mihail Eric：受访学生几乎都已使用编码 Agent，不少练习可被一次完成。",
+      "课程因此引入真实开源贡献与维护者审阅，考核转向提出合理变更并为之负责。"
+    ],
+    "links": [
+      {
+        "label": "WayToAGI",
+        "title": "Latent Space 对谈斯坦福「The Modern Software Developer」课程老师：AI 时代，工程师该学什么？",
+        "url": "https://waytoagi.feishu.cn/wiki/UFPwwKj1iiKGdZkzTVbc63KYnEf?from=from_copylink",
+        "date": "2026-11-11",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 48,
+      "actionable": 60,
+      "breadth": 50,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": null
+    },
+    "score": 48.2
+  },
+  {
+    "id": "eve11-seedream-review",
+    "title": "Seedream 5.5 完整测评报告",
+    "url": "https://waytoagi.feishu.cn/wiki/XVQcw6KTziAICvkRzbXc345Ynzf?from=from_copylink",
+    "date": "2026-11-11",
+    "meta": "",
+    "bullets": [
+      "WayToAGI 发布 Seedream 5.5 的完整测评报告，梳理其连续编辑与画质表现。",
+      "这是对已发布模型的评测，不是新的产品公告。"
+    ],
+    "links": [
+      {
+        "label": "WayToAGI",
+        "title": "Seedream 5.5 完整测评报告",
+        "url": "https://waytoagi.feishu.cn/wiki/XVQcw6KTziAICvkRzbXc345Ynzf?from=from_copylink",
+        "date": "2026-11-11",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 40,
+      "actionable": 55,
+      "breadth": 35,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": null
+    },
+    "score": 42.0
+  },
+  {
+    "id": "eve11-cleanup-skill",
+    "title": "开源清理系统垃圾 Skill，终于有空间了",
+    "url": "https://waytoagi.feishu.cn/wiki/VvSgwokAJiI1SfkFQQOcFul3n6b?from=from_copylink",
+    "date": "2026-11-11",
+    "meta": "",
+    "bullets": [
+      "WayToAGI 分享一篇开源系统垃圾清理 Skill，作者称用后磁盘空间明显增加。",
+      "这是技能分享，不是新产品发布。"
+    ],
+    "links": [
+      {
+        "label": "WayToAGI",
+        "title": "开源清理系统垃圾skill，终于有空间了",
+        "url": "https://waytoagi.feishu.cn/wiki/VvSgwokAJiI1SfkFQQOcFul3n6b?from=from_copylink",
+        "date": "2026-11-11",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 30,
+      "actionable": 65,
+      "breadth": 35,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": null
+    },
+    "score": 41.0
+  },
+  {
+    "id": "eve11-shortplay-script",
+    "title": "如何写一个 AI 短剧剧本：短剧和电影短片两套写法",
+    "url": "https://waytoagi.feishu.cn/wiki/OeMHwaKvaiOKTQky67Qcb5Gbnkb?from=from_copylink",
+    "date": "2026-11-11",
+    "meta": "",
+    "bullets": [
+      "作者对比短剧与电影短片两种写法，以外卖员送错单、开门遇见十年未见的亲生父亲为例，说明第 1 集停在门开切黑和 4 分钟短片演完的差异。",
+      "文中附有约 69 集短剧案例、7 段提示词与 3 个剧本技能。这是教程，不是产品发布。"
+    ],
+    "links": [
+      {
+        "label": "WayToAGI",
+        "title": "如何写一个 AI 短剧剧本：短剧和电影短片两套写法，附我在用的剧本技能",
+        "url": "https://waytoagi.feishu.cn/wiki/OeMHwaKvaiOKTQky67Qcb5Gbnkb?from=from_copylink",
+        "date": "2026-11-11",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 32,
+      "actionable": 60,
+      "breadth": 30,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": null
+    },
+    "score": 39.8
+  },
+  {
+    "id": "eve11-gilbert",
+    "title": "Gilbert + Tobin：用 ChatGPT Enterprise 搭建多步骤工作流，活跃使用率约 87%",
+    "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
+    "date": "2026-11-11",
+    "meta": "",
+    "bullets": [
+      "澳大利亚律所 Gilbert + Tobin 分享如何用 ChatGPT Enterprise 搭建多步骤工作流，在人工复核下达到约 87% 的活跃使用率。",
+      "这是单独的客户案例，不是 OpenAI 的新产品发布。"
+    ],
+    "links": [
+      {
+        "label": "OpenAI",
+        "title": "Gilbert + Tobin rethinks the business of law with AI",
+        "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
+        "date": "2026-11-11",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 42,
+      "actionable": 40,
+      "breadth": 35,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 11,
+      "x_spike_7d": 11.0
+    },
+    "score": 38.3
+  },
+  {
+    "id": "eve11-sia",
+    "title": "新加坡航空用 OpenAI 技术提升差旅与办公体验",
+    "url": "https://openai.com/index/singapore-airlines-travel-work",
+    "date": "2026-11-10",
+    "meta": "",
+    "bullets": [
+      "OpenAI 发布客户案例：新加坡航空用其技术提升旅行与办公体验。",
+      "这是单独的客户故事，不是新模型发布。"
+    ],
+    "links": [
+      {
+        "label": "OpenAI",
+        "title": "Singapore Airlines elevates travel & work with OpenAI technology",
+        "url": "https://openai.com/index/singapore-airlines-travel-work",
+        "date": "2026-11-10",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 45,
+      "actionable": 30,
+      "breadth": 40,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 7,
+      "x_spike_7d": 7.0
+    },
+    "score": 37.0
+  },
+  {
     "id": "morn-gemini-4-carbon",
     "title": "Google 发布 Gemini 4 Carbon：登顶多项独立基准，并预览 Agent「群体」协作",
     "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available",
@@ -45,22 +1450,36 @@
         "url": "https://www.techmeme.com/261110/p30",
         "date": "2026-11-10",
         "same_event": true
+      },
+      {
+        "label": "AIBase",
+        "title": "谷歌旗舰 Gemini 4 Carbon 正式发布：多智能体协作一夜造游戏，网络安全与科学推理迎来质的飞跃",
+        "url": "https://www.aibase.com/news/32223",
+        "date": "2026-11-11",
+        "same_event": true
+      },
+      {
+        "label": "AIBase",
+        "title": "谷歌 Gemini 4 Carbon 亮相：专啃硬骨头，思考越久越准",
+        "url": "https://www.aibase.com/news/32232",
+        "date": "2026-11-11",
+        "same_event": true
       }
     ],
     "score_parts": {
       "industry": 94,
       "actionable": 88,
       "breadth": 90,
-      "heat": 94
+      "heat": 100
     },
-    "heat": 94,
+    "heat": 100,
     "heat_signals": {
-      "reports": 5,
-      "domains": 5,
+      "reports": 7,
+      "domains": 6,
       "x_posts_7d": 6250,
       "x_spike_7d": 4225.0
     },
-    "score": 91.8
+    "score": 93.0
   },
   {
     "id": "morn-alphaproof-code",
@@ -108,7 +1527,7 @@
     "id": "morn-gemini-robotics-25",
     "title": "DeepMind 发布 Gemini Robotics 2.5，并推出开源安全基准 ASIMOV-jailbreak",
     "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence",
-    "date": "2026-11-10",
+    "date": "2026-11-11",
     "meta": "",
     "bullets": [
       "Google DeepMind 发布 Gemini Robotics 2.5，意在加快通用灵巧操作在真实世界的落地。",
@@ -129,22 +1548,29 @@
         "url": "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak",
         "date": "2026-11-10",
         "same_event": true
+      },
+      {
+        "label": "AIBase",
+        "title": "谷歌发布最强机器人模型 Gemini Robotics 2.5：不仅学会系蝴蝶结，更已在奔驰汽车生产线成功上岗",
+        "url": "https://www.aibase.com/news/32230",
+        "date": "2026-11-11",
+        "same_event": true
       }
     ],
     "score_parts": {
       "industry": 80,
       "actionable": 55,
       "breadth": 55,
-      "heat": 51
+      "heat": 62
     },
-    "heat": 51,
+    "heat": 62,
     "heat_signals": {
-      "reports": 2,
-      "domains": 2,
+      "reports": 3,
+      "domains": 3,
       "x_posts_7d": 385,
       "x_spike_7d": 385.0
     },
-    "score": 64.2
+    "score": 66.4
   },
   {
     "id": "morn-gemini-healthcare",
