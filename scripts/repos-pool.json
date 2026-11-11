@@ -263,7 +263,7 @@
     "desc": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
     "lang": "JavaScript",
     "stars": 185494,
-    "week": 5368,
+    "week": 4859,
     "topics": [
       "agent-skills",
       "ai-agents",
@@ -1020,7 +1020,8 @@
       "开发工具链"
     ],
     "_sources": [
-      "rust"
+      "rust",
+      "all"
     ]
   },
   {
@@ -1214,7 +1215,8 @@
       "应用与产品"
     ],
     "_sources": [
-      "python"
+      "python",
+      "all"
     ]
   },
   {
@@ -1256,7 +1258,7 @@
     "desc": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
     "lang": "Rust",
     "stars": 102476,
-    "week": 1791,
+    "week": 1763,
     "topics": [
       "awesome",
       "claude",
@@ -1734,7 +1736,7 @@
     "desc": "基于 DeepSeek Harness 插件机制构建的远程访问方案，通过低延迟、端到端加密的 P2P 网络，支持使用 PC、移动端 和 Web 随时访问本地设备上的DSH 、CodeX、Cursor、Claude Code等工作区。 (Built on DeepSeek Harness plugins, this low-latency, end-to-end encrypted P2P solution lets PC, mobile, and web clients access local DSH, Codex, Cursor, and Claude Code workspaces.)",
     "lang": "TypeScript",
     "stars": 2427,
-    "week": 1128,
+    "week": 968,
     "topics": [
       "deepseek",
       "dsh-plugin"
@@ -2784,7 +2786,7 @@
     "desc": "21 Lessons, Get Started Building with Generative AI",
     "lang": "Jupyter Notebook",
     "stars": 123204,
-    "week": 474,
+    "week": 452,
     "topics": [
       "ai",
       "azure",
@@ -3501,13 +3503,15 @@
     "desc": "Run iOS apps without actually installing them!",
     "lang": "Swift",
     "stars": 13509,
-    "week": 265,
+    "week": 318,
     "topics": [],
     "url": "https://github.com/LiveContainer/LiveContainer",
     "types": [
       "开发工具链"
     ],
-    "_sources": []
+    "_sources": [
+      "swift"
+    ]
   },
   {
     "full": "altic-dev/FluidVoice",
@@ -4181,7 +4185,7 @@
     "desc": "A Dynamic Island for Windows 11 with AI coding tool quotas, usage tracking, music controls, and more.",
     "lang": "C#",
     "stars": 539,
-    "week": 151,
+    "week": 153,
     "topics": [
       "dynamic-island",
       "media-controls",
@@ -4942,13 +4946,15 @@
     "desc": "Repository for skills to assist AI coding agents with .NET and C#",
     "lang": "C#",
     "stars": 5762,
-    "week": 67,
+    "week": 110,
     "topics": [],
     "url": "https://github.com/dotnet/skills",
     "types": [
       "Skill"
     ],
-    "_sources": []
+    "_sources": [
+      "csharp"
+    ]
   },
   {
     "full": "DataTalksClub/llm-zoomcamp",
@@ -5295,7 +5301,9 @@
       "模型与推理",
       "数据与评测"
     ],
-    "_sources": []
+    "_sources": [
+      "jupyter-notebook"
+    ]
   },
   {
     "full": "hashicorp/nomad",
@@ -6408,6 +6416,195 @@
     "url": "https://github.com/zml/zml",
     "_sources": [
       "zig"
+    ]
+  },
+  {
+    "full": "garrytan/gbrain",
+    "name": "gbrain",
+    "desc": "Garry's Opinionated OpenClaw/Hermes Agent Brain",
+    "lang": "TypeScript",
+    "stars": 32693,
+    "week": 1126,
+    "topics": [],
+    "types": [
+      "Agent"
+    ],
+    "url": "https://github.com/garrytan/gbrain",
+    "_sources": [
+      "typescript"
+    ]
+  },
+  {
+    "full": "getpaseo/paseo",
+    "name": "paseo",
+    "desc": "Orchestrate multiple coding agents from desktop and mobile",
+    "lang": "TypeScript",
+    "stars": 23817,
+    "week": 815,
+    "topics": [
+      "ade",
+      "agents",
+      "android",
+      "claude-code",
+      "codex",
+      "copilot",
+      "developer-tools",
+      "hermes",
+      "ios",
+      "linux",
+      "mobile",
+      "opencode",
+      "orchestration",
+      "pi",
+      "windows"
+    ],
+    "types": [
+      "Agent",
+      "开发工具链"
+    ],
+    "url": "https://github.com/getpaseo/paseo",
+    "_sources": [
+      "typescript"
+    ]
+  },
+  {
+    "full": "Manavarya09/design-extract",
+    "name": "design-extract",
+    "desc": "Extract any website's complete design system with one command. DTCG tokens, semantic+primitive+composite, MCP server for Claude Code/Cursor/Windsurf, multi-platform emitters (iOS SwiftUI, Android Compose, Flutter, WordPress), Tailwind v4, Figma variables, shadcn/ui, CSS health audit, WCAG remediation, Chrome extension. MIT, Playwright, Node 20+.",
+    "lang": "HTML",
+    "stars": 5045,
+    "week": 544,
+    "topics": [
+      "accessibility",
+      "agent-skill",
+      "ai",
+      "chrome-extension",
+      "claude-code-plugin",
+      "cli",
+      "css",
+      "cursor",
+      "design-system",
+      "design-to-code",
+      "design-tokens",
+      "dtcg",
+      "figma",
+      "mcp-server",
+      "npx",
+      "playwright",
+      "shadcn-ui",
+      "skills-sh",
+      "tailwind",
+      "web-scraping"
+    ],
+    "types": [
+      "Skill",
+      "开发工具链"
+    ],
+    "url": "https://github.com/Manavarya09/design-extract",
+    "_sources": [
+      "html"
+    ]
+  },
+  {
+    "full": "langchain-ai/rag-from-scratch",
+    "name": "rag-from-scratch",
+    "desc": "",
+    "lang": "Jupyter Notebook",
+    "stars": 9843,
+    "week": 189,
+    "topics": [],
+    "types": [
+      "数据与评测"
+    ],
+    "url": "https://github.com/langchain-ai/rag-from-scratch",
+    "_sources": [
+      "jupyter-notebook"
+    ]
+  },
+  {
+    "full": "opencv/opencv",
+    "name": "opencv",
+    "desc": "Open Source Computer Vision Library",
+    "lang": "C++",
+    "stars": 91532,
+    "week": 130,
+    "topics": [
+      "c-plus-plus",
+      "computer-vision",
+      "deep-learning",
+      "image-processing",
+      "opencv"
+    ],
+    "types": [
+      "模型与推理"
+    ],
+    "url": "https://github.com/opencv/opencv",
+    "_sources": [
+      "cpp"
+    ]
+  },
+  {
+    "full": "cogwheel0/conduit",
+    "name": "conduit",
+    "desc": "Native iOS and Android client for Open WebUI, direct OpenAI-compatible, Ollama, and Hermes agents.",
+    "lang": "Dart",
+    "stars": 2439,
+    "week": 40,
+    "topics": [
+      "ai-agents",
+      "ai-assistant",
+      "android",
+      "chat",
+      "chatbot",
+      "cross-platform",
+      "dart",
+      "flutter",
+      "ios",
+      "llm",
+      "llm-client",
+      "mobile-app",
+      "ollama",
+      "open-webui",
+      "openai",
+      "openrouter",
+      "openwebui",
+      "privacy",
+      "self-hosted",
+      "selfhosted"
+    ],
+    "types": [
+      "应用与产品"
+    ],
+    "url": "https://github.com/cogwheel0/conduit",
+    "_sources": [
+      "dart"
+    ]
+  },
+  {
+    "full": "github/CopilotForXcode",
+    "name": "CopilotForXcode",
+    "desc": "AI coding assistant for Xcode",
+    "lang": "Swift",
+    "stars": 6384,
+    "week": 25,
+    "topics": [
+      "ai-assistant",
+      "github-copilot",
+      "intelligence",
+      "ios",
+      "macos",
+      "objective-c",
+      "swift",
+      "swiftui",
+      "xcode"
+    ],
+    "types": [
+      "开发工具链",
+      "应用与产品"
+    ],
+    "url": "https://github.com/github/CopilotForXcode",
+    "_sources": [
+      "swift"
     ]
   }
 ]

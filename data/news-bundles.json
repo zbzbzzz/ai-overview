@@ -1,5 +1,486 @@
 [
   {
+    "id": "morn12-gemini-decisions",
+    "title": "Google 发布 Gemini Decisions API 与 Gemini Decision 1：单次前向即可做多模态封闭决策",
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api",
+    "date": "2026-11-12",
+    "meta": "",
+    "bullets": [
+      "Google 推出 Gemini Decisions API，由新模型 Gemini Decision 1（gemini-decision-1）驱动，面向工具选择、策略检查、模型路由和内容打分等封闭集决策。",
+      "一次请求可对共享的多模态输入（文本、图像、音频、视频和 PDF，最长约 25.6 万 token）并行评估最多 1,000 个是/否、多选或量表问题，返回概率与 0–1 置信度，端到端时延约 150–250 毫秒。",
+      "按每百万输入 token 0.10 美元计费且不收取输出 token；已在 Google AI Studio 的 Gemini API 中开放，Google 内部用它做 Notebook 实时路由和 Stitch 画布迭代。"
+    ],
+    "links": [
+      {
+        "label": "Google",
+        "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+        "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api",
+        "date": "2026-11-12",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 80,
+      "actionable": 88,
+      "breadth": 68,
+      "heat": 45
+    },
+    "heat": 45,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 1056,
+      "x_spike_7d": 606.0
+    },
+    "score": 74.2
+  },
+  {
+    "id": "morn12-alphagenome-2",
+    "title": "DeepMind 发布 AlphaGenome 2：按细胞类型预测 DNA 变异如何影响基因表达",
+    "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease",
+    "date": "2026-11-11",
+    "meta": "",
+    "bullets": [
+      "Google DeepMind 发布下一代 DNA 序列模型 AlphaGenome 2，把输入条件从组织平均改为特定细胞类型或细胞状态，用于预测基因变异如何影响数百种人类细胞。",
+      "模型在人体和小鼠的批量与单细胞数据上训练，包含超过 1.07 亿个细胞图谱，覆盖 68 种组织；官方称识别出会改变细胞基因表达的变异数量，接近此前最强模型的两倍，并新增 DNA 甲基化预测。",
+      "非商业研究可立即通过 AlphaGenome API 使用，商业研究处于私有预览。该模型还能适配新的单细胞数据，无需重新训练。"
+    ],
+    "links": [
+      {
+        "label": "Google DeepMind",
+        "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+        "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease",
+        "date": "2026-11-11",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 82,
+      "actionable": 70,
+      "breadth": 58,
+      "heat": 45
+    },
+    "heat": 45,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 604,
+      "x_spike_7d": 604.0
+    },
+    "score": 68.6
+  },
+  {
+    "id": "morn12-gpt-live-voice",
+    "title": "OpenAI 将于 12 月 11 日停用 ChatGPT 旧语音模式，全面切换到 GPT-Live",
+    "url": "https://www.aibase.com/news/32253",
+    "date": "2026-11-11",
+    "meta": "",
+    "bullets": [
+      "OpenAI 宣布将于 2026 年 12 月 11 日停用 ChatGPT 的 Advanced 与 Standard 旧语音模式，之后会把用户自动切换到今年 7 月上线的全双工语音模型 GPT-Live，历史对话仍会保留。",
+      "官方理由是 GPT-Live 可边听边答并把复杂任务交给前沿文本模型，上线后语音使用量接近翻倍，多数语音用户已经迁到新模型。",
+      "部分用户认为旧版回答更细、和文本上下文衔接更好，并抱怨 GPT-Live 会抢话、丢记忆或答非所问；OpenAI 表示会根据反馈改进，外界也在对比此前 GPT-4o 下线后曾延期的先例。"
+    ],
+    "links": [
+      {
+        "label": "AIBase",
+        "title": "OpenAI 砍掉旧语音模式，GPT-Live 上位，用户却不买账",
+        "url": "https://www.aibase.com/news/32253",
+        "date": "2026-11-11",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 68,
+      "actionable": 58,
+      "breadth": 75,
+      "heat": 40
+    },
+    "heat": 40,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 935,
+      "x_spike_7d": 305.0
+    },
+    "score": 60.1
+  },
+  {
+    "id": "morn12-tabletop",
+    "title": "Google Labs 推出 Tabletop：用提示生成可多人同时编辑的协作空间",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop",
+    "date": "2026-11-12",
+    "meta": "",
+    "bullets": [
+      "Google Labs 发布实验产品 Tabletop，把链接、文件和想法放进一个空间后，可用 @tabletop 或模板生成行程、聚餐投票、分账和赛事对阵等互动页面。",
+      "生成后可通过邀请链接让所有人像 Google 文档一样同时进入编辑，面向家庭出行、社团联赛和聚餐等小组协作。",
+      "目前仅在美国对 18 岁以上用户以候补名单方式开放，需在 labs.google/tabletop 登记。"
+    ],
+    "links": [
+      {
+        "label": "Google",
+        "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop",
+        "date": "2026-11-12",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 62,
+      "actionable": 55,
+      "breadth": 60,
+      "heat": 35
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 55,
+      "x_spike_7d": 55.0
+    },
+    "score": 54.3
+  },
+  {
+    "id": "morn12-carbon-devguide",
+    "title": "Gemini 4 Carbon 开发者指南：适用场景、定价与落地技巧",
+    "url": "https://waytoagi.feishu.cn/wiki/WG6GwUiHRi28v0kDHJ5ck1zkn4b?from=from_copylink",
+    "date": "2026-11-12",
+    "meta": "",
+    "bullets": [
+      "WayToAGI 发布 Gemini 4 Carbon 开发者指南，梳理其深度推理、长周期 Agent 任务、百万 token 上下文和三档推理深度调节，并说明适合缺陷审查、架构设计和科学推导等场景。",
+      "文中附有定价、迁移要点，以及和 Argon、Flash 组成多智能体流水线的五条实战技巧。这是教程，不是新的产品公告。"
+    ],
+    "links": [
+      {
+        "label": "WayToAGI",
+        "title": "Gemini 4 Carbon：开发者指南",
+        "url": "https://waytoagi.feishu.cn/wiki/WG6GwUiHRi28v0kDHJ5ck1zkn4b?from=from_copylink",
+        "date": "2026-11-12",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 48,
+      "actionable": 78,
+      "breadth": 50,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": null
+    },
+    "score": 53.6
+  },
+  {
+    "id": "morn12-hf-gcp-billing",
+    "title": "Hugging Face Hub 支持用 Google Cloud 账户结算账单",
+    "url": "https://huggingface.co/blog/hub-gcp-marketplace",
+    "date": "2026-11-10",
+    "meta": "",
+    "bullets": [
+      "Hugging Face 宣布组织管理员可在 Google Cloud Marketplace 订阅并绑定 Hub 组织，使 Team/Enterprise 订阅以及 Jobs、Inference Endpoints、Inference Providers、GPU Spaces 和额外存储出现在现有 Google Cloud 账单中。",
+      "订阅需经 Hugging Face 审核；已绑定信用卡的组织会在下一个账期切换，免费组织通常立即生效。通过 Marketplace 结算时不能再充值 credits，但订阅自带的每月 credits 仍会先抵扣。"
+    ],
+    "links": [
+      {
+        "label": "Hugging Face",
+        "title": "Pay for Hugging Face Hub with your Google Cloud Account",
+        "url": "https://huggingface.co/blog/hub-gcp-marketplace",
+        "date": "2026-11-10",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 48,
+      "actionable": 72,
+      "breadth": 45,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 23,
+      "x_spike_7d": 23.0
+    },
+    "score": 51.3
+  },
+  {
+    "id": "morn12-beijing-court-label",
+    "title": "北京互联网法院：平台误判未标识 AI 生成内容并处罚，构成违约",
+    "url": "https://www.aibase.com/news/32251",
+    "date": "2026-11-11",
+    "meta": "",
+    "bullets": [
+      "北京互联网法院披露一起案件：用户发布自称原创的文字后，平台以「含未标识的 AI 生成内容」为由隐藏并禁言一天，法院认定平台违约，要求取消隐藏并删除相应违规记录。",
+      "法院认为，算法识别和审核结果由平台掌握，平台应对其判定依据作出用户能理解的说明，不能只以商业秘密为由拒绝解释；同时也建议按情节分级处理，并完善误判救济。",
+      "在《人工智能生成合成内容标识办法》实施、平台加强 AI 内容标识审查的背景下，该案为算法判定与用户救济提供了司法参照。"
+    ],
+    "links": [
+      {
+        "label": "AIBase",
+        "title": "北京互联网法院:平台误判AI生成内容未标识构成违约",
+        "url": "https://www.aibase.com/news/32251",
+        "date": "2026-11-11",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 58,
+      "actionable": 52,
+      "breadth": 55,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 8,
+      "x_spike_7d": 8.0
+    },
+    "score": 50.3
+  },
+  {
+    "id": "morn12-workflow-eng",
+    "title": "把 AI 工作流工程化：用 LLM-as-a-Judge 减少逐条审阅",
+    "url": "https://waytoagi.feishu.cn/wiki/WtXiwe2xbiS96LkU0maclMGmnsg?from=from_copylink",
+    "date": "2026-11-12",
+    "meta": "",
+    "bullets": [
+      "作者认为很多人只用 AI 做单点提效，仍困在逐条审阅和反复纠错里，并介绍如何把工作流做成可自动评估的工程系统。",
+      "文中受多 Agent 系统启发，落地了 LLM-as-a-Judge 自动评估方案，并给出循序渐进的搭建思路。这是方法分享，不是新产品发布。"
+    ],
+    "links": [
+      {
+        "label": "WayToAGI",
+        "title": "AI 都帮我干活了，为什么我还是这么累？聊聊 AI 工作流的工程化",
+        "url": "https://waytoagi.feishu.cn/wiki/WtXiwe2xbiS96LkU0maclMGmnsg?from=from_copylink",
+        "date": "2026-11-12",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 38,
+      "actionable": 72,
+      "breadth": 45,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": null
+    },
+    "score": 47.3
+  },
+  {
+    "id": "morn12-team-agent-opc",
+    "title": "模数 OPC 社区的 Team Agent 实践：分域权限与事项绑定上下文",
+    "url": "https://waytoagi.feishu.cn/wiki/MHWbwAovYiY2x7kaEVoc5bSYnDd?from=from_copylink",
+    "date": "2026-11-12",
+    "meta": "",
+    "bullets": [
+      "模数 OPC 社区分享一套 Team Agent 方案：6 人团队用分域权限、事项绑定上下文，让数字员工承接业务全链路，只在关键节点保留人工把关。",
+      "方案还配合每日知识蒸馏形成持续学习闭环。这是社区实践案例，不是新产品发布。"
+    ],
+    "links": [
+      {
+        "label": "WayToAGI",
+        "title": "人人都有 Agent 之后：我们在自己的 AI 社区里做 Team Agent",
+        "url": "https://waytoagi.feishu.cn/wiki/MHWbwAovYiY2x7kaEVoc5bSYnDd?from=from_copylink",
+        "date": "2026-11-12",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 40,
+      "actionable": 68,
+      "breadth": 40,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0.0
+    },
+    "score": 46.4
+  },
+  {
+    "id": "morn12-fable-fps",
+    "title": "用 Claude Code 与 Fable 5.2 从建模到 FPS 游戏的完整教程",
+    "url": "https://waytoagi.feishu.cn/wiki/WhlCwkIkpi0Y3ik2NHXcB46enUc?from=from_copylink",
+    "date": "2026-11-12",
+    "meta": "",
+    "bullets": [
+      "作者介绍如何用 Claude Code 与 Fable 5.2，靠代码生成音效、贴图和 3D 模型，在约 41 分钟内自动做出可游玩的 FPS 游戏，并让模型自行截图检查、校验音频。",
+      "文中拆了由浅入深的实验路径，并附可复制提示词、环境配置与开源仓库。这是教程，不是新产品发布。"
+    ],
+    "links": [
+      {
+        "label": "WayToAGI",
+        "title": "Fable 5.2 从建模到 FPS 游戏完整教程",
+        "url": "https://waytoagi.feishu.cn/wiki/WhlCwkIkpi0Y3ik2NHXcB46enUc?from=from_copylink",
+        "date": "2026-11-12",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 35,
+      "actionable": 75,
+      "breadth": 35,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": null
+    },
+    "score": 46.0
+  },
+  {
+    "id": "morn12-token-pooling",
+    "title": "Hugging Face：面向多向量嵌入模型的 Token 池化感知训练",
+    "url": "https://huggingface.co/blog/token-pooling",
+    "date": "2026-11-11",
+    "meta": "",
+    "bullets": [
+      "Hugging Face 发布技术博文，讨论多向量嵌入模型（如 ColBERT）在训练中如何做 token 池化，以便在保留细粒度匹配能力的同时控制向量规模。",
+      "这是方法介绍，不是新模型发布。"
+    ],
+    "links": [
+      {
+        "label": "Hugging Face",
+        "title": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
+        "url": "https://huggingface.co/blog/token-pooling",
+        "date": "2026-11-11",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 45,
+      "actionable": 60,
+      "breadth": 32,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 4,
+      "x_spike_7d": 4.0
+    },
+    "score": 45.2
+  },
+  {
+    "id": "morn12-floatboat-trade",
+    "title": "用 Floatboat 搭外贸工作台：线索、工业图、单页站和邮件收拢一处",
+    "url": "https://waytoagi.feishu.cn/wiki/UnJswDbvfiDRdDk4PMMcGoBonOc?from=from_copylink",
+    "date": "2026-11-12",
+    "meta": "",
+    "bullets": [
+      "作者介绍基于 Floatboat 搭建的外贸工作台，把海外线索、工业图生成、单页站、邮件处理和英语陪练放在同一处，客户数据存在本地 SQLite，并支持后台长任务和接入主流模型。",
+      "这是工具搭配教程，不是新产品发布。"
+    ],
+    "links": [
+      {
+        "label": "WayToAGI",
+        "title": "AI 时代，聪明的外贸人别再为一堆工具买单了",
+        "url": "https://waytoagi.feishu.cn/wiki/UnJswDbvfiDRdDk4PMMcGoBonOc?from=from_copylink",
+        "date": "2026-11-12",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 35,
+      "actionable": 65,
+      "breadth": 30,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 3,
+      "x_spike_7d": 3.0
+    },
+    "score": 42.5
+  },
+  {
+    "id": "morn12-fable-prompt",
+    "title": "趁 Fable 5.2 上线初期分享一套三段式提示词",
+    "url": "https://waytoagi.feishu.cn/wiki/NMCFw2lcqiw6D4k9hvxcyyLZnng?from=from_copylink",
+    "date": "2026-11-12",
+    "meta": "",
+    "bullets": [
+      "作者趁 Claude Fable 5.2 上线初期性能较强的窗口，分享一套三段式提示词，用于批量盘活积压项目。",
+      "这是提示词分享，不是新产品发布。"
+    ],
+    "links": [
+      {
+        "label": "WayToAGI",
+        "title": "趁Fable5.2智力最高分享1个超有用的提示语",
+        "url": "https://waytoagi.feishu.cn/wiki/NMCFw2lcqiw6D4k9hvxcyyLZnng?from=from_copylink",
+        "date": "2026-11-12",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 32,
+      "actionable": 65,
+      "breadth": 30,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": null
+    },
+    "score": 41.3
+  },
+  {
+    "id": "morn12-jiostar",
+    "title": "JioStar 首席架构师谈 5 亿用户规模下的 AI 内容发现",
+    "url": "https://openai.com/index/jiostar-vijay-seshadri",
+    "date": "2026-11-11",
+    "meta": "",
+    "bullets": [
+      "OpenAI 发布客户案例：JioStar 首席架构师介绍如何在约 5 亿用户规模下做 AI 内容发现。",
+      "这是单独的客户故事，不是新产品发布。"
+    ],
+    "links": [
+      {
+        "label": "OpenAI",
+        "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
+        "url": "https://openai.com/index/jiostar-vijay-seshadri",
+        "date": "2026-11-11",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 42,
+      "actionable": 35,
+      "breadth": 40,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 3,
+      "x_spike_7d": 3.0
+    },
+    "score": 37.3
+  },
+  {
     "id": "eve11-claude-office",
     "title": "Anthropic 上线 Claude Sheets、Whiteboards，并将 Dashboards 升级为 Claude Data，同步推出会议助手",
     "url": "https://claude.com/resources/articles/sheets-whiteboards-data",
@@ -178,7 +659,7 @@
     "id": "eve11-h3-image",
     "title": "MiniMax 开源 H3-Image：约 10 秒直出 4K 图像，权重与 API 同步开放",
     "url": "https://www.aibase.com/news/32227",
-    "date": "2026-11-11",
+    "date": "2026-11-12",
     "meta": "",
     "bullets": [
       "MiniMax 开源 H3-Image 图像生成模型，权重与 API 同步开放，支持文生图、图像参考与编辑。",
@@ -206,22 +687,29 @@
         "url": "https://waytoagi.feishu.cn/wiki/SqFqweYOuidH5fkJg1Acko3inYg?from=from_copylink",
         "date": "2026-11-11",
         "same_event": true
+      },
+      {
+        "label": "WayToAGI",
+        "title": "10秒出4K，MiniMax还开源了！H3 Image上线！",
+        "url": "https://waytoagi.feishu.cn/wiki/H769wCNcWiN05pkAA7Icx8Eon3b?from=from_copylink",
+        "date": "2026-11-12",
+        "same_event": true
       }
     ],
     "score_parts": {
       "industry": 74,
       "actionable": 88,
       "breadth": 70,
-      "heat": 67
+      "heat": 73
     },
-    "heat": 67,
+    "heat": 73,
     "heat_signals": {
-      "reports": 3,
+      "reports": 4,
       "domains": 2,
       "x_posts_7d": 3337,
       "x_spike_7d": 1327.0
     },
-    "score": 76.4
+    "score": 77.6
   },
   {
     "id": "eve11-qwen4-preview",
@@ -1149,22 +1637,29 @@
         "url": "https://www.aibase.com/news/32244",
         "date": "2026-11-11",
         "same_event": true
+      },
+      {
+        "label": "AIBase",
+        "title": "红果短剧给 AI 角色「上户口」：虚拟形象也能确权了",
+        "url": "https://www.aibase.com/news/32254",
+        "date": "2026-11-11",
+        "same_event": true
       }
     ],
     "score_parts": {
       "industry": 40,
       "actionable": 50,
       "breadth": 40,
-      "heat": 30
+      "heat": 36
     },
-    "heat": 30,
+    "heat": 36,
     "heat_signals": {
-      "reports": 1,
+      "reports": 2,
       "domains": 1,
       "x_posts_7d": 0,
       "x_spike_7d": null
     },
-    "score": 41.0
+    "score": 42.2
   },
   {
     "id": "eve11-seedream-30round",

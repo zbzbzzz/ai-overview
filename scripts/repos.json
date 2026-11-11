@@ -14,7 +14,6 @@
       "开发工具链"
     ],
     "_sources": [
-      "all",
       "typescript"
     ]
   },
@@ -195,27 +194,29 @@
     ]
   },
   {
-    "full": "affaan-m/ECC",
-    "name": "ECC",
-    "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+    "full": "DietrichGebert/ponytail",
+    "name": "ponytail",
+    "desc": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
     "lang": "JavaScript",
-    "stars": 300197,
-    "week": 4566,
+    "stars": 185494,
+    "week": 4859,
     "topics": [
+      "agent-skills",
       "ai-agents",
-      "anthropic",
       "claude",
       "claude-code",
+      "claude-code-plugin",
+      "cursor-rules",
       "developer-tools",
       "llm",
-      "mcp",
-      "productivity"
+      "prompt-engineering",
+      "yagni"
     ],
-    "url": "https://github.com/affaan-m/ECC",
+    "url": "https://github.com/DietrichGebert/ponytail",
     "types": [
       "Skill",
       "Agent",
-      "模型与推理"
+      "开发工具链"
     ],
     "_sources": [
       "javascript"
@@ -257,7 +258,6 @@
       "数据与评测"
     ],
     "_sources": [
-      "all",
       "typescript"
     ]
   },
@@ -548,6 +548,7 @@
       "开发工具链"
     ],
     "_sources": [
+      "all",
       "rust"
     ]
   },
@@ -572,7 +573,6 @@
       "开发工具链"
     ],
     "_sources": [
-      "all",
       "rust"
     ]
   },
@@ -595,6 +595,7 @@
       "应用与产品"
     ],
     "_sources": [
+      "all",
       "python"
     ]
   },
@@ -629,32 +630,6 @@
     ],
     "_sources": [
       "go"
-    ]
-  },
-  {
-    "full": "anomalyco/hex",
-    "name": "hex",
-    "desc": "Local voice dictation for mac, windows and linux",
-    "lang": "Rust",
-    "stars": 6292,
-    "week": 1839,
-    "topics": [
-      "dictation",
-      "linux",
-      "local-first",
-      "macos",
-      "rust",
-      "speech-recognition",
-      "speech-to-text",
-      "voice-control"
-    ],
-    "types": [
-      "应用与产品"
-    ],
-    "url": "https://github.com/anomalyco/hex",
-    "_sources": [
-      "all",
-      "rust"
     ]
   },
   {
@@ -758,29 +733,42 @@
     ]
   },
   {
-    "full": "nightly-labs/openbot",
-    "name": "openbot",
-    "desc": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
-    "lang": "TypeScript",
-    "stars": 6688,
-    "week": 1688,
+    "full": "ruvnet/RuView",
+    "name": "RuView",
+    "desc": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+    "lang": "Rust",
+    "stars": 102476,
+    "week": 1763,
     "topics": [
-      "ai-agents",
-      "bun",
-      "codex",
-      "electron",
-      "local-first",
-      "macos",
-      "solidjs",
-      "typescript"
+      "awesome",
+      "claude",
+      "densepose",
+      "esp32",
+      "firmware",
+      "home-assistant",
+      "home-automation",
+      "iot",
+      "monitoring",
+      "networking",
+      "npm",
+      "pose-estimation",
+      "react",
+      "rf",
+      "self-learning",
+      "skills",
+      "spatial-intelligence",
+      "typescript",
+      "wifi",
+      "wifi-security"
     ],
-    "url": "https://github.com/nightly-labs/openbot",
+    "url": "https://github.com/ruvnet/RuView",
     "types": [
-      "Agent",
-      "应用与产品"
+      "Skill",
+      "应用与产品",
+      "数据与评测"
     ],
     "_sources": [
-      "typescript"
+      "rust"
     ]
   },
   {
@@ -807,7 +795,6 @@
       "开发工具链"
     ],
     "_sources": [
-      "all",
       "python"
     ]
   },
@@ -955,57 +942,17 @@
     ]
   },
   {
-    "full": "superplanehq/superplane",
-    "name": "superplane",
-    "desc": "Open source factory for one-shot engineering",
-    "lang": "Go",
-    "stars": 9433,
-    "week": 1035,
-    "topics": [
-      "agent-orchestration",
-      "agentic-workflows",
-      "ai-agents",
-      "ai-coding",
-      "ai-software-engineering",
-      "developer-tools",
-      "go",
-      "react",
-      "self-hosted",
-      "software-factory",
-      "workflow-automation"
-    ],
-    "url": "https://github.com/superplanehq/superplane",
-    "types": [
-      "Agent",
-      "开发工具链",
-      "应用与产品"
-    ],
-    "_sources": [
-      "go"
-    ]
-  },
-  {
-    "full": "elie222/rakazo",
-    "name": "rakazo",
-    "desc": "Open-source Grok Bot alternative. Choose your own model and sandbox.",
+    "full": "garrytan/gbrain",
+    "name": "gbrain",
+    "desc": "Garry's Opinionated OpenClaw/Hermes Agent Brain",
     "lang": "TypeScript",
-    "stars": 7690,
-    "week": 1016,
-    "topics": [
-      "ai-agents",
-      "chatgpt",
-      "docker",
-      "electron",
-      "expo",
-      "grok",
-      "llm",
-      "self-hosted",
-      "typescript"
-    ],
-    "url": "https://github.com/elie222/rakazo",
+    "stars": 32693,
+    "week": 1126,
+    "topics": [],
     "types": [
-      "模型与推理"
+      "Agent"
     ],
+    "url": "https://github.com/garrytan/gbrain",
     "_sources": [
       "typescript"
     ]
@@ -1024,6 +971,27 @@
     ],
     "_sources": [
       "jupyter-notebook"
+    ]
+  },
+  {
+    "full": "liguobao/ds-harness-remote",
+    "name": "ds-harness-remote",
+    "desc": "基于 DeepSeek Harness 插件机制构建的远程访问方案，通过低延迟、端到端加密的 P2P 网络，支持使用 PC、移动端 和 Web 随时访问本地设备上的DSH 、CodeX、Cursor、Claude Code等工作区。 (Built on DeepSeek Harness plugins, this low-latency, end-to-end encrypted P2P solution lets PC, mobile, and web clients access local DSH, Codex, Cursor, and Claude Code workspaces.)",
+    "lang": "TypeScript",
+    "stars": 2427,
+    "week": 968,
+    "topics": [
+      "deepseek",
+      "dsh-plugin"
+    ],
+    "url": "https://github.com/liguobao/ds-harness-remote",
+    "types": [
+      "Agent",
+      "应用与产品",
+      "开发工具链"
+    ],
+    "_sources": [
+      "typescript"
     ]
   },
   {
@@ -1110,6 +1078,39 @@
     ]
   },
   {
+    "full": "getpaseo/paseo",
+    "name": "paseo",
+    "desc": "Orchestrate multiple coding agents from desktop and mobile",
+    "lang": "TypeScript",
+    "stars": 23817,
+    "week": 815,
+    "topics": [
+      "ade",
+      "agents",
+      "android",
+      "claude-code",
+      "codex",
+      "copilot",
+      "developer-tools",
+      "hermes",
+      "ios",
+      "linux",
+      "mobile",
+      "opencode",
+      "orchestration",
+      "pi",
+      "windows"
+    ],
+    "types": [
+      "Agent",
+      "开发工具链"
+    ],
+    "url": "https://github.com/getpaseo/paseo",
+    "_sources": [
+      "typescript"
+    ]
+  },
+  {
     "full": "ggml-org/llama.cpp",
     "name": "llama.cpp",
     "desc": "LLM inference in C/C++",
@@ -1191,23 +1192,6 @@
     ],
     "_sources": [
       "jupyter-notebook"
-    ]
-  },
-  {
-    "full": "bradautomates/claude-video",
-    "name": "claude-video",
-    "desc": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
-    "lang": "Python",
-    "stars": 20350,
-    "week": 656,
-    "topics": [],
-    "url": "https://github.com/bradautomates/claude-video",
-    "types": [
-      "Skill",
-      "Agent"
-    ],
-    "_sources": [
-      "python"
     ]
   },
   {
@@ -1301,6 +1285,44 @@
     ]
   },
   {
+    "full": "Manavarya09/design-extract",
+    "name": "design-extract",
+    "desc": "Extract any website's complete design system with one command. DTCG tokens, semantic+primitive+composite, MCP server for Claude Code/Cursor/Windsurf, multi-platform emitters (iOS SwiftUI, Android Compose, Flutter, WordPress), Tailwind v4, Figma variables, shadcn/ui, CSS health audit, WCAG remediation, Chrome extension. MIT, Playwright, Node 20+.",
+    "lang": "HTML",
+    "stars": 5045,
+    "week": 544,
+    "topics": [
+      "accessibility",
+      "agent-skill",
+      "ai",
+      "chrome-extension",
+      "claude-code-plugin",
+      "cli",
+      "css",
+      "cursor",
+      "design-system",
+      "design-to-code",
+      "design-tokens",
+      "dtcg",
+      "figma",
+      "mcp-server",
+      "npx",
+      "playwright",
+      "shadcn-ui",
+      "skills-sh",
+      "tailwind",
+      "web-scraping"
+    ],
+    "types": [
+      "Skill",
+      "开发工具链"
+    ],
+    "url": "https://github.com/Manavarya09/design-extract",
+    "_sources": [
+      "html"
+    ]
+  },
+  {
     "full": "shanraisshan/claude-code-best-practice",
     "name": "claude-code-best-practice",
     "desc": "from vibe coding to agentic engineering - practice makes claude perfect",
@@ -1316,6 +1338,38 @@
     ],
     "_sources": [
       "html"
+    ]
+  },
+  {
+    "full": "microsoft/generative-ai-for-beginners",
+    "name": "generative-ai-for-beginners",
+    "desc": "21 Lessons, Get Started Building with Generative AI",
+    "lang": "Jupyter Notebook",
+    "stars": 123204,
+    "week": 452,
+    "topics": [
+      "ai",
+      "azure",
+      "chatgpt",
+      "dall-e",
+      "generative-ai",
+      "generativeai",
+      "gpt",
+      "language-model",
+      "llms",
+      "microsoft-for-beginners",
+      "openai",
+      "prompt-engineering",
+      "semantic-search",
+      "transformers"
+    ],
+    "url": "https://github.com/microsoft/generative-ai-for-beginners",
+    "types": [
+      "数据与评测",
+      "开发工具链"
+    ],
+    "_sources": [
+      "jupyter-notebook"
     ]
   },
   {
@@ -1454,6 +1508,22 @@
     ]
   },
   {
+    "full": "LiveContainer/LiveContainer",
+    "name": "LiveContainer",
+    "desc": "Run iOS apps without actually installing them!",
+    "lang": "Swift",
+    "stars": 13509,
+    "week": 318,
+    "topics": [],
+    "url": "https://github.com/LiveContainer/LiveContainer",
+    "types": [
+      "开发工具链"
+    ],
+    "_sources": [
+      "swift"
+    ]
+  },
+  {
     "full": "AAswordman/Operit",
     "name": "Operit",
     "desc": "The most powerful AI agent and AI chat software on Android/Operit是一款Android上能力最为强大、发展最久的AI Agent",
@@ -1535,22 +1605,6 @@
     ]
   },
   {
-    "full": "ImranR98/Obtainium",
-    "name": "Obtainium",
-    "desc": "Get Android app updates straight from the source.",
-    "lang": "Dart",
-    "stars": 20998,
-    "week": 266,
-    "topics": [],
-    "url": "https://github.com/ImranR98/Obtainium",
-    "types": [
-      "应用与产品"
-    ],
-    "_sources": [
-      "dart"
-    ]
-  },
-  {
     "full": "plannotator/effective-html",
     "name": "effective-html",
     "desc": "Agent skills for useful HTML artifacts, wireframes, interactive prototypes, plans, and diagrams.",
@@ -1573,41 +1627,6 @@
     ],
     "_sources": [
       "html"
-    ]
-  },
-  {
-    "full": "spotify/portal-ai-plugins",
-    "name": "portal-ai-plugins",
-    "desc": "",
-    "lang": "TypeScript",
-    "stars": 3186,
-    "week": 242,
-    "topics": [],
-    "url": "https://github.com/spotify/portal-ai-plugins",
-    "types": [
-      "应用与产品"
-    ],
-    "_sources": [
-      "typescript"
-    ]
-  },
-  {
-    "full": "QwenLM/qwen-code",
-    "name": "qwen-code",
-    "desc": "An open-source AI coding agent that lives in your terminal.",
-    "lang": "TypeScript",
-    "stars": 29138,
-    "week": 237,
-    "topics": [],
-    "url": "https://github.com/QwenLM/qwen-code",
-    "types": [
-      "Skill",
-      "Agent",
-      "模型与推理",
-      "开发工具链"
-    ],
-    "_sources": [
-      "typescript"
     ]
   },
   {
@@ -1667,39 +1686,6 @@
     ]
   },
   {
-    "full": "gastownhall/beads",
-    "name": "beads",
-    "desc": "Beads - A memory upgrade for your coding agent",
-    "lang": "Go",
-    "stars": 28628,
-    "week": 211,
-    "topics": [],
-    "url": "https://github.com/gastownhall/beads",
-    "types": [
-      "Agent"
-    ],
-    "_sources": [
-      "go"
-    ]
-  },
-  {
-    "full": "karpathy/nn-zero-to-hero",
-    "name": "nn-zero-to-hero",
-    "desc": "Neural Networks: Zero to Hero",
-    "lang": "Jupyter Notebook",
-    "stars": 25421,
-    "week": 209,
-    "topics": [],
-    "url": "https://github.com/karpathy/nn-zero-to-hero",
-    "types": [
-      "模型与推理",
-      "数据与评测"
-    ],
-    "_sources": [
-      "jupyter-notebook"
-    ]
-  },
-  {
     "full": "microsoft/AI-For-Beginners",
     "name": "AI-For-Beginners",
     "desc": "12 Weeks, 24 Lessons, AI for All!",
@@ -1744,117 +1730,63 @@
     ]
   },
   {
-    "full": "agentgateway/agentgateway",
-    "name": "agentgateway",
-    "desc": "Next Generation Agentic Proxy for AI Agents and MCP servers",
-    "lang": "Rust",
-    "stars": 6068,
-    "week": 182,
-    "topics": [
-      "agents",
-      "ai",
-      "mcp",
-      "rust",
-      "ai-gateway",
-      "gateway-api",
-      "kubernetes",
-      "mcp-gateway",
-      "reverse-proxy",
-      "service-mesh"
-    ],
-    "url": "https://github.com/agentgateway/agentgateway",
-    "types": [
-      "Skill",
-      "Agent",
-      "开发工具链"
-    ],
-    "_sources": [
-      "rust"
-    ]
-  },
-  {
-    "full": "manaflow-ai/cmux",
-    "name": "cmux",
-    "desc": "Open source Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents. Built for multitasking, organization, and programmability.",
-    "lang": "Swift",
-    "stars": 28741,
-    "week": 153,
+    "full": "langchain-ai/rag-from-scratch",
+    "name": "rag-from-scratch",
+    "desc": "",
+    "lang": "Jupyter Notebook",
+    "stars": 9843,
+    "week": 189,
     "topics": [],
-    "url": "https://github.com/manaflow-ai/cmux",
     "types": [
-      "Agent",
-      "开发工具链"
+      "数据与评测"
     ],
+    "url": "https://github.com/langchain-ai/rag-from-scratch",
     "_sources": [
-      "swift"
+      "jupyter-notebook"
     ]
   },
   {
-    "full": "techjarves/Portable-Local-Studio",
-    "name": "Portable-Local-Studio",
-    "desc": "Portable local AI studio for Windows, Linux, and macOS. Zero-setup GUI for Image Generation, GGUF LLMs, Text to Speech & Speech to Text",
-    "lang": "JavaScript",
-    "stars": 1982,
-    "week": 151,
-    "topics": [],
-    "url": "https://github.com/techjarves/Portable-Local-Studio",
-    "types": [
-      "应用与产品"
-    ],
-    "_sources": [
-      "javascript"
-    ]
-  },
-  {
-    "full": "OthmanAdi/planning-with-files",
-    "name": "planning-with-files",
-    "desc": "Persistent file-based planning for AI coding agents and long-running tasks. Crash-proof markdown plans, session recovery after /clear and compaction, per-turn re-injection against context rot, deterministic completion gate. Manus-style. Install from npm, the Claude Code plugin marketplace, or npx skills. Codex, Cursor, OpenCode, 60+ agents.",
-    "lang": "Shell",
-    "stars": 27972,
-    "week": 151,
-    "topics": [
-      "claude",
-      "claude-code",
-      "claude-skills",
-      "manus",
-      "agent-skills",
-      "planning",
-      "autonomous-agents",
-      "codex",
-      "cursor",
-      "multi-agent-systems"
-    ],
-    "url": "https://github.com/OthmanAdi/planning-with-files",
-    "types": [
-      "Skill",
-      "Agent",
-      "模型与推理",
-      "开发工具链"
-    ],
-    "_sources": [
-      "shell"
-    ]
-  },
-  {
-    "full": "umlx5h/LLPlayer",
-    "name": "LLPlayer",
-    "desc": "The media player for language learning, with dual subtitles, AI-generated subtitles, real-time translation, and more!",
+    "full": "MoFeng2223/BrimDeck",
+    "name": "BrimDeck",
+    "desc": "A Dynamic Island for Windows 11 with AI coding tool quotas, usage tracking, music controls, and more.",
     "lang": "C#",
-    "stars": 4629,
-    "week": 142,
+    "stars": 539,
+    "week": 153,
     "topics": [
-      "asr",
-      "language-learning",
-      "llm",
-      "ocr",
-      "whisper"
+      "dynamic-island",
+      "media-controls",
+      "usage-tracking",
+      "windows11"
     ],
+    "url": "https://github.com/MoFeng2223/BrimDeck",
     "types": [
-      "应用与产品"
+      "应用与产品",
+      "开发工具链"
     ],
-    "url": "https://github.com/umlx5h/LLPlayer",
     "_sources": [
       "csharp"
+    ]
+  },
+  {
+    "full": "opencv/opencv",
+    "name": "opencv",
+    "desc": "Open Source Computer Vision Library",
+    "lang": "C++",
+    "stars": 91532,
+    "week": 130,
+    "topics": [
+      "c-plus-plus",
+      "computer-vision",
+      "deep-learning",
+      "image-processing",
+      "opencv"
+    ],
+    "types": [
+      "模型与推理"
+    ],
+    "url": "https://github.com/opencv/opencv",
+    "_sources": [
+      "cpp"
     ]
   },
   {
@@ -1935,6 +1867,22 @@
     ],
     "_sources": [
       "zig"
+    ]
+  },
+  {
+    "full": "dotnet/skills",
+    "name": "skills",
+    "desc": "Repository for skills to assist AI coding agents with .NET and C#",
+    "lang": "C#",
+    "stars": 5762,
+    "week": 110,
+    "topics": [],
+    "url": "https://github.com/dotnet/skills",
+    "types": [
+      "Skill"
+    ],
+    "_sources": [
+      "csharp"
     ]
   },
   {
@@ -2130,43 +2078,6 @@
     ]
   },
   {
-    "full": "ed-donner/llm_engineering",
-    "name": "llm_engineering",
-    "desc": "Repo to accompany my mastering LLM engineering course",
-    "lang": "Jupyter Notebook",
-    "stars": 7901,
-    "week": 63,
-    "topics": [],
-    "url": "https://github.com/ed-donner/llm_engineering",
-    "types": [
-      "模型与推理"
-    ],
-    "_sources": [
-      "jupyter-notebook"
-    ]
-  },
-  {
-    "full": "conductor-oss/conductor",
-    "name": "conductor",
-    "desc": "Conductor is an event driven agentic workflow engine providing durable and highly resilient execution engine for applications and AI Agents",
-    "lang": "Java",
-    "stars": 32460,
-    "week": 60,
-    "topics": [
-      "workflow-engine",
-      "orchestration-engine",
-      "durable-execution"
-    ],
-    "types": [
-      "Agent",
-      "开发工具链"
-    ],
-    "url": "https://github.com/conductor-oss/conductor",
-    "_sources": [
-      "java"
-    ]
-  },
-  {
     "full": "facebookresearch/dinov3",
     "name": "dinov3",
     "desc": "Reference PyTorch implementation and models for DINOv3",
@@ -2197,22 +2108,6 @@
     ],
     "_sources": [
       "jupyter-notebook"
-    ]
-  },
-  {
-    "full": "osaurus-ai/osaurus",
-    "name": "osaurus",
-    "desc": "Own your AI. The native macOS harness for AI agents -- any model, persistent memory, autonomous execution, cryptographic identity. Built in Swift. Fully offline. Open source.",
-    "lang": "Swift",
-    "stars": 8152,
-    "week": 52,
-    "topics": [],
-    "url": "https://github.com/osaurus-ai/osaurus",
-    "types": [
-      "开发工具链"
-    ],
-    "_sources": [
-      "swift"
     ]
   },
   {
@@ -2249,6 +2144,60 @@
     ]
   },
   {
+    "full": "facebookresearch/sam2",
+    "name": "sam2",
+    "desc": "The repository provides code for running inference with the Meta Segment Anything Model 2 (SAM 2), links for downloading the trained model checkpoints, and example notebooks that show how to use the model.",
+    "lang": "Jupyter Notebook",
+    "stars": 20076,
+    "week": 43,
+    "topics": [],
+    "url": "https://github.com/facebookresearch/sam2",
+    "types": [
+      "模型与推理",
+      "数据与评测"
+    ],
+    "_sources": [
+      "jupyter-notebook"
+    ]
+  },
+  {
+    "full": "cogwheel0/conduit",
+    "name": "conduit",
+    "desc": "Native iOS and Android client for Open WebUI, direct OpenAI-compatible, Ollama, and Hermes agents.",
+    "lang": "Dart",
+    "stars": 2439,
+    "week": 40,
+    "topics": [
+      "ai-agents",
+      "ai-assistant",
+      "android",
+      "chat",
+      "chatbot",
+      "cross-platform",
+      "dart",
+      "flutter",
+      "ios",
+      "llm",
+      "llm-client",
+      "mobile-app",
+      "ollama",
+      "open-webui",
+      "openai",
+      "openrouter",
+      "openwebui",
+      "privacy",
+      "self-hosted",
+      "selfhosted"
+    ],
+    "types": [
+      "应用与产品"
+    ],
+    "url": "https://github.com/cogwheel0/conduit",
+    "_sources": [
+      "dart"
+    ]
+  },
+  {
     "full": "anthropics/courses",
     "name": "courses",
     "desc": "Anthropic's educational courses",
@@ -2262,22 +2211,6 @@
     ],
     "_sources": [
       "jupyter-notebook"
-    ]
-  },
-  {
-    "full": "pipipi-pikachu/PPTist",
-    "name": "PPTist",
-    "desc": "PowerPoint-ist（/'pauəpɔintist/）, An online presentation application that replicates most of the commonly used features of MS PowerPoint, allowing for the editing and presentation of PPT online. It also supports AIPPT and local PPTX file preview.",
-    "lang": "Vue",
-    "stars": 9475,
-    "week": 31,
-    "topics": [],
-    "url": "https://github.com/pipipi-pikachu/PPTist",
-    "types": [
-      "应用与产品"
-    ],
-    "_sources": [
-      "vue"
     ]
   },
   {
@@ -2297,6 +2230,33 @@
     "url": "https://github.com/freescout-help-desk/freescout",
     "_sources": [
       "php"
+    ]
+  },
+  {
+    "full": "github/CopilotForXcode",
+    "name": "CopilotForXcode",
+    "desc": "AI coding assistant for Xcode",
+    "lang": "Swift",
+    "stars": 6384,
+    "week": 25,
+    "topics": [
+      "ai-assistant",
+      "github-copilot",
+      "intelligence",
+      "ios",
+      "macos",
+      "objective-c",
+      "swift",
+      "swiftui",
+      "xcode"
+    ],
+    "types": [
+      "开发工具链",
+      "应用与产品"
+    ],
+    "url": "https://github.com/github/CopilotForXcode",
+    "_sources": [
+      "swift"
     ]
   },
   {
