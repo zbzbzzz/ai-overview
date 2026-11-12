@@ -1833,6 +1833,8 @@ def render_repo_card(rank: int, repo: dict, max_week: int, extra: bool = False) 
       </li>'''
 
 REPO_DEFAULT_VISIBLE = 3  # ADR 0017: fixed top 3 default; expand to Top 10
+# GitHub 周榜区不展示（仍采集但不渲染）；改 True 可重新渲染总榜+分榜。
+SHOW_REPO_SECTION = False
 
 
 def render_repo_section(tabs: dict[str, list[dict]]) -> str:
@@ -1936,7 +1938,13 @@ def render_repo_section(tabs: dict[str, list[dict]]) -> str:
 
 
 def render_page(tabs: dict[str, list[dict]], news_html: str, used_fallback: bool, type_fallback: bool, merge_fallback: bool = False) -> str:
-    repo_html = render_repo_section(tabs)
+    repo_block = ""
+    if SHOW_REPO_SECTION:
+        repo_block = (
+            "\n    <hr class=\"section-divider\" />\n\n"
+            + render_repo_section(tabs)
+            + "\n"
+        )
     foot_extra = ""
     if used_fallback:
         foot_extra += " · <strong>重要度降级</strong>"
@@ -1944,8 +1952,26 @@ def render_page(tabs: dict[str, list[dict]], news_html: str, used_fallback: bool
         foot_extra += " · <strong>合并降级</strong>"
     if type_fallback:
         foot_extra += " · <strong>分类降级</strong>"
+    if SHOW_REPO_SECTION:
+        foot = (
+            f"最新页始终等于当天 AI 周榜日快照。往期见 "
+            f'<a href="history.html" target="_blank" rel="noopener noreferrer">往期速览</a>'
+            f"。数据抓取时间：{TODAY.isoformat()}（Asia/Shanghai）。"
+            f"资讯分「24 小时」「近 7 天」两窗、各按资讯束重要度排序（ADR 0013/0014）；"
+            f"仓库分榜见 ADR 0012/0017{foot_extra}。"
+        )
+        cache_bust = "repo-default3-0017"
+    else:
+        foot = (
+            f"最新页始终等于当天日快照。往期见 "
+            f'<a href="history.html" target="_blank" rel="noopener noreferrer">往期速览</a>'
+            f"。数据抓取时间：{TODAY.isoformat()}（Asia/Shanghai）。"
+            f"资讯分「24 小时」「近 7 天」两窗、各按资讯束重要度排序（ADR 0013/0014）。"
+            f"GitHub 周榜区暂不展示（仍采集）{foot_extra}。"
+        )
+        cache_bust = "hide-repo-section"
     return f'''<!DOCTYPE html>
-<!-- cache-bust: repo-default3-0017 -->
+<!-- cache-bust: {cache_bust} -->
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8" />
@@ -1974,13 +2000,9 @@ def render_page(tabs: dict[str, list[dict]], news_html: str, used_fallback: bool
     </header>
 
 {news_html}
-
-    <hr class="section-divider" />
-
-{repo_html}
-
+{repo_block}
     <footer class="foot">
-      <p>最新页始终等于当天 AI 周榜日快照。往期见 <a href="history.html" target="_blank" rel="noopener noreferrer">往期速览</a>。数据抓取时间：{TODAY.isoformat()}（Asia/Shanghai）。资讯分「24 小时」「近 7 天」两窗、各按资讯束重要度排序（ADR 0013/0014）；仓库分榜见 ADR 0012/0017{foot_extra}。</p>
+      <p>{foot}</p>
     </footer>
   </div>
 </body>

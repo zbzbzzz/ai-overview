@@ -1,6 +1,6 @@
 # AI 速览
 
-每 12 小时抓取 GitHub Trending 周榜里的 AI 相关仓库（含 Agent Skill / MCP），按总榜和分榜展示，并汇总近 24 小时与近 7 天的 AI 资讯，生成蓝白网页并按日归档。
+每 12 小时抓取 GitHub Trending 周榜里的 AI 相关仓库（含 Agent Skill / MCP），按总榜和分榜采集（页面暂不展示该区，仍采集但不渲染），并汇总近 24 小时与近 7 天的 AI 资讯，生成蓝白网页并按日归档。
 
 ## Language
 
