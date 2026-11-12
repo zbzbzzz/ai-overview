@@ -38,7 +38,7 @@
   {
     "full": "pingdotgg/t3code",
     "name": "t3code",
-    "desc": "Remote control plane for Claude Code / Cursor agents from phone or web",
+    "desc": "The best way to control Claude Code, Codex and more from any computer or phone",
     "lang": "TypeScript",
     "stars": 53996,
     "week": 10784,
@@ -194,35 +194,6 @@
     ]
   },
   {
-    "full": "DietrichGebert/ponytail",
-    "name": "ponytail",
-    "desc": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-    "lang": "JavaScript",
-    "stars": 185494,
-    "week": 4851,
-    "topics": [
-      "agent-skills",
-      "ai-agents",
-      "claude",
-      "claude-code",
-      "claude-code-plugin",
-      "cursor-rules",
-      "developer-tools",
-      "llm",
-      "prompt-engineering",
-      "yagni"
-    ],
-    "url": "https://github.com/DietrichGebert/ponytail",
-    "types": [
-      "Skill",
-      "Agent",
-      "开发工具链"
-    ],
-    "_sources": [
-      "javascript"
-    ]
-  },
-  {
     "full": "vercel-labs/agent-browser",
     "name": "agent-browser",
     "desc": "Browser automation CLI for AI agents",
@@ -267,45 +238,6 @@
     ]
   },
   {
-    "full": "Graphify-Labs/graphify",
-    "name": "graphify",
-    "desc": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
-    "lang": "Python",
-    "stars": 144993,
-    "week": 3938,
-    "topics": [
-      "ai-agents",
-      "antigravity",
-      "ast",
-      "claude-code",
-      "code-analysis",
-      "code-search",
-      "codex",
-      "cursor",
-      "developer-tools",
-      "gemini",
-      "graphify",
-      "graphrag",
-      "knowledge-graph",
-      "leiden",
-      "llm",
-      "mcp",
-      "openclaw",
-      "rag",
-      "skills",
-      "tree-sitter"
-    ],
-    "url": "https://github.com/Graphify-Labs/graphify",
-    "types": [
-      "Skill",
-      "Agent",
-      "模型与推理"
-    ],
-    "_sources": [
-      "python"
-    ]
-  },
-  {
     "full": "harry0703/MoneyPrinterTurbo",
     "name": "MoneyPrinterTurbo",
     "desc": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
@@ -337,71 +269,27 @@
     ]
   },
   {
-    "full": "thedotmack/claude-mem",
-    "name": "claude-mem",
-    "desc": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
-    "lang": "TypeScript",
-    "stars": 115369,
-    "week": 3702,
+    "full": "ZhuLinsen/daily_stock_analysis",
+    "name": "daily_stock_analysis",
+    "desc": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+    "lang": "Python",
+    "stars": 71069,
+    "week": 3508,
     "topics": [
-      "ai",
-      "ai-agents",
-      "ai-memory",
-      "anthropic",
-      "artificial-intelligence",
-      "chromadb",
-      "claude",
-      "claude-agent-sdk",
-      "claude-agents",
-      "claude-code",
-      "claude-code-plugin",
-      "claude-skills",
-      "embeddings",
-      "long-term-memory",
-      "mem0",
-      "memory-engine",
-      "openmemory",
-      "rag",
-      "sqlite",
-      "supermemory"
+      "a-stock",
+      "ai-agent",
+      "aigc",
+      "llm",
+      "quant",
+      "quantitative-finance",
+      "quantitative-trading"
     ],
-    "url": "https://github.com/thedotmack/claude-mem",
     "types": [
-      "Agent",
-      "Skill",
-      "数据与评测"
-    ],
-    "_sources": [
-      "typescript"
-    ]
-  },
-  {
-    "full": "Leonxlnx/taste-skill",
-    "name": "taste-skill",
-    "desc": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
-    "lang": "JavaScript",
-    "stars": 111365,
-    "week": 3654,
-    "topics": [
-      "agent-skills",
-      "ai-agents",
-      "anti-slop",
-      "claude-code",
-      "codex",
-      "cursor",
-      "design-system",
-      "frontend",
-      "landing-page",
-      "ui-design",
-      "web-design"
-    ],
-    "url": "https://github.com/Leonxlnx/taste-skill",
-    "types": [
-      "Skill",
       "应用与产品"
     ],
+    "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
     "_sources": [
-      "javascript"
+      "python"
     ]
   },
   {
@@ -432,14 +320,36 @@
       "Skill"
     ],
     "_sources": [
-      "all",
       "shell"
+    ]
+  },
+  {
+    "full": "addyosmani/agent-skills",
+    "name": "agent-skills",
+    "desc": "Production-grade engineering skills for AI coding agents.",
+    "lang": "JavaScript",
+    "stars": 116617,
+    "week": 3050,
+    "topics": [
+      "agent-skills",
+      "antigravity",
+      "claude-code",
+      "codex",
+      "cursor",
+      "skills"
+    ],
+    "types": [
+      "Skill"
+    ],
+    "url": "https://github.com/addyosmani/agent-skills",
+    "_sources": [
+      "javascript"
     ]
   },
   {
     "full": "ranxianglei/billion-context",
     "name": "billion-context",
-    "desc": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need",
+    "desc": "A context-compression plugin for month-long single sessions (billions of tokens) and small context windows (a 100K context is enough) .上下文压缩插件，月级长会话， 兼顾小窗口(100k上下文足矣) . billion-context is all you need",
     "lang": "TypeScript",
     "stars": 6258,
     "week": 2795,
@@ -498,6 +408,31 @@
     ]
   },
   {
+    "full": "homeassistant-ai/ha-mcp",
+    "name": "ha-mcp",
+    "desc": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
+    "lang": "Python",
+    "stars": 7678,
+    "week": 2223,
+    "topics": [
+      "ai",
+      "claude",
+      "hacs",
+      "home-assistant",
+      "home-automation",
+      "llm",
+      "mcp",
+      "model-context-protocol"
+    ],
+    "types": [
+      "Skill"
+    ],
+    "url": "https://github.com/homeassistant-ai/ha-mcp",
+    "_sources": [
+      "python"
+    ]
+  },
+  {
     "full": "herdrdev/herdr",
     "name": "herdr",
     "desc": "the runtime your coding agents live on",
@@ -530,7 +465,6 @@
       "开发工具链"
     ],
     "_sources": [
-      "all",
       "rust"
     ]
   },
@@ -573,23 +507,6 @@
     "_sources": [
       "all",
       "python"
-    ]
-  },
-  {
-    "full": "openai/codex",
-    "name": "codex",
-    "desc": "Lightweight coding agent that runs in your terminal",
-    "lang": "Rust",
-    "stars": 134132,
-    "week": 1976,
-    "topics": [],
-    "url": "https://github.com/openai/codex",
-    "types": [
-      "Agent",
-      "开发工具链"
-    ],
-    "_sources": [
-      "rust"
     ]
   },
   {
@@ -749,6 +666,28 @@
     ]
   },
   {
+    "full": "google-deepmind/mujoco",
+    "name": "mujoco",
+    "desc": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+    "lang": "C++",
+    "stars": 17755,
+    "week": 1535,
+    "topics": [
+      "mujoco",
+      "physics",
+      "robotics"
+    ],
+    "types": [
+      "数据与评测",
+      "模型与推理"
+    ],
+    "url": "https://github.com/google-deepmind/mujoco",
+    "_sources": [
+      "all",
+      "cpp"
+    ]
+  },
+  {
     "full": "scenario-labs/skills",
     "name": "skills",
     "desc": "Get production-ready images, video, audio, and 3D from any AI agent: skills that pick the right model, price before spending, and keep characters and brands consistent through the Scenario MCP, plus expert teams that drive Blender, Maya, ZBrush, Unreal, and Unity.",
@@ -853,22 +792,6 @@
     ]
   },
   {
-    "full": "jakubkrehel/skills",
-    "name": "skills",
-    "desc": "A collection of agent skills that help you build great interfaces.",
-    "lang": "Markdown",
-    "stars": 11858,
-    "week": 1263,
-    "topics": [],
-    "url": "https://github.com/jakubkrehel/skills",
-    "types": [
-      "Skill"
-    ],
-    "_sources": [
-      "markdown"
-    ]
-  },
-  {
     "full": "localsend/localsend",
     "name": "localsend",
     "desc": "An open-source cross-platform alternative to AirDrop",
@@ -958,6 +881,28 @@
     ]
   },
   {
+    "full": "dsx-ai-factory/nvke",
+    "name": "nvke",
+    "desc": "NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal.",
+    "lang": "Go",
+    "stars": 1202,
+    "week": 1118,
+    "topics": [
+      "bare-metal",
+      "cluster-api",
+      "gpu",
+      "kubernetes",
+      "nvidia"
+    ],
+    "types": [
+      "开发工具链"
+    ],
+    "url": "https://github.com/dsx-ai-factory/nvke",
+    "_sources": [
+      "go"
+    ]
+  },
+  {
     "full": "can1357/oh-my-pi",
     "name": "oh-my-pi",
     "desc": "⌥ Coding agent with the IDE wired in. Built by Stencil Labs.",
@@ -993,22 +938,17 @@
     ]
   },
   {
-    "full": "liguobao/ds-harness-remote",
-    "name": "ds-harness-remote",
-    "desc": "基于 DeepSeek Harness 插件机制构建的远程访问方案，通过低延迟、端到端加密的 P2P 网络，支持使用 PC、移动端 和 Web 随时访问本地设备上的DSH 、CodeX、Cursor、Claude Code等工作区。 (Built on DeepSeek Harness plugins, this low-latency, end-to-end encrypted P2P solution lets PC, mobile, and web clients access local DSH, Codex, Cursor, and Claude Code workspaces.)",
+    "full": "GoogleChrome/modern-web-guidance-src",
+    "name": "modern-web-guidance-src",
+    "desc": "Keep your coding agent up to date with the latest web best practices",
     "lang": "TypeScript",
-    "stars": 2427,
-    "week": 928,
-    "topics": [
-      "deepseek",
-      "dsh-plugin"
-    ],
-    "url": "https://github.com/liguobao/ds-harness-remote",
+    "stars": 2768,
+    "week": 919,
+    "topics": [],
     "types": [
-      "Agent",
-      "应用与产品",
-      "开发工具链"
+      "Skill"
     ],
+    "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
     "_sources": [
       "typescript"
     ]
@@ -1046,38 +986,6 @@
     ]
   },
   {
-    "full": "guillaumemeyer/watermarks-remover",
-    "name": "watermarks-remover",
-    "desc": "A privacy-first app that strips AI watermarks from content you own.",
-    "lang": "Python",
-    "stars": 26851,
-    "week": 875,
-    "topics": [
-      "agent-skill",
-      "ai",
-      "anthropic",
-      "c2pa",
-      "chatgpt",
-      "claude",
-      "gemini",
-      "openai",
-      "provenance",
-      "synthid",
-      "watermark",
-      "watermark-detection",
-      "watermark-tools",
-      "watermarking",
-      "watermarks"
-    ],
-    "url": "https://github.com/guillaumemeyer/watermarks-remover",
-    "types": [
-      "应用与产品"
-    ],
-    "_sources": [
-      "python"
-    ]
-  },
-  {
     "full": "ggml-org/llama.cpp",
     "name": "llama.cpp",
     "desc": "LLM inference in C/C++",
@@ -1091,6 +999,22 @@
     "types": [
       "模型与推理"
     ],
+    "_sources": [
+      "cpp"
+    ]
+  },
+  {
+    "full": "orailnoor/cross-platform-llm-client",
+    "name": "cross-platform-llm-client",
+    "desc": "A unified cross-platform AI client supporting seamless transitions between standard cloud APIs and on-device, offline execution of custom and uncensored language models.",
+    "lang": "C++",
+    "stars": 2214,
+    "week": 828,
+    "topics": [],
+    "types": [
+      "应用与产品"
+    ],
+    "url": "https://github.com/orailnoor/cross-platform-llm-client",
     "_sources": [
       "cpp"
     ]
@@ -1142,6 +1066,30 @@
     "url": "https://github.com/getpaseo/paseo",
     "_sources": [
       "typescript"
+    ]
+  },
+  {
+    "full": "opensandbox-group/OpenSandbox",
+    "name": "OpenSandbox",
+    "desc": "Secure, Fast, and Extensible Sandbox runtime for AI agents.",
+    "lang": "Go",
+    "stars": 17252,
+    "week": 782,
+    "topics": [
+      "aaif",
+      "ai",
+      "ai-agent",
+      "ai-infra",
+      "kubernetes",
+      "sandbox"
+    ],
+    "types": [
+      "开发工具链",
+      "Agent"
+    ],
+    "url": "https://github.com/opensandbox-group/OpenSandbox",
+    "_sources": [
+      "go"
     ]
   },
   {
@@ -1341,35 +1289,66 @@
     ]
   },
   {
-    "full": "microsoft/generative-ai-for-beginners",
-    "name": "generative-ai-for-beginners",
-    "desc": "21 Lessons, Get Started Building with Generative AI",
-    "lang": "Jupyter Notebook",
-    "stars": 123204,
-    "week": 446,
+    "full": "metadist/synaplan",
+    "name": "synaplan",
+    "desc": "Own the flow: one open-source AI platform for your knowledge, models and channels – web, WhatsApp, email, Outlook, Nextcloud & ownCloud. Local and cloud models side by side, with the cost on every answer.",
+    "lang": "PHP",
+    "stars": 780,
+    "week": 380,
     "topics": [
       "ai",
-      "azure",
-      "chatgpt",
-      "dall-e",
-      "generative-ai",
-      "generativeai",
-      "gpt",
-      "language-model",
-      "llms",
-      "microsoft-for-beginners",
+      "ai-agents",
+      "anthropic",
+      "chat",
+      "chatbot-widget",
+      "chatgpt-alternative",
+      "docker",
+      "email-automation",
+      "gdpr",
+      "knowledge-base",
+      "llm",
+      "local-llm",
+      "mcp",
+      "ollama",
       "openai",
-      "prompt-engineering",
-      "semantic-search",
-      "transformers"
+      "php",
+      "rag",
+      "self-hosted",
+      "symfony",
+      "whatsapp-bot"
     ],
-    "url": "https://github.com/microsoft/generative-ai-for-beginners",
+    "url": "https://github.com/metadist/synaplan",
     "types": [
-      "数据与评测",
-      "开发工具链"
+      "应用与产品"
     ],
     "_sources": [
-      "jupyter-notebook"
+      "php"
+    ]
+  },
+  {
+    "full": "tensorflow/tensorflow",
+    "name": "tensorflow",
+    "desc": "An Open Source Machine Learning Framework for Everyone",
+    "lang": "C++",
+    "stars": 201584,
+    "week": 360,
+    "topics": [
+      "deep-learning",
+      "deep-neural-networks",
+      "distributed",
+      "machine-learning",
+      "ml",
+      "neural-network",
+      "python",
+      "tensorflow"
+    ],
+    "types": [
+      "模型与推理",
+      "开发工具链"
+    ],
+    "url": "https://github.com/tensorflow/tensorflow",
+    "_sources": [
+      "cpp"
     ]
   },
   {
@@ -1468,46 +1447,20 @@
     ]
   },
   {
-    "full": "github/awesome-copilot",
-    "name": "awesome-copilot",
-    "desc": "Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot.",
-    "lang": "JavaScript",
-    "stars": 40977,
-    "week": 288,
-    "topics": [
-      "agent-skills",
-      "agents",
-      "ai",
-      "awesome",
-      "custom-agents",
-      "github-copilot",
-      "hacktoberfest",
-      "prompt-engineering"
-    ],
-    "url": "https://github.com/github/awesome-copilot",
+    "full": "karpathy/nn-zero-to-hero",
+    "name": "nn-zero-to-hero",
+    "desc": "Neural Networks: Zero to Hero",
+    "lang": "Jupyter Notebook",
+    "stars": 25421,
+    "week": 281,
+    "topics": [],
+    "url": "https://github.com/karpathy/nn-zero-to-hero",
     "types": [
-      "Skill",
-      "Agent",
+      "模型与推理",
       "数据与评测"
     ],
     "_sources": [
-      "javascript"
-    ]
-  },
-  {
-    "full": "aquasecurity/trivy",
-    "name": "trivy",
-    "desc": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-    "lang": "Go",
-    "stars": 39170,
-    "week": 273,
-    "topics": [],
-    "url": "https://github.com/aquasecurity/trivy",
-    "types": [
-      "应用与产品"
-    ],
-    "_sources": [
-      "go"
+      "jupyter-notebook"
     ]
   },
   {
@@ -1533,6 +1486,22 @@
     ],
     "_sources": [
       "html"
+    ]
+  },
+  {
+    "full": "ImranR98/Obtainium",
+    "name": "Obtainium",
+    "desc": "Get Android app updates straight from the source.",
+    "lang": "Dart",
+    "stars": 20998,
+    "week": 269,
+    "topics": [],
+    "url": "https://github.com/ImranR98/Obtainium",
+    "types": [
+      "应用与产品"
+    ],
+    "_sources": [
+      "dart"
     ]
   },
   {
@@ -1575,23 +1544,6 @@
     "url": "https://github.com/langchain-ai/rag-from-scratch",
     "_sources": [
       "jupyter-notebook"
-    ]
-  },
-  {
-    "full": "zeroclaw-labs/zeroclaw",
-    "name": "zeroclaw",
-    "desc": "Fast, small, and fully autonomous AI personal assistant infrastructure, any OS, any platform — deploy anywhere, swap anything 🦀",
-    "lang": "Rust",
-    "stars": 33300,
-    "week": 235,
-    "topics": [],
-    "url": "https://github.com/zeroclaw-labs/zeroclaw",
-    "_sources": [
-      "rust"
-    ],
-    "types": [
-      "Agent",
-      "应用与产品"
     ]
   },
   {
@@ -1642,33 +1594,6 @@
     ]
   },
   {
-    "full": "microsoft/AI-For-Beginners",
-    "name": "AI-For-Beginners",
-    "desc": "12 Weeks, 24 Lessons, AI for All!",
-    "lang": "Jupyter Notebook",
-    "stars": 70676,
-    "week": 194,
-    "topics": [
-      "deep-learning",
-      "artificial-intelligence",
-      "machine-learning",
-      "ai",
-      "computer-vision",
-      "nlp",
-      "cnn",
-      "rnn",
-      "gan",
-      "microsoft-for-beginners"
-    ],
-    "url": "https://github.com/microsoft/AI-For-Beginners",
-    "types": [
-      "开发工具链"
-    ],
-    "_sources": [
-      "jupyter-notebook"
-    ]
-  },
-  {
     "full": "anthropics/prompt-eng-interactive-tutorial",
     "name": "prompt-eng-interactive-tutorial",
     "desc": "Anthropic's Interactive Prompt Engineering Tutorial",
@@ -1686,23 +1611,48 @@
     ]
   },
   {
-    "full": "altic-dev/FluidVoice",
-    "name": "FluidVoice",
-    "desc": "Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model. Windows, iOS testflight! Android, Linux waitlist open! A local Wispr Flow alternative. Follow https://x.com/fluidvoiceapp for more",
-    "lang": "Swift",
-    "stars": 12931,
-    "week": 173,
+    "full": "windmill-labs/windmill",
+    "name": "windmill",
+    "desc": "Code-first platform for workflows, apps and AI agents, on the fastest self-hostable orchestrator (benchmarked against Airflow, Prefect and Temporal). Business teams build with AI, engineers control what ships. Open-source alternative to Lovable, Retool and n8n.",
+    "lang": "Rust",
+    "stars": 18551,
+    "week": 167,
     "topics": [
-      "ai",
-      "dictation",
-      "ios",
-      "llama-cpp",
-      "macos",
-      "swift"
+      "ai-agents",
+      "airflow-alternative",
+      "internal-tools",
+      "open-source",
+      "orchestration",
+      "postgresql",
+      "python",
+      "rust",
+      "self-hostable",
+      "self-hosted",
+      "typescript",
+      "vibe-coding",
+      "workflow-engine"
     ],
-    "url": "https://github.com/altic-dev/FluidVoice",
     "types": [
-      "应用与产品"
+      "开发工具链",
+      "Agent"
+    ],
+    "url": "https://github.com/windmill-labs/windmill",
+    "_sources": [
+      "rust"
+    ]
+  },
+  {
+    "full": "manaflow-ai/cmux",
+    "name": "cmux",
+    "desc": "Open source Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents. Built for multitasking, organization, and programmability.",
+    "lang": "Swift",
+    "stars": 28741,
+    "week": 155,
+    "topics": [],
+    "url": "https://github.com/manaflow-ai/cmux",
+    "types": [
+      "Agent",
+      "开发工具链"
     ],
     "_sources": [
       "swift"
@@ -1786,6 +1736,42 @@
     ]
   },
   {
+    "full": "gepa-ai/gepa",
+    "name": "gepa",
+    "desc": "Optimize prompts, code, and more with AI-powered Reflective Optimization",
+    "lang": "Jupyter Notebook",
+    "stars": 7412,
+    "week": 118,
+    "topics": [
+      "agent-skills",
+      "coding-agent",
+      "discovery",
+      "distributed-evolutionary-algorithms",
+      "evolutionary-algorithms",
+      "genetic-algorithm",
+      "harness",
+      "harness-ai",
+      "harness-engineering",
+      "iterative-methods",
+      "iterative-refinement",
+      "llm-agents",
+      "llm-evaluation",
+      "optimization",
+      "optimization-algorithms",
+      "optimizer",
+      "prompt-engineering",
+      "prompt-optimization"
+    ],
+    "types": [
+      "模型与推理",
+      "数据与评测"
+    ],
+    "url": "https://github.com/gepa-ai/gepa",
+    "_sources": [
+      "jupyter-notebook"
+    ]
+  },
+  {
     "full": "ZingerLittleBee/Heeler",
     "name": "Heeler",
     "desc": "Native iPhone and iPad console for herdr: watch and drive coding agents on your machines over SSH, in Herdr TUI or the Herdr desktop app (herdr-core), with a real libghostty terminal, native Chat, QR pairing, and push notifications when an agent needs you",
@@ -1830,39 +1816,6 @@
     ],
     "_sources": [
       "csharp"
-    ]
-  },
-  {
-    "full": "techjarves/Mobile-Harness",
-    "name": "Mobile-Harness",
-    "desc": "Claude Code on Android: AI-powered mobile coding IDE for Android — chat with a coding agent, run Linux commands, edit files, review diffs, and preview web apps directly from your phone. No root required.",
-    "lang": "Kotlin",
-    "stars": 899,
-    "week": 111,
-    "topics": [],
-    "url": "https://github.com/techjarves/Mobile-Harness",
-    "types": [
-      "Agent"
-    ],
-    "_sources": [
-      "kotlin"
-    ]
-  },
-  {
-    "full": "google-gemini/gemini-api-cli",
-    "name": "gemini-api-cli",
-    "desc": "An (experimental) CLI for the Gemini API",
-    "lang": "Go",
-    "stars": 489,
-    "week": 94,
-    "topics": [],
-    "url": "https://github.com/google-gemini/gemini-api-cli",
-    "_sources": [
-      "go"
-    ],
-    "types": [
-      "开发工具链",
-      "模型与推理"
     ]
   },
   {
@@ -1986,6 +1939,22 @@
     "types": [
       "Agent",
       "数据与评测"
+    ],
+    "_sources": [
+      "jupyter-notebook"
+    ]
+  },
+  {
+    "full": "ed-donner/llm_engineering",
+    "name": "llm_engineering",
+    "desc": "Repo to accompany my mastering LLM engineering course",
+    "lang": "Jupyter Notebook",
+    "stars": 7901,
+    "week": 63,
+    "topics": [],
+    "url": "https://github.com/ed-donner/llm_engineering",
+    "types": [
+      "模型与推理"
     ],
     "_sources": [
       "jupyter-notebook"
@@ -2144,23 +2113,6 @@
     ]
   },
   {
-    "full": "facebookresearch/sam2",
-    "name": "sam2",
-    "desc": "The repository provides code for running inference with the Meta Segment Anything Model 2 (SAM 2), links for downloading the trained model checkpoints, and example notebooks that show how to use the model.",
-    "lang": "Jupyter Notebook",
-    "stars": 20076,
-    "week": 42,
-    "topics": [],
-    "url": "https://github.com/facebookresearch/sam2",
-    "types": [
-      "模型与推理",
-      "数据与评测"
-    ],
-    "_sources": [
-      "jupyter-notebook"
-    ]
-  },
-  {
     "full": "anthropics/courses",
     "name": "courses",
     "desc": "Anthropic's educational courses",
@@ -2177,30 +2129,21 @@
     ]
   },
   {
-    "full": "github/CopilotForXcode",
-    "name": "CopilotForXcode",
-    "desc": "AI coding assistant for Xcode",
-    "lang": "Swift",
-    "stars": 6384,
-    "week": 24,
-    "topics": [
-      "ai-assistant",
-      "github-copilot",
-      "intelligence",
-      "ios",
-      "macos",
-      "objective-c",
-      "swift",
-      "swiftui",
-      "xcode"
-    ],
+    "full": "Santoshkurmi/antigem",
+    "name": "antigem",
+    "desc": "A mobile IDE wrapping antigravity cli, opencode , codex and claude cli to provide a full Android coding environment. Features an advanced code editor, integrated AI chat, built-in Git client, and full Termux terminal access for on-the-go development.",
+    "lang": "Kotlin",
+    "stars": 123,
+    "week": 32,
+    "topics": [],
     "types": [
+      "应用与产品",
       "开发工具链",
-      "应用与产品"
+      "Agent"
     ],
-    "url": "https://github.com/github/CopilotForXcode",
+    "url": "https://github.com/Santoshkurmi/antigem",
     "_sources": [
-      "swift"
+      "kotlin"
     ]
   },
   {
@@ -2282,6 +2225,31 @@
     ],
     "_sources": [
       "markdown"
+    ]
+  },
+  {
+    "full": "camunda/camunda",
+    "name": "camunda",
+    "desc": "Agentic Orchestration Platform",
+    "lang": "Java",
+    "stars": 4364,
+    "week": 13,
+    "topics": [
+      "agentic-orchestration",
+      "bpmn",
+      "java",
+      "microservices",
+      "orchestration-framework",
+      "workflow",
+      "workflow-engine"
+    ],
+    "types": [
+      "Agent",
+      "开发工具链"
+    ],
+    "url": "https://github.com/camunda/camunda",
+    "_sources": [
+      "java"
     ]
   },
   {

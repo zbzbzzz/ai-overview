@@ -2,7 +2,7 @@
   {
     "full": "pingdotgg/t3code",
     "name": "t3code",
-    "desc": "Remote control plane for Claude Code / Cursor agents from phone or web",
+    "desc": "The best way to control Claude Code, Codex and more from any computer or phone",
     "lang": "TypeScript",
     "stars": 53996,
     "week": 10784,
@@ -3144,7 +3144,7 @@
     "desc": "Own the flow: one open-source AI platform for your knowledge, models and channels – web, WhatsApp, email, Outlook, Nextcloud & ownCloud. Local and cloud models side by side, with the cost on every answer.",
     "lang": "PHP",
     "stars": 780,
-    "week": 394,
+    "week": 380,
     "topics": [
       "ai",
       "ai-agents",
@@ -3351,7 +3351,7 @@
     "desc": "Get Android app updates straight from the source.",
     "lang": "Dart",
     "stars": 20998,
-    "week": 266,
+    "week": 269,
     "topics": [],
     "url": "https://github.com/ImranR98/Obtainium",
     "types": [
@@ -3811,7 +3811,7 @@
     "desc": "Neural Networks: Zero to Hero",
     "lang": "Jupyter Notebook",
     "stars": 25421,
-    "week": 209,
+    "week": 281,
     "topics": [],
     "url": "https://github.com/karpathy/nn-zero-to-hero",
     "types": [
@@ -4084,7 +4084,7 @@
     "desc": "Open source Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents. Built for multitasking, organization, and programmability.",
     "lang": "Swift",
     "stars": 28741,
-    "week": 153,
+    "week": 155,
     "topics": [],
     "url": "https://github.com/manaflow-ai/cmux",
     "types": [
@@ -6336,7 +6336,7 @@
   {
     "full": "ranxianglei/billion-context",
     "name": "billion-context",
-    "desc": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need",
+    "desc": "A context-compression plugin for month-long single sessions (billions of tokens) and small context windows (a 100K context is enough) .上下文压缩插件，月级长会话， 兼顾小窗口(100k上下文足矣) . billion-context is all you need",
     "lang": "TypeScript",
     "stars": 6258,
     "week": 2795,
@@ -6605,6 +6605,314 @@
     "url": "https://github.com/github/CopilotForXcode",
     "_sources": [
       "swift"
+    ]
+  },
+  {
+    "full": "ZhuLinsen/daily_stock_analysis",
+    "name": "daily_stock_analysis",
+    "desc": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+    "lang": "Python",
+    "stars": 71069,
+    "week": 3508,
+    "topics": [
+      "a-stock",
+      "ai-agent",
+      "aigc",
+      "llm",
+      "quant",
+      "quantitative-finance",
+      "quantitative-trading"
+    ],
+    "types": [
+      "应用与产品"
+    ],
+    "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+    "_sources": [
+      "python"
+    ]
+  },
+  {
+    "full": "addyosmani/agent-skills",
+    "name": "agent-skills",
+    "desc": "Production-grade engineering skills for AI coding agents.",
+    "lang": "JavaScript",
+    "stars": 116617,
+    "week": 3050,
+    "topics": [
+      "agent-skills",
+      "antigravity",
+      "claude-code",
+      "codex",
+      "cursor",
+      "skills"
+    ],
+    "types": [
+      "Skill"
+    ],
+    "url": "https://github.com/addyosmani/agent-skills",
+    "_sources": [
+      "javascript"
+    ]
+  },
+  {
+    "full": "homeassistant-ai/ha-mcp",
+    "name": "ha-mcp",
+    "desc": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
+    "lang": "Python",
+    "stars": 7678,
+    "week": 2223,
+    "topics": [
+      "ai",
+      "claude",
+      "hacs",
+      "home-assistant",
+      "home-automation",
+      "llm",
+      "mcp",
+      "model-context-protocol"
+    ],
+    "types": [
+      "Skill"
+    ],
+    "url": "https://github.com/homeassistant-ai/ha-mcp",
+    "_sources": [
+      "python"
+    ]
+  },
+  {
+    "full": "dsx-ai-factory/nvke",
+    "name": "nvke",
+    "desc": "NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal.",
+    "lang": "Go",
+    "stars": 1202,
+    "week": 1118,
+    "topics": [
+      "bare-metal",
+      "cluster-api",
+      "gpu",
+      "kubernetes",
+      "nvidia"
+    ],
+    "types": [
+      "开发工具链"
+    ],
+    "url": "https://github.com/dsx-ai-factory/nvke",
+    "_sources": [
+      "go"
+    ]
+  },
+  {
+    "full": "GoogleChrome/modern-web-guidance-src",
+    "name": "modern-web-guidance-src",
+    "desc": "Keep your coding agent up to date with the latest web best practices",
+    "lang": "TypeScript",
+    "stars": 2768,
+    "week": 919,
+    "topics": [],
+    "types": [
+      "Skill"
+    ],
+    "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+    "_sources": [
+      "typescript"
+    ]
+  },
+  {
+    "full": "orailnoor/cross-platform-llm-client",
+    "name": "cross-platform-llm-client",
+    "desc": "A unified cross-platform AI client supporting seamless transitions between standard cloud APIs and on-device, offline execution of custom and uncensored language models.",
+    "lang": "C++",
+    "stars": 2214,
+    "week": 828,
+    "topics": [],
+    "types": [
+      "应用与产品"
+    ],
+    "url": "https://github.com/orailnoor/cross-platform-llm-client",
+    "_sources": [
+      "cpp"
+    ]
+  },
+  {
+    "full": "opensandbox-group/OpenSandbox",
+    "name": "OpenSandbox",
+    "desc": "Secure, Fast, and Extensible Sandbox runtime for AI agents.",
+    "lang": "Go",
+    "stars": 17252,
+    "week": 782,
+    "topics": [
+      "aaif",
+      "ai",
+      "ai-agent",
+      "ai-infra",
+      "kubernetes",
+      "sandbox"
+    ],
+    "types": [
+      "开发工具链",
+      "Agent"
+    ],
+    "url": "https://github.com/opensandbox-group/OpenSandbox",
+    "_sources": [
+      "go"
+    ]
+  },
+  {
+    "full": "tensorflow/tensorflow",
+    "name": "tensorflow",
+    "desc": "An Open Source Machine Learning Framework for Everyone",
+    "lang": "C++",
+    "stars": 201584,
+    "week": 360,
+    "topics": [
+      "deep-learning",
+      "deep-neural-networks",
+      "distributed",
+      "machine-learning",
+      "ml",
+      "neural-network",
+      "python",
+      "tensorflow"
+    ],
+    "types": [
+      "模型与推理",
+      "开发工具链"
+    ],
+    "url": "https://github.com/tensorflow/tensorflow",
+    "_sources": [
+      "cpp"
+    ]
+  },
+  {
+    "full": "windmill-labs/windmill",
+    "name": "windmill",
+    "desc": "Code-first platform for workflows, apps and AI agents, on the fastest self-hostable orchestrator (benchmarked against Airflow, Prefect and Temporal). Business teams build with AI, engineers control what ships. Open-source alternative to Lovable, Retool and n8n.",
+    "lang": "Rust",
+    "stars": 18551,
+    "week": 167,
+    "topics": [
+      "ai-agents",
+      "airflow-alternative",
+      "internal-tools",
+      "open-source",
+      "orchestration",
+      "postgresql",
+      "python",
+      "rust",
+      "self-hostable",
+      "self-hosted",
+      "typescript",
+      "vibe-coding",
+      "workflow-engine"
+    ],
+    "types": [
+      "开发工具链",
+      "Agent"
+    ],
+    "url": "https://github.com/windmill-labs/windmill",
+    "_sources": [
+      "rust"
+    ]
+  },
+  {
+    "full": "gepa-ai/gepa",
+    "name": "gepa",
+    "desc": "Optimize prompts, code, and more with AI-powered Reflective Optimization",
+    "lang": "Jupyter Notebook",
+    "stars": 7412,
+    "week": 118,
+    "topics": [
+      "agent-skills",
+      "coding-agent",
+      "discovery",
+      "distributed-evolutionary-algorithms",
+      "evolutionary-algorithms",
+      "genetic-algorithm",
+      "harness",
+      "harness-ai",
+      "harness-engineering",
+      "iterative-methods",
+      "iterative-refinement",
+      "llm-agents",
+      "llm-evaluation",
+      "optimization",
+      "optimization-algorithms",
+      "optimizer",
+      "prompt-engineering",
+      "prompt-optimization"
+    ],
+    "types": [
+      "模型与推理",
+      "数据与评测"
+    ],
+    "url": "https://github.com/gepa-ai/gepa",
+    "_sources": [
+      "jupyter-notebook"
+    ]
+  },
+  {
+    "full": "Santoshkurmi/antigem",
+    "name": "antigem",
+    "desc": "A mobile IDE wrapping antigravity cli, opencode , codex and claude cli to provide a full Android coding environment. Features an advanced code editor, integrated AI chat, built-in Git client, and full Termux terminal access for on-the-go development.",
+    "lang": "Kotlin",
+    "stars": 123,
+    "week": 32,
+    "topics": [],
+    "types": [
+      "应用与产品",
+      "开发工具链",
+      "Agent"
+    ],
+    "url": "https://github.com/Santoshkurmi/antigem",
+    "_sources": [
+      "kotlin"
+    ]
+  },
+  {
+    "full": "camunda/camunda",
+    "name": "camunda",
+    "desc": "Agentic Orchestration Platform",
+    "lang": "Java",
+    "stars": 4364,
+    "week": 13,
+    "topics": [
+      "agentic-orchestration",
+      "bpmn",
+      "java",
+      "microservices",
+      "orchestration-framework",
+      "workflow",
+      "workflow-engine"
+    ],
+    "types": [
+      "Agent",
+      "开发工具链"
+    ],
+    "url": "https://github.com/camunda/camunda",
+    "_sources": [
+      "java"
+    ]
+  },
+  {
+    "full": "google-deepmind/mujoco",
+    "name": "mujoco",
+    "desc": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+    "lang": "C++",
+    "stars": 17755,
+    "week": 1535,
+    "topics": [
+      "mujoco",
+      "physics",
+      "robotics"
+    ],
+    "types": [
+      "数据与评测",
+      "模型与推理"
+    ],
+    "url": "https://github.com/google-deepmind/mujoco",
+    "_sources": [
+      "all",
+      "cpp"
     ]
   }
 ]

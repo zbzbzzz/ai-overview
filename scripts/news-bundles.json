@@ -1,5 +1,774 @@
 [
   {
+    "id": "morn13-gemini-4-hydrogen",
+    "title": "Google 发布 Gemini 4 Hydrogen：面向日常 Agent 工作流的高效模型，默认高思考档跑分超过 Argon",
+    "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen",
+    "date": "2026-11-12",
+    "meta": "",
+    "bullets": [
+      "Google DeepMind 发布 Gemini 4 Hydrogen，定位日常编程与多样化 Agent 执行；官方称默认 high 思考档在 Artificial Analysis Intelligence Index 上得到 51 分，超过体量更大的 Gemini 4 Argon（50 分），xhigh 档可达 54 分。",
+      "定价在 100 万 token 上下文内统一为每百万输入 1.50 美元、输出 7.50 美元；官方称相对 Gemini 3.8 Flash，默认档完成任务快约 2.5 倍，Terminal-Bench 4.1 从 18.2% 提到 57%，已对所有 AI Studio / Gemini API 档位、Gemini 应用、Search 以及 Antigravity 的付费用户开放。",
+      "同日还介绍了 Antigravity 中的 Orchestrator，可在同一会话里动态切换 Carbon 与 Hydrogen；Hydrogen 提供 low / medium / high（默认）和新增的 xhigh 四档思考深度。"
+    ],
+    "links": [
+      {
+        "label": "Google DeepMind",
+        "title": "Introducing Gemini 4 Hydrogen",
+        "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen",
+        "date": "2026-11-12",
+        "same_event": true
+      },
+      {
+        "label": "Google",
+        "title": "Introducing Gemini 4 Hydrogen",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen",
+        "date": "2026-11-12",
+        "same_event": true
+      },
+      {
+        "label": "Ars Technica",
+        "title": "Google rolls out Gemini 4 Hydrogen, finally replacing 3.8 Flash",
+        "url": "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash",
+        "date": "2026-11-12",
+        "same_event": true
+      },
+      {
+        "label": "The Next Web",
+        "title": "Google's Gemini 4 Hydrogen is a faster, cheaper model for everyone",
+        "url": "https://thenextweb.com/news/google-gemini-4-hydrogen-fast-cheap-model-everyone",
+        "date": "2026-11-12",
+        "same_event": true
+      },
+      {
+        "label": "The Decoder",
+        "title": "Google's Gemini 4 Hydrogen outscores the bigger Argon just four weeks after its launch",
+        "url": "https://the-decoder.com/googles-gemini-4-hydrogen-outscores-the-bigger-argon-just-four-weeks-after-its-launch",
+        "date": "2026-11-12",
+        "same_event": true
+      },
+      {
+        "label": "Techmeme",
+        "title": "Google launches Gemini 4 Hydrogen, priced at $1.50/1M input and $7.50/1M output",
+        "url": "https://www.techmeme.com/261112/p46",
+        "date": "2026-11-12",
+        "same_event": true
+      },
+      {
+        "label": "Techmeme",
+        "title": "Gemini 4 Hydrogen is available across AI Studio, the Gemini API, Search, and more",
+        "url": "https://www.techmeme.com/261112/p47",
+        "date": "2026-11-12",
+        "same_event": true
+      },
+      {
+        "label": "Hacker News",
+        "title": "Gemini 4 Hydrogen",
+        "url": "https://news.ycombinator.com/item?id=50471431",
+        "date": "2026-11-12",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 90,
+      "actionable": 88,
+      "breadth": 88,
+      "heat": 100
+    },
+    "heat": 100,
+    "heat_signals": {
+      "reports": 8,
+      "domains": 7,
+      "x_posts_7d": 4144,
+      "x_spike_7d": 3529.0
+    },
+    "score": 91.2
+  },
+  {
+    "id": "morn13-gemini-hydrogen-search",
+    "title": "Google Search 接入 Gemini 4 Hydrogen：官方称这是 Search 迄今最大的模型升级，已对全球所有用户开放",
+    "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade",
+    "date": "2026-11-12",
+    "meta": "",
+    "bullets": [
+      "Google Search 产品副总裁 Robby Stein 发文称，Gemini 4 Hydrogen 已在全球 Search 中对所有用户上线，并称之为 Search 迄今最大的模型升级。",
+      "官方强调新模型能更好地理解多部分、有错别字或很具体的提问，并增强 query fan-out，以便同时检索相关子问题、给出更广的链接。",
+      "响应会更视觉化，包括图片、结构化答案、对比表和按需求生成的工具；各支持 AI Mode 的语言也会得到更细致的理解。"
+    ],
+    "links": [
+      {
+        "label": "Google",
+        "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+        "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade",
+        "date": "2026-11-12",
+        "same_event": true
+      },
+      {
+        "label": "TechCrunch",
+        "title": "Google's latest Search upgrade promises better answers to your most complicated questions",
+        "url": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions",
+        "date": "2026-11-12",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 82,
+      "actionable": 65,
+      "breadth": 92,
+      "heat": 51
+    },
+    "heat": 51,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 347,
+      "x_spike_7d": 339.5
+    },
+    "score": 71.7
+  },
+  {
+    "id": "morn13-antigravity-orchestrator",
+    "title": "Google Antigravity 上线 Orchestrator：同一会话中在 Carbon 与 Hydrogen 之间动态切换",
+    "url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity",
+    "date": "2026-11-12",
+    "meta": "",
+    "bullets": [
+      "Google Antigravity 团队宣布，Gemini 4 Hydrogen 已进入 Antigravity，并新增模型选项 Orchestrator，在同一条任务轨迹里双向调度 Gemini 4 Carbon 与 Hydrogen。",
+      "官方举例：Carbon 可先只读探索并写计划，Hydrogen 再负责改代码、更新依赖和跑测试；若执行受阻再交回 Carbon 修计划。官方称在 Terminal-Bench 4.1 上，Orchestrator 成功率接近 Carbon，平均少消耗 24% 额度、快 19%。",
+      "Hydrogen 也可单独选用，并提供四档思考深度。付费的 Google AI Pro 和 Ultra 用户可使用 Hydrogen，Orchestrator 先向 AI Ultra 用户推出；企业可通过 Gemini for business 使用两者。"
+    ],
+    "links": [
+      {
+        "label": "Google Antigravity",
+        "title": "Gemini 4 Hydrogen and Orchestrator",
+        "url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity",
+        "date": "2026-11-12",
+        "same_event": true
+      },
+      {
+        "label": "Techmeme",
+        "title": "Google Antigravity adds Orchestrator, which dynamically switches between Carbon and Hydrogen",
+        "url": "https://www.techmeme.com/261112/p49",
+        "date": "2026-11-12",
+        "same_event": true
+      },
+      {
+        "label": "Hacker News",
+        "title": "Gemini 4 Hydrogen and Orchestrator",
+        "url": "https://news.ycombinator.com/item?id=50472260",
+        "date": "2026-11-12",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 78,
+      "actionable": 85,
+      "breadth": 48,
+      "heat": 57
+    },
+    "heat": 57,
+    "heat_signals": {
+      "reports": 3,
+      "domains": 3,
+      "x_posts_7d": 202,
+      "x_spike_7d": 149.5
+    },
+    "score": 72.9
+  },
+  {
+    "id": "morn13-gemini-glasses",
+    "title": "Google 与三星、Warby Parker、Gentle Monster 推出 Gemini 智能眼镜，美国预售 395 美元起",
+    "url": "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395",
+    "date": "2026-11-12",
+    "meta": "",
+    "bullets": [
+      "Google、三星与镜框品牌 Warby Parker、Gentle Monster 合作的首批 Gemini 智能眼镜已开放预售：Warby Parker 三款镜框在美国起售 395 美元，Gentle Monster 六款在美国和韩国起售 449 美元，预计 12 月 10 日发货上架。",
+      "镜架约重 41 克，由三星提供计算硬件、Google 提供软件；镜片无屏幕，可通过「Hey Gemini」或触摸启动 Gemini Live，并带 1200 万像素广角摄像头，支持识物、导航和面向视障用户的 Guided Vision。",
+      "Google 强调隐私：录制指示灯被遮挡则无法开摄像头，有物理开关，禁止应用从眼镜直播，并会在上传处理前自动遮挡人脸；影像不会写入 Gemini 历史，也不用于训练或广告。起步仅支持 iPhone 13 Pro 及以上，以及 Pixel 7 或更新机型、运行 One UI 9 的三星 Galaxy S / Z。"
+    ],
+    "links": [
+      {
+        "label": "Ars Technica",
+        "title": "Google pushes privacy angle as Gemini-powered smartglasses debut starting at $395",
+        "url": "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395",
+        "date": "2026-11-12",
+        "same_event": true
+      },
+      {
+        "label": "The Next Web",
+        "title": "Google and Samsung's Gemini smart glasses go up for preorder, starting at $395",
+        "url": "https://thenextweb.com/news/google-samsung-smart-glasses-preorders-warby-parker-gentle-monster",
+        "date": "2026-11-12",
+        "same_event": true
+      },
+      {
+        "label": "The Verge",
+        "title": "I tried Google's AI glasses, and Meta finally has a real rival",
+        "url": "https://www.theverge.com/tech/1031647/google-android-xr-warby-parker-gentle-monster-hands-on",
+        "date": "2026-11-12",
+        "same_event": true
+      },
+      {
+        "label": "Techmeme",
+        "title": "Samsung's Android XR smart glasses hands-on: local face redaction and real-time translation",
+        "url": "https://www.techmeme.com/261112/p44",
+        "date": "2026-11-12",
+        "same_event": true
+      },
+      {
+        "label": "Slashdot",
+        "title": "Google Pushes Privacy Angle As Gemini-Powered Smartglasses Debut",
+        "url": "https://yro.slashdot.org/story/26/11/12/1831251/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut",
+        "date": "2026-11-12",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 80,
+      "actionable": 72,
+      "breadth": 70,
+      "heat": 79
+    },
+    "heat": 79,
+    "heat_signals": {
+      "reports": 5,
+      "domains": 5,
+      "x_posts_7d": 270,
+      "x_spike_7d": 217.5
+    },
+    "score": 76.4
+  },
+  {
+    "id": "morn13-muse-watch",
+    "title": "Meta 将 Muse AI 助手做到 Apple Watch 与 Wear OS，可在手表上语音或发消息交互",
+    "url": "https://www.techradar.com/ai-platforms-assistants/meta-launches-muse-ai-agent-for-apple-watch-and-android-wear-os-so-now-you-can-talk-to-your-fluffy-life-assistant-anywhere",
+    "date": "2026-11-12",
+    "meta": "",
+    "bullets": [
+      "Meta 宣布消费级 AI 助手 Muse 已支持 Apple Watch 和 Android Wear OS，可在手表上通过语音通话、短信或听写与个性化形象交互，用于日程、提醒和生活任务。",
+      "报道称 Muse 今年 9 月上线后 40 天内美国应用商店下载量超过 1000 万，并能协助账单、会议乃至代为购物；公司还在预告手持设备 Muse Charm。",
+      "文章同时提到 Surfshark 测试认为 Muse 是目前最「吃数据」的消费级 AI 助手，收集的数据类型约为竞品的两倍。"
+    ],
+    "links": [
+      {
+        "label": "TechRadar",
+        "title": "Meta launches Muse AI agent for Apple Watch and Android Wear OS",
+        "url": "https://www.techradar.com/ai-platforms-assistants/meta-launches-muse-ai-agent-for-apple-watch-and-android-wear-os-so-now-you-can-talk-to-your-fluffy-life-assistant-anywhere",
+        "date": "2026-11-12",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 72,
+      "actionable": 75,
+      "breadth": 68,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 871,
+      "x_spike_7d": -396.5
+    },
+    "score": 64.1
+  },
+  {
+    "id": "morn13-llmon-granite",
+    "title": "IBM 发布 LLM 原生标记语言 LLMON，并推出基于 Granite 4.1 的 3B / 8B 预览模型",
+    "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+    "date": "2026-11-12",
+    "meta": "",
+    "bullets": [
+      "IBM 发布实验性标记语言 LLMON（LLM Object Notation），用保留特殊 token 明确标出指令、数据、约束和执行绑定，让模型按结构而不是扁平文本理解上下文。",
+      "同步推出 granite-4.1-3b-LLMON-preview 与 granite-4.1-8b-LLMON-preview，并开源工具库和示例；官方称在 OPI 等间接提示注入评测上，攻击成功率可降到接近零，同时通用能力与 Granite 4.1 Instruct 相当。",
+      "官方提醒这仍是探索预览、不适合生产；也可用自己的标签词汇在模型上微调 LoRA。相关代码在 GitHub 的 generative-computing/llmon。"
+    ],
+    "links": [
+      {
+        "label": "Hugging Face",
+        "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+        "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+        "date": "2026-11-12",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 70,
+      "actionable": 82,
+      "breadth": 42,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 21,
+      "x_spike_7d": 21.0
+    },
+    "score": 62.8
+  },
+  {
+    "id": "morn13-matrix-game-4",
+    "title": "昆仑万维 Matrix-Game 4.0 登上 Reactor：单卡 RTX 5090 可在浏览器里以 60 FPS 边玩边生成",
+    "url": "https://www.aibase.com/news/32285",
+    "date": "2026-11-12",
+    "meta": "",
+    "bullets": [
+      "报道称，昆仑万维 10 月开源的 Matrix-Game 4.0 已在实时世界模型平台 Reactor 上线，可在浏览器进入 Castle、Ancient Egypt 和 City Racing 三个世界「边玩边生成」。",
+      "官方与报道称，单张 NVIDIA RTX 5090 可做到 480p、60 FPS 实时交互，按键到首帧延迟低于 150 毫秒，峰值显存约 18.5 GiB。",
+      "系统用 Harness 把 Coding Agent、游戏引擎和视频模型拆开：规则由代码维护，模型负责画面。权重在 Hugging Face，代码在 GitHub，项目页为 matrix-game-v4-0.github.io。"
+    ],
+    "links": [
+      {
+        "label": "AIBase",
+        "title": "单张消费级显卡跑出60FPS游戏世界:Matrix-Game4.0上线Reactor，浏览器里「边玩边生成」",
+        "url": "https://www.aibase.com/news/32285",
+        "date": "2026-11-12",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 68,
+      "actionable": 78,
+      "breadth": 48,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 15,
+      "x_spike_7d": 0.0
+    },
+    "score": 61.4
+  },
+  {
+    "id": "morn13-companies-ban-agents",
+    "title": "综述：美联航、亚马逊、塔吉特等公司正在限制或封禁代操型 AI Agent",
+    "url": "https://www.businessinsider.com/list-companies-banning-ai-agents-retail-travel-united-amazon-target-2026-11",
+    "date": "2026-11-12",
+    "meta": "",
+    "bullets": [
+      "Business Insider 梳理了一份正在限制或封禁 AI Agent 的公司名单，覆盖零售和出行等领域，点名包括联合航空、亚马逊和塔吉特。",
+      "文章把这类政策放在自动化代理开始代用户下单、订票之后，企业担心账户安全、违规操作和客服责任。",
+      "这是对多起公司政策的汇总评论，并不等于某一家的新公告。"
+    ],
+    "links": [
+      {
+        "label": "Business Insider",
+        "title": "Hold up, bot: Companies are banning AI agents. Here's the list.",
+        "url": "https://www.businessinsider.com/list-companies-banning-ai-agents-retail-travel-united-amazon-target-2026-11",
+        "date": "2026-11-12",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 70,
+      "actionable": 55,
+      "breadth": 72,
+      "heat": 35
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 86,
+      "x_spike_7d": 86.0
+    },
+    "score": 58.7
+  },
+  {
+    "id": "morn13-bing-ai-choice",
+    "title": "微软推出 Bing AI Search Choice 扩展，可关闭必应 AI 答案，但安装后会把 Bing 设为默认搜索",
+    "url": "https://www.aibase.com/news/32284",
+    "date": "2026-11-12",
+    "meta": "",
+    "bullets": [
+      "报道称，微软 11 月 11 日承认用户希望自行决定是否看到 AI 答案，并向 Chrome 与 Edge 预览推出 Microsoft Bing AI Search Choice 扩展，安装后可用一个开关全局关闭或打开必应 AI 答案。",
+      "另一种办法是在查询末尾手动加上 `-ai` 运算符，例如「best laptops 2026 -ai」，即可回到传统结果，但每次都要自己加。",
+      "文章指出，安装该扩展会自动把 Bing 设为默认搜索引擎，认为微软把本可放在设置页的开关做成了独立扩展。"
+    ],
+    "links": [
+      {
+        "label": "AIBase",
+        "title": "微软松口允许关闭必应 AI 答案，但开门要收「过路费」",
+        "url": "https://www.aibase.com/news/32284",
+        "date": "2026-11-12",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 62,
+      "actionable": 70,
+      "breadth": 65,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": null
+    },
+    "score": 58.3
+  },
+  {
+    "id": "morn13-nebius-40b",
+    "title": "Nebius 公布 2027 年约 400 亿美元开支计划，微软新泽西项目已延期，股价当日下跌 17%",
+    "url": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending",
+    "date": "2026-11-12",
+    "meta": "",
+    "bullets": [
+      "在第三季度财报电话会上，neocloud 公司 Nebius 给出 2027 年约 400 亿美元开支计划，并称最多约 85% 可由客户预付款和投资级合同的资产支持融资覆盖。",
+      "其与微软价值最高约 194 亿美元的新泽西 Vineland 项目已延误数月，年底只能交付一半容量，其余排到 2027 年二季度；合同允许微软在宽限期后终止受影响服务，并有延误罚则。",
+      "第三季度营收 9.81 亿美元、同比增 571%，但公司把 2026 年营收预期下调 2 亿美元至 30 亿美元，当天股价下跌 17%；季末现金 74 亿美元，并预计 2027 年营收 120–130 亿美元。"
+    ],
+    "links": [
+      {
+        "label": "TechCrunch",
+        "title": "Nebius tests the neocloud playbook with $40 billion in planned spending",
+        "url": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending",
+        "date": "2026-11-12",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 75,
+      "actionable": 40,
+      "breadth": 50,
+      "heat": 45
+    },
+    "heat": 45,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 972,
+      "x_spike_7d": 529.5
+    },
+    "score": 56.0
+  },
+  {
+    "id": "morn13-anthropic-turbines",
+    "title": "报道：Anthropic 斥资 34 亿美元采购卡特彼勒天然气发电机，装机最高约 1.7 吉瓦",
+    "url": "https://www.techradar.com/pro/anthropic-is-spending-usd3-4-billion-on-natural-gas-turbines-to-avoid-the-ai-power-crisis-caterpillar-generators-capable-of-producing-up-to-1-7-gigawatts-of-electricity-could-power-the-next-generation-of-claude",
+    "date": "2026-11-11",
+    "meta": "",
+    "bullets": [
+      "TechRadar 援引英国《金融时报》报道称，Anthropic 正花费 34 亿美元采购卡特彼勒天然气发电设备，装机容量最高约 1.7 吉瓦，以便在电网接入排队漫长的情况下自建供电。",
+      "报道称这偏离了该公司此前更倾向租用计算基础设施的做法，目的是为 Claude 及相关负荷提供电力。",
+      "文章同时提醒天然气轮机订单已排到 2030 年代初，且分析认为部分市场气价可能在 2030 年前大幅上涨，会抬高自建电力的运行成本。"
+    ],
+    "links": [
+      {
+        "label": "TechRadar",
+        "title": "Anthropic is spending $3.4 billion on natural gas turbines to avoid the AI power crisis",
+        "url": "https://www.techradar.com/pro/anthropic-is-spending-usd3-4-billion-on-natural-gas-turbines-to-avoid-the-ai-power-crisis-caterpillar-generators-capable-of-producing-up-to-1-7-gigawatts-of-electricity-could-power-the-next-generation-of-claude",
+        "date": "2026-11-11",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 76,
+      "actionable": 35,
+      "breadth": 55,
+      "heat": 45
+    },
+    "heat": 45,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 1298,
+      "x_spike_7d": 750.5
+    },
+    "score": 55.4
+  },
+  {
+    "id": "morn13-openai-children",
+    "title": "OpenAI 签署「更安全的儿童 AI」承诺书，并承诺投入 200 万美元支持相关研究网络",
+    "url": "https://openai.com/index/children-first-declaration",
+    "date": "2026-11-12",
+    "meta": "",
+    "bullets": [
+      "OpenAI 在巴黎和平论坛签署 Charter of Engagement for Safer AI for Children，并承诺投入 200 万美元，支持「人工智能时代儿童权利与保护联盟」下的科学研究网络。",
+      "资金用于开发可共享的测量工具，帮助研究者评估 AI 对儿童的风险与机会；章程要求研究团队保留结论自主权，包括阴性或不确定结果也要发表。",
+      "OpenAI 表示将继续推动面向青少年的默认适龄保护、家长工具、定期风险评估和问责，并关注欧盟 Kids Act 等立法进展。"
+    ],
+    "links": [
+      {
+        "label": "OpenAI",
+        "title": "Supporting research on AI and children's safety",
+        "url": "https://openai.com/index/children-first-declaration",
+        "date": "2026-11-12",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 68,
+      "actionable": 50,
+      "breadth": 70,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 16,
+      "x_spike_7d": 16.0
+    },
+    "score": 55.2
+  },
+  {
+    "id": "morn13-vercel-halflife",
+    "title": "Vercel 数据：团队换模型的速度几乎赶上实验室发新模型，模型「半衰期」约六周",
+    "url": "https://www.techradar.com/pro/teams-are-moving-to-new-models-almost-as-fast-as-labs-release-them-vercel-data-reveals-ai-models-now-have-a-half-life-of-just-six-weeks-with-most-most-ai-traffic-running-on-models-less-than-two-months-old",
+    "date": "2026-11-12",
+    "meta": "",
+    "bullets": [
+      "TechRadar 报道称，Vercel 的使用数据显示，团队换成新模型的速度几乎与实验室发布新模型同步，AI 模型的「半衰期」大约只有六周。",
+      "报道称，目前大部分 AI 请求都跑在发布不到两个月的模型上。",
+      "这是对平台流量趋势的分析，不是某个模型的发布公告。"
+    ],
+    "links": [
+      {
+        "label": "TechRadar",
+        "title": "Vercel data reveals AI models now have a half-life of just six weeks",
+        "url": "https://www.techradar.com/pro/teams-are-moving-to-new-models-almost-as-fast-as-labs-release-them-vercel-data-reveals-ai-models-now-have-a-half-life-of-just-six-weeks-with-most-most-ai-traffic-running-on-models-less-than-two-months-old",
+        "date": "2026-11-12",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 58,
+      "actionable": 55,
+      "breadth": 60,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 10,
+      "x_spike_7d": 10.0
+    },
+    "score": 51.7
+  },
+  {
+    "id": "morn13-claude-visits",
+    "title": "Forbes 援引 Similarweb：Claude 10 月网站访问量约 12.53 亿，创纪录并升至全球第 25",
+    "url": "https://www.aibase.com/news/32283",
+    "date": "2026-11-12",
+    "meta": "",
+    "bullets": [
+      "报道称，Forbes 援引 Similarweb 数据，Anthropic 的 Claude 在 10 月网站访问量约 12.53 亿，环比增 23.8%，创下新高，同比增 536.3%。",
+      "同期 ChatGPT 环比只增约 2.15%，Gemini 微降 0.15%；Claude 升至全球网站排名第 25，在 AI 聊天网站中列第三，仍远低于 ChatGPT 约 60 亿的访问量。",
+      "该方法只统计网页访问、不含独立用户和 App 内使用。文章将其放在 Anthropic 筹备上市的背景下讨论。"
+    ],
+    "links": [
+      {
+        "label": "AIBase",
+        "title": "冲刺 IPO 前夜，Claude 月访问量冲上 12.53 亿创纪录",
+        "url": "https://www.aibase.com/news/32283",
+        "date": "2026-11-12",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 66,
+      "actionable": 28,
+      "breadth": 62,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 80,
+      "x_spike_7d": -2.5
+    },
+    "score": 47.0
+  },
+  {
+    "id": "morn13-smolmaxxing",
+    "title": "开源项目 smolmaxxing：尝试让大模型在小型和老旧设备上运行",
+    "url": "https://github.com/hyperionaidev/smolmaxxing",
+    "date": "2026-11-12",
+    "meta": "",
+    "bullets": [
+      "开发者推出开源项目 smolmaxxing，目标是让大语言模型在小型和老旧设备上也能运行。",
+      "项目代码公开在 GitHub，并出现在 Hacker News 的 Show 讨论中。",
+      "这是个人/社区项目，尚不是厂商正式产品发布。"
+    ],
+    "links": [
+      {
+        "label": "GitHub",
+        "title": "I'm making LLMs work on small and old devices",
+        "url": "https://github.com/hyperionaidev/smolmaxxing",
+        "date": "2026-11-12",
+        "same_event": true
+      },
+      {
+        "label": "Hacker News",
+        "title": "I'm making LLMs work on small and old devices",
+        "url": "https://news.ycombinator.com/item?id=50468888",
+        "date": "2026-11-12",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 40,
+      "actionable": 72,
+      "breadth": 32,
+      "heat": 41
+    },
+    "heat": 41,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 9,
+      "x_spike_7d": 9.0
+    },
+    "score": 49.0
+  },
+  {
+    "id": "morn13-softbank-gas",
+    "title": "报道：SoftBank 为 AI 数据中心预购天然气轮机已亏损超 30 亿美元，或给行业扩产降温",
+    "url": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions",
+    "date": "2026-11-12",
+    "meta": "",
+    "bullets": [
+      "TechCrunch 报道称，SoftBank 为给 AI 数据中心供电而预购天然气轮机，相关头寸亏损已超过 30 亿美元。",
+      "文章分析这笔亏损可能如何影响电力设备市场，以及它会不会给其他科技公司靠天然气扩张供电的计划设下上限。",
+      "这是对投资损失及其行业影响的分析，与 Anthropic 采购发电机是不同事件。"
+    ],
+    "links": [
+      {
+        "label": "TechCrunch",
+        "title": "SoftBank's billion-dollar loss may have put a cap on AI's natural gas ambitions",
+        "url": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions",
+        "date": "2026-11-12",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 62,
+      "actionable": 30,
+      "breadth": 48,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 285,
+      "x_spike_7d": 37.5
+    },
+    "score": 44.6
+  },
+  {
+    "id": "morn13-nebuly",
+    "title": "Nebuly 完成 2100 万美元 A 轮融资，用于衡量企业 AI 的投资回报",
+    "url": "https://thenextweb.com/news/nebuly-21m-series-a-enterprise-ai-roi",
+    "date": "2026-11-12",
+    "meta": "",
+    "bullets": [
+      "The Next Web 报道，企业 AI 分析公司 Nebuly 完成 2100 万美元 A 轮融资，资金用于帮助企业衡量 AI 投入的回报。",
+      "报道将其放在企业需要更清楚地看到 AI 项目效果的背景下。"
+    ],
+    "links": [
+      {
+        "label": "The Next Web",
+        "title": "Nebuly raises $21 million Series A to measure enterprise AI ROI",
+        "url": "https://thenextweb.com/news/nebuly-21m-series-a-enterprise-ai-roi",
+        "date": "2026-11-12",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 45,
+      "actionable": 50,
+      "breadth": 35,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 30,
+      "x_spike_7d": 30.0
+    },
+    "score": 42.5
+  },
+  {
+    "id": "morn13-amplitude",
+    "title": "Amplitude 案例：借助 OpenAI 将产品改进交付周期缩短到 1–2 天",
+    "url": "https://openai.com/index/amplitude",
+    "date": "2026-11-12",
+    "meta": "",
+    "bullets": [
+      "OpenAI 发布客户案例，介绍产品分析公司 Amplitude 如何用 OpenAI 把产品改进的交付周期缩短到 1–2 天。",
+      "案例提到其主动式产品代理 Wave，用于把使用洞察更快变成已上线的改进。",
+      "这是单一客户故事，不是 OpenAI 的新模型或新 API 公告。"
+    ],
+    "links": [
+      {
+        "label": "OpenAI",
+        "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+        "url": "https://openai.com/index/amplitude",
+        "date": "2026-11-12",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 38,
+      "actionable": 48,
+      "breadth": 32,
+      "heat": 35
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 187,
+      "x_spike_7d": 52.0
+    },
+    "score": 39.8
+  },
+  {
+    "id": "morn13-holiday-extras",
+    "title": "Holiday Extras 案例：用 Codex 两周重建主应用，转化率提升 32.5%",
+    "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
+    "date": "2026-11-12",
+    "meta": "",
+    "bullets": [
+      "OpenAI 发布客户故事称，旅游公司 Holiday Extras 借助 Codex，用两周完成原先预计要六个多月的主应用重建。",
+      "官方称 open-to-book 转化率提高 32.5%，错误率从 19% 降到 9%，发布节奏由按年改为按周。",
+      "这是单一客户案例，不是 Codex 的新功能发布。"
+    ],
+    "links": [
+      {
+        "label": "OpenAI",
+        "title": "Holiday Extras is rethinking what it can build with Codex",
+        "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
+        "date": "2026-11-12",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 36,
+      "actionable": 55,
+      "breadth": 28,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 26,
+      "x_spike_7d": 26.0
+    },
+    "score": 39.7
+  },
+  {
     "id": "eve12-praxis-1",
     "title": "Runway 开源 Praxis-1：27B 世界动作模型，Apache 2.0 可商用，登顶 RoboLab-120",
     "url": "https://runway.com/news/company-news/praxis-1-is-now-available",
@@ -164,22 +933,36 @@
         "url": "https://slashdot.org/story/26/11/11/2229248/united-airlines-bans-ai-agents-from-booking-flights-on-behalf-of-travelers",
         "date": "2026-11-12",
         "same_event": true
+      },
+      {
+        "label": "TechCrunch",
+        "title": "United Airlines blocks AI agents from booking flights, citing cybersecurity risks",
+        "url": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks",
+        "date": "2026-11-12",
+        "same_event": true
+      },
+      {
+        "label": "The New York Times",
+        "title": "United Airlines Blocks AI Agents From Booking Flights",
+        "url": "https://www.nytimes.com/2026/11/11/business/united-airlines-ai-agents-booking-flights.html",
+        "date": "2026-11-11",
+        "same_event": true
       }
     ],
     "score_parts": {
       "industry": 75,
       "actionable": 70,
       "breadth": 72,
-      "heat": 79
+      "heat": 85
     },
-    "heat": 79,
+    "heat": 85,
     "heat_signals": {
-      "reports": 5,
-      "domains": 5,
+      "reports": 7,
+      "domains": 7,
       "x_posts_7d": 340,
       "x_spike_7d": 340.0
     },
-    "score": 74.0
+    "score": 75.2
   },
   {
     "id": "eve12-claude-connectors",

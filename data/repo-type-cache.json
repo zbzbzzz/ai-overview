@@ -79,10 +79,9 @@
   },
   "addyosmani/agent-skills": {
     "types": [
-      "Skill",
-      "开发工具链"
+      "Skill"
     ],
-    "updated": "2026-10-10",
+    "updated": "2026-11-13",
     "source": "grok-bot"
   },
   "mvschwarz/openrig": {
@@ -774,10 +773,11 @@
   },
   "gepa-ai/gepa": {
     "types": [
-      "开发工具链"
+      "模型与推理",
+      "数据与评测"
     ],
-    "updated": "2026-10-12",
-    "source": "model"
+    "updated": "2026-11-13",
+    "source": "grok-bot"
   },
   "unslothai/notebooks": {
     "types": [
@@ -1101,10 +1101,10 @@
   "tensorflow/tensorflow": {
     "types": [
       "模型与推理",
-      "数据与评测"
+      "开发工具链"
     ],
-    "updated": "2026-10-17",
-    "source": "model"
+    "updated": "2026-11-13",
+    "source": "grok-bot"
   },
   "elysia395/dsh-wallpaper-engine": {
     "types": [
@@ -3023,10 +3023,9 @@
   },
   "ZhuLinsen/daily_stock_analysis": {
     "types": [
-      "Agent",
-      "模型与推理"
+      "应用与产品"
     ],
-    "updated": "2026-10-25",
+    "updated": "2026-11-13",
     "source": "grok-bot"
   },
   "xtekky/gpt4free": {
@@ -6338,6 +6337,75 @@
       "应用与产品"
     ],
     "updated": "2026-11-12",
+    "source": "grok-bot"
+  },
+  "homeassistant-ai/ha-mcp": {
+    "types": [
+      "Skill"
+    ],
+    "updated": "2026-11-13",
+    "source": "grok-bot"
+  },
+  "dsx-ai-factory/nvke": {
+    "types": [
+      "开发工具链"
+    ],
+    "updated": "2026-11-13",
+    "source": "grok-bot"
+  },
+  "GoogleChrome/modern-web-guidance-src": {
+    "types": [
+      "Skill"
+    ],
+    "updated": "2026-11-13",
+    "source": "grok-bot"
+  },
+  "orailnoor/cross-platform-llm-client": {
+    "types": [
+      "应用与产品"
+    ],
+    "updated": "2026-11-13",
+    "source": "grok-bot"
+  },
+  "opensandbox-group/OpenSandbox": {
+    "types": [
+      "开发工具链",
+      "Agent"
+    ],
+    "updated": "2026-11-13",
+    "source": "grok-bot"
+  },
+  "windmill-labs/windmill": {
+    "types": [
+      "开发工具链",
+      "Agent"
+    ],
+    "updated": "2026-11-13",
+    "source": "grok-bot"
+  },
+  "Santoshkurmi/antigem": {
+    "types": [
+      "应用与产品",
+      "开发工具链",
+      "Agent"
+    ],
+    "updated": "2026-11-13",
+    "source": "grok-bot"
+  },
+  "camunda/camunda": {
+    "types": [
+      "Agent",
+      "开发工具链"
+    ],
+    "updated": "2026-11-13",
+    "source": "grok-bot"
+  },
+  "google-deepmind/mujoco": {
+    "types": [
+      "数据与评测",
+      "模型与推理"
+    ],
+    "updated": "2026-11-13",
     "source": "grok-bot"
   }
 }
