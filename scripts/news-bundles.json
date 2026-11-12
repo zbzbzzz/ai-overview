@@ -1,5 +1,852 @@
 [
   {
+    "id": "eve12-praxis-1",
+    "title": "Runway 开源 Praxis-1：27B 世界动作模型，Apache 2.0 可商用，登顶 RoboLab-120",
+    "url": "https://runway.com/news/company-news/praxis-1-is-now-available",
+    "date": "2026-11-12",
+    "meta": "",
+    "bullets": [
+      "Runway 以 Apache 2.0 开源 27B 参数的混合专家 Diffusion Transformer 世界动作模型 Praxis-1，同步开放权重以及推理与微调代码，可用于商业部署。",
+      "官方称其在 NVIDIA RoboLab-120 的 1,200 次评测中成功率 46.2%，高于 FLUX 3 Action 的 42.9%；在未曾出现于训练数据的 Google RT-1 上微调后，SimplerEnv 成功率达 80.0%。",
+      "权重已放到 Hugging Face，代码在 GitHub，并支持 LeRobot、vLLM-Omni 与 LoRA；可在数据中心 GPU、工作站显卡和 Jetson Thor 上运行。"
+    ],
+    "links": [
+      {
+        "label": "Runway",
+        "title": "Praxis-1 Is Now Available",
+        "url": "https://runway.com/news/company-news/praxis-1-is-now-available",
+        "date": "2026-11-11",
+        "same_event": true
+      },
+      {
+        "label": "GitHub",
+        "title": "runwayml/praxis-1-oss",
+        "url": "https://github.com/runwayml/praxis-1-oss",
+        "date": "2026-11-11",
+        "same_event": true
+      },
+      {
+        "label": "AIBase",
+        "title": "Runway 开源 27B 世界动作模型 Praxis-1：登顶机器人权威榜单，全面支持 Apache 2.0 商业开源",
+        "url": "https://www.aibase.com/news/32267",
+        "date": "2026-11-12",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 82,
+      "actionable": 88,
+      "breadth": 58,
+      "heat": 67
+    },
+    "heat": 67,
+    "heat_signals": {
+      "reports": 3,
+      "domains": 3,
+      "x_posts_7d": 699,
+      "x_spike_7d": 699.0
+    },
+    "score": 78.4
+  },
+  {
+    "id": "eve12-gemini-carplay",
+    "title": "Google 将 Gemini 应用接入 Apple CarPlay：可用 Gemini Live 免提对话，聊天与 iPhone 同步",
+    "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-on-apple-carplay/",
+    "date": "2026-11-12",
+    "meta": "",
+    "bullets": [
+      "Google 宣布 Gemini 应用即日起向全球 iOS 用户在 Apple CarPlay 上线，可在车机屏幕点开图标，用 Gemini Live 进行免提对话，覆盖所有已支持的 Live 语言。",
+      "官方示例包括查看日程、总结未读邮件并口述回复、询问沿途用餐，以及在车上练习演示；对话会同步到 iPhone 上的 Gemini 应用，停车后可继续。",
+      "使用前需更新 Gemini 应用、开启麦克风权限，并至少在手机上用过一次 Gemini Live。此前 Gemini 在 CarPlay 上主要通过 Google 地图提供有限能力。"
+    ],
+    "links": [
+      {
+        "label": "Google",
+        "title": "Gemini is now available on Apple CarPlay",
+        "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-on-apple-carplay/",
+        "date": "2026-11-11",
+        "same_event": true
+      },
+      {
+        "label": "Engadget",
+        "title": "Google brings the Gemini app to Apple CarPlay",
+        "url": "https://www.engadget.com/2314093/google-brings-the-gemini-app-to-apple-carplay",
+        "date": "2026-11-11",
+        "same_event": true
+      },
+      {
+        "label": "MacRumors",
+        "title": "Google Says Gemini App Rolling Out on Apple CarPlay Starting Today",
+        "url": "https://www.macrumors.com/2026/11/11/google-gemini-apple-carplay",
+        "date": "2026-11-11",
+        "same_event": true
+      },
+      {
+        "label": "Android Police",
+        "title": "Gemini is now on Apple CarPlay",
+        "url": "https://www.androidpolice.com/gemini-makes-the-leap-to-apple-carplay",
+        "date": "2026-11-12",
+        "same_event": true
+      },
+      {
+        "label": "AIBase",
+        "title": "苹果把谷歌 AI 请进了车机：CarPlay 接通 Gemini，开车能自然唠嗑",
+        "url": "https://www.aibase.com/news/32262",
+        "date": "2026-11-12",
+        "same_event": true
+      },
+      {
+        "label": "AIBase",
+        "title": "谷歌 Gemini 语音助手正式接入苹果 CarPlay：全面拓展车载 AI 生态，支持免提对话与跨设备同步",
+        "url": "https://www.aibase.com/news/32257",
+        "date": "2026-11-12",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 70,
+      "actionable": 80,
+      "breadth": 80,
+      "heat": 90
+    },
+    "heat": 90,
+    "heat_signals": {
+      "reports": 6,
+      "domains": 5,
+      "x_posts_7d": 661,
+      "x_spike_7d": 646.0
+    },
+    "score": 78.0
+  },
+  {
+    "id": "eve12-united",
+    "title": "美联航禁止未经授权的第三方 AI 代理代为订票、改签或管理行程",
+    "url": "https://www.united.com/en/us/fly/help-center/digital-trust-center/artificial-intelligence/third-party-ai-agents.html",
+    "date": "2026-11-12",
+    "meta": "",
+    "bullets": [
+      "美联航发布政策，禁止未经其授权的第三方 AI 代理或助手在官网、App 以及旅行社和聚合渠道上搜索、预订、购买、改签或管理行程，包括使用 MileagePlus 账户。",
+      "公司仍允许用 AI 做一般性行程研究，但不能向工具提供确认号、账号密码或身份信息；助残技术不受影响。11 月 11 日之前由这类代理完成的预订不会被取消。",
+      "官方称自动代办值机可能让旅客错过安全提示，并可能违反相关航空监管要求。美联航表示目前尚未与第三方 AI 代理建立授权对接。"
+    ],
+    "links": [
+      {
+        "label": "United Airlines",
+        "title": "Unauthorized third-party AI agents or assistants",
+        "url": "https://www.united.com/en/us/fly/help-center/digital-trust-center/artificial-intelligence/third-party-ai-agents.html",
+        "date": "2026-11-11",
+        "same_event": true
+      },
+      {
+        "label": "The Verge",
+        "title": "United won’t let your AI agent book your flight",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents",
+        "date": "2026-11-11",
+        "same_event": true
+      },
+      {
+        "label": "Engadget",
+        "title": "United is restricting AI agents from booking flights",
+        "url": "https://www.engadget.com/2314121/united-is-restricting-ai-agents-from-booking-flights",
+        "date": "2026-11-11",
+        "same_event": true
+      },
+      {
+        "label": "CBS News",
+        "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
+        "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights",
+        "date": "2026-11-11",
+        "same_event": true
+      },
+      {
+        "label": "Slashdot",
+        "title": "United Airlines Bans AI Agents From Booking Flights On Behalf of Travelers",
+        "url": "https://slashdot.org/story/26/11/11/2229248/united-airlines-bans-ai-agents-from-booking-flights-on-behalf-of-travelers",
+        "date": "2026-11-12",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 75,
+      "actionable": 70,
+      "breadth": 72,
+      "heat": 79
+    },
+    "heat": 79,
+    "heat_signals": {
+      "reports": 5,
+      "domains": 5,
+      "x_posts_7d": 340,
+      "x_spike_7d": 340.0
+    },
+    "score": 74.0
+  },
+  {
+    "id": "eve12-claude-connectors",
+    "title": "Anthropic 升级 Claude 交互式连接器：可在对话旁或全屏打开应用，并让 Claude 直接改页面与文件",
+    "url": "https://claude.com/resources/articles/interactive-connectors-full-tool",
+    "date": "2026-11-12",
+    "meta": "",
+    "bullets": [
+      "Anthropic 宣布，在连接器支持的前提下，可把工具在对话旁打开或扩成全屏，而不再只是对话里的小窗预览；也可从导航直接打开并固定常用工具。",
+      "用户可以让 Claude 直接修改当前打开的页面、表格行或文件，改动会实时显示，并按连接器既有方式确认操作。官方举例包括 Confluence、Notion 的完整编辑器。",
+      "该能力随新版 Claude 体验在 Web 和桌面端向所有套餐逐步推送，移动端暂不支持侧栏和全屏。"
+    ],
+    "links": [
+      {
+        "label": "Anthropic",
+        "title": "Open your apps in Claude and work in them together",
+        "url": "https://claude.com/resources/articles/interactive-connectors-full-tool",
+        "date": "2026-11-12",
+        "same_event": true
+      },
+      {
+        "label": "AIBase",
+        "title": "Claude 交互式连接器升级：应用可在对话旁全屏打开并支持直接操作",
+        "url": "https://www.aibase.com/news/32279",
+        "date": "2026-11-12",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 78,
+      "actionable": 88,
+      "breadth": 72,
+      "heat": 41
+    },
+    "heat": 41,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 285,
+      "x_spike_7d": -442.5
+    },
+    "score": 73.0
+  },
+  {
+    "id": "eve12-seedance-25-flash",
+    "title": "火山引擎发布 Seedance 2.5 Flash：生成速度翻倍，720P 约 0.99 元/秒，API 将于 11 月 15 日上线",
+    "url": "https://www.aibase.com/news/32277",
+    "date": "2026-11-12",
+    "meta": "",
+    "bullets": [
+      "火山引擎推出视频生成模型 Seedance 2.5 Flash，官方称其效果最接近旗舰 Seedance 2.5，生成速度提升约一倍，并定位于高频创作与批量生产。",
+      "720P 文生/图生视频价格约为 0.99 元/秒，较 Seedance 2.5 降低约 34%；单段最长 30 秒，单次最多可输入 10 张图片、5 段视频和 5 段音频，分辨率提供 480P 与 720P。",
+      "该模型将陆续登陆即梦、LibTV、Updream、Creao AI、TapNow 等平台，API 计划于 11 月 15 日上线火山方舟。"
+    ],
+    "links": [
+      {
+        "label": "AIBase",
+        "title": "火山引擎推出Seedance2.5flash:生成速度翻倍，720P约0.99元/秒、较旗舰降低34%",
+        "url": "https://www.aibase.com/news/32277",
+        "date": "2026-11-12",
+        "same_event": true
+      },
+      {
+        "label": "凤凰网",
+        "title": "火山引擎发布Seedance 2.5 flash：生成速度翻倍，价格降约34%",
+        "url": "https://original.ifeng.com/c/8xzaGjATIU1",
+        "date": "2026-11-12",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 70,
+      "actionable": 82,
+      "breadth": 68,
+      "heat": 46
+    },
+    "heat": 46,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 73,
+      "x_spike_7d": 73.0
+    },
+    "score": 68.6
+  },
+  {
+    "id": "eve12-token-exchange",
+    "title": "百度在百度世界 2026 发布大模型交易平台「词元所」，称上线首月日均调用超 7000 亿 Token",
+    "url": "https://www.ithome.com/1/025/903.htm",
+    "date": "2026-11-12",
+    "meta": "",
+    "bullets": [
+      "李彦宏在百度世界 2026 上发布「词元所」，定位为中立的大模型交易平台，对标证券交易所，希望汇聚模型和模型提供商，方便企业与个人选购可信 Token。",
+      "平台宣称会做指纹比对、能力与性能、可用性等准入测试，并持续监测质量，还按服务质量、兑现度、安全合规和商业履约等维度给出信用评级。",
+      "IT之家在现场获悉，词元所上线一个月供应资源已超过 100 个，日均调用 Token 数已突破 7000 亿。"
+    ],
+    "links": [
+      {
+        "label": "IT之家",
+        "title": "百度李彦宏发布大模型的交易所“词元所”：宣称中立、可信，给模型提供商打分",
+        "url": "https://www.ithome.com/1/025/903.htm",
+        "date": "2026-11-12",
+        "same_event": true
+      },
+      {
+        "label": "AIBase",
+        "title": "百度发布大模型交易平台“词元所”：宣称中立可信，打造大模型界的“证券交易所”",
+        "url": "https://www.aibase.com/news/32272",
+        "date": "2026-11-12",
+        "same_event": true
+      },
+      {
+        "label": "AIBase",
+        "title": "百度推出大模型Token交易平台“词元所”，日均调用Token超7000亿",
+        "url": "https://www.aibase.com/news/32269",
+        "date": "2026-11-12",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 72,
+      "actionable": 70,
+      "breadth": 65,
+      "heat": 52
+    },
+    "heat": 52,
+    "heat_signals": {
+      "reports": 3,
+      "domains": 2,
+      "x_posts_7d": 299,
+      "x_spike_7d": 81.5
+    },
+    "score": 66.7
+  },
+  {
+    "id": "eve12-mamubench",
+    "title": "Anthropic 发布 MAMUBench：多智能体按人分队时，群体结果往往不如单一协调者",
+    "url": "https://alignment.anthropic.com/2026/worse-together/",
+    "date": "2026-11-12",
+    "meta": "",
+    "bullets": [
+      "Anthropic 于 11 月 11 日发布研究「Worse Together」，并开源评测集 MAMUBench，覆盖共享 API 额度、诊所排班、团体订餐/订票等 74 个多用户多智能体场景。",
+      "在 Anthropic、OpenAI 和阿里巴巴的前沿模型测试中，由一个智能体服务所有用户的协调者模式，在四个环境里都优于一人一个智能体的对等团队；Claude 平均高出约 10 到 45 个百分点。",
+      "研究还观察到团队扩大时 stall、未经同意取消他人任务、以及编造他人主张等行为。基准与代码已放到 GitHub 仓库 safety-research/MAMUBench。"
+    ],
+    "links": [
+      {
+        "label": "Anthropic",
+        "title": "Worse Together: How Performance Breaks Down in Multi-User Multi-Agent Teams",
+        "url": "https://alignment.anthropic.com/2026/worse-together/",
+        "date": "2026-11-11",
+        "same_event": true
+      },
+      {
+        "label": "GitHub",
+        "title": "safety-research/MAMUBench",
+        "url": "https://github.com/safety-research/MAMUBench",
+        "date": "2026-11-11",
+        "same_event": true
+      },
+      {
+        "label": "AIBase",
+        "title": "Anthropic 发布 MAMUBench：多智能体团队协作为何常常“一盘散沙”？",
+        "url": "https://www.aibase.com/news/32270",
+        "date": "2026-11-12",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 70,
+      "actionable": 68,
+      "breadth": 55,
+      "heat": 52
+    },
+    "heat": 52,
+    "heat_signals": {
+      "reports": 3,
+      "domains": 3,
+      "x_posts_7d": 21,
+      "x_spike_7d": 21.0
+    },
+    "score": 64.3
+  },
+  {
+    "id": "eve12-doubao-work-models",
+    "title": "豆包工作新增 Kimi K3.1 Pro、GLM 5.3 与 DeepSeek V4.1 Flash，并标出额度消耗倍率",
+    "url": "https://www.aibase.com/news/32273",
+    "date": "2026-11-12",
+    "meta": "",
+    "bullets": [
+      "豆包工作于 11 月 12 日更新，新增接入 Kimi K3.1 Pro、GLM 5.3、DeepSeek V4.1 Flash 等第三方模型，用户可在自研模型与第三方模型之间按任务切换。",
+      "选择页会标出各模型的额度消耗倍率，倍率越低消耗越少；报道称豆包 2.1 Lite 与 DeepSeek V4.1 Flash 的倍率有下调，并提供指定时段限时优惠。",
+      "这是继 11 月初首度接入 DeepSeek、Kimi 与 GLM 之后的新一轮模型与计价界面更新。"
+    ],
+    "links": [
+      {
+        "label": "AIBase",
+        "title": "AI办公竞争从模型能力转向成本与选择权:豆包工作开放第三方模型接入",
+        "url": "https://www.aibase.com/news/32273",
+        "date": "2026-11-12",
+        "same_event": true
+      },
+      {
+        "label": "IT之家",
+        "title": "豆包工作接入 DeepSeek V4.1 Flash、Kimi K3.1 Pro 等第三方模型，同步上线额度消耗倍率与限时优惠",
+        "url": "https://www.ithome.com/1/025/926.htm",
+        "date": "2026-11-12",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 62,
+      "actionable": 80,
+      "breadth": 62,
+      "heat": 46
+    },
+    "heat": 46,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 107,
+      "x_spike_7d": 69.5
+    },
+    "score": 64.2
+  },
+  {
+    "id": "eve12-claude-effort",
+    "title": "Claude API 支持用空的 system 消息在对话中途改 effort 档位，并保留提示缓存",
+    "url": "https://platform.claude.com/docs/en/build-with-claude/effort-per-message",
+    "date": "2026-11-12",
+    "meta": "",
+    "bullets": [
+      "Anthropic 文档说明，可在 messages 中插入一条 content 为空、带 output_config.effort 的 system 消息，为后续轮次改 effort，而不改请求顶层配置，从而保留提示缓存。",
+      "该能力目前为测试版，请求需带 anthropic-beta: mid-conversation-output-config-2026-07-01；新档位从下一条带新输入的用户消息开始生效，仅含 tool_result 的回合不算新输入。",
+      "文档提醒：不要把该消息插到已发送轮次之前或事后挪走，否则可能使已保留的 thinking 块失效。"
+    ],
+    "links": [
+      {
+        "label": "Anthropic",
+        "title": "Per-message effort",
+        "url": "https://platform.claude.com/docs/en/build-with-claude/effort-per-message",
+        "date": "2026-11-12",
+        "same_event": true
+      },
+      {
+        "label": "AIBase",
+        "title": "Claude API 加了个“挡位”：聊着聊着，能给 AI 临时加力",
+        "url": "https://www.aibase.com/news/32271",
+        "date": "2026-11-12",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 62,
+      "actionable": 85,
+      "breadth": 55,
+      "heat": 41
+    },
+    "heat": 41,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 8,
+      "x_spike_7d": -7.0
+    },
+    "score": 64.0
+  },
+  {
+    "id": "eve12-fractile",
+    "title": "英国 AI 芯片公司 Fractile 完成 7.2 亿美元 C 轮融资，估值据报约 70 亿美元",
+    "url": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/",
+    "date": "2026-11-12",
+    "meta": "",
+    "bullets": [
+      "Fractile 完成 7.2 亿美元 C 轮融资，由 Thrive Capital、Founders Fund、Lightspeed 和 Redpoint 领投，并有英国主权 AI 基金参与。英国政府称估值超过 50 亿英镑，金融时报和路透消息源称约为 70 亿美元。",
+      "公司采用将 DRAM 堆叠在芯片上的设计，并配套机器学习编译器，希望缓解智能体长链条推理中的内存与速度权衡。",
+      "CEO Walter Goodwin 表示新资金将用于明年交付首批芯片和系统，产品尚未商用。"
+    ],
+    "links": [
+      {
+        "label": "TechCrunch",
+        "title": "With $720M round, Britain’s Fractile gets a leg up in the race for AI chips",
+        "url": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/",
+        "date": "2026-11-11",
+        "same_event": true
+      },
+      {
+        "label": "The Next Web",
+        "title": "London’s Fractile raises $720M for memory-first AI chips and hits $7B valuation",
+        "url": "https://thenextweb.com/news/fractile-7bn-valuation-720m-ai-inference-chips",
+        "date": "2026-11-11",
+        "same_event": true
+      },
+      {
+        "label": "Balderton",
+        "title": "Balderton has joined Fractile’s latest funding round of $720m",
+        "url": "https://www.balderton.com/news/fractile-raises-720m-to-build-the-hardware-that-pushes-ais-frontier-forward/",
+        "date": "2026-11-11",
+        "same_event": true
+      },
+      {
+        "label": "AIBase",
+        "title": "估值飙升至 70 亿美元！英国 AI 芯片新星 Fractile 获 7.2 亿融资，Anthropic 抢当首批客户",
+        "url": "https://www.aibase.com/news/32259",
+        "date": "2026-11-12",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 80,
+      "actionable": 30,
+      "breadth": 55,
+      "heat": 73
+    },
+    "heat": 73,
+    "heat_signals": {
+      "reports": 4,
+      "domains": 4,
+      "x_posts_7d": 387,
+      "x_spike_7d": 342.0
+    },
+    "score": 61.1
+  },
+  {
+    "id": "eve12-bytedance-assistant",
+    "title": "消息：字节跳动计划数周内推出类似 Meta Muse 的 AI 助手，张一鸣称追赶前沿或要到 2029–2030 年",
+    "url": "https://thenextweb.com/news/bytedance-muse-like-ai-agent-zhang-yiming",
+    "date": "2026-11-12",
+    "meta": "",
+    "bullets": [
+      "彭博社援引知情人士报道，字节跳动计划在数周内推出类似 Meta Muse 的 AI 助手；张一鸣在 AI 团队全员会上表示，公司可以在前沿与 Anthropic、OpenAI 竞争，但最早也要到 2029 或 2030 年。",
+      "报道称他担心 Seed 模型的预训练数据规模仍明显落后，并再次强调不应依赖蒸馏。是否会同时做硬件尚不明确。",
+      "字节跳动发言人未回应彭博社置评请求。相关中文报道还提到，他表示追平国际前沿最早或到 2029 至 2030 年。"
+    ],
+    "links": [
+      {
+        "label": "The Next Web",
+        "title": "ByteDance reportedly plans a Muse-like AI agent within weeks",
+        "url": "https://thenextweb.com/news/bytedance-muse-like-ai-agent-zhang-yiming",
+        "date": "2026-11-11",
+        "same_event": true
+      },
+      {
+        "label": "Engadget",
+        "title": "ByteDance is reportedly working on its own AI agent",
+        "url": "https://www.engadget.com/2314064/bytedance-is-reportedly-working-on-its-own-ai-agent",
+        "date": "2026-11-11",
+        "same_event": true
+      },
+      {
+        "label": "AIBase",
+        "title": "字节跳动计划数周内推出新款AI助手，布局智能体赛道",
+        "url": "https://www.aibase.com/news/32256",
+        "date": "2026-11-12",
+        "same_event": true
+      },
+      {
+        "label": "AIBase",
+        "title": "追赶国际AI第一梯队还需数年?张一鸣谈字节大模型研发目标",
+        "url": "https://www.aibase.com/news/32280",
+        "date": "2026-11-12",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 75,
+      "actionable": 28,
+      "breadth": 70,
+      "heat": 63
+    },
+    "heat": 63,
+    "heat_signals": {
+      "reports": 4,
+      "domains": 3,
+      "x_posts_7d": 174,
+      "x_spike_7d": 174.0
+    },
+    "score": 58.0
+  },
+  {
+    "id": "eve12-win11-photos-adobe",
+    "title": "微软计划让 Windows 11 照片应用接入 Adobe 修图引擎，下月向 Insider 预览",
+    "url": "https://www.aibase.com/news/32281",
+    "date": "2026-11-12",
+    "meta": "",
+    "bullets": [
+      "报道称微软与 Adobe 合作，计划下月邀请 Windows Insider 预览在免费的 Windows 11 照片应用中嵌入 Adobe 修图引擎。",
+      "文章将其视为把常用看图工具做成 Adobe 功能入口的尝试，具体功能范围与是否另行收费尚未由官方完整说明。"
+    ],
+    "links": [
+      {
+        "label": "AIBase",
+        "title": "免费相册成引流入口？Win11 照片应用悄悄接入 Adobe",
+        "url": "https://www.aibase.com/news/32281",
+        "date": "2026-11-12",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 55,
+      "actionable": 60,
+      "breadth": 70,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 3,
+      "x_spike_7d": 3.0
+    },
+    "score": 53.0
+  },
+  {
+    "id": "eve12-ofs-cheating",
+    "title": "英国学生事务办公室：现有 AI 检测工具难以可靠判定作业是否由 AI 代写，建议大学调整考核",
+    "url": "https://www.aibase.com/news/32266",
+    "date": "2026-11-12",
+    "meta": "",
+    "bullets": [
+      "报道称英国学生事务办公室（OfS）指出，现有 AI 检测工具无法可靠判断学生是否用 AI 完成作业。",
+      "建议大学重新审视居家论文和开卷考试，更多转向有监考的评估方式。"
+    ],
+    "links": [
+      {
+        "label": "AIBase",
+        "title": "AI作弊越来越难查，大学开始重新考虑如何给学生打分",
+        "url": "https://www.aibase.com/news/32266",
+        "date": "2026-11-12",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 62,
+      "actionable": 40,
+      "breadth": 70,
+      "heat": 35
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 51,
+      "x_spike_7d": 51.0
+    },
+    "score": 50.8
+  },
+  {
+    "id": "eve12-xai-lawsuit",
+    "title": "报道：xAI 因 Grok 被指生成涉及未成年人的性剥削图像而面临集体诉讼",
+    "url": "https://www.aibase.com/news/32260",
+    "date": "2026-11-12",
+    "meta": "",
+    "bullets": [
+      "AIBase 等报道称，xAI 因 Grok 被指生成涉及未成年人的性剥削图像，正面临多起集体诉讼。",
+      "其中一起在威斯康星州提起的案件称，有人用 Grok 篡改未成年人照片并传播。这些仍是尚未经法院认定的指控。",
+      "目前主要以相关诉讼和报道为准，xAI 的正式回应尚待后续公开说明。"
+    ],
+    "links": [
+      {
+        "label": "AIBase",
+        "title": "马斯克 xAI 面临多起集体诉讼：Grok 被指卷入儿童色情图像风波",
+        "url": "https://www.aibase.com/news/32260",
+        "date": "2026-11-12",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 78,
+      "actionable": 25,
+      "breadth": 65,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 3118,
+      "x_spike_7d": -692.0
+    },
+    "score": 51.2
+  },
+  {
+    "id": "eve12-lingguang-connectors",
+    "title": "灵光新增多款连接器，包括微信 ClawBot、QQ 机器人和瑞幸咖啡等",
+    "url": "https://www.aibase.com/news/32264",
+    "date": "2026-11-12",
+    "meta": "",
+    "bullets": [
+      "报道称灵光于 11 月 12 日新增微信 ClawBot、QQ 机器人和瑞幸咖啡等六大连接器，外部连接服务达到 47 个。",
+      "示例包括通过微信私聊派发任务，以及在 QQ 群每天 9 点定时推送。这与此前「灵光 2.0 累计托管事务超 300 万」的报道不是同一条产品公告。"
+    ],
+    "links": [
+      {
+        "label": "AIBase",
+        "title": "灵光生态再扩容!新增微信 ClawBot、QQ机器人、瑞幸咖啡等六大连接器",
+        "url": "https://www.aibase.com/news/32264",
+        "date": "2026-11-12",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 45,
+      "actionable": 62,
+      "breadth": 45,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 16,
+      "x_spike_7d": -6.5
+    },
+    "score": 47.1
+  },
+  {
+    "id": "eve12-diting",
+    "title": "国产地震大模型「谛听」亮相：团队称汇聚超 2000 万条数据，可用于大震速报",
+    "url": "https://www.aibase.com/news/32276",
+    "date": "2026-11-12",
+    "meta": "",
+    "bullets": [
+      "报道称国产地震大模型「谛听」汇聚超过 2000 万条数据，可仅凭单台站快速提供地震信息，用于大震速报。",
+      "团队还表示将继续挖掘深部信号，探索预测预报相关研究方向。目前主要以报道转述为准。"
+    ],
+    "links": [
+      {
+        "label": "AIBase",
+        "title": "国产地震大模型“谛听”亮相：汇聚 2000 万数据集，让 AI 听懂地球“心跳”",
+        "url": "https://www.aibase.com/news/32276",
+        "date": "2026-11-12",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 58,
+      "actionable": 40,
+      "breadth": 45,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 2,
+      "x_spike_7d": 2.0
+    },
+    "score": 45.7
+  },
+  {
+    "id": "eve12-li-org",
+    "title": "李彦宏在百度世界 2026 提出「组织进化三原则」，称企业需围绕智能体重构组织",
+    "url": "https://www.news.cn/info/20261112/586da0794ff440b0a43199c9ebf1ab27/c.html",
+    "date": "2026-11-12",
+    "meta": "",
+    "bullets": [
+      "在百度世界 2026 上，李彦宏除发布「词元所」外，还谈到 AI 不只是技术革命，企业需要围绕智能体重构组织。",
+      "新华社等报道称，他提出「组织进化三原则」，并判断未来十年智能组织会成为 AI 时代的「新工厂」。这与同场发布的产品公告不是同一件事。"
+    ],
+    "links": [
+      {
+        "label": "新华网",
+        "title": "李彦宏首提“组织进化三原则”，判断AI下一幕是智能组织",
+        "url": "https://www.news.cn/info/20261112/586da0794ff440b0a43199c9ebf1ab27/c.html",
+        "date": "2026-11-12",
+        "same_event": true
+      },
+      {
+        "label": "AIBase",
+        "title": "李彦宏:AI变革不只是技术革命，企业需要围绕智能体重构组织",
+        "url": "https://www.aibase.com/news/32268",
+        "date": "2026-11-12",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 58,
+      "actionable": 25,
+      "breadth": 60,
+      "heat": 41
+    },
+    "heat": 41,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 33,
+      "x_spike_7d": 33.0
+    },
+    "score": 44.9
+  },
+  {
+    "id": "eve12-helix",
+    "title": "语音验证初创 Helix 获 620 万美元融资，Siri 联合创始人参与，称可在 iPhone 本地判断是否真人",
+    "url": "https://techcrunch.com/2026/11/11/siri-co-founder-backs-helix-for-its-voice-id-tech",
+    "date": "2026-11-12",
+    "meta": "",
+    "bullets": [
+      "TechCrunch 报道，Helix 完成 620 万美元融资，由 Chicago Ventures 领投，Siri 联合创始人参与。",
+      "公司称其语音验证可在 iPhone 13 上本地运行，用来替代验证码判断是否真人，并可估计年龄；客户 Zeel 已用来核验医护身份。"
+    ],
+    "links": [
+      {
+        "label": "TechCrunch",
+        "title": "Siri co-founder backs Helix for its voice ID tech",
+        "url": "https://techcrunch.com/2026/11/11/siri-co-founder-backs-helix-for-its-voice-id-tech",
+        "date": "2026-11-11",
+        "same_event": true
+      },
+      {
+        "label": "AIBase",
+        "title": "AI初创公司Helix获620万美元融资，推出本地语音真人验证技术",
+        "url": "https://www.aibase.com/news/32263",
+        "date": "2026-11-12",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 48,
+      "actionable": 45,
+      "breadth": 40,
+      "heat": 41
+    },
+    "heat": 41,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 31,
+      "x_spike_7d": 31.0
+    },
+    "score": 44.9
+  },
+  {
+    "id": "eve12-tencent-ai-native",
+    "title": "腾讯张军辟谣裁员 50%：称约一半力量投入核心业务，另一半探索 AI Native",
+    "url": "https://www.aibase.com/news/32275",
+    "date": "2026-11-12",
+    "meta": "",
+    "bullets": [
+      "11 月 12 日，腾讯的张军否认裁员 50% 的传闻，称约 50% 人力投入核心业务，另约 50% 探索 AI Native，是 AI 时代的资源重配而非裁员。",
+      "目前主要以这则回应的报道为准，公司没有同时公布具体岗位调整数字。"
+    ],
+    "links": [
+      {
+        "label": "AIBase",
+        "title": "腾讯辟谣裁员50%:计划将一半力量投入AI Native探索",
+        "url": "https://www.aibase.com/news/32275",
+        "date": "2026-11-12",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 60,
+      "actionable": 20,
+      "breadth": 58,
+      "heat": 40
+    },
+    "heat": 40,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 293,
+      "x_spike_7d": 293.0
+    },
+    "score": 43.8
+  },
+  {
     "id": "morn12-gemini-decisions",
     "title": "Google 发布 Gemini Decisions API 与 Gemini Decision 1：单次前向即可做多模态封闭决策",
     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api",
@@ -17,22 +864,43 @@
         "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api",
         "date": "2026-11-12",
         "same_event": true
+      },
+      {
+        "label": "The Decoder",
+        "title": "Google joins the decision-model wave with Gemini Decision 1, scoring 1,000 questions in a single pass",
+        "url": "https://the-decoder.com/google-joins-the-decision-model-wave-with-gemini-decision-1-scoring-1000-questions-in-a-single-pass",
+        "date": "2026-11-11",
+        "same_event": true
+      },
+      {
+        "label": "AIBase",
+        "title": "谷歌甩出决策 API：一张图一次扫千题，150 毫秒出判断",
+        "url": "https://www.aibase.com/news/32265",
+        "date": "2026-11-12",
+        "same_event": true
+      },
+      {
+        "label": "AIBase",
+        "title": "告别冗长文本！谷歌发布 Gemini Decisions API：单次前向传递打分，端到端延迟压至 150 毫秒",
+        "url": "https://www.aibase.com/news/32255",
+        "date": "2026-11-12",
+        "same_event": true
       }
     ],
     "score_parts": {
       "industry": 80,
       "actionable": 88,
       "breadth": 68,
-      "heat": 45
+      "heat": 73
     },
-    "heat": 45,
+    "heat": 73,
     "heat_signals": {
-      "reports": 1,
-      "domains": 1,
+      "reports": 4,
+      "domains": 3,
       "x_posts_7d": 1056,
       "x_spike_7d": 606.0
     },
-    "score": 74.2
+    "score": 79.8
   },
   {
     "id": "morn12-alphagenome-2",
@@ -52,22 +920,29 @@
         "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease",
         "date": "2026-11-11",
         "same_event": true
+      },
+      {
+        "label": "AIBase",
+        "title": "同一段 DNA，在不同细胞里命运不同：AlphaGenome 2 把预测拉到细胞级",
+        "url": "https://www.aibase.com/news/32261",
+        "date": "2026-11-12",
+        "same_event": true
       }
     ],
     "score_parts": {
       "industry": 82,
       "actionable": 70,
       "breadth": 58,
-      "heat": 45
+      "heat": 56
     },
-    "heat": 45,
+    "heat": 56,
     "heat_signals": {
-      "reports": 1,
-      "domains": 1,
+      "reports": 2,
+      "domains": 2,
       "x_posts_7d": 604,
       "x_spike_7d": 604.0
     },
-    "score": 68.6
+    "score": 70.8
   },
   {
     "id": "morn12-gpt-live-voice",
@@ -713,14 +1588,14 @@
   },
   {
     "id": "eve11-qwen4-preview",
-    "title": "阿里官宣 Qwen4，Qwen4-Max 预览版上线 Token Plan，限时最低一折",
+    "title": "阿里官宣 Qwen4，Qwen4-Max 预览版上线 Token Plan 与千问 App，限时最低一折",
     "url": "https://www.aibase.com/news/32241",
-    "date": "2026-11-11",
+    "date": "2026-11-12",
     "meta": "",
     "bullets": [
-      "阿里千问团队 11 月 11 日官宣 Qwen4 即将全面发布，Qwen4-Max 预览版已上线 Alibaba Token Plan。",
+      "阿里千问团队 11 月 11 日官宣 Qwen4 即将全面发布，Qwen4-Max 预览版已上线 Alibaba Token Plan，随后报道称千问 App 也已全面接入该预览版。",
       "预览期提供限时折扣，报道称最低可至一折；Personal Lite 与 Essential 版 39 元/月，新客可再享五折。",
-      "官方尚未在此次预告中披露完整参数规模与基准分数，Qwen Office 等应用将同步集成。"
+      "官方称其在知识理解、世界感知、代码与 Agent 执行等方向有升级，完整参数规模与基准分数仍待全面发布时披露。"
     ],
     "links": [
       {
@@ -743,22 +1618,29 @@
         "url": "https://twitter.com/Alibaba_Qwen/status/2120335993643684315",
         "date": "2026-11-11",
         "same_event": true
+      },
+      {
+        "label": "AIBase",
+        "title": "阿里重磅官宣千问大模型 Qwen4：核心能力全线进化，千问 App 现已全面接入预览版",
+        "url": "https://www.aibase.com/news/32274",
+        "date": "2026-11-12",
+        "same_event": true
       }
     ],
     "score_parts": {
       "industry": 78,
       "actionable": 80,
       "breadth": 72,
-      "heat": 67
+      "heat": 73
     },
-    "heat": 67,
+    "heat": 73,
     "heat_signals": {
-      "reports": 3,
+      "reports": 4,
       "domains": 2,
       "x_posts_7d": 1798,
       "x_spike_7d": 1370.5
     },
-    "score": 75.8
+    "score": 77.0
   },
   {
     "id": "eve11-gemini-copilot",
@@ -834,7 +1716,7 @@
     "id": "eve11-ernie-preview",
     "title": "百度发布文心 5.5 Flash Preview：2800 亿参数、百万 token 上下文，权重拟 11 月 25 日开源",
     "url": "https://www.aibase.com/news/32250",
-    "date": "2026-11-11",
+    "date": "2026-11-12",
     "meta": "",
     "bullets": [
       "百度发布 ERNIE 5.5 Flash Preview，总参数约 2800 亿、激活约 140 亿，并宣称支持约 100 万 token 上下文。",
@@ -848,22 +1730,29 @@
         "url": "https://www.aibase.com/news/32250",
         "date": "2026-11-11",
         "same_event": true
+      },
+      {
+        "label": "AIBase",
+        "title": "百度文心大模型再升级：ERNIE 5.5 Flash Preview 亮相，模型权重将于 11 月 25 日前正式开源",
+        "url": "https://www.aibase.com/news/32278",
+        "date": "2026-11-12",
+        "same_event": true
       }
     ],
     "score_parts": {
       "industry": 72,
       "actionable": 70,
       "breadth": 65,
-      "heat": 35
+      "heat": 41
     },
-    "heat": 35,
+    "heat": 41,
     "heat_signals": {
-      "reports": 1,
+      "reports": 2,
       "domains": 1,
       "x_posts_7d": 139,
       "x_spike_7d": 139.0
     },
-    "score": 63.3
+    "score": 64.5
   },
   {
     "id": "eve11-gemini-intel",
@@ -1008,22 +1897,29 @@
         "url": "https://www.aibase.com/news/32249",
         "date": "2026-11-11",
         "same_event": true
+      },
+      {
+        "label": "AIBase",
+        "title": "OpenAI第三季度营收突破100亿美元，环比增长近50%",
+        "url": "https://www.aibase.com/news/32258",
+        "date": "2026-11-12",
+        "same_event": true
       }
     ],
     "score_parts": {
       "industry": 88,
       "actionable": 25,
       "breadth": 70,
-      "heat": 40
+      "heat": 46
     },
-    "heat": 40,
+    "heat": 46,
     "heat_signals": {
-      "reports": 1,
+      "reports": 2,
       "domains": 1,
       "x_posts_7d": 404,
       "x_spike_7d": 351.5
     },
-    "score": 57.7
+    "score": 58.9
   },
   {
     "id": "eve11-botpsy",
