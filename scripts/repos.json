@@ -170,27 +170,39 @@
     ]
   },
   {
-    "full": "pbakaus/impeccable",
-    "name": "impeccable",
-    "desc": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
-    "lang": "Rust",
-    "stars": 106832,
-    "week": 5324,
+    "full": "google/elephant-goldfish-model",
+    "name": "elephant-goldfish-model",
+    "desc": "Open-source plugin for designing and reviewing software with agents",
+    "lang": "Python",
+    "stars": 18578,
+    "week": 5555,
     "topics": [
       "agent-skills",
-      "ai",
-      "anti-slop",
-      "design",
-      "slop"
+      "ai-agents",
+      "antigravity",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-skills",
+      "codex",
+      "codex-plugin",
+      "coding-agents",
+      "context-engineering",
+      "developer-tools",
+      "gemini",
+      "llm",
+      "multi-agent",
+      "prompt-engineering",
+      "spec-driven-development"
     ],
-    "url": "https://github.com/pbakaus/impeccable",
     "types": [
       "Skill",
-      "开发工具链",
-      "应用与产品"
+      "Agent",
+      "开发工具链"
     ],
+    "url": "https://github.com/google/elephant-goldfish-model",
     "_sources": [
-      "rust"
+      "all",
+      "python"
     ]
   },
   {
@@ -238,6 +250,35 @@
     ]
   },
   {
+    "full": "Leonxlnx/taste-skill",
+    "name": "taste-skill",
+    "desc": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
+    "lang": "JavaScript",
+    "stars": 111365,
+    "week": 3794,
+    "topics": [
+      "agent-skills",
+      "ai-agents",
+      "anti-slop",
+      "claude-code",
+      "codex",
+      "cursor",
+      "design-system",
+      "frontend",
+      "landing-page",
+      "ui-design",
+      "web-design"
+    ],
+    "url": "https://github.com/Leonxlnx/taste-skill",
+    "types": [
+      "Skill",
+      "应用与产品"
+    ],
+    "_sources": [
+      "javascript"
+    ]
+  },
+  {
     "full": "ZhuLinsen/daily_stock_analysis",
     "name": "daily_stock_analysis",
     "desc": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
@@ -258,6 +299,7 @@
     ],
     "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
     "_sources": [
+      "all",
       "python"
     ]
   },
@@ -312,6 +354,7 @@
     ],
     "url": "https://github.com/addyosmani/agent-skills",
     "_sources": [
+      "all",
       "javascript"
     ]
   },
@@ -349,7 +392,7 @@
   {
     "full": "ranxianglei/billion-context",
     "name": "billion-context",
-    "desc": "A context-compression plugin for month-long single sessions (billions of tokens) and small context windows (a 100K context is enough) .上下文压缩插件，月级长会话， 兼顾小窗口(100k上下文足矣) . billion-context is all you need",
+    "desc": "A context-compression plugin for month-long single sessions (billions of tokens) and small context windows (a 100K context is enough), billion-context is all you need .",
     "lang": "TypeScript",
     "stars": 6258,
     "week": 2986,
@@ -443,6 +486,23 @@
     ]
   },
   {
+    "full": "openai/codex",
+    "name": "codex",
+    "desc": "Lightweight coding agent that runs in your terminal",
+    "lang": "Rust",
+    "stars": 134132,
+    "week": 1936,
+    "topics": [],
+    "url": "https://github.com/openai/codex",
+    "types": [
+      "Agent",
+      "开发工具链"
+    ],
+    "_sources": [
+      "rust"
+    ]
+  },
+  {
     "full": "google/skills",
     "name": "skills",
     "desc": "Agent Skills for Google products and technologies",
@@ -461,7 +521,6 @@
       "应用与产品"
     ],
     "_sources": [
-      "all",
       "python"
     ]
   },
@@ -487,32 +546,6 @@
     "url": "https://github.com/Anil-matcha/Open-Generative-AI",
     "_sources": [
       "javascript"
-    ]
-  },
-  {
-    "full": "github/spec-kit",
-    "name": "spec-kit",
-    "desc": "💫 Toolkit to help you get started with SDD or any other process!",
-    "lang": "Python",
-    "stars": 148999,
-    "week": 1874,
-    "topics": [
-      "ai",
-      "copilot",
-      "development",
-      "engineering",
-      "prd",
-      "spec",
-      "spec-driven"
-    ],
-    "url": "https://github.com/github/spec-kit",
-    "types": [
-      "开发工具链",
-      "Skill",
-      "Agent"
-    ],
-    "_sources": [
-      "python"
     ]
   },
   {
@@ -571,6 +604,31 @@
     ]
   },
   {
+    "full": "CopilotKit/OpenBot",
+    "name": "OpenBot",
+    "desc": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
+    "lang": "TypeScript",
+    "stars": 10520,
+    "week": 1717,
+    "topics": [
+      "ag-ui",
+      "agent-governance",
+      "ai-agents",
+      "browser-automation",
+      "copilotkit",
+      "generative-ui",
+      "mcp"
+    ],
+    "url": "https://github.com/CopilotKit/OpenBot",
+    "types": [
+      "Skill",
+      "Agent"
+    ],
+    "_sources": [
+      "typescript"
+    ]
+  },
+  {
     "full": "anthropics/claude-quickstarts",
     "name": "claude-quickstarts",
     "desc": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
@@ -583,25 +641,8 @@
     ],
     "url": "https://github.com/anthropics/claude-quickstarts",
     "_sources": [
+      "all",
       "python"
-    ]
-  },
-  {
-    "full": "garrytan/gstack",
-    "name": "gstack",
-    "desc": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
-    "lang": "TypeScript",
-    "stars": 140948,
-    "week": 1704,
-    "topics": [],
-    "url": "https://github.com/garrytan/gstack",
-    "types": [
-      "Skill",
-      "Agent",
-      "开发工具链"
-    ],
-    "_sources": [
-      "typescript"
     ]
   },
   {
@@ -624,6 +665,64 @@
     "_sources": [
       "all",
       "cpp"
+    ]
+  },
+  {
+    "full": "nightly-labs/openbot",
+    "name": "openbot",
+    "desc": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
+    "lang": "TypeScript",
+    "stars": 6688,
+    "week": 1524,
+    "topics": [
+      "ai-agents",
+      "bun",
+      "codex",
+      "electron",
+      "local-first",
+      "macos",
+      "solidjs",
+      "typescript"
+    ],
+    "url": "https://github.com/nightly-labs/openbot",
+    "types": [
+      "Agent",
+      "应用与产品"
+    ],
+    "_sources": [
+      "typescript"
+    ]
+  },
+  {
+    "full": "openai/codex-security",
+    "name": "codex-security",
+    "desc": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
+    "lang": "TypeScript",
+    "stars": 13080,
+    "week": 1478,
+    "topics": [
+      "ai-security",
+      "application-security",
+      "cli",
+      "code-scanning",
+      "codex",
+      "codex-security",
+      "cybersecurity",
+      "devsecops",
+      "nodejs",
+      "npm",
+      "openai",
+      "sdk",
+      "security",
+      "typescript",
+      "vulnerability-scanning"
+    ],
+    "types": [
+      "开发工具链"
+    ],
+    "url": "https://github.com/openai/codex-security",
+    "_sources": [
+      "typescript"
     ]
   },
   {
@@ -718,6 +817,23 @@
     ]
   },
   {
+    "full": "Jakeschincariol/instagram-agent-skill",
+    "name": "instagram-agent-skill",
+    "desc": "Thirteen Claude skills that run an Instagram account: Reels off 26 scored hook formulas, a viral research skill, a caption linter, and a humanizer. Free, MIT.",
+    "lang": "Python",
+    "stars": 6327,
+    "week": 1223,
+    "topics": [],
+    "types": [
+      "Skill",
+      "应用与产品"
+    ],
+    "url": "https://github.com/Jakeschincariol/instagram-agent-skill",
+    "_sources": [
+      "python"
+    ]
+  },
+  {
     "full": "FareedKhan-dev/kimi-k3-in-c",
     "name": "kimi-k3-in-c",
     "desc": "A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.",
@@ -755,6 +871,35 @@
     ]
   },
   {
+    "full": "NVIDIA/SkillSpector",
+    "name": "SkillSpector",
+    "desc": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them.",
+    "lang": "Python",
+    "stars": 24597,
+    "week": 1191,
+    "topics": [
+      "agent-security",
+      "agent-skills",
+      "agentic-ai",
+      "ai-security",
+      "claude-code",
+      "mcp",
+      "prompt-injection",
+      "security-scanner",
+      "security-tools",
+      "security-workflow",
+      "supply-chain-security"
+    ],
+    "url": "https://github.com/NVIDIA/SkillSpector",
+    "types": [
+      "Skill",
+      "Agent"
+    ],
+    "_sources": [
+      "python"
+    ]
+  },
+  {
     "full": "lobehub/lobehub",
     "name": "lobehub",
     "desc": "🤯 LobeHub - Super-Agents on Your Team. Add super-agents to the chats your team already uses.They take on work by themselves and get better every week.",
@@ -780,6 +925,7 @@
       "Skill"
     ],
     "_sources": [
+      "all",
       "typescript"
     ]
   },
@@ -803,6 +949,31 @@
     "url": "https://github.com/dsx-ai-factory/nvke",
     "_sources": [
       "go"
+    ]
+  },
+  {
+    "full": "jamiepine/voicebox",
+    "name": "voicebox",
+    "desc": "The open-source AI voice studio. Clone, dictate, create.",
+    "lang": "Python",
+    "stars": 60582,
+    "week": 1093,
+    "topics": [
+      "ai",
+      "cuda",
+      "mlx",
+      "qwen3-tts",
+      "qwen3-tts-ui",
+      "voice-ai",
+      "voice-clone",
+      "whisper"
+    ],
+    "types": [
+      "应用与产品"
+    ],
+    "url": "https://github.com/jamiepine/voicebox",
+    "_sources": [
+      "python"
     ]
   },
   {
@@ -898,6 +1069,32 @@
     ]
   },
   {
+    "full": "elie222/rakazo",
+    "name": "rakazo",
+    "desc": "Open-source Grok Bot alternative. Choose your own model and sandbox.",
+    "lang": "TypeScript",
+    "stars": 7690,
+    "week": 974,
+    "topics": [
+      "ai-agents",
+      "chatgpt",
+      "docker",
+      "electron",
+      "expo",
+      "grok",
+      "llm",
+      "self-hosted",
+      "typescript"
+    ],
+    "url": "https://github.com/elie222/rakazo",
+    "types": [
+      "模型与推理"
+    ],
+    "_sources": [
+      "typescript"
+    ]
+  },
+  {
     "full": "can1357/oh-my-pi",
     "name": "oh-my-pi",
     "desc": "⌥ Coding agent with the IDE wired in. Built by Stencil Labs.",
@@ -946,45 +1143,6 @@
     ],
     "_sources": [
       "go"
-    ]
-  },
-  {
-    "full": "scenario-labs/skills",
-    "name": "skills",
-    "desc": "Get production-ready images, video, audio, and 3D from any AI agent: skills that pick the right model, price before spending, and keep characters and brands consistent through the Scenario MCP, plus expert teams that drive Blender, Maya, ZBrush, Unreal, and Unity.",
-    "lang": "Python",
-    "stars": 3608,
-    "week": 878,
-    "topics": [
-      "3d-models",
-      "agent-skills",
-      "ai-agents",
-      "ai-art",
-      "blender",
-      "claude-code",
-      "claude-skills",
-      "codex",
-      "game-assets",
-      "game-development",
-      "generative-ai",
-      "image-generation",
-      "maya",
-      "mcp",
-      "model-context-protocol",
-      "skills-sh",
-      "unity",
-      "unreal-engine",
-      "video-generation",
-      "zbrush"
-    ],
-    "url": "https://github.com/scenario-labs/skills",
-    "types": [
-      "Skill",
-      "Agent",
-      "应用与产品"
-    ],
-    "_sources": [
-      "python"
     ]
   },
   {
@@ -1060,6 +1218,33 @@
     ]
   },
   {
+    "full": "router-for-me/CLIProxyAPI",
+    "name": "CLIProxyAPI",
+    "desc": "Wrap Antigravity, ChatGPT Codex, Claude Code, Grok Build, Muse Code, Devin as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini Series, GPT Series, Grok Series, Claude model through API",
+    "lang": "Go",
+    "stars": 57465,
+    "week": 756,
+    "topics": [
+      "claude-code",
+      "cluade",
+      "gemini",
+      "openai",
+      "codex",
+      "antigravity",
+      "devin",
+      "muse"
+    ],
+    "url": "https://github.com/router-for-me/CLIProxyAPI",
+    "types": [
+      "Agent",
+      "应用与产品",
+      "开发工具链"
+    ],
+    "_sources": [
+      "go"
+    ]
+  },
+  {
     "full": "getpaseo/paseo",
     "name": "paseo",
     "desc": "Orchestrate multiple coding agents from desktop and mobile",
@@ -1093,6 +1278,23 @@
     ]
   },
   {
+    "full": "bradautomates/claude-video",
+    "name": "claude-video",
+    "desc": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
+    "lang": "Python",
+    "stars": 20350,
+    "week": 714,
+    "topics": [],
+    "url": "https://github.com/bradautomates/claude-video",
+    "types": [
+      "Skill",
+      "Agent"
+    ],
+    "_sources": [
+      "python"
+    ]
+  },
+  {
     "full": "patchy631/ai-engineering-hub",
     "name": "ai-engineering-hub",
     "desc": "In-depth tutorials on LLMs, RAGs and real-world AI agent applications.",
@@ -1115,6 +1317,41 @@
     ],
     "_sources": [
       "jupyter-notebook"
+    ]
+  },
+  {
+    "full": "Gentleman-Programming/gentle-ai",
+    "name": "gentle-ai",
+    "desc": "Gentle-AI configures the AI coding agents you already use: Claude Code, Cursor, OpenCode, Codex, Pi, and more. Choose persistent memory, Organic-Driven Development, curated skills, MCP servers, personas, and optional bounded review. Open source, no agent lock-in.",
+    "lang": "Go",
+    "stars": 9123,
+    "week": 619,
+    "topics": [
+      "agent-skills",
+      "ai-agents",
+      "ai-coding",
+      "claude-code",
+      "code-review",
+      "codex",
+      "coding-agents",
+      "copilot",
+      "cursor",
+      "developer-tools",
+      "golang",
+      "llm",
+      "mcp",
+      "opencode",
+      "persistent-memory",
+      "pi",
+      "spec-driven-development"
+    ],
+    "types": [
+      "开发工具链",
+      "Agent"
+    ],
+    "url": "https://github.com/Gentleman-Programming/gentle-ai",
+    "_sources": [
+      "go"
     ]
   },
   {
@@ -1188,35 +1425,6 @@
     ]
   },
   {
-    "full": "infiniflow/ragflow",
-    "name": "ragflow",
-    "desc": "RAGFlow is an agent-native database: a Retrieval-Augmented Generation (RAG) engine that grew into context infrastructure.",
-    "lang": "Go",
-    "stars": 93889,
-    "week": 542,
-    "topics": [
-      "ai",
-      "ai-agents",
-      "context-engine",
-      "rag",
-      "retrieval-augmented-generation",
-      "agentic-ai",
-      "agentic-retrieval",
-      "agentic-search",
-      "context-management",
-      "knowledge-compilation"
-    ],
-    "url": "https://github.com/infiniflow/ragflow",
-    "types": [
-      "Agent",
-      "模型与推理",
-      "数据与评测"
-    ],
-    "_sources": [
-      "go"
-    ]
-  },
-  {
     "full": "shanraisshan/claude-code-best-practice",
     "name": "claude-code-best-practice",
     "desc": "from vibe coding to agentic engineering - practice makes claude perfect",
@@ -1248,6 +1456,27 @@
     ],
     "_sources": [
       "zig"
+    ]
+  },
+  {
+    "full": "agent-substrate/substrate",
+    "name": "substrate",
+    "desc": "Agent Substrate: the core system",
+    "lang": "Go",
+    "stars": 6591,
+    "week": 442,
+    "topics": [
+      "agents",
+      "cncf",
+      "sandboxing"
+    ],
+    "types": [
+      "Agent",
+      "开发工具链"
+    ],
+    "url": "https://github.com/agent-substrate/substrate",
+    "_sources": [
+      "go"
     ]
   },
   {
@@ -1285,6 +1514,33 @@
     ],
     "_sources": [
       "php"
+    ]
+  },
+  {
+    "full": "backnotprop/plannotator",
+    "name": "plannotator",
+    "desc": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click. ",
+    "lang": "TypeScript",
+    "stars": 10408,
+    "week": 378,
+    "topics": [
+      "agents",
+      "claude-code",
+      "code-review",
+      "codex",
+      "obsidian",
+      "opencode",
+      "pi-mono",
+      "plan-mode",
+      "skills"
+    ],
+    "types": [
+      "开发工具链",
+      "Agent"
+    ],
+    "url": "https://github.com/backnotprop/plannotator",
+    "_sources": [
+      "typescript"
     ]
   },
   {
@@ -1363,6 +1619,35 @@
     ]
   },
   {
+    "full": "davila7/claude-code-templates",
+    "name": "claude-code-templates",
+    "desc": "Open-source registry and CLI for Claude Code components: agents, commands, skills, hooks, MCPs, settings and mods",
+    "lang": "Python",
+    "stars": 33478,
+    "week": 323,
+    "topics": [
+      "agent-skills",
+      "ai-agents",
+      "anthropic",
+      "anthropic-claude",
+      "claude",
+      "claude-code",
+      "claude-code-plugins",
+      "cli",
+      "mcp",
+      "registry"
+    ],
+    "types": [
+      "Skill",
+      "开发工具链",
+      "Agent"
+    ],
+    "url": "https://github.com/davila7/claude-code-templates",
+    "_sources": [
+      "python"
+    ]
+  },
+  {
     "full": "FinanceFlash/unvibecode",
     "name": "unvibecode",
     "desc": "Complex code hides connections, workflows, and business risks.Unvibe complex code. Trace business workflows.",
@@ -1402,52 +1687,6 @@
     ],
     "_sources": [
       "ruby"
-    ]
-  },
-  {
-    "full": "ParadevAI/Paradev",
-    "name": "Paradev",
-    "desc": "Paradev is an open-source Codex App and Conductor alternative. Orchestrate an army coding agents in parallel with your own subscriptions.",
-    "lang": "TypeScript",
-    "stars": 16187,
-    "week": 302,
-    "topics": [
-      "agent",
-      "agent-orchestration",
-      "ai-agents",
-      "ai-coding",
-      "coding-agents",
-      "developer-tools"
-    ],
-    "types": [
-      "Agent",
-      "开发工具链"
-    ],
-    "url": "https://github.com/ParadevAI/Paradev",
-    "_sources": [
-      "typescript"
-    ]
-  },
-  {
-    "full": "AAswordman/Operit",
-    "name": "Operit",
-    "desc": "The most powerful AI agent and AI chat software on Android/Operit是一款Android上能力最为强大、发展最久的AI Agent",
-    "lang": "Kotlin",
-    "stars": 9504,
-    "week": 297,
-    "topics": [
-      "agent",
-      "ai",
-      "android",
-      "llm"
-    ],
-    "types": [
-      "Agent",
-      "应用与产品"
-    ],
-    "url": "https://github.com/AAswordman/Operit",
-    "_sources": [
-      "kotlin"
     ]
   },
   {
@@ -1538,6 +1777,22 @@
     ]
   },
   {
+    "full": "aquasecurity/trivy",
+    "name": "trivy",
+    "desc": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+    "lang": "Go",
+    "stars": 39170,
+    "week": 250,
+    "topics": [],
+    "url": "https://github.com/aquasecurity/trivy",
+    "types": [
+      "应用与产品"
+    ],
+    "_sources": [
+      "go"
+    ]
+  },
+  {
     "full": "huginn/huginn",
     "name": "huginn",
     "desc": "Create agents that monitor and act on your behalf. Your agents are standing by!",
@@ -1554,6 +1809,23 @@
     ]
   },
   {
+    "full": "kunchenguid/firstmate",
+    "name": "firstmate",
+    "desc": "Talk to one agent. Ship with a crew.",
+    "lang": "Shell",
+    "stars": 8853,
+    "week": 214,
+    "topics": [],
+    "types": [
+      "Agent",
+      "开发工具链"
+    ],
+    "url": "https://github.com/kunchenguid/firstmate",
+    "_sources": [
+      "shell"
+    ]
+  },
+  {
     "full": "anthropics/prompt-eng-interactive-tutorial",
     "name": "prompt-eng-interactive-tutorial",
     "desc": "Anthropic's Interactive Prompt Engineering Tutorial",
@@ -1565,6 +1837,33 @@
     "types": [
       "Skill",
       "数据与评测"
+    ],
+    "_sources": [
+      "jupyter-notebook"
+    ]
+  },
+  {
+    "full": "microsoft/AI-For-Beginners",
+    "name": "AI-For-Beginners",
+    "desc": "12 Weeks, 24 Lessons, AI for All!",
+    "lang": "Jupyter Notebook",
+    "stars": 70676,
+    "week": 189,
+    "topics": [
+      "deep-learning",
+      "artificial-intelligence",
+      "machine-learning",
+      "ai",
+      "computer-vision",
+      "nlp",
+      "cnn",
+      "rnn",
+      "gan",
+      "microsoft-for-beginners"
+    ],
+    "url": "https://github.com/microsoft/AI-For-Beginners",
+    "types": [
+      "开发工具链"
     ],
     "_sources": [
       "jupyter-notebook"
@@ -1618,45 +1917,19 @@
     ]
   },
   {
-    "full": "manaflow-ai/cmux",
-    "name": "cmux",
-    "desc": "Open source Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents. Built for multitasking, organization, and programmability.",
-    "lang": "Swift",
-    "stars": 28741,
-    "week": 151,
+    "full": "humanlayer/skills",
+    "name": "skills",
+    "desc": "",
+    "lang": "TypeScript",
+    "stars": 5771,
+    "week": 141,
     "topics": [],
-    "url": "https://github.com/manaflow-ai/cmux",
-    "types": [
-      "Agent",
-      "开发工具链"
-    ],
-    "_sources": [
-      "swift"
-    ]
-  },
-  {
-    "full": "plannotator/effective-html",
-    "name": "effective-html",
-    "desc": "Agent skills for useful HTML artifacts, wireframes, interactive prototypes, plans, and diagrams.",
-    "lang": "HTML",
-    "stars": 4060,
-    "week": 146,
-    "topics": [
-      "agent-skills",
-      "claude-code",
-      "codex",
-      "html-artifacts",
-      "html-prototype",
-      "html-wireframe",
-      "prototyping",
-      "skills"
-    ],
-    "url": "https://github.com/plannotator/effective-html",
     "types": [
       "Skill"
     ],
+    "url": "https://github.com/humanlayer/skills",
     "_sources": [
-      "html"
+      "typescript"
     ]
   },
   {
@@ -1718,28 +1991,6 @@
     ]
   },
   {
-    "full": "opencv/opencv",
-    "name": "opencv",
-    "desc": "Open Source Computer Vision Library",
-    "lang": "C++",
-    "stars": 91532,
-    "week": 120,
-    "topics": [
-      "c-plus-plus",
-      "computer-vision",
-      "deep-learning",
-      "image-processing",
-      "opencv"
-    ],
-    "types": [
-      "模型与推理"
-    ],
-    "url": "https://github.com/opencv/opencv",
-    "_sources": [
-      "cpp"
-    ]
-  },
-  {
     "full": "NirDiamant/GenAI_Agents",
     "name": "GenAI_Agents",
     "desc": "50+ tutorials and implementations for Generative AI Agent techniques, from basic conversational bots to complex multi-agent systems.",
@@ -1754,37 +2005,6 @@
     ],
     "_sources": [
       "jupyter-notebook"
-    ]
-  },
-  {
-    "full": "undefined-ui/second-brain-os",
-    "name": "second-brain-os",
-    "desc": "Guides and resources for AI engineers: an agents course, five handbooks, a hands-on second-brain project and a vetted reading list.",
-    "lang": "HTML",
-    "stars": 1544,
-    "week": 111,
-    "topics": [
-      "agent-skills",
-      "ai-agents",
-      "ai-engineering",
-      "claude",
-      "claude-code",
-      "claude-skills",
-      "knowledge-graph",
-      "knowledge-management",
-      "llm",
-      "mcp",
-      "obsidian",
-      "personal-knowledge-base",
-      "pkm",
-      "second-brain"
-    ],
-    "url": "https://github.com/undefined-ui/second-brain-os",
-    "types": [
-      "数据与评测"
-    ],
-    "_sources": [
-      "html"
     ]
   },
   {
@@ -1868,6 +2088,55 @@
     ]
   },
   {
+    "full": "Owl-Listener/designer-skills",
+    "name": "designer-skills",
+    "desc": "Designer Skills Collection: agentic skills, commands, and plugins for design — from research to systems, UI, interaction, and delivery.",
+    "lang": "Markdown",
+    "stars": 3345,
+    "week": 79,
+    "topics": [
+      "agentic",
+      "agentic-ai",
+      "ai",
+      "ai-tools",
+      "claude-code",
+      "design-system",
+      "design-systems",
+      "prompt-engineering",
+      "skills",
+      "ux-design"
+    ],
+    "types": [
+      "Skill"
+    ],
+    "url": "https://github.com/Owl-Listener/designer-skills",
+    "_sources": [
+      "markdown"
+    ]
+  },
+  {
+    "full": "cloudflare/skills",
+    "name": "skills",
+    "desc": "Skills for teaching agents how to build on Cloudflare.",
+    "lang": "Shell",
+    "stars": 3299,
+    "week": 70,
+    "topics": [
+      "agents",
+      "cloudflare",
+      "skills",
+      "workers"
+    ],
+    "url": "https://github.com/cloudflare/skills",
+    "types": [
+      "Skill",
+      "Agent"
+    ],
+    "_sources": [
+      "shell"
+    ]
+  },
+  {
     "full": "vercel-labs/fx",
     "name": "fx",
     "desc": "Unix like coding agent",
@@ -1900,6 +2169,26 @@
     ]
   },
   {
+    "full": "techjarves/Uncensored-Local-AI-Multiplatform",
+    "name": "Uncensored-Local-AI-Multiplatform",
+    "desc": "A cross-platform Flutter app that runs uncensored, 100% offline open-source AI models (GGUF) directly on your Android, iOS, or PC. No cloud, no filters, total privacy.",
+    "lang": "Dart",
+    "stars": 1586,
+    "week": 64,
+    "topics": [
+      "flutter",
+      "local-ai",
+      "uncensored-ai"
+    ],
+    "types": [
+      "应用与产品"
+    ],
+    "url": "https://github.com/techjarves/Uncensored-Local-AI-Multiplatform",
+    "_sources": [
+      "dart"
+    ]
+  },
+  {
     "full": "suno-ai/bark",
     "name": "bark",
     "desc": "🔊 Text-Prompted Generative Audio Model",
@@ -1913,50 +2202,6 @@
     ],
     "_sources": [
       "jupyter-notebook"
-    ]
-  },
-  {
-    "full": "ddalcu/mlx-serve",
-    "name": "mlx-serve",
-    "desc": "Native LLM inference server for Apple Silicon. OpenAI + Anthropic API compatible. No Python. Zig backend, Swift frontend macOS app with chat, music, voice, video generation.",
-    "lang": "Zig",
-    "stars": 2414,
-    "week": 61,
-    "topics": [],
-    "url": "https://github.com/ddalcu/mlx-serve",
-    "types": [
-      "模型与推理",
-      "应用与产品"
-    ],
-    "_sources": [
-      "zig"
-    ]
-  },
-  {
-    "full": "microsoft/onnxruntime",
-    "name": "onnxruntime",
-    "desc": "ONNX Runtime: cross-platform, high performance ML inferencing and training accelerator",
-    "lang": "C++",
-    "stars": 22270,
-    "week": 59,
-    "topics": [
-      "ai-framework",
-      "deep-learning",
-      "hardware-acceleration",
-      "machine-learning",
-      "neural-networks",
-      "onnx",
-      "pytorch",
-      "scikit-learn",
-      "tensorflow"
-    ],
-    "url": "https://github.com/microsoft/onnxruntime",
-    "types": [
-      "模型与推理",
-      "开发工具链"
-    ],
-    "_sources": [
-      "cpp"
     ]
   },
   {
@@ -2043,6 +2288,33 @@
     ]
   },
   {
+    "full": "higgsfield-ai/higgsfield",
+    "name": "higgsfield",
+    "desc": "Fault-tolerant, highly scalable GPU orchestration, and a machine learning framework designed for training models with billions to trillions of parameters",
+    "lang": "Jupyter Notebook",
+    "stars": 6329,
+    "week": 43,
+    "topics": [
+      "cluster-management",
+      "deep-learning",
+      "distributed",
+      "llama",
+      "llama2",
+      "llm",
+      "machine-learning",
+      "mlops",
+      "pytorch"
+    ],
+    "types": [
+      "模型与推理",
+      "开发工具链"
+    ],
+    "url": "https://github.com/higgsfield-ai/higgsfield",
+    "_sources": [
+      "jupyter-notebook"
+    ]
+  },
+  {
     "full": "cogwheel0/conduit",
     "name": "conduit",
     "desc": "Native iOS and Android client for Open WebUI, direct OpenAI-compatible, Ollama, and Hermes agents.",
@@ -2096,6 +2368,23 @@
     ]
   },
   {
+    "full": "facebookresearch/sam2",
+    "name": "sam2",
+    "desc": "The repository provides code for running inference with the Meta Segment Anything Model 2 (SAM 2), links for downloading the trained model checkpoints, and example notebooks that show how to use the model.",
+    "lang": "Jupyter Notebook",
+    "stars": 20076,
+    "week": 39,
+    "topics": [],
+    "url": "https://github.com/facebookresearch/sam2",
+    "types": [
+      "模型与推理",
+      "数据与评测"
+    ],
+    "_sources": [
+      "jupyter-notebook"
+    ]
+  },
+  {
     "full": "apple/coreai-models",
     "name": "coreai-models",
     "desc": "Model export recipes, Python primitives, and Swift runtime utilities for on-device AI",
@@ -2109,41 +2398,6 @@
     ],
     "_sources": [
       "swift"
-    ]
-  },
-  {
-    "full": "Santoshkurmi/antigem",
-    "name": "antigem",
-    "desc": "A mobile IDE wrapping antigravity cli, opencode , codex and claude cli to provide a full Android coding environment. Features an advanced code editor, integrated AI chat, built-in Git client, and full Termux terminal access for on-the-go development.",
-    "lang": "Kotlin",
-    "stars": 123,
-    "week": 31,
-    "topics": [],
-    "types": [
-      "应用与产品",
-      "开发工具链",
-      "Agent"
-    ],
-    "url": "https://github.com/Santoshkurmi/antigem",
-    "_sources": [
-      "kotlin"
-    ]
-  },
-  {
-    "full": "NVIDIA/accelerated-computing-hub",
-    "name": "accelerated-computing-hub",
-    "desc": "NVIDIA curated collection of educational resources related to general purpose GPU programming.",
-    "lang": "Jupyter Notebook",
-    "stars": 2210,
-    "week": 29,
-    "topics": [],
-    "url": "https://github.com/NVIDIA/accelerated-computing-hub",
-    "types": [
-      "开发工具链",
-      "数据与评测"
-    ],
-    "_sources": [
-      "jupyter-notebook"
     ]
   },
   {
@@ -2166,6 +2420,33 @@
     ],
     "_sources": [
       "zig"
+    ]
+  },
+  {
+    "full": "github/CopilotForXcode",
+    "name": "CopilotForXcode",
+    "desc": "AI coding assistant for Xcode",
+    "lang": "Swift",
+    "stars": 6384,
+    "week": 25,
+    "topics": [
+      "ai-assistant",
+      "github-copilot",
+      "intelligence",
+      "ios",
+      "macos",
+      "objective-c",
+      "swift",
+      "swiftui",
+      "xcode"
+    ],
+    "types": [
+      "开发工具链",
+      "应用与产品"
+    ],
+    "url": "https://github.com/github/CopilotForXcode",
+    "_sources": [
+      "swift"
     ]
   },
   {
@@ -2193,63 +2474,20 @@
     ]
   },
   {
-    "full": "freescout-help-desk/freescout",
-    "name": "freescout",
-    "desc": "FreeScout — Free self-hosted omnichannel AI-powered helpdesk & shared mailbox",
-    "lang": "PHP",
-    "stars": 4655,
+    "full": "1sdv/TripStar",
+    "name": "TripStar",
+    "desc": "TripStar 是一个创新的 AI 文旅智能体应用，致力于打造多智能体协作文旅规划平台，有别于传统的旅游攻略网站，本项目的创新模式更像是一位经验丰富的人类旅行管家一样，自动搜索小红书旅行信息、查询天气、精选酒店并在地图上规划最优景点路线，快速生成旅游攻略路书。",
+    "lang": "Vue",
+    "stars": 2549,
     "week": 24,
-    "topics": [
-      "helpdesk",
-      "customer-support"
-    ],
-    "types": [
-      "应用与产品"
-    ],
-    "url": "https://github.com/freescout-help-desk/freescout",
-    "_sources": [
-      "php"
-    ]
-  },
-  {
-    "full": "OAI/OpenAPI-Specification",
-    "name": "OpenAPI-Specification",
-    "desc": "The OpenAPI Specification Repository",
-    "lang": "Markdown",
-    "stars": 31311,
-    "week": 17,
     "topics": [],
-    "url": "https://github.com/OAI/OpenAPI-Specification",
     "types": [
-      "开发工具链"
+      "应用与产品",
+      "Agent"
     ],
+    "url": "https://github.com/1sdv/TripStar",
     "_sources": [
-      "markdown"
-    ]
-  },
-  {
-    "full": "camunda/camunda",
-    "name": "camunda",
-    "desc": "Agentic Orchestration Platform",
-    "lang": "Java",
-    "stars": 4364,
-    "week": 12,
-    "topics": [
-      "agentic-orchestration",
-      "bpmn",
-      "java",
-      "microservices",
-      "orchestration-framework",
-      "workflow",
-      "workflow-engine"
-    ],
-    "types": [
-      "Agent",
-      "开发工具链"
-    ],
-    "url": "https://github.com/camunda/camunda",
-    "_sources": [
-      "java"
+      "vue"
     ]
   },
   {
@@ -2266,6 +2504,26 @@
     ],
     "_sources": [
       "markdown"
+    ]
+  },
+  {
+    "full": "skills/introduction-to-git",
+    "name": "introduction-to-git",
+    "desc": "Use Git version control to work on a game using command line (CLI) and VS Code",
+    "lang": "Shell",
+    "stars": 276,
+    "week": 7,
+    "topics": [
+      "git",
+      "skills-course",
+      "skills-exercise"
+    ],
+    "types": [
+      "Skill"
+    ],
+    "url": "https://github.com/skills/introduction-to-git",
+    "_sources": [
+      "shell"
     ]
   }
 ]

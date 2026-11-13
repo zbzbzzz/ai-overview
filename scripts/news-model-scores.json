@@ -5232,8 +5232,8 @@
     "breadth": 78,
     "heat": 95,
     "heat_signals": {
-      "reports": 11,
-      "domains": 8,
+      "reports": 14,
+      "domains": 9,
       "x_posts_7d": 2136,
       "x_spike_7d": 2113.5
     }
@@ -5252,13 +5252,13 @@
     }
   },
   "MiniMax 开源 H3-Image：约 10 秒直出 4K 图像，权重与 API 同步开放": {
-    "score": 77.6,
+    "score": 78.8,
     "industry": 74,
     "actionable": 88,
     "breadth": 70,
-    "heat": 73,
+    "heat": 79,
     "heat_signals": {
-      "reports": 4,
+      "reports": 5,
       "domains": 2,
       "x_posts_7d": 3337,
       "x_spike_7d": 1327.0
@@ -6103,21 +6103,21 @@
     "breadth": 88,
     "heat": 100,
     "heat_signals": {
-      "reports": 8,
-      "domains": 7,
+      "reports": 10,
+      "domains": 8,
       "x_posts_7d": 4144,
       "x_spike_7d": 3529.0
     }
   },
   "Google Search 接入 Gemini 4 Hydrogen：官方称这是 Search 迄今最大的模型升级，已对全球所有用户开放": {
-    "score": 71.7,
+    "score": 73.9,
     "industry": 82,
     "actionable": 65,
     "breadth": 92,
-    "heat": 51,
+    "heat": 62,
     "heat_signals": {
-      "reports": 2,
-      "domains": 2,
+      "reports": 3,
+      "domains": 3,
       "x_posts_7d": 347,
       "x_spike_7d": 339.5
     }
@@ -6136,14 +6136,14 @@
     }
   },
   "Google 与三星、Warby Parker、Gentle Monster 推出 Gemini 智能眼镜，美国预售 395 美元起": {
-    "score": 76.4,
+    "score": 77.6,
     "industry": 80,
     "actionable": 72,
     "breadth": 70,
-    "heat": 79,
+    "heat": 85,
     "heat_signals": {
-      "reports": 5,
-      "domains": 5,
+      "reports": 7,
+      "domains": 6,
       "x_posts_7d": 270,
       "x_spike_7d": 217.5
     }
@@ -6458,6 +6458,344 @@
       "domains": 1,
       "x_posts_7d": 6,
       "x_spike_7d": 6.0
+    }
+  },
+  "OpenAI 发布 ChatGPT Wallet：与美运、万事达、Visa 合作，让 Agent 用支付令牌代购且看不到真实卡号": {
+    "score": 82.7,
+    "industry": 88,
+    "actionable": 70,
+    "breadth": 75,
+    "heat": 95,
+    "heat_signals": {
+      "reports": 6,
+      "domains": 6,
+      "x_posts_7d": 1584,
+      "x_spike_7d": 1584.0
+    }
+  },
+  "llama.cpp 与 ggml 发布 v1.0.0：用主版本号标明公共 C API / ABI 兼容边界": {
+    "score": 69.3,
+    "industry": 72,
+    "actionable": 85,
+    "breadth": 70,
+    "heat": 40,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 201,
+      "x_spike_7d": 201.0
+    }
+  },
+  "Gemini 4 Hydrogen 登陆 GitHub Copilot：面向快速 Agent 编程与多步工作流，逐步向 Pro 及以上用户开放": {
+    "score": 68.6,
+    "industry": 70,
+    "actionable": 88,
+    "breadth": 72,
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 71,
+      "x_spike_7d": 56.0
+    }
+  },
+  "英伟达员工请愿请回黄仁勋：内部建议帖获 1600 多条评论，多数支持其留任": {
+    "score": 65.8,
+    "industry": 80,
+    "actionable": 30,
+    "breadth": 80,
+    "heat": 84,
+    "heat_signals": {
+      "reports": 5,
+      "domains": 5,
+      "x_posts_7d": 760,
+      "x_spike_7d": 730.0
+    }
+  },
+  "腾讯混元发布实时语音模型 Hy Realtime：支持工具调用与唱歌，将开放腾讯云 API": {
+    "score": 61.2,
+    "industry": 70,
+    "actionable": 68,
+    "breadth": 68,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 45,
+      "x_spike_7d": 45.0
+    }
+  },
+  "Fireworks AI 遭入侵波及 Notion：约 1% 用户的 Notion AI 聊天记录被访问": {
+    "score": 71.5,
+    "industry": 78,
+    "actionable": 65,
+    "breadth": 70,
+    "heat": 69,
+    "heat_signals": {
+      "reports": 5,
+      "domains": 5,
+      "x_posts_7d": 964,
+      "x_spike_7d": -543.5
+    }
+  },
+  "Meta 向美国付费用户开放 Muse 代打电话：可替用户联系商家、DMV 和无法在线预订的餐厅": {
+    "score": 69.8,
+    "industry": 65,
+    "actionable": 70,
+    "breadth": 68,
+    "heat": 80,
+    "heat_signals": {
+      "reports": 6,
+      "domains": 6,
+      "x_posts_7d": 202,
+      "x_spike_7d": 164.5
+    }
+  },
+  "ElevenLabs 发布 Scribe v3 与 Scribe v3 Live：自称 102 种语言词错误率降约 25%，实时版用对话上下文避免抢话": {
+    "score": 68.6,
+    "industry": 68,
+    "actionable": 80,
+    "breadth": 70,
+    "heat": 52,
+    "heat_signals": {
+      "reports": 3,
+      "domains": 3,
+      "x_posts_7d": 722,
+      "x_spike_7d": -433.0
+    }
+  },
+  "Gemini 向美国用户开放只读接入 Google Wallet：可分析消费、找订阅和做预算，但不能动用资金": {
+    "score": 61.6,
+    "industry": 62,
+    "actionable": 72,
+    "breadth": 60,
+    "heat": 46,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 122,
+      "x_spike_7d": 99.5
+    }
+  },
+  "研究：中国最强一批 AI 模型背后用上了受出口禁令限制的英伟达芯片": {
+    "score": 54.8,
+    "industry": 82,
+    "actionable": 25,
+    "breadth": 75,
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 260,
+      "x_spike_7d": 87.5
+    }
+  },
+  "有研究者用 Claude Code 完成三元哥德巴赫猜想的 Lean 4 形式化，写出约 19.4 万行无 sorry 代码": {
+    "score": 52.3,
+    "industry": 62,
+    "actionable": 55,
+    "breadth": 50,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 11,
+      "x_spike_7d": 11.0
+    }
+  },
+  "Ai2 发布 XYBench：用 8000 多个真实提问，测试助手能否识破 XY 问题并转向用户真实目标": {
+    "score": 54.5,
+    "industry": 55,
+    "actionable": 70,
+    "breadth": 55,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 20,
+      "x_spike_7d": 20.0
+    }
+  },
+  "Anthropic 将 Claude Opus 5.5 设为 Pro、Max、Ultra 与 Team 套餐的默认模型": {
+    "score": 59.5,
+    "industry": 60,
+    "actionable": 75,
+    "breadth": 70,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": null
+    }
+  },
+  "科大讯飞 SparkAudio 1.0 上线开放平台 API：用原生语音基座替代「先转写再理解」级联方案": {
+    "score": 56.3,
+    "industry": 58,
+    "actionable": 72,
+    "breadth": 55,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 13,
+      "x_spike_7d": 13.0
+    }
+  },
+  "GitHub Copilot 应用正式支持 Enterprise Server 账户：可操作远程仓库、Issue 和 PR": {
+    "score": 53.5,
+    "industry": 50,
+    "actionable": 75,
+    "breadth": 50,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 8,
+      "x_spike_7d": 8.0
+    }
+  },
+  "GitHub 支持用 REST API 管理仓库的 AI Scan": {
+    "score": 49.0,
+    "industry": 45,
+    "actionable": 70,
+    "breadth": 40,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 10,
+      "x_spike_7d": 10.0
+    }
+  },
+  "四家非营利组织在旧金山起诉多家 AI 公司，请求紧急禁令叫停下一代模型训练与部署": {
+    "score": 50.0,
+    "industry": 75,
+    "actionable": 20,
+    "breadth": 80,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 2,
+      "x_spike_7d": 2.0
+    }
+  },
+  "微软云业务总裁：不为 AI 电费寻求政府补贴，今年计划投入约 1170 亿美元，德州项目仍受审批拖累": {
+    "score": 44.8,
+    "industry": 62,
+    "actionable": 25,
+    "breadth": 65,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 15,
+      "x_spike_7d": -15.0
+    }
+  },
+  "NVIDIA 发布教程：用 SimReady 资产在 Isaac Sim 中搭建机器人抓取放置仿真": {
+    "score": 48.0,
+    "industry": 40,
+    "actionable": 70,
+    "breadth": 40,
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 96,
+      "x_spike_7d": 51.0
+    }
+  },
+  "OPPO 成立 AI 新硬件实验室，并推广约 9.8 克、可 24 小时连续录音的「心力球」": {
+    "score": 47.3,
+    "industry": 52,
+    "actionable": 50,
+    "breadth": 55,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0.0
+    }
+  },
+  "浙大与联想提出 EM²Mem：把多模态智能体记忆改为先对齐事件再检索": {
+    "score": 48.8,
+    "industry": 52,
+    "actionable": 60,
+    "breadth": 40,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": null
+    }
+  },
+  "有爱好者在未装显卡的 40 核旧服务器上，借助傲腾内存运行月之暗面约 2.8 万亿参数的 Kimi K3": {
+    "score": 42.0,
+    "industry": 40,
+    "actionable": 55,
+    "breadth": 35,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 80,
+      "x_spike_7d": 27.5
+    }
+  },
+  "语飞国际中文教育垂直大模型在世界中文大会发布，面向学习者、教师和机构": {
+    "score": 41.0,
+    "industry": 40,
+    "actionable": 50,
+    "breadth": 40,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 4,
+      "x_spike_7d": 4.0
+    }
+  },
+  "月之暗面徐天天：AI 能力远未触及天花板，预训练、后训练与 Agent 系统设计仍在叠加加速": {
+    "score": 37.0,
+    "industry": 45,
+    "actionable": 30,
+    "breadth": 40,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 3,
+      "x_spike_7d": 3.0
+    }
+  },
+  "徐峥称看到以自己面孔生成的 AI 换脸表演时感到吃惊，认为完成度已超过部分新人演员": {
+    "score": 31.0,
+    "industry": 35,
+    "actionable": 20,
+    "breadth": 50,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 9,
+      "x_spike_7d": 1.5
+    }
+  },
+  "报道：临时执掌英伟达的 Colette Kress，曾把对 OpenAI 的巨额信用担保大幅压缩": {
+    "score": 39.5,
+    "industry": 55,
+    "actionable": 20,
+    "breadth": 55,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": null
     }
   }
 }

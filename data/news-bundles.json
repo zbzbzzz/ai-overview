@@ -1,5 +1,1043 @@
 [
   {
+    "id": "morn14-chatgpt-wallet",
+    "title": "OpenAI 发布 ChatGPT Wallet：与美运、万事达、Visa 合作，让 Agent 用支付令牌代购且看不到真实卡号",
+    "url": "https://openai.com/index/introducing-chatgpt-wallet",
+    "date": "2026-11-13",
+    "meta": "",
+    "bullets": [
+      "OpenAI 发布 ChatGPT Wallet，称这是首个让 Agent 付款却无法接触用户真实卡号、且每笔交易都需安全校验的钱包，并保留合资格争议下的卡片奖励与保护；与 American Express、Mastercard、Visa 合作，先通过 dots 向美国 18 岁以上、持合资格美国卡的 ChatGPT Pro 订阅者开放。",
+      "用户绑卡一次后，每笔购物先核对商品、总价和所用卡，再用 Face ID 或指纹批准；批准后由支付网络生成支付令牌完成扣款，真实卡号不会分享给商家或 Agent。",
+      "官方同时发布 Commerce Partner Playbook，指导商家认领资料、用 Web Bot Auth 避免误拦 Agent，并与 Forter、Stripe 等风控和支付服务商协作识别合法的 Agent 交易。"
+    ],
+    "links": [
+      {
+        "label": "OpenAI",
+        "title": "Introducing ChatGPT Wallet",
+        "url": "https://openai.com/index/introducing-chatgpt-wallet",
+        "date": "2026-11-13",
+        "same_event": true
+      },
+      {
+        "label": "The Verge",
+        "title": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
+        "date": "2026-11-13",
+        "same_event": true
+      },
+      {
+        "label": "The Decoder",
+        "title": "OpenAI rebuilt AI shopping from scratch with ChatGPT Wallet",
+        "url": "https://the-decoder.com/openai-rebuilt-ai-shopping-from-scratch-with-chatgpt-wallet",
+        "date": "2026-11-13",
+        "same_event": true
+      },
+      {
+        "label": "The Next Web",
+        "title": "OpenAI’s ChatGPT Wallet lets its AI agents shop without seeing your card",
+        "url": "https://thenextweb.com/news/chatgpt-wallet-openai-dots-agents-payments",
+        "date": "2026-11-13",
+        "same_event": true
+      },
+      {
+        "label": "Techmeme",
+        "title": "OpenAI announces ChatGPT Wallet for dots agents, starting with US ChatGPT Pro users",
+        "url": "https://www.techmeme.com/261113/p15",
+        "date": "2026-11-13",
+        "same_event": true
+      },
+      {
+        "label": "Slashdot",
+        "title": "ChatGPT's New Wallet Lets AI Agents Shop For You",
+        "url": "https://news.slashdot.org/story/26/11/13/1911210/chatgpts-new-wallet-lets-ai-agents-shop-for-you",
+        "date": "2026-11-13",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 88,
+      "actionable": 70,
+      "breadth": 75,
+      "heat": 95
+    },
+    "heat": 95,
+    "heat_signals": {
+      "reports": 6,
+      "domains": 6,
+      "x_posts_7d": 1584,
+      "x_spike_7d": 1584.0
+    },
+    "score": 82.7
+  },
+  {
+    "id": "morn14-llamacpp-v1",
+    "title": "llama.cpp 与 ggml 发布 v1.0.0：用主版本号标明公共 C API / ABI 兼容边界",
+    "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+    "date": "2026-11-13",
+    "meta": "",
+    "bullets": [
+      "llama.cpp 团队在 Hugging Face 宣布同时发布 llama.cpp v1.0.0（libllama）与 ggml v1.0.0（libggml），强调项目已运行约 3.5 年、大量下游应用依赖其接口，此后 API/ABI 不兼容将通过主版本号体现。",
+      "语义化版本约定：破坏 ./include 中公共 C API 升 MAJOR，向后兼容功能升 MINOR，无 API 变化的修复升 PATCH；目前支持 150 多种模型架构变体和主流投机解码方法。",
+      "分发渠道包括 Docker、Debian、Homebrew、conda-forge、MacPorts、Winget 与 XCFramework；CI 借助 Hugging Face Jobs 扩展，并得到 NVIDIA、AMD、Qualcomm、Arm、IBM 和 Intel 的硬件支持。"
+    ],
+    "links": [
+      {
+        "label": "Hugging Face",
+        "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+        "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+        "date": "2026-11-13",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 72,
+      "actionable": 85,
+      "breadth": 70,
+      "heat": 40
+    },
+    "heat": 40,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 201,
+      "x_spike_7d": 201.0
+    },
+    "score": 69.3
+  },
+  {
+    "id": "morn14-hydrogen-copilot",
+    "title": "Gemini 4 Hydrogen 登陆 GitHub Copilot：面向快速 Agent 编程与多步工作流，逐步向 Pro 及以上用户开放",
+    "url": "https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot",
+    "date": "2026-11-13",
+    "meta": "",
+    "bullets": [
+      "GitHub 宣布 Google 最新 Flash 模型 Gemini 4 Hydrogen 已在 Copilot 正式可用，定位快速、高效率的 Agent 编程、工具使用和多步工作流，并称指令遵循优于 Gemini 3.8 Flash。",
+      "该模型按供应商标价计入按量计费，面向 Copilot Pro、Pro+、Max、Business 和 Enterprise 用户，可在 VS Code、Visual Studio、Copilot CLI、coding agent、Copilot 应用、github.com、GitHub Mobile、JetBrains、Xcode、Eclipse 和 Copilot SDK 的模型选择器中选用，将分批推送。",
+      "Enterprise / Business 管理员可通过模型策略管理访问；在默认启用新模型的设置下，除非关闭全局默认或单独禁用，新模型会自动开放。"
+    ],
+    "links": [
+      {
+        "label": "GitHub",
+        "title": "Gemini 4 Hydrogen in GitHub Copilot",
+        "url": "https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot",
+        "date": "2026-11-13",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 70,
+      "actionable": 88,
+      "breadth": 72,
+      "heat": 35
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 71,
+      "x_spike_7d": 56.0
+    },
+    "score": 68.6
+  },
+  {
+    "id": "morn14-huang-petition",
+    "title": "英伟达员工请愿请回黄仁勋：内部建议帖获 1600 多条评论，多数支持其留任",
+    "url": "https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return",
+    "date": "2026-11-13",
+    "meta": "",
+    "bullets": [
+      "WIRED 报道，黄仁勋辞职前后，一名资深工程师在公司内部「建议箱」发帖，要求董事会在采取行动前考虑员工意见；该帖已有 1600 多条评论，多数支持请他回来，有人写「If you believe in the mission, bring back THE Boss」。",
+      "另有员工群发全员邮件要求说明离职过程；一名未获授权的在职员工对 WIRED 说「Nvidia is Nvidia because of Jensen」，认为应让创始人回归。董事会已任命 Colette Kress 为临时 CEO、Harvey Jones 为董事长，公司与新董事长暂未回应置评请求。",
+      "AIbase 称内部投票超 97% 支持留任，该数字未被 WIRED 原文证实；这是辞职之后的员工动向，不是董事会宣布卸任本身。"
+    ],
+    "links": [
+      {
+        "label": "WIRED",
+        "title": "‘Bring Back THE Boss’: Nvidia Employees Petition for Jensen Huang’s Return",
+        "url": "https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return",
+        "date": "2026-11-13",
+        "same_event": true
+      },
+      {
+        "label": "AIbase",
+        "title": "英伟达员工发起挽留黄仁勋行动，内部投票超97%支持其留任",
+        "url": "https://www.aibase.com/news/32321",
+        "date": "2026-11-13",
+        "same_event": true
+      },
+      {
+        "label": "Daring Fireball",
+        "title": "Nvidia Employees Petition for Jensen Huang’s Return",
+        "url": "https://daringfireball.net/linked/2026/11/13/nvidia-petition",
+        "date": "2026-11-13",
+        "same_event": true
+      },
+      {
+        "label": "Slashdot",
+        "title": "Nvidia Employees Petition For Jensen Huang's Return",
+        "url": "https://slashdot.org/story/26/11/13/1656259/nvidia-employees-petition-for-jensen-huangs-return",
+        "date": "2026-11-13",
+        "same_event": true
+      },
+      {
+        "label": "Hacker News",
+        "title": "Nvidia employees petition to bring back Jensen Huang",
+        "url": "https://news.ycombinator.com/item?id=50477231",
+        "date": "2026-11-13",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 80,
+      "actionable": 30,
+      "breadth": 80,
+      "heat": 84
+    },
+    "heat": 84,
+    "heat_signals": {
+      "reports": 5,
+      "domains": 5,
+      "x_posts_7d": 760,
+      "x_spike_7d": 730.0
+    },
+    "score": 65.8
+  },
+  {
+    "id": "morn14-hy-realtime",
+    "title": "腾讯混元发布实时语音模型 Hy Realtime：支持工具调用与唱歌，将开放腾讯云 API",
+    "url": "https://www.aibase.com/news/32320",
+    "date": "2026-11-13",
+    "meta": "",
+    "bullets": [
+      "AIbase 报道，腾讯混元发布实时语音模型 Hy Realtime，强调语音理解、指令遵循和更接近人的表达，并新增 agentic tool calling 与唱歌能力。",
+      "该模型已在元宝语音通话和腾讯客服中运行，官方计划通过腾讯云 API 对外开放。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "腾讯混元甩出实时语音模型 Hy Realtime，会聊天、能唱歌、还会自己联网搜",
+        "url": "https://www.aibase.com/news/32320",
+        "date": "2026-11-13",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 70,
+      "actionable": 68,
+      "breadth": 68,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 45,
+      "x_spike_7d": 45.0
+    },
+    "score": 61.2
+  },
+  {
+    "id": "morn14-fireworks-notion",
+    "title": "Fireworks AI 遭入侵波及 Notion：约 1% 用户的 Notion AI 聊天记录被访问",
+    "url": "https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor",
+    "date": "2026-11-12",
+    "meta": "",
+    "bullets": [
+      "Notion 发布安全说明称，第三方 AI 供应商 Fireworks AI 发生安全事件，攻击者得以访问部分客户数据；约 1% 的 Notion 用户受到影响，涉及 Notion AI Insights 聊天记录。",
+      "TechCrunch 等报道，Notion 于 11 月 3 日切断与该供应商的连接并删除相关数据；Fireworks 随后确认事件范围比最初估计更广。",
+      "这是供应商链路失守，不是 Notion 自身应用被直接攻破，但提醒企业在把对话交给第三方推理服务时的数据风险。"
+    ],
+    "links": [
+      {
+        "label": "Notion",
+        "title": "Security incident involving a third-party AI vendor",
+        "url": "https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor",
+        "date": "2026-11-12",
+        "same_event": true
+      },
+      {
+        "label": "TechCrunch",
+        "title": "Cyberattack on Fireworks AI allowed hackers to access Notion customers’ chat transcripts",
+        "url": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts",
+        "date": "2026-11-12",
+        "same_event": true
+      },
+      {
+        "label": "Slashdot",
+        "title": "Fireworks AI Confirms Wider Breach Affecting Notion AI Chats",
+        "url": "https://it.slashdot.org/story/26/11/10/2156247/fireworks-ai-confirms-wider-breach-affecting-notion-ai-chats",
+        "date": "2026-11-10",
+        "same_event": true
+      },
+      {
+        "label": "Hacker News",
+        "title": "Fireworks AI security breach impacts Notion and their customers",
+        "url": "https://news.ycombinator.com/item?id=50437106",
+        "date": "2026-11-12",
+        "same_event": true
+      },
+      {
+        "label": "AIbase",
+        "title": "Fireworks AI遭网络攻击，Notion约1%用户聊天记录泄露",
+        "url": "https://www.aibase.com/news/32288",
+        "date": "2026-11-13",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 78,
+      "actionable": 65,
+      "breadth": 70,
+      "heat": 69
+    },
+    "heat": 69,
+    "heat_signals": {
+      "reports": 5,
+      "domains": 5,
+      "x_posts_7d": 964,
+      "x_spike_7d": -543.5
+    },
+    "score": 71.5
+  },
+  {
+    "id": "morn14-muse-calls",
+    "title": "Meta 向美国付费用户开放 Muse 代打电话：可替用户联系商家、DMV 和无法在线预订的餐厅",
+    "url": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay",
+    "date": "2026-11-12",
+    "meta": "",
+    "bullets": [
+      "TechCrunch 报道，Meta 把 9 月小范围测试的 Muse 出站电话功能开放给所有美国付费订阅用户，可代打给有线电视供应商、DMV 和无法在线预订的餐厅等商家。",
+      "AIbase 称 Muse 用户已超过 1000 万；The Decoder 指出，不少公司可能直接挂断 AI 来电。这与 Muse 手表版、Spaces 或 Ember 模型是不同的产品更新。"
+    ],
+    "links": [
+      {
+        "label": "TechCrunch",
+        "title": "Muse can now place calls to U.S. businesses — if you pay",
+        "url": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay",
+        "date": "2026-11-12",
+        "same_event": true
+      },
+      {
+        "label": "Engadget",
+        "title": "Meta's Muse can now make calls on your behalf (if you have a paid subscription)",
+        "url": "https://www.engadget.com/2315525/metas-muse-can-now-make-calls-on-your-behalf-if-you-have-a-paid-subscription",
+        "date": "2026-11-12",
+        "same_event": true
+      },
+      {
+        "label": "The Decoder",
+        "title": "Meta's Muse now calls businesses for you, but many companies might just hang up on the AI",
+        "url": "https://the-decoder.com/metas-muse-now-calls-businesses-for-you-but-many-companies-might-just-hang-up-on-the-ai",
+        "date": "2026-11-12",
+        "same_event": true
+      },
+      {
+        "label": "MakeUseOf",
+        "title": "Meta's Muse will now make phone calls for you, but only if you pay",
+        "url": "https://www.makeuseof.com/meta-muse-can-now-call-businesses-for-you",
+        "date": "2026-11-12",
+        "same_event": true
+      },
+      {
+        "label": "Techmeme",
+        "title": "Meta launches an outbound calling feature for Muse, available for paid US subscribers",
+        "url": "https://www.techmeme.com/261113/p1",
+        "date": "2026-11-13",
+        "same_event": true
+      },
+      {
+        "label": "AIbase",
+        "title": "Meta开放Muse AI电话代办功能，面向所有付费用户推出",
+        "url": "https://www.aibase.com/news/32294",
+        "date": "2026-11-13",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 65,
+      "actionable": 70,
+      "breadth": 68,
+      "heat": 80
+    },
+    "heat": 80,
+    "heat_signals": {
+      "reports": 6,
+      "domains": 6,
+      "x_posts_7d": 202,
+      "x_spike_7d": 164.5
+    },
+    "score": 69.8
+  },
+  {
+    "id": "morn14-scribe-v3",
+    "title": "ElevenLabs 发布 Scribe v3 与 Scribe v3 Live：自称 102 种语言词错误率降约 25%，实时版用对话上下文避免抢话",
+    "url": "https://the-decoder.com/elevenlabs-scribe-v3-live-uses-conversational-context-to-stop-voice-agents-from-cutting-off-callers-mid-sentence",
+    "date": "2026-11-12",
+    "meta": "",
+    "bullets": [
+      "ElevenLabs 发布面向已录制音频的 Scribe v3 和面向低延迟实时场景的 Scribe v3 Live，官方称在 102 种语言上词错误率较上代下降约 25%，说话人分离在多人会议中更稳，Live 首次把分离做到实时。",
+      "The Decoder 援引 Artificial Analysis 测试称，Scribe v3 准确率在已发布模型中名列前茅，仅次于阿里一款预览模型，但速度和价格落后于微软、xAI 等更快更便宜的方案。",
+      "Live 版会结合对话上下文判断对方是否说完，减少因短暂停顿就打断来电的情况；模型已通过 ElevenAPI 和 ElevenAgents 提供，并支持预置专业词汇、格式规则和零保留模式。"
+    ],
+    "links": [
+      {
+        "label": "The Decoder",
+        "title": "ElevenLabs Scribe v3 Live uses conversational context to stop voice agents from cutting off callers mid-sentence",
+        "url": "https://the-decoder.com/elevenlabs-scribe-v3-live-uses-conversational-context-to-stop-voice-agents-from-cutting-off-callers-mid-sentence",
+        "date": "2026-11-12",
+        "same_event": true
+      },
+      {
+        "label": "AIbase",
+        "title": "ElevenLabs发布Scribe v3系列，支持102种语言及实时语音转写",
+        "url": "https://www.aibase.com/news/32303",
+        "date": "2026-11-13",
+        "same_event": true
+      },
+      {
+        "label": "Product Hunt",
+        "title": "Scribe v3 by ElevenLabs — Speech to text with 27% fewer errors in 90+ languages",
+        "url": "https://www.producthunt.com/products/elevenlabs",
+        "date": "2026-11-13",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 68,
+      "actionable": 80,
+      "breadth": 70,
+      "heat": 52
+    },
+    "heat": 52,
+    "heat_signals": {
+      "reports": 3,
+      "domains": 3,
+      "x_posts_7d": 722,
+      "x_spike_7d": -433.0
+    },
+    "score": 68.6
+  },
+  {
+    "id": "morn14-gemini-wallet",
+    "title": "Gemini 向美国用户开放只读接入 Google Wallet：可分析消费、找订阅和做预算，但不能动用资金",
+    "url": "https://thenextweb.com/news/google-gemini-wallet-spending-insights-plaid",
+    "date": "2026-11-13",
+    "meta": "",
+    "bullets": [
+      "The Next Web 报道，Google 向美国所有 Gemini 应用用户推出 Google Wallet 连接，作为 Personal Intelligence 的一部分；用户在对话中标记 @Google Wallet 后，可查询消费、发现涨价订阅，或根据往年支出建议预算。",
+      "该连接默认只读、需用户主动开启，Gemini 不能转账、理财或投资；还可通过 Plaid 关联银行和信用卡账户以获得更细的问答。这与 OpenAI 的 ChatGPT Wallet 代付不是同一件事。",
+      "Google 称不会直接用 Wallet 原始数据训练模型，但帮助文档写明：若用户保持 Gemini 活动记录开启，可能会用交易摘要做训练，部分对话也可能被人工审核。"
+    ],
+    "links": [
+      {
+        "label": "The Next Web",
+        "title": "Google’s Gemini can now read your Google Wallet to help you budget",
+        "url": "https://thenextweb.com/news/google-gemini-wallet-spending-insights-plaid",
+        "date": "2026-11-13",
+        "same_event": true
+      },
+      {
+        "label": "MakeUseOf",
+        "title": "Gemini can now read your Google Wallet, but it can’t touch your money",
+        "url": "https://www.makeuseof.com/gemini-google-wallet-personal-intelligence",
+        "date": "2026-11-13",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 62,
+      "actionable": 72,
+      "breadth": 60,
+      "heat": 46
+    },
+    "heat": 46,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 122,
+      "x_spike_7d": 99.5
+    },
+    "score": 61.6
+  },
+  {
+    "id": "morn14-export-chips",
+    "title": "研究：中国最强一批 AI 模型背后用上了受出口禁令限制的英伟达芯片",
+    "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen",
+    "date": "2026-11-13",
+    "meta": "",
+    "bullets": [
+      "TechCrunch 报道一项新研究称，中国目前最先进的一批 AI 模型是在受美国出口禁令限制的英伟达芯片上训练出来的。",
+      "文章据此讨论这对出口管制执行力和英伟达的意味；目前公开报道以这一则调查为主，细节仍有待更多独立核验。"
+    ],
+    "links": [
+      {
+        "label": "TechCrunch",
+        "title": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh oh, Jensen!",
+        "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen",
+        "date": "2026-11-13",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 82,
+      "actionable": 25,
+      "breadth": 75,
+      "heat": 35
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 260,
+      "x_spike_7d": 87.5
+    },
+    "score": 54.8
+  },
+  {
+    "id": "morn14-goldbach",
+    "title": "有研究者用 Claude Code 完成三元哥德巴赫猜想的 Lean 4 形式化，写出约 19.4 万行无 sorry 代码",
+    "url": "https://www.aibase.com/news/32317",
+    "date": "2026-11-13",
+    "meta": "",
+    "bullets": [
+      "AIbase 报道，Charlie Reams 借助 Claude Code，把已于 2013 年由 Harald Helfgott 证明的三元哥德巴赫猜想写成约 19.4 万行不含 sorry 的 Lean 4 形式化代码。",
+      "报道称该工作还独立发现并修复了 2013 年原证明中的 11 处问题。这是对已有定理的机器可检验形式化，不是对未解猜想给出新的数学证明。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "Claude 辅助完成 19 万行代码，成功对三元哥德巴赫猜想进行形式化证明",
+        "url": "https://www.aibase.com/news/32317",
+        "date": "2026-11-13",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 62,
+      "actionable": 55,
+      "breadth": 50,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 11,
+      "x_spike_7d": 11.0
+    },
+    "score": 52.3
+  },
+  {
+    "id": "morn14-xybench",
+    "title": "Ai2 发布 XYBench：用 8000 多个真实提问，测试助手能否识破 XY 问题并转向用户真实目标",
+    "url": "https://huggingface.co/blog/allenai/xybench",
+    "date": "2026-11-13",
+    "meta": "",
+    "bullets": [
+      "Allen Institute for AI 在 Hugging Face 发布 XYBench，用 8115 个真实问题测试助手能否识别「XY 问题」式误解——例如用户问如何让滑落的糖霜变稠，真正问题其实是蛋糕胚不够凉。",
+      "该基准关注助手是否会纠正前提并帮用户解决真正要做的事，而不只是回答字面问题；相关论文获得 EMNLP 2026 Best Resource Paper Award，并同步公开数据与代码。"
+    ],
+    "links": [
+      {
+        "label": "Hugging Face",
+        "title": "XYBench: Helping with the problem behind the question",
+        "url": "https://huggingface.co/blog/allenai/xybench",
+        "date": "2026-11-13",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 55,
+      "actionable": 70,
+      "breadth": 55,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 20,
+      "x_spike_7d": 20.0
+    },
+    "score": 54.5
+  },
+  {
+    "id": "morn14-opus55-default",
+    "title": "Anthropic 将 Claude Opus 5.5 设为 Pro、Max、Ultra 与 Team 套餐的默认模型",
+    "url": "https://www.aibase.com/news/32296",
+    "date": "2026-11-13",
+    "meta": "",
+    "bullets": [
+      "AIbase 报道，Anthropic 把 Claude Opus 5.5 设为 Pro、Max、Ultra 和 Team 套餐的默认模型，并推荐用它承担研究、分析和写作等日常知识工作。",
+      "这是默认模型策略调整，不是 Opus 5.5 本身的首次发布。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "Anthropic 正式推荐 Claude Opus 5.5：成为多套餐默认模型",
+        "url": "https://www.aibase.com/news/32296",
+        "date": "2026-11-13",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 60,
+      "actionable": 75,
+      "breadth": 70,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": null
+    },
+    "score": 59.5
+  },
+  {
+    "id": "morn14-sparkaudio",
+    "title": "科大讯飞 SparkAudio 1.0 上线开放平台 API：用原生语音基座替代「先转写再理解」级联方案",
+    "url": "https://www.aibase.com/news/32302",
+    "date": "2026-11-13",
+    "meta": "",
+    "bullets": [
+      "AIbase 报道，科大讯飞星火语音基座大模型 SparkAudio 1.0 已在讯飞开放平台上线 API，开发者可直接调用。",
+      "官方称它用原生语音基座替代先转写再理解的级联流水线，以减少语气、情绪、说话人特征和背景声的丢失，并降低多模块串联带来的延迟。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "科大讯飞星火语音基座大模型 SparkAudio 1.0 正式上线 API 服务",
+        "url": "https://www.aibase.com/news/32302",
+        "date": "2026-11-13",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 58,
+      "actionable": 72,
+      "breadth": 55,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 13,
+      "x_spike_7d": 13.0
+    },
+    "score": 56.3
+  },
+  {
+    "id": "morn14-ghes-copilot",
+    "title": "GitHub Copilot 应用正式支持 Enterprise Server 账户：可操作远程仓库、Issue 和 PR",
+    "url": "https://github.blog/changelog/2026-11-13-github-enterprise-server-support-in-the-github-copilot-app",
+    "date": "2026-11-13",
+    "meta": "",
+    "bullets": [
+      "GitHub 宣布，自 Copilot 应用 1.2.0 起，GitHub Enterprise Server（GHES）账户支持从预览转为正式可用，用户可在应用中处理远程仓库、Issue 和 Pull Request。",
+      "该功能仍需先用 GitHub.com 或 GHE.com 账户登录；官方同时说明，GHES 暂不支持 cloud sessions。"
+    ],
+    "links": [
+      {
+        "label": "GitHub",
+        "title": "GitHub Enterprise Server support in the GitHub Copilot app",
+        "url": "https://github.blog/changelog/2026-11-13-github-enterprise-server-support-in-the-github-copilot-app",
+        "date": "2026-11-13",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 50,
+      "actionable": 75,
+      "breadth": 50,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 8,
+      "x_spike_7d": 8.0
+    },
+    "score": 53.5
+  },
+  {
+    "id": "morn14-ai-scan",
+    "title": "GitHub 支持用 REST API 管理仓库的 AI Scan",
+    "url": "https://github.blog/changelog/2026-11-13-manage-ai-scan-for-repositories-using-the-rest-api",
+    "date": "2026-11-13",
+    "meta": "",
+    "bullets": [
+      "GitHub 更新 changelog，允许通过 REST API 管理仓库的 AI Scan，方便在自动化流程里开关或查询该能力。",
+      "这是面向管理员和工具链的接口更新，不是新的扫描模型发布。"
+    ],
+    "links": [
+      {
+        "label": "GitHub",
+        "title": "Manage AI Scan for repositories using the REST API",
+        "url": "https://github.blog/changelog/2026-11-13-manage-ai-scan-for-repositories-using-the-rest-api",
+        "date": "2026-11-13",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 45,
+      "actionable": 70,
+      "breadth": 40,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 10,
+      "x_spike_7d": 10.0
+    },
+    "score": 49.0
+  },
+  {
+    "id": "morn14-doom-lawsuit",
+    "title": "四家非营利组织在旧金山起诉多家 AI 公司，请求紧急禁令叫停下一代模型训练与部署",
+    "url": "https://www.aibase.com/news/32293",
+    "date": "2026-11-12",
+    "meta": "",
+    "bullets": [
+      "AIbase 报道，四家非营利组织于 11 月 12 日向旧金山高等法院起诉 OpenAI、Anthropic 等五家 AI 公司，请求紧急禁令，叫停下一代模型的训练和部署。",
+      "诉状引用 Dario Amodei、马斯克等人关于 AI 可能毁灭文明的公开警告，以及模型逃出沙箱、入侵澳大利亚医疗数据库等被指失控的记录。目前仅见中文转述，立案细节和其余被告名单仍待原文核验。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "用你们自己的末日预言告你们：五家 AI 巨头遭起诉叫停",
+        "url": "https://www.aibase.com/news/32293",
+        "date": "2026-11-13",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 75,
+      "actionable": 20,
+      "breadth": 80,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 2,
+      "x_spike_7d": 2.0
+    },
+    "score": 50.0
+  },
+  {
+    "id": "morn14-msft-power",
+    "title": "微软云业务总裁：不为 AI 电费寻求政府补贴，今年计划投入约 1170 亿美元，德州项目仍受审批拖累",
+    "url": "https://www.aibase.com/news/32306",
+    "date": "2026-11-13",
+    "meta": "",
+    "bullets": [
+      "AIbase 报道，微软云运营与创新总裁 Noelle Walsh 在休斯敦 BloombergNEF 会议上表示，公司不寻求政府补贴，将自行承担 AI 算力电费，并称今年计划投入约 1170 亿美元。",
+      "她同时提到，西德州的 Project Kilby 因审批暂停而受阻。这是公司能源与资本开支表态，不是新产品发布。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "微软给 AI 算力的电费账单：不蹭补贴，也不让邻居买单",
+        "url": "https://www.aibase.com/news/32306",
+        "date": "2026-11-13",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 62,
+      "actionable": 25,
+      "breadth": 65,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 15,
+      "x_spike_7d": -15.0
+    },
+    "score": 44.8
+  },
+  {
+    "id": "morn14-simready",
+    "title": "NVIDIA 发布教程：用 SimReady 资产在 Isaac Sim 中搭建机器人抓取放置仿真",
+    "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+    "date": "2026-11-13",
+    "meta": "",
+    "bullets": [
+      "NVIDIA 在 Hugging Face 发布教程，演示如何用 SimReady Central 的 UR17G 机械臂、Robotiq 2F-140 夹爪和饮料罐，在 Isaac Sim 中组成抓取放置场景并检查关节、运动与接触行为。",
+      "教程随后用 Agent 生成的控制代码跑通示例。这是工作流指南，不是新的基础模型发布。"
+    ],
+    "links": [
+      {
+        "label": "Hugging Face",
+        "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+        "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+        "date": "2026-11-13",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 40,
+      "actionable": 70,
+      "breadth": 40,
+      "heat": 35
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 96,
+      "x_spike_7d": 51.0
+    },
+    "score": 48.0
+  },
+  {
+    "id": "morn14-oppo-hardware",
+    "title": "OPPO 成立 AI 新硬件实验室，并推广约 9.8 克、可 24 小时连续录音的「心力球」",
+    "url": "https://www.aibase.com/news/32299",
+    "date": "2026-11-13",
+    "meta": "",
+    "bullets": [
+      "AIbase 报道，OPPO 成立由前 ColorOS 智能产品研发负责人蒋玉琛领导的 AI New Hardware Lab，把主动智能从手机延伸到新硬件形态。",
+      "报道称公司已在今年 9 月推出约 9.8 克、支持 24 小时连续录音的 AI 原生硬件「心力球」（Xinli Ball）。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "从超级小布到AI原生硬件，OPPO加速拓展AI终端布局",
+        "url": "https://www.aibase.com/news/32299",
+        "date": "2026-11-13",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 52,
+      "actionable": 50,
+      "breadth": 55,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0.0
+    },
+    "score": 47.3
+  },
+  {
+    "id": "morn14-em2mem",
+    "title": "浙大与联想提出 EM²Mem：把多模态智能体记忆改为先对齐事件再检索",
+    "url": "https://www.aibase.com/news/32316",
+    "date": "2026-11-13",
+    "meta": "",
+    "bullets": [
+      "AIbase 报道，浙江大学与联想团队联合提出 EM²Mem，相关研究亮相 EMNLP 2026。",
+      "方案把多模态智能体常见的「先检索后对齐」改为「先对齐后检索」，在记忆构建初期就把人物、物体、动作和时间绑定到同一事件，并建立多尺度事件档案。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "浙大与联想团队联合提出 EM²Mem：打造多模态智能体的事件中心记忆方案",
+        "url": "https://www.aibase.com/news/32316",
+        "date": "2026-11-13",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 52,
+      "actionable": 60,
+      "breadth": 40,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": null
+    },
+    "score": 48.8
+  },
+  {
+    "id": "morn14-kimi-k3-optane",
+    "title": "有爱好者在未装显卡的 40 核旧服务器上，借助傲腾内存运行月之暗面约 2.8 万亿参数的 Kimi K3",
+    "url": "https://www.aibase.com/news/32314",
+    "date": "2026-11-13",
+    "meta": "",
+    "bullets": [
+      "AIbase 报道，有爱好者仅用未安装显卡的 40 核旧服务器，借助英特尔傲腾内存，成功运行 Moonshot AI 约 2.8 万亿参数的 Kimi K3。",
+      "这是单一个案演示，说明超大模型在特定内存方案下的可运行性，并不等于普及了无 GPU 训练或推理。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "无需显卡也能跑！ 40 核老旧服务器硬刚 2.8 万亿参数大模型，傲腾内存成破局利器",
+        "url": "https://www.aibase.com/news/32314",
+        "date": "2026-11-13",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 40,
+      "actionable": 55,
+      "breadth": 35,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 80,
+      "x_spike_7d": 27.5
+    },
+    "score": 42.0
+  },
+  {
+    "id": "morn14-yufei",
+    "title": "语飞国际中文教育垂直大模型在世界中文大会发布，面向学习者、教师和机构",
+    "url": "https://www.aibase.com/news/32322",
+    "date": "2026-11-13",
+    "meta": "",
+    "bullets": [
+      "AIbase 报道，2026 世界中文大会 11 月 13 日在北京开幕，语飞国际中文教育垂直大模型同步发布。",
+      "产品面向全球学习者、教师和机构，提供即时反馈评估、个性化答疑，以及覆盖课前、课中、课后的教学材料生成。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "语飞国际中文教育垂直大模型发布：深度融合专业教学场景，为全球师生与机构提供智能化服务",
+        "url": "https://www.aibase.com/news/32322",
+        "date": "2026-11-13",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 40,
+      "actionable": 50,
+      "breadth": 40,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 4,
+      "x_spike_7d": 4.0
+    },
+    "score": 41.0
+  },
+  {
+    "id": "morn14-xu-tiantian",
+    "title": "月之暗面徐天天：AI 能力远未触及天花板，预训练、后训练与 Agent 系统设计仍在叠加加速",
+    "url": "https://www.aibase.com/news/32304",
+    "date": "2026-11-13",
+    "meta": "",
+    "bullets": [
+      "AIbase 报道，月之暗面徐天天在 11 月 12 日第 17 届财新峰会上表示，AI 智能的天花板远未达到。",
+      "他用预训练、post-training 与推理、以及 Agent 系统设计三条叠加曲线，解释能力为何仍在持续加速。这是行业演讲，不是新产品公告。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "月之暗面徐天天亮相财新峰会：AI 能力远未触及天花板，三维曲线正驱动智能持续加速",
+        "url": "https://www.aibase.com/news/32304",
+        "date": "2026-11-13",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 45,
+      "actionable": 30,
+      "breadth": 40,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 3,
+      "x_spike_7d": 3.0
+    },
+    "score": 37.0
+  },
+  {
+    "id": "morn14-xu-zheng",
+    "title": "徐峥称看到以自己面孔生成的 AI 换脸表演时感到吃惊，认为完成度已超过部分新人演员",
+    "url": "https://www.aibase.com/news/32312",
+    "date": "2026-11-13",
+    "meta": "",
+    "bullets": [
+      "AIbase 报道，演员徐峥第一次看到用自己面孔生成的 AI 换脸表演片段时感到愣住，称完成度很高，有的刚入行真人演员还不如它。",
+      "报道由此讨论 AI 是否会替代演员。这是公开评论，不是新的生成模型发布。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "徐峥刷到自己的 AI 换脸视频愣了：有的真人演员还不如它",
+        "url": "https://www.aibase.com/news/32312",
+        "date": "2026-11-13",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 35,
+      "actionable": 20,
+      "breadth": 50,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 9,
+      "x_spike_7d": 1.5
+    },
+    "score": 31.0
+  },
+  {
+    "id": "morn14-kress-profile",
+    "title": "报道：临时执掌英伟达的 Colette Kress，曾把对 OpenAI 的巨额信用担保大幅压缩",
+    "url": "https://www.aibase.com/news/32301",
+    "date": "2026-11-13",
+    "meta": "",
+    "bullets": [
+      "AIbase 转述 The Information 称，英伟达长期 CFO、现任临时 CEO Colette Kress 曾把对 OpenAI 的约 2500 亿美元信用担保压至约 1000 亿美元，削减超过 1500 亿美元。",
+      "文章据此追问这位「刹车手」会否放缓英伟达在 AI 上的投入。这是人事与风格评论，不是董事会宣布辞职的原文公告。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "黄仁勋抽身之后，那位曾砍掉 OpenAI 千亿担保的\"刹车手\"掌舵",
+        "url": "https://www.aibase.com/news/32301",
+        "date": "2026-11-13",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 55,
+      "actionable": 20,
+      "breadth": 55,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": null
+    },
+    "score": 39.5
+  },
+  {
     "id": "eve13-huang-resign",
     "title": "黄仁勋辞去英伟达总裁、CEO 与董事职务，CFO Colette Kress 出任临时 CEO",
     "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
@@ -485,6 +1523,20 @@
         "url": "https://news.ycombinator.com/item?id=50471431",
         "date": "2026-11-12",
         "same_event": true
+      },
+      {
+        "label": "AIbase",
+        "title": "比高端型号还猛却更便宜，Google 用\"Gemini 4 Hydrogen\"上演反向内卷",
+        "url": "https://www.aibase.com/news/32318",
+        "date": "2026-11-13",
+        "same_event": true
+      },
+      {
+        "label": "AIbase",
+        "title": "谷歌重磅发布 Gemini 4 Hydrogen：主打高速编程与智能体任务，性能实现跨越式升级",
+        "url": "https://www.aibase.com/news/32298",
+        "date": "2026-11-13",
+        "same_event": true
       }
     ],
     "score_parts": {
@@ -495,8 +1547,8 @@
     },
     "heat": 100,
     "heat_signals": {
-      "reports": 8,
-      "domains": 7,
+      "reports": 10,
+      "domains": 8,
       "x_posts_7d": 4144,
       "x_spike_7d": 3529.0
     },
@@ -527,22 +1579,29 @@
         "url": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions",
         "date": "2026-11-12",
         "same_event": true
+      },
+      {
+        "label": "AIbase",
+        "title": "Google推出Gemini4Hydrogen，全球Search迎来最大模型升级",
+        "url": "https://www.aibase.com/news/32289",
+        "date": "2026-11-13",
+        "same_event": true
       }
     ],
     "score_parts": {
       "industry": 82,
       "actionable": 65,
       "breadth": 92,
-      "heat": 51
+      "heat": 62
     },
-    "heat": 51,
+    "heat": 62,
     "heat_signals": {
-      "reports": 2,
-      "domains": 2,
+      "reports": 3,
+      "domains": 3,
       "x_posts_7d": 347,
       "x_spike_7d": 339.5
     },
-    "score": 71.7
+    "score": 73.9
   },
   {
     "id": "morn13-antigravity-orchestrator",
@@ -639,22 +1698,36 @@
         "url": "https://yro.slashdot.org/story/26/11/12/1831251/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut",
         "date": "2026-11-12",
         "same_event": true
+      },
+      {
+        "label": "AIbase",
+        "title": "谷歌首批 Gemini 智能眼镜震撼开启预售：395 美元起售，开创性引入“双向隐私”条款",
+        "url": "https://www.aibase.com/news/32308",
+        "date": "2026-11-13",
+        "same_event": true
+      },
+      {
+        "label": "AIbase",
+        "title": "Samsung联合Google推出AI智能眼镜，12月10日正式开售",
+        "url": "https://www.aibase.com/news/32290",
+        "date": "2026-11-13",
+        "same_event": true
       }
     ],
     "score_parts": {
       "industry": 80,
       "actionable": 72,
       "breadth": 70,
-      "heat": 79
+      "heat": 85
     },
-    "heat": 79,
+    "heat": 85,
     "heat_signals": {
-      "reports": 5,
-      "domains": 5,
+      "reports": 7,
+      "domains": 6,
       "x_posts_7d": 270,
       "x_spike_7d": 217.5
     },
-    "score": 76.4
+    "score": 77.6
   },
   {
     "id": "morn13-muse-watch",
@@ -2645,6 +3718,27 @@
         "url": "https://www.techmeme.com/261110/p35",
         "date": "2026-11-11",
         "same_event": true
+      },
+      {
+        "label": "AIbase",
+        "title": "Claude 正式推出全新会议功能：作为可见参会者直接加入视频通话，率先面向团队版与企业版开放测试",
+        "url": "https://www.aibase.com/news/32297",
+        "date": "2026-11-13",
+        "same_event": true
+      },
+      {
+        "label": "AIbase",
+        "title": "Anthropic推出Claude Meetings，可加入Google Meet参与会议",
+        "url": "https://www.aibase.com/news/32295",
+        "date": "2026-11-13",
+        "same_event": true
+      },
+      {
+        "label": "Product Hunt",
+        "title": "Claude Meetings — Add Claude to your call and get work started as you talk",
+        "url": "https://www.producthunt.com/products/claude",
+        "date": "2026-11-13",
+        "same_event": true
       }
     ],
     "score_parts": {
@@ -2655,8 +3749,8 @@
     },
     "heat": 95,
     "heat_signals": {
-      "reports": 11,
-      "domains": 8,
+      "reports": 14,
+      "domains": 9,
       "x_posts_7d": 2136,
       "x_spike_7d": 2113.5
     },
@@ -2771,22 +3865,29 @@
         "url": "https://waytoagi.feishu.cn/wiki/H769wCNcWiN05pkAA7Icx8Eon3b?from=from_copylink",
         "date": "2026-11-12",
         "same_event": true
+      },
+      {
+        "label": "AIbase",
+        "title": "MiniMax 推出开源 SOTA 生图模型 H3 Image，稳居全球开源榜首",
+        "url": "https://www.aibase.com/news/32292",
+        "date": "2026-11-13",
+        "same_event": true
       }
     ],
     "score_parts": {
       "industry": 74,
       "actionable": 88,
       "breadth": 70,
-      "heat": 73
+      "heat": 79
     },
-    "heat": 73,
+    "heat": 79,
     "heat_signals": {
-      "reports": 4,
+      "reports": 5,
       "domains": 2,
       "x_posts_7d": 3337,
       "x_spike_7d": 1327.0
     },
-    "score": 77.6
+    "score": 78.8
   },
   {
     "id": "eve11-qwen4-preview",
