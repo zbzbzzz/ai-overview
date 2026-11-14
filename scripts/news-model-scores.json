@@ -5083,14 +5083,14 @@
     }
   },
   "DeepMind 发布 Gemini Robotics 2.5，并推出开源安全基准 ASIMOV-jailbreak": {
-    "score": 66.4,
+    "score": 68.6,
     "industry": 80,
     "actionable": 55,
     "breadth": 55,
-    "heat": 62,
+    "heat": 73,
     "heat_signals": {
-      "reports": 3,
-      "domains": 3,
+      "reports": 4,
+      "domains": 4,
       "x_posts_7d": 385,
       "x_spike_7d": 385.0
     }
@@ -5245,8 +5245,8 @@
     "breadth": 85,
     "heat": 95,
     "heat_signals": {
-      "reports": 6,
-      "domains": 5,
+      "reports": 7,
+      "domains": 6,
       "x_posts_7d": 1390,
       "x_spike_7d": 1142.5
     }
@@ -5850,14 +5850,14 @@
     }
   },
   "Runway 开源 Praxis-1：27B 世界动作模型，Apache 2.0 可商用，登顶 RoboLab-120": {
-    "score": 78.4,
+    "score": 80.6,
     "industry": 82,
     "actionable": 88,
     "breadth": 58,
-    "heat": 67,
+    "heat": 78,
     "heat_signals": {
-      "reports": 3,
-      "domains": 3,
+      "reports": 4,
+      "domains": 4,
       "x_posts_7d": 699,
       "x_spike_7d": 699.0
     }
@@ -6435,14 +6435,14 @@
     }
   },
   "消息：OpenAI 解散独立机器人团队，将具身智能并入通用基础模型训练": {
-    "score": 46.6,
+    "score": 48.8,
     "industry": 68,
     "actionable": 28,
     "breadth": 50,
-    "heat": 30,
+    "heat": 41,
     "heat_signals": {
-      "reports": 1,
-      "domains": 1,
+      "reports": 2,
+      "domains": 2,
       "x_posts_7d": 21,
       "x_spike_7d": 13.5
     }
@@ -6467,8 +6467,8 @@
     "breadth": 75,
     "heat": 95,
     "heat_signals": {
-      "reports": 7,
-      "domains": 7,
+      "reports": 8,
+      "domains": 8,
       "x_posts_7d": 1584,
       "x_spike_7d": 1584.0
     }
@@ -7128,6 +7128,448 @@
     "industry": 30,
     "actionable": 55,
     "breadth": 28,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": null
+    }
+  },
+  "Anthropic 将 Claude Code Projects 改版为可并行调度多个工作线程（9 月起灰度，近日热议）": {
+    "score": 75.7,
+    "industry": 76,
+    "actionable": 88,
+    "breadth": 65,
+    "heat": 62,
+    "heat_signals": {
+      "reports": 3,
+      "domains": 3,
+      "x_posts_7d": 269,
+      "x_spike_7d": 216.5
+    }
+  },
+  "美国出现全国范围地面停飞后，外界追问是否与 FAA 新近扩大使用的 AI 工具 SMART 有关；供应商否认": {
+    "score": 65.1,
+    "industry": 78,
+    "actionable": 18,
+    "breadth": 85,
+    "heat": 100,
+    "heat_signals": {
+      "reports": 6,
+      "domains": 5,
+      "x_posts_7d": 3242,
+      "x_spike_7d": 3152.0
+    }
+  },
+  "报道：英伟达被指通过资助 AI 初创购买自家 GPU，人为制造供应稀缺": {
+    "score": 55.6,
+    "industry": 82,
+    "actionable": 22,
+    "breadth": 70,
+    "heat": 46,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 66,
+      "x_spike_7d": 66.0
+    }
+  },
+  "消息：英伟达董事会已接触 Arm CEO Rene Haas，作为黄仁勋继任人选之一": {
+    "score": 54.3,
+    "industry": 86,
+    "actionable": 15,
+    "breadth": 72,
+    "heat": 41,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 1386,
+      "x_spike_7d": -421.5
+    }
+  },
+  "Anthropic CEO Amodei 在 IPO 前表示「明年会发生什么存在巨大不确定性」，并称买算力是最深的经营难题": {
+    "score": 49.0,
+    "industry": 80,
+    "actionable": 16,
+    "breadth": 62,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 785,
+      "x_spike_7d": -347.5
+    }
+  },
+  "消息：月之暗面拟注销开曼控股公司，将投资人股份转至境内运营实体，为 IPO 铺路": {
+    "score": 47.4,
+    "industry": 72,
+    "actionable": 18,
+    "breadth": 50,
+    "heat": 41,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 128,
+      "x_spike_7d": 45.5
+    }
+  },
+  "Thinking Machines 公布端到端 4-bit 训练方法：相对全量 MXFP8，预训练约快 8%、强化学习约快 20%": {
+    "score": 56.1,
+    "industry": 60,
+    "actionable": 72,
+    "breadth": 35,
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 153,
+      "x_spike_7d": 63.0
+    }
+  },
+  "Gemini 4 Carbon 登上 MathArena 榜首，但测试设定下成本约为 GPT-6.1 Sol 的 15 倍": {
+    "score": 46.5,
+    "industry": 55,
+    "actionable": 45,
+    "breadth": 40,
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 80,
+      "x_spike_7d": 80.0
+    }
+  },
+  "Anthropic：过时的提示词习惯正在拖慢 Claude Opus 5.5，并建议删掉 think hard 这类措辞": {
+    "score": 54.8,
+    "industry": 48,
+    "actionable": 82,
+    "breadth": 50,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 31,
+      "x_spike_7d": 23.5
+    }
+  },
+  "Vercel 发布 UI SDK 测试版：为编程 Agent 提供 50 多种无头 UI 行为，Apache-2.0 开源": {
+    "score": 58.6,
+    "industry": 58,
+    "actionable": 82,
+    "breadth": 48,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 33,
+      "x_spike_7d": 10.5
+    }
+  },
+  "Unsloth 为 Qwen3.8-27B 推出 Dynamic v3.1 量化，称在相近体积下平均精度提升约 5-10%": {
+    "score": 49.7,
+    "industry": 42,
+    "actionable": 78,
+    "breadth": 35,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 271,
+      "x_spike_7d": -81.5
+    }
+  },
+  "斯坦福开源 Memorilla：为冻结大模型提供潜在记忆模块，固定输出 16 个记忆 token": {
+    "score": 49.0,
+    "industry": 45,
+    "actionable": 70,
+    "breadth": 30,
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 65,
+      "x_spike_7d": 57.5
+    }
+  },
+  "Android Police：Android XR 智能眼镜将在送交 Gemini 前模糊人脸，并禁止实时人脸识别": {
+    "score": 49.8,
+    "industry": 62,
+    "actionable": 45,
+    "breadth": 55,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 181,
+      "x_spike_7d": -149.0
+    }
+  },
+  "The Verge 专访 Helen Toner：解雇 Altman 的前 OpenAI 董事称，我们仍难以信任 AI 公司的 CEO": {
+    "score": 36.3,
+    "industry": 52,
+    "actionable": 15,
+    "breadth": 50,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 51,
+      "x_spike_7d": 21.0
+    }
+  },
+  "报道：教授让 Claude 给页面重新编号，结果它删掉了课程大纲和一年讲义": {
+    "score": 47.9,
+    "industry": 48,
+    "actionable": 50,
+    "breadth": 45,
+    "heat": 46,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 159,
+      "x_spike_7d": 159.0
+    }
+  },
+  "Linus Torvalds 想确认：Linux 内核里由 AI 提示产生的补丁洪流是否已经见顶": {
+    "score": 39.0,
+    "industry": 50,
+    "actionable": 30,
+    "breadth": 40,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 83,
+      "x_spike_7d": 30.5
+    }
+  },
+  "AIE Code Summit 发布 No AI Slop 宣言：强调结果重于产量、理解重于速度": {
+    "score": 42.0,
+    "industry": 40,
+    "actionable": 45,
+    "breadth": 45,
+    "heat": 40,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 774,
+      "x_spike_7d": 384.0
+    }
+  },
+  "Show HN：用约 200 行纯 JAX 复现 DeepSeek V3，并在 MacBook Air 上做小规模预训练实验": {
+    "score": 43.9,
+    "industry": 32,
+    "actionable": 68,
+    "breadth": 25,
+    "heat": 41,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 10,
+      "x_spike_7d": 10.0
+    }
+  },
+  "Show HN：Agweb，一个声称不挡路的 Agent 专用浏览器": {
+    "score": 47.8,
+    "industry": 38,
+    "actionable": 72,
+    "breadth": 28,
+    "heat": 41,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 8,
+      "x_spike_7d": 8.0
+    }
+  },
+  "掘金：Meta 开源已用八年的设计系统 astryx，组件库开始同时写给人和 Agent 看": {
+    "score": 49.8,
+    "industry": 48,
+    "actionable": 62,
+    "breadth": 40,
+    "heat": 40,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 694,
+      "x_spike_7d": 289.0
+    }
+  },
+  "Canva 推出 AI 图像生成器 Craft，TechRadar 用免费版与 ChatGPT 做了五组对比": {
+    "score": 47.0,
+    "industry": 50,
+    "actionable": 55,
+    "breadth": 45,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 38,
+      "x_spike_7d": 23.0
+    }
+  },
+  "行情数据 API 公司 Databento 完成约 1 亿美元 C 轮，估值约 11 亿美元，称已服务五家顶尖 AI 实验室": {
+    "score": 39.0,
+    "industry": 55,
+    "actionable": 25,
+    "breadth": 35,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 68,
+      "x_spike_7d": -104.5
+    }
+  },
+  "WIRED：警惕新一轮由 AI 助推的勒索软件浪潮，但全自动勒索尚未到来": {
+    "score": 53.5,
+    "industry": 70,
+    "actionable": 45,
+    "breadth": 60,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 10,
+      "x_spike_7d": 10.0
+    }
+  },
+  "分析人士称，超过约 1.5 吉瓦的受限英伟达 AI 芯片流入中国，或与黄仁勋离职有关": {
+    "score": 44.8,
+    "industry": 72,
+    "actionable": 15,
+    "breadth": 55,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 27,
+      "x_spike_7d": 19.5
+    }
+  },
+  "Nathan Lambert：黄仁勋离职对美国开源模型是挫折，因他提供的资助很可能随之枯竭": {
+    "score": 38.2,
+    "industry": 58,
+    "actionable": 15,
+    "breadth": 45,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": null
+    }
+  },
+  "TechCrunch 推出 AI 坟场：持续更新的失败项目与初创名单": {
+    "score": 35.5,
+    "industry": 45,
+    "actionable": 25,
+    "breadth": 40,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 46,
+      "x_spike_7d": 31.0
+    }
+  },
+  "Business Insider 梳理：英伟达热潮催生由 Lori Huang 领导、规模约 90 亿美元的家族基金会，资金流向受关注": {
+    "score": 29.1,
+    "industry": 40,
+    "actionable": 12,
+    "breadth": 35,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 1135,
+      "x_spike_7d": -245.0
+    }
+  },
+  "WayToAGI 介绍 Anthropic 的 7x24 在线 Agent 架构指南：用收件箱、计时器、记忆、权限和发件箱做无人值守": {
+    "score": 54.5,
+    "industry": 55,
+    "actionable": 75,
+    "breadth": 40,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": null
+    }
+  },
+  "掘金：22 个开源项目公开拒绝 AI 代码，维护者不愿再为 vibe coding 的账单买单": {
+    "score": 41.2,
+    "industry": 48,
+    "actionable": 40,
+    "breadth": 40,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": null
+    }
+  },
+  "Android Police 实测：用 Gemini Guided Learning 替代部分学习应用，它能记住进度并按节奏调整": {
+    "score": 38.5,
+    "industry": 35,
+    "actionable": 50,
+    "breadth": 35,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": null
+    }
+  },
+  "WayToAGI：盘点 11 个 AI 科普动画项目，建议先看交付结果再选工具": {
+    "score": 37.5,
+    "industry": 30,
+    "actionable": 55,
+    "breadth": 30,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": null
+    }
+  },
+  "WayToAGI：普通人靠 AI 如何增加收入（一人公司系列-4）": {
+    "score": 34.2,
+    "industry": 28,
+    "actionable": 45,
+    "breadth": 35,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": null
+    }
+  },
+  "Daring Fireball：微软称此次云服务中断与网络攻击或 AI/Agent 无关": {
+    "score": 36.0,
+    "industry": 50,
+    "actionable": 15,
+    "breadth": 55,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": null
+    }
+  },
+  "Vox：美国的 AI 机密正在外泄，而且不只是因为英伟达间谍丑闻": {
+    "score": 40.2,
+    "industry": 58,
+    "actionable": 20,
+    "breadth": 50,
     "heat": 30,
     "heat_signals": {
       "reports": 1,

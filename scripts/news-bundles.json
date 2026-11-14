@@ -1,5 +1,1286 @@
 [
   {
+    "id": "morn15-claude-projects",
+    "title": "Anthropic 将 Claude Code Projects 改版为可并行调度多个工作线程（9 月起灰度，近日热议）",
+    "url": "https://claude.com/resources/articles/projects-redesigned",
+    "date": "2026-11-14",
+    "meta": "",
+    "bullets": [
+      "Anthropic 官方文章（标注日期 2026-09-17）称，Claude Code Projects 从「文件夹」改成以对话协调多条线程：用户描述目标后，Claude 负责拆分、并行执行、审阅并汇总结果，也可在离开电脑后继续工作。",
+      "更新后的 Projects 以测试版向部分使用 Claude Code 云端会话、且在网页或桌面尚无既有项目的 Pro / Max 用户开放，随后再扩大到更多同套餐用户，并计划覆盖 Team、Enterprise 与聊天、Cowork。",
+      "每条线程是独立的 Claude Code 云端会话，在各自分支和仓库副本上工作；重叠改动按普通 PR 合并冲突处理。官方提醒并行会话会更快触及用量上限。近日 Hacker News 与 Alpha Signal 再次讨论这一改版。"
+    ],
+    "links": [
+      {
+        "label": "Anthropic",
+        "title": "Projects redesigned: from folder to conversation",
+        "url": "https://claude.com/resources/articles/projects-redesigned",
+        "date": "2026-09-17",
+        "same_event": true
+      },
+      {
+        "label": "Alpha Signal",
+        "title": "Anthropic Upgrades Claude Code Projects to Run Parallel AI Workers Hands-Free",
+        "url": "https://alphasignal.ai/news/anthropic-upgrades-claude-code-projects-to-run-parallel-ai-workers-hands-free",
+        "date": "2026-11-14",
+        "same_event": true
+      },
+      {
+        "label": "Hacker News",
+        "title": "Anthropic upgrades Claude Code Projects to run parallel AI workers",
+        "url": "https://news.ycombinator.com/item?id=50492141",
+        "date": "2026-11-14",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 76,
+      "actionable": 88,
+      "breadth": 65,
+      "heat": 62
+    },
+    "heat": 62,
+    "heat_signals": {
+      "reports": 3,
+      "domains": 3,
+      "x_posts_7d": 269,
+      "x_spike_7d": 216.5
+    },
+    "score": 75.7
+  },
+  {
+    "id": "morn15-faa-smart",
+    "title": "美国出现全国范围地面停飞后，外界追问是否与 FAA 新近扩大使用的 AI 工具 SMART 有关；供应商否认",
+    "url": "https://mashable.com/tech/faa-smart-ai-tool-nationwide-groundstop",
+    "date": "2026-11-14",
+    "meta": "",
+    "bullets": [
+      "美国出现全国范围航班地面停飞后，Mashable、Slashdot 等追问是否与 FAA 用于向空管提供拥堵管理建议的 AI 工具 SMART 有关；报道同时提到 FAA 曾在 11 月 10 日宣布扩大该工具在全美空域的使用范围。",
+      "Business Insider 与 Techmeme 援引 SMART 开发商 ASI 及 Microsoft 的回应，称此次地面停飞「并非基于或由 SMART 系统引起」，双方否认责任。",
+      "事件原因尚未有官方定论，但围绕「新 AI 调度工具与大范围停飞是否巧合」的讨论在社交平台上明显升温。"
+    ],
+    "links": [
+      {
+        "label": "Mashable",
+        "title": "Was the nationwide ground stop related to the FAA's new AI traffic tool?",
+        "url": "https://mashable.com/tech/faa-smart-ai-tool-nationwide-groundstop",
+        "date": "2026-11-13",
+        "same_event": true
+      },
+      {
+        "label": "Slashdot",
+        "title": "Was America's Nationwide Grounding of Aircraft Caused by Its New AI System?",
+        "url": "https://yro.slashdot.org/story/26/11/14/125229/was-americas-nationwide-grounding-of-aircraft-caused-by-its-new-ai-system",
+        "date": "2026-11-14",
+        "same_event": true
+      },
+      {
+        "label": "Business Insider",
+        "title": "SMART system and Microsoft say the FAA ground stop is not their fault",
+        "url": "https://www.businessinsider.com/smart-system-microsoft-faa-ground-stop-not-their-fault-2026-11",
+        "date": "2026-11-13",
+        "same_event": true
+      },
+      {
+        "label": "Techmeme",
+        "title": "ASI says the FAA outage is not based on or a result of the SMART system",
+        "url": "https://www.techmeme.com/261113/p34",
+        "date": "2026-11-13",
+        "same_event": true
+      },
+      {
+        "label": "Ars Technica",
+        "title": "FAA expands AI advice to manage air traffic congestion across entire US airspace",
+        "url": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace",
+        "date": "2026-11-13",
+        "same_event": true
+      },
+      {
+        "label": "Techmeme",
+        "title": "The FAA announced on November 10 that it has expanded the use of SMART",
+        "url": "https://www.techmeme.com/261113/p32",
+        "date": "2026-11-13",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 78,
+      "actionable": 18,
+      "breadth": 85,
+      "heat": 100
+    },
+    "heat": 100,
+    "heat_signals": {
+      "reports": 6,
+      "domains": 5,
+      "x_posts_7d": 3242,
+      "x_spike_7d": 3152.0
+    },
+    "score": 65.1
+  },
+  {
+    "id": "morn15-nvidia-shortage",
+    "title": "报道：英伟达被指通过资助 AI 初创购买自家 GPU，人为制造供应稀缺",
+    "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+    "date": "2026-11-14",
+    "meta": "",
+    "bullets": [
+      "TechPowerUp 等转述一项指控：英伟达通过资助人工智能初创企业购买其 GPU，人为制造供不应求；Hacker News 讨论称相关报道源自《华尔街日报》。",
+      "目前仍是「据称 / 被指」阶段，报道追问该说法能否解释芯片紧张，尚未见到英伟达的正式结论性回应被广泛引用。",
+      "这一指控与黄仁勋离职后的融资、开源生态评论是不同话题，需单独看待。"
+    ],
+    "links": [
+      {
+        "label": "TechPowerUp",
+        "title": "NVIDIA Allegedly Engineered Scarcity By Funding AI Startups To Buy Its GPUs",
+        "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+        "date": "2026-11-14",
+        "same_event": true
+      },
+      {
+        "label": "Hacker News",
+        "title": "Nvidia allegedly funded AI startups to buy its GPUs, creating shortage",
+        "url": "https://news.ycombinator.com/item?id=50493251",
+        "date": "2026-11-14",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 82,
+      "actionable": 22,
+      "breadth": 70,
+      "heat": 46
+    },
+    "heat": 46,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 66,
+      "x_spike_7d": 66.0
+    },
+    "score": 55.6
+  },
+  {
+    "id": "morn15-haas-successor",
+    "title": "消息：英伟达董事会已接触 Arm CEO Rene Haas，作为黄仁勋继任人选之一",
+    "url": "https://www.ft.com/content/2a64f698-46dd-4178-a3f4-4c5f4c0a0926",
+    "date": "2026-11-13",
+    "meta": "",
+    "bullets": [
+      "《金融时报》等报道，消息人士称英伟达董事会已接触 Arm CEO Rene Haas，将其作为黄仁勋离职后的潜在继任人选；Haas 十多年前曾在英伟达工作。",
+      "Techmeme 汇总了 NBC、纽约时报、彭博等后续报道；这与黄仁勋本人辞职是同一人事风暴中的「继任搜寻」进展，但属于新的独立消息。",
+      "继任人选尚未官宣，董事会接触不等于已经敲定。"
+    ],
+    "links": [
+      {
+        "label": "Financial Times",
+        "title": "Arm boss Rene Haas approached in Nvidia CEO search",
+        "url": "https://www.ft.com/content/2a64f698-46dd-4178-a3f4-4c5f4c0a0926",
+        "date": "2026-11-13",
+        "same_event": true
+      },
+      {
+        "label": "Techmeme",
+        "title": "Sources: Nvidia's board has approached Arm CEO Rene Haas in its search for a potential successor",
+        "url": "https://www.techmeme.com/261113/p17",
+        "date": "2026-11-13",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 86,
+      "actionable": 15,
+      "breadth": 72,
+      "heat": 41
+    },
+    "heat": 41,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 1386,
+      "x_spike_7d": -421.5
+    },
+    "score": 54.3
+  },
+  {
+    "id": "morn15-amodei-ipo",
+    "title": "Anthropic CEO Amodei 在 IPO 前表示「明年会发生什么存在巨大不确定性」，并称买算力是最深的经营难题",
+    "url": "https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo",
+    "date": "2026-11-14",
+    "meta": "",
+    "bullets": [
+      "The Decoder 报道，Dario Amodei 在纽约摩根大通投资者活动上称，「明年会发生什么存在巨大不确定性」，并把购买算力称为公司「最深的经营难题」：产能往往要提前一到两年采购，当时还无法确定收入能否覆盖。",
+      "报道援引彭博：Anthropic 相关承诺已接近约 9010 亿美元，大部分与算力和芯片挂钩，其中约 710 亿美元将在 2027 年 9 月前到期。",
+      "Amodei 表示，IPO 的目的之一是建立足够现金缓冲，以应对支出与收入可能错配的阶段。"
+    ],
+    "links": [
+      {
+        "label": "The Decoder",
+        "title": "Anthropic CEO Amodei admits there's a huge uncertainty in what's going to happen next year, days before a record IPO",
+        "url": "https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo",
+        "date": "2026-11-14",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 80,
+      "actionable": 16,
+      "breadth": 62,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 785,
+      "x_spike_7d": -347.5
+    },
+    "score": 49.0
+  },
+  {
+    "id": "morn15-moonshot-cayman",
+    "title": "消息：月之暗面拟注销开曼控股公司，将投资人股份转至境内运营实体，为 IPO 铺路",
+    "url": "https://www.wsj.com/tech/chinas-moonshot-ai-restructures-to-pave-way-for-ipo-49f09abb",
+    "date": "2026-11-13",
+    "meta": "",
+    "bullets": [
+      "《华尔街日报》援引消息人士称，Moonshot AI（月之暗面）正在注销其开曼控股公司，并把投资人股份转移至中国境内的主要运营实体，以为后续 IPO 做准备。",
+      "Techmeme 转述了这一重组安排；目前仍是消息来源报道，公司尚未见被广泛引用的正式招股说明。",
+      "这与此前 Kimi 模型发布是同一公司的不同事项，应分开看待。"
+    ],
+    "links": [
+      {
+        "label": "Wall Street Journal",
+        "title": "China's Moonshot AI restructures to pave way for IPO",
+        "url": "https://www.wsj.com/tech/chinas-moonshot-ai-restructures-to-pave-way-for-ipo-49f09abb",
+        "date": "2026-11-13",
+        "same_event": true
+      },
+      {
+        "label": "Techmeme",
+        "title": "Sources: Moonshot AI is deactivating its Cayman holding company",
+        "url": "https://www.techmeme.com/261113/p31",
+        "date": "2026-11-13",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 72,
+      "actionable": 18,
+      "breadth": 50,
+      "heat": 41
+    },
+    "heat": 41,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 128,
+      "x_spike_7d": 45.5
+    },
+    "score": 47.4
+  },
+  {
+    "id": "morn15-thinking-4bit",
+    "title": "Thinking Machines 公布端到端 4-bit 训练方法：相对全量 MXFP8，预训练约快 8%、强化学习约快 20%",
+    "url": "https://thinkingmachines.ai/blog/end-to-end-4-bit-training",
+    "date": "2026-11-14",
+    "meta": "",
+    "bullets": [
+      "Thinking Machines 发文介绍端到端 4-bit 训练：从预训练到最后的强化学习 rollout 使用同一套数值设置，交付量化检查点时无需再做校准。",
+      "官方称，在其最大规模任务中，该配方相对全量 MXFP8 训练可带来约 8% 的预训练墙上时间加速，以及约 20% 的强化学习加速。",
+      "文章讨论在 Blackwell 上使用 NVFP4，并说明为何更倾向量化 MoE 层的前向计算：这些层算力开销大，且量化对精度的伤害相对较小。"
+    ],
+    "links": [
+      {
+        "label": "Thinking Machines",
+        "title": "End-to-end 4-bit training",
+        "url": "https://thinkingmachines.ai/blog/end-to-end-4-bit-training",
+        "date": "2026-11-13",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 60,
+      "actionable": 72,
+      "breadth": 35,
+      "heat": 35
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 153,
+      "x_spike_7d": 63.0
+    },
+    "score": 56.1
+  },
+  {
+    "id": "morn15-matharena",
+    "title": "Gemini 4 Carbon 登上 MathArena 榜首，但测试设定下成本约为 GPT-6.1 Sol 的 15 倍",
+    "url": "https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol",
+    "date": "2026-11-14",
+    "meta": "",
+    "bullets": [
+      "The Decoder 报道，Google Gemini 4 Carbon 成为一段时间以来首个非 OpenAI、登顶 MathArena 数学基准的模型，把 GPT-6.1 Sol 从榜首挤下；Claude Fable 5.2 排名第二。",
+      "在测试所用推理设置下，Carbon 与 Fable 5.2 的成本大约分别是 GPT-6.1 Sol 的 15 倍和 40 倍。",
+      "Carbon 较常见的失败模式是超时；报道称它几乎从不放弃任务，有一次启动的脚本跑了十一个小时以上却未检查进度。这是基准结果，并非 Carbon 的新发布。"
+    ],
+    "links": [
+      {
+        "label": "The Decoder",
+        "title": "Gemini 4 Carbon takes the MathArena crown but costs 15 times more than GPT-6.1 Sol",
+        "url": "https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol",
+        "date": "2026-11-14",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 55,
+      "actionable": 45,
+      "breadth": 40,
+      "heat": 35
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 80,
+      "x_spike_7d": 80.0
+    },
+    "score": 46.5
+  },
+  {
+    "id": "morn15-opus-prompting",
+    "title": "Anthropic：过时的提示词习惯正在拖慢 Claude Opus 5.5，并建议删掉 think hard 这类措辞",
+    "url": "https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5",
+    "date": "2026-11-14",
+    "meta": "",
+    "bullets": [
+      "The Decoder 转述 Anthropic 的建议：使用现已作为 Pro、Max、Ultra 与 Team 默认模型的 Claude Opus 5.5 时，应丢掉从旧一代模型沿下来的若干提示习惯。",
+      "官方首先建议删掉 think hard、think carefully 这类句子。Anthropic 称模型会自行推理，并按任务和所选 effort 档调整推理深度；其测试中去掉这些短语后，回复开始得更快，且未测到质量下降。",
+      "这些措辞源自约一年半前推理模型早期、自适应推理尚未成为默认的阶段，当时或许还能催出更多推理或影响路由。"
+    ],
+    "links": [
+      {
+        "label": "The Decoder",
+        "title": "Anthropic says outdated prompting habits are slowing down Claude Opus 5.5",
+        "url": "https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5",
+        "date": "2026-11-14",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 48,
+      "actionable": 82,
+      "breadth": 50,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 31,
+      "x_spike_7d": 23.5
+    },
+    "score": 54.8
+  },
+  {
+    "id": "morn15-vercel-uisdk",
+    "title": "Vercel 发布 UI SDK 测试版：为编程 Agent 提供 50 多种无头 UI 行为，Apache-2.0 开源",
+    "url": "https://www.marktechpost.com/2026/11/13/vercel-ui-sdk-agent-ui-behaviors",
+    "date": "2026-11-13",
+    "meta": "",
+    "bullets": [
+      "MarkTechPost 报道，Vercel Labs 发布 Apache-2.0 许可的开源 Vercel UI SDK 测试版，提供 50 多种供编程 Agent 组合的无头 UI 行为，而不是交付成品组件。",
+      "报道称，一个行为定义可通过 5 个适配器复用到 React 等框架。",
+      "这对要让编码 Agent 直接生成或操控界面的开发者更有动手价值，但目前仍是测试版。"
+    ],
+    "links": [
+      {
+        "label": "MarkTechPost",
+        "title": "Vercel UI SDK: 50+ UI behaviors for coding agents",
+        "url": "https://www.marktechpost.com/2026/11/13/vercel-ui-sdk-agent-ui-behaviors",
+        "date": "2026-11-13",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 58,
+      "actionable": 82,
+      "breadth": 48,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 33,
+      "x_spike_7d": 10.5
+    },
+    "score": 58.6
+  },
+  {
+    "id": "morn15-unsloth-qwen38",
+    "title": "Unsloth 为 Qwen3.8-27B 推出 Dynamic v3.1 量化，称在相近体积下平均精度提升约 5-10%",
+    "url": "https://unsloth.ai/docs/models/qwen3.8",
+    "date": "2026-11-14",
+    "meta": "",
+    "bullets": [
+      "Unsloth 文档介绍如何本地运行 Qwen3.8 量化版，包括 27B 密集模型：具备视觉与推理能力、256K 上下文，并称可在约 17GB 内存或显存的配置上运行。",
+      "11 月 11 日更新：Qwen3.8-27B 的 GGUF 已改用 Unsloth Dynamic v3.1，官方称在相近体积下，Terminal Bench、DeepSWE 等基准的平均精度可提升约 5-10%。",
+      "文档同时提到可通过 Unsloth GGUF、NVFP4 和 Unsloth Desktop 运行，并称正在为 Qwen4 及后续模型准备更好的动态量化。"
+    ],
+    "links": [
+      {
+        "label": "Unsloth",
+        "title": "Qwen3.8 - How to Run Locally / Dynamic v3.1",
+        "url": "https://unsloth.ai/docs/models/qwen3.8",
+        "date": "2026-11-14",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 42,
+      "actionable": 78,
+      "breadth": 35,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 271,
+      "x_spike_7d": -81.5
+    },
+    "score": 49.7
+  },
+  {
+    "id": "morn15-memorilla",
+    "title": "斯坦福开源 Memorilla：为冻结大模型提供潜在记忆模块，固定输出 16 个记忆 token",
+    "url": "https://www.marktechpost.com/2026/11/14/stanford-memorilla-memory-system-16-memory-tokens",
+    "date": "2026-11-14",
+    "meta": "",
+    "bullets": [
+      "MarkTechPost 报道，斯坦福研究者开源 Memorilla：它读取整份文档集合后，只向冻结的大模型交出 16 个记忆 token。",
+      "在 FactKG 上，冻结的 Qwen3-8B 搭配 Memorilla 得到 84.33%，对照把全部文档放进上下文的 80.43%，且文档 token 约为原来的 1/108。",
+      "可训练记忆模块约 1.94 亿参数；编码器 Qwen3-Embedding-4B 与解码器 Qwen3-8B 保持冻结。代码、训练配方和检查点以 Apache 2.0 公开。"
+    ],
+    "links": [
+      {
+        "label": "MarkTechPost",
+        "title": "Stanford Research Open-Sources Memorilla, a Latent Memory Module for Frozen LLMs",
+        "url": "https://www.marktechpost.com/2026/11/14/stanford-memorilla-memory-system-16-memory-tokens",
+        "date": "2026-11-14",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 45,
+      "actionable": 70,
+      "breadth": 30,
+      "heat": 35
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 65,
+      "x_spike_7d": 57.5
+    },
+    "score": 49.0
+  },
+  {
+    "id": "morn15-android-xr",
+    "title": "Android Police：Android XR 智能眼镜将在送交 Gemini 前模糊人脸，并禁止实时人脸识别",
+    "url": "https://www.androidpolice.com/android-xr-smart-glasses-will-hide-faces-from-gemini-ban-real-time-facial-recognition",
+    "date": "2026-11-14",
+    "meta": "",
+    "bullets": [
+      "Android Police 报道，Google 的 Android XR 智能眼镜在把画面送交 Gemini 之前会模糊人脸；Play Store 应用不得做实时人脸识别或直播，记录指示灯也不可被篡改。",
+      "这是针对 Android XR 的隐私与平台规则，与此前 Gemini 眼镜开售不是同一条产品发布，但同属眼镜与 XR 隐私设计。",
+      "对潜在用户和准备做 XR 应用的开发者有直接约束。"
+    ],
+    "links": [
+      {
+        "label": "Android Police",
+        "title": "Android XR smart glasses will hide faces from Gemini, ban real-time facial recognition",
+        "url": "https://www.androidpolice.com/android-xr-smart-glasses-will-hide-faces-from-gemini-ban-real-time-facial-recognition",
+        "date": "2026-11-14",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 62,
+      "actionable": 45,
+      "breadth": 55,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 181,
+      "x_spike_7d": -149.0
+    },
+    "score": 49.8
+  },
+  {
+    "id": "morn15-helen-toner",
+    "title": "The Verge 专访 Helen Toner：解雇 Altman 的前 OpenAI 董事称，我们仍难以信任 AI 公司的 CEO",
+    "url": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
+    "date": "2026-11-14",
+    "meta": "",
+    "bullets": [
+      "The Verge 刊出对前 OpenAI 董事 Helen Toner 的播客访谈，她曾参与罢免 Sam Altman，访谈主题围绕 AI 公司治理与能否信任 AI 公司的 CEO。",
+      "这是新的访谈，而不是 2023 年董事会事件本身的新材料，也没有新的产品或接口发布。",
+      "对关注治理与监管的读者有参考价值，可动手性有限。"
+    ],
+    "links": [
+      {
+        "label": "The Verge",
+        "title": "The OpenAI board member who fired Sam Altman says we still cannot trust AI CEOs",
+        "url": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
+        "date": "2026-11-14",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 52,
+      "actionable": 15,
+      "breadth": 50,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 51,
+      "x_spike_7d": 21.0
+    },
+    "score": 36.3
+  },
+  {
+    "id": "morn15-claude-syllabus",
+    "title": "报道：教授让 Claude 给页面重新编号，结果它删掉了课程大纲和一年讲义",
+    "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/rogue-claude-ai-tasked-with-renumbering-pages-accidentally-deletes-law-professors-entire-syllabus-one-year-of-lecture-notes-youre-right-to-be-angry-i-deleted-your-files-through-my-own-carelessness-humbled-agent-admits",
+    "date": "2026-11-14",
+    "meta": "",
+    "bullets": [
+      "Tom's Hardware 报道，一名法学教授让 Claude 给文件重新编页码，结果课程大纲和约一年的讲义被删除；报道引述该 Agent 承认因自己的疏忽删了文件。",
+      "Hacker News 同步讨论了这一事故，核心提醒仍是：给 Agent 文件权限时要有备份和更严的操作边界。",
+      "这是个案事故报道，不是 Anthropic 的官方产品变更。"
+    ],
+    "links": [
+      {
+        "label": "Tom's Hardware",
+        "title": "Rogue Claude tasked with renumbering pages accidentally deletes a law professor's syllabus and a year of lecture notes",
+        "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/rogue-claude-ai-tasked-with-renumbering-pages-accidentally-deletes-law-professors-entire-syllabus-one-year-of-lecture-notes-youre-right-to-be-angry-i-deleted-your-files-through-my-own-carelessness-humbled-agent-admits",
+        "date": "2026-11-14",
+        "same_event": true
+      },
+      {
+        "label": "Hacker News",
+        "title": "Claude asked to renumber pages deletes professor's syllabus and a year of notes",
+        "url": "https://news.ycombinator.com/item?id=50499114",
+        "date": "2026-11-14",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 48,
+      "actionable": 50,
+      "breadth": 45,
+      "heat": 46
+    },
+    "heat": 46,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 159,
+      "x_spike_7d": 159.0
+    },
+    "score": 47.9
+  },
+  {
+    "id": "morn15-linus-patches",
+    "title": "Linus Torvalds 想确认：Linux 内核里由 AI 提示产生的补丁洪流是否已经见顶",
+    "url": "https://linux.slashdot.org/story/26/11/14/0827227/linus-torvalds-wonders-if-linuxs-ai-prompted-patch-flood-has-peaked",
+    "date": "2026-11-14",
+    "meta": "",
+    "bullets": [
+      "Slashdot 报道，Linus Torvalds 在讨论 Linux 内核收到的 AI 提示补丁是否已经过峰。",
+      "这延续了近期内核社区对 AI 生成补丁质量与维护负担的讨论，本身不是新的内核特性发布。",
+      "对内核贡献者和关注开源维护成本的人有参考价值。"
+    ],
+    "links": [
+      {
+        "label": "Slashdot",
+        "title": "Linus Torvalds Wonders If Linux's AI-Prompted Patch Flood Has Peaked",
+        "url": "https://linux.slashdot.org/story/26/11/14/0827227/linus-torvalds-wonders-if-linuxs-ai-prompted-patch-flood-has-peaked",
+        "date": "2026-11-14",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 50,
+      "actionable": 30,
+      "breadth": 40,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 83,
+      "x_spike_7d": 30.5
+    },
+    "score": 39.0
+  },
+  {
+    "id": "morn15-slop-manifesto",
+    "title": "AIE Code Summit 发布 No AI Slop 宣言：强调结果重于产量、理解重于速度",
+    "url": "https://www.slopmanifesto.com",
+    "date": "2026-11-13",
+    "meta": "",
+    "bullets": [
+      "AIE Code Summit 2026 的演讲者与参会者发布 No AI Slop Manifesto，形式上向 2001 年 Agile Manifesto 致敬，列出结果重于产量、理解重于速度、自己的思考重于模型初稿、更好的工作重于更轻松的工作、改进系统重于修补输出等价值观。",
+      "宣言把 slop 定义为：生产时投入的精力，少于要求读者理解它所需的精力；并称使用 AI 并不自动等于 slop，关键是是否为人的判断和读者体验负责。",
+      "它提醒 Agent 可以在一天内产出超过一人一生能审完的材料，质量问题会在知识库和代码里自我复制。这是一份行业倡议，不是产品发布。"
+    ],
+    "links": [
+      {
+        "label": "No AI Slop",
+        "title": "No AI Slop: A Manifesto",
+        "url": "https://www.slopmanifesto.com",
+        "date": "2026-11-13",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 40,
+      "actionable": 45,
+      "breadth": 45,
+      "heat": 40
+    },
+    "heat": 40,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 774,
+      "x_spike_7d": 384.0
+    },
+    "score": 42.0
+  },
+  {
+    "id": "morn15-deepseek-jax",
+    "title": "Show HN：用约 200 行纯 JAX 复现 DeepSeek V3，并在 MacBook Air 上做小规模预训练实验",
+    "url": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
+    "date": "2026-11-14",
+    "meta": "",
+    "bullets": [
+      "GitHub 项目 deepseek-v3-jax 称用约 190 行纯 JAX 复现 DeepSeek V3，并在 Hacker News 上以 Show HN 形式分享。",
+      "作者描述在 MacBook Air 上用 207 本侦探小说从零预训练，第 2000 步时开/关验证损失约为 3.921 对 3.923。",
+      "这是教学与复现向的开源实验，不是 DeepSeek 官方新模型发布。"
+    ],
+    "links": [
+      {
+        "label": "GitHub",
+        "title": "Show HN: DeepSeek V3 in about 200 lines of pure Jax",
+        "url": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
+        "date": "2026-11-14",
+        "same_event": true
+      },
+      {
+        "label": "Hacker News",
+        "title": "Show HN: DeepSeek V3 in about 200 lines of pure Jax",
+        "url": "https://news.ycombinator.com/item?id=50497589",
+        "date": "2026-11-14",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 32,
+      "actionable": 68,
+      "breadth": 25,
+      "heat": 41
+    },
+    "heat": 41,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 10,
+      "x_spike_7d": 10.0
+    },
+    "score": 43.9
+  },
+  {
+    "id": "morn15-agweb",
+    "title": "Show HN：Agweb，一个声称不挡路的 Agent 专用浏览器",
+    "url": "https://github.com/paul-nameless/agweb",
+    "date": "2026-11-14",
+    "meta": "",
+    "bullets": [
+      "开源项目 Agweb 在 Hacker News 以 Show HN 出现，定位为给 Agent 使用、尽量不打扰人的浏览器。",
+      "目前仍是早期原型，适合试用和阅读实现，不宜直接当作生产工具。",
+      "与通用浏览器产品发布不同，这是个人或小团队的开源实验。"
+    ],
+    "links": [
+      {
+        "label": "GitHub",
+        "title": "Agweb, a browser for agents that stays out of your way",
+        "url": "https://github.com/paul-nameless/agweb",
+        "date": "2026-11-14",
+        "same_event": true
+      },
+      {
+        "label": "Hacker News",
+        "title": "Show HN: Agweb, a browser for agents that stays out of your way",
+        "url": "https://news.ycombinator.com/item?id=50497147",
+        "date": "2026-11-14",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 38,
+      "actionable": 72,
+      "breadth": 28,
+      "heat": 41
+    },
+    "heat": 41,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 8,
+      "x_spike_7d": 8.0
+    },
+    "score": 47.8
+  },
+  {
+    "id": "morn15-astryx",
+    "title": "掘金：Meta 开源已用八年的设计系统 astryx，组件库开始同时写给人和 Agent 看",
+    "url": "https://juejin.cn/post/7707184266060300322",
+    "date": "2026-11-14",
+    "meta": "",
+    "bullets": [
+      "掘金报道称，Meta 开源的 React 组件库 astryx 近日登上 GitHub 总榜，并介绍这是一套在 Meta 内部使用多年、支撑大量应用的设计系统。",
+      "文章强调它以基础块导出、swizzle 和 CSS 变量主题，并开始为人和 Agent 提供同一套说明书。",
+      "主要依据中文社区报道与榜单热度，细节以原项目仓库为准。"
+    ],
+    "links": [
+      {
+        "label": "掘金",
+        "title": "Meta 开源用了八年的设计系统 astryx",
+        "url": "https://juejin.cn/post/7707184266060300322",
+        "date": "2026-11-14",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 48,
+      "actionable": 62,
+      "breadth": 40,
+      "heat": 40
+    },
+    "heat": 40,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 694,
+      "x_spike_7d": 289.0
+    },
+    "score": 49.8
+  },
+  {
+    "id": "morn15-canva-craft",
+    "title": "Canva 推出 AI 图像生成器 Craft，TechRadar 用免费版与 ChatGPT 做了五组对比",
+    "url": "https://www.techradar.com/ai-platforms-assistants/canva-claims-its-new-ai-image-generator-is-second-only-to-openai-so-i-put-canva-craft-and-chatgpt-head-to-head-in-5-image-tests-using-their-free-versions-to-see-which-one-really-comes-out-on-top",
+    "date": "2026-11-14",
+    "meta": "",
+    "bullets": [
+      "TechRadar 报道，Canva 称其新的 AI 图像生成器实力仅次于 OpenAI，并把它命名为 Canva Craft。",
+      "作者用双方免费版做了五组图像对比，评估实际效果；这是产品评测，不是官方技术报告。",
+      "对设计工具用户有参考价值，但是一家媒体的对比测试。"
+    ],
+    "links": [
+      {
+        "label": "TechRadar",
+        "title": "Canva claims its new AI image generator is second only to OpenAI, so I put Canva Craft and ChatGPT head-to-head",
+        "url": "https://www.techradar.com/ai-platforms-assistants/canva-claims-its-new-ai-image-generator-is-second-only-to-openai-so-i-put-canva-craft-and-chatgpt-head-to-head-in-5-image-tests-using-their-free-versions-to-see-which-one-really-comes-out-on-top",
+        "date": "2026-11-14",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 50,
+      "actionable": 55,
+      "breadth": 45,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 38,
+      "x_spike_7d": 23.0
+    },
+    "score": 47.0
+  },
+  {
+    "id": "morn15-databento",
+    "title": "行情数据 API 公司 Databento 完成约 1 亿美元 C 轮，估值约 11 亿美元，称已服务五家顶尖 AI 实验室",
+    "url": "https://www.techmeme.com/261114/p16",
+    "date": "2026-11-14",
+    "meta": "",
+    "bullets": [
+      "Techmeme 转述 FinTech Global：Databento 提供市场数据 API，并以约 11 亿美元估值完成约 1 亿美元 C 轮融资。",
+      "公司称已与六家最大前沿 AI 实验室中的五家签约。",
+      "这是数据基础设施融资，不是新模型发布。"
+    ],
+    "links": [
+      {
+        "label": "Techmeme",
+        "title": "Databento raised a $100M Series C at a $1.1B valuation",
+        "url": "https://www.techmeme.com/261114/p16",
+        "date": "2026-11-14",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 55,
+      "actionable": 25,
+      "breadth": 35,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 68,
+      "x_spike_7d": -104.5
+    },
+    "score": 39.0
+  },
+  {
+    "id": "morn15-ransomware",
+    "title": "WIRED：警惕新一轮由 AI 助推的勒索软件浪潮，但全自动勒索尚未到来",
+    "url": "https://www.wired.com/story/beware-the-new-ai-fueled-ransomware-boom",
+    "date": "2026-11-14",
+    "meta": "",
+    "bullets": [
+      "WIRED 在 Kernel Panic 专栏写道：全自动勒索软件还没有到来，但看起来并不高明的攻击者已经在用 AI 工具制造更大破坏。",
+      "文章认为，攻击者把既有手法与 AI 使能或更容易获得的新技术结合起来，勒索与数据勒索的风险在上升。",
+      "报道也提醒，由于受害方不总是披露、攻击者又常夸大战果，精确统计仍然困难。"
+    ],
+    "links": [
+      {
+        "label": "WIRED",
+        "title": "Beware the New AI-Fueled Ransomware Boom",
+        "url": "https://www.wired.com/story/beware-the-new-ai-fueled-ransomware-boom",
+        "date": "2026-11-14",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 70,
+      "actionable": 45,
+      "breadth": 60,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 10,
+      "x_spike_7d": 10.0
+    },
+    "score": 53.5
+  },
+  {
+    "id": "morn15-gpu-smuggle",
+    "title": "分析人士称，超过约 1.5 吉瓦的受限英伟达 AI 芯片流入中国，或与黄仁勋离职有关",
+    "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/mass-smuggling-of-nvidia-ai-gpus-could-be-the-underlying-cause-of-jensen-huangs-departure-analysts-claim-more-than-1-5-gigawatts-of-banned-chips-tracked-to-china-despite-export-controls",
+    "date": "2026-11-14",
+    "meta": "",
+    "bullets": [
+      "Tom's Hardware 报道，有分析人士称，尽管存在出口管制，仍有超过约 1.5 吉瓦的受限英伟达 AI 芯片被追踪到中国，并猜测大规模走私可能与黄仁勋离职有关。",
+      "这是分析性猜测，不是公司官方说明，也与马来西亚相关调查报道不是同一篇公告。",
+      "对出口管制和供应链风险有参考，但因果尚未被证实。"
+    ],
+    "links": [
+      {
+        "label": "Tom's Hardware",
+        "title": "Mass smuggling of Nvidia AI GPUs could be the underlying cause of Jensen Huang's departure, analysts claim",
+        "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/mass-smuggling-of-nvidia-ai-gpus-could-be-the-underlying-cause-of-jensen-huangs-departure-analysts-claim-more-than-1-5-gigawatts-of-banned-chips-tracked-to-china-despite-export-controls",
+        "date": "2026-11-14",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 72,
+      "actionable": 15,
+      "breadth": 55,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 27,
+      "x_spike_7d": 19.5
+    },
+    "score": 44.8
+  },
+  {
+    "id": "morn15-huang-openmodels",
+    "title": "Nathan Lambert：黄仁勋离职对美国开源模型是挫折，因他提供的资助很可能随之枯竭",
+    "url": "https://www.techmeme.com/261114/p15",
+    "date": "2026-11-14",
+    "meta": "",
+    "bullets": [
+      "Techmeme 转述 Nathan Lambert 在 Interconnects 的评论：黄仁勋辞职让美国开源模型少了一项关键支持，他的资金曾给开源开发者争取站稳脚跟的时间，而这类资助很可能枯竭。",
+      "这是行业评论，不是新的融资公告，也与初创融资缺口等其他评论文章分开成束。",
+      "观点出自评论作者，需与事实报道区分。"
+    ],
+    "links": [
+      {
+        "label": "Techmeme",
+        "title": "Jensen Huang's resignation is a setback for US open models, as his funding will very likely dry up",
+        "url": "https://www.techmeme.com/261114/p15",
+        "date": "2026-11-14",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 58,
+      "actionable": 15,
+      "breadth": 45,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": null
+    },
+    "score": 38.2
+  },
+  {
+    "id": "morn15-ai-graveyard",
+    "title": "TechCrunch 推出 AI 坟场：持续更新的失败项目与初创名单",
+    "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it",
+    "date": "2026-11-14",
+    "meta": "",
+    "bullets": [
+      "TechCrunch 发布并维护一份 AI 坟场名单，记录未能走下去的 AI 项目和初创公司。",
+      "这是一份持续更新的盘点，而不是单一公司的关停公告。",
+      "适合用来对照行业热度与实际存活率，本身没有新的可调用产品。"
+    ],
+    "links": [
+      {
+        "label": "TechCrunch",
+        "title": "The AI Graveyard: a running list of projects and startups that did not make it",
+        "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it",
+        "date": "2026-11-14",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 45,
+      "actionable": 25,
+      "breadth": 40,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 46,
+      "x_spike_7d": 31.0
+    },
+    "score": 35.5
+  },
+  {
+    "id": "morn15-lori-huang",
+    "title": "Business Insider 梳理：英伟达热潮催生由 Lori Huang 领导、规模约 90 亿美元的家族基金会，资金流向受关注",
+    "url": "https://www.businessinsider.com/lori-huang-nvidia-family-foundation-philanthropy-jensen-affair-2026-11",
+    "date": "2026-11-14",
+    "meta": "",
+    "bullets": [
+      "Business Insider 报道，英伟达的 AI 热潮催生了一个由 Lori Huang 领导、规模约 90 亿美元的基金会，并追问这些资金的流向。",
+      "文章与黄仁勋相关的个人与治理风波处在同一新闻周期，但主题是慈善与家族基金会，不是继任或芯片业务本身。",
+      "对行业影响力有背景价值，可动手性很低。"
+    ],
+    "links": [
+      {
+        "label": "Business Insider",
+        "title": "Nvidia's AI boom created a $9 billion foundation led by Lori Huang. Where is the money going?",
+        "url": "https://www.businessinsider.com/lori-huang-nvidia-family-foundation-philanthropy-jensen-affair-2026-11",
+        "date": "2026-11-14",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 40,
+      "actionable": 12,
+      "breadth": 35,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 1135,
+      "x_spike_7d": -245.0
+    },
+    "score": 29.1
+  },
+  {
+    "id": "morn15-always-on",
+    "title": "WayToAGI 介绍 Anthropic 的 7x24 在线 Agent 架构指南：用收件箱、计时器、记忆、权限和发件箱做无人值守",
+    "url": "https://waytoagi.feishu.cn/wiki/IL5hwypTBitx9DkdO5scTCQdnvh?from=from_copylink",
+    "date": "2026-11-14",
+    "meta": "",
+    "bullets": [
+      "WayToAGI 介绍一篇 Anthropic 指南，用收件箱、计时器、记忆、权限和发件箱来搭建可全天候在线的 Agent，使其在无人值守时也能持续工作。",
+      "文章还提到，指南中称 Opus 5.5 在长周期编程上的单任务成本比 Opus 5 低约 78%。",
+      "目前收录的是社区转述，动手前应对照 Anthropic 原文。"
+    ],
+    "links": [
+      {
+        "label": "WayToAGI",
+        "title": "Anthropic 发布 7x24 在线 Agent 架构指南",
+        "url": "https://waytoagi.feishu.cn/wiki/IL5hwypTBitx9DkdO5scTCQdnvh?from=from_copylink",
+        "date": "2026-11-14",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 55,
+      "actionable": 75,
+      "breadth": 40,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": null
+    },
+    "score": 54.5
+  },
+  {
+    "id": "morn15-oss-reject-ai",
+    "title": "掘金：22 个开源项目公开拒绝 AI 代码，维护者不愿再为 vibe coding 的账单买单",
+    "url": "https://juejin.cn/post/7706850224291004442",
+    "date": "2026-11-14",
+    "meta": "",
+    "bullets": [
+      "掘金文章盘点约 22 个开源项目公开拒绝接收 AI 生成代码，理由是维护者不愿承担 vibe coding 带来的审查与善后成本。",
+      "这是社区现象综述，不是某一基金会的统一新政策。",
+      "对给开源项目提 PR 的人是实用提醒：先看各仓库是否明确禁止 AI 代码。"
+    ],
+    "links": [
+      {
+        "label": "掘金",
+        "title": "22 个开源项目公开拒绝 AI 代码",
+        "url": "https://juejin.cn/post/7706850224291004442",
+        "date": "2026-11-14",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 48,
+      "actionable": 40,
+      "breadth": 40,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": null
+    },
+    "score": 41.2
+  },
+  {
+    "id": "morn15-guided-learning",
+    "title": "Android Police 实测：用 Gemini Guided Learning 替代部分学习应用，它能记住进度并按节奏调整",
+    "url": "https://www.androidpolice.com/replaced-learning-apps-with-gemini-guided-learning-remembers-progress-adapts-to-pace",
+    "date": "2026-11-14",
+    "meta": "",
+    "bullets": [
+      "Android Police 作者称删掉一部分学习应用后改用 Gemini Guided Learning，它能记住学习进度、按个人节奏调整，并解释错误原因。",
+      "文章以 self-hosting 为例，说明它如何把主题拆成含义、与云服务的权衡以及初学者硬件选择等步骤。",
+      "这是个人评测，不是 Google 的新功能发布会。"
+    ],
+    "links": [
+      {
+        "label": "Android Police",
+        "title": "I replaced learning apps with Gemini Guided Learning",
+        "url": "https://www.androidpolice.com/replaced-learning-apps-with-gemini-guided-learning-remembers-progress-adapts-to-pace",
+        "date": "2026-11-14",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 35,
+      "actionable": 50,
+      "breadth": 35,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": null
+    },
+    "score": 38.5
+  },
+  {
+    "id": "morn15-waytoagi-animation",
+    "title": "WayToAGI：盘点 11 个 AI 科普动画项目，建议先看交付结果再选工具",
+    "url": "https://waytoagi.feishu.cn/wiki/F6zRwaR0ficAzRkltxWcexUBnSb?from=from_copylink",
+    "date": "2026-11-14",
+    "meta": "",
+    "bullets": [
+      "WayToAGI 盘点 11 个 AI 科普动画项目，覆盖讲解图、交互页面和视频制作。",
+      "文章提到，代码调整后重新渲染通常不必重复调用图像或视频生成 API，但 Agent 改代码和机器渲染仍有成本。",
+      "这是工具盘点，不是单一产品发布。"
+    ],
+    "links": [
+      {
+        "label": "WayToAGI",
+        "title": "AI 做科普动画，11 个项目先看交付结果再选",
+        "url": "https://waytoagi.feishu.cn/wiki/F6zRwaR0ficAzRkltxWcexUBnSb?from=from_copylink",
+        "date": "2026-11-14",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 30,
+      "actionable": 55,
+      "breadth": 30,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": null
+    },
+    "score": 37.5
+  },
+  {
+    "id": "morn15-waytoagi-income",
+    "title": "WayToAGI：普通人靠 AI 如何增加收入（一人公司系列-4）",
+    "url": "https://waytoagi.feishu.cn/wiki/NBt1wB3pPiTeArkda3Uc0DEknVd?from=from_copylink",
+    "date": "2026-11-14",
+    "meta": "",
+    "bullets": [
+      "WayToAGI 一人公司系列第 4 篇讨论普通人如何借助 AI 增加收入，强调要立足自身认知与经验，把一件小事做成别人用得上的东西并滚动积累。",
+      "文章带有作者的个人创业案例，属于经验分享而非新工具发布。",
+      "可作思路参考，不构成可验证的普遍方法。"
+    ],
+    "links": [
+      {
+        "label": "WayToAGI",
+        "title": "普通人靠 AI 到底怎么增加收入？（一人公司系列-4）",
+        "url": "https://waytoagi.feishu.cn/wiki/NBt1wB3pPiTeArkda3Uc0DEknVd?from=from_copylink",
+        "date": "2026-11-14",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 28,
+      "actionable": 45,
+      "breadth": 35,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": null
+    },
+    "score": 34.2
+  },
+  {
+    "id": "morn15-ms-outage",
+    "title": "Daring Fireball：微软称此次云服务中断与网络攻击或 AI/Agent 无关",
+    "url": "https://daringfireball.net/linked/2026/11/14/microsoft-outage",
+    "date": "2026-11-14",
+    "meta": "",
+    "bullets": [
+      "Daring Fireball 转述微软的说明：此次云服务中断与网络攻击或 AI/Agent 无关。",
+      "目前看到的是公司定性，详细根因披露仍然有限。",
+      "对判断近期故障是否由 Agent 误操作引起有参考，但属于故障说明而非产品更新。"
+    ],
+    "links": [
+      {
+        "label": "Daring Fireball",
+        "title": "Microsoft says the cloud outage is not related to a cyberattack or AI/Agent",
+        "url": "https://daringfireball.net/linked/2026/11/14/microsoft-outage",
+        "date": "2026-11-14",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 50,
+      "actionable": 15,
+      "breadth": 55,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": null
+    },
+    "score": 36.0
+  },
+  {
+    "id": "morn15-vox-secrets",
+    "title": "Vox：美国的 AI 机密正在外泄，而且不只是因为英伟达间谍丑闻",
+    "url": "https://www.vox.com/future-perfect/510882/nvidia-jensen-huang-spy-ai-security-openai-anthropic",
+    "date": "2026-11-14",
+    "meta": "",
+    "bullets": [
+      "Vox Future Perfect 发文称，美国的 AI 机密正在外泄，原因并不只是英伟达相关的间谍丑闻。",
+      "这是一篇综合分析，不是单一事故的调查结案。",
+      "适合作为安全与地缘背景阅读，没有直接可操作的产品变更。"
+    ],
+    "links": [
+      {
+        "label": "Vox",
+        "title": "America's AI secrets are leaking, and not just because of the Nvidia spy scandal",
+        "url": "https://www.vox.com/future-perfect/510882/nvidia-jensen-huang-spy-ai-security-openai-anthropic",
+        "date": "2026-11-14",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 58,
+      "actionable": 20,
+      "breadth": 50,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": null
+    },
+    "score": 40.2
+  },
+  {
     "id": "eve14-copilot-depr",
     "title": "GitHub：部分 Copilot 模型将于 12 月 14 日停用，建议改用 Fable 5.2、Haiku 5.5、Hydrogen 等替代",
     "url": "https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december",
@@ -968,6 +2249,13 @@
         "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you",
         "date": "2026-11-13",
         "same_event": true
+      },
+      {
+        "label": "Mashable",
+        "title": "OpenAI launches ChatGPT Wallet, calling it a safer way to let AI shop for you",
+        "url": "https://mashable.com/tech/openai-launches-chatgpt-wallet",
+        "date": "2026-11-13",
+        "same_event": true
       }
     ],
     "score_parts": {
@@ -978,8 +2266,8 @@
     },
     "heat": 95,
     "heat_signals": {
-      "reports": 7,
-      "domains": 7,
+      "reports": 8,
+      "domains": 8,
       "x_posts_7d": 1584,
       "x_spike_7d": 1584.0
     },
@@ -2351,22 +3639,29 @@
         "url": "https://www.aibase.com/news/32313",
         "date": "2026-11-13",
         "same_event": true
+      },
+      {
+        "label": "The Decoder",
+        "title": "OpenAI reassigns robotics researchers to other teams as general-purpose models might make specialized robotics AI unnecessary",
+        "url": "https://the-decoder.com/openai-reassigns-robotics-researchers-to-other-teams-as-general-purpose-models-might-make-specialized-robotics-ai-unnecessary",
+        "date": "2026-11-14",
+        "same_event": true
       }
     ],
     "score_parts": {
       "industry": 68,
       "actionable": 28,
       "breadth": 50,
-      "heat": 30
+      "heat": 41
     },
-    "heat": 30,
+    "heat": 41,
     "heat_signals": {
-      "reports": 1,
-      "domains": 1,
+      "reports": 2,
+      "domains": 2,
       "x_posts_7d": 21,
       "x_spike_7d": 13.5
     },
-    "score": 46.6
+    "score": 48.8
   },
   {
     "id": "eve13-gondola",
@@ -3238,22 +4533,29 @@
         "url": "https://www.aibase.com/news/32267",
         "date": "2026-11-12",
         "same_event": true
+      },
+      {
+        "label": "The Decoder",
+        "title": "Runway's open-source Praxis-1 turns video AI into a robot controller",
+        "url": "https://the-decoder.com/runways-open-source-praxis-1-turns-video-ai-into-a-robot-controller",
+        "date": "2026-11-14",
+        "same_event": true
       }
     ],
     "score_parts": {
       "industry": 82,
       "actionable": 88,
       "breadth": 58,
-      "heat": 67
+      "heat": 78
     },
-    "heat": 67,
+    "heat": 78,
     "heat_signals": {
-      "reports": 3,
-      "domains": 3,
+      "reports": 4,
+      "domains": 4,
       "x_posts_7d": 699,
       "x_spike_7d": 699.0
     },
-    "score": 78.4
+    "score": 80.6
   },
   {
     "id": "eve12-gemini-carplay",
@@ -4762,6 +6064,13 @@
         "url": "https://www.techmeme.com/261110/p39",
         "date": "2026-11-11",
         "same_event": true
+      },
+      {
+        "label": "Product Hunt",
+        "title": "Businesses in ChatGPT",
+        "url": "https://www.producthunt.com/products/openai",
+        "date": "2026-11-14",
+        "same_event": true
       }
     ],
     "score_parts": {
@@ -4772,8 +6081,8 @@
     },
     "heat": 95,
     "heat_signals": {
-      "reports": 6,
-      "domains": 5,
+      "reports": 7,
+      "domains": 6,
       "x_posts_7d": 1390,
       "x_spike_7d": 1142.5
     },
@@ -6216,22 +7525,29 @@
         "url": "https://www.aibase.com/news/32230",
         "date": "2026-11-11",
         "same_event": true
+      },
+      {
+        "label": "Product Hunt",
+        "title": "Gemini Robotics 2.5",
+        "url": "https://www.producthunt.com/products/gemini-robotics-2-5",
+        "date": "2026-11-14",
+        "same_event": true
       }
     ],
     "score_parts": {
       "industry": 80,
       "actionable": 55,
       "breadth": 55,
-      "heat": 62
+      "heat": 73
     },
-    "heat": 62,
+    "heat": 73,
     "heat_signals": {
-      "reports": 3,
-      "domains": 3,
+      "reports": 4,
+      "domains": 4,
       "x_posts_7d": 385,
       "x_spike_7d": 385.0
     },
-    "score": 66.4
+    "score": 68.6
   },
   {
     "id": "morn-gemini-healthcare",

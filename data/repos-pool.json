@@ -263,7 +263,7 @@
     "desc": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
     "lang": "JavaScript",
     "stars": 185494,
-    "week": 4851,
+    "week": 4719,
     "topics": [
       "agent-skills",
       "ai-agents",
@@ -420,7 +420,8 @@
     "topics": [],
     "url": "https://github.com/meta/astryx",
     "_sources": [
-      "typescript"
+      "typescript",
+      "all"
     ],
     "types": [
       "应用与产品",
@@ -2833,14 +2834,16 @@
     "desc": "Implement a ChatGPT-like LLM in PyTorch from scratch, step by step",
     "lang": "Jupyter Notebook",
     "stars": 107478,
-    "week": 469,
+    "week": 491,
     "topics": [],
     "url": "https://github.com/rasbt/LLMs-from-scratch",
     "types": [
       "模型与推理",
       "应用与产品"
     ],
-    "_sources": []
+    "_sources": [
+      "jupyter-notebook"
+    ]
   },
   {
     "full": "langfuse/langfuse",
@@ -3470,7 +3473,7 @@
     "desc": "An open-source AI coding agent that lives in your terminal.",
     "lang": "TypeScript",
     "stars": 29138,
-    "week": 237,
+    "week": 1116,
     "topics": [],
     "url": "https://github.com/QwenLM/qwen-code",
     "types": [
@@ -5197,7 +5200,7 @@
     "desc": "Design engineering for Claude Code. Craft, memory, and enforcement for consistent UI.",
     "lang": "Shell",
     "stars": 5944,
-    "week": 41,
+    "week": 52,
     "topics": [],
     "url": "https://github.com/Dammyjay93/interface-design",
     "types": [
@@ -6173,7 +6176,7 @@
   {
     "full": "Anil-matcha/Open-Generative-AI",
     "name": "Open-Generative-AI",
-    "desc": "Uncensored Open-source alternative to AI video platforms — Free AI image & video generation studio with 600+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.",
+    "desc": "Uncensored Open-source alternative to AI video platforms — Free AI image & video generation studio with 800+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.",
     "lang": "JavaScript",
     "stars": 33900,
     "week": 1716,
@@ -7109,7 +7112,8 @@
     ],
     "url": "https://github.com/backnotprop/plannotator",
     "_sources": [
-      "typescript"
+      "typescript",
+      "all"
     ]
   },
   {
@@ -7283,6 +7287,182 @@
     "url": "https://github.com/skills/introduction-to-git",
     "_sources": [
       "shell"
+    ]
+  },
+  {
+    "full": "alibaba/open-code-review",
+    "name": "open-code-review",
+    "desc": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+    "lang": "Go",
+    "stars": 0,
+    "week": 1560,
+    "topics": [],
+    "types": [
+      "开发工具链"
+    ],
+    "url": "https://github.com/alibaba/open-code-review",
+    "_sources": [
+      "go"
+    ]
+  },
+  {
+    "full": "tradermonty/claude-trading-skills",
+    "name": "claude-trading-skills",
+    "desc": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+    "lang": "Python",
+    "stars": 0,
+    "week": 774,
+    "topics": [],
+    "types": [
+      "Skill"
+    ],
+    "url": "https://github.com/tradermonty/claude-trading-skills",
+    "_sources": [
+      "python"
+    ]
+  },
+  {
+    "full": "elementalsouls/Claude-BugHunter",
+    "name": "Claude-BugHunter",
+    "desc": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+    "lang": "Python",
+    "stars": 0,
+    "week": 326,
+    "topics": [],
+    "types": [
+      "Skill"
+    ],
+    "url": "https://github.com/elementalsouls/Claude-BugHunter",
+    "_sources": [
+      "python"
+    ]
+  },
+  {
+    "full": "ggml-org/whisper.cpp",
+    "name": "whisper.cpp",
+    "desc": "Port of OpenAI's Whisper model in C/C++",
+    "lang": "C++",
+    "stars": 0,
+    "week": 233,
+    "topics": [],
+    "types": [
+      "模型与推理"
+    ],
+    "url": "https://github.com/ggml-org/whisper.cpp",
+    "_sources": [
+      "cpp"
+    ]
+  },
+  {
+    "full": "MengTo/Skills",
+    "name": "Skills",
+    "desc": "Agent skills for designers and builders using Codex, Claude, Cursor, and other AI coding agents",
+    "lang": "HTML",
+    "stars": 0,
+    "week": 206,
+    "topics": [],
+    "types": [
+      "Skill"
+    ],
+    "url": "https://github.com/MengTo/Skills",
+    "_sources": [
+      "html"
+    ]
+  },
+  {
+    "full": "runkids/skillshare",
+    "name": "skillshare",
+    "desc": "📚 Sync skills, agents, MCP, plugins to all AI CLI tools with one command and simplify team sharing.",
+    "lang": "Go",
+    "stars": 0,
+    "week": 176,
+    "topics": [],
+    "types": [
+      "Skill"
+    ],
+    "url": "https://github.com/runkids/skillshare",
+    "_sources": [
+      "go"
+    ]
+  },
+  {
+    "full": "datawhalechina/happy-llm",
+    "name": "happy-llm",
+    "desc": "📚 从零开始构建大模型",
+    "lang": "Jupyter Notebook",
+    "stars": 0,
+    "week": 139,
+    "topics": [],
+    "types": [
+      "模型与推理"
+    ],
+    "url": "https://github.com/datawhalechina/happy-llm",
+    "_sources": [
+      "jupyter-notebook"
+    ]
+  },
+  {
+    "full": "kagent-dev/kagent",
+    "name": "kagent",
+    "desc": "Cloud Native Agentic AI | Discord: https://bit.ly/kagentdiscord",
+    "lang": "Go",
+    "stars": 0,
+    "week": 117,
+    "topics": [],
+    "types": [
+      "Agent"
+    ],
+    "url": "https://github.com/kagent-dev/kagent",
+    "_sources": [
+      "go"
+    ]
+  },
+  {
+    "full": "alibaba/MNN",
+    "name": "MNN",
+    "desc": "MNN: A blazing-fast, lightweight inference engine battle-tested by Alibaba, powering high-performance on-device LLMs and Edge AI.",
+    "lang": "C++",
+    "stars": 0,
+    "week": 116,
+    "topics": [],
+    "types": [
+      "模型与推理"
+    ],
+    "url": "https://github.com/alibaba/MNN",
+    "_sources": [
+      "cpp"
+    ]
+  },
+  {
+    "full": "a2aproject/A2A",
+    "name": "A2A",
+    "desc": "Agent2Agent (A2A) is an open protocol enabling communication and interoperability between opaque agentic applications.",
+    "lang": "Shell",
+    "stars": 0,
+    "week": 114,
+    "topics": [],
+    "types": [
+      "Agent"
+    ],
+    "url": "https://github.com/a2aproject/A2A",
+    "_sources": [
+      "shell"
+    ]
+  },
+  {
+    "full": "NVIDIA/skills",
+    "name": "skills",
+    "desc": "Agent Skills for NVIDIA products — install into Claude Code, Codex, and other coding agents to run Physical AI, robotics, simulation, CUDA, and RAG workflows end to end.",
+    "lang": "Python",
+    "stars": 0,
+    "week": 92,
+    "topics": [],
+    "types": [
+      "Skill"
+    ],
+    "url": "https://github.com/NVIDIA/skills",
+    "_sources": [
+      "python"
     ]
   }
 ]
