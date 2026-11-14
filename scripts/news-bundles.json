@@ -1,5 +1,914 @@
 [
   {
+    "id": "eve14-copilot-depr",
+    "title": "GitHub：部分 Copilot 模型将于 12 月 14 日停用，建议改用 Fable 5.2、Haiku 5.5、Hydrogen 等替代",
+    "url": "https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december",
+    "date": "2026-11-13",
+    "meta": "",
+    "bullets": [
+      "GitHub 宣布将于 2026 年 12 月 14 日在 Copilot Chat、inline edits、ask / agent 模式和代码补全等全部体验中停用一批模型：Claude Fable 5、Claude Haiku 4.5、Gemini 3.8 Flash、Gemini 4 Argon、Grok 4.6 与 Kimi K3。",
+      "建议替代分别为 Claude Fable 5.2、Claude Haiku 5.5、Gemini 4 Hydrogen、Gemini 4 Carbon、Grok 4.7；Kimi K3 的替代模型尚未公布。持有年度个人订阅的用户可继续使用 Claude Haiku 4.5。",
+      "请在该日期前改用受支持模型。Enterprise / Business 在默认启用新模型的设置下会自动开放替代模型，除非管理员关闭了全局默认或单独禁用；停用后无需再手动移除旧模型。"
+    ],
+    "links": [
+      {
+        "label": "GitHub",
+        "title": "Upcoming deprecation of selected GitHub Copilot models in December",
+        "url": "https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december",
+        "date": "2026-11-13",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 72,
+      "actionable": 85,
+      "breadth": 70,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 9,
+      "x_spike_7d": 1.5
+    },
+    "score": 67.3
+  },
+  {
+    "id": "eve14-qwen-cgm",
+    "title": "通义千问健康档案接入动态血糖仪，上线「分析我的血糖状态」",
+    "url": "https://www.aibase.com/news/32323",
+    "date": "2026-11-14",
+    "meta": "",
+    "bullets": [
+      "AIbase 报道，11 月 14 日通义千问 App 的「健康档案」上线持续葡萄糖监测（CGM）接入，授权后可全天候同步血糖，并结合饮食、运动和睡眠做分析。",
+      "例如午餐常吃粥和包子时，可结合餐后血糖走势提醒避开高 GI 主食；若检测到异常波动且近期对话涉及情绪起伏，也会把情绪因素纳入分析并建议在放松状态下复测。",
+      "健康档案还可连接手表手环、记录病史过敏等信息；问诊前可让千问整理近期身体变化。报道称其接入了人卫社医学知识库、中药监药品说明书、与中国营养学会共建的 NutriData 等数据。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "运动、饮食、作息都可能导致血糖波动，千问接入动态血糖仪，上线「分析我的血糖状态」",
+        "url": "https://www.aibase.com/news/32323",
+        "date": "2026-11-14",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 58,
+      "actionable": 70,
+      "breadth": 50,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 25,
+      "x_spike_7d": 17.5
+    },
+    "score": 55.2
+  },
+  {
+    "id": "eve14-langchain-3b",
+    "title": "LangChain 完成约 3 亿美元 C 轮，估值约 30 亿美元，称 LangSmith 已有约 7000 家客户",
+    "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation",
+    "date": "2026-11-13",
+    "meta": "",
+    "bullets": [
+      "TechCrunch 报道，Agent 管理公司 LangChain 宣布完成由 CapitalG 领投的约 3 亿美元 C 轮，估值约 30 亿美元，GIC、DFJ Growth、IVP 和 Sapphire Ventures 参投。",
+      "较约一年前 IVP 领投的 1.25 亿美元融资、12.5 亿美元估值翻了一倍以上。公司起源于 2022 年的开源项目，现将重点转向管理 AI Agent。",
+      "官方称其 LangSmith 不绑定特定模型、云或生态，并已有约 7000 家客户，包括 Harvey、Rippling、Clay，以及 Nvidia、丰田和 Salesforce 等企业。"
+    ],
+    "links": [
+      {
+        "label": "TechCrunch",
+        "title": "AI agent startup LangChain hits $3B valuation",
+        "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation",
+        "date": "2026-11-13",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 75,
+      "actionable": 40,
+      "breadth": 55,
+      "heat": 35
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 374,
+      "x_spike_7d": 141.5
+    },
+    "score": 54.5
+  },
+  {
+    "id": "eve14-claude-manufacturing",
+    "title": "Anthropic 发布 Claude for Manufacturing：17 项技能接入 Fusion、NetSuite、Infor 等工厂软件，变更需人工批准",
+    "url": "https://claude.com/resources/articles/claude-for-manufacturing",
+    "date": "2026-11-12",
+    "meta": "",
+    "bullets": [
+      "Anthropic 于 11 月 12 日发布面向制造业的插件 Claude for Manufacturing，提供 17 项技能，可通过连接器接入 Autodesk Fusion、Oracle NetSuite、Microsoft 365 和 Infor，用于起草报价、质量报告和供应商请求。",
+      "The Decoder 报道，技能可按实际库存起草报价、比较供应商、在设备停机时分析传感器与手册；经 Infor 插件可在交货延误时向备用供应商下单并重排生产，但均需人工批准，结果会回链到原始单据。",
+      "该插件面向 Team 与 Enterprise 客户，目前不控制实体机器。Anthropic 另在研发 Model Hardware Standard，试图用标准化驱动连接机械臂和显微镜，仍需人工监督。"
+    ],
+    "links": [
+      {
+        "label": "Anthropic",
+        "title": "Introducing Claude for Manufacturing",
+        "url": "https://claude.com/resources/articles/claude-for-manufacturing",
+        "date": "2026-11-12",
+        "same_event": true
+      },
+      {
+        "label": "The Decoder",
+        "title": "Anthropic's Claude for Manufacturing plugs AI directly into factory software to automate industrial workflows",
+        "url": "https://the-decoder.com/anthropics-claude-for-manufacturing-plugs-ai-directly-into-factory-software-to-automate-industrial-workflows",
+        "date": "2026-11-13",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 72,
+      "actionable": 75,
+      "breadth": 45,
+      "heat": 41
+    },
+    "heat": 41,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 276,
+      "x_spike_7d": -249.0
+    },
+    "score": 64.0
+  },
+  {
+    "id": "eve14-daybreak-products",
+    "title": "报道：OpenAI 以 Daybreak 品牌推出 Red Team 与 Defense Factory 两款安全产品，基于 GPT-6 Cyber",
+    "url": "https://the-decoder.com/openai-enters-the-cybersecurity-market-with-two-daybreak-products",
+    "date": "2026-11-13",
+    "meta": "",
+    "bullets": [
+      "The Decoder 报道，OpenAI 在 Daybreak 品牌下推出两款安全产品，均运行在 GPT-6 Cyber 上。",
+      "Daybreak Red Team 处于 Early Access，用 Agent 结合源码与应用上下文探测 Web 漏洞、核验漏洞报告并验证补丁；网络安全应用 AI 负责人 Nancy Wang 称，目标是达到持续扫描的速度和人工渗透测试的深度。",
+      "Daybreak Defense Factory 负责防御侧：扫描代码库中的漏洞并生成带测试的 pull request，供开发者审批后部署。这是产品报道，不是 GPT-6 Cyber 模型本身的发布公告。"
+    ],
+    "links": [
+      {
+        "label": "The Decoder",
+        "title": "OpenAI enters the cybersecurity market with two Daybreak products",
+        "url": "https://the-decoder.com/openai-enters-the-cybersecurity-market-with-two-daybreak-products",
+        "date": "2026-11-13",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 75,
+      "actionable": 80,
+      "breadth": 55,
+      "heat": 40
+    },
+    "heat": 40,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 786,
+      "x_spike_7d": 358.5
+    },
+    "score": 67.5
+  },
+  {
+    "id": "eve14-ipo-china-ban",
+    "title": "消息：银行以美国 ITAR 出口管制为由，拒绝中国大陆和香港投资者认购 Anthropic IPO",
+    "url": "https://the-decoder.com/banks-bar-chinese-and-hong-kong-investors-from-anthropic-ipo-over-us-export-controls",
+    "date": "2026-11-13",
+    "meta": "",
+    "bullets": [
+      "The Decoder 援引彭博社称，多家银行已拒绝或认为很难向中国大陆和香港投资者分配 Anthropic IPO 股份，部分人士将原因指向美国军品出口管制规则 ITAR；Anthropic 不予置评。",
+      "高盛与摩根士丹利牵头此次发行，另有约 20 家银行参与；股票拟在 11 月 18 日定价后以代码 ANT 登陆纳斯达克。",
+      "报道称 Anthropic 产品本就未在中国大陆和香港正式提供，公司还曾阻断受中方控制的企业使用其服务，并披露 DeepSeek、月之暗面和 MiniMax 的大规模蒸馏攻击。这是与「认购超六倍」不同的后续限制消息。"
+    ],
+    "links": [
+      {
+        "label": "The Decoder",
+        "title": "Banks bar Chinese and Hong Kong investors from Anthropic IPO over US export controls",
+        "url": "https://the-decoder.com/banks-bar-chinese-and-hong-kong-investors-from-anthropic-ipo-over-us-export-controls",
+        "date": "2026-11-13",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 68,
+      "actionable": 25,
+      "breadth": 50,
+      "heat": 35
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 206,
+      "x_spike_7d": 108.5
+    },
+    "score": 46.7
+  },
+  {
+    "id": "eve14-huang-funding-hole",
+    "title": "创投人士：黄仁勋离职后，英伟达对 AI 初创的金主角色可能收缩，融资与估值面临压力",
+    "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say",
+    "date": "2026-11-13",
+    "meta": "",
+    "bullets": [
+      "TechCrunch 报道，英伟达近年大量投资 AI 初创，PitchBook 数据显示今年已参与 105 轮融资，常是最大出资方；黄仁勋离职后，创始人和投资人担心支票变小、估值承压。",
+      "多位投资人表示，重大投资决策往往由黄仁勋本人拍板；临时 CEO Colette Kress 被部分人士视为更保守，短期内不太可能维持同等规模的早期投入。",
+      "文章列举英伟达对 CoreWeave、Crusoe、Mistral、Lambda、Black Forest Labs 以及对 Hugging Face 约 130 亿美元收购等布局，并指其大额出资也常绑定芯片采购。这是行业影响评论，不是辞职公告本身。"
+    ],
+    "links": [
+      {
+        "label": "TechCrunch",
+        "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
+        "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say",
+        "date": "2026-11-13",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 70,
+      "actionable": 30,
+      "breadth": 60,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 33,
+      "x_spike_7d": 25.5
+    },
+    "score": 49.0
+  },
+  {
+    "id": "eve14-elevenai",
+    "title": "ElevenLabs 推出实验性应用 ElevenAI：面向团队的会议记录、听写与 Agent 跟进",
+    "url": "https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams",
+    "date": "2026-11-13",
+    "meta": "",
+    "bullets": [
+      "TechCrunch 报道，ElevenLabs 在纽约 11/11 Summit 期间推出实验性应用 ElevenAI，把会议记录、听写和 Agent 集成放在同一产品里，目前需申请提前体验，定位团队与企业而非个人工具。",
+      "功能包括跨会议记录并通知与会者正在录音、跨会议查询、会议中的实时协助，以及接入 ElevenAgent 根据笔记起草跟进邮件等。",
+      "听写可在任意应用中把语音转成润色后的文本，官方称支持 90 多种语言，并能识别行业术语。这与此前发布的 Scribe v3 语音识别模型不是同一条产品公告。"
+    ],
+    "links": [
+      {
+        "label": "TechCrunch",
+        "title": "ElevenLabs’ new app combines meeting note-taking and dictation for teams",
+        "url": "https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams",
+        "date": "2026-11-13",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 55,
+      "actionable": 65,
+      "breadth": 45,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 197,
+      "x_spike_7d": -238.0
+    },
+    "score": 52.0
+  },
+  {
+    "id": "eve14-claude-outage",
+    "title": "Claude 状态页：claude.ai、Claude Code 与 platform.claude.com 出现错误率升高",
+    "url": "https://status.claude.com/incidents/nn11wk485zfn",
+    "date": "2026-11-13",
+    "meta": "",
+    "bullets": [
+      "Anthropic 状态页报告事故「Elevated errors on claude.ai, Claude Code, and platform.claude.com」，Hacker News 等也出现「Claude Is Down」讨论。",
+      "影响面覆盖网页版、Claude Code 与平台站点。这是一次服务故障通报，不是功能发布。"
+    ],
+    "links": [
+      {
+        "label": "Claude Status",
+        "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
+        "url": "https://status.claude.com/incidents/nn11wk485zfn",
+        "date": "2026-11-13",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 50,
+      "actionable": 40,
+      "breadth": 60,
+      "heat": 45
+    },
+    "heat": 45,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 602,
+      "x_spike_7d": 504.5
+    },
+    "score": 47.0
+  },
+  {
+    "id": "eve14-deepx",
+    "title": "韩国 DeepX 流片第二代边缘芯片 DX-M2：目标在机器人与无人机上推理约 1000 亿参数模型，量产瞄准 2027 年秋",
+    "url": "https://www.eetimes.com/deepx-tapes-out-second-gen-chip-projects-6-7x-performance-gain-with-lpddr5x-pim/",
+    "date": "2026-11-13",
+    "meta": "",
+    "bullets": [
+      "EE Times 报道，韩国公司 DeepX 已完成第二代边缘 AI 芯片 DX-M2 流片，目标是在机器人、无人机等设备上运行约 1000 亿参数大模型的推理，量产时间瞄准 2027 年秋季。",
+      "Techmeme 同时链到彭博社报道，称 DeepX 为这款采用三星技术的新芯片投入约 1 亿美元。产品仍处于流片阶段，距供货尚早。"
+    ],
+    "links": [
+      {
+        "label": "EE Times",
+        "title": "DeepX Tapes Out Second-Gen Chip, Projects 6-7x Performance Gain with LPDDR5X PIM",
+        "url": "https://www.eetimes.com/deepx-tapes-out-second-gen-chip-projects-6-7x-performance-gain-with-lpddr5x-pim/",
+        "date": "2026-11-13",
+        "same_event": true
+      },
+      {
+        "label": "Techmeme",
+        "title": "South Korea-based DeepX tapes out DX-M2, an edge AI chip to run inference of 100B-parameter LLMs",
+        "url": "https://www.techmeme.com/261113/p8",
+        "date": "2026-11-13",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 58,
+      "actionable": 30,
+      "breadth": 40,
+      "heat": 41
+    },
+    "heat": 41,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 50,
+      "x_spike_7d": 42.5
+    },
+    "score": 44.4
+  },
+  {
+    "id": "eve14-xfusion",
+    "title": "消息：AI 服务器商 xFusion 获深交所创业板 IPO 受理，拟发行最多约 2.2 亿股筹资约 12 亿美元",
+    "url": "https://www.bloomberg.com/news/articles/2026-11-13/server-maker-xfusion-gets-shenzhen-nod-for-1-2-billion-listing",
+    "date": "2026-11-13",
+    "meta": "",
+    "bullets": [
+      "彭博社 Sangmi Cha 报道，AI 服务器制造商 xFusion 已获深圳证券交易所创业板 IPO 受理，公司拟发行最多约 2.2 亿股、筹资约 12 亿美元。",
+      "这是上市受理消息，发行规模与时间表仍可能变化。"
+    ],
+    "links": [
+      {
+        "label": "Bloomberg",
+        "title": "Server Maker xFusion Gets Shenzhen Nod for $1.2 Billion Listing",
+        "url": "https://www.bloomberg.com/news/articles/2026-11-13/server-maker-xfusion-gets-shenzhen-nod-for-1-2-billion-listing",
+        "date": "2026-11-13",
+        "same_event": true
+      },
+      {
+        "label": "Techmeme",
+        "title": "AI server maker xFusion gets approval from the Shenzhen Stock Exchange for a ChiNext IPO",
+        "url": "https://www.techmeme.com/261113/p6",
+        "date": "2026-11-13",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 58,
+      "actionable": 20,
+      "breadth": 40,
+      "heat": 41
+    },
+    "heat": 41,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 35,
+      "x_spike_7d": 35.0
+    },
+    "score": 41.4
+  },
+  {
+    "id": "eve14-operand",
+    "title": "PE 尽调工具 Operand 完成种子轮与 A 轮共约 3100 万美元，Khosla Ventures 领投，估值约 2.2 亿美元",
+    "url": "https://www.techmeme.com/261114/p6",
+    "date": "2026-11-14",
+    "meta": "",
+    "bullets": [
+      "Axios 的 Lucinda Shen 报道，为私募股权提供 AI 尽调工具的 Operand 完成种子轮与 A 轮合计约 3100 万美元融资，由 Khosla Ventures 领投，估值约 2.2 亿美元。"
+    ],
+    "links": [
+      {
+        "label": "Techmeme / Axios",
+        "title": "Operand raised $31M across a seed and a Series A led by Khosla Ventures at a $220M valuation",
+        "url": "https://www.techmeme.com/261114/p6",
+        "date": "2026-11-14",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 48,
+      "actionable": 25,
+      "breadth": 30,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 14,
+      "x_spike_7d": 6.5
+    },
+    "score": 35.7
+  },
+  {
+    "id": "eve14-whitematter",
+    "title": "「守护」Agent 公司 WhiteMatter 完成约 2000 万美元 A 轮，用于监督其他 Agent 的文件访问与操作",
+    "url": "https://www.techmeme.com/261114/p5",
+    "date": "2026-11-14",
+    "meta": "",
+    "bullets": [
+      "Business Insider 的 Alice Tecotzky 报道，WhiteMatter 完成约 2000 万美元 A 轮。公司打造「守护」AI Agent，监督现有 Agent 的文件访问、软件使用、决策与操作。"
+    ],
+    "links": [
+      {
+        "label": "Techmeme / Business Insider",
+        "title": "WhiteMatter, which builds guardian AI agents, raised a $20M Series A",
+        "url": "https://www.techmeme.com/261114/p5",
+        "date": "2026-11-14",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 50,
+      "actionable": 30,
+      "breadth": 30,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 27,
+      "x_spike_7d": 27.0
+    },
+    "score": 38.0
+  },
+  {
+    "id": "eve14-charta",
+    "title": "医疗病历审核公司 Charta Health 完成由 Insight Partners 领投的约 5500 万美元 B 轮",
+    "url": "https://www.techmeme.com/261114/p4",
+    "date": "2026-11-14",
+    "meta": "",
+    "bullets": [
+      "MobiHealthNews 的 Jessica Hagen 报道，提供 AI 病历审核、计费与编码工具的 Charta Health 完成由 Insight Partners 领投的约 5500 万美元 B 轮。"
+    ],
+    "links": [
+      {
+        "label": "Techmeme / MobiHealthNews",
+        "title": "Charta Health raised a $55M Series B led by Insight Partners",
+        "url": "https://www.techmeme.com/261114/p4",
+        "date": "2026-11-14",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 50,
+      "actionable": 25,
+      "breadth": 32,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 35,
+      "x_spike_7d": 20.0
+    },
+    "score": 36.7
+  },
+  {
+    "id": "eve14-luminal",
+    "title": "推理云与编译器公司 Luminal 完成约 2500 万美元 A 轮，用于在不同芯片上测试运行模型",
+    "url": "https://www.techmeme.com/261114/p3",
+    "date": "2026-11-14",
+    "meta": "",
+    "bullets": [
+      "Axios 的 Chris Metinko 报道，提供推理云并开发推理编译器、以便在不同芯片上测试运行 AI 模型的 Luminal 完成约 2500 万美元 A 轮。"
+    ],
+    "links": [
+      {
+        "label": "Techmeme / Axios",
+        "title": "Luminal raised a $25M Series A",
+        "url": "https://www.techmeme.com/261114/p3",
+        "date": "2026-11-14",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 52,
+      "actionable": 30,
+      "breadth": 32,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 33,
+      "x_spike_7d": -42.0
+    },
+    "score": 39.0
+  },
+  {
+    "id": "eve14-amazon-crawl",
+    "title": "消息：亚马逊担心 Agent 更青睐数据完整的网站，计划采集几乎所有在售商品数据，包括爬取竞品站点",
+    "url": "https://www.techmeme.com/261113/p37",
+    "date": "2026-11-13",
+    "meta": "",
+    "bullets": [
+      "路透社 Greg Bensinger 报道，亚马逊担心 AI Agent 会更偏向数据更完整的网站，因而计划收集几乎所有在售商品的数据，包括爬取竞争对手网站。",
+      "这是规划与策略报道，并非已经上线的新产品公告。"
+    ],
+    "links": [
+      {
+        "label": "Techmeme / Reuters",
+        "title": "Amazon, wary of AI agents favoring sites with better data, plans to gather data on nearly every product sold anywhere",
+        "url": "https://www.techmeme.com/261113/p37",
+        "date": "2026-11-13",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 62,
+      "actionable": 35,
+      "breadth": 55,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 20,
+      "x_spike_7d": 12.5
+    },
+    "score": 46.8
+  },
+  {
+    "id": "eve14-malaysia-probe",
+    "title": "报道：马来西亚调查与英伟达间谍丑闻涉事公司相关的 AI 芯片流向",
+    "url": "https://thenextweb.com/news/malaysia-speedmatrix-megaspeed-ai-chip-probe",
+    "date": "2026-11-13",
+    "meta": "",
+    "bullets": [
+      "The Next Web 报道，马来西亚正在调查与英伟达间谍丑闻涉事公司相关的 AI 芯片，涉及 SpeedMatrix、MegaSpeed 等名称。",
+      "这是后续司法与出口流向调查，与黄仁勋辞职公告本身不是同一事件。"
+    ],
+    "links": [
+      {
+        "label": "The Next Web",
+        "title": "Malaysia investigates AI chips linked to the firm in Nvidia’s spy scandal",
+        "url": "https://thenextweb.com/news/malaysia-speedmatrix-megaspeed-ai-chip-probe",
+        "date": "2026-11-13",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 55,
+      "actionable": 15,
+      "breadth": 45,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": null
+    },
+    "score": 37.0
+  },
+  {
+    "id": "eve14-claude-duet",
+    "title": "The Verge 实测 Claude Duet：接入邮箱和 Slack 后能串联待办，偶尔「神经质」但有用",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on",
+    "date": "2026-11-13",
+    "meta": "",
+    "bullets": [
+      "The Verge 作者一周实测 Anthropic 的 Claude Duet：接入邮箱和 Slack 后，能把会议摘要与私信串起来，并在出行前提醒打包拍摄用品。",
+      "评测认为它偶尔显得神经质，但确实能补上遗漏。这是体验评论，不是新的产品发布公告。"
+    ],
+    "links": [
+      {
+        "label": "The Verge",
+        "title": "Claude’s Duet agent is a little neurotic, and surprisingly useful",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on",
+        "date": "2026-11-13",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 40,
+      "actionable": 55,
+      "breadth": 40,
+      "heat": 35
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 642,
+      "x_spike_7d": 177.0
+    },
+    "score": 43.5
+  },
+  {
+    "id": "eve14-nvidia-glm",
+    "title": "英伟达教程：用 vLLM 在两台 DGX Station 上部署约 7530 亿参数的 GLM-5.3",
+    "url": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm",
+    "date": "2026-11-14",
+    "meta": "",
+    "bullets": [
+      "英伟达开发者博客介绍，如何用两台 NVIDIA DGX Station，经 ConnectX-8 RDMA 和 vLLM 张量并行（TP=2），把约 464GB、7530 亿参数的 GLM-5.3 NVFP4 MoE 模型部署成单一推理端点，并测试并发负载。",
+      "这是官方部署教程，不是新模型发布。"
+    ],
+    "links": [
+      {
+        "label": "NVIDIA",
+        "title": "When One GPU Isn’t Enough: Serving GLM-5.3 Across Two NVIDIA DGX Stations with vLLM",
+        "url": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm",
+        "date": "2026-11-14",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 45,
+      "actionable": 70,
+      "breadth": 30,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 101,
+      "x_spike_7d": 3.5
+    },
+    "score": 48.0
+  },
+  {
+    "id": "eve14-garry-opus",
+    "title": "Garry Tan：在 Claude Code 的 52 项任务上，Fable 5.2 解题成本约为 Opus 5.5 的 2.8 倍，建议仍默认 Opus",
+    "url": "https://x.com/garrytan/status/2121464508225053153",
+    "date": "2026-11-14",
+    "meta": "",
+    "bullets": [
+      "Y Combinator 的 Garry Tan 称，在 Claude Code 2.1.322 的 52 个编码任务上，Fable 5.2 的解决率约 82.7%，Opus 5.5 约 84.6%，但 Fable 每个已解决问题的成本约为 Opus 的 2.80 倍。",
+      "他因此建议继续把 Opus 5.5 作为编码默认模型。这是个人评测，不是 Anthropic 的官方定价或推荐变更。"
+    ],
+    "links": [
+      {
+        "label": "X / Garry Tan",
+        "title": "Keep Opus 5.5 as your coding default in Claude Code",
+        "url": "https://x.com/garrytan/status/2121464508225053153",
+        "date": "2026-11-14",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 45,
+      "actionable": 60,
+      "breadth": 35,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": null
+    },
+    "score": 45.5
+  },
+  {
+    "id": "eve14-seedream",
+    "title": "WayToAGI：Seedream 5.5 实测，强调画面一致性",
+    "url": "https://waytoagi.feishu.cn/wiki/GtDNwx9kki4jxikVmlpc9jrmnhe?from=from_copylink",
+    "date": "2026-11-13",
+    "meta": "",
+    "bullets": [
+      "WayToAGI 社区发布 Seedream 5.5 实测，标题强调「惊人的一致性」。",
+      "这是产品试用笔记，不是官方发布公告。"
+    ],
+    "links": [
+      {
+        "label": "WayToAGI",
+        "title": "惊人的一致性！Seedream 5.5实测！",
+        "url": "https://waytoagi.feishu.cn/wiki/GtDNwx9kki4jxikVmlpc9jrmnhe?from=from_copylink",
+        "date": "2026-11-13",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 35,
+      "actionable": 55,
+      "breadth": 30,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": null
+    },
+    "score": 39.5
+  },
+  {
+    "id": "eve14-h3image-tutorial",
+    "title": "WayToAGI：实测 MiniMax H3-Image 的四类玩法，包括约 10 秒出 4K 与超长文本",
+    "url": "https://waytoagi.feishu.cn/wiki/SF9awy5rbiSPFskoquwcBkPDn4c?from=from_copylink",
+    "date": "2026-11-13",
+    "meta": "",
+    "bullets": [
+      "WayToAGI 作者实测开源生图模型 MiniMax H3-Image，总结其擅长的四类新玩法，提到约 10 秒出 4K 以及超长文本等能力。",
+      "这是使用教程，与 H3 Image 模型发布公告分开记录。"
+    ],
+    "links": [
+      {
+        "label": "WayToAGI",
+        "title": "开源/10秒出4K/超长文本/... 我实测出了MiniMax H3-Image擅长的四类新玩法",
+        "url": "https://waytoagi.feishu.cn/wiki/SF9awy5rbiSPFskoquwcBkPDn4c?from=from_copylink",
+        "date": "2026-11-13",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 35,
+      "actionable": 60,
+      "breadth": 30,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": null
+    },
+    "score": 41.0
+  },
+  {
+    "id": "eve14-storyboard-skill",
+    "title": "WayToAGI：拆解 AI 短剧分镜，15 行剧本如何变成 6 个镜头，并附分镜技能",
+    "url": "https://waytoagi.feishu.cn/wiki/OMj0wuzXWih77nkgLq6cbhZ8n2w?from=from_copylink",
+    "date": "2026-11-13",
+    "meta": "",
+    "bullets": [
+      "WayToAGI 以约 4 分 40 秒、约 60 个镜头的 AI 短片《醒醒，我饿了》为例，拆解 15 行剧本如何变成 6 个镜头、约 18.3 秒，并附 8 条切镜规则和 7 列分镜表。",
+      "这是创作教程，不是新模型发布。"
+    ],
+    "links": [
+      {
+        "label": "WayToAGI",
+        "title": "如何给 AI 短剧拆分镜：60 个镜头是怎么来的，附我在用的分镜技能",
+        "url": "https://waytoagi.feishu.cn/wiki/OMj0wuzXWih77nkgLq6cbhZ8n2w?from=from_copylink",
+        "date": "2026-11-13",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 30,
+      "actionable": 65,
+      "breadth": 28,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": null
+    },
+    "score": 40.3
+  },
+  {
+    "id": "eve14-next-token",
+    "title": "WayToAGI：用 Gemini 4 Carbon 把 Next Token 往期内容汇成 30 条 AI 领域认知",
+    "url": "https://waytoagi.feishu.cn/wiki/UohZwna8mi6ljYk64tBcKRmunhe?from=from_copylink",
+    "date": "2026-11-13",
+    "meta": "",
+    "bullets": [
+      "WayToAGI 用 Gemini 4 Carbon 把 Next Token 过去 9 期内容整理成 30 条 AI 核心认知，从「Token 就是新货币」到「软件按钮越少离 AGI 越近」，覆盖产品、组织与流量逻辑。",
+      "这是综述笔记，不是新产品公告。"
+    ],
+    "links": [
+      {
+        "label": "WayToAGI",
+        "title": "Next Token 的 30 条 AI 领域的核心认知",
+        "url": "https://waytoagi.feishu.cn/wiki/UohZwna8mi6ljYk64tBcKRmunhe?from=from_copylink",
+        "date": "2026-11-13",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 35,
+      "actionable": 40,
+      "breadth": 35,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": null
+    },
+    "score": 35.5
+  },
+  {
+    "id": "eve14-hardware-camp",
+    "title": "WayToAGI：第七期 AI 硬件训练营结营，报名约 3749 人、作业约 2304 份",
+    "url": "https://waytoagi.feishu.cn/wiki/RWVFw10qxiYv75kpoBccWkRTnR5?from=from_copylink",
+    "date": "2026-11-13",
+    "meta": "",
+    "bullets": [
+      "WayToAGI 发布第七期 AI 硬件训练营结营战报：8 月 15 日开营、10 月 28 日结营，报名记录约 3749、作业记录约 2304，学员做出桌面伙伴、育儿记录器和遥控小车等项目。",
+      "这是社区训练营总结，不是产品发布。"
+    ],
+    "links": [
+      {
+        "label": "WayToAGI",
+        "title": "第七期 AI 硬件训练营结营战报：从第一次上手到真正创造",
+        "url": "https://waytoagi.feishu.cn/wiki/RWVFw10qxiYv75kpoBccWkRTnR5?from=from_copylink",
+        "date": "2026-11-13",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 28,
+      "actionable": 40,
+      "breadth": 25,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": null
+    },
+    "score": 31.7
+  },
+  {
+    "id": "eve14-doubao-product",
+    "title": "WayToAGI：用豆包工作构建第一个产品的入门指南",
+    "url": "https://waytoagi.feishu.cn/wiki/CrfNwRWgwitb7xkkloYcCn8pn3c?from=from_copylink",
+    "date": "2026-11-13",
+    "meta": "",
+    "bullets": [
+      "WayToAGI 发布「用豆包工作，构建你的第一个产品」指南，面向想用豆包工作搭建产品的入门读者。",
+      "这是教程，不是官方功能发布。"
+    ],
+    "links": [
+      {
+        "label": "WayToAGI",
+        "title": "用豆包工作，构建你的第一个产品",
+        "url": "https://waytoagi.feishu.cn/wiki/CrfNwRWgwitb7xkkloYcCn8pn3c?from=from_copylink",
+        "date": "2026-11-13",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 30,
+      "actionable": 55,
+      "breadth": 28,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": null
+    },
+    "score": 37.3
+  },
+  {
     "id": "morn14-chatgpt-wallet",
     "title": "OpenAI 发布 ChatGPT Wallet：与美运、万事达、Visa 合作，让 Agent 用支付令牌代购且看不到真实卡号",
     "url": "https://openai.com/index/introducing-chatgpt-wallet",
@@ -52,6 +961,13 @@
         "url": "https://news.slashdot.org/story/26/11/13/1911210/chatgpts-new-wallet-lets-ai-agents-shop-for-you",
         "date": "2026-11-13",
         "same_event": true
+      },
+      {
+        "label": "TechCrunch",
+        "title": "ChatGPT’s new wallet lets AI agents shop and check out for you",
+        "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you",
+        "date": "2026-11-13",
+        "same_event": true
       }
     ],
     "score_parts": {
@@ -62,8 +978,8 @@
     },
     "heat": 95,
     "heat_signals": {
-      "reports": 6,
-      "domains": 6,
+      "reports": 7,
+      "domains": 7,
       "x_posts_7d": 1584,
       "x_spike_7d": 1584.0
     },
@@ -466,8 +1382,9 @@
     "date": "2026-11-13",
     "meta": "",
     "bullets": [
-      "TechCrunch 报道一项新研究称，中国目前最先进的一批 AI 模型是在受美国出口禁令限制的英伟达芯片上训练出来的。",
-      "文章据此讨论这对出口管制执行力和英伟达的意味；目前公开报道以这一则调查为主，细节仍有待更多独立核验。"
+      "TechCrunch 等报道称，有研究显示中国最强一批 AI 模型训练用上了受出口禁令限制的英伟达芯片。",
+      "The Decoder 称前 OpenAI 研究员 Will DePue 从已发布模型权重中提取芯片特征，指 DeepSeek、月之暗面、MiniMax 和蚂蚁集团自 2026 年 4 月以来的六个模型带有 Blackwell 签名，并估计五次训练的硬件成本超过 5 亿美元。",
+      "DePue 称 OpenAI 与 Anthropic 的资深研究员已复核该方法；较早模型如 DeepSeek-V3、Kimi K2.5 则显示 Hopper 一代痕迹。这仍是一项外部取证研究，不是官方确认。"
     ],
     "links": [
       {
@@ -476,22 +1393,29 @@
         "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen",
         "date": "2026-11-13",
         "same_event": true
+      },
+      {
+        "label": "The Decoder",
+        "title": "Former OpenAI researcher says he found Nvidia Blackwell fingerprints hidden inside six Chinese AI models",
+        "url": "https://the-decoder.com/former-openai-researcher-says-he-found-nvidia-blackwell-fingerprints-hidden-inside-six-chinese-ai-models",
+        "date": "2026-11-13",
+        "same_event": true
       }
     ],
     "score_parts": {
       "industry": 82,
       "actionable": 25,
       "breadth": 75,
-      "heat": 35
+      "heat": 46
     },
-    "heat": 35,
+    "heat": 46,
     "heat_signals": {
-      "reports": 1,
-      "domains": 1,
+      "reports": 2,
+      "domains": 2,
       "x_posts_7d": 260,
       "x_spike_7d": 87.5
     },
-    "score": 54.8
+    "score": 57.0
   },
   {
     "id": "morn14-goldbach",
@@ -1005,13 +1929,14 @@
   },
   {
     "id": "morn14-kress-profile",
-    "title": "报道：临时执掌英伟达的 Colette Kress，曾把对 OpenAI 的巨额信用担保大幅压缩",
+    "title": "报道：黄仁勋对 OpenAI 等云厂商的巨额芯片采购担保引发内部争议，Kress 曾大幅压缩额度",
     "url": "https://www.aibase.com/news/32301",
     "date": "2026-11-13",
     "meta": "",
     "bullets": [
-      "AIbase 转述 The Information 称，英伟达长期 CFO、现任临时 CEO Colette Kress 曾把对 OpenAI 的约 2500 亿美元信用担保压至约 1000 亿美元，削减超过 1500 亿美元。",
-      "文章据此追问这位「刹车手」会否放缓英伟达在 AI 上的投入。这是人事与风格评论，不是董事会宣布辞职的原文公告。"
+      "The Decoder 援引华尔街日报称，英伟达在黄仁勋任内向云厂商和数据中心开发商提供数十亿美元芯片采购财务担保，其中与 OpenAI 就俄亥俄数据中心洽谈的担保规模约 2500 亿美元，消息公开后股价一度下跌约 5%。",
+      "时任 CFO、现任临时 CEO Colette Kress 质疑担保估值后将承诺砍半；报道并称黄仁勋在内部会议上用「deer in the headlights」形容 Kress。这是对辞职背景的调查报道，不是董事会公告本身。",
+      "AIbase 此前亦转述 The Information，称 Kress 曾把对 OpenAI 的约 2500 亿美元信用担保压至约 1000 亿美元。"
     ],
     "links": [
       {
@@ -1020,22 +1945,36 @@
         "url": "https://www.aibase.com/news/32301",
         "date": "2026-11-13",
         "same_event": true
+      },
+      {
+        "label": "The Decoder",
+        "title": "Jensen Huang's ouster likely traces back to Nvidia's risky business practices more than his personal life",
+        "url": "https://the-decoder.com/jensen-huangs-ouster-likely-traces-back-to-nvidias-risky-business-practices-more-than-his-personal-life",
+        "date": "2026-11-13",
+        "same_event": true
+      },
+      {
+        "label": "TechCrunch",
+        "title": "Jensen Huang didn’t show confidence in his successor, report says",
+        "url": "https://techcrunch.com/2026/11/13/jensen-huang-didnt-show-confidence-in-his-successor-report-says",
+        "date": "2026-11-13",
+        "same_event": true
       }
     ],
     "score_parts": {
       "industry": 55,
       "actionable": 20,
       "breadth": 55,
-      "heat": 30
+      "heat": 52
     },
-    "heat": 30,
+    "heat": 52,
     "heat_signals": {
-      "reports": 1,
-      "domains": 1,
+      "reports": 3,
+      "domains": 3,
       "x_posts_7d": 0,
       "x_spike_7d": null
     },
-    "score": 39.5
+    "score": 43.9
   },
   {
     "id": "eve13-huang-resign",
@@ -1209,6 +2148,13 @@
         "url": "https://ipo.anthropic.com/us",
         "date": "2026-11-12",
         "same_event": true
+      },
+      {
+        "label": "The Decoder",
+        "title": "Anthropic’s IPO is six times oversubscribed and on track to become the largest public offering in history",
+        "url": "https://the-decoder.com/anthropics-ipo-is-six-times-oversubscribed-and-on-track-to-become-the-largest-public-offering-in-history",
+        "date": "2026-11-13",
+        "same_event": true
       }
     ],
     "score_parts": {
@@ -1219,8 +2165,8 @@
     },
     "heat": 75,
     "heat_signals": {
-      "reports": 7,
-      "domains": 6,
+      "reports": 8,
+      "domains": 7,
       "x_posts_7d": 584,
       "x_spike_7d": -841.0
     },
@@ -3739,6 +4685,13 @@
         "url": "https://www.producthunt.com/products/claude",
         "date": "2026-11-13",
         "same_event": true
+      },
+      {
+        "label": "Anthropic",
+        "title": "Introducing Claude Meetings",
+        "url": "https://claude.com/resources/articles/claude-meetings",
+        "date": "2026-11-13",
+        "same_event": true
       }
     ],
     "score_parts": {
@@ -3749,7 +4702,7 @@
     },
     "heat": 95,
     "heat_signals": {
-      "reports": 14,
+      "reports": 15,
       "domains": 9,
       "x_posts_7d": 2136,
       "x_spike_7d": 2113.5
