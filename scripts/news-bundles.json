@@ -24,22 +24,29 @@
         "url": "https://x.com/joshwoodward/status/2121755282326102417",
         "date": "2026-11-15",
         "same_event": true
+      },
+      {
+        "label": "X · Josh Woodward",
+        "title": "Available to all Gemini app users in the USA to start",
+        "url": "https://x.com/joshwoodward/status/2121755283785699376",
+        "date": "2026-11-15",
+        "same_event": true
       }
     ],
     "score_parts": {
       "industry": 62,
       "actionable": 88,
       "breadth": 55,
-      "heat": 41
+      "heat": 47
     },
-    "heat": 41,
+    "heat": 47,
     "heat_signals": {
-      "reports": 2,
+      "reports": 3,
       "domains": 2,
       "x_posts_7d": 624,
       "x_spike_7d": -448.5
     },
-    "score": 64.9
+    "score": 66.1
   },
   {
     "id": "eve15-dram",
@@ -437,7 +444,7 @@
     "id": "morn15-nvidia-shortage",
     "title": "报道：英伟达被指通过资助 AI 初创购买自家 GPU，人为制造供应稀缺",
     "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
-    "date": "2026-11-14",
+    "date": "2026-11-15",
     "meta": "",
     "bullets": [
       "TechPowerUp 等转述一项指控：英伟达通过资助人工智能初创企业购买其 GPU，人为制造供不应求；Hacker News 讨论称相关报道源自《华尔街日报》。",
@@ -458,22 +465,29 @@
         "url": "https://news.ycombinator.com/item?id=50493251",
         "date": "2026-11-14",
         "same_event": true
+      },
+      {
+        "label": "TechSpot",
+        "title": "Nvidia deliberately kept GPU prices high through circular financing deals",
+        "url": "https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html",
+        "date": "2026-11-15",
+        "same_event": true
       }
     ],
     "score_parts": {
       "industry": 82,
       "actionable": 22,
       "breadth": 70,
-      "heat": 46
+      "heat": 57
     },
-    "heat": 46,
+    "heat": 57,
     "heat_signals": {
-      "reports": 2,
-      "domains": 2,
+      "reports": 3,
+      "domains": 3,
       "x_posts_7d": 66,
       "x_spike_7d": 66.0
     },
-    "score": 55.6
+    "score": 57.8
   },
   {
     "id": "morn15-haas-successor",
@@ -1217,9 +1231,9 @@
     "date": "2026-11-15",
     "meta": "",
     "bullets": [
-      "《华尔街日报》报道，黄仁勋建立起一项数十亿美元的业务，通过亚洲合作伙伴网络、远离华盛顿的东南亚数据中心，满足中国客户对美国芯片的需求；产业人士称，受中国客户拉动，马来西亚可能成为仅次于弗吉尼亚的全球第二大数据中心枢纽。",
-      "报道描述马来西亚森美兰新那旺一处占地约 117 个足球场的工地，有中国公司计划在此使用英伟达先进 AI 芯片。WSJ 称，这些东南亚数据中心为中国公司提供了关键算力，并据称为被指称的芯片走私提供了掩护。",
-      "CNN 聚焦 Megaspeed：这家企业在三年内从一家不活跃的中国游戏子公司，变成亚洲最大的前沿美国芯片买家之一，并因涉嫌利用出口管制漏洞而受到美国和新加坡方面审视。Megaspeed 称已配合美国商务部检查并聘请美国律所独立核验合规，否认部分报道缺乏可验证证据。此前 Tom's Hardware 曾转述分析人士关于逾 1.5 吉瓦受限芯片流入中国的说法，同属这一出口管制争议，但不是公司官方结论。"
+      "《华尔街日报》此前报道，黄仁勋搭建东南亚数据中心通道，让中国公司使用英伟达芯片，并据称给走私提供掩护。",
+      "新加坡公司 Megaspeed 周日声明称，被美方怀疑为中国情报人员、并与黄仁勋有关联的 Alice Huang（黄乐）已于 2025 年 8 月离开高管职务；公司称已聘请外部律师开展内部调查，并否认部分关于其供应链的报道有可核实证据。",
+      "BBC 还提到，美国财政部长 Bessent 称多个机构数月来支持将 Megaspeed 列入实体清单，但商务部掌握最终决定权。"
     ],
     "links": [
       {
@@ -1249,22 +1263,50 @@
         "url": "https://www.techmeme.com/261115/p1",
         "date": "2026-11-15",
         "same_event": true
+      },
+      {
+        "label": "BBC",
+        "title": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
+        "url": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo",
+        "date": "2026-11-15",
+        "same_event": true
+      },
+      {
+        "label": "Reuters",
+        "title": "Megaspeed says Alice Huang left company in August 2025",
+        "url": "https://www.reuters.com/business/megaspeed-says-alice-huang-left-company-august-2025-2026-11-15/",
+        "date": "2026-11-15",
+        "same_event": true
+      },
+      {
+        "label": "CNBC",
+        "title": "Megaspeed says Alice Huang left in 2025 as Nvidia probe continues",
+        "url": "https://www.cnbc.com/2026/11/15/megaspeed-alice-huang-probe-nvidia-scandal.html",
+        "date": "2026-11-15",
+        "same_event": true
+      },
+      {
+        "label": "The New York Times",
+        "title": "Megaspeed, Alice Huang and the Nvidia China inquiry",
+        "url": "https://www.nytimes.com/2026/11/15/business/megaspeed-alice-huang-nvidia-china.html",
+        "date": "2026-11-15",
+        "same_event": true
       }
     ],
     "score_parts": {
       "industry": 86,
       "actionable": 20,
       "breadth": 78,
-      "heat": 88
+      "heat": 100
     },
-    "heat": 88,
+    "heat": 100,
     "heat_signals": {
-      "reports": 4,
-      "domains": 4,
+      "reports": 8,
+      "domains": 8,
       "x_posts_7d": 25486,
       "x_spike_7d": 7771.0
     },
-    "score": 65.8
+    "score": 68.2
   },
   {
     "id": "morn15-huang-openmodels",
@@ -2695,7 +2737,7 @@
     "bullets": [
       "TechCrunch 报道，截至周六下午，要求英伟达董事会请回黄仁勋的公开请愿已获得逾 11.5 万个签名；请愿网站称其中包括 5965 名在职员工、1108 名前员工和 63063 名股东。知名签署人包括马斯克、Replit CEO Amjad Masad、Epic Games 的 Tim Sweeney 和 Y Combinator 的 Garry Tan。",
       "请愿组织称签署人担心黄仁勋「在没有实质正当程序的情况下被免职」，要求董事会在独立调查查清事实期间让他回来，并公布调查范围与时间表。Business Insider 称组织方正在清理包括明显伪造在内的签名；该报还提到，内部建议帖的评论数已比周四 WIRED 报道的 1600 多条「增加一倍以上」。",
-      "这是辞职之后的公开与内部请愿进展，不是董事会宣布卸任本身。Altimeter 的 Brad Gerstner 与 Atreides 的 Gavin Barker 周五另致函董事会，呼吁对后续领导层安排采取审慎态度。"
+      "这是辞职之后的公开与内部请愿进展，不是董事会宣布卸任本身。Altimeter 的 Brad Gerstner 与 Atreides 的 Gavin Barker 周五另致函董事会，呼吁对后续领导层安排采取审慎态度。 The Verge 周日还提到，公开请愿有报道称签名已超过 15 万，但真实性难以核实，且出现明显伪造姓名。"
     ],
     "links": [
       {
@@ -3733,7 +3775,7 @@
     },
     "heat": 100,
     "heat_signals": {
-      "reports": 12,
+      "reports": 13,
       "domains": 12,
       "x_posts_7d": 32172,
       "x_spike_7d": 28002.0
@@ -4152,8 +4194,8 @@
     },
     "heat": 100,
     "heat_signals": {
-      "reports": 10,
-      "domains": 8,
+      "reports": 11,
+      "domains": 9,
       "x_posts_7d": 4144,
       "x_spike_7d": 3529.0
     },
@@ -24778,5 +24820,705 @@
       "x_spike_7d": 0
     },
     "score": 39.5
+  },
+  {
+    "id": "morn16-huang-comeback",
+    "title": "消息：黄仁勋已与亲信讨论重返英伟达 CEO，盟友组建「作战室」游说董事会并寻求白宫支持",
+    "url": "https://www.ft.com/content/45383d86-33c4-4d99-86e5-5e058d3567c1",
+    "date": "2026-11-15",
+    "meta": "",
+    "bullets": [
+      "《金融时报》援引消息称，黄仁勋已与亲信讨论重返英伟达首席执行官的可能性；部分硅谷人士和员工试图向董事会施压，盟友还组建「作战室」为其回归游说，并寻求白宫支持。",
+      "路透社、彭博社与 The Verge 均转述了这一报道。The Verge 同时提到，公开请愿「请回黄仁勋」有报道称签名已超过 15 万，但真实性难以核实。",
+      "这与员工和股东请愿、以及财政部长 Bessent 公开主张从外部物色新 CEO，是同一轮人事博弈中的不同消息，并非董事会已宣布他回归。"
+    ],
+    "links": [
+      {
+        "label": "Financial Times",
+        "title": "Jensen Huang discusses comeback as Nvidia CEO with allies",
+        "url": "https://www.ft.com/content/45383d86-33c4-4d99-86e5-5e058d3567c1",
+        "date": "2026-11-15",
+        "same_event": true
+      },
+      {
+        "label": "Reuters",
+        "title": "Jensen Huang discusses comeback as Nvidia CEO with allies, FT reports",
+        "url": "https://www.reuters.com/world/china/jensen-huang-discusses-comeback-nvidia-ceo-with-allies-ft-reports-2026-11-15/",
+        "date": "2026-11-15",
+        "same_event": true
+      },
+      {
+        "label": "Bloomberg",
+        "title": "Huang discusses comeback as Nvidia chief with allies, FT says",
+        "url": "https://www.bloomberg.com/news/articles/2026-11-15/huang-discusses-comeback-as-nvidia-chief-with-allies-ft-says",
+        "date": "2026-11-15",
+        "same_event": true
+      },
+      {
+        "label": "The Verge",
+        "title": "Jensen Huang might be plotting a return and more of the latest Nvidia drama",
+        "url": "https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed",
+        "date": "2026-11-16",
+        "same_event": true
+      },
+      {
+        "label": "The Next Web",
+        "title": "Jensen Huang is discussing a return to Nvidia, FT reports",
+        "url": "https://thenextweb.com/news/jensen-huang-is-discussing-a-return-to-nvidia-ft-reports",
+        "date": "2026-11-16",
+        "same_event": true
+      },
+      {
+        "label": "Techmeme",
+        "title": "Sources: Jensen Huang has discussed a comeback as Nvidia CEO with confidants, as allies form a “war room”",
+        "url": "https://www.techmeme.com/261115/p14",
+        "date": "2026-11-15",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 90,
+      "actionable": 28,
+      "breadth": 88,
+      "heat": 75
+    },
+    "heat": 75,
+    "heat_signals": {
+      "reports": 6,
+      "domains": 6,
+      "x_posts_7d": 1284,
+      "x_spike_7d": -51.0
+    },
+    "score": 68.2
+  },
+  {
+    "id": "morn16-bessent",
+    "title": "美国财长 Bessent 称英伟达应从外部寻找新 CEO，并质疑公司是否为冲营收推动可疑对华芯片销售",
+    "url": "https://www.cnbc.com/2026/11/15/bessent-nvidia-ceo-lutnick-megaspeed.html",
+    "date": "2026-11-15",
+    "meta": "",
+    "bullets": [
+      "财政部长 Scott Bessent 周日在福克斯新闻等节目中表示，英伟达董事会应从公司外部寻找下一任 CEO，并称需要「剧烈重组」；他还质疑英伟达是否曾推动「看似不合法」的芯片销售来抬高收入和利润。",
+      "Bessent 说，若换成银行出现类似合规问题，监管机构会立即介入并撤换多名高管。CNBC 还报道，他两天前曾称多个联邦机构数月来支持将 Megaspeed 列入出口实体清单，但商务部掌握最终决定权。",
+      "Techmeme / 彭博转述称，他还希望在 10 天内得到关于可疑对华销售的答复。Semafor 与 CNBC 称，Bessent 与商务部长 Lutnick 都预计本周随特朗普访华。"
+    ],
+    "links": [
+      {
+        "label": "CNBC",
+        "title": "Bessent calls for ‘dramatic shakeup’ at Nvidia, urges outside CEO",
+        "url": "https://www.cnbc.com/2026/11/15/bessent-nvidia-ceo-lutnick-megaspeed.html",
+        "date": "2026-11-15",
+        "same_event": true
+      },
+      {
+        "label": "Business Insider",
+        "title": "Scott Bessent says Nvidia should look outside the company for a new CEO",
+        "url": "https://www.businessinsider.com/scott-bessent-nvidia-ceo-jensen-huang-replacement-search-2026-11",
+        "date": "2026-11-16",
+        "same_event": true
+      },
+      {
+        "label": "Reuters",
+        "title": "Bessent says Nvidia must go outside company to find new CEO",
+        "url": "https://www.reuters.com/world/bessent-says-nvidia-must-go-outside-company-find-new-ceo-2026-11-15/",
+        "date": "2026-11-15",
+        "same_event": true
+      },
+      {
+        "label": "Bloomberg",
+        "title": "Bessent says Nvidia needs dramatic shakeup after Huang ouster",
+        "url": "https://www.bloomberg.com/news/articles/2026-11-15/bessent-says-nvidia-needs-dramatic-shakeup-after-huang-ouster",
+        "date": "2026-11-15",
+        "same_event": true
+      },
+      {
+        "label": "Techmeme",
+        "title": "Scott Bessent urges Nvidia to hire an outside CEO and wants answers within 10 days",
+        "url": "https://www.techmeme.com/261115/p8",
+        "date": "2026-11-15",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 80,
+      "actionable": 30,
+      "breadth": 75,
+      "heat": 79
+    },
+    "heat": 79,
+    "heat_signals": {
+      "reports": 5,
+      "domains": 5,
+      "x_posts_7d": 1773,
+      "x_spike_7d": 250.5
+    },
+    "score": 64.3
+  },
+  {
+    "id": "morn16-congress-export",
+    "title": "英伟达丑闻后，美国国会推动收紧对华 AI 芯片出口规则",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
+    "date": "2026-11-15",
+    "meta": "",
+    "bullets": [
+      "The Verge 报道，黄仁勋与被怀疑为中国情报人员的商人关系曝光后，美国国会再度推动收紧对华 AI 芯片出口规则。",
+      "参议院少数党领袖 Schumer 已要求黄仁勋和特朗普政府向国会作出说明；参议院银行委员会主席 Tim Scott 也致函黄仁勋和商务部长 Lutnick，要求他们公开作证。",
+      "此前在众议院提出、参议院搁置的 Remote Access Security Act 等议案重新受到关注；议长 Mike Johnson 对路透社表示，国会在限制对华高端 AI 芯片出口上「共识在增加」。"
+    ],
+    "links": [
+      {
+        "label": "The Verge",
+        "title": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
+        "date": "2026-11-15",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 82,
+      "actionable": 45,
+      "breadth": 78,
+      "heat": 40
+    },
+    "heat": 40,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 916,
+      "x_spike_7d": 436.0
+    },
+    "score": 62.1
+  },
+  {
+    "id": "morn16-pax-silica",
+    "title": "报道：美国与 Pax Silica 盟友同意制定联合清单，保护 AI 技术与供应链不被中国获取",
+    "url": "https://www.ft.com/content/3c2197fc-9618-4838-91e6-522ce1a96a22",
+    "date": "2026-11-15",
+    "meta": "",
+    "bullets": [
+      "《金融时报》报道，美国与 Pax Silica 盟友（包括日本、英国和印度等）同意制定一份联合清单，保护 AI 技术与供应链不被中国获取。",
+      "彭博社与 Techmeme 均转述了这一协议。这是盟友层面对 AI 供应链安全的协调，而不是某一家公司的产品发布。",
+      "具体清单范围与实施时间表尚未在公开报道中全部披露。"
+    ],
+    "links": [
+      {
+        "label": "Financial Times",
+        "title": "US and allies agree to guard AI technologies and supply chains from China",
+        "url": "https://www.ft.com/content/3c2197fc-9618-4838-91e6-522ce1a96a22",
+        "date": "2026-11-15",
+        "same_event": true
+      },
+      {
+        "label": "Bloomberg",
+        "title": "US allies agree to guard AI supply chains from China, FT says",
+        "url": "https://www.bloomberg.com/news/articles/2026-11-15/us-allies-agree-to-guard-ai-supply-chains-from-china-ft-says",
+        "date": "2026-11-15",
+        "same_event": true
+      },
+      {
+        "label": "Techmeme",
+        "title": "The US and Pax Silica allies, including Japan, the UK, and India, agree to create a joint list",
+        "url": "https://www.techmeme.com/261115/p12",
+        "date": "2026-11-15",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 74,
+      "actionable": 42,
+      "breadth": 72,
+      "heat": 52
+    },
+    "heat": 52,
+    "heat_signals": {
+      "reports": 3,
+      "domains": 3,
+      "x_posts_7d": 171,
+      "x_spike_7d": -39.0
+    },
+    "score": 59.8
+  },
+  {
+    "id": "morn16-taiwan-smuggle",
+    "title": "消息：英伟达在经理人因芯片走私被起诉后向台湾官员求助，台积电拒绝介入",
+    "url": "https://www.bloomberg.com/news/articles/2026-11-15/nvidia-sought-taipei-s-help-over-employee-s-chip-smuggling-case",
+    "date": "2026-11-15",
+    "meta": "",
+    "bullets": [
+      "彭博社 Mackenzie Hawkins 报道，英伟达在其经理人因芯片走私被起诉后，向台湾官员求助，并征求台积电意见。",
+      "报道称台积电拒绝介入。The Next Web 与 Techmeme 转述了这一消息。",
+      "这是走私案件的后续进展，与黄仁勋讨论回归、或 Megaspeed 的公司声明不是同一件事。"
+    ],
+    "links": [
+      {
+        "label": "Bloomberg",
+        "title": "Nvidia sought Taipei’s help over employee’s chip smuggling case",
+        "url": "https://www.bloomberg.com/news/articles/2026-11-15/nvidia-sought-taipei-s-help-over-employee-s-chip-smuggling-case",
+        "date": "2026-11-15",
+        "same_event": true
+      },
+      {
+        "label": "The Next Web",
+        "title": "Nvidia pressed Taiwan officials over its indicted manager",
+        "url": "https://thenextweb.com/news/nvidia-taiwan-officials-indicted-manager-smuggling",
+        "date": "2026-11-15",
+        "same_event": true
+      },
+      {
+        "label": "Techmeme",
+        "title": "Sources: Nvidia appealed to Taiwanese officials after its manager was charged over chip smuggling",
+        "url": "https://www.techmeme.com/261115/p13",
+        "date": "2026-11-15",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 62,
+      "actionable": 25,
+      "breadth": 50,
+      "heat": 52
+    },
+    "heat": 52,
+    "heat_signals": {
+      "reports": 3,
+      "domains": 3,
+      "x_posts_7d": 221,
+      "x_spike_7d": 26.0
+    },
+    "score": 47.7
+  },
+  {
+    "id": "morn16-apple-glasses",
+    "title": "消息：苹果首款 Siri AI 智能眼镜拟于 2027 年 WWDC 发布、年底前出货，不含 AR 功能",
+    "url": "https://www.theverge.com/tech/1033968/apples-first-smart-glasses-are-coming-together",
+    "date": "2026-11-15",
+    "meta": "",
+    "bullets": [
+      "The Verge 援引彭博社 Mark Gurman 报道，苹果首款智能眼镜计划在 2027 年 6 月的 WWDC 发布，并在同年年底前开始出货；首款机型将没有增强现实功能。",
+      "关键依赖是正在加强应用细粒度控制的新版 Siri AI：苹果希望先在 iPhone 上让开发者完成适配，再让眼镜上市时就能调用第三方应用。",
+      "原型机代号 N50，运行精简版 visionOS，处理器基于较旧的 Apple Watch 芯片；具备 Wi-Fi，部分功能可在离开 iPhone 后继续，但不是完全独立设备。Mac Rumors 与 Techmeme 也做了转述。"
+    ],
+    "links": [
+      {
+        "label": "The Verge",
+        "title": "Apple’s first smart glasses are coming together",
+        "url": "https://www.theverge.com/tech/1033968/apples-first-smart-glasses-are-coming-together",
+        "date": "2026-11-15",
+        "same_event": true
+      },
+      {
+        "label": "Mac Rumors",
+        "title": "Apple's Smart Glasses Strategy Hinges on Siri and iPhone Apps",
+        "url": "https://www.macrumors.com/2026/11/15/apple-smart-glasses-hinge-on-siri",
+        "date": "2026-11-15",
+        "same_event": true
+      },
+      {
+        "label": "Techmeme",
+        "title": "Sources: Apple plans to unveil smart glasses at WWDC and ship them by the end of 2027",
+        "url": "https://www.techmeme.com/261115/p10",
+        "date": "2026-11-15",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 70,
+      "actionable": 35,
+      "breadth": 80,
+      "heat": 57
+    },
+    "heat": 57,
+    "heat_signals": {
+      "reports": 3,
+      "domains": 3,
+      "x_posts_7d": 148,
+      "x_spike_7d": 148.0
+    },
+    "score": 57.9
+  },
+  {
+    "id": "morn16-alpha-school",
+    "title": "报道：年费最高 7.5 万美元的 Alpha AI 学校，K-8 约半数学生未达到数学「两倍速」目标",
+    "url": "https://fortune.com/2026/11/14/alpha-school-ai-students-tuition-learning-goals/",
+    "date": "2026-11-15",
+    "meta": "",
+    "bullets": [
+      "《财富》报道，主打「每天两小时学业、学习速度达到同龄人两倍」的 Alpha School 年费最高约 7.5 万美元；其内部数据显示，只有 42% 的学生在数学和阅读上都达到了 2 倍速目标。",
+      "数学缺口更大：K-8 私立校区约半数学生未达到数学两倍速目标，约五分之一未达到阅读目标。起步落后的学生表现更差。",
+      "该网络已扩展到约 50 个校区、约 1500 名学生，并在向公立学校推广其 TimeBack AI 辅导软件，目前约有 2600 名公立校学生在使用。"
+    ],
+    "links": [
+      {
+        "label": "Fortune",
+        "title": "Wealthy parents pay $75,000 for Alpha’s two-hour AI school day. Half of its K-8 students missed the math target",
+        "url": "https://fortune.com/2026/11/14/alpha-school-ai-students-tuition-learning-goals/",
+        "date": "2026-11-15",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 55,
+      "actionable": 40,
+      "breadth": 55,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 57,
+      "x_spike_7d": 19.5
+    },
+    "score": 45.5
+  },
+  {
+    "id": "morn16-lutnick",
+    "title": "Semafor：商务部长 Lutnick 将随特朗普访华，其放缓对华芯片限制的做法正受到党内施压",
+    "url": "https://www.semafor.com/article/11/15/2026/under-pressure-lutnick-joins-trump-in-china",
+    "date": "2026-11-15",
+    "meta": "",
+    "bullets": [
+      "Semafor 报道，特朗普定于周三抵达中国，在 APEC 期间会见习近平和普京；商务部长 Lutnick 与财政部长 Bessent 都预计同行。",
+      "报道称，Lutnick 因放缓对部分对华 AI 芯片出口限制、以及与黄仁勋关系密切而成为指责对象；有共和党人警告其职位可能不保。Bessent 称财政部数月来推动将 Megaspeed 列入黑名单，但商务部掌握最终决定权。",
+      "一名美国高官对记者表示，英伟达丑闻「不应真正影响此行」，也不预期会成为与中方会谈的内容。这与 Bessent 周日接受采访时的表态相关，但是关于访华行程与商务部压力的单独报道。"
+    ],
+    "links": [
+      {
+        "label": "Semafor",
+        "title": "Under pressure, Lutnick joins Trump in China",
+        "url": "https://www.semafor.com/article/11/15/2026/under-pressure-lutnick-joins-trump-in-china",
+        "date": "2026-11-15",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 62,
+      "actionable": 22,
+      "breadth": 58,
+      "heat": 35
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 4782,
+      "x_spike_7d": 184.5
+    },
+    "score": 44.2
+  },
+  {
+    "id": "morn16-economist-ipo",
+    "title": "《经济学人》：Anthropic 大规模 IPO 给 OpenAI 带来压力",
+    "url": "https://www.economist.com/business/2026/11/15/anthropics-giant-ipo-puts-the-heat-on-openai",
+    "date": "2026-11-15",
+    "meta": "",
+    "bullets": [
+      "《经济学人》发表评论，认为 Anthropic 规模巨大的 IPO 正在给 OpenAI 带来竞争压力。",
+      "这是对已在进行的 Anthropic IPO 的行业评论，不是新的招股或定价公告，因此单独成束。",
+      "全文为付费报道，公开可见的是上述判断；更细的财务对比需以原文为准。"
+    ],
+    "links": [
+      {
+        "label": "The Economist",
+        "title": "Anthropic’s giant IPO puts the heat on OpenAI",
+        "url": "https://www.economist.com/business/2026/11/15/anthropics-giant-ipo-puts-the-heat-on-openai",
+        "date": "2026-11-15",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 58,
+      "actionable": 22,
+      "breadth": 62,
+      "heat": 35
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 1043,
+      "x_spike_7d": 53.0
+    },
+    "score": 43.0
+  },
+  {
+    "id": "morn16-tc-security",
+    "title": "TechCrunch：英伟达安全负责人今年 8 月已离职，前情报官员认为此类关系风险是企业安全团队的盲区",
+    "url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
+    "date": "2026-11-15",
+    "meta": "",
+    "bullets": [
+      "TechCrunch 评论写道，英伟达长期安全负责人兼产品安全主管已于今年 8 月离职，外界当时几乎没有注意。",
+      "文章将此事与黄仁勋后来因婚外关系（包括与 Megaspeed 高管，以及据报与两名英伟达员工）辞职联系起来，并引述前情报官员的观点：这类泄露往往发生在日常交谈中，大多数企业安全团队并不擅长发现。",
+      "这是对已发生丑闻的事后评论，不是新的官方调查结论。"
+    ],
+    "links": [
+      {
+        "label": "TechCrunch",
+        "title": "Where was Nvidia’s security team?",
+        "url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
+        "date": "2026-11-14",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 48,
+      "actionable": 40,
+      "breadth": 42,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": null
+    },
+    "score": 41.4
+  },
+  {
+    "id": "morn16-waytoagi-skill-anim",
+    "title": "WayToAGI：作者开源一个 Skill，用一句话让 AI 写代码生成产品爆炸动画",
+    "url": "https://waytoagi.feishu.cn/wiki/BVR4wFZTtiJWcwkeKzacpumwn0f?from=from_copylink",
+    "date": "2026-11-16",
+    "meta": "",
+    "bullets": [
+      "WayToAGI 社区更新中，作者介绍并开源了一个 Skill，称可以用一句话让 AI 用代码手搓产品爆炸动画。",
+      "这是个人开源分享，不是模型厂商的正式产品发布。",
+      "具体用法与效果需看原文和仓库说明。"
+    ],
+    "links": [
+      {
+        "label": "WayToAGI",
+        "title": "我开源了一个 Skill，一句话让 AI 用代码手搓任何产品爆炸动画。",
+        "url": "https://waytoagi.feishu.cn/wiki/BVR4wFZTtiJWcwkeKzacpumwn0f?from=from_copylink",
+        "date": "2026-11-16",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 35,
+      "actionable": 55,
+      "breadth": 30,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": null
+    },
+    "score": 39.5
+  },
+  {
+    "id": "morn16-waytoagi-hallucination",
+    "title": "WayToAGI：从 token 层面解释大语言模型为什么会产生幻觉",
+    "url": "https://waytoagi.feishu.cn/wiki/QrDJwevdBidTmbkYDq1cWCADn0b?from=from_copylink",
+    "date": "2026-11-16",
+    "meta": "",
+    "bullets": [
+      "WayToAGI 社区更新刊发一篇解释文章，试图从 token 层面说明大语言模型为何会产生幻觉。",
+      "这是科普/评论文章，不是新的模型或评测结果发布。",
+      "具体论证和例子需看原文。"
+    ],
+    "links": [
+      {
+        "label": "WayToAGI",
+        "title": "为什么大语言模型会产生幻觉？——token 层面的解释",
+        "url": "https://waytoagi.feishu.cn/wiki/QrDJwevdBidTmbkYDq1cWCADn0b?from=from_copylink",
+        "date": "2026-11-16",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 40,
+      "actionable": 50,
+      "breadth": 45,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": null
+    },
+    "score": 41.5
+  },
+  {
+    "id": "morn16-waytoagi-papers",
+    "title": "WayToAGI：整理 11 月 9 日至 15 日的本周顶级 AI 论文",
+    "url": "https://waytoagi.feishu.cn/wiki/BizswjaO7irZ7gkMuhyce8oqnUc?from=from_copylink",
+    "date": "2026-11-16",
+    "meta": "",
+    "bullets": [
+      "WayToAGI 社区更新发布「11.9—11.15｜本周顶级 AI 论文」综述，汇总过去一周值得关注的论文。",
+      "这是周报式汇编，不是单篇论文或模型的官方发布。",
+      "入选篇目与点评以原文为准。"
+    ],
+    "links": [
+      {
+        "label": "WayToAGI",
+        "title": "11.9—11.15｜本周顶级 AI 论文",
+        "url": "https://waytoagi.feishu.cn/wiki/BizswjaO7irZ7gkMuhyce8oqnUc?from=from_copylink",
+        "date": "2026-11-16",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 40,
+      "actionable": 45,
+      "breadth": 40,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": null
+    },
+    "score": 39.5
+  },
+  {
+    "id": "morn16-waytoagi-entertainment",
+    "title": "WayToAGI：从「造世界」到「做搭子」，一个老玩家眼里的 AI 娱乐终局",
+    "url": "https://waytoagi.feishu.cn/wiki/YQp7wmQNRi93pikyZgycpCPrnre?from=from_copylink",
+    "date": "2026-11-16",
+    "meta": "",
+    "bullets": [
+      "WayToAGI 社区更新刊发一篇评论，讨论 AI 娱乐可能从「造世界」走向「做搭子」。",
+      "这是个人观点文章，不是产品或模型发布。",
+      "论证与案例需看原文。"
+    ],
+    "links": [
+      {
+        "label": "WayToAGI",
+        "title": "从“造世界”到“做搭子”：一个老玩家眼里的AI娱乐终局",
+        "url": "https://waytoagi.feishu.cn/wiki/YQp7wmQNRi93pikyZgycpCPrnre?from=from_copylink",
+        "date": "2026-11-16",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 32,
+      "actionable": 25,
+      "breadth": 35,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": null
+    },
+    "score": 29.8
+  },
+  {
+    "id": "morn16-waytoagi-grokbot-fable",
+    "title": "WayToAGI：如何用 Grok Bot 与 Fable 5.2 赚钱的完整指南",
+    "url": "https://waytoagi.feishu.cn/wiki/YG94wGR1mi65jykc6gtciMLCnxf?from=from_copylink",
+    "date": "2026-11-15",
+    "meta": "",
+    "bullets": [
+      "WayToAGI 社区发布一篇教程，介绍如何用 Grok Bot 与 Fable 5.2 赚钱。",
+      "这是操作指南，不是官方新功能发布。",
+      "步骤与案例需看原文。"
+    ],
+    "links": [
+      {
+        "label": "WayToAGI",
+        "title": "如何用 Grok Bot + Fable 5.2 赚钱（完整指南）",
+        "url": "https://waytoagi.feishu.cn/wiki/YG94wGR1mi65jykc6gtciMLCnxf?from=from_copylink",
+        "date": "2026-11-15",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 28,
+      "actionable": 50,
+      "breadth": 28,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": null
+    },
+    "score": 35.0
+  },
+  {
+    "id": "morn16-waytoagi-hermes",
+    "title": "WayToAGI：基于 Hermes 打造企业级 Agent OS 的实践介绍",
+    "url": "https://waytoagi.feishu.cn/wiki/Bf8zwkbKmiXT6Uk5cubcF2Crnqh?from=from_copylink",
+    "date": "2026-11-15",
+    "meta": "",
+    "bullets": [
+      "WayToAGI 社区更新介绍如何基于 Hermes 打造企业级 Agent OS。",
+      "这是实践/教程分享，不是 Hermes 官方的新版本公告。",
+      "架构与步骤需看原文。"
+    ],
+    "links": [
+      {
+        "label": "WayToAGI",
+        "title": "基于 Hermes 打造企业级 Agent OS",
+        "url": "https://waytoagi.feishu.cn/wiki/Bf8zwkbKmiXT6Uk5cubcF2Crnqh?from=from_copylink",
+        "date": "2026-11-15",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 38,
+      "actionable": 52,
+      "breadth": 32,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": null
+    },
+    "score": 40.0
+  },
+  {
+    "id": "morn16-waytoagi-video-model",
+    "title": "WayToAGI：作者实测 13 条片子，评测所称「全球第二」的新视频模型",
+    "url": "https://waytoagi.feishu.cn/wiki/CeIgwWickirFupkJg1qcBst5nwh?from=from_copylink",
+    "date": "2026-11-14",
+    "meta": "",
+    "bullets": [
+      "WayToAGI 社区更新中，作者称「全球第二的视频模型来了」，并一口气实测了 13 条片子。",
+      "这是个人评测，不是模型官方发布公告；具体模型名称与对比结论以原文为准。",
+      "原文托管在飞书，抓取时未能稳定打开全文。"
+    ],
+    "links": [
+      {
+        "label": "WayToAGI",
+        "title": "全球第二的视频模型来了！我一口气实测了13条片子",
+        "url": "https://waytoagi.feishu.cn/wiki/CeIgwWickirFupkJg1qcBst5nwh?from=from_copylink",
+        "date": "2026-11-14",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 42,
+      "actionable": 40,
+      "breadth": 35,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": null
+    },
+    "score": 38.3
   }
 ]
