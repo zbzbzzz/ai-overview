@@ -1,0 +1,1032 @@
+<!DOCTYPE html>
+<!-- cache-bust: hide-repo-section -->
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AI 速览 · 2026-11-17</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@500;600;700&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet" />
+  <style>
+
+:root {
+  --snow: #FFFFFF;
+  --ice: #EAF3FB;
+  --mist: #C8DCEF;
+  --navy: #0A3558;
+  --sky: #1A7AB8;
+  --aqua: #3B9BD4;
+  --ink: #1E3348;
+  --mute: #5A7085;
+  --soft: #F5F9FC;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { color-scheme: light; }
+body {
+  background: var(--snow);
+  background-image:
+    radial-gradient(ellipse 80% 40% at 10% -10%, #D9ECF8 0%, transparent 55%),
+    radial-gradient(ellipse 60% 30% at 100% 0%, #EAF3FB 0%, transparent 50%);
+  background-attachment: fixed;
+  color: var(--ink);
+  font-family: "Manrope", "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", system-ui, sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+a { color: var(--navy); text-decoration-thickness: 1px; text-underline-offset: 0.16em; }
+a:hover { color: var(--sky); }
+a:focus-visible {
+  outline: 2px solid var(--sky);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+.wrap {
+  width: min(44rem, calc(100% - 1.75rem));
+  margin: 0 auto;
+  padding: 1.75rem 0 3.5rem;
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+  gap: 1.15rem;
+  margin-bottom: 1.35rem;
+}
+.hero-top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 0.75rem 1.25rem;
+}
+.badge-date {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.45rem;
+  padding: 0.35rem 0.7rem;
+  background: var(--ice);
+  border: 1px solid var(--mist);
+  border-radius: 999px;
+  color: var(--navy);
+  font-size: 0.8125rem;
+  font-weight: 600;
+}
+.badge-date .dot {
+  width: 0.45rem; height: 0.45rem;
+  border-radius: 50%;
+  background: var(--aqua);
+  display: inline-block;
+}
+h1 {
+  font-family: "Source Serif 4", "Noto Serif SC", Georgia, serif;
+  font-weight: 600;
+  font-size: clamp(1.65rem, 4.5vw, 2.15rem);
+  line-height: 1.2;
+  color: var(--navy);
+  letter-spacing: -0.02em;
+}
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 0.85rem;
+  font-size: 0.875rem;
+  font-weight: 650;
+}
+.nav a {
+  text-decoration: none;
+  padding: 0.35rem 0.75rem;
+  background: var(--snow);
+  border: 1px solid var(--mist);
+  border-radius: 999px;
+  color: var(--navy);
+}
+.nav a:hover { background: var(--ice); border-color: var(--aqua); }
+
+
+.repo-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0.85rem 0 0.15rem;
+}
+.repo-tab {
+  appearance: none;
+  border: 1px solid var(--mist);
+  background: var(--snow);
+  color: var(--navy);
+  font: inherit;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  padding: 0.38rem 0.78rem;
+  border-radius: 999px;
+  cursor: pointer;
+  line-height: 1.2;
+}
+.repo-tab:hover { background: var(--ice); border-color: var(--aqua); }
+.repo-tab[aria-selected="true"] {
+  background: var(--navy);
+  border-color: var(--navy);
+  color: #fff;
+}
+.repo-tab .cnt {
+  font-weight: 650;
+  opacity: 0.75;
+  margin-left: 0.2rem;
+}
+.repo-panel[hidden] { display: none !important; }
+.news-tabs { margin: 0.35rem 0 0.15rem; }
+.news-panel[hidden] { display: none !important; }
+.news-panel .section-meta { display: block; margin-top: 0.55rem; }
+.news-empty {
+  margin-top: 0.85rem;
+  padding: 1rem 1.1rem;
+  background: var(--ice);
+  border: 1px dashed var(--mist);
+  border-radius: 12px;
+  color: var(--mute);
+  font-size: 0.9rem;
+}
+.repo-panel .cards { margin-top: 0.85rem; }
+.repo-empty {
+  margin-top: 0.85rem;
+  padding: 1rem 1.1rem;
+  background: var(--ice);
+  border: 1px dashed var(--mist);
+  border-radius: 12px;
+  color: var(--mute);
+  font-size: 0.9rem;
+}
+
+.cards {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1.15rem;
+}
+.card {
+  background: var(--ice);
+  border: 1px solid var(--mist);
+  border-radius: 16px;
+  padding: 1.15rem 1.2rem 1.2rem;
+  position: relative;
+}
+.card::before {
+  content: "";
+  position: absolute;
+  left: 0; top: 1rem; bottom: 1rem;
+  width: 3px;
+  background: var(--navy);
+  border-radius: 0 2px 2px 0;
+}
+.card-head {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.85rem;
+  padding-left: 0.35rem;
+}
+.rank {
+  flex: 0 0 auto;
+  width: 2.55rem;
+  height: 2.55rem;
+  display: grid;
+  place-items: center;
+  background: var(--snow);
+  border: 1.5px solid var(--navy);
+  border-radius: 10px;
+  font-family: "Source Serif 4", Georgia, serif;
+  font-weight: 650;
+  font-size: 1.05rem;
+  color: var(--navy);
+  font-variant-numeric: tabular-nums;
+}
+.card-title { min-width: 0; flex: 1; }
+.name {
+  font-size: 1.12rem;
+  font-weight: 700;
+  color: var(--navy);
+  text-decoration: none;
+  word-break: break-word;
+  letter-spacing: -0.01em;
+}
+.name:hover { color: var(--sky); text-decoration: underline; }
+.meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.45rem 0.75rem;
+  margin-top: 0.4rem;
+}
+.lang {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.78rem;
+  font-weight: 650;
+  color: var(--navy);
+  background: var(--snow);
+  border: 1px solid var(--mist);
+  border-radius: 999px;
+  padding: 0.15rem 0.55rem 0.15rem 0.4rem;
+}
+.lang i {
+  width: 0.55rem; height: 0.55rem;
+  border-radius: 50%;
+  display: inline-block;
+}
+.pill {
+  font-size: 0.75rem;
+  font-weight: 650;
+  color: var(--mute);
+  font-variant-numeric: tabular-nums;
+}
+.pill strong { color: var(--ink); font-weight: 700; }
+.pill.week strong { color: var(--sky); }
+.purpose {
+  margin: 0.95rem 0 0;
+  padding: 0.75rem 0.85rem;
+  background: var(--snow);
+  border: 1px dashed var(--mist);
+  border-radius: 12px;
+}
+.purpose-label {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--sky);
+  margin-bottom: 0.55rem;
+}
+.purpose-label .tag {
+  background: #DFF0FA;
+  color: var(--navy);
+  border: 1px solid var(--mist);
+  border-radius: 6px;
+  padding: 0.12rem 0.45rem;
+  font-size: 0.75rem;
+}
+.flow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem;
+}
+.flow .step {
+  background: var(--ice);
+  border: 1px solid var(--mist);
+  color: var(--navy);
+  font-size: 0.75rem;
+  font-weight: 650;
+  padding: 0.28rem 0.55rem;
+  border-radius: 8px;
+}
+.flow .arrow {
+  color: var(--aqua);
+  font-weight: 700;
+  font-size: 0.85rem;
+  line-height: 1;
+}
+.diagram {
+  margin-top: 0.15rem;
+  width: 100%;
+  overflow-x: auto;
+}
+.intro {
+  margin-top: 0.7rem;
+  font-size: 0.9rem;
+  color: var(--ink);
+  line-height: 1.5;
+  max-width: 40em;
+  padding-left: 0.35rem;
+}
+.news-note {
+  margin-top: 0.55rem;
+  padding-left: 1.05rem;
+  font-size: 0.84rem;
+  color: var(--ink);
+  line-height: 1.55;
+}
+.news-note li { margin: 0.2rem 0; }
+.news-note li::marker { color: var(--sky); }
+.bar-block {
+  margin-top: 0.9rem;
+  padding-left: 0.35rem;
+}
+.bar-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0.35rem;
+  font-size: 0.72rem;
+  font-weight: 650;
+  color: var(--mute);
+}
+.bar-head .v { color: var(--sky); font-variant-numeric: tabular-nums; }
+.bar-track {
+  height: 0.65rem;
+  background: #D6E7F5;
+  border: 1px solid var(--mist);
+  border-radius: 999px;
+  overflow: hidden;
+}
+.bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #7BC0E6, #1A7AB8);
+  border-radius: 999px;
+}
+.foot {
+  margin-top: 1.75rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--mist);
+  font-size: 0.8125rem;
+  color: var(--mute);
+}
+.foot a { font-weight: 700; }
+@media (max-width: 520px) {
+  .card { padding: 1rem; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .card { transition: border-color 0.15s ease, background 0.15s ease; }
+  .card:hover { border-color: var(--aqua); background: #E3F0FA; }
+}
+
+.section {
+  margin-top: 0.35rem;
+  margin-bottom: 1.5rem;
+}
+.section-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.4rem 1rem;
+  margin-bottom: 0.75rem;
+}
+.section-head h2 {
+  font-family: "Source Serif 4", "Noto Serif SC", Georgia, serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: var(--navy);
+  letter-spacing: -0.01em;
+}
+.section-meta {
+  font-size: 0.75rem;
+  color: var(--mute);
+  font-weight: 600;
+}
+.news-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+.news-card {
+  background: var(--snow);
+  border: 1px solid var(--mist);
+  border-radius: 14px;
+  padding: 0.85rem 1rem;
+}
+.news-card-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 0.4rem 0.55rem;
+}
+.news-card a.title {
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--navy);
+  text-decoration: none;
+  line-height: 1.4;
+  flex: 1 1 12rem;
+  min-width: 0;
+}
+.news-card a.title:hover { color: var(--sky); text-decoration: underline; }
+.badge-focus {
+  display: inline-flex;
+  align-items: center;
+  flex: 0 0 auto;
+  padding: 0.12rem 0.5rem;
+  border-radius: 999px;
+  background: #DFF0FA;
+  border: 1px solid var(--mist);
+  color: var(--navy);
+  font-size: 0.7rem;
+  font-weight: 750;
+  letter-spacing: 0.02em;
+  line-height: 1.3;
+}
+.news-meta {
+  margin-top: 0.3rem;
+  font-size: 0.72rem;
+  font-weight: 650;
+  color: var(--sky);
+}
+.section-divider {
+  height: 1px;
+  background: var(--mist);
+  margin: 1.35rem 0 0.25rem;
+  border: 0;
+}
+.news-list.is-collapsed .news-card.news-extra { display: none; }
+.cards.is-collapsed .card.repo-extra { display: none; }
+.news-toggle-wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.85rem;
+}
+.news-toggle {
+  appearance: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  color: var(--navy);
+  background: var(--snow);
+  border: 1px solid var(--mist);
+  border-radius: 999px;
+  padding: 0.45rem 1.1rem;
+  line-height: 1.3;
+}
+.news-toggle:hover {
+  background: var(--ice);
+  border-color: var(--aqua);
+  color: var(--sky);
+}
+.news-toggle:focus-visible {
+  outline: 2px solid var(--sky);
+  outline-offset: 3px;
+}
+.news-related {
+  margin-top: 0.45rem;
+  font-size: 0.75rem;
+  color: var(--mute);
+  line-height: 1.45;
+}
+.news-related summary {
+  cursor: pointer;
+  font-weight: 700;
+  color: var(--sky);
+  list-style: none;
+}
+.news-related summary::-webkit-details-marker { display: none; }
+.news-related summary::before {
+  content: "▸ ";
+  color: var(--aqua);
+}
+.news-related[open] summary::before { content: "▾ "; }
+.news-related ul {
+  list-style: none;
+  margin: 0.35rem 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+.news-related a {
+  color: var(--navy);
+  font-weight: 650;
+  text-decoration: none;
+}
+.news-related a:hover { color: var(--sky); text-decoration: underline; }
+.news-related .src {
+  color: var(--mute);
+  font-weight: 600;
+  margin-right: 0.35rem;
+}
+
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="hero">
+      <div class="hero-top">
+        <div>
+          <div class="badge-date"><span class="dot" aria-hidden="true"></span>2026-11-17 · 周二</div>
+          <h1>AI 速览</h1>
+        </div>
+        <nav class="nav" aria-label="站点导航">
+          <a href="history.html" target="_blank" rel="noopener noreferrer">往期速览</a>
+          <a href="https://github.com/trending?since=weekly" target="_blank" rel="noopener noreferrer">GitHub Trending</a>
+        </nav>
+      </div>
+    </header>
+
+    <section class="section" aria-labelledby="news-heading">
+      <div class="section-head">
+        <h2 id="news-heading">本周 AI 资讯</h2>
+      </div>
+      <div class="repo-tabs news-tabs" id="news-tabs" role="tablist" aria-label="资讯时间窗">
+        <button type="button" class="repo-tab news-tab" role="tab" id="news-tab-24h" aria-selected="true" aria-controls="news-panel-24h" data-tab-index="0">24 小时</button>
+        <button type="button" class="repo-tab news-tab" role="tab" id="news-tab-7d" aria-selected="false" aria-controls="news-panel-7d" data-tab-index="1">近 7 天</button>
+      </div>
+      <div class="news-panel" role="tabpanel" id="news-panel-24h" aria-labelledby="news-tab-24h">
+        <span class="section-meta">近 24 小时（11-16 06:14 ~ 11-17 06:14）· 按重要度 Top 10 · 雷达 archive · AI 多源 · 候选 55 束 · 资讯束 · 雷达 2026-11-17 02:38 北京时间 · <a href="https://news.learnprompt.pro" target="_blank" rel="noopener noreferrer">news.learnprompt.pro</a> · 默认 3 条（重点） · 可展开至 10 条</span>
+      <ol class="news-list is-collapsed" id="news-list-24h">
+      <li class="news-card">
+        <div class="news-card-head">
+          <a class="title" href="https://qwen.ai/blog?id=qwen4-max" target="_blank" rel="noopener noreferrer">阿里正式发布 Qwen4-Max：2.4T 骨干、百万 token 上下文，官方称单任务成本较 Qwen3.8-Max 降约 62%</a>
+          <span class="badge-focus">重点</span>
+        </div>
+        <div class="news-meta">Qwen · X · Qwen · X · Arena · 另 5 篇报道 · 最新 11-16 16:02</div>
+        <ul class="news-note">
+          <li>通义千问官方宣布正式发布 Qwen4-Max，基于新的 Qwen4 架构：2.4T 骨干参数、每 token 激活 71B，另有 328B N-gram Embedding 参数，具备原生视觉能力与 100 万 token 上下文。官方称预训练过程稳定，全程无 loss spike。</li>
+          <li>官方评测称，相较 Qwen3.8-Max，Work360 上 token 用量约降 24%–35%，Terminal-Bench 4.0 约降 48%–49%，平均单任务成本从 4.43 美元降至 1.67 美元，降幅约 62%。模型已在 QwenCloud 提供 Token Plan 与 API，也可在 QwenWork、Qoder、QwenStudio 使用；官方同时表示 Qwen4 系列更小模型将逐步开源，Qwen4-Max 本身不开放权重。</li>
+          <li>通义千问还援引 Artificial Analysis：Intelligence Index 得 43 分，较 Qwen3.8-Max 高 9 分、落后 Kimi K3.1 Pro 3 分，单任务成本约 3.27 美元。Arena 称其在 Agent Arena 以约 1.47 万次真实会话净提升 7.5%、总榜第 14，成为榜上第一的中国模型，阿里巴巴实验室升至总榜第 5。</li>
+        </ul>
+        <details class="news-related">
+          <summary>另 5 篇报道</summary>
+          <ul>
+            <li><span class="src">X · Qwen</span><a href="https://x.com/Alibaba_Qwen/status/2122174463479542126" target="_blank" rel="noopener noreferrer">通义千问发布 Qwen4 Max，Intelligence Index 较 Qwen3.8 Max 高 9 分且成本更低</a></li>
+            <li><span class="src">X · Arena</span><a href="https://x.com/arena/status/2122153116959482051" target="_blank" rel="noopener noreferrer">Qwen4-Max 登顶 Agent Arena 中国模型榜首，Alibaba 排名升至总榜第14</a></li>
+            <li><span class="src">AIbase</span><a href="https://www.aibase.com/news/32332" target="_blank" rel="noopener noreferrer">阿里千问发布 Qwen4-Max: 以架构升级压低 token 消耗，单任务费用降58%</a></li>
+            <li><span class="src">AIbase</span><a href="https://www.aibase.com/news/32334" target="_blank" rel="noopener noreferrer">千问 AI 平台首发 Qwen4-Max: 以 Token 用量减半、得分升近28% 切入开发者市场</a></li>
+            <li><span class="src">Bloomberg</span><a href="https://www.bloomberg.com/news/articles/2026-11-16/alibaba-unveils-new-flagship-ai-model-in-riposte-to-us-rivals" target="_blank" rel="noopener noreferrer">Alibaba unveils new flagship AI model in riposte to US rivals</a></li>
+          </ul>
+        </details>
+      </li>
+      <li class="news-card">
+        <div class="news-card-head">
+          <a class="title" href="https://hunyuan.tencent.com/research/100145?langVersion=zh" target="_blank" rel="noopener noreferrer">腾讯混元发布 Hy4 flash：224B 总参数、激活 12B，称日常任务成本约为 Hy4 preview 的 1/13</a>
+          <span class="badge-focus">重点</span>
+        </div>
+        <div class="news-meta">腾讯混元 · AIbase · 另 1 篇报道 · 最新 11-16 16:02</div>
+        <ul class="news-note">
+          <li>腾讯混元推出面向日常工作的高性价比模型 Hy4 flash：总参数 224B（含 64B Engram 参数），激活 12B，支持多模态与 1M 上下文。官方给出的 API 价格为每百万 tokens 输入 0.5 元、输出 2 元、缓存命中输入 0.02 元，明显低于 Hy4 的 6 / 18 / 0.3 元。</li>
+          <li>官方称其在自建 WorkIndex 上单任务成本约为 Hy4 preview 的 1/13、Hy4 的 1/20；解码速度超过 150 tps。对 85 名 WorkBuddy 内部用户、259 项日常任务的盲测显示，满意度接近 Claude Haiku 5.5，且任务耗时更短。</li>
+          <li>Hy4 flash 已在腾讯云 TokenHub、WorkBuddy、元宝、企业微信、QQ、ima、Marvis 上线，并计划接入 OpenRouter、开源权重。11 月 30 日前 WorkBuddy 限时免费，TokenHub API 限时五折。官方建议日常办公用 flash，长程软件工程仍用 Hy4。</li>
+        </ul>
+        <details class="news-related">
+          <summary>另 1 篇报道</summary>
+          <ul>
+            <li><span class="src">AIbase</span><a href="https://www.aibase.com/news/32335" target="_blank" rel="noopener noreferrer">腾讯混元发布 Hy4flash:224B 参数、1M 上下文，解码超150tps，单任务成本仅 Hy4preview 的1/13</a></li>
+          </ul>
+        </details>
+      </li>
+      <li class="news-card">
+        <div class="news-card-head">
+          <a class="title" href="https://www.apple.com/newsroom/2026/11/apple-launches-research-study-to-explore-the-use-of-ai-for-health/" target="_blank" rel="noopener noreferrer">苹果联合 OpenEvidence 启动 Apple Health AI Usage Study，计划在美国招募最多 20 万名参与者</a>
+          <span class="badge-focus">重点</span>
+        </div>
+        <div class="news-meta">Apple · TechCrunch · The Verge · 另 4 篇报道 · 最新 11-16 16:02</div>
+        <ul class="news-note">
+          <li>苹果宣布与临床 AI 平台 OpenEvidence 合作，在美国开展 Apple Health AI Usage Study，并推出配套研究应用，考察人们如何使用对话式健康 AI：信任从何而来、回答质量、理解程度，以及这是否改变日常健康行为。研究数据不会用于训练 AI 模型。</li>
+          <li>参与者可向应用询问日常健康问题，查看以浅显语言转述、并附同行评议文献链接的医学信息；也可选择分享心率、活动、睡眠或化验等 HealthKit 数据，观察个性化是否提升相关性。应用设有安全护栏，在识别到某些高风险问题时会建议咨询专业医生。该应用不能诊断或治疗疾病。</li>
+          <li>研究面向最多 20 万名 21 岁及以上的美国用户，需持有支持 Apple Intelligence 的 iPhone（iPhone 15 Pro 或更新机型）并运行 iOS 26 或更高版本。TechCrunch、The Verge 等也做了报道。</li>
+        </ul>
+        <details class="news-related">
+          <summary>另 4 篇报道</summary>
+          <ul>
+            <li><span class="src">TechCrunch</span><a href="https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health" target="_blank" rel="noopener noreferrer">Apple launches new app to study how people use AI for health</a></li>
+            <li><span class="src">The Verge</span><a href="https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools" target="_blank" rel="noopener noreferrer">Apple’s new study looks to improve the effectiveness of AI health tools</a></li>
+            <li><span class="src">AIbase</span><a href="https://www.aibase.com/news/32338" target="_blank" rel="noopener noreferrer">苹果联合OpenEvidence推出健康AI研究应用，计划招募20万名用户</a></li>
+            <li><span class="src">Techmeme</span><a href="https://www.techmeme.com/261115/p27" target="_blank" rel="noopener noreferrer">Apple launches its Health AI Usage Study, with an OpenEvidence-powered app, for up to 200,000 US users</a></li>
+          </ul>
+        </details>
+      </li>
+      <li class="news-card news-extra">
+        <div class="news-card-head">
+          <a class="title" href="https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/" target="_blank" rel="noopener noreferrer">美国商务部发布临时规则：向全球数据中心出口 AI 芯片若可能向受限国家提供算力须申请许可</a>
+          
+        </div>
+        <div class="news-meta">TechCrunch · Techmeme / Bloomberg · 另 1 篇报道 · 最新 11-16 23:02</div>
+        <ul class="news-note">
+          <li>TechCrunch 报道，特朗普政府周一准备推出临时规则：若数据中心可能向中国等受限国家的企业提供算力，出口、再出口或转让 AI 芯片与服务器须申请许可，以堵住通过境外远程访问绕过现有管制的路径。规则针对 D:5 禁运组别，包括中国、俄罗斯、伊朗、朝鲜等。</li>
+          <li>规则适用于可提供超过 1200 万 TPP（约合 750 颗英伟达 H100/H200 的算力上限）的数据中心或网络，并覆盖中间商；出口商和运营商须关注客户股权结构。现有受影响运营商须在规则生效后 90 天内取得许可。电商或社交媒体等商业推荐系统不在此列。</li>
+          <li>对马来西亚、新加坡、印度尼西亚、泰国和巴西，规则还增加了先进芯片出口许可要求，商务部称这些国家「转移风险高于正常水平」；但目的地为美国企业的芯片不受该许可约束。该临时规则同时撤销了拜登政府 2025 年 1 月的 AI Diffusion Rule。Bloomberg 亦有报道，Techmeme 做了汇总。</li>
+        </ul>
+        <details class="news-related">
+          <summary>另 1 篇报道</summary>
+          <ul>
+            <li><span class="src">Techmeme / Bloomberg</span><a href="https://www.techmeme.com/261116/p27" target="_blank" rel="noopener noreferrer">The US Commerce Department issues an interim rule to limit remote access to some AI chips and servers from Singapore, Malaysia, Thailand, Indonesia, and Brazil</a></li>
+          </ul>
+        </details>
+      </li>
+      <li class="news-card news-extra">
+        <div class="news-card-head">
+          <a class="title" href="https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/" target="_blank" rel="noopener noreferrer">FBI 通报开源 AI 渗透测试工具 Artex 被用于入侵，部分攻击不到三小时即可得手</a>
+          
+        </div>
+        <div class="news-meta">TechCrunch · 2026-11-16 · 最新 11-17 01:36</div>
+        <ul class="news-note">
+          <li>TechCrunch 报道，FBI 发布网络安全通告，称黑客正利用开源 AI 渗透测试工具 Artex 等对美国及全球目标发起自主化攻击，涉及金融服务、政府、科技、国防、电信和律所等行业。部分入侵从锁定目标到完成攻陷可在不到三小时内完成。</li>
+          <li>FBI 称 Artex 自 7 月公开以来已被用于攻击韩国金融机构（至少 6.8 万人个人数据被盗，多与缺少多因素认证等薄弱防护有关），并证实微软早前发现：黑客利用该工具侵入 IT 管理公司 ConnectWise，进而进入至少 2250 名客户的 Microsoft 365 环境；微软认为攻击者可能来自中国。Barracuda 也披露了一起相关入侵。</li>
+          <li>Artex 可接入 Anthropic、OpenAI 等托管前沿模型以及开源和非美国模型。开发者在被用于攻击后已将软件转为闭源，但 FBI 称此前的开源版本仍在流传、可被广泛获取。</li>
+        </ul>
+      </li>
+      <li class="news-card news-extra">
+        <div class="news-card-head">
+          <a class="title" href="https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang" target="_blank" rel="noopener noreferrer">「Stand with Jensen」请愿超 11.5 万签名，马斯克、Sweeney、Tan 等联署请英伟达请回黄仁勋</a>
+          
+        </div>
+        <div class="news-meta">TechCrunch · WIRED · AIbase · 另 8 篇报道 · 最新 11-16 10:43</div>
+        <ul class="news-note">
+          <li>TechCrunch 报道，截至周六下午，要求英伟达董事会请回黄仁勋的公开请愿已获得逾 11.5 万个签名；请愿网站称其中包括 5965 名在职员工、1108 名前员工和 63063 名股东。知名签署人包括马斯克、Replit CEO Amjad Masad、Epic Games 的 Tim Sweeney 和 Y Combinator 的 Garry Tan。</li>
+          <li>请愿组织称签署人担心黄仁勋「在没有实质正当程序的情况下被免职」，要求董事会在独立调查查清事实期间让他回来，并公布调查范围与时间表。Business Insider 称组织方正在清理包括明显伪造在内的签名；该报还提到，内部建议帖的评论数已比周四 WIRED 报道的 1600 多条「增加一倍以上」。</li>
+          <li>这是辞职之后的公开与内部请愿进展，不是董事会宣布卸任本身。Altimeter 的 Brad Gerstner 与 Atreides 的 Gavin Barker 周五另致函董事会，呼吁对后续领导层安排采取审慎态度。 The Verge 周日还提到，公开请愿有报道称签名已超过 15 万，但真实性难以核实，且出现明显伪造姓名。</li>
+        </ul>
+        <details class="news-related">
+          <summary>另 8 篇报道</summary>
+          <ul>
+            <li><span class="src">WIRED</span><a href="https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return" target="_blank" rel="noopener noreferrer">‘Bring Back THE Boss’: Nvidia Employees Petition for Jensen Huang’s Return</a></li>
+            <li><span class="src">AIbase</span><a href="https://www.aibase.com/news/32321" target="_blank" rel="noopener noreferrer">英伟达员工发起挽留黄仁勋行动，内部投票超97%支持其留任</a></li>
+            <li><span class="src">Daring Fireball</span><a href="https://daringfireball.net/linked/2026/11/13/nvidia-petition" target="_blank" rel="noopener noreferrer">Nvidia Employees Petition for Jensen Huang’s Return</a></li>
+            <li><span class="src">Slashdot</span><a href="https://slashdot.org/story/26/11/13/1656259/nvidia-employees-petition-for-jensen-huangs-return" target="_blank" rel="noopener noreferrer">Nvidia Employees Petition For Jensen Huang&#x27;s Return</a></li>
+            <li><span class="src">Hacker News</span><a href="https://news.ycombinator.com/item?id=50477231" target="_blank" rel="noopener noreferrer">Nvidia employees petition to bring back Jensen Huang</a></li>
+            <li><span class="src">Business Insider</span><a href="https://www.businessinsider.com/petition-reinstate-jensen-huang-nvidia-elon-musk-2026-11" target="_blank" rel="noopener noreferrer">Petition to Reinstate Jensen Huang at Nvidia Has 100,000 Signatures</a></li>
+            <li><span class="src">Stand with Jensen</span><a href="https://standwithjensen.com/" target="_blank" rel="noopener noreferrer">Stand with Jensen</a></li>
+            <li><span class="src">AIbase</span><a href="https://www.aibase.com/news/32324" target="_blank" rel="noopener noreferrer">马斯克等科技高管联名请愿，要求英伟达恢复黄仁勋CEO职务</a></li>
+          </ul>
+        </details>
+      </li>
+      <li class="news-card news-extra">
+        <div class="news-card-head">
+          <a class="title" href="https://blog.google/innovation-and-ai/products/gemini-app/google-wallet-gemini-app/" target="_blank" rel="noopener noreferrer">Gemini 应用在美国上线 Google Wallet 连接：可基于消费记录回答理财问题，但不能动用资金</a>
+          
+        </div>
+        <div class="news-meta">Google · X · Josh Woodward · AIbase · 另 3 篇报道 · 最新 11-16 10:43</div>
+        <ul class="news-note">
+          <li>Google 官方宣布，即日起面向美国所有 Gemini 应用用户开放 Google Wallet 连接：在 Personal Intelligence 的已连接应用中加入钱包后，可用消费习惯获得更贴合的理财、预算等回答，并在对话中用 @Google Wallet 提问。</li>
+          <li>用户还可选择通过 Plaid 把信用卡和银行账户安全连接到 Wallet，以获得更深入的洞察。该功能在 Gemini 网页和移动端向 Android、iOS 用户推送。</li>
+          <li>官方强调安全与隐私：连接后 Gemini 只能读取账户信息，不能转移、管理或投资资金；用户可随时在设置中开关。同时上线 Memory Summary，方便查看和编辑 Gemini 记住的偏好与目标。</li>
+        </ul>
+        <details class="news-related">
+          <summary>另 3 篇报道</summary>
+          <ul>
+            <li><span class="src">X · Josh Woodward</span><a href="https://x.com/joshwoodward/status/2121755282326102417" target="_blank" rel="noopener noreferrer">New in Gemini: Connect Google Wallet for personal finance insights</a></li>
+            <li><span class="src">X · Josh Woodward</span><a href="https://x.com/joshwoodward/status/2121755283785699376" target="_blank" rel="noopener noreferrer">Available to all Gemini app users in the USA to start</a></li>
+            <li><span class="src">AIbase</span><a href="https://www.aibase.com/news/32329" target="_blank" rel="noopener noreferrer">谷歌Gemini接入Google Wallet，美国用户可使用AI分析个人财务</a></li>
+          </ul>
+        </details>
+      </li>
+      <li class="news-card news-extra">
+        <div class="news-card-head">
+          <a class="title" href="https://api-docs.deepseek.com/zh-cn/updates/#发布全家桶应用-api" target="_blank" rel="noopener noreferrer">DeepSeek 向开发者开放全家桶应用 API：联网搜索、读链接、文件理解等工具改由服务端执行</a>
+          
+        </div>
+        <div class="news-meta">DeepSeek · InfoQ · 另 1 篇报道 · 最新 11-16 22:38</div>
+        <ul class="news-note">
+          <li>DeepSeek 在 API 更新中开放此前官方 App 使用的应用层能力：开发者可在请求里声明 deepseek_web_search、deepseek_read_url 等工具，由服务端完成搜索、打开网页和结果整理，客户端不必再自己对接搜索与抓取接口。思考模式下官方称最多可执行约 20 次工具调用。</li>
+          <li>同时提供 Files API，可上传 PDF、Word、PPT 和图片并加入对话；也开放独立的 Search、Fetch、OCR、ASR 与 TTS 接口。官方还开源了 chat-demo，并提供在线演示。</li>
+          <li>InfoQ 援引对比称，DeepSeek 联网搜索约每千次 5 元，低于 OpenAI、Anthropic 同类工具约每千次 10 美元的定价。这是 11 月 12 日前后的官方能力开放，中文媒体今日跟进了开发者文档与定价细节。</li>
+        </ul>
+        <details class="news-related">
+          <summary>另 1 篇报道</summary>
+          <ul>
+            <li><span class="src">InfoQ</span><a href="https://www.infoq.cn/article/NWmk4epBL0jPAUtpKSKb" target="_blank" rel="noopener noreferrer">DeepSeek又来掀桌子了！官方App全套能力开放API，联网搜索价格不到OpenAI、Claude的8%</a></li>
+          </ul>
+        </details>
+      </li>
+      <li class="news-card news-extra">
+        <div class="news-card-head">
+          <a class="title" href="https://www.ft.com/content/45383d86-33c4-4d99-86e5-5e058d3567c1" target="_blank" rel="noopener noreferrer">消息：黄仁勋已与亲信讨论重返英伟达 CEO，盟友组建「作战室」游说董事会并寻求白宫支持</a>
+          
+        </div>
+        <div class="news-meta">Financial Times · Reuters · Bloomberg · 另 8 篇报道 · 最新 11-16 22:06</div>
+        <ul class="news-note">
+          <li>《金融时报》援引消息称，黄仁勋已与亲信讨论重返英伟达首席执行官的可能性；部分硅谷人士和员工试图向董事会施压，盟友还组建「作战室」为其回归游说，并寻求白宫支持。</li>
+          <li>路透社、彭博社与 The Verge 均转述了这一报道。The Verge 同时提到，公开请愿「请回黄仁勋」有报道称签名已超过 15 万，但真实性难以核实。</li>
+          <li>这与员工和股东请愿、以及财政部长 Bessent 公开主张从外部物色新 CEO，是同一轮人事博弈中的不同消息，并非董事会已宣布他回归。</li>
+        </ul>
+        <details class="news-related">
+          <summary>另 8 篇报道</summary>
+          <ul>
+            <li><span class="src">Reuters</span><a href="https://www.reuters.com/world/china/jensen-huang-discusses-comeback-nvidia-ceo-with-allies-ft-reports-2026-11-15/" target="_blank" rel="noopener noreferrer">Jensen Huang discusses comeback as Nvidia CEO with allies, FT reports</a></li>
+            <li><span class="src">Bloomberg</span><a href="https://www.bloomberg.com/news/articles/2026-11-15/huang-discusses-comeback-as-nvidia-chief-with-allies-ft-says" target="_blank" rel="noopener noreferrer">Huang discusses comeback as Nvidia chief with allies, FT says</a></li>
+            <li><span class="src">The Verge</span><a href="https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed" target="_blank" rel="noopener noreferrer">Jensen Huang might be plotting a return and more of the latest Nvidia drama</a></li>
+            <li><span class="src">The Next Web</span><a href="https://thenextweb.com/news/jensen-huang-is-discussing-a-return-to-nvidia-ft-reports" target="_blank" rel="noopener noreferrer">Jensen Huang is discussing a return to Nvidia, FT reports</a></li>
+            <li><span class="src">Techmeme</span><a href="https://www.techmeme.com/261115/p14" target="_blank" rel="noopener noreferrer">Sources: Jensen Huang has discussed a comeback as Nvidia CEO with confidants, as allies form a “war room”</a></li>
+            <li><span class="src">AIbase</span><a href="https://www.aibase.com/news/32341" target="_blank" rel="noopener noreferrer">黄仁勋考虑重返英伟达CEO岗位，盟友筹建“作战室”游说董事会</a></li>
+            <li><span class="src">Ars Technica</span><a href="https://arstechnica.com/ai/2026/11/jensen-huang-allies-build-a-war-room-to-get-him-back-at-nvidia" target="_blank" rel="noopener noreferrer">Jensen Huang allies build a &quot;war room&quot; to get him back at Nvidia</a></li>
+            <li><span class="src">BBC</span><a href="https://www.bbc.co.uk/news/articles/cry49plv8v3go" target="_blank" rel="noopener noreferrer">Jensen Huang allies campaign to reinstate the former Nvidia boss</a></li>
+          </ul>
+        </details>
+      </li>
+      <li class="news-card news-extra">
+        <div class="news-card-head">
+          <a class="title" href="https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china" target="_blank" rel="noopener noreferrer">英伟达丑闻后，美国国会推动收紧对华 AI 芯片出口规则</a>
+          
+        </div>
+        <div class="news-meta">The Verge · Financial Times / Techmeme · Yahoo Finance · 另 2 篇报道 · 最新 11-16 14:05</div>
+        <ul class="news-note">
+          <li>The Verge 此前报道，黄仁勋相关丑闻曝光后，美国国会再度推动收紧对华 AI 芯片出口规则；参议院领袖已要求黄仁勋和特朗普政府向国会说明。</li>
+          <li>《金融时报》后续称，收紧出口规则正在国会获得两党支持，其中包括一项旨在阻止中国公司在海外获取相关芯片的议案；路透社早前也引用议长 Johnson 称限制高端 AI 芯片对华出口的共识在增加。</li>
+          <li>此前在众议院提出、参议院搁置的 Remote Access Security Act 等议案重新受到关注。这仍是立法推进中的消息，尚未等于新法已经通过。</li>
+        </ul>
+        <details class="news-related">
+          <summary>另 2 篇报道</summary>
+          <ul>
+            <li><span class="src">Financial Times / Techmeme</span><a href="https://www.techmeme.com/261116/p2" target="_blank" rel="noopener noreferrer">Tighter AI chip export rules are gaining bipartisan support in Congress, including a bill to block Chinese companies from accessing chips overseas</a></li>
+            <li><span class="src">Yahoo Finance</span><a href="https://finance.yahoo.com/technology/ai/articles/congress-moves-pass-tighter-ai-110004128.html" target="_blank" rel="noopener noreferrer">Congress moves to pass tighter AI chip export rules following Nvidia scandal</a></li>
+          </ul>
+        </details>
+      </li>
+      </ol>
+      <div class="news-toggle-wrap">
+        <button type="button" class="news-toggle" id="news-toggle-24h" aria-expanded="false" aria-controls="news-list-24h">展开更多</button>
+      </div>
+      <script>
+      (function () {
+        var btn = document.getElementById("news-toggle-24h");
+        var list = document.getElementById("news-list-24h");
+        if (!btn || !list) return;
+        btn.addEventListener("click", function () {
+          var collapsed = list.classList.toggle("is-collapsed");
+          btn.setAttribute("aria-expanded", collapsed ? "false" : "true");
+          btn.textContent = collapsed ? "展开更多" : "收起";
+        });
+      })();
+      </script>
+      </div>
+      <div class="news-panel" role="tabpanel" id="news-panel-7d" aria-labelledby="news-tab-7d" hidden>
+        <span class="section-meta">近 7 天（2026-11-11 ~ 2026-11-17）· 按重要度 Top 10 · 雷达 archive · AI 多源 · 候选 217 · 资讯束 · 雷达 2026-11-17 02:38 北京时间 · <a href="https://news.learnprompt.pro" target="_blank" rel="noopener noreferrer">news.learnprompt.pro</a> · 默认 5 条（重点） · 可展开至 10 条</span>
+      <ol class="news-list is-collapsed" id="news-list-7d">
+      <li class="news-card">
+        <div class="news-card-head">
+          <a class="title" href="https://deepmind.google/blog/gemini-4-carbon-is-now-available" target="_blank" rel="noopener noreferrer">Google 发布 Gemini 4 Carbon：登顶多项独立基准，并预览 Agent「群体」协作</a>
+          <span class="badge-focus">重点</span>
+        </div>
+        <div class="news-meta">Google DeepMind · Google · The Verge · 另 6 篇报道</div>
+        <ul class="news-note">
+          <li>Google 向开发者、企业、科研与消费者开放 Gemini 4 Carbon，定位为目前最强模型，侧重网络安全与长周期 Agent 工作流；Argon 仍被推荐用于大多数工程与知识工作。</li>
+          <li>官方称其在 CursorBench 4.0、Perplexity WANDR 与 Zapier AutomationBench 三项独立基准排名第一，单任务成本不到次优外部模型的一半；导入价为每百万 token 输入 2 美元、输出 10 美元。</li>
+          <li>付费 API、Google AI Studio、Gemini for business 与 AI Ultra（Gemini 应用、Search 的 AI Mode、Antigravity）现已可用；Antigravity 预览 /swarm，可将一条提示拆成可实时跟踪的智能体团队。</li>
+        </ul>
+        <details class="news-related">
+          <summary>另 6 篇报道</summary>
+          <ul>
+            <li><span class="src">Google</span><a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available" target="_blank" rel="noopener noreferrer">Gemini 4 Carbon is now available</a></li>
+            <li><span class="src">The Verge</span><a href="https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout" target="_blank" rel="noopener noreferrer">Google releases Gemini 4 Carbon with agent ‘swarm’ feature</a></li>
+            <li><span class="src">Engadget</span><a href="https://www.engadget.com/2311855/gemini-4-carbon-now-available-worldwide" target="_blank" rel="noopener noreferrer">Google Gemini 4 Carbon 现已在全球广泛上线</a></li>
+            <li><span class="src">Techmeme</span><a href="https://www.techmeme.com/261110/p30" target="_blank" rel="noopener noreferrer">Google rolls out Gemini 4 Carbon to paid API and AI Ultra users two weeks after Fairwind preview</a></li>
+            <li><span class="src">AIBase</span><a href="https://www.aibase.com/news/32223" target="_blank" rel="noopener noreferrer">谷歌旗舰 Gemini 4 Carbon 正式发布：多智能体协作一夜造游戏，网络安全与科学推理迎来质的飞跃</a></li>
+            <li><span class="src">AIBase</span><a href="https://www.aibase.com/news/32232" target="_blank" rel="noopener noreferrer">谷歌 Gemini 4 Carbon 亮相：专啃硬骨头，思考越久越准</a></li>
+          </ul>
+        </details>
+      </li>
+      <li class="news-card">
+        <div class="news-card-head">
+          <a class="title" href="https://deepmind.google/blog/introducing-gemini-4-hydrogen" target="_blank" rel="noopener noreferrer">Google 发布 Gemini 4 Hydrogen：面向日常 Agent 工作流的高效模型，默认高思考档跑分超过 Argon</a>
+          <span class="badge-focus">重点</span>
+        </div>
+        <div class="news-meta">Google DeepMind · Google · Ars Technica · 另 9 篇报道</div>
+        <ul class="news-note">
+          <li>Google DeepMind 发布 Gemini 4 Hydrogen，定位日常编程与多样化 Agent 执行；官方称默认 high 思考档在 Artificial Analysis Intelligence Index 上得到 51 分，超过体量更大的 Gemini 4 Argon（50 分），xhigh 档可达 54 分。</li>
+          <li>定价在 100 万 token 上下文内统一为每百万输入 1.50 美元、输出 7.50 美元；官方称相对 Gemini 3.8 Flash，默认档完成任务快约 2.5 倍，Terminal-Bench 4.1 从 18.2% 提到 57%，已对所有 AI Studio / Gemini API 档位、Gemini 应用、Search 以及 Antigravity 的付费用户开放。</li>
+          <li>同日还介绍了 Antigravity 中的 Orchestrator，可在同一会话里动态切换 Carbon 与 Hydrogen；Hydrogen 提供 low / medium / high（默认）和新增的 xhigh 四档思考深度。</li>
+        </ul>
+        <details class="news-related">
+          <summary>另 9 篇报道</summary>
+          <ul>
+            <li><span class="src">Google</span><a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen" target="_blank" rel="noopener noreferrer">Introducing Gemini 4 Hydrogen</a></li>
+            <li><span class="src">Ars Technica</span><a href="https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash" target="_blank" rel="noopener noreferrer">Google rolls out Gemini 4 Hydrogen, finally replacing 3.8 Flash</a></li>
+            <li><span class="src">The Next Web</span><a href="https://thenextweb.com/news/google-gemini-4-hydrogen-fast-cheap-model-everyone" target="_blank" rel="noopener noreferrer">Google&#x27;s Gemini 4 Hydrogen is a faster, cheaper model for everyone</a></li>
+            <li><span class="src">The Decoder</span><a href="https://the-decoder.com/googles-gemini-4-hydrogen-outscores-the-bigger-argon-just-four-weeks-after-its-launch" target="_blank" rel="noopener noreferrer">Google&#x27;s Gemini 4 Hydrogen outscores the bigger Argon just four weeks after its launch</a></li>
+            <li><span class="src">Techmeme</span><a href="https://www.techmeme.com/261112/p46" target="_blank" rel="noopener noreferrer">Google launches Gemini 4 Hydrogen, priced at $1.50/1M input and $7.50/1M output</a></li>
+            <li><span class="src">Techmeme</span><a href="https://www.techmeme.com/261112/p47" target="_blank" rel="noopener noreferrer">Gemini 4 Hydrogen is available across AI Studio, the Gemini API, Search, and more</a></li>
+            <li><span class="src">Hacker News</span><a href="https://news.ycombinator.com/item?id=50471431" target="_blank" rel="noopener noreferrer">Gemini 4 Hydrogen</a></li>
+            <li><span class="src">AIbase</span><a href="https://www.aibase.com/news/32318" target="_blank" rel="noopener noreferrer">比高端型号还猛却更便宜，Google 用&quot;Gemini 4 Hydrogen&quot;上演反向内卷</a></li>
+            <li><span class="src">AIbase</span><a href="https://www.aibase.com/news/32298" target="_blank" rel="noopener noreferrer">谷歌重磅发布 Gemini 4 Hydrogen：主打高速编程与智能体任务，性能实现跨越式升级</a></li>
+          </ul>
+        </details>
+      </li>
+      <li class="news-card">
+        <div class="news-card-head">
+          <a class="title" href="https://openai.com/index/introducing-gpt-6-cyber" target="_blank" rel="noopener noreferrer">OpenAI 发布 GPT-6 Cyber：面向网络安全的攻防对齐模型</a>
+          <span class="badge-focus">重点</span>
+        </div>
+        <div class="news-meta">OpenAI · The Decoder · TechCrunch · 另 10 篇报道</div>
+        <ul class="news-note">
+          <li>OpenAI 发布 GPT-6 Cyber，拓展对齐网络安全 Agent 的能力边界。</li>
+          <li>报道称其既能发现/攻破系统弱点，也能提出修复方案。</li>
+          <li>引发「防御模型是否足够」与双用途风险的讨论。</li>
+          <li>中文报道称其在演示中挖出约 81 个 Firefox 高危漏洞，攻防双用途争议升温。</li>
+        </ul>
+        <details class="news-related">
+          <summary>另 10 篇报道</summary>
+          <ul>
+            <li><span class="src">The Decoder</span><a href="https://the-decoder.com/openais-gpt-6-cyber-can-both-break-into-systems-and-propose-how-to-fix-them" target="_blank" rel="noopener noreferrer">OpenAI 的 GPT-6 Cyber 既能攻破系统，也能给出修复方案</a></li>
+            <li><span class="src">TechCrunch</span><a href="https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough" target="_blank" rel="noopener noreferrer">OpenAI 发布了新的网络安全模型，这就够了吗？</a></li>
+            <li><span class="src">X</span><a href="https://twitter.com/OpenAI/status/2118390190246879554" target="_blank" rel="noopener noreferrer">OpenAI：GPT-6 Cyber</a></li>
+            <li><span class="src">AIbase</span><a href="https://www.aibase.com/news/32132" target="_blank" rel="noopener noreferrer">OpenAI 迄今最强网络安全模型 GPT-6 Cyber 正式发布：精准挖出 81 个 Firefox 高危漏洞</a></li>
+            <li><span class="src">AIbase</span><a href="https://www.aibase.com/news/32135" target="_blank" rel="noopener noreferrer">一把双刃剑：OpenAI 最强安全模型 GPT-6 Cyber 揪出 81 个 Firefox 漏洞</a></li>
+            <li><span class="src">Slashdot</span><a href="https://it.slashdot.org/story/26/11/06/1755247/openais-new-cyber-model-found-ways-to-attack-nearly-1000-linux-flaws" target="_blank" rel="noopener noreferrer">OpenAI&#x27;s New Cyber Model Found Ways to Attack Nearly 1,000 Linux Flaws</a></li>
+            <li><span class="src">X</span><a href="https://www.phoronix.com/news/OpenAI-948-Linux-LPE-Bugs" target="_blank" rel="noopener noreferrer">OpenAI Finds 948 Local Privilege Escalation Bugs in the Linux Kernel</a></li>
+            <li><span class="src">Mashable</span><a href="https://www.mashable.com/article/openai-gpt-6-cyber-exploits" target="_blank" rel="noopener noreferrer">OpenAI says its new GPT-6 Cyber has already uncovered thousands of exploits</a></li>
+            <li><span class="src">TNW</span><a href="https://thenextweb.com/news/openai-gpt-6-cyber-launch-firefox-linux-daybreak-red" target="_blank" rel="noopener noreferrer">OpenAI’s GPT-6 Cyber found 81 new Firefox flaws and is rated ‘Critical’</a></li>
+            <li><span class="src">TechRadar</span><a href="https://www.techradar.com/pro/security/openai-says-its-cyber-model-found-and-patched-nearly-1000-linux-kernel-security-issues" target="_blank" rel="noopener noreferrer">OpenAI says its cyber model found and patched nearly 1000 Linux kernel security issues</a></li>
+          </ul>
+        </details>
+      </li>
+      <li class="news-card">
+        <div class="news-card-head">
+          <a class="title" href="https://qwen.ai/blog?id=qwen4-max" target="_blank" rel="noopener noreferrer">阿里正式发布 Qwen4-Max：2.4T 骨干、百万 token 上下文，官方称单任务成本较 Qwen3.8-Max 降约 62%</a>
+          <span class="badge-focus">重点</span>
+        </div>
+        <div class="news-meta">Qwen · X · Qwen · X · Arena · 另 5 篇报道</div>
+        <ul class="news-note">
+          <li>通义千问官方宣布正式发布 Qwen4-Max，基于新的 Qwen4 架构：2.4T 骨干参数、每 token 激活 71B，另有 328B N-gram Embedding 参数，具备原生视觉能力与 100 万 token 上下文。官方称预训练过程稳定，全程无 loss spike。</li>
+          <li>官方评测称，相较 Qwen3.8-Max，Work360 上 token 用量约降 24%–35%，Terminal-Bench 4.0 约降 48%–49%，平均单任务成本从 4.43 美元降至 1.67 美元，降幅约 62%。模型已在 QwenCloud 提供 Token Plan 与 API，也可在 QwenWork、Qoder、QwenStudio 使用；官方同时表示 Qwen4 系列更小模型将逐步开源，Qwen4-Max 本身不开放权重。</li>
+          <li>通义千问还援引 Artificial Analysis：Intelligence Index 得 43 分，较 Qwen3.8-Max 高 9 分、落后 Kimi K3.1 Pro 3 分，单任务成本约 3.27 美元。Arena 称其在 Agent Arena 以约 1.47 万次真实会话净提升 7.5%、总榜第 14，成为榜上第一的中国模型，阿里巴巴实验室升至总榜第 5。</li>
+        </ul>
+        <details class="news-related">
+          <summary>另 5 篇报道</summary>
+          <ul>
+            <li><span class="src">X · Qwen</span><a href="https://x.com/Alibaba_Qwen/status/2122174463479542126" target="_blank" rel="noopener noreferrer">通义千问发布 Qwen4 Max，Intelligence Index 较 Qwen3.8 Max 高 9 分且成本更低</a></li>
+            <li><span class="src">X · Arena</span><a href="https://x.com/arena/status/2122153116959482051" target="_blank" rel="noopener noreferrer">Qwen4-Max 登顶 Agent Arena 中国模型榜首，Alibaba 排名升至总榜第14</a></li>
+            <li><span class="src">AIbase</span><a href="https://www.aibase.com/news/32332" target="_blank" rel="noopener noreferrer">阿里千问发布 Qwen4-Max: 以架构升级压低 token 消耗，单任务费用降58%</a></li>
+            <li><span class="src">AIbase</span><a href="https://www.aibase.com/news/32334" target="_blank" rel="noopener noreferrer">千问 AI 平台首发 Qwen4-Max: 以 Token 用量减半、得分升近28% 切入开发者市场</a></li>
+            <li><span class="src">Bloomberg</span><a href="https://www.bloomberg.com/news/articles/2026-11-16/alibaba-unveils-new-flagship-ai-model-in-riposte-to-us-rivals" target="_blank" rel="noopener noreferrer">Alibaba unveils new flagship AI model in riposte to US rivals</a></li>
+          </ul>
+        </details>
+      </li>
+      <li class="news-card">
+        <div class="news-card-head">
+          <a class="title" href="https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash" target="_blank" rel="noopener noreferrer">Google 发布 Gemini Omni 1.2 Flash：视频片段至 15 秒、价格下调约 30%</a>
+          <span class="badge-focus">重点</span>
+        </div>
+        <div class="news-meta">Google · The Decoder · TNW · 另 6 篇报道</div>
+        <ul class="news-note">
+          <li>Google 推出 Gemini Omni 1.2 Flash，强调更快速度与更高性价比。</li>
+          <li>AI 视频片段最长可至约 15 秒，报道称价格下调约 30%。</li>
+          <li>强化 Google 在可控短视频生成上的产品竞争力。</li>
+        </ul>
+        <details class="news-related">
+          <summary>另 6 篇报道</summary>
+          <ul>
+            <li><span class="src">The Decoder</span><a href="https://the-decoder.com/googles-gemini-omni-1-2-flash-stretches-ai-video-clips-to-15-seconds-and-cuts-pricing-by-30-percent" target="_blank" rel="noopener noreferrer">Google 的 Gemini Omni 1.2 Flash 把 AI 视频片段延长到 15 秒，价格下调 30%</a></li>
+            <li><span class="src">TNW</span><a href="https://thenextweb.com/news/google-gemini-omni-1-2-flash-video-15-seconds-price-cut" target="_blank" rel="noopener noreferrer">Google 的 Gemini Omni 1.2 Flash 以更低成本生成 15 秒 AI 视频</a></li>
+            <li><span class="src">AIbase</span><a href="https://www.aibase.com/news/32146" target="_blank" rel="noopener noreferrer">谷歌发布 Gemini Omni1.2Flash:单次时长增至15秒，成本降幅达30%</a></li>
+            <li><span class="src">AIbase</span><a href="https://www.aibase.com/news/32149" target="_blank" rel="noopener noreferrer">谷歌重磅发布 Omni 1.2 Flash：视频生成上限延长至 15 秒，API 价格大降 30%</a></li>
+            <li><span class="src">TechMeme</span><a href="https://www.techmeme.com/261105/p70" target="_blank" rel="noopener noreferrer">Google rolls out Gemini Omni 1.2 Flash, clips up to 15 seconds</a></li>
+            <li><span class="src">Official</span><a href="https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips" target="_blank" rel="noopener noreferrer">Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips</a></li>
+          </ul>
+        </details>
+      </li>
+      <li class="news-card news-extra">
+        <div class="news-card-head">
+          <a class="title" href="https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool" target="_blank" rel="noopener noreferrer">Claude 上线 Personal Finance：可连接银行账户分析消费</a>
+          
+        </div>
+        <div class="news-meta">TechCrunch · TechMeme · The Verge · 另 8 篇报道</div>
+        <ul class="news-note">
+          <li>Anthropic 为 Claude 推出 Personal Finance 工具，可分析个人消费。</li>
+          <li>报道称可通过 Plaid 等连接银行账户。</li>
+          <li>把助手能力延伸到高敏感个人财务场景，隐私与授权成关键。</li>
+          <li>后续报道强调经 Plaid 只读接入银行账户，不可转账；美国 beta。</li>
+        </ul>
+        <details class="news-related">
+          <summary>另 8 篇报道</summary>
+          <ul>
+            <li><span class="src">TechMeme</span><a href="https://www.techmeme.com/261105/p44" target="_blank" rel="noopener noreferrer">Anthropic launches Personal Finance in Claude</a></li>
+            <li><span class="src">The Verge</span><a href="https://www.theverge.com/ai-artificial-intelligence/1027652/anthropic-claude-plaid-personal-finance" target="_blank" rel="noopener noreferrer">Claude AI 可以直接接入你的银行账户</a></li>
+            <li><span class="src">AIbase</span><a href="https://www.aibase.com/news/32128" target="_blank" rel="noopener noreferrer">Anthropic 推出 Claude 个人理财功能，支持智能消费分析与账单追踪</a></li>
+            <li><span class="src">AIbase</span><a href="https://www.aibase.com/news/32126" target="_blank" rel="noopener noreferrer">能看穿你的账单，却碰不了你的钱：Claude 杀入个人理财</a></li>
+            <li><span class="src">X</span><a href="https://x.com/claudeai/status/2118403117779988744" target="_blank" rel="noopener noreferrer">Claude：Personal Finance 无广告，美国 Pro/Max/Ultra 可用</a></li>
+            <li><span class="src">The Decoder</span><a href="https://the-decoder.com/anthropic-adds-bank-account-access-to-claude-so-users-can-track-their-spending" target="_blank" rel="noopener noreferrer">Anthropic adds bank account access to Claude so users can track their spending</a></li>
+            <li><span class="src">Mac Rumors</span><a href="https://www.macrumors.com/2026/11/05/claude-personal-finance" target="_blank" rel="noopener noreferrer">Claude Gets Personal Finance Feature With Bank Account Linking</a></li>
+            <li><span class="src">TNW</span><a href="https://thenextweb.com/news/anthropic-claude-personal-finance-plaid-read-only-beta" target="_blank" rel="noopener noreferrer">Anthropic lets Claude read your bank accounts, but not move money</a></li>
+          </ul>
+        </details>
+      </li>
+      <li class="news-card news-extra">
+        <div class="news-card-head">
+          <a class="title" href="https://www.kimi.com/blog/kimi-k3-1-pro" target="_blank" rel="noopener noreferrer">月之暗面发布 Kimi K3.1 Pro：100 万 token 上下文，开放权重将释出并上线 OpenRouter</a>
+          
+        </div>
+        <div class="news-meta">AIHot · AIBase · WayToAGI · 另 7 篇报道</div>
+        <ul class="news-note">
+          <li>月之暗面发布开源旗舰 Kimi K3.1 Pro，报道称参数与上下文规格显著提升。</li>
+          <li>中文媒体称其支持百万级上下文并计划开放权重。</li>
+          <li>属国产开源旗舰路线的新一波发布。</li>
+        </ul>
+        <details class="news-related">
+          <summary>另 7 篇报道</summary>
+          <ul>
+            <li><span class="src">AIHot</span><a href="https://artificialanalysis.ai/articles/kimi-k3-1-pro-launch-benchmarks" target="_blank" rel="noopener noreferrer">Kimi K3.1 Pro 发布，以 55 分位列 Artificial Analysis Intelligence Index 第 4</a></li>
+            <li><span class="src">AIBase</span><a href="https://www.aibase.com/news/31846" target="_blank" rel="noopener noreferrer">月之暗面放 K3.1 预热视频，发布日期仍捂着</a></li>
+            <li><span class="src">AIHot</span><a href="https://x.com/OpenRouter/status/2113699820124934334" target="_blank" rel="noopener noreferrer">月之暗面 Kimi K3.1 Pro 上线 OpenRouter，1M 上下文多模态开源权重模型</a></li>
+            <li><span class="src">WayToAGI</span><a href="https://waytoagi.feishu.cn/wiki/ORN6wAYH9inauakETvgcJHtonQf?from=from_copylink" target="_blank" rel="noopener noreferrer">Kimi K3.1 Pro：智能前沿，更进一步</a></li>
+            <li><span class="src">AIHot</span><a href="https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&amp;mid=2647687627&amp;idx=1&amp;sn=4816c8130f378587885913b465fd686f" target="_blank" rel="noopener noreferrer">Kimi 发布开源旗舰模型 K3.1 Pro：2.8T 参数、100万 Token 上下文，实测 3D 与视频动效</a></li>
+            <li><span class="src">AIBase</span><a href="https://www.aibase.com/news/31903" target="_blank" rel="noopener noreferrer">参数直逼2.8T、支持百万上下文：月之暗面发布开源旗舰大模型K3.1 Pro</a></li>
+            <li><span class="src">AIbase</span><a href="https://www.aibase.com/news/32100" target="_blank" rel="noopener noreferrer">月之暗面开放 2.8 万亿参数 Kimi K3.1 Pro 权重，强势登顶 Agent Arena 开源榜</a></li>
+          </ul>
+        </details>
+      </li>
+      <li class="news-card news-extra">
+        <div class="news-card-head">
+          <a class="title" href="https://claude.com/resources/articles/sheets-whiteboards-data" target="_blank" rel="noopener noreferrer">Anthropic 上线 Claude Sheets、Whiteboards，并将 Dashboards 升级为 Claude Data，同步推出会议助手</a>
+          
+        </div>
+        <div class="news-meta">Anthropic · The Decoder · TechCrunch · 另 14 篇报道</div>
+        <ul class="news-note">
+          <li>Anthropic 在付费套餐上线 beta 版 Claude Whiteboards 与 Claude Sheets，并把 10 月的 Claude Dashboards 正式更名为 Claude Data 全面开放。</li>
+          <li>Sheets 可按提示生成带标签页、公式和下拉项的表格并与团队共编，需要完整 Excel 能力时可导出或使用 Claude for Excel；Whiteboards 可把口头讨论整理成带负责人和日期的协作板。</li>
+          <li>同期推出 Claude Meetings，可加入 Google Meet 跟踪讨论并生成计划与待办，检测到外部嘉宾时会自动离开以保护数据。Enterprise 上 Whiteboards 与 Sheets 默认关闭，Claude Data 将于 11 月 19 日默认开启。</li>
+        </ul>
+        <details class="news-related">
+          <summary>另 14 篇报道</summary>
+          <ul>
+            <li><span class="src">The Decoder</span><a href="https://the-decoder.com/anthropic-turns-claude-into-a-full-workspace-with-plugins-spreadsheets-whiteboards-and-soon-meeting-notes" target="_blank" rel="noopener noreferrer">Anthropic turns Claude into a full workspace with Plugins, spreadsheets, whiteboards, and soon meeting notes</a></li>
+            <li><span class="src">TechCrunch</span><a href="https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks" target="_blank" rel="noopener noreferrer">Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks</a></li>
+            <li><span class="src">AIBase</span><a href="https://www.aibase.com/news/32234" target="_blank" rel="noopener noreferrer">Anthropic 杀入办公腹地：Claude Sheets 叫板 Excel，IPO 前夜贴脸微软谷歌</a></li>
+            <li><span class="src">AIBase</span><a href="https://www.aibase.com/news/32240" target="_blank" rel="noopener noreferrer">Anthropic 办公套件升级：会议助手、智能表格齐发，全面杀入传统协同巨头腹地</a></li>
+            <li><span class="src">AIBase</span><a href="https://www.aibase.com/news/32226" target="_blank" rel="noopener noreferrer">Anthropic 升级 AI 办公套件：从头脑风暴到数据看板，全面覆盖团队协作全流程</a></li>
+            <li><span class="src">AIBase</span><a href="https://www.aibase.com/news/32221" target="_blank" rel="noopener noreferrer">Anthropic 正面宣战微软谷歌：推出 Claude Sheets 与视频通话助手，全面进军智能办公软件领域</a></li>
+            <li><span class="src">The Next Web</span><a href="https://thenextweb.com/news/anthropic-claude-sheets-office-tools-microsoft-google" target="_blank" rel="noopener noreferrer">Anthropic adds Claude Sheets and a call assistant, taking on its backers</a></li>
+            <li><span class="src">Engadget</span><a href="https://www.engadget.com/2312177/anthropic-takes-on-google-and-microsoft-with-claude-sheets" target="_blank" rel="noopener noreferrer">Anthropic takes on Google and Microsoft with Claude Sheets</a></li>
+            <li><span class="src">Business Insider</span><a href="https://www.businessinsider.com/microsoft-stock-price-anthropic-claude-sheets-office365-2026-11" target="_blank" rel="noopener noreferrer">Microsoft stock drops after Anthropic unveils tools to rival Office</a></li>
+            <li><span class="src">Techmeme</span><a href="https://www.techmeme.com/261110/p35" target="_blank" rel="noopener noreferrer">Anthropic unveils office tools, including a video call assistant, a data dashboard, and spreadsheets</a></li>
+            <li><span class="src">AIbase</span><a href="https://www.aibase.com/news/32297" target="_blank" rel="noopener noreferrer">Claude 正式推出全新会议功能：作为可见参会者直接加入视频通话，率先面向团队版与企业版开放测试</a></li>
+            <li><span class="src">AIbase</span><a href="https://www.aibase.com/news/32295" target="_blank" rel="noopener noreferrer">Anthropic推出Claude Meetings，可加入Google Meet参与会议</a></li>
+            <li><span class="src">Product Hunt</span><a href="https://www.producthunt.com/products/claude" target="_blank" rel="noopener noreferrer">Claude Meetings — Add Claude to your call and get work started as you talk</a></li>
+            <li><span class="src">Anthropic</span><a href="https://claude.com/resources/articles/claude-meetings" target="_blank" rel="noopener noreferrer">Introducing Claude Meetings</a></li>
+          </ul>
+        </details>
+      </li>
+      <li class="news-card news-extra">
+        <div class="news-card-head">
+          <a class="title" href="https://www.marktechpost.com/2026/11/01/deepseek-dsh-superagent-router-worker-coding-agent" target="_blank" rel="noopener noreferrer">DeepSeek 开源 Super-Agent（dsh-superagent）：Router-Worker 编程 Agent 研究原型</a>
+          
+        </div>
+        <div class="news-meta">MarkTechPost · Techmeme · WaytoAGI · 另 6 篇报道</div>
+        <ul class="news-note">
+          <li>DeepSeek 开源 dsh-superagent / Super-Agent，定位为编程 Agent 研究原型。</li>
+          <li>架构采用 Router-Worker：路由层分派任务，工作层执行编码等子任务。</li>
+          <li>Techmeme 与中文社区同步跟进，被视为 DeepSeek Harness 路线的延续扩展。</li>
+        </ul>
+        <details class="news-related">
+          <summary>另 6 篇报道</summary>
+          <ul>
+            <li><span class="src">Techmeme</span><a href="https://www.techmeme.com/261101/p2" target="_blank" rel="noopener noreferrer">DeepSeek open sources Super-Agent as a research prototype</a></li>
+            <li><span class="src">WaytoAGI</span><a href="https://waytoagi.feishu.cn/wiki/W5I3wsjESihSIbkBZU3cD9H7nOe?from=from_copylink" target="_blank" rel="noopener noreferrer">动态图解：DeepSeek 的 Super-agent 架构</a></li>
+            <li><span class="src">AIbase</span><a href="https://www.aibase.com/news/32001" target="_blank" rel="noopener noreferrer">DeepSeek开源Super-agent架构:以经典计算机系统思想突破单会话智能体瓶颈</a></li>
+            <li><span class="src">AIbase</span><a href="https://www.aibase.com/news/32016" target="_blank" rel="noopener noreferrer">DeepSeek 甩出 Super-agent：AI 从&quot;等人派活&quot;变成&quot;自己找活干&quot;</a></li>
+            <li><span class="src">TechURLs</span><a href="https://thenextweb.com/news/deepseek-open-sources-super-agent-a-prototype-autonomous-coding-agent" target="_blank" rel="noopener noreferrer">DeepSeek开源Super-agent，一款自主编程智能体原型</a></li>
+            <li><span class="src">AIbase</span><a href="https://www.aibase.com/news/32037" target="_blank" rel="noopener noreferrer">人只够盯 5 个对话窗口，DeepSeek 让 AI 自己当&quot;大管家&quot;</a></li>
+          </ul>
+        </details>
+      </li>
+      <li class="news-card news-extra">
+        <div class="news-card-head">
+          <a class="title" href="https://www.aibase.com/news/32205" target="_blank" rel="noopener noreferrer">Anthropic 发布 Claude Fable 5.2 与 Mythos 5.2：登顶跑分并调度千个智能体造系统</a>
+          
+        </div>
+        <div class="news-meta">AIBase · The Verge · 另 1 篇报道</div>
+        <ul class="news-note">
+          <li>Anthropic 同日发布 Claude Fable 5.2 与 Mythos 5.2，Fable 5.2 在 FrontierCode 2.0 取得 49.1%，据报超过 GPT-6 Astra。</li>
+          <li>公司称其调度 1000 多个智能体、用 8 天从零构建出可启动的操作系统。</li>
+          <li>新模型面向高难度推理与编程任务，已在付费套餐上线。</li>
+        </ul>
+        <details class="news-related">
+          <summary>另 1 篇报道</summary>
+          <ul>
+            <li><span class="src">The Verge</span><a href="https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2" target="_blank" rel="noopener noreferrer">Anthropic launches new Claude Fable and Mythos 5.2 models</a></li>
+          </ul>
+        </details>
+      </li>
+      </ol>
+      <div class="news-toggle-wrap">
+        <button type="button" class="news-toggle" id="news-toggle-7d" aria-expanded="false" aria-controls="news-list-7d">展开更多</button>
+      </div>
+      <script>
+      (function () {
+        var btn = document.getElementById("news-toggle-7d");
+        var list = document.getElementById("news-list-7d");
+        if (!btn || !list) return;
+        btn.addEventListener("click", function () {
+          var collapsed = list.classList.toggle("is-collapsed");
+          btn.setAttribute("aria-expanded", collapsed ? "false" : "true");
+          btn.textContent = collapsed ? "展开更多" : "收起";
+        });
+      })();
+      </script>
+      </div>
+      <script>
+      (function () {
+        var tabs = Array.prototype.slice.call(document.querySelectorAll("#news-tabs .news-tab"));
+        var panels = Array.prototype.slice.call(document.querySelectorAll(".news-panel"));
+        tabs.forEach(function (btn, i) {
+          btn.addEventListener("click", function () {
+            tabs.forEach(function (b, j) {
+              b.setAttribute("aria-selected", j === i ? "true" : "false");
+              if (panels[j]) {
+                if (j === i) panels[j].removeAttribute("hidden");
+                else panels[j].setAttribute("hidden", "");
+              }
+            });
+          });
+        });
+      })();
+      </script>
+    </section>
+
+    <footer class="foot">
+      <p>最新页始终等于当天日快照。往期见 <a href="history.html" target="_blank" rel="noopener noreferrer">往期速览</a>。数据抓取时间：2026-11-17（Asia/Shanghai）。资讯分「24 小时」「近 7 天」两窗、各按资讯束重要度排序（ADR 0013/0014）。GitHub 周榜区暂不展示（仍采集）。</p>
+    </footer>
+  </div>
+</body>
+</html>

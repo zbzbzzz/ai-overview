@@ -1593,7 +1593,7 @@
   {
     "full": "CopilotKit/OpenBot",
     "name": "OpenBot",
-    "desc": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
+    "desc": "The open, self-hostable alternative to closed AI bots. Production-ready, fully customizable, and plugs into every stack: any agent, any model, any tool.",
     "lang": "TypeScript",
     "stars": 10520,
     "week": 1966,
@@ -2788,7 +2788,7 @@
     "desc": "21 Lessons, Get Started Building with Generative AI",
     "lang": "Jupyter Notebook",
     "stars": 123204,
-    "week": 446,
+    "week": 497,
     "topics": [
       "ai",
       "azure",
@@ -3483,7 +3483,8 @@
       "开发工具链"
     ],
     "_sources": [
-      "typescript"
+      "typescript",
+      "all"
     ]
   },
   {
@@ -3598,7 +3599,7 @@
     "desc": "Agent skills for useful HTML artifacts, wireframes, interactive prototypes, plans, and diagrams.",
     "lang": "HTML",
     "stars": 4060,
-    "week": 146,
+    "week": 116,
     "topics": [
       "agent-skills",
       "claude-code",
@@ -4536,13 +4537,15 @@
     "desc": "📦 The official Nextcloud installation method. Provides easy deployment and maintenance with most features included in this one Nextcloud instance.",
     "lang": "PHP",
     "stars": 10749,
-    "week": 109,
+    "week": 46,
     "topics": [],
     "url": "https://github.com/nextcloud/all-in-one",
     "types": [
       "开发工具链"
     ],
-    "_sources": []
+    "_sources": [
+      "php"
+    ]
   },
   {
     "full": "SakanaAI/AI-Scientist",
@@ -4968,7 +4971,7 @@
     "desc": "LLM Zoomcamp - a free online course about real-life applications of LLMs. In 10 weeks you will learn how to build an AI system that answers questions about your knowledge base. Register here 👇🏼",
     "lang": "Jupyter Notebook",
     "stars": 7628,
-    "week": 51,
+    "week": 53,
     "topics": [],
     "url": "https://github.com/DataTalksClub/llm-zoomcamp",
     "types": [
@@ -5095,13 +5098,15 @@
     "desc": "A free open source IT asset/license management system",
     "lang": "PHP",
     "stars": 15114,
-    "week": 54,
+    "week": 33,
     "topics": [],
     "url": "https://github.com/grokability/snipe-it",
     "types": [
       "应用与产品"
     ],
-    "_sources": []
+    "_sources": [
+      "php"
+    ]
   },
   {
     "full": "open-webui/desktop",
@@ -5202,7 +5207,7 @@
     "desc": "Design engineering for Claude Code. Craft, memory, and enforcement for consistent UI.",
     "lang": "Shell",
     "stars": 5944,
-    "week": 54,
+    "week": 50,
     "topics": [],
     "url": "https://github.com/Dammyjay93/interface-design",
     "types": [
@@ -6723,7 +6728,8 @@
     ],
     "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
     "_sources": [
-      "typescript"
+      "typescript",
+      "all"
     ]
   },
   {
@@ -6989,7 +6995,8 @@
     ],
     "url": "https://github.com/openai/codex-security",
     "_sources": [
-      "typescript"
+      "typescript",
+      "all"
     ]
   },
   {
@@ -6998,7 +7005,7 @@
     "desc": "Thirteen Claude skills that run an Instagram account: Reels off 26 scored hook formulas, a viral research skill, a caption linter, and a humanizer. Free, MIT.",
     "lang": "Python",
     "stars": 6327,
-    "week": 1213,
+    "week": 1132,
     "topics": [],
     "types": [
       "Skill",
@@ -7304,7 +7311,8 @@
     ],
     "url": "https://github.com/alibaba/open-code-review",
     "_sources": [
-      "go"
+      "go",
+      "all"
     ]
   },
   {
@@ -7345,7 +7353,7 @@
     "desc": "Port of OpenAI's Whisper model in C/C++",
     "lang": "C++",
     "stars": 0,
-    "week": 238,
+    "week": 237,
     "topics": [],
     "types": [
       "模型与推理"
@@ -7543,6 +7551,92 @@
     "topics": [],
     "_sources": [
       "typescript"
+    ]
+  },
+  {
+    "full": "openai/openai-cookbook",
+    "name": "openai-cookbook",
+    "desc": "Examples and guides for using the OpenAI API",
+    "lang": "Jupyter Notebook",
+    "stars": 0,
+    "week": 184,
+    "url": "https://github.com/openai/openai-cookbook",
+    "topics": [],
+    "_sources": [
+      "jupyter-notebook"
+    ],
+    "types": [
+      "数据与评测",
+      "开发工具链"
+    ]
+  },
+  {
+    "full": "ChromeDevTools/chrome-devtools-mcp",
+    "name": "chrome-devtools-mcp",
+    "desc": "Chrome DevTools for coding agents",
+    "lang": "TypeScript",
+    "stars": 0,
+    "week": 2476,
+    "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+    "topics": [],
+    "_sources": [
+      "typescript"
+    ],
+    "types": [
+      "Skill",
+      "Agent",
+      "开发工具链"
+    ]
+  },
+  {
+    "full": "ag-ui-protocol/ag-ui",
+    "name": "ag-ui",
+    "desc": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
+    "lang": "TypeScript",
+    "stars": 0,
+    "week": 1277,
+    "url": "https://github.com/ag-ui-protocol/ag-ui",
+    "topics": [],
+    "_sources": [
+      "typescript"
+    ],
+    "types": [
+      "Agent",
+      "开发工具链"
+    ]
+  },
+  {
+    "full": "dream-num/univer",
+    "name": "univer",
+    "desc": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
+    "lang": "TypeScript",
+    "stars": 0,
+    "week": 4614,
+    "url": "https://github.com/dream-num/univer",
+    "topics": [],
+    "_sources": [
+      "typescript"
+    ],
+    "types": [
+      "应用与产品",
+      "开发工具链"
+    ]
+  },
+  {
+    "full": "facebookresearch/faiss",
+    "name": "faiss",
+    "desc": "A library for efficient similarity search and clustering of dense vectors.",
+    "lang": "C++",
+    "stars": 0,
+    "week": 438,
+    "url": "https://github.com/facebookresearch/faiss",
+    "topics": [],
+    "_sources": [
+      "cpp"
+    ],
+    "types": [
+      "数据与评测",
+      "模型与推理"
     ]
   }
 ]

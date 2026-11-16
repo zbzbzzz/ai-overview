@@ -85,6 +85,7 @@
     ],
     "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
     "_sources": [
+      "all",
       "typescript"
     ]
   },
@@ -114,7 +115,6 @@
       "应用与产品"
     ],
     "_sources": [
-      "all",
       "typescript"
     ]
   },
@@ -182,6 +182,23 @@
     ],
     "_sources": [
       "rust"
+    ]
+  },
+  {
+    "full": "dream-num/univer",
+    "name": "univer",
+    "desc": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
+    "lang": "TypeScript",
+    "stars": 0,
+    "week": 4614,
+    "url": "https://github.com/dream-num/univer",
+    "topics": [],
+    "_sources": [
+      "typescript"
+    ],
+    "types": [
+      "应用与产品",
+      "开发工具链"
     ]
   },
   {
@@ -338,23 +355,6 @@
     ]
   },
   {
-    "full": "NVIDIA/auto-ontology",
-    "name": "auto-ontology",
-    "desc": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
-    "lang": "Python",
-    "stars": 10987,
-    "week": 2878,
-    "topics": [],
-    "url": "https://github.com/NVIDIA/auto-ontology",
-    "types": [
-      "Agent",
-      "模型与推理"
-    ],
-    "_sources": [
-      "python"
-    ]
-  },
-  {
     "full": "Donchitos/Claude-Code-Game-Studios",
     "name": "Claude-Code-Game-Studios",
     "desc": "Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.",
@@ -402,6 +402,24 @@
     "url": "https://github.com/ranxianglei/billion-context",
     "_sources": [
       "typescript"
+    ]
+  },
+  {
+    "full": "ChromeDevTools/chrome-devtools-mcp",
+    "name": "chrome-devtools-mcp",
+    "desc": "Chrome DevTools for coding agents",
+    "lang": "TypeScript",
+    "stars": 0,
+    "week": 2476,
+    "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+    "topics": [],
+    "_sources": [
+      "typescript"
+    ],
+    "types": [
+      "Skill",
+      "Agent",
+      "开发工具链"
     ]
   },
   {
@@ -474,6 +492,7 @@
     ],
     "url": "https://github.com/openai/codex-security",
     "_sources": [
+      "all",
       "typescript"
     ]
   },
@@ -490,6 +509,7 @@
     ],
     "url": "https://github.com/alibaba/open-code-review",
     "_sources": [
+      "all",
       "go"
     ]
   },
@@ -512,7 +532,7 @@
   {
     "full": "CopilotKit/OpenBot",
     "name": "OpenBot",
-    "desc": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
+    "desc": "The open, self-hostable alternative to closed AI bots. Production-ready, fully customizable, and plugs into every stack: any agent, any model, any tool.",
     "lang": "TypeScript",
     "stars": 10520,
     "week": 1966,
@@ -554,42 +574,6 @@
     "_sources": [
       "all",
       "cpp"
-    ]
-  },
-  {
-    "full": "herdrdev/herdr",
-    "name": "herdr",
-    "desc": "the runtime your coding agents live on",
-    "lang": "Rust",
-    "stars": 49754,
-    "week": 1888,
-    "topics": [
-      "agent",
-      "agent-orchestration",
-      "ai",
-      "ai-agents",
-      "claude-code",
-      "cli",
-      "codex",
-      "coding-agents",
-      "developer-tools",
-      "devtools",
-      "multiplexer",
-      "rust",
-      "terminal",
-      "terminal-multiplexer",
-      "terminal-ui",
-      "tmux",
-      "tui",
-      "workspace-manager"
-    ],
-    "url": "https://github.com/herdrdev/herdr",
-    "types": [
-      "Agent",
-      "开发工具链"
-    ],
-    "_sources": [
-      "rust"
     ]
   },
   {
@@ -739,6 +723,7 @@
       "开发工具链"
     ],
     "_sources": [
+      "all",
       "typescript"
     ]
   },
@@ -870,6 +855,23 @@
     ]
   },
   {
+    "full": "ag-ui-protocol/ag-ui",
+    "name": "ag-ui",
+    "desc": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
+    "lang": "TypeScript",
+    "stars": 0,
+    "week": 1277,
+    "url": "https://github.com/ag-ui-protocol/ag-ui",
+    "topics": [],
+    "_sources": [
+      "typescript"
+    ],
+    "types": [
+      "Agent",
+      "开发工具链"
+    ]
+  },
+  {
     "full": "lobehub/lobehub",
     "name": "lobehub",
     "desc": "🤯 LobeHub - Super-Agents on Your Team. Add super-agents to the chats your team already uses.They take on work by themselves and get better every week.",
@@ -899,6 +901,23 @@
     ]
   },
   {
+    "full": "Jakeschincariol/instagram-agent-skill",
+    "name": "instagram-agent-skill",
+    "desc": "Thirteen Claude skills that run an Instagram account: Reels off 26 scored hook formulas, a viral research skill, a caption linter, and a humanizer. Free, MIT.",
+    "lang": "Python",
+    "stars": 6327,
+    "week": 1132,
+    "topics": [],
+    "types": [
+      "Skill",
+      "应用与产品"
+    ],
+    "url": "https://github.com/Jakeschincariol/instagram-agent-skill",
+    "_sources": [
+      "python"
+    ]
+  },
+  {
     "full": "kajisho5/ffmpeg-skill",
     "name": "ffmpeg-skill",
     "desc": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
@@ -916,32 +935,6 @@
     ]
   },
   {
-    "full": "elie222/rakazo",
-    "name": "rakazo",
-    "desc": "Open-source Grok Bot alternative. Choose your own model and sandbox.",
-    "lang": "TypeScript",
-    "stars": 7690,
-    "week": 1064,
-    "topics": [
-      "ai-agents",
-      "chatgpt",
-      "docker",
-      "electron",
-      "expo",
-      "grok",
-      "llm",
-      "self-hosted",
-      "typescript"
-    ],
-    "url": "https://github.com/elie222/rakazo",
-    "types": [
-      "模型与推理"
-    ],
-    "_sources": [
-      "typescript"
-    ]
-  },
-  {
     "full": "multica-ai/multica",
     "name": "multica",
     "desc": "Make humans and AI agents work as one team — open-source and self-hostable.",
@@ -952,36 +945,6 @@
     "url": "https://github.com/multica-ai/multica",
     "types": [
       "Agent"
-    ],
-    "_sources": [
-      "go"
-    ]
-  },
-  {
-    "full": "superplanehq/superplane",
-    "name": "superplane",
-    "desc": "Open source factory for one-shot engineering",
-    "lang": "Go",
-    "stars": 9433,
-    "week": 936,
-    "topics": [
-      "agent-orchestration",
-      "agentic-workflows",
-      "ai-agents",
-      "ai-coding",
-      "ai-software-engineering",
-      "developer-tools",
-      "go",
-      "react",
-      "self-hosted",
-      "software-factory",
-      "workflow-automation"
-    ],
-    "url": "https://github.com/superplanehq/superplane",
-    "types": [
-      "Agent",
-      "开发工具链",
-      "应用与产品"
     ],
     "_sources": [
       "go"
@@ -1060,27 +1023,6 @@
     ]
   },
   {
-    "full": "liguobao/ds-harness-remote",
-    "name": "ds-harness-remote",
-    "desc": "基于 DeepSeek Harness 插件机制构建的远程访问方案，通过低延迟、端到端加密的 P2P 网络，支持使用 PC、移动端 和 Web 随时访问本地设备上的DSH 、CodeX、Cursor、Claude Code等工作区。 (Built on DeepSeek Harness plugins, this low-latency, end-to-end encrypted P2P solution lets PC, mobile, and web clients access local DSH, Codex, Cursor, and Claude Code workspaces.)",
-    "lang": "TypeScript",
-    "stars": 2427,
-    "week": 702,
-    "topics": [
-      "deepseek",
-      "dsh-plugin"
-    ],
-    "url": "https://github.com/liguobao/ds-harness-remote",
-    "types": [
-      "Agent",
-      "应用与产品",
-      "开发工具链"
-    ],
-    "_sources": [
-      "typescript"
-    ]
-  },
-  {
     "full": "opensandbox-group/OpenSandbox",
     "name": "OpenSandbox",
     "desc": "Secure, Fast, and Extensible Sandbox runtime for AI agents.",
@@ -1102,45 +1044,6 @@
     "url": "https://github.com/opensandbox-group/OpenSandbox",
     "_sources": [
       "go"
-    ]
-  },
-  {
-    "full": "bradautomates/claude-video",
-    "name": "claude-video",
-    "desc": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
-    "lang": "Python",
-    "stars": 20350,
-    "week": 694,
-    "topics": [],
-    "url": "https://github.com/bradautomates/claude-video",
-    "types": [
-      "Skill",
-      "Agent"
-    ],
-    "_sources": [
-      "python"
-    ]
-  },
-  {
-    "full": "google/skills",
-    "name": "skills",
-    "desc": "Agent Skills for Google products and technologies",
-    "lang": "Python",
-    "stars": 23767,
-    "week": 675,
-    "topics": [
-      "google",
-      "googlecloud",
-      "skills"
-    ],
-    "url": "https://github.com/google/skills",
-    "types": [
-      "Skill",
-      "Agent",
-      "应用与产品"
-    ],
-    "_sources": [
-      "python"
     ]
   },
   {
@@ -1282,35 +1185,6 @@
     ]
   },
   {
-    "full": "microsoft/ai-agents-for-beginners",
-    "name": "ai-agents-for-beginners",
-    "desc": "18 Lessons to Get Started Building AI Agents",
-    "lang": "Jupyter Notebook",
-    "stars": 79302,
-    "week": 546,
-    "topics": [
-      "agentic-ai",
-      "agentic-framework",
-      "agentic-rag",
-      "ai-agents",
-      "ai-agents-framework",
-      "autogen",
-      "foundry",
-      "foundry-local",
-      "generative-ai",
-      "microsoft-foundry",
-      "semantic-kernel"
-    ],
-    "url": "https://github.com/microsoft/ai-agents-for-beginners",
-    "types": [
-      "Agent",
-      "数据与评测"
-    ],
-    "_sources": [
-      "jupyter-notebook"
-    ]
-  },
-  {
     "full": "AppFlowy-IO/AppFlowy",
     "name": "AppFlowy",
     "desc": "Bring projects, wikis, and teams together with AI. AppFlowy is the AI collaborative workspace where you achieve more without losing control of your data. The leading open source Notion alternative.",
@@ -1352,16 +1226,32 @@
     ]
   },
   {
-    "full": "Lordog/dive-into-llms",
-    "name": "dive-into-llms",
-    "desc": "《动手学大模型Dive into LLMs》系列编程实践教程",
+    "full": "microsoft/generative-ai-for-beginners",
+    "name": "generative-ai-for-beginners",
+    "desc": "21 Lessons, Get Started Building with Generative AI",
     "lang": "Jupyter Notebook",
-    "stars": 59888,
-    "week": 515,
-    "topics": [],
-    "url": "https://github.com/Lordog/dive-into-llms",
+    "stars": 123204,
+    "week": 497,
+    "topics": [
+      "ai",
+      "azure",
+      "chatgpt",
+      "dall-e",
+      "generative-ai",
+      "generativeai",
+      "gpt",
+      "language-model",
+      "llms",
+      "microsoft-for-beginners",
+      "openai",
+      "prompt-engineering",
+      "semantic-search",
+      "transformers"
+    ],
+    "url": "https://github.com/microsoft/generative-ai-for-beginners",
     "types": [
-      "应用与产品"
+      "数据与评测",
+      "开发工具链"
     ],
     "_sources": [
       "jupyter-notebook"
@@ -1459,6 +1349,23 @@
     "topics": [],
     "_sources": [
       "typescript"
+    ]
+  },
+  {
+    "full": "facebookresearch/faiss",
+    "name": "faiss",
+    "desc": "A library for efficient similarity search and clustering of dense vectors.",
+    "lang": "C++",
+    "stars": 0,
+    "week": 438,
+    "url": "https://github.com/facebookresearch/faiss",
+    "topics": [],
+    "_sources": [
+      "cpp"
+    ],
+    "types": [
+      "数据与评测",
+      "模型与推理"
     ]
   },
   {
@@ -1561,32 +1468,6 @@
     ]
   },
   {
-    "full": "tensorflow/tensorflow",
-    "name": "tensorflow",
-    "desc": "An Open Source Machine Learning Framework for Everyone",
-    "lang": "C++",
-    "stars": 201584,
-    "week": 305,
-    "topics": [
-      "deep-learning",
-      "deep-neural-networks",
-      "distributed",
-      "machine-learning",
-      "ml",
-      "neural-network",
-      "python",
-      "tensorflow"
-    ],
-    "types": [
-      "模型与推理",
-      "开发工具链"
-    ],
-    "url": "https://github.com/tensorflow/tensorflow",
-    "_sources": [
-      "cpp"
-    ]
-  },
-  {
     "full": "anthropics/claude-cookbooks",
     "name": "claude-cookbooks",
     "desc": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
@@ -1669,22 +1550,6 @@
     ]
   },
   {
-    "full": "aquasecurity/trivy",
-    "name": "trivy",
-    "desc": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-    "lang": "Go",
-    "stars": 39170,
-    "week": 260,
-    "topics": [],
-    "url": "https://github.com/aquasecurity/trivy",
-    "types": [
-      "应用与产品"
-    ],
-    "_sources": [
-      "go"
-    ]
-  },
-  {
     "full": "ggml-org/ggml",
     "name": "ggml",
     "desc": "Tensor library for machine learning",
@@ -1698,20 +1563,19 @@
     ]
   },
   {
-    "full": "kunchenguid/firstmate",
-    "name": "firstmate",
-    "desc": "Talk to one agent. Ship with a crew.",
-    "lang": "Shell",
-    "stars": 8853,
-    "week": 229,
+    "full": "ggml-org/whisper.cpp",
+    "name": "whisper.cpp",
+    "desc": "Port of OpenAI's Whisper model in C/C++",
+    "lang": "C++",
+    "stars": 0,
+    "week": 237,
     "topics": [],
     "types": [
-      "Agent",
-      "开发工具链"
+      "模型与推理"
     ],
-    "url": "https://github.com/kunchenguid/firstmate",
+    "url": "https://github.com/ggml-org/whisper.cpp",
     "_sources": [
-      "shell"
+      "cpp"
     ]
   },
   {
@@ -1737,30 +1601,20 @@
     ]
   },
   {
-    "full": "microsoft/AI-For-Beginners",
-    "name": "AI-For-Beginners",
-    "desc": "12 Weeks, 24 Lessons, AI for All!",
+    "full": "openai/openai-cookbook",
+    "name": "openai-cookbook",
+    "desc": "Examples and guides for using the OpenAI API",
     "lang": "Jupyter Notebook",
-    "stars": 70676,
-    "week": 206,
-    "topics": [
-      "deep-learning",
-      "artificial-intelligence",
-      "machine-learning",
-      "ai",
-      "computer-vision",
-      "nlp",
-      "cnn",
-      "rnn",
-      "gan",
-      "microsoft-for-beginners"
-    ],
-    "url": "https://github.com/microsoft/AI-For-Beginners",
-    "types": [
-      "开发工具链"
-    ],
+    "stars": 0,
+    "week": 184,
+    "url": "https://github.com/openai/openai-cookbook",
+    "topics": [],
     "_sources": [
       "jupyter-notebook"
+    ],
+    "types": [
+      "数据与评测",
+      "开发工具链"
     ]
   },
   {
@@ -1777,44 +1631,6 @@
     "url": "https://github.com/runkids/skillshare",
     "_sources": [
       "go"
-    ]
-  },
-  {
-    "full": "Manavarya09/design-extract",
-    "name": "design-extract",
-    "desc": "Extract any website's complete design system with one command. DTCG tokens, semantic+primitive+composite, MCP server for Claude Code/Cursor/Windsurf, multi-platform emitters (iOS SwiftUI, Android Compose, Flutter, WordPress), Tailwind v4, Figma variables, shadcn/ui, CSS health audit, WCAG remediation, Chrome extension. MIT, Playwright, Node 20+.",
-    "lang": "HTML",
-    "stars": 5045,
-    "week": 176,
-    "topics": [
-      "accessibility",
-      "agent-skill",
-      "ai",
-      "chrome-extension",
-      "claude-code-plugin",
-      "cli",
-      "css",
-      "cursor",
-      "design-system",
-      "design-to-code",
-      "design-tokens",
-      "dtcg",
-      "figma",
-      "mcp-server",
-      "npx",
-      "playwright",
-      "shadcn-ui",
-      "skills-sh",
-      "tailwind",
-      "web-scraping"
-    ],
-    "types": [
-      "Skill",
-      "开发工具链"
-    ],
-    "url": "https://github.com/Manavarya09/design-extract",
-    "_sources": [
-      "html"
     ]
   },
   {
@@ -1946,6 +1762,31 @@
     ]
   },
   {
+    "full": "plannotator/effective-html",
+    "name": "effective-html",
+    "desc": "Agent skills for useful HTML artifacts, wireframes, interactive prototypes, plans, and diagrams.",
+    "lang": "HTML",
+    "stars": 4060,
+    "week": 116,
+    "topics": [
+      "agent-skills",
+      "claude-code",
+      "codex",
+      "html-artifacts",
+      "html-prototype",
+      "html-wireframe",
+      "prototyping",
+      "skills"
+    ],
+    "url": "https://github.com/plannotator/effective-html",
+    "types": [
+      "Skill"
+    ],
+    "_sources": [
+      "html"
+    ]
+  },
+  {
     "full": "alibaba/MNN",
     "name": "MNN",
     "desc": "MNN: A blazing-fast, lightweight inference engine battle-tested by Alibaba, powering high-performance on-device LLMs and Edge AI.",
@@ -2011,39 +1852,6 @@
     "url": "https://github.com/gepa-ai/gepa",
     "_sources": [
       "jupyter-notebook"
-    ]
-  },
-  {
-    "full": "NirDiamant/GenAI_Agents",
-    "name": "GenAI_Agents",
-    "desc": "50+ tutorials and implementations for Generative AI Agent techniques, from basic conversational bots to complex multi-agent systems.",
-    "lang": "Jupyter Notebook",
-    "stars": 24898,
-    "week": 102,
-    "topics": [],
-    "url": "https://github.com/NirDiamant/GenAI_Agents",
-    "types": [
-      "Agent",
-      "数据与评测"
-    ],
-    "_sources": [
-      "jupyter-notebook"
-    ]
-  },
-  {
-    "full": "agentscope-ai/agentscope-java",
-    "name": "agentscope-java",
-    "desc": "Build distributed, production-grade, long-running agents.",
-    "lang": "Java",
-    "stars": 6306,
-    "week": 88,
-    "topics": [],
-    "url": "https://github.com/agentscope-ai/agentscope-java",
-    "types": [
-      "Agent"
-    ],
-    "_sources": [
-      "java"
     ]
   },
   {
@@ -2149,28 +1957,6 @@
     ]
   },
   {
-    "full": "cloudflare/skills",
-    "name": "skills",
-    "desc": "Skills for teaching agents how to build on Cloudflare.",
-    "lang": "Shell",
-    "stars": 3299,
-    "week": 62,
-    "topics": [
-      "agents",
-      "cloudflare",
-      "skills",
-      "workers"
-    ],
-    "url": "https://github.com/cloudflare/skills",
-    "types": [
-      "Skill",
-      "Agent"
-    ],
-    "_sources": [
-      "shell"
-    ]
-  },
-  {
     "full": "ed-donner/agents",
     "name": "agents",
     "desc": "Repo for the Complete Agentic AI Engineering Course",
@@ -2185,6 +1971,40 @@
     ],
     "_sources": [
       "jupyter-notebook"
+    ]
+  },
+  {
+    "full": "DataTalksClub/llm-zoomcamp",
+    "name": "llm-zoomcamp",
+    "desc": "LLM Zoomcamp - a free online course about real-life applications of LLMs. In 10 weeks you will learn how to build an AI system that answers questions about your knowledge base. Register here 👇🏼",
+    "lang": "Jupyter Notebook",
+    "stars": 7628,
+    "week": 53,
+    "topics": [],
+    "url": "https://github.com/DataTalksClub/llm-zoomcamp",
+    "types": [
+      "模型与推理",
+      "数据与评测"
+    ],
+    "_sources": [
+      "jupyter-notebook"
+    ]
+  },
+  {
+    "full": "Dammyjay93/interface-design",
+    "name": "interface-design",
+    "desc": "Design engineering for Claude Code. Craft, memory, and enforcement for consistent UI.",
+    "lang": "Shell",
+    "stars": 5944,
+    "week": 50,
+    "topics": [],
+    "url": "https://github.com/Dammyjay93/interface-design",
+    "types": [
+      "Skill",
+      "开发工具链"
+    ],
+    "_sources": [
+      "shell"
     ]
   },
   {
@@ -2220,6 +2040,22 @@
     ]
   },
   {
+    "full": "nextcloud/all-in-one",
+    "name": "all-in-one",
+    "desc": "📦 The official Nextcloud installation method. Provides easy deployment and maintenance with most features included in this one Nextcloud instance.",
+    "lang": "PHP",
+    "stars": 10749,
+    "week": 46,
+    "topics": [],
+    "url": "https://github.com/nextcloud/all-in-one",
+    "types": [
+      "开发工具链"
+    ],
+    "_sources": [
+      "php"
+    ]
+  },
+  {
     "full": "higgsfield-ai/higgsfield",
     "name": "higgsfield",
     "desc": "Fault-tolerant, highly scalable GPU orchestration, and a machine learning framework designed for training models with billions to trillions of parameters",
@@ -2247,59 +2083,6 @@
     ]
   },
   {
-    "full": "facebookresearch/dinov3",
-    "name": "dinov3",
-    "desc": "Reference PyTorch implementation and models for DINOv3",
-    "lang": "Jupyter Notebook",
-    "stars": 11727,
-    "week": 42,
-    "topics": [],
-    "types": [
-      "模型与推理"
-    ],
-    "url": "https://github.com/facebookresearch/dinov3",
-    "_sources": [
-      "jupyter-notebook"
-    ]
-  },
-  {
-    "full": "cogwheel0/conduit",
-    "name": "conduit",
-    "desc": "Native iOS and Android client for Open WebUI, direct OpenAI-compatible, Ollama, and Hermes agents.",
-    "lang": "Dart",
-    "stars": 2439,
-    "week": 41,
-    "topics": [
-      "ai-agents",
-      "ai-assistant",
-      "android",
-      "chat",
-      "chatbot",
-      "cross-platform",
-      "dart",
-      "flutter",
-      "ios",
-      "llm",
-      "llm-client",
-      "mobile-app",
-      "ollama",
-      "open-webui",
-      "openai",
-      "openrouter",
-      "openwebui",
-      "privacy",
-      "self-hosted",
-      "selfhosted"
-    ],
-    "types": [
-      "应用与产品"
-    ],
-    "url": "https://github.com/cogwheel0/conduit",
-    "_sources": [
-      "dart"
-    ]
-  },
-  {
     "full": "pipipi-pikachu/PPTist",
     "name": "PPTist",
     "desc": "PowerPoint-ist（/'pauəpɔintist/）, An online presentation application that replicates most of the commonly used features of MS PowerPoint, allowing for the editing and presentation of PPT online. It also supports AIPPT and local PPTX file preview.",
@@ -2313,6 +2096,22 @@
     ],
     "_sources": [
       "vue"
+    ]
+  },
+  {
+    "full": "grokability/snipe-it",
+    "name": "snipe-it",
+    "desc": "A free open source IT asset/license management system",
+    "lang": "PHP",
+    "stars": 15114,
+    "week": 33,
+    "topics": [],
+    "url": "https://github.com/grokability/snipe-it",
+    "types": [
+      "应用与产品"
+    ],
+    "_sources": [
+      "php"
     ]
   },
   {
