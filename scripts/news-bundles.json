@@ -3,7 +3,7 @@
     "id": "eve15-gemini-wallet",
     "title": "Gemini 应用在美国上线 Google Wallet 连接：可基于消费记录回答理财问题，但不能动用资金",
     "url": "https://blog.google/innovation-and-ai/products/gemini-app/google-wallet-gemini-app/",
-    "date": "2026-11-15",
+    "date": "2026-11-16",
     "meta": "",
     "bullets": [
       "Google 官方宣布，即日起面向美国所有 Gemini 应用用户开放 Google Wallet 连接：在 Personal Intelligence 的已连接应用中加入钱包后，可用消费习惯获得更贴合的理财、预算等回答，并在对话中用 @Google Wallet 提问。",
@@ -31,22 +31,29 @@
         "url": "https://x.com/joshwoodward/status/2121755283785699376",
         "date": "2026-11-15",
         "same_event": true
+      },
+      {
+        "label": "AIbase",
+        "title": "谷歌Gemini接入Google Wallet，美国用户可使用AI分析个人财务",
+        "url": "https://www.aibase.com/news/32329",
+        "date": "2026-11-16",
+        "same_event": true
       }
     ],
     "score_parts": {
       "industry": 62,
       "actionable": 88,
       "breadth": 55,
-      "heat": 47
+      "heat": 58
     },
-    "heat": 47,
+    "heat": 58,
     "heat_signals": {
-      "reports": 3,
-      "domains": 2,
+      "reports": 4,
+      "domains": 3,
       "x_posts_7d": 624,
       "x_spike_7d": -448.5
     },
-    "score": 66.1
+    "score": 68.3
   },
   {
     "id": "eve15-dram",
@@ -2732,7 +2739,7 @@
     "id": "morn14-huang-petition",
     "title": "「Stand with Jensen」请愿超 11.5 万签名，马斯克、Sweeney、Tan 等联署请英伟达请回黄仁勋",
     "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang",
-    "date": "2026-11-15",
+    "date": "2026-11-16",
     "meta": "",
     "bullets": [
       "TechCrunch 报道，截至周六下午，要求英伟达董事会请回黄仁勋的公开请愿已获得逾 11.5 万个签名；请愿网站称其中包括 5965 名在职员工、1108 名前员工和 63063 名股东。知名签署人包括马斯克、Replit CEO Amjad Masad、Epic Games 的 Tim Sweeney 和 Y Combinator 的 Garry Tan。",
@@ -2795,6 +2802,13 @@
         "url": "https://standwithjensen.com/",
         "date": "2026-11-15",
         "same_event": true
+      },
+      {
+        "label": "AIbase",
+        "title": "马斯克等科技高管联名请愿，要求英伟达恢复黄仁勋CEO职务",
+        "url": "https://www.aibase.com/news/32324",
+        "date": "2026-11-16",
+        "same_event": true
       }
     ],
     "score_parts": {
@@ -2805,7 +2819,7 @@
     },
     "heat": 95,
     "heat_signals": {
-      "reports": 8,
+      "reports": 9,
       "domains": 8,
       "x_posts_7d": 13668,
       "x_spike_7d": 1128.0
@@ -2850,12 +2864,12 @@
     "id": "morn14-fireworks-notion",
     "title": "Fireworks AI 遭入侵波及 Notion：约 1% 用户的 Notion AI 聊天记录被访问",
     "url": "https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor",
-    "date": "2026-11-12",
+    "date": "2026-11-15",
     "meta": "",
     "bullets": [
-      "Notion 发布安全说明称，第三方 AI 供应商 Fireworks AI 发生安全事件，攻击者得以访问部分客户数据；约 1% 的 Notion 用户受到影响，涉及 Notion AI Insights 聊天记录。",
-      "TechCrunch 等报道，Notion 于 11 月 3 日切断与该供应商的连接并删除相关数据；Fireworks 随后确认事件范围比最初估计更广。",
-      "这是供应商链路失守，不是 Notion 自身应用被直接攻破，但提醒企业在把对话交给第三方推理服务时的数据风险。"
+      "Notion 此前发布安全说明称，第三方 AI 供应商 Fireworks AI 发生安全事件，攻击者得以访问部分客户数据；约 1% 的 Notion 用户受到影响，涉及 Notion AI Insights 聊天记录。",
+      "The Next Web 11 月 15 日报道，同一轮 Fireworks AI 入侵还导致部分 Uber 司机的驾照数据被盗，显示受影响客户不只 Notion。",
+      "这是供应商链路失守，不是 Notion 或 Uber 自身应用被直接攻破，但提醒企业在把对话或身份数据交给第三方推理服务时的风险。"
     ],
     "links": [
       {
@@ -2892,22 +2906,29 @@
         "url": "https://www.aibase.com/news/32288",
         "date": "2026-11-13",
         "same_event": true
+      },
+      {
+        "label": "The Next Web",
+        "title": "Uber drivers’ licence data stolen in Fireworks AI hack",
+        "url": "https://thenextweb.com/news/uber-drivers-licence-data-stolen-in-fireworks-ai-hack",
+        "date": "2026-11-15",
+        "same_event": true
       }
     ],
     "score_parts": {
       "industry": 78,
       "actionable": 65,
       "breadth": 70,
-      "heat": 69
+      "heat": 75
     },
-    "heat": 69,
+    "heat": 75,
     "heat_signals": {
-      "reports": 5,
-      "domains": 5,
+      "reports": 6,
+      "domains": 6,
       "x_posts_7d": 964,
       "x_spike_7d": -543.5
     },
-    "score": 71.5
+    "score": 72.7
   },
   {
     "id": "morn14-muse-calls",
@@ -3784,14 +3805,14 @@
   },
   {
     "id": "eve13-anthropic-ipo-oversub",
-    "title": "消息：Anthropic IPO 认购约超六倍，同期私募配售约 260 亿美元，英伟达与 Google 各约 100 亿美元",
+    "title": "消息：Anthropic IPO 认购约超七倍，公司与部分股东拟通过上市及私募最多筹资约 904 亿美元",
     "url": "https://www.livemint.com/market/anthropics-ipo-is-about-six-times-oversubscribed-11794519373423.html",
-    "date": "2026-11-13",
+    "date": "2026-11-15",
     "meta": "",
     "bullets": [
-      "彭博社援引知情人士称，Anthropic 即将进行的 IPO 认购订单约为可售股份的六倍；承销商已告知意向投资者，公司会优先照顾现有股东，部分新买家的获配可能低于预期。",
-      "公司文件显示，Anthropic 与联合创始人拟通过 IPO 最多筹资约 644 亿美元，并同步向 Google、英伟达、AMD、Broadcom、美光、微软和台积电私募配售合计约 260 亿美元的 N 类股，其中 Google 与英伟达按中间价各约 100 亿美元。",
-      "IPO 与私募合计可能超过 SpaceX 上市规模；公司瞄完全稀释估值约 1.4 万亿美元，股票拟以代码 ANT 登陆纳斯达克，细节仍可能变化。"
+      "彭博社最新特稿援引知情人士称，Anthropic 即将进行的 IPO 认购约超七倍；公司与部分股东拟通过 IPO 及另一笔私募配售最多筹资约 904 亿美元。",
+      "此前报道称认购约为六倍，文件显示公司拟通过 IPO 最多筹资约 644 亿美元，并同步向 Google、英伟达等私募配售合计约 260 亿美元；两则报道同属本轮上市与配售安排，新稿把认购倍率和合计筹资上限上调。",
+      "股票拟以代码 ANT 登陆纳斯达克，完全稀释估值目标仍在约 1.4 万亿美元量级，定价与配售细节仍可能变化。"
     ],
     "links": [
       {
@@ -3849,22 +3870,36 @@
         "url": "https://the-decoder.com/anthropics-ipo-is-six-times-oversubscribed-and-on-track-to-become-the-largest-public-offering-in-history",
         "date": "2026-11-13",
         "same_event": true
+      },
+      {
+        "label": "Bloomberg",
+        "title": "Anthropic's IPO makes Dario Amodei the new face of the AI boom",
+        "url": "https://www.bloomberg.com/news/features/2026-11-15/anthropic-s-ipo-makes-dario-amodei-the-new-face-of-the-ai-boom",
+        "date": "2026-11-15",
+        "same_event": true
+      },
+      {
+        "label": "Techmeme",
+        "title": "Sources: Anthropic's IPO is ~7x oversubscribed; seeking to raise up to $90.4B via the IPO and a separate private placement",
+        "url": "https://www.techmeme.com/261115/p18",
+        "date": "2026-11-15",
+        "same_event": true
       }
     ],
     "score_parts": {
-      "industry": 80,
+      "industry": 82,
       "actionable": 36,
-      "breadth": 72,
+      "breadth": 74,
       "heat": 75
     },
     "heat": 75,
     "heat_signals": {
-      "reports": 8,
-      "domains": 7,
+      "reports": 10,
+      "domains": 8,
       "x_posts_7d": 584,
       "x_spike_7d": -841.0
     },
-    "score": 65.0
+    "score": 66.0
   },
   {
     "id": "eve13-edge0-145b",
@@ -24958,12 +24993,12 @@
     "id": "morn16-congress-export",
     "title": "英伟达丑闻后，美国国会推动收紧对华 AI 芯片出口规则",
     "url": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
-    "date": "2026-11-15",
+    "date": "2026-11-16",
     "meta": "",
     "bullets": [
-      "The Verge 报道，黄仁勋与被怀疑为中国情报人员的商人关系曝光后，美国国会再度推动收紧对华 AI 芯片出口规则。",
-      "参议院少数党领袖 Schumer 已要求黄仁勋和特朗普政府向国会作出说明；参议院银行委员会主席 Tim Scott 也致函黄仁勋和商务部长 Lutnick，要求他们公开作证。",
-      "此前在众议院提出、参议院搁置的 Remote Access Security Act 等议案重新受到关注；议长 Mike Johnson 对路透社表示，国会在限制对华高端 AI 芯片出口上「共识在增加」。"
+      "The Verge 此前报道，黄仁勋相关丑闻曝光后，美国国会再度推动收紧对华 AI 芯片出口规则；参议院领袖已要求黄仁勋和特朗普政府向国会说明。",
+      "《金融时报》后续称，收紧出口规则正在国会获得两党支持，其中包括一项旨在阻止中国公司在海外获取相关芯片的议案；路透社早前也引用议长 Johnson 称限制高端 AI 芯片对华出口的共识在增加。",
+      "此前在众议院提出、参议院搁置的 Remote Access Security Act 等议案重新受到关注。这仍是立法推进中的消息，尚未等于新法已经通过。"
     ],
     "links": [
       {
@@ -24972,22 +25007,36 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
         "date": "2026-11-15",
         "same_event": true
+      },
+      {
+        "label": "Financial Times / Techmeme",
+        "title": "Tighter AI chip export rules are gaining bipartisan support in Congress, including a bill to block Chinese companies from accessing chips overseas",
+        "url": "https://www.techmeme.com/261116/p2",
+        "date": "2026-11-16",
+        "same_event": true
+      },
+      {
+        "label": "Yahoo Finance",
+        "title": "Congress moves to pass tighter AI chip export rules following Nvidia scandal",
+        "url": "https://finance.yahoo.com/technology/ai/articles/congress-moves-pass-tighter-ai-110004128.html",
+        "date": "2026-11-16",
+        "same_event": true
       }
     ],
     "score_parts": {
       "industry": 82,
       "actionable": 45,
       "breadth": 78,
-      "heat": 40
+      "heat": 62
     },
-    "heat": 40,
+    "heat": 62,
     "heat_signals": {
-      "reports": 1,
-      "domains": 1,
+      "reports": 3,
+      "domains": 3,
       "x_posts_7d": 916,
       "x_spike_7d": 436.0
     },
-    "score": 62.1
+    "score": 66.5
   },
   {
     "id": "morn16-pax-silica",
@@ -25091,7 +25140,7 @@
     "id": "morn16-apple-glasses",
     "title": "消息：苹果首款 Siri AI 智能眼镜拟于 2027 年 WWDC 发布、年底前出货，不含 AR 功能",
     "url": "https://www.theverge.com/tech/1033968/apples-first-smart-glasses-are-coming-together",
-    "date": "2026-11-15",
+    "date": "2026-11-16",
     "meta": "",
     "bullets": [
       "The Verge 援引彭博社 Mark Gurman 报道，苹果首款智能眼镜计划在 2027 年 6 月的 WWDC 发布，并在同年年底前开始出货；首款机型将没有增强现实功能。",
@@ -25119,22 +25168,29 @@
         "url": "https://www.techmeme.com/261115/p10",
         "date": "2026-11-15",
         "same_event": true
+      },
+      {
+        "label": "AIbase",
+        "title": "苹果首款AI眼镜计划2027年WWDC亮相，年底前上市",
+        "url": "https://www.aibase.com/news/32328",
+        "date": "2026-11-16",
+        "same_event": true
       }
     ],
     "score_parts": {
       "industry": 70,
       "actionable": 35,
       "breadth": 80,
-      "heat": 57
+      "heat": 68
     },
-    "heat": 57,
+    "heat": 68,
     "heat_signals": {
-      "reports": 3,
-      "domains": 3,
+      "reports": 4,
+      "domains": 4,
       "x_posts_7d": 148,
       "x_spike_7d": 148.0
     },
-    "score": 57.9
+    "score": 60.1
   },
   {
     "id": "morn16-alpha-school",
@@ -25520,5 +25576,774 @@
       "x_spike_7d": null
     },
     "score": 38.3
+  },
+  {
+    "id": "eve16-qwen4-max",
+    "title": "阿里正式发布 Qwen4-Max：2.4T 骨干、百万 token 上下文，官方称单任务成本较 Qwen3.8-Max 降约 62%",
+    "url": "https://qwen.ai/blog?id=qwen4-max",
+    "date": "2026-11-16",
+    "meta": "",
+    "bullets": [
+      "通义千问官方宣布正式发布 Qwen4-Max，基于新的 Qwen4 架构：2.4T 骨干参数、每 token 激活 71B，另有 328B N-gram Embedding 参数，具备原生视觉能力与 100 万 token 上下文。官方称预训练过程稳定，全程无 loss spike。",
+      "官方评测称，相较 Qwen3.8-Max，Work360 上 token 用量约降 24%–35%，Terminal-Bench 4.0 约降 48%–49%，平均单任务成本从 4.43 美元降至 1.67 美元，降幅约 62%。模型已在 QwenCloud 提供 Token Plan 与 API，也可在 QwenWork、Qoder、QwenStudio 使用；官方同时表示 Qwen4 系列更小模型将逐步开源，Qwen4-Max 本身不开放权重。",
+      "通义千问还援引 Artificial Analysis：Intelligence Index 得 43 分，较 Qwen3.8-Max 高 9 分、落后 Kimi K3.1 Pro 3 分，单任务成本约 3.27 美元。Arena 称其在 Agent Arena 以约 1.47 万次真实会话净提升 7.5%、总榜第 14，成为榜上第一的中国模型，阿里巴巴实验室升至总榜第 5。"
+    ],
+    "links": [
+      {
+        "label": "Qwen",
+        "title": "Qwen4-Max: Your New Teammate Has Arrived",
+        "url": "https://qwen.ai/blog?id=qwen4-max",
+        "date": "2026-11-16",
+        "same_event": true
+      },
+      {
+        "label": "X · Qwen",
+        "title": "通义千问发布 Qwen4 Max，Intelligence Index 较 Qwen3.8 Max 高 9 分且成本更低",
+        "url": "https://x.com/Alibaba_Qwen/status/2122174463479542126",
+        "date": "2026-11-16",
+        "same_event": true
+      },
+      {
+        "label": "X · Arena",
+        "title": "Qwen4-Max 登顶 Agent Arena 中国模型榜首，Alibaba 排名升至总榜第14",
+        "url": "https://x.com/arena/status/2122153116959482051",
+        "date": "2026-11-16",
+        "same_event": true
+      },
+      {
+        "label": "AIbase",
+        "title": "阿里千问发布 Qwen4-Max: 以架构升级压低 token 消耗，单任务费用降58%",
+        "url": "https://www.aibase.com/news/32332",
+        "date": "2026-11-16",
+        "same_event": true
+      },
+      {
+        "label": "AIbase",
+        "title": "千问 AI 平台首发 Qwen4-Max: 以 Token 用量减半、得分升近28% 切入开发者市场",
+        "url": "https://www.aibase.com/news/32334",
+        "date": "2026-11-16",
+        "same_event": true
+      },
+      {
+        "label": "Bloomberg",
+        "title": "Alibaba unveils new flagship AI model in riposte to US rivals",
+        "url": "https://www.bloomberg.com/news/articles/2026-11-16/alibaba-unveils-new-flagship-ai-model-in-riposte-to-us-rivals",
+        "date": "2026-11-16",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 90,
+      "actionable": 88,
+      "breadth": 82,
+      "heat": 100
+    },
+    "heat": 100,
+    "heat_signals": {
+      "reports": 6,
+      "domains": 4,
+      "x_posts_7d": 10168,
+      "x_spike_7d": 8728.0
+    },
+    "score": 90.6
+  },
+  {
+    "id": "eve16-hy4-flash",
+    "title": "腾讯混元发布 Hy4 flash：224B 总参数、激活 12B，称日常任务成本约为 Hy4 preview 的 1/13",
+    "url": "https://hunyuan.tencent.com/research/100145?langVersion=zh",
+    "date": "2026-11-16",
+    "meta": "",
+    "bullets": [
+      "腾讯混元推出面向日常工作的高性价比模型 Hy4 flash：总参数 224B（含 64B Engram 参数），激活 12B，支持多模态与 1M 上下文。官方给出的 API 价格为每百万 tokens 输入 0.5 元、输出 2 元、缓存命中输入 0.02 元，明显低于 Hy4 的 6 / 18 / 0.3 元。",
+      "官方称其在自建 WorkIndex 上单任务成本约为 Hy4 preview 的 1/13、Hy4 的 1/20；解码速度超过 150 tps。对 85 名 WorkBuddy 内部用户、259 项日常任务的盲测显示，满意度接近 Claude Haiku 5.5，且任务耗时更短。",
+      "Hy4 flash 已在腾讯云 TokenHub、WorkBuddy、元宝、企业微信、QQ、ima、Marvis 上线，并计划接入 OpenRouter、开源权重。11 月 30 日前 WorkBuddy 限时免费，TokenHub API 限时五折。官方建议日常办公用 flash，长程软件工程仍用 Hy4。"
+    ],
+    "links": [
+      {
+        "label": "腾讯混元",
+        "title": "Hy4 flash：日常工作的极致性价比模型",
+        "url": "https://hunyuan.tencent.com/research/100145?langVersion=zh",
+        "date": "2026-11-16",
+        "same_event": true
+      },
+      {
+        "label": "AIbase",
+        "title": "腾讯混元发布 Hy4flash:224B 参数、1M 上下文，解码超150tps，单任务成本仅 Hy4preview 的1/13",
+        "url": "https://www.aibase.com/news/32335",
+        "date": "2026-11-16",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 78,
+      "actionable": 88,
+      "breadth": 70,
+      "heat": 56
+    },
+    "heat": 56,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 966,
+      "x_spike_7d": 966.0
+    },
+    "score": 75.8
+  },
+  {
+    "id": "eve16-apple-health",
+    "title": "苹果联合 OpenEvidence 启动 Apple Health AI Usage Study，计划在美国招募最多 20 万名参与者",
+    "url": "https://www.apple.com/newsroom/2026/11/apple-launches-research-study-to-explore-the-use-of-ai-for-health/",
+    "date": "2026-11-15",
+    "meta": "",
+    "bullets": [
+      "苹果宣布与临床 AI 平台 OpenEvidence 合作，在美国开展 Apple Health AI Usage Study，并推出配套研究应用，考察人们如何使用对话式健康 AI：信任从何而来、回答质量、理解程度，以及这是否改变日常健康行为。研究数据不会用于训练 AI 模型。",
+      "参与者可向应用询问日常健康问题，查看以浅显语言转述、并附同行评议文献链接的医学信息；也可选择分享心率、活动、睡眠或化验等 HealthKit 数据，观察个性化是否提升相关性。应用设有安全护栏，在识别到某些高风险问题时会建议咨询专业医生。该应用不能诊断或治疗疾病。",
+      "研究面向最多 20 万名 21 岁及以上的美国用户，需持有支持 Apple Intelligence 的 iPhone（iPhone 15 Pro 或更新机型）并运行 iOS 26 或更高版本。TechCrunch、The Verge 等也做了报道。"
+    ],
+    "links": [
+      {
+        "label": "Apple",
+        "title": "Apple launches research study to explore the use of AI for health",
+        "url": "https://www.apple.com/newsroom/2026/11/apple-launches-research-study-to-explore-the-use-of-ai-for-health/",
+        "date": "2026-11-15",
+        "same_event": true
+      },
+      {
+        "label": "TechCrunch",
+        "title": "Apple launches new app to study how people use AI for health",
+        "url": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health",
+        "date": "2026-11-16",
+        "same_event": true
+      },
+      {
+        "label": "The Verge",
+        "title": "Apple’s new study looks to improve the effectiveness of AI health tools",
+        "url": "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools",
+        "date": "2026-11-16",
+        "same_event": true
+      },
+      {
+        "label": "AIbase",
+        "title": "苹果联合OpenEvidence推出健康AI研究应用，计划招募20万名用户",
+        "url": "https://www.aibase.com/news/32338",
+        "date": "2026-11-16",
+        "same_event": true
+      },
+      {
+        "label": "Techmeme",
+        "title": "Apple launches its Health AI Usage Study, with an OpenEvidence-powered app, for up to 200,000 US users",
+        "url": "https://www.techmeme.com/261115/p27",
+        "date": "2026-11-16",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 72,
+      "actionable": 70,
+      "breadth": 75,
+      "heat": 79
+    },
+    "heat": 79,
+    "heat_signals": {
+      "reports": 5,
+      "domains": 5,
+      "x_posts_7d": 209,
+      "x_spike_7d": 209.0
+    },
+    "score": 73.1
+  },
+  {
+    "id": "eve16-champions",
+    "title": "消息：特朗普政府计划将英伟达、OpenAI、Anthropic 等列入 24 家以上 AI「国家冠军」，以帮助它们争夺海外业务",
+    "url": "https://www.wsj.com/tech/ai/trump-administration-to-name-nvidia-among-ai-national-champions-c9284344",
+    "date": "2026-11-16",
+    "meta": "",
+    "bullets": [
+      "《华尔街日报》援引知情人士称，特朗普政府计划将英伟达、亚马逊、微软、OpenAI 和 Anthropic 等列入 24 家以上 AI「国家冠军」，以帮助这些公司争夺海外业务。",
+      "Forbes、CoinDesk 等转述了这一报道。名单仍属计划阶段，并非已经公布的正式产业政策。",
+      "在黄仁勋辞职与对华芯片争议持续之际，把英伟达列入拟议名单，被多家媒体视为华盛顿对美国 AI 龙头的产业扶持信号。"
+    ],
+    "links": [
+      {
+        "label": "Wall Street Journal",
+        "title": "Trump Administration to Name Nvidia Among AI National Champions",
+        "url": "https://www.wsj.com/tech/ai/trump-administration-to-name-nvidia-among-ai-national-champions-c9284344",
+        "date": "2026-11-16",
+        "same_event": true
+      },
+      {
+        "label": "Forbes",
+        "title": "Scandal-Hit Nvidia Among Trump's Planned AI ‘National Champions,’ Report Says",
+        "url": "https://www.forbes.com/sites/siladityaray/2026/11/16/scandal-hit-nvidia-among-trumps-planned-ai-national-champions-report-says/",
+        "date": "2026-11-16",
+        "same_event": true
+      },
+      {
+        "label": "CoinDesk",
+        "title": "Trump administration to name Nvidia, OpenAI and several others as AI national champions",
+        "url": "https://www.coindesk.com/markets/2026/11/16/trump-administration-to-name-nvidia-openai-and-several-others-as-u-s-ai-national-champions",
+        "date": "2026-11-16",
+        "same_event": true
+      },
+      {
+        "label": "Techmeme",
+        "title": "Sources: the Trump admin plans to name Nvidia, Amazon, Microsoft, OpenAI, and Anthropic among 24+ AI national champions",
+        "url": "https://www.techmeme.com/261115/p29",
+        "date": "2026-11-16",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 85,
+      "actionable": 25,
+      "breadth": 80,
+      "heat": 78
+    },
+    "heat": 78,
+    "heat_signals": {
+      "reports": 4,
+      "domains": 4,
+      "x_posts_7d": 539,
+      "x_spike_7d": 516.5
+    },
+    "score": 65.1
+  },
+  {
+    "id": "eve16-deepseek-app-api",
+    "title": "DeepSeek 向开发者开放全家桶应用 API：联网搜索、读链接、文件理解等工具改由服务端执行",
+    "url": "https://api-docs.deepseek.com/zh-cn/updates/#发布全家桶应用-api",
+    "date": "2026-11-16",
+    "meta": "",
+    "bullets": [
+      "DeepSeek 在 API 更新中开放此前官方 App 使用的应用层能力：开发者可在请求里声明 deepseek_web_search、deepseek_read_url 等工具，由服务端完成搜索、打开网页和结果整理，客户端不必再自己对接搜索与抓取接口。思考模式下官方称最多可执行约 20 次工具调用。",
+      "同时提供 Files API，可上传 PDF、Word、PPT 和图片并加入对话；也开放独立的 Search、Fetch、OCR、ASR 与 TTS 接口。官方还开源了 chat-demo，并提供在线演示。",
+      "InfoQ 援引对比称，DeepSeek 联网搜索约每千次 5 元，低于 OpenAI、Anthropic 同类工具约每千次 10 美元的定价。这是 11 月 12 日前后的官方能力开放，中文媒体今日跟进了开发者文档与定价细节。"
+    ],
+    "links": [
+      {
+        "label": "DeepSeek",
+        "title": "发布全家桶应用 API",
+        "url": "https://api-docs.deepseek.com/zh-cn/updates/#发布全家桶应用-api",
+        "date": "2026-11-12",
+        "same_event": true
+      },
+      {
+        "label": "InfoQ",
+        "title": "DeepSeek又来掀桌子了！官方App全套能力开放API，联网搜索价格不到OpenAI、Claude的8%",
+        "url": "https://www.infoq.cn/article/NWmk4epBL0jPAUtpKSKb",
+        "date": "2026-11-16",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 70,
+      "actionable": 85,
+      "breadth": 65,
+      "heat": 41
+    },
+    "heat": 41,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 629,
+      "x_spike_7d": -586.0
+    },
+    "score": 68.2
+  },
+  {
+    "id": "eve16-seedance-4k",
+    "title": "火山引擎宣布 Seedance 2.5 4K API 全面开放，支持 10-bit 色深与 480P 样片模式",
+    "url": "https://www.aibase.com/news/32340",
+    "date": "2026-11-16",
+    "meta": "",
+    "bullets": [
+      "字节跳动火山引擎宣布，Seedance 2.5 4K 视频生成模型的 API 即日起全面开放，开发者与企业客户可直接调用。该 4K 版本于 10 月 23 日发布，官方称在表情、微动作和细节上强于同代其他规格，与此前发布的 Seedance 2.5 Flash 不是同一个接口。",
+      "新接口支持 Draft（样片）模式：可先用 480P 低成本验证分镜、反复改镜头，确认后再生成 4K 成片，以降低试错成本。",
+      "官方还强调 10-bit 色深带来更顺的渐变和更丰富的层次，画质可满足大屏呈现。AIbase 做了转述。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "火山引擎宣布Seedance2.54K API全面开放，支持10-bit色深与样片模式",
+        "url": "https://www.aibase.com/news/32340",
+        "date": "2026-11-16",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 68,
+      "actionable": 80,
+      "breadth": 60,
+      "heat": 40
+    },
+    "heat": 40,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 1024,
+      "x_spike_7d": 469.0
+    },
+    "score": 65.2
+  },
+  {
+    "id": "eve16-deepseek-limits",
+    "title": "DeepSeek 收紧 App 与网页端使用限制：超过 7 天未活跃的长对话不再保留，单次输入约 4 万字并设每日额度",
+    "url": "https://www.aibase.com/news/32337",
+    "date": "2026-11-16",
+    "meta": "",
+    "bullets": [
+      "AIbase 根据用户反馈报道，DeepSeek 近日在 App 和网页版收紧长对话限制，涉及历史保留、单次输入长度和每日对话额度，并指调整与算力承压有关。",
+      "具体变化包括：超过 7 天未继续使用的长对话历史不再支持；单次提问文本上限降至约 4 万字；并新增每日额度，达到上限后会提示因服务器繁忙暂时无法继续使用。",
+      "这是产品侧的配额调整，不是新模型发布。官方尚未在公开渠道给出完整书面说明，细节以实际产品提示为准。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "DeepSeek收紧使用限制:7天历史对话、4万字输入及每日额度调整",
+        "url": "https://www.aibase.com/news/32337",
+        "date": "2026-11-16",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 62,
+      "actionable": 55,
+      "breadth": 70,
+      "heat": 35
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 1631,
+      "x_spike_7d": 176.0
+    },
+    "score": 55.3
+  },
+  {
+    "id": "eve16-doubao-workbench",
+    "title": "豆包工作上线「工作台」：首批 21 个空间覆盖金融、医疗、教育等专业场景",
+    "url": "https://www.aibase.com/news/32336",
+    "date": "2026-11-16",
+    "meta": "",
+    "bullets": [
+      "豆包于 11 月 16 日在「豆包工作」中上线「工作台」，首批提供 21 个面向金融投研、医生、教师、写作、新媒体、数据分析、法务、旅行规划等场景的专用空间，预置技能和工具，降低专业场景的上手门槛。",
+      "例如投研空间可做公告解读、财报分析和公司研究，并在授权后调用万得、同花顺、国泰海通等数据插件；医生空间提供指南检索和文献解读，官方注明仅供研究辅助、不能替代执业医师判断；教师空间可生成教案课件，并与学科网合作。",
+      "创意设计空间会在任务开始后自动生成画布，便于把一个创意扩展成系列海报或包装。这是豆包工作的产品功能更新，不是新模型发布。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "豆包工作上线「工作台」:首批21款覆盖金融、医疗、教育等场景",
+        "url": "https://www.aibase.com/news/32336",
+        "date": "2026-11-16",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 58,
+      "actionable": 75,
+      "breadth": 62,
+      "heat": 35
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 70,
+      "x_spike_7d": 62.5
+    },
+    "score": 58.9
+  },
+  {
+    "id": "eve16-doubao-shop",
+    "title": "豆包 App 上线「找店」：对话里批量标注地图，可直接看团购、下单或导航",
+    "url": "https://www.aibase.com/news/32325",
+    "date": "2026-11-16",
+    "meta": "",
+    "bullets": [
+      "据「独家」报道，字节跳动豆包 App 上线「找店」：会把匹配商家批量标注在地图上，用户点进门店页即可查看人均、营业状态、评分、团购和代金券，并可直接下单或一键导航，把找店、比价、下单和出行收进同一聊天页。",
+      "用户还能按人数、正餐或夜宵、预算等条件再筛选；搜索不限于餐饮，也可找景点、酒店、加油站和休闲场所。这是继旅行入口、打车和酒店预订之后，豆包在本地生活场景的又一次闭环尝试。",
+      "官方强调重点仍是当好 AI 助手、打通「问答结果」和「线下行动」，而不是去抢团购业务。这与「豆包工作」上线工作台是不同的产品更新。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "豆包 App 上线“找店”:商家批量标注地图，团购下单与一键导航在对话内闭环",
+        "url": "https://www.aibase.com/news/32325",
+        "date": "2026-11-16",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 52,
+      "actionable": 70,
+      "breadth": 58,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 6,
+      "x_spike_7d": 6.0
+    },
+    "score": 53.6
+  },
+  {
+    "id": "eve16-workbuddy-carbon",
+    "title": "腾讯 WorkBuddy 国际版接入 Gemini 4 Carbon，目前仅向 Pro 用户开放百万 token 上下文",
+    "url": "https://www.aibase.com/news/32327",
+    "date": "2026-11-15",
+    "meta": "",
+    "bullets": [
+      "腾讯 WorkBuddy International 于 11 月 15 日宣布接入 Google 的 Gemini 4 Carbon，为复杂推理和长程任务提供模型选项，目前仅向 Pro 套餐用户开放。",
+      "Gemini 4 Carbon 面向长程智能体工作流，支持文本、图像、音频和视频输入，上下文窗口最高约 100 万 token。接入后 Pro 用户可直接在 WorkBuddy 内调用，不必只通过 Google 自家产品使用。",
+      "腾讯尚未公布该模型在 WorkBuddy 中的具体额度与限制。此前平台已接入支持百万 token 上下文的 Kimi K3.1 Pro 等模型。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "谷歌 Gemini4Carbon 入驻 WorkBuddy，百万 Token 上下文向 Pro 用户开放",
+        "url": "https://www.aibase.com/news/32327",
+        "date": "2026-11-16",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 55,
+      "actionable": 65,
+      "breadth": 50,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 52,
+      "x_spike_7d": -15.5
+    },
+    "score": 52.5
+  },
+  {
+    "id": "eve16-openai-lattice",
+    "title": "OpenAI 科学博客刊发论文：用 GPT-6 Astra 协助给出标准模型在格点上的候选非微扰定义",
+    "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+    "date": "2026-11-15",
+    "meta": "",
+    "bullets": [
+      "OpenAI 在新开设的科学博客上发布文章，介绍一项与 GPT-6 Astra 合作的工作：给出在格点上定义标准模型的候选非微扰方案，作者称这可能回应一个开放了五十多年的问题。",
+      "文中写到，把 refinement 策略发展成证明经历了多轮与 Astra 的合作，以及与格点场论专家 Maarten Golterman、Andreas Kronfeld、Yigal Shamir 的讨论；作者强调这更接近原则上的答案，距离可用于实际格点模拟仍有大量工作，还在考虑有限格距下是否满足 reflection positivity。",
+      "这是一篇待同行审读的科学结果，不是产品发布；是否被领域接受仍需专业对话。"
+    ],
+    "links": [
+      {
+        "label": "OpenAI",
+        "title": "A step toward defining the Standard Model on a lattice",
+        "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+        "date": "2026-11-15",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 70,
+      "actionable": 30,
+      "breadth": 50,
+      "heat": 40
+    },
+    "heat": 40,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 251,
+      "x_spike_7d": 228.5
+    },
+    "score": 50.0
+  },
+  {
+    "id": "eve16-huawei-wm",
+    "title": "华为云举行发布会，推出首款昇腾原生具身世界模型 CloudRoboWM 1.2",
+    "url": "https://www.aibase.com/news/32326",
+    "date": "2026-11-16",
+    "meta": "",
+    "bullets": [
+      "AIbase 报道，华为云于 11 月 16 日 14:00–15:30 举行线上发布会，推出首款昇腾原生具身世界模型 CloudRoboWM 1.2，定位推动具身智能从实验室走向行业部署。",
+      "议程显示，华为云具身产品线总裁、具身智能实验室主任吴晓东发布该模型，随后由首席模型专家刘柳介绍架构与能力，丁志斌介绍 CloudRobo 生态共建计划。",
+      "华为云曾在 2025 年 6 月推出 CloudRobo 具身智能平台，并在 2026 年 6 月发布「产业 AI 梦工厂·具身智能专区」。目前公开报道以发布会预告和议程为主，模型的具体指标仍待官方演示与文档。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "华为云将发布首款昇腾原生具身世界模型 CloudRoboWM1.2",
+        "url": "https://www.aibase.com/news/32326",
+        "date": "2026-11-16",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 60,
+      "actionable": 40,
+      "breadth": 50,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 6,
+      "x_spike_7d": 6.0
+    },
+    "score": 47.0
+  },
+  {
+    "id": "eve16-openai-science",
+    "title": "OpenAI 开设科学博客，用于发布研究成果、方法和科学界对 AI 工具的讨论",
+    "url": "https://openai.com/index/our-new-blog-for-science",
+    "date": "2026-11-15",
+    "meta": "",
+    "bullets": [
+      "OpenAI 宣布开设科学博客，给科学家和学术研究者一个分享「用 AI 发现了什么、以及如何做研究」的固定栏目，覆盖新结果、方法与实践建议，以及科学界的第一手讨论。",
+      "开篇回顾了近期工作，包括内部系统处理 Navier–Stokes 存在与光滑性问题的证明、准黎曼猜想相关界限，以及与 PerturbAI、Scripps Research 等合作、用大量智能体分析实验数据的案例。",
+      "这是传播渠道更新，不是新模型或新产品发布；同日另文介绍标准模型格点定义，属于不同的科学公告。"
+    ],
+    "links": [
+      {
+        "label": "OpenAI",
+        "title": "Our new blog for science",
+        "url": "https://openai.com/index/our-new-blog-for-science",
+        "date": "2026-11-15",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 58,
+      "actionable": 35,
+      "breadth": 55,
+      "heat": 35
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 122,
+      "x_spike_7d": 122.0
+    },
+    "score": 46.2
+  },
+  {
+    "id": "eve16-fable-paint",
+    "title": "The Decoder：Claude Fable 5.2 不调用图像模型，而是用代码模拟笔触作画，有演示用约 70 万笔绘出购物车",
+    "url": "https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them",
+    "date": "2026-11-15",
+    "meta": "",
+    "bullets": [
+      "The Decoder 报道，Anthropic 开发者 Jake Eaton 展示用 Claude Fable 5.2 模拟物理绘画过程：包括刷毛质感、颜料附着，以及画错后必须再覆盖，而不是调用外部图像模型或描摹现成底图。",
+      "在「画出一张尽可能接近照片的画」的提示下，模型用约 70 万次模拟笔触画了一幅停车场里的购物车；每幅作品是大约 1000 到 2000 行 Python，驱动一个模拟绘画引擎。Eaton 还让模型发展带虚构背景的画家人设以形成稳定风格。",
+      "这是对已发布的 Fable 5.2 的能力演示与评述，不是新模型发布。AIbase 也做了转述。"
+    ],
+    "links": [
+      {
+        "label": "The Decoder",
+        "title": "Anthropic's Claude Fable 5.2 doesn't generate images, it paints them",
+        "url": "https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them",
+        "date": "2026-11-15",
+        "same_event": true
+      },
+      {
+        "label": "AIbase",
+        "title": "不调用图像模型，Claude Fable5.2用70万次笔触画出一辆购物车",
+        "url": "https://www.aibase.com/news/32331",
+        "date": "2026-11-16",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 45,
+      "actionable": 40,
+      "breadth": 40,
+      "heat": 46
+    },
+    "heat": 46,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 131,
+      "x_spike_7d": 116.0
+    },
+    "score": 43.2
+  },
+  {
+    "id": "eve16-samsung-dc",
+    "title": "消息：三星希望做成「建设、运营并供电」一体化的 AI 数据中心，IT 部门正与 Anthropic、OpenAI 初步洽谈作为租户",
+    "url": "https://www.techmeme.com/261115/p19",
+    "date": "2026-11-16",
+    "meta": "",
+    "bullets": [
+      "《金融时报》援引知情人士称，三星希望成为一家可同时建设、运营并为 AI 数据中心供电的一站式供应商；其 IT 部门已与 Anthropic、OpenAI 就入驻租户展开早期洽谈。",
+      "Techmeme 对这一报道做了汇总。洽谈仍处于早期，并不等于已经签约。",
+      "这与三星 SDS 此前在龟尾开建 AI 数据中心是同一公司的不同进展：前者是建设开工，这一则是一体化服务和潜在大客户洽谈。"
+    ],
+    "links": [
+      {
+        "label": "Financial Times / Techmeme",
+        "title": "Samsung aims to be a one-stop shop that builds, runs, and powers AI data centers; sources: its IT arm is in early talks to sign Anthropic and OpenAI as tenants",
+        "url": "https://www.techmeme.com/261115/p19",
+        "date": "2026-11-16",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 62,
+      "actionable": 20,
+      "breadth": 55,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 114,
+      "x_spike_7d": 31.5
+    },
+    "score": 42.3
+  },
+  {
+    "id": "eve16-dai",
+    "title": "英伟达机器人学习工程师戴士钦宣布离职，称黄仁勋突然离任令他「特别失望」",
+    "url": "https://www.aibase.com/news/32333",
+    "date": "2026-11-16",
+    "meta": "",
+    "bullets": [
+      "AIbase 报道，英伟达机器人学习工程师戴士钦（Darrell Dai）宣布将离开公司，并表示黄仁勋的突然离任是重要原因之一，称自己「特别失望」。",
+      "他提到欣赏黄仁勋在深度学习爆发前就押注 CUDA、提前布局 AI 和具身智能，以及亲自阅读员工 Top5 邮件、与工程师直接沟通的文化；同时表示敬佩不等于豁免审视，只是难以接受在解释不足的情况下面对这场人事转折。",
+      "这是个别员工去留表态，不是公司新的人事任命，但反映出部分员工对交接透明度和文化连续性的担心。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "因黄仁勋突然离任 英伟达机器人学习工程师戴士钦宣布离职",
+        "url": "https://www.aibase.com/news/32333",
+        "date": "2026-11-16",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 48,
+      "actionable": 15,
+      "breadth": 40,
+      "heat": 35
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 94,
+      "x_spike_7d": 94.0
+    },
+    "score": 34.7
+  },
+  {
+    "id": "eve16-kazake-html",
+    "title": "数字生命卡兹克拆解走红的 1.4M 纯 HTML 3D 游戏：约一半体积是打包的 Three.js，并给出提示词模板",
+    "url": "https://mp.weixin.qq.com/s/ZJddy1ssHBvw_1sm12jrkg",
+    "date": "2026-11-16",
+    "meta": "",
+    "bullets": [
+      "公众号「数字生命卡兹克」拆解近期在社群流传的约 1.4MB 纯 HTML 3D 游戏，指出其中约 700KB 是打包进文件的 Three.js，其余由代码程序化生成，没有单独的图片、模型或录音资源。",
+      "文章分析了用代码生成场景的思路，并给出提示词模板，方便读者复现类似玩法。",
+      "这是教程与拆解，不是新模型或官方产品发布。"
+    ],
+    "links": [
+      {
+        "label": "数字生命卡兹克",
+        "title": "AI 手搓的 1.4M 纯 HTML 3D 游戏走红，卡兹克拆解 Three.js 程序化生成原理并给出提示词模板",
+        "url": "https://mp.weixin.qq.com/s/ZJddy1ssHBvw_1sm12jrkg",
+        "date": "2026-11-16",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 32,
+      "actionable": 55,
+      "breadth": 30,
+      "heat": 35
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 370,
+      "x_spike_7d": 182.5
+    },
+    "score": 39.3
+  },
+  {
+    "id": "eve16-fangtaozi",
+    "title": "AI 虚拟演员「方桃子」首条商单被认定虚假宣传，运营公司被罚超 6.82 万元",
+    "url": "https://www.aibase.com/news/32339",
+    "date": "2026-11-16",
+    "meta": "",
+    "bullets": [
+      "广州市番禺区市场监督管理局对广州沃德影视文化传媒有限公司作出行政处罚：其通过 AI 虚拟角色「方桃子」账号为彩妆隐形眼镜做广告，被认定虚构使用体验，构成虚假宣传，罚款超过 6.82 万元。",
+      "涉事产品为第三类医疗器械，广告在未取得相应审查批准的情况下发布，同样违反广告法。该角色因短剧走红，出道约 30 天粉丝超过 40 万，这是其首条商单，报价曾被公布为 16.8 万至 25.8 万元；广告上线不久即被下架。",
+      "这是对虚拟人商业推广的监管案例，不是新模型或平台功能发布。运营方今年 9 月曾回应将减少商务、转向内容。"
+    ],
+    "links": [
+      {
+        "label": "AIbase",
+        "title": "出道30天吸粉40万，AI演员“方桃子”首条商单引发6.82万元罚单",
+        "url": "https://www.aibase.com/news/32339",
+        "date": "2026-11-16",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 42,
+      "actionable": 40,
+      "breadth": 45,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 25,
+      "x_spike_7d": 25.0
+    },
+    "score": 39.3
+  },
+  {
+    "id": "eve16-bluej",
+    "title": "多伦多税务 AI 公司 Blue J 完成 1.76 亿美元 E 轮，由 JMI Equity 领投，估值超过 7 亿美元",
+    "url": "https://www.techmeme.com/261115/p22",
+    "date": "2026-11-15",
+    "meta": "",
+    "bullets": [
+      "Techmeme 援引 BetaKit 报道，总部位于多伦多、提供 AI 税务研究软件的 Blue J 完成 1.76 亿美元 E 轮，由 JMI Equity 领投，估值超过 7 亿美元。",
+      "这是一轮垂直行业软件融资，不是基础模型发布。"
+    ],
+    "links": [
+      {
+        "label": "Techmeme / BetaKit",
+        "title": "Toronto-based Blue J raised a $176M Series E led by JMI Equity at a $700M+ valuation",
+        "url": "https://www.techmeme.com/261115/p22",
+        "date": "2026-11-15",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 45,
+      "actionable": 20,
+      "breadth": 35,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 45,
+      "x_spike_7d": 30.0
+    },
+    "score": 33.5
   }
 ]
