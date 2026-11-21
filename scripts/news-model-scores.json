@@ -8918,16 +8918,16 @@
     }
   },
   "Claude Code 推出实验性 Code Mode 工具调用方式": {
-    "score": 67.4,
-    "industry": 68,
-    "actionable": 80,
-    "breadth": 50,
-    "heat": 56,
+    "score": 68.1,
+    "industry": 70,
+    "actionable": 84,
+    "breadth": 55,
+    "heat": 47,
     "heat_signals": {
-      "reports": 2,
+      "reports": 3,
       "domains": 2,
-      "x_posts_7d": 933,
-      "x_spike_7d": 933.0
+      "x_posts_7d": 1069,
+      "x_spike_7d": -438.5
     }
   },
   "Perplexity 发布 Orchestrator API，支持与 KV cache 兼容的决策模型路由": {
@@ -14768,16 +14768,16 @@
     }
   },
   "OpenAI 向开发者开放 GPT-Live-1.1：可把 ChatGPT 同款语音能力接入应用，并新增待机降费配置": {
-    "score": 78.8,
+    "score": 82.0,
     "industry": 78,
     "actionable": 90,
     "breadth": 70,
-    "heat": 68,
+    "heat": 84,
     "heat_signals": {
-      "reports": 4,
-      "domains": 2,
-      "x_posts_7d": 814,
-      "x_spike_7d": 814.0
+      "reports": 5,
+      "domains": 3,
+      "x_posts_7d": 1478,
+      "x_spike_7d": 1395.5
     }
   },
   "NVIDIA 与微软扩大 Ignite 合作：Azure 已运行 Vera Rubin NVL72，并在 Foundry 提供开放模型定制": {
@@ -16490,10 +16490,10 @@
     "breadth": 72,
     "heat": 100,
     "heat_signals": {
-      "reports": 14,
-      "domains": 5,
-      "x_posts_7d": 5574,
-      "x_spike_7d": 5574.0
+      "reports": 16,
+      "domains": 6,
+      "x_posts_7d": 8805,
+      "x_spike_7d": 8805.0
     }
   },
   "Unsloth 发布 Inkling 2 Mini 本地运行指南，称模型可在约 16GB 内存运行": {
@@ -16549,16 +16549,16 @@
     }
   },
   "Signal 在 iOS 27 和 Android 上限制截图，阻止 Siri、Gemini 等 AI 读取私人聊天": {
-    "score": 65.2,
-    "industry": 72,
-    "actionable": 68,
-    "breadth": 78,
-    "heat": 41,
+    "score": 71.4,
+    "industry": 76,
+    "actionable": 72,
+    "breadth": 80,
+    "heat": 57,
     "heat_signals": {
-      "reports": 2,
-      "domains": 2,
-      "x_posts_7d": 53,
-      "x_spike_7d": 45.5
+      "reports": 3,
+      "domains": 3,
+      "x_posts_7d": 135,
+      "x_spike_7d": 135.0
     }
   },
   "Gemini 3.5 Transcribe 语音编辑能力开放 API 预览，可语音改写与翻译已有文本": {
@@ -18239,16 +18239,16 @@
     }
   },
   "Agent Arena Index 更新：Gemini 4 Neon 以 1336 分位列第 2，GPT-6.2 Sol 进入成本前沿": {
-    "score": 58.6,
-    "industry": 62,
-    "actionable": 70,
-    "breadth": 58,
-    "heat": 35,
+    "score": 62.4,
+    "industry": 64,
+    "actionable": 72,
+    "breadth": 60,
+    "heat": 46,
     "heat_signals": {
-      "reports": 1,
+      "reports": 2,
       "domains": 1,
-      "x_posts_7d": 121,
-      "x_spike_7d": 121.0
+      "x_posts_7d": 381,
+      "x_spike_7d": 246.0
     }
   },
   "Latent Space 撰文：形式验证如何对抗 AI 代码 slop，并访谈 &Truth、Harmonic 等路线": {
@@ -18262,6 +18262,292 @@
       "domains": 1,
       "x_posts_7d": 525,
       "x_spike_7d": 255.0
+    }
+  },
+  "Lean FRO 与 Mathlib 认证 Alpöge 的黎曼猜想 Lean 证明；斯坦福同周发布纯人类竞争草稿": {
+    "score": 80.0,
+    "industry": 92,
+    "actionable": 48,
+    "breadth": 88,
+    "heat": 100,
+    "heat_signals": {
+      "reports": 13,
+      "domains": 8,
+      "x_posts_7d": 10332,
+      "x_spike_7d": 10294.5
+    }
+  },
+  "Columbia 与 MIT 论文：Claude 发现的算法突破 3SUM 与 APSP 长期速度上限": {
+    "score": 61.3,
+    "industry": 82,
+    "actionable": 55,
+    "breadth": 60,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 10,
+      "x_spike_7d": 10.0
+    }
+  },
+  "NVIDIA 论文 CPU-ARC：把 LLM 推理缓存为 CPU 代码，复用成本降低 16 到 291 倍": {
+    "score": 67.6,
+    "industry": 78,
+    "actionable": 82,
+    "breadth": 58,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0.0
+    }
+  },
+  "NVIDIA 研究者称超大 AI 上下文窗口往往是死路，摘要加定向检索效果相当": {
+    "score": 68.4,
+    "industry": 80,
+    "actionable": 78,
+    "breadth": 70,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 31,
+      "x_spike_7d": 23.5
+    }
+  },
+  "OpenAI 发布 GPT-6.2 Astra 与 Sol 的新提示词指南，修正简短回答与多余提问": {
+    "score": 68.8,
+    "industry": 68,
+    "actionable": 88,
+    "breadth": 72,
+    "heat": 40,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 345,
+      "x_spike_7d": 270.0
+    }
+  },
+  "联合国未能就监管“杀人机器人”达成规则共识，仅同意两年内提出提案": {
+    "score": 52.9,
+    "industry": 74,
+    "actionable": 25,
+    "breadth": 78,
+    "heat": 40,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 606,
+      "x_spike_7d": 448.5
+    }
+  },
+  "TechCrunch 盘点可直接发短信使用的 AI 智能体：从 Instinct 到 Poke 等 20 余款": {
+    "score": 61.2,
+    "industry": 62,
+    "actionable": 78,
+    "breadth": 70,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 53,
+      "x_spike_7d": 38.0
+    }
+  },
+  "LangChain 讲解如何为 AI 智能体搭建知识工厂": {
+    "score": 60.5,
+    "industry": 58,
+    "actionable": 86,
+    "breadth": 55,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 17,
+      "x_spike_7d": 17.0
+    }
+  },
+  "Eric Schmidt 解释为何 AI 竞赛不可能相互暂停：核查无法跟上中美实验室": {
+    "score": 46.8,
+    "industry": 70,
+    "actionable": 20,
+    "breadth": 68,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 16,
+      "x_spike_7d": 16.0
+    }
+  },
+  "Hugging Face CEO 呼吁美国多做开源 AI，称众议院新报告已认识到这一点": {
+    "score": 53.6,
+    "industry": 66,
+    "actionable": 40,
+    "breadth": 72,
+    "heat": 40,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 628,
+      "x_spike_7d": 200.5
+    }
+  },
+  "Perplexity 用 Fable 5.2 做出月球火星探索浏览器游戏 Getsumen Express": {
+    "score": 50.7,
+    "industry": 48,
+    "actionable": 70,
+    "breadth": 45,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 3,
+      "x_spike_7d": 3.0
+    }
+  },
+  "调查：硅谷 AI 末世执念催生类教团组织 Maple，前成员指控心理操纵": {
+    "score": 34.5,
+    "industry": 45,
+    "actionable": 15,
+    "breadth": 50,
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 323,
+      "x_spike_7d": 90.5
+    }
+  },
+  "短剧平台 Shortical 首次通过协议授权演员面部，制作全 AI 剧集 Inevitable": {
+    "score": 53.1,
+    "industry": 62,
+    "actionable": 55,
+    "breadth": 58,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 33,
+      "x_spike_7d": 18.0
+    }
+  },
+  "Tripo 发布 API 实战教程三部曲：Agent 工作流、Blender 资产生成与应用集成": {
+    "score": 50.2,
+    "industry": 42,
+    "actionable": 78,
+    "breadth": 40,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 23,
+      "x_spike_7d": 15.5
+    }
+  },
+  "The Verge 播客：Anthropic IPO 后能否继续把安全放在第一位": {
+    "score": 49.3,
+    "industry": 70,
+    "actionable": 25,
+    "breadth": 68,
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 90,
+      "x_spike_7d": 75.0
+    }
+  },
+  "Chess.com 推出 Classic Games：麻将、数独等 10 款经典游戏，AI 加速数月上线": {
+    "score": 48.7,
+    "industry": 48,
+    "actionable": 60,
+    "breadth": 55,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 40,
+      "x_spike_7d": 32.5
+    }
+  },
+  "欧洲央行行长拉加德呼吁欧盟用公共资金为芯片厂和数据中心承担首轮损失": {
+    "score": 50.8,
+    "industry": 72,
+    "actionable": 30,
+    "breadth": 70,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 26,
+      "x_spike_7d": 18.5
+    }
+  },
+  "AIHOT 开放 Antigravity 等额度重置监控，并免费提供匿名 API": {
+    "score": 50.1,
+    "industry": 40,
+    "actionable": 82,
+    "breadth": 35,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 17,
+      "x_spike_7d": 17.0
+    }
+  },
+  "Amp 为 Puck 推出车载模式，支持开车时语音对话": {
+    "score": 54.1,
+    "industry": 52,
+    "actionable": 75,
+    "breadth": 48,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": null,
+      "x_spike_7d": null
+    }
+  },
+  "David Krueger 在 Anthropic 旧金山办公室外参与 Stop the AI Race 抗议，数人因堵门被捕": {
+    "score": 38.4,
+    "industry": 55,
+    "actionable": 18,
+    "breadth": 50,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 3,
+      "x_spike_7d": 3.0
+    }
+  },
+  "TechCrunch 播客解读 Nvidia 财报亮眼与请愿前 CEO 黄仁勋回归并存的两种叙事": {
+    "score": 41.3,
+    "industry": 58,
+    "actionable": 22,
+    "breadth": 55,
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 31,
+      "x_spike_7d": -29.0
+    }
+  },
+  "Qwen4 Max 上线 Together AI，称单次调用可修复 Tornado 整仓 bug，并提供限时折扣": {
+    "score": 67.0,
+    "industry": 70,
+    "actionable": 86,
+    "breadth": 62,
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 93,
+      "x_spike_7d": 85.5
     }
   }
 }

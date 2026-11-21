@@ -29077,12 +29077,11 @@
     "id": "m118-claude-code-mode",
     "title": "Claude Code 推出实验性 Code Mode 工具调用方式",
     "url": "https://x.com/ClaudeDevs/status/2122801681939234950",
-    "date": "2026-11-18",
+    "date": "2026-11-22",
     "meta": "",
     "bullets": [
-      "Anthropic 的 Claude Devs 账号宣布，Claude Code 正在试验名为 Code Mode 的工具调用方式。",
-      "目前公开信息主要来自官方开发者账号，细节仍以实验性功能为主。",
-      "这是 Claude Code 的产品能力更新，与同日流传的团队「如何思考验证」访谈不是同一公告。"
+      "Anthropic 的 Claude Devs 与 Addy Osmani 介绍 Claude Code 实验性功能 Code Mode：Claude 通过编写并运行 JavaScript，一次完成多步工具调用，可并行执行命令并过滤输出，以减少上下文占用。",
+      "目前公开信息主要来自官方与开发者账号，仍以实验性功能为主。"
     ],
     "links": [
       {
@@ -29098,22 +29097,29 @@
         "url": "https://www.marktechpost.com/2026/11/17/anthropic-claude-code-code-mode-javascript-tool-calls/",
         "date": "2026-11-18",
         "same_event": true
+      },
+      {
+        "label": "X：Addy Osmani (@addyosmani)",
+        "title": "Claude Code 推出实验性 Code Mode，用 JavaScript 编排多步工具调用",
+        "url": "https://x.com/addyosmani/status/2124229492248019362",
+        "date": "2026-11-22",
+        "same_event": true
       }
     ],
     "score_parts": {
-      "industry": 68,
-      "actionable": 80,
-      "breadth": 50,
-      "heat": 56
+      "industry": 70,
+      "actionable": 84,
+      "breadth": 55,
+      "heat": 47
     },
-    "heat": 56,
+    "heat": 47,
     "heat_signals": {
-      "reports": 2,
+      "reports": 3,
       "domains": 2,
-      "x_posts_7d": 933,
-      "x_spike_7d": 933.0
+      "x_posts_7d": 1069,
+      "x_spike_7d": -438.5
     },
-    "score": 67.4
+    "score": 68.1
   },
   {
     "id": "m118-pplx-orchestrator",
@@ -45040,12 +45046,12 @@
     "id": "m120-gpt-live-11",
     "title": "OpenAI 向开发者开放 GPT-Live-1.1：可把 ChatGPT 同款语音能力接入应用，并新增待机降费配置",
     "url": "https://developers.openai.com/api/docs/models/gpt-live-1.1",
-    "date": "2026-11-20",
+    "date": "2026-11-21",
     "meta": "",
     "bullets": [
       "OpenAI 宣布 GPT-Live-1.1 对开发者开放，该模型自 10 月 15 日起已为 ChatGPT Plus 和 Pro 的语音功能提供支持，可用于构建语音智能体，并在对话不中断的情况下把复杂工作流委托给自选后端模型。",
-      "官方称其在多语言口音上更自然一致，并能更可靠地识别字母、数字等精确细节。",
-      "GPT-Live API 同时新增 Standby 配置：可设置 5–60 秒空闲超时，静默后模型暂停但 WebRTC 通话保持接通，费率从每分钟 0.05 美元降至 0.02 美元，有人再次说话后恢复。"
+      "官方称其在多语言口音上更自然一致，并能更可靠地识别字母、数字等精确细节；API 新增 Standby 配置：可设置 5–60 秒空闲超时，静默后模型暂停但 WebRTC 通话保持接通，费率从每分钟 0.05 美元降至 0.02 美元。",
+      "MarkTechPost 报道称模型经 v1/live/sessions 部署，客户端经 WebRTC 或 WebSocket 连接，默认 128K 上下文，仅限 OpenAI 云端。"
     ],
     "links": [
       {
@@ -45075,22 +45081,29 @@
         "url": "https://www.ithome.com/1/029/776.htm",
         "date": "2026-11-20",
         "same_event": true
+      },
+      {
+        "label": "MarkTechPost（RSS）",
+        "title": "OpenAI 在 API 上线 GPT-Live-1.1 语音模型，闲置成本降至 $0.02/分钟",
+        "url": "https://www.marktechpost.com/2026/11/21/openai-gpt-live-1-1-api-standby-mode/",
+        "date": "2026-11-21",
+        "same_event": true
       }
     ],
     "score_parts": {
       "industry": 78,
       "actionable": 90,
       "breadth": 70,
-      "heat": 68
+      "heat": 84
     },
-    "heat": 68,
+    "heat": 84,
     "heat_signals": {
-      "reports": 4,
-      "domains": 2,
-      "x_posts_7d": 814,
-      "x_spike_7d": 814.0
+      "reports": 5,
+      "domains": 3,
+      "x_posts_7d": 1478,
+      "x_spike_7d": 1395.5
     },
-    "score": 78.8
+    "score": 82.0
   },
   {
     "id": "m120-nv-ms-ignite",
@@ -49660,12 +49673,12 @@
     "id": "m121-inkling-2-mini",
     "title": "Thinking Machines 发布 Inkling 2 Mini：26.4B 循环 Transformer，可在笔记本运行，AA 智能指数 20.1",
     "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
-    "date": "2026-11-21",
+    "date": "2026-11-22",
     "meta": "",
     "bullets": [
       "Thinking Machines Lab（Mira Murati）发布开源权重模型 Inkling 2 Mini：循环 Transformer 将中间 12 层每 token 运行三次，总参数 26.4B、激活约 3.4B，内存占用约 20GB，可在 32GB 内存的 Mac 上本地运行，协议为 Apache 2.0。",
       "官方称其面向智能体任务，Artificial Analysis 智能指数约 20.1，处于该规模开源模型的 Pareto 前沿；团队同步开源可变循环研究模型，并称多次循环下 no-CoT 能力上升、思维链变短但仍可读。Hugging Face、vLLM、Ollama、DGX Spark 与 Tinker 提供 Day-0 支持；Ollama 0.40.17 预发布版可用 ollama run inkling-2-mini 本地运行。",
-      "ARC Prize 公布其 ARC-AGI (Verified) 成绩：ARC-AGI-2 49.3%（每任务 0.14 美元）、ARC-AGI-1 84.5%（每任务 0.06 美元）；相比 Inkling 2 Small，Mini 在 ARC-AGI-2 上更便宜，但得分低 32 个百分点。"
+      "ARC Prize 公布其 ARC-AGI (Verified) 成绩：ARC-AGI-2 49.3%（每任务 0.14 美元）、ARC-AGI-1 84.5%（每任务 0.06 美元）；相比 Inkling 2 Small，Mini 在 ARC-AGI-2 上更便宜，但得分低 32 个百分点。Hugging Face CEO Clément Delangue 称其已登顶 HF 趋势榜。"
     ],
     "links": [
       {
@@ -49765,6 +49778,20 @@
         "url": "https://x.com/thinkymachines/status/2123932938492649575",
         "date": "2026-11-21",
         "same_event": true
+      },
+      {
+        "label": "X：Clément Delangue（Hugging Face CEO） (@ClementDelangue)",
+        "title": "Thinky Machines 的 Inkling 2 Mini 登顶 HF 趋势榜",
+        "url": "https://x.com/ClementDelangue/status/2124209139337331158",
+        "date": "2026-11-22",
+        "same_event": true
+      },
+      {
+        "label": "MarkTechPost（RSS）",
+        "title": "Thinking Machines 发布开源循环 MoE 模型 Inkling 2 Mini，26.4B 参数可在 32GB Mac 上运行",
+        "url": "https://www.marktechpost.com/2026/11/21/thinking-machines-inkling-2-mini-looped-transformer/",
+        "date": "2026-11-21",
+        "same_event": true
       }
     ],
     "score_parts": {
@@ -49775,10 +49802,10 @@
     },
     "heat": 100,
     "heat_signals": {
-      "reports": 14,
-      "domains": 5,
-      "x_posts_7d": 5574,
-      "x_spike_7d": 5574.0
+      "reports": 16,
+      "domains": 6,
+      "x_posts_7d": 8805,
+      "x_spike_7d": 8805.0
     },
     "score": 87.0
   },
@@ -49818,14 +49845,14 @@
   },
   {
     "id": "m121-riemann-alpoge",
-    "title": "Anthropic 数学家 Levent Alpöge 宣称与 Claude 合作给出黎曼猜想的 Lean 形式化证明",
-    "url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
-    "date": "2026-11-21",
+    "title": "Lean FRO 与 Mathlib 认证 Alpöge 的黎曼猜想 Lean 证明；斯坦福同周发布纯人类竞争草稿",
+    "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+    "date": "2026-11-22",
     "meta": "",
     "bullets": [
-      "Anthropic 数学家 Levent Alpöge 在个人网站宣称，与 Claude 合作找到黎曼猜想（1859 年提出的千禧年大奖难题之一）的证明，并将论证写成可编译的 Lean 代码；报道称其放出约 17.5 万个 Lean 文件、约 1737 万行代码，原文见 alpo.ge/remark.pdf。",
-      "他称整个过程约六周，Claude 在后半段提出关键步骤，并表示方法可推广到广义黎曼猜想（GRH）。Latent Space 称 Elliot Glazer 确认形式化陈述为 GRH，并将 Lean 出错概率估计远低于 1%；另有报道提到散文版约 25 万页。TechCrunch 指出同周还有一份纯人工证明出现。",
-      "这是当事人与多家媒体转述的声称，目前未被数学界确认，结果尚待逐步验证。"
+      "Anthropic 数学家 Levent Alpöge 于 11 月 20 日放出约 17.5 万个 Lean 文件、约 1737 万行代码，宣称与 Claude 合作给出黎曼猜想（及 Dirichlet L 函数意义下的 GRH）的形式化证明；同周还有一份纯人工证明草稿出现。",
+      "Lean FRO 与 Mathlib Initiative 于 11 月 21 日联合声明：已按四项标准认证该证明——命题即 Mathlib 中的 RiemannHypothesis、库可正确编译、所证即该命题、导出证明经 Lean 官方内核与多个独立检查器验证；MIT 的 Andrew Sutherland 同步公布了编译与独立内核回放结果。",
+      "这是形式验证层面的认证，不等于 Clay 千禧年大奖等数学界终审；AI 在其中的具体贡献细节仍有待更多公开复盘。"
     ],
     "links": [
       {
@@ -49904,22 +49931,36 @@
         "url": "https://x.com/rohanpaul_ai/status/2123909356483940512",
         "date": "2026-11-21",
         "same_event": true
+      },
+      {
+        "label": "X：Rohan Paul (@rohanpaul_ai)",
+        "title": "Lean 官方社区认证 Levent Alpöge 的黎曼猜想形式化证明",
+        "url": "https://x.com/rohanpaul_ai/status/2124187865899049164",
+        "date": "2026-11-22",
+        "same_event": true
+      },
+      {
+        "label": "The Decoder：AI News（RSS）",
+        "title": "Anthropic 数学家称与 Claude 完成黎曼猜想证明，斯坦福数小时后发布纯人类竞争草稿",
+        "url": "https://the-decoder.com/hours-after-anthropic-claims-a-claude-proof-of-the-riemann-hypothesis-stanford-releases-an-all-human-competing-draft/",
+        "date": "2026-11-21",
+        "same_event": true
       }
     ],
     "score_parts": {
-      "industry": 88,
-      "actionable": 46,
-      "breadth": 86,
+      "industry": 92,
+      "actionable": 48,
+      "breadth": 88,
       "heat": 100
     },
     "heat": 100,
     "heat_signals": {
-      "reports": 11,
-      "domains": 7,
-      "x_posts_7d": 6618,
-      "x_spike_7d": 6588.0
+      "reports": 13,
+      "domains": 8,
+      "x_posts_7d": 10332,
+      "x_spike_7d": 10294.5
     },
-    "score": 77.6
+    "score": 80.0
   },
   {
     "id": "m121-aa-millennium",
@@ -50028,11 +50069,11 @@
     "id": "m121-signal-screenshot",
     "title": "Signal 在 iOS 27 和 Android 上限制截图，阻止 Siri、Gemini 等 AI 读取私人聊天",
     "url": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
-    "date": "2026-11-21",
+    "date": "2026-11-22",
     "meta": "",
     "bullets": [
-      "Signal 宣布在 iOS 27 和 Android 上限制应用内截图，以阻止 Siri、Gemini 等系统级 AI 智能体读取用户私人消息。",
-      "报道称此举针对能够读取屏幕内容的设备控制型智能体，目的是降低聊天记录被自动摄取的风险。"
+      "Signal 宣布在 Android 和 iOS 上默认限制应用内截图（此前 Windows 版已默认阻止），以应对操作系统级 AI 智能体扫描屏幕、捕获并存储敏感信息的风险。",
+      "总裁 Meredith Whittaker 称，集成 agentic AI 的操作系统会扫描屏幕数据，使私人聊天可被系统级 AI 访问，损害 Signal 独立保障隐私的能力；报道提到此举也针对 Siri、Gemini 等可读取屏幕内容的设备控制型智能体。"
     ],
     "links": [
       {
@@ -50048,22 +50089,29 @@
         "url": "https://the-decoder.com/signal-blocks-screenshots-on-ios-27-and-android-to-stop-ai-agents-from-reading-private-chats/",
         "date": "2026-11-21",
         "same_event": true
+      },
+      {
+        "label": "TechCrunch：AI（RSS）",
+        "title": "Signal 限制移动端截图，应对操作系统级 AI 监控风险",
+        "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+        "date": "2026-11-22",
+        "same_event": true
       }
     ],
     "score_parts": {
-      "industry": 72,
-      "actionable": 68,
-      "breadth": 78,
-      "heat": 41
+      "industry": 76,
+      "actionable": 72,
+      "breadth": 80,
+      "heat": 57
     },
-    "heat": 41,
+    "heat": 57,
     "heat_signals": {
-      "reports": 2,
-      "domains": 2,
-      "x_posts_7d": 53,
-      "x_spike_7d": 45.5
+      "reports": 3,
+      "domains": 3,
+      "x_posts_7d": 135,
+      "x_spike_7d": 135.0
     },
-    "score": 65.2
+    "score": 71.4
   },
   {
     "id": "m121-gemini-transcribe",
@@ -54476,11 +54524,11 @@
     "id": "e121-arena-neon",
     "title": "Agent Arena Index 更新：Gemini 4 Neon 以 1336 分位列第 2，GPT-6.2 Sol 进入成本前沿",
     "url": "https://x.com/arena/status/2123894102496555446",
-    "date": "2026-11-21",
+    "date": "2026-11-22",
     "meta": "",
     "bullets": [
-      "Arena 公布 Agent Arena Index 最新成绩：Gemini 4 Neon (High) 以 1336 分首次上榜即位列第 2。",
-      "GPT-6.2 Astra (Max) 与 GPT-6.2 Sol (Max) 分别以 1291 分和 1241 分进入第 6 和第 11；Sol 以每任务中位成本 0.90 美元进入成本前沿。"
+      "Arena 公布 Agent Arena Index 最新成绩：Gemini 4 Neon (High) 以 1336 分首次上榜即位列第 2；GPT-6.2 Astra (Max) 与 GPT-6.2 Sol (Max) 分别以 1291 分和 1241 分进入第 6 和第 11，Sol 以每任务中位成本 0.90 美元进入成本前沿。",
+      "Arena 后续帖文称 GPT-6.2 Astra (Max) 在该指数上排名第 6，比 GPT-6 Astra (Max) 高一位。"
     ],
     "links": [
       {
@@ -54489,22 +54537,29 @@
         "url": "https://x.com/arena/status/2123894102496555446",
         "date": "2026-11-21",
         "same_event": true
+      },
+      {
+        "label": "X：Arena (@arena)",
+        "title": "GPT-6.2 Astra 登 Agent Arena 指数第 6",
+        "url": "https://x.com/arena/status/2124191294360588725",
+        "date": "2026-11-22",
+        "same_event": true
       }
     ],
     "score_parts": {
-      "industry": 62,
-      "actionable": 70,
-      "breadth": 58,
-      "heat": 35
+      "industry": 64,
+      "actionable": 72,
+      "breadth": 60,
+      "heat": 46
     },
-    "heat": 35,
+    "heat": 46,
     "heat_signals": {
-      "reports": 1,
+      "reports": 2,
       "domains": 1,
-      "x_posts_7d": 121,
-      "x_spike_7d": 121.0
+      "x_posts_7d": 381,
+      "x_spike_7d": 246.0
     },
-    "score": 58.6
+    "score": 62.4
   },
   {
     "id": "e121-formal-verify",
@@ -54539,5 +54594,719 @@
       "x_spike_7d": 255.0
     },
     "score": 52.8
+  },
+  {
+    "id": "m122-claude-3sum-apsp",
+    "title": "Columbia 与 MIT 论文：Claude 发现的算法突破 3SUM 与 APSP 长期速度上限",
+    "url": "https://x.com/rohanpaul_ai/status/2124213113583174076",
+    "date": "2026-11-22",
+    "meta": "",
+    "bullets": [
+      "Columbia 和 MIT 的论文展示 Claude 发现的算法，在 3SUM 和全对最短路径（APSP）上取得多项式改进：3SUM 达到 O(n^1.9992)、APSP 达到 O(n^2.9995)，报道称此举推翻了相关细粒度复杂度假设。",
+      "目前公开信息主要来自论文与社交媒体转述，细节与同行评议结果仍待更多验证。"
+    ],
+    "links": [
+      {
+        "label": "X：Rohan Paul (@rohanpaul_ai)",
+        "title": "Columbia 与 MIT 论文展示 Claude 发现的算法突破 3SUM 与 APSP 长期速度上限",
+        "url": "https://x.com/rohanpaul_ai/status/2124213113583174076",
+        "date": "2026-11-22",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 82,
+      "actionable": 55,
+      "breadth": 60,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 10,
+      "x_spike_7d": 10.0
+    },
+    "score": 61.3
+  },
+  {
+    "id": "m122-cpu-arc",
+    "title": "NVIDIA 论文 CPU-ARC：把 LLM 推理缓存为 CPU 代码，复用成本降低 16 到 291 倍",
+    "url": "https://x.com/rohanpaul_ai/status/2124177125247013266",
+    "date": "2026-11-22",
+    "meta": "",
+    "bullets": [
+      "NVIDIA 论文提出 Agentic Reasoning Caching（CPU-ARC）：让 LLM 把推理轨迹转成可在 CPU 上执行的代码缓存，对改写措辞或更换数字的变体问题可直接复用，报道称类似问题成本降低 16 到 291 倍。",
+      "官方称缓存条目可解释、可继续训练，并在多项数学与科学任务上与源模型表现接近。"
+    ],
+    "links": [
+      {
+        "label": "X：Rohan Paul (@rohanpaul_ai)",
+        "title": "NVIDIA 论文 CPU-ARC：把 LLM 推理缓存为 CPU 代码，复用成本降低 16 到 291 倍",
+        "url": "https://x.com/rohanpaul_ai/status/2124177125247013266",
+        "date": "2026-11-22",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 78,
+      "actionable": 82,
+      "breadth": 58,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0.0
+    },
+    "score": 67.6
+  },
+  {
+    "id": "m122-nv-context-deadend",
+    "title": "NVIDIA 研究者称超大 AI 上下文窗口往往是死路，摘要加定向检索效果相当",
+    "url": "https://the-decoder.com/nvidia-researchers-argue-huge-ai-context-windows-are-a-dead-end/",
+    "date": "2026-11-22",
+    "meta": "",
+    "bullets": [
+      "NVIDIA 研究团队在论文 You Don't Need Long Context 中认为，模型上下文窗口一味扩大往往过度且昂贵；定期摘要（compaction）加定向检索在多项长程 Agent 与长文档测试中效果相当。",
+      "报道举例：GPT-4 于 2023 年上下文约 8K tokens，如今 GPT 5.6 Sol 可处理约一百万 tokens；测试称把配置从 256K 收到 16K 可带来数倍吞吐提升，且准确率损失有限。"
+    ],
+    "links": [
+      {
+        "label": "The Decoder：AI News（RSS）",
+        "title": "Nvidia 研究者称超大 AI 上下文窗口是死路",
+        "url": "https://the-decoder.com/nvidia-researchers-argue-huge-ai-context-windows-are-a-dead-end/",
+        "date": "2026-11-22",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 80,
+      "actionable": 78,
+      "breadth": 70,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 31,
+      "x_spike_7d": 23.5
+    },
+    "score": 68.4
+  },
+  {
+    "id": "m122-openai-prompt-62",
+    "title": "OpenAI 发布 GPT-6.2 Astra 与 Sol 的新提示词指南，修正简短回答与多余提问",
+    "url": "https://the-decoder.com/openai-shares-new-prompting-tips-for-gpt-6-2-astra-and-sol-to-fix-brief-answers-and-unnecessary-questions/",
+    "date": "2026-11-21",
+    "meta": "",
+    "bullets": [
+      "OpenAI 为 11 月 17 日发布的 GPT-6.2 Astra 和 Sol 公布了一套可直接复制的提示词模板，覆盖写作风格、主动性和编码，并建议迁移的开发者重新审视系统提示词。",
+      "指南重点修正模型倾向于过短回答、以及不必要追问等问题。"
+    ],
+    "links": [
+      {
+        "label": "The Decoder：AI News（RSS）",
+        "title": "OpenAI 发布 GPT-6.2 Astra 和 Sol 的新提示词指南，修正简短回答与多余提问",
+        "url": "https://the-decoder.com/openai-shares-new-prompting-tips-for-gpt-6-2-astra-and-sol-to-fix-brief-answers-and-unnecessary-questions/",
+        "date": "2026-11-21",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 68,
+      "actionable": 88,
+      "breadth": 72,
+      "heat": 40
+    },
+    "heat": 40,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 345,
+      "x_spike_7d": 270.0
+    },
+    "score": 68.8
+  },
+  {
+    "id": "m122-un-killer-robots",
+    "title": "联合国未能就监管“杀人机器人”达成规则共识，仅同意两年内提出提案",
+    "url": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
+    "date": "2026-11-22",
+    "meta": "",
+    "bullets": [
+      "联合国日内瓦会议未能就自主武器监管规则达成共识，各国仅同意“开始讨论选项”。",
+      "红十字国际委员会曾呼吁一年内制定有法律约束力的规则，并获联合国秘书长和教皇支持，但最终妥协为各国两年内提出监管提案，且部分规则可保留为“可选”；据 NPR，俄罗斯、以色列和美国是主要阻碍方。"
+    ],
+    "links": [
+      {
+        "label": "The Verge：AI（RSS）",
+        "title": "联合国未能就监管“杀人机器人”达成规则共识",
+        "url": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
+        "date": "2026-11-22",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 74,
+      "actionable": 25,
+      "breadth": 78,
+      "heat": 40
+    },
+    "heat": 40,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 606,
+      "x_spike_7d": 448.5
+    },
+    "score": 52.9
+  },
+  {
+    "id": "m122-sms-agents",
+    "title": "TechCrunch 盘点可直接发短信使用的 AI 智能体：从 Instinct 到 Poke 等 20 余款",
+    "url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
+    "date": "2026-11-22",
+    "meta": "",
+    "bullets": [
+      "TechCrunch 汇总了目前可通过短信、iMessage、WhatsApp 等渠道直接使用的 AI 智能体，它们可记上下文、连接已有应用并代用户完成订餐、日历、购物等任务。",
+      "报道覆盖从 Instinct 到 Poke 等 20 余款产品，强调“住在消息应用里”的交互形态正在扩散。"
+    ],
+    "links": [
+      {
+        "label": "TechCrunch：AI（RSS）",
+        "title": "TechCrunch 盘点可直接发短信使用的 AI 智能体：从 Instinct 到 Poke 等 20 余款",
+        "url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
+        "date": "2026-11-22",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 62,
+      "actionable": 78,
+      "breadth": 70,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 53,
+      "x_spike_7d": 38.0
+    },
+    "score": 61.2
+  },
+  {
+    "id": "m122-langchain-kf",
+    "title": "LangChain 讲解如何为 AI 智能体搭建知识工厂",
+    "url": "https://www.langchain.com/blog/knowledge-factory",
+    "date": "2026-11-22",
+    "meta": "",
+    "bullets": [
+      "LangChain 分享其内部 GTM、内容工作室智能体和 LangSmith Engine 背后的知识工厂实践，认为让 AI 在企业落地缺的不是更好模型而是更好的知识。",
+      "文章把知识准备、检索与更新管线当作 Agent 产品的核心基础设施来讲。"
+    ],
+    "links": [
+      {
+        "label": "LangChain：Blog（RSS）",
+        "title": "LangChain 讲解如何为 AI 智能体搭建知识工厂",
+        "url": "https://www.langchain.com/blog/knowledge-factory",
+        "date": "2026-11-22",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 58,
+      "actionable": 86,
+      "breadth": 55,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 17,
+      "x_spike_7d": 17.0
+    },
+    "score": 60.5
+  },
+  {
+    "id": "m122-schmidt-pause",
+    "title": "Eric Schmidt 解释为何 AI 竞赛不可能相互暂停：核查无法跟上中美实验室",
+    "url": "https://x.com/rohanpaul_ai/status/2124227469377184044",
+    "date": "2026-11-22",
+    "meta": "",
+    "bullets": [
+      "Eric Schmidt 在 The Economist 视频中解释为什么 AI 竞赛不可能相互暂停：美国没有停止的动机，本地实验室或中国可能作弊，UN 核查无法审查计算机写的代码也跑不赢中美实验室。",
+      "他称这种暂停无法被验证，核查人员需进入包括军事实验室在内的秘密实验室审查全部代码库，而代码由计算机生成，没有人类团队能逐行读完。"
+    ],
+    "links": [
+      {
+        "label": "X：Rohan Paul (@rohanpaul_ai)",
+        "title": "Eric Schmidt 解释为何 AI 竞赛不可能相互暂停",
+        "url": "https://x.com/rohanpaul_ai/status/2124227469377184044",
+        "date": "2026-11-22",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 70,
+      "actionable": 20,
+      "breadth": 68,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 16,
+      "x_spike_7d": 16.0
+    },
+    "score": 46.8
+  },
+  {
+    "id": "m122-hf-us-oss",
+    "title": "Hugging Face CEO 呼吁美国多做开源 AI，称众议院新报告已认识到这一点",
+    "url": "https://x.com/ClementDelangue/status/2124176756751945911",
+    "date": "2026-11-22",
+    "meta": "",
+    "bullets": [
+      "Hugging Face CEO Clément Delangue 称美国的研究者、初创、非营利、政府与学生都从开源 AI 中获益，对中国开源 AI 最好的回应不是封禁，而是打造更多美国开源 AI。",
+      "他提到美国众议院一份新报告认识到这一点，并点名感谢 Rep. Moolenaar、Rep. Garbarino 及其团队。"
+    ],
+    "links": [
+      {
+        "label": "X：Clément Delangue（Hugging Face CEO） (@ClementDelangue)",
+        "title": "Hugging Face CEO 呼吁美国多做开源AI",
+        "url": "https://x.com/ClementDelangue/status/2124176756751945911",
+        "date": "2026-11-22",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 66,
+      "actionable": 40,
+      "breadth": 72,
+      "heat": 40
+    },
+    "heat": 40,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 628,
+      "x_spike_7d": 200.5
+    },
+    "score": 53.6
+  },
+  {
+    "id": "m122-pplx-getsumen",
+    "title": "Perplexity 用 Fable 5.2 做出月球火星探索浏览器游戏 Getsumen Express",
+    "url": "https://x.com/AravSrinivas/status/2124174082522685820",
+    "date": "2026-11-22",
+    "meta": "",
+    "bullets": [
+      "Perplexity 的 Teammate 在 Fable 5.2 上做出浏览器游戏 Getsumen Express，可在月球和火星上步行、驾驶 rover、扫描 Apollo 着陆点与 Curiosity、Viking 1 等真实地标，还能乘星际快车往返两星球。",
+      "这是产品演示向的案例，展示 Teammate + 前沿模型在交互式网页上的生成能力。"
+    ],
+    "links": [
+      {
+        "label": "X：Aravind Srinivas（Perplexity CEO） (@AravSrinivas)",
+        "title": "Perplexity 用 Fable 5.2 造月球火星探索游戏",
+        "url": "https://x.com/AravSrinivas/status/2124174082522685820",
+        "date": "2026-11-22",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 48,
+      "actionable": 70,
+      "breadth": 45,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 3,
+      "x_spike_7d": 3.0
+    },
+    "score": 50.7
+  },
+  {
+    "id": "m122-maple-cult",
+    "title": "调查：硅谷 AI 末世执念催生类教团组织 Maple，前成员指控心理操纵",
+    "url": "https://the-decoder.com/silicon-valleys-growing-obsession-with-ai-doomsday-is-turning-parts-of-the-tech-industry-toward-cult-like-devotion/",
+    "date": "2026-11-22",
+    "meta": "",
+    "bullets": [
+      "The Decoder 基于 New Yorker 报道介绍佛蒙特州修道院组织 Maple（Monastic Academy）：约 24 名常住成员，年收入最高约 100 万美元，目标是成为 AI 行业的精神权威，并训练由其领袖 Soryu Forall 思维建模的 AI。",
+      "前成员指控其录音监控与心理操纵，领导层几乎否认所有指控。"
+    ],
+    "links": [
+      {
+        "label": "The Decoder：AI News（RSS）",
+        "title": "硅谷 AI 末世执念催生类教团组织 Maple 的调查报道",
+        "url": "https://the-decoder.com/silicon-valleys-growing-obsession-with-ai-doomsday-is-turning-parts-of-the-tech-industry-toward-cult-like-devotion/",
+        "date": "2026-11-22",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 45,
+      "actionable": 15,
+      "breadth": 50,
+      "heat": 35
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 323,
+      "x_spike_7d": 90.5
+    },
+    "score": 34.5
+  },
+  {
+    "id": "m122-shortical",
+    "title": "短剧平台 Shortical 首次通过协议授权演员面部，制作全 AI 剧集 Inevitable",
+    "url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
+    "date": "2026-11-22",
+    "meta": "",
+    "bullets": [
+      "短剧平台 Shortical 首次通过直接协议授权以色列演员 Aki Avni 的面部，制作全 AI 剧集《Inevitable》，并计划向公众开放面部授权申请。",
+      "文中提到 Rest of World 报告称行业面部授权报酬约 15 至 700 美元，从业者担忧 AI 正在削减短剧行业给新人演员的工作机会。"
+    ],
+    "links": [
+      {
+        "label": "TechCrunch：AI（RSS）",
+        "title": "TechCrunch 起底短剧平台 Shortical 的面部授权 AI 剧集模式",
+        "url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
+        "date": "2026-11-22",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 62,
+      "actionable": 55,
+      "breadth": 58,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 33,
+      "x_spike_7d": 18.0
+    },
+    "score": 53.1
+  },
+  {
+    "id": "m122-tripo-api",
+    "title": "Tripo 发布 API 实战教程三部曲：Agent 工作流、Blender 资产生成与应用集成",
+    "url": "https://x.com/tripoai/status/2124155890010107915",
+    "date": "2026-11-21",
+    "meta": "",
+    "bullets": [
+      "Tripo 发布三部曲教程，讲解如何在真实 3D 项目中使用 Tripo API，覆盖 AI 智能体工作流、使用 Blender 生成资产，以及在自定义应用中集成 API。",
+      "演示案例 Bunny City 展示把生成资产做成电影级赛博朋克场景。"
+    ],
+    "links": [
+      {
+        "label": "Tripo（官方 X）",
+        "title": "Tripo API 实战教程三部曲",
+        "url": "https://x.com/tripoai/status/2124155890010107915",
+        "date": "2026-11-21",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 42,
+      "actionable": 78,
+      "breadth": 40,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 23,
+      "x_spike_7d": 15.5
+    },
+    "score": 50.2
+  },
+  {
+    "id": "m122-verge-anthropic-ipo",
+    "title": "The Verge 播客：Anthropic IPO 后能否继续把安全放在第一位",
+    "url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+    "date": "2026-11-21",
+    "meta": "",
+    "bullets": [
+      "The Verge 的 Nilay Patel 与资深 AI 记者 Hayden Field 对谈 Anthropic 在纳斯达克上市（发行价 $83，一度涨至 $111）后的前景。",
+      "讨论焦点是公开市场压力下，Anthropic 能否继续把 AI 安全投入放在优先位置。"
+    ],
+    "links": [
+      {
+        "label": "The Verge：AI（RSS）",
+        "title": "The Verge 播客：Anthropic IPO 后能否继续把安全放在第一位",
+        "url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+        "date": "2026-11-21",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 70,
+      "actionable": 25,
+      "breadth": 68,
+      "heat": 35
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 90,
+      "x_spike_7d": 75.0
+    },
+    "score": 49.3
+  },
+  {
+    "id": "m122-chess-classic",
+    "title": "Chess.com 推出 Classic Games：麻将、数独等 10 款经典游戏，AI 加速数月上线",
+    "url": "https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai",
+    "date": "2026-11-21",
+    "meta": "",
+    "bullets": [
+      "Chess.com 正式公测 Classic Games 平台，在网页端及 iOS、Android 新应用上线麻将、数独、围棋、象棋、跳棋等 10 款经典游戏，每款配备课程、排行榜和评分系统，并可对战玩家或机器人角色。",
+      "报道称该平台由不到公司 1% 的团队借助 AI 加速编码在数月内完成，美术与设计仍由人工完成。"
+    ],
+    "links": [
+      {
+        "label": "The Verge：AI（RSS）",
+        "title": "Chess.com 推出 Classic Games 平台，上线麻将、数独等 10 款经典游戏",
+        "url": "https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai",
+        "date": "2026-11-21",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 48,
+      "actionable": 60,
+      "breadth": 55,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 40,
+      "x_spike_7d": 32.5
+    },
+    "score": 48.7
+  },
+  {
+    "id": "m122-lagarde-chips",
+    "title": "欧洲央行行长拉加德呼吁欧盟用公共资金为芯片厂和数据中心承担首轮损失",
+    "url": "https://www.ithome.com/1/030/472.htm",
+    "date": "2026-11-21",
+    "meta": "",
+    "bullets": [
+      "欧洲央行行长拉加德 11 月 20 日在法兰克福欧洲银行业大会发表卸任前演讲，呼吁欧盟利用包括欧盟预算在内的公共资金，在大型芯片制造厂和数据中心项目中率先承担首轮损失。",
+      "她主张通过跨区域公私合作吸引私人资本进入这些基础设施。"
+    ],
+    "links": [
+      {
+        "label": "IT之家·人工智能",
+        "title": "欧洲央行行长拉加德呼吁欧盟用公共资金为芯片厂和数据中心承担首轮损失",
+        "url": "https://www.ithome.com/1/030/472.htm",
+        "date": "2026-11-21",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 72,
+      "actionable": 30,
+      "breadth": 70,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 26,
+      "x_spike_7d": 18.5
+    },
+    "score": 50.8
+  },
+  {
+    "id": "m122-aihot-reset",
+    "title": "AIHOT 开放 Antigravity 等额度重置监控，并免费提供匿名 API",
+    "url": "https://x.com/Khazix0918/status/2124106642933653521",
+    "date": "2026-11-21",
+    "meta": "",
+    "bullets": [
+      "卡兹克介绍 AIHOT 半个月前上线的重置监控功能，覆盖 Antigravity、Codex、Claude 和 GrokBot 的额度重置消息，并免费开放匿名 API 供二次接入。",
+      "页面显示 Antigravity 上一次重置时间为 11 月 21 日 17:28，本月共重置 7 次；并转引 Google 通知称缓存优化使配额内可完成工作量增加 22%。"
+    ],
+    "links": [
+      {
+        "label": "X：卡兹克 (@Khazix0918)",
+        "title": "AIHOT 开放 Antigravity 重置监控及匿名 API",
+        "url": "https://x.com/Khazix0918/status/2124106642933653521",
+        "date": "2026-11-21",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 40,
+      "actionable": 82,
+      "breadth": 35,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 17,
+      "x_spike_7d": 17.0
+    },
+    "score": 50.1
+  },
+  {
+    "id": "m122-amp-puck-car",
+    "title": "Amp 为 Puck 推出车载模式，支持开车时语音对话",
+    "url": "https://ampcode.com/news/puck-in-the-car",
+    "date": "2026-11-21",
+    "meta": "",
+    "bullets": [
+      "Amp 的 Puck 现已支持在车内语音对话：iPhone 和 Android 版应用在车内会自动进入车载模式，必要时以大字号显示内容；Tesla 或其他可在车内浏览网页的设备可打开 ampcode.com/car 使用。",
+      "官方称目标是让用户开车时无需盯着屏幕也能更安全地工作。"
+    ],
+    "links": [
+      {
+        "label": "Amp Chronicle",
+        "title": "Amp 为 Puck 推出车载模式，支持开车时语音对话",
+        "url": "https://ampcode.com/news/puck-in-the-car",
+        "date": "2026-11-21",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 52,
+      "actionable": 75,
+      "breadth": 48,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": null,
+      "x_spike_7d": null
+    },
+    "score": 54.1
+  },
+  {
+    "id": "m122-krueger-protest",
+    "title": "David Krueger 在 Anthropic 旧金山办公室外参与 Stop the AI Race 抗议，数人因堵门被捕",
+    "url": "https://x.com/rohanpaul_ai/status/2124259592838516999",
+    "date": "2026-11-22",
+    "meta": "",
+    "bullets": [
+      "蒙特利尔大学教授 David Krueger 在 Anthropic 旧金山办公室外发言，抗议活动选在该公司创纪录 IPO 之际进行，属于持续的 Stop the AI Race 行动。",
+      "报道称几名堵塞入口的示威者被捕；这与前一天前研究员 Coxon 等在总部外抗议 RSI 是同一波行动中的不同场次与发言人。"
+    ],
+    "links": [
+      {
+        "label": "X：Rohan Paul (@rohanpaul_ai)",
+        "title": "David Krueger 在 Anthropic 旧金山办公室外参与 Stop the AI Race 抗议，数人因堵门被捕",
+        "url": "https://x.com/rohanpaul_ai/status/2124259592838516999",
+        "date": "2026-11-22",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 55,
+      "actionable": 18,
+      "breadth": 50,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 3,
+      "x_spike_7d": 3.0
+    },
+    "score": 38.4
+  },
+  {
+    "id": "m122-tale-two-nvidias",
+    "title": "TechCrunch 播客解读 Nvidia 财报亮眼与请愿前 CEO 黄仁勋回归并存的两种叙事",
+    "url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
+    "date": "2026-11-22",
+    "meta": "",
+    "bullets": [
+      "TechCrunch Equity 播客讨论本周 Nvidia 的两幅反差图景：财报收入大涨、管理层称无需前 CEO 黄仁勋回归，同时 Elon Musk 等人发起请愿推动黄仁勋回归，黄本人称已准备好回归。",
+      "这是新的一集评论，与此前讨论罢免风波和 H200 停售中国的 Equity 节目不是同一期。"
+    ],
+    "links": [
+      {
+        "label": "TechCrunch：AI（RSS）",
+        "title": "TechCrunch 播客解读 Nvidia 财报亮眼与请愿前 CEO 黄仁勋回归并存的两种叙事",
+        "url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
+        "date": "2026-11-22",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 58,
+      "actionable": 22,
+      "breadth": 55,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 31,
+      "x_spike_7d": -29.0
+    },
+    "score": 41.3
+  },
+  {
+    "id": "m122-qwen4-together",
+    "title": "Qwen4 Max 上线 Together AI，称单次调用可修复 Tornado 整仓 bug，并提供限时折扣",
+    "url": "https://www.together.ai/blog/qwen4-max",
+    "date": "2026-11-21",
+    "meta": "",
+    "bullets": [
+      "Together AI 宣布阿里旗舰模型 Qwen4 Max 上线其 Serverless 推理平台（模型串 Qwen/Qwen4-Max），上下文 1M token，并称截至 2026 年 11 月 22 日有 7 折。",
+      "官方演示称一次调用即可修复 Tornado 代码仓库中的整仓 bug。这是平台上架，与阿里此前正式发布 Qwen4-Max 不是同一公告。"
+    ],
+    "links": [
+      {
+        "label": "Together AI 研究与产品博客（RSS）",
+        "title": "Qwen4 Max 上线 Together AI，单次调用修复 Tornado 整仓 bug",
+        "url": "https://www.together.ai/blog/qwen4-max",
+        "date": "2026-11-21",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 70,
+      "actionable": 86,
+      "breadth": 62,
+      "heat": 35
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 93,
+      "x_spike_7d": 85.5
+    },
+    "score": 67.0
   }
 ]
