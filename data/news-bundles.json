@@ -46654,12 +46654,14 @@
   },
   {
     "id": "m120-korea-exam",
-    "title": "韩国满分考生被疑 AI 作弊后离世，考场紧急封杀智能眼镜",
-    "url": "https://www.aibase.com/news/32417",
-    "date": "2026-11-19",
+    "title": "韩国教育部长崔教振因高考 AI 作弊防范不力辞职；考场查处 111 名违规携带智能设备考生",
+    "url": "https://www.ithome.com/1/030/558.htm",
+    "date": "2026-11-22",
     "meta": "",
     "bullets": [
-      "报道称，韩国一名满分学霸在被怀疑使用 AI 作弊后离世，考场随后紧急封杀智能眼镜。"
+      "韩国教育部长官崔教振 11 月 22 日辞职，为 2027 年度高考在防范 AI 作弊措施上的不足引发的混乱承担责任。",
+      "韩国高考禁止携带 AI 眼镜、手机等电子设备，每个考点安排专人检查 AI 眼镜，仍查处 111 名违规携带智能设备的考生，其中包括 1 起使用智能眼镜作弊；总统李在明 20 日呼吁对高考制度进行全面改革，教育部计划在 12 月 11 日成绩公布前完成处置。",
+      "此前还有报道称，一名被怀疑使用 AI 作弊的满分考生随后离世，考场因此紧急加强智能眼镜查禁。"
     ],
     "links": [
       {
@@ -46668,22 +46670,29 @@
         "url": "https://www.aibase.com/news/32417",
         "date": "2026-11-19",
         "same_event": true
+      },
+      {
+        "label": "IT之家·人工智能",
+        "title": "韩国高考 AI 作弊事件发酵，教育部长崔教振引咎辞职",
+        "url": "https://www.ithome.com/1/030/558.htm",
+        "date": "2026-11-22",
+        "same_event": true
       }
     ],
     "score_parts": {
-      "industry": 68,
-      "actionable": 30,
-      "breadth": 72,
-      "heat": 45
+      "industry": 74,
+      "actionable": 35,
+      "breadth": 80,
+      "heat": 46
     },
-    "heat": 45,
+    "heat": 46,
     "heat_signals": {
-      "reports": 1,
-      "domains": 1,
-      "x_posts_7d": 971,
-      "x_spike_7d": 971.0
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 708,
+      "x_spike_7d": 145.5
     },
-    "score": 52.4
+    "score": 57.3
   },
   {
     "id": "m120-tesla-robot",
@@ -49850,9 +49859,9 @@
     "date": "2026-11-22",
     "meta": "",
     "bullets": [
-      "Anthropic 数学家 Levent Alpöge 于 11 月 20 日放出约 17.5 万个 Lean 文件、约 1737 万行代码，宣称与 Claude 合作给出黎曼猜想（及 Dirichlet L 函数意义下的 GRH）的形式化证明；同周还有一份纯人工证明草稿出现。",
+      "Anthropic 数学家 Levent Alpöge 于 11 月 20 日放出约 17.5 万个 Lean 文件、约 1737 万行代码，宣称与 Claude 合作给出黎曼猜想（及 Dirichlet L 函数意义下的 GRH）的形式化证明；同周斯坦福方面还发布了一份纯人工证明草稿。",
       "Lean FRO 与 Mathlib Initiative 于 11 月 21 日联合声明：已按四项标准认证该证明——命题即 Mathlib 中的 RiemannHypothesis、库可正确编译、所证即该命题、导出证明经 Lean 官方内核与多个独立检查器验证；MIT 的 Andrew Sutherland 同步公布了编译与独立内核回放结果。",
-      "这是形式验证层面的认证，不等于 Clay 千禧年大奖等数学界终审；AI 在其中的具体贡献细节仍有待更多公开复盘。"
+      "2022 年菲尔兹奖得主、牛津大学教授詹姆斯·梅纳德（James Maynard）表示，他相信该证明是正确的，依据是已通过 Lean 库形式化验证并经独立核实，以及阿尔珀格过往的可靠记录；但他强调证明还需被理解，才可能获得数学界认可。这是形式验证层面的认证，不等于 Clay 千禧年大奖等终审。"
     ],
     "links": [
       {
@@ -49945,6 +49954,20 @@
         "url": "https://the-decoder.com/hours-after-anthropic-claims-a-claude-proof-of-the-riemann-hypothesis-stanford-releases-an-all-human-competing-draft/",
         "date": "2026-11-21",
         "same_event": true
+      },
+      {
+        "label": "IT之家·人工智能",
+        "title": "菲尔兹奖得主梅纳德谈 Claude 合作证明黎曼猜想：相信证明正确，但需被理解才可能获认可",
+        "url": "https://www.ithome.com/1/030/677.htm",
+        "date": "2026-11-22",
+        "same_event": true
+      },
+      {
+        "label": "Azeem Azhar：Exponential View（RSS）",
+        "title": "Anthropic 数学家称与 Claude 可能证明黎曼猜想，同日人类数学家另提证明",
+        "url": "https://www.exponentialview.co/p/ev-611",
+        "date": "2026-11-22",
+        "same_event": true
       }
     ],
     "score_parts": {
@@ -49955,10 +49978,10 @@
     },
     "heat": 100,
     "heat_signals": {
-      "reports": 13,
-      "domains": 8,
-      "x_posts_7d": 10332,
-      "x_spike_7d": 10294.5
+      "reports": 15,
+      "domains": 9,
+      "x_posts_7d": 13171,
+      "x_spike_7d": 13111.0
     },
     "score": 80.0
   },
@@ -50096,22 +50119,29 @@
         "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
         "date": "2026-11-22",
         "same_event": true
+      },
+      {
+        "label": "IT之家·人工智能",
+        "title": "Signal 更新默认屏蔽截图，阻止 Siri AI 和 Gemini 等 AI 智能体读取消息",
+        "url": "https://www.ithome.com/1/030/517.htm",
+        "date": "2026-11-22",
+        "same_event": true
       }
     ],
     "score_parts": {
       "industry": 76,
       "actionable": 72,
       "breadth": 80,
-      "heat": 57
+      "heat": 68
     },
-    "heat": 57,
+    "heat": 68,
     "heat_signals": {
-      "reports": 3,
-      "domains": 3,
-      "x_posts_7d": 135,
-      "x_spike_7d": 135.0
+      "reports": 4,
+      "domains": 4,
+      "x_posts_7d": 179,
+      "x_spike_7d": 179.0
     },
-    "score": 71.4
+    "score": 73.6
   },
   {
     "id": "m121-gemini-transcribe",
@@ -53995,13 +54025,14 @@
   },
   {
     "id": "e121-ai-canary",
-    "title": "安全研究员在 AI 服务链中植入约 200 万个金丝雀密钥，发现数据泄露与零保留失效",
-    "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
-    "date": "2026-11-21",
+    "title": "OpenRouter 因推理提供商数据处理问题下架 3 家并移除 125 个 ZDR 端点；源起安全研究员金丝雀实验",
+    "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+    "date": "2026-11-22",
     "meta": "",
     "bullets": [
-      "安全研究员、Dragos 首席研究官 HD Moore 在经由 AI 路由（如 OpenRouter、Vercel）转发的提示词中植入约 200 万个从未使用过的金丝雀秘密，包括 AWS 访问密钥、SSH 密码和私有 git 仓库引用，用于追踪敏感信息在 AI 服务链中的泄露路径。",
-      "实验发现这些信息会大量外泄：至少三家服务商出现遭入侵迹象，被盗诱饵密钥被用于数万次云服务接口调用；部分标记零数据保留的请求，其私密网址数日后仍被抓取。Moore 建议敏感业务可本地部署或直接选择可信服务商。"
+      "安全研究员、Dragos 首席研究官 HD Moore 在经由 OpenRouter、Vercel 等路由的提示词中植入约 200 万个从未使用过的金丝雀秘密，发现敏感信息会沿 AI 服务链外泄：至少三家服务商出现遭入侵迹象，部分标注零数据保留的请求在数日后仍被抓取。",
+      "OpenRouter 于 11 月 22 日发布公告称，检测未显示 OpenRouter 自身被入侵或遭未授权访问；已下架 3 家推理提供商、将 125 个端点移出 Zero Data Retention（ZDR）资格（包括被标记的提供商及预防性下架），并通知可能受影响的客户。",
+      "公告列出 Novita、Phala、Together 已公开的安全说明（Together 称 2026 年 6–7 月的请求出现提示词泄漏），并称并非所有受影响提供商都已公开发文；OpenRouter 还计划把研究员的测试方法纳入持续检查，且在恢复任何端点的 ZDR 资格前要求核验。"
     ],
     "links": [
       {
@@ -54017,22 +54048,43 @@
         "url": "https://www.ithome.com/1/030/322.htm",
         "date": "2026-11-21",
         "same_event": true
+      },
+      {
+        "label": "X：OpenRouter (@OpenRouter)",
+        "title": "OpenRouter 回应推理提供商数据处理问题：下架 3 家并收紧 ZDR 资格",
+        "url": "https://x.com/OpenRouter/status/2124315081899200715",
+        "date": "2026-11-22",
+        "same_event": true
+      },
+      {
+        "label": "OpenRouter：Announcements（RSS）",
+        "title": "OpenRouter 因推理提供商数据处理事件下架三家提供商并移除 125 个 ZDR 端点",
+        "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+        "date": "2026-11-22",
+        "same_event": true
+      },
+      {
+        "label": "Dragos",
+        "title": "Dragos 用约 200 万条金丝雀令牌提示词追踪 AI 供应链泄露，发现三家供应商遭入侵",
+        "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens",
+        "date": "2026-11-19",
+        "same_event": true
       }
     ],
     "score_parts": {
-      "industry": 82,
-      "actionable": 70,
-      "breadth": 72,
-      "heat": 46
+      "industry": 85,
+      "actionable": 80,
+      "breadth": 75,
+      "heat": 79
     },
-    "heat": 46,
+    "heat": 79,
     "heat_signals": {
-      "reports": 2,
-      "domains": 2,
-      "x_posts_7d": 156,
-      "x_spike_7d": 51.0
+      "reports": 5,
+      "domains": 5,
+      "x_posts_7d": 555,
+      "x_spike_7d": 487.5
     },
-    "score": 70.2
+    "score": 81.3
   },
   {
     "id": "e121-tao-lin",
@@ -55308,5 +55360,549 @@
       "x_spike_7d": 85.5
     },
     "score": 67.0
+  },
+  {
+    "id": "e122-wk-accounting",
+    "title": "Wolters Kluwer 报告：美国会计行业生成式 AI 采用率达 88%，但技术整合成熟度不足",
+    "url": "https://www.ithome.com/1/030/679.htm",
+    "date": "2026-11-22",
+    "meta": "",
+    "bullets": [
+      "Wolters Kluwer Tax & Accounting 发布的《面向未来的会计师》报告显示，88% 的美国会计从业者在日常工作中使用生成式 AI，68% 正在使用智能体 AI，83% 的受访事务所自视为“技术创新者”或“早期采用者”。",
+      "报告同时指出，行业在技术整合成熟度上仍显不足。"
+    ],
+    "links": [
+      {
+        "label": "IT之家·人工智能",
+        "title": "Wolters Kluwer 报告：美国会计行业 AI 采用率高，但技术整合成熟度不足",
+        "url": "https://www.ithome.com/1/030/679.htm",
+        "date": "2026-11-22",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 48,
+      "actionable": 35,
+      "breadth": 55,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0.0
+    },
+    "score": 41.2
+  },
+  {
+    "id": "e122-aa-personality",
+    "title": "Artificial Analysis 评测：GPT-6.2 Astra 与 Sol 回答缩短约 34–40%，透明度低于 Claude",
+    "url": "https://the-decoder.com/gpt-6-2-astra-and-sol-get-to-the-point-faster-but-score-lower-on-transparency-than-claude/",
+    "date": "2026-11-22",
+    "meta": "",
+    "bullets": [
+      "Artificial Analysis 的 AA-PersonalityBench 显示，GPT-6.2 Astra 与 Sol 的平均回答长度分别较上代下降约 40% 和 34%（Astra 从 352 词降至 210 词，Sol 从 337 词降至 223 词），更常直接作答，标题和破折号也明显减少。",
+      "同时，“承认不确定性”相对得分大幅下降：Astra 从 96 降至 24，Sol 从 98 降至 51；透明度指数上 Astra 为 41、Sol 为 57，低于 Claude Fable 5.2 的 81 和 Opus 5.5 的 90。该基准用 900 道无系统提示的英文题、由三个 AI 评判匿名对比，反映沟通风格而非正确率。"
+    ],
+    "links": [
+      {
+        "label": "The Decoder：AI News（RSS）",
+        "title": "Artificial Analysis 评测显示 GPT-6.2 Astra 和 Sol 回答更简短但透明度低于 Claude",
+        "url": "https://the-decoder.com/gpt-6-2-astra-and-sol-get-to-the-point-faster-but-score-lower-on-transparency-than-claude/",
+        "date": "2026-11-22",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 64,
+      "actionable": 78,
+      "breadth": 72,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 19,
+      "x_spike_7d": 11.5
+    },
+    "score": 62.2
+  },
+  {
+    "id": "e122-ant-afu-150m",
+    "title": "蚂蚁阿福称用户达 1.5 亿，每天线上问诊超过 2000 万次",
+    "url": "https://www.ithome.com/1/030/653.htm",
+    "date": "2026-11-22",
+    "meta": "",
+    "bullets": [
+      "蚂蚁健康事业群副总裁杨猛在 2026 蚂蚁阿福医疗健康生态大会上透露，蚂蚁阿福已有 1.5 亿用户，每天线上问诊次数超过 2000 万次。",
+      "其中 55% 的问诊来自三线及以下城市，约 1/4 是老人，16% 发生在凌晨 0 点到早上 6 点。这是用户规模披露，与 11 月初该产品获世界互联网大会奖项不是同一公告。"
+    ],
+    "links": [
+      {
+        "label": "IT之家·人工智能",
+        "title": "蚂蚁阿福用户达 1.5 亿，每天线上问诊超 2000 万次",
+        "url": "https://www.ithome.com/1/030/653.htm",
+        "date": "2026-11-22",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 72,
+      "actionable": 40,
+      "breadth": 78,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 11,
+      "x_spike_7d": 3.5
+    },
+    "score": 54.6
+  },
+  {
+    "id": "e122-musk-funding-gap",
+    "title": "马斯克预警：若算力投入到稳定创收推迟数月，AI 行业营运资金缺口或达数千亿美元",
+    "url": "https://www.ithome.com/1/030/628.htm",
+    "date": "2026-11-22",
+    "meta": "",
+    "bullets": [
+      "马斯克在回复 Keras 创始人 François Chollet 时称，若从支付算力成本到设备稳定创收的时间再推迟数月，AI 行业明年可能面临严重资金短缺，仅营运资金就可能需额外投入数千亿美元。",
+      "Chollet 此前指出，GPU 现货价格仍在上涨，HBM 和 DRAM 到 2029 年的产能基本已被订满，前沿模型训练算力约每 5 个月翻一番。这是公开评论，并非新的融资或政策公告。"
+    ],
+    "links": [
+      {
+        "label": "IT之家·人工智能",
+        "title": "马斯克预警：AI 行业明年或面临严重资金短缺，营运资金缺口或达数千亿美元",
+        "url": "https://www.ithome.com/1/030/628.htm",
+        "date": "2026-11-22",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 70,
+      "actionable": 40,
+      "breadth": 75,
+      "heat": 35
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 242,
+      "x_spike_7d": 144.5
+    },
+    "score": 54.5
+  },
+  {
+    "id": "e122-trusted-data-space",
+    "title": "中国首批可信数据空间创新发展试点落地 13 个城市、22 个行业、28 家企业",
+    "url": "https://www.ithome.com/1/030/593.htm",
+    "date": "2026-11-22",
+    "meta": "",
+    "bullets": [
+      "报道称，中国首批可信数据空间创新发展试点自 2025 年启动以来，已在 13 个城市、22 个行业、28 家企业落地，覆盖工业制造、交通物流、医疗健康等重点行业。",
+      "试点据称带动形成 457 个高质量数据集和 136 个人工智能垂直模型，并推动物流多式联运、碳足迹核算互认、新材料研发、车桩网协同调度等高价值场景应用。"
+    ],
+    "links": [
+      {
+        "label": "IT之家·人工智能",
+        "title": "我国首批可信数据空间创新发展试点落地 13 个城市、22 个行业、28 家企业",
+        "url": "https://www.ithome.com/1/030/593.htm",
+        "date": "2026-11-22",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 58,
+      "actionable": 35,
+      "breadth": 65,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 7,
+      "x_spike_7d": 7.0
+    },
+    "score": 46.2
+  },
+  {
+    "id": "e122-helsing-clarity",
+    "title": "Helsing 在柏林艺术中心发布军事 AI 系统 Clarity 引发抗议，场地方致歉",
+    "url": "https://www.ithome.com/1/030/590.htm",
+    "date": "2026-11-22",
+    "meta": "",
+    "bullets": [
+      "据《卫报》报道，德国军工初创企业 Helsing 于 11 月 11 日在柏林艺术文化空间 Kraftwerk Berlin 举办 AI 目标识别系统 Clarity 的发布活动，遭到当地乐迷和电音社区抗议。",
+      "场地方随后致歉。目前公开信息主要来自媒体转述。"
+    ],
+    "links": [
+      {
+        "label": "IT之家·人工智能",
+        "title": "Helsing 在柏林艺术中心发布军事 AI 系统 Clarity 引发抗议，场地方致歉",
+        "url": "https://www.ithome.com/1/030/590.htm",
+        "date": "2026-11-22",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 52,
+      "actionable": 20,
+      "breadth": 45,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 12,
+      "x_spike_7d": -3.0
+    },
+    "score": 37.3
+  },
+  {
+    "id": "e122-tiktok-ai-detect",
+    "title": "TikTok 上线 AI 内容检测工具与创作者肖像检测，并可识别 VeraDura 隐形水印",
+    "url": "https://www.ithome.com/1/030/581.htm",
+    "date": "2026-11-22",
+    "meta": "",
+    "bullets": [
+      "TikTok 于 11 月 19 日宣布推出两项 AI 透明度工具：用户无需账号即可上传图片或视频，检测其是否由 TikTok AI 功能生成或编辑，并会检测专有隐形水印 VeraDura。",
+      "面向全球逐步推出的肖像检测功能需主动开启，帮助符合条件的创作者发现并标记可能未经授权使用其肖像的 AI 生成内容。"
+    ],
+    "links": [
+      {
+        "label": "IT之家·人工智能",
+        "title": "TikTok 上线 AI 内容透明度检测工具与创作者肖像检测功能",
+        "url": "https://www.ithome.com/1/030/581.htm",
+        "date": "2026-11-22",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 70,
+      "actionable": 80,
+      "breadth": 85,
+      "heat": 35
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 54,
+      "x_spike_7d": 54.0
+    },
+    "score": 67.5
+  },
+  {
+    "id": "e122-chatterfly",
+    "title": "腾讯 Chatterfly 输入法安卓版开启内测，支持语音转写、自动翻译与表达 Skill",
+    "url": "https://www.ithome.com/1/030/576.htm",
+    "date": "2026-11-22",
+    "meta": "",
+    "bullets": [
+      "腾讯 Chatterfly 输入法安卓版开启内测，iOS 版状态为“即将发布”，支持语音输入成稿、语音自动翻译和全场景 AI 打字。",
+      "它还可通过表达 Skill 对工作汇报、会议纪要、AI 提示词等场景做润色，并可用快捷键语音下达文本创作、即时翻译、信息提炼等指令。"
+    ],
+    "links": [
+      {
+        "label": "IT之家·人工智能",
+        "title": "腾讯 Chatterfly 输入法安卓版开启内测，支持语音转写、自动翻译等 AI 功能",
+        "url": "https://www.ithome.com/1/030/576.htm",
+        "date": "2026-11-22",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 58,
+      "actionable": 72,
+      "breadth": 60,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 8,
+      "x_spike_7d": 8.0
+    },
+    "score": 56.8
+  },
+  {
+    "id": "e122-tensorlean",
+    "title": "Columbia 与 CertiK 推出 TensorLean：用 Lean 在 PTX 级形式化验证 GPU 内核",
+    "url": "https://www.marktechpost.com/2026/11/21/columbia-certik-tensorlean-formal-verification-gpu-kernels/",
+    "date": "2026-11-22",
+    "meta": "",
+    "bullets": [
+      "Columbia 大学与 CertiK 研究人员推出 TensorLean，一个在 PTX 级验证 GPU 内核的 Lean 形式化验证框架，用于证明编译后的内核符合张量级数学规格。",
+      "据报道，该框架可检查数据竞争、终止、容差内正确输出和内存不变四项性质。这是 GPU 内核验证工具，与近日黎曼猜想的 Lean 证明认证不是同一工作。"
+    ],
+    "links": [
+      {
+        "label": "MarkTechPost（RSS）",
+        "title": "Columbia 与 CertiK 推出 TensorLean，用 Lean 对 PTX 级 GPU 内核做形式化验证",
+        "url": "https://www.marktechpost.com/2026/11/21/columbia-certik-tensorlean-formal-verification-gpu-kernels/",
+        "date": "2026-11-22",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 68,
+      "actionable": 60,
+      "breadth": 40,
+      "heat": 35
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 56,
+      "x_spike_7d": 56.0
+    },
+    "score": 56.2
+  },
+  {
+    "id": "e122-ft-alice-huang",
+    "title": "FT 调查：与黄仁勋有情感关系的 Alice Huang 被指牵涉向中国走私 Nvidia 芯片的网络",
+    "url": "https://x.com/rohanpaul_ai/status/2124303818167095585",
+    "date": "2026-11-22",
+    "meta": "",
+    "bullets": [
+      "《金融时报》调查报道称，与黄仁勋存在情感关系的 Alice Huang 牵涉一张将 Nvidia 芯片运入中国的网络，涉及云合作伙伴、游戏大亨、据称的柬埔寨人口贩运者及数百家空壳公司，其家族几乎在每个环节都有关联。",
+      "报道还称，走私据称经一家被制裁的柬埔寨犯罪集团进行；Nvidia 的审查依赖公司文书，而该网络正是为通过这些审查而搭建。这是 FT 新调查，与此前《华尔街日报》关于东南亚数据中心通道、以及特朗普就此事表态的报道不是同一篇。"
+    ],
+    "links": [
+      {
+        "label": "X：Rohan Paul (@rohanpaul_ai)",
+        "title": "FT 调查：与 Jensen Huang 有情感关系的 Alice Huang 牵涉向中国走私 Nvidia 芯片的网络",
+        "url": "https://x.com/rohanpaul_ai/status/2124303818167095585",
+        "date": "2026-11-22",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 85,
+      "actionable": 25,
+      "breadth": 80,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 820,
+      "x_spike_7d": -417.5
+    },
+    "score": 55.5
+  },
+  {
+    "id": "e122-amazon-decart",
+    "title": "消息称 Amazon 接近以约 75 亿美元收购 AI 公司 Decart",
+    "url": "https://x.com/rohanpaul_ai/status/2124294348712092061",
+    "date": "2026-11-22",
+    "meta": "",
+    "bullets": [
+      "社交媒体转述称，Amazon 接近以约 75 亿美元收购 AI 创业公司 Decart，几乎是其最新 40 亿美元估值的两倍。目前尚未见到双方官方确认。",
+      "报道称 Decart 的优化能从 Amazon 处理器中获得更高 token 效率；该公司获得了 Trainium3 早期访问权限，Amazon 称该芯片运行其实时视频模型的速度比 GPU 快 4 倍、成本减半。"
+    ],
+    "links": [
+      {
+        "label": "X：Rohan Paul (@rohanpaul_ai)",
+        "title": "Amazon 接近以约 7.5B 美元收购 AI 创业公司 Decart",
+        "url": "https://x.com/rohanpaul_ai/status/2124294348712092061",
+        "date": "2026-11-22",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 82,
+      "actionable": 35,
+      "breadth": 70,
+      "heat": 40
+    },
+    "heat": 40,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 215,
+      "x_spike_7d": 215.0
+    },
+    "score": 58.3
+  },
+  {
+    "id": "e122-phison-ssd",
+    "title": "群联在 SC26 展示内置 NPU 与 64GB 内存的企业级 SSD，称可直接运行 AI 模型",
+    "url": "https://www.ithome.com/1/030/524.htm",
+    "date": "2026-11-22",
+    "meta": "",
+    "bullets": [
+      "群联在 SC26 大会展示两款面向 AI 场景的企业级 SSD，其中一款内置 NPU 与 64GB 内存，带宽 130GB/s，称可直接在硬盘上运行 PyTorch、vLLM、OpenVINO 和 llama.cpp 等框架。",
+      "目前为展会演示，公开信息主要来自中文科技媒体报道。"
+    ],
+    "links": [
+      {
+        "label": "IT之家·人工智能",
+        "title": "群联展示内置 NPU 与 64GB 内存的智能固态硬盘，可直接运行 AI 模型",
+        "url": "https://www.ithome.com/1/030/524.htm",
+        "date": "2026-11-22",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 62,
+      "actionable": 50,
+      "breadth": 45,
+      "heat": 35
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 61,
+      "x_spike_7d": 53.5
+    },
+    "score": 51.3
+  },
+  {
+    "id": "e122-muru",
+    "title": "Graham Dumpleton 发布 AI 辅助开发的 Rust 服务器 Muru，用于运行 Python Web 应用",
+    "url": "https://simonwillison.net/2026/Nov/21/muru/",
+    "date": "2026-11-22",
+    "meta": "",
+    "bullets": [
+      "mod_wsgi 作者 Graham Dumpleton 发布 AI 辅助开发的 Rust 服务器 Muru，目标是为开发和生产环境运行 ASGI 与 WSGI Python 应用提供工具。",
+      "Simon Willison 撰文介绍了这一项目。"
+    ],
+    "links": [
+      {
+        "label": "Simon Willison 博客",
+        "title": "Graham Dumpleton 发布 AI 辅助 Rust 服务器 Muru，用于运行 Python Web 应用",
+        "url": "https://simonwillison.net/2026/Nov/21/muru/",
+        "date": "2026-11-22",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 42,
+      "actionable": 70,
+      "breadth": 35,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 12,
+      "x_spike_7d": 12.0
+    },
+    "score": 47.3
+  },
+  {
+    "id": "e122-darmok",
+    "title": "UT Austin 论文：Darmok 在英国密码填字上达到超人表现，并在时报锦标赛决赛击败人类冠军",
+    "url": "https://x.com/rohanpaul_ai/status/2124276600435019932",
+    "date": "2026-11-22",
+    "meta": "",
+    "bullets": [
+      "UT Austin 论文介绍 Darmok，称其为首个在英国密码填字上达到超人表现的自动化系统。",
+      "在 2026 Times Crossword Championship 决赛中，Darmok 零失误解出全部 7 题，以 3 分 13 秒优势战胜人类冠军；报道称期间主模型大幅降速，备用路径提供了 30 个答案中的 17 个。"
+    ],
+    "links": [
+      {
+        "label": "X：Rohan Paul (@rohanpaul_ai)",
+        "title": "UT Austin 论文：Darmok 系统在英国密码填字上达到超人表现",
+        "url": "https://x.com/rohanpaul_ai/status/2124276600435019932",
+        "date": "2026-11-22",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 58,
+      "actionable": 30,
+      "breadth": 40,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 4,
+      "x_spike_7d": 4.0
+    },
+    "score": 42.2
+  },
+  {
+    "id": "e122-opencode-discount",
+    "title": "OpenCode 上 GLM 5.3 与 DeepSeek V4.1 Flash 推出六折",
+    "url": "https://x.com/opencode/status/2124265178267005017",
+    "date": "2026-11-22",
+    "meta": "",
+    "bullets": [
+      "OpenCode 宣布，GLM 5.3 和 DeepSeek V4.1 Flash 在其平台上可享 60% 折扣。",
+      "这是平台促销，与此前 OpenCode 的 Operation GLM 额度活动、以及混元 Hy4 flash 免费开放不是同一公告。"
+    ],
+    "links": [
+      {
+        "label": "X：opencode (@opencode)",
+        "title": "OpenCode 上 GLM 5.3 与 DeepSeek V4.1 Flash 六折",
+        "url": "https://x.com/opencode/status/2124265178267005017",
+        "date": "2026-11-22",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 40,
+      "actionable": 75,
+      "breadth": 45,
+      "heat": 35
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 130,
+      "x_spike_7d": 92.5
+    },
+    "score": 50.0
+  },
+  {
+    "id": "e122-tesla-fsd-v15",
+    "title": "马斯克展示特斯拉 FSD V15：用天空箭头指示转弯，并可点击现实重现器中的任意一点让车辆驶向该处",
+    "url": "https://x.com/elonmusk/status/2124238164512714925",
+    "date": "2026-11-22",
+    "meta": "",
+    "bullets": [
+      "马斯克发帖称，在 FSD V15 中，特斯拉 AI 计算机会像电子游戏一样，用天空中的箭头重新渲染现实来指示转弯。",
+      "他还表示，可以点击现实重现器上的任意一点，让车辆驶向该处。目前公开信息主要来自其本人帖文。"
+    ],
+    "links": [
+      {
+        "label": "X：Elon Musk (@elonmusk, xAI)",
+        "title": "特斯拉FSD V15天空箭头导航",
+        "url": "https://x.com/elonmusk/status/2124238164512714925",
+        "date": "2026-11-22",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 60,
+      "actionable": 55,
+      "breadth": 55,
+      "heat": 35
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 160,
+      "x_spike_7d": 160.0
+    },
+    "score": 53.0
   }
 ]

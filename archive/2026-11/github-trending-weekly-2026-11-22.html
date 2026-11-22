@@ -524,7 +524,7 @@ h1 {
         <button type="button" class="repo-tab news-tab" role="tab" id="news-tab-7d" aria-selected="false" aria-controls="news-panel-7d" data-tab-index="1">近 7 天</button>
       </div>
       <div class="news-panel" role="tabpanel" id="news-panel-24h" aria-labelledby="news-tab-24h">
-        <span class="section-meta">近 24 小时（11-21 06:16 ~ 11-22 06:16）· 按重要度 Top 10 · 雷达 archive · AI 多源 · 候选 53 束 · 资讯束 · 雷达 2026-11-22 06:08 北京时间 · <a href="https://news.learnprompt.pro" target="_blank" rel="noopener noreferrer">news.learnprompt.pro</a> · 默认 3 条（重点） · 可展开至 10 条</span>
+        <span class="section-meta">近 24 小时（11-21 19:15 ~ 11-22 19:15）· 按重要度 Top 10 · 雷达 archive · AI 多源 · 候选 43 束 · 资讯束 · 雷达 2026-11-22 19:07 北京时间 · <a href="https://news.learnprompt.pro" target="_blank" rel="noopener noreferrer">news.learnprompt.pro</a> · 默认 3 条（重点） · 可展开至 10 条</span>
       <ol class="news-list is-collapsed" id="news-list-24h">
       <li class="news-card">
         <div class="news-card-head">
@@ -582,17 +582,38 @@ h1 {
       </li>
       <li class="news-card">
         <div class="news-card-head">
-          <a class="title" href="https://leanprover-community.github.io/blog/posts/riemann-hypothesis/" target="_blank" rel="noopener noreferrer">Lean FRO 与 Mathlib 认证 Alpöge 的黎曼猜想 Lean 证明；斯坦福同周发布纯人类竞争草稿</a>
+          <a class="title" href="https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/" target="_blank" rel="noopener noreferrer">OpenRouter 因推理提供商数据处理问题下架 3 家并移除 125 个 ZDR 端点；源起安全研究员金丝雀实验</a>
           <span class="badge-focus">重点</span>
         </div>
-        <div class="news-meta">TechCrunch：AI（RSS） · The Verge：AI（RSS） · Simon Willison 博客 · 另 13 篇报道 · 最新 11-22 01:07</div>
+        <div class="news-meta">OpenRouter：Announcements（RSS） · Ars Technica：AI（RSS） · IT之家·人工智能 · 另 4 篇报道 · 最新 11-22 09:32</div>
         <ul class="news-note">
-          <li>Anthropic 数学家 Levent Alpöge 于 11 月 20 日放出约 17.5 万个 Lean 文件、约 1737 万行代码，宣称与 Claude 合作给出黎曼猜想（及 Dirichlet L 函数意义下的 GRH）的形式化证明；同周还有一份纯人工证明草稿出现。</li>
-          <li>Lean FRO 与 Mathlib Initiative 于 11 月 21 日联合声明：已按四项标准认证该证明——命题即 Mathlib 中的 RiemannHypothesis、库可正确编译、所证即该命题、导出证明经 Lean 官方内核与多个独立检查器验证；MIT 的 Andrew Sutherland 同步公布了编译与独立内核回放结果。</li>
-          <li>这是形式验证层面的认证，不等于 Clay 千禧年大奖等数学界终审；AI 在其中的具体贡献细节仍有待更多公开复盘。</li>
+          <li>安全研究员、Dragos 首席研究官 HD Moore 在经由 OpenRouter、Vercel 等路由的提示词中植入约 200 万个从未使用过的金丝雀秘密，发现敏感信息会沿 AI 服务链外泄：至少三家服务商出现遭入侵迹象，部分标注零数据保留的请求在数日后仍被抓取。</li>
+          <li>OpenRouter 于 11 月 22 日发布公告称，检测未显示 OpenRouter 自身被入侵或遭未授权访问；已下架 3 家推理提供商、将 125 个端点移出 Zero Data Retention（ZDR）资格（包括被标记的提供商及预防性下架），并通知可能受影响的客户。</li>
+          <li>公告列出 Novita、Phala、Together 已公开的安全说明（Together 称 2026 年 6–7 月的请求出现提示词泄漏），并称并非所有受影响提供商都已公开发文；OpenRouter 还计划把研究员的测试方法纳入持续检查，且在恢复任何端点的 ZDR 资格前要求核验。</li>
         </ul>
         <details class="news-related">
-          <summary>另 13 篇报道</summary>
+          <summary>另 4 篇报道</summary>
+          <ul>
+            <li><span class="src">Ars Technica：AI（RSS）</span><a href="https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/" target="_blank" rel="noopener noreferrer">安全研究员在 AI 服务链中植入 200 万个金丝雀密钥测试数据泄露</a></li>
+            <li><span class="src">IT之家·人工智能</span><a href="https://www.ithome.com/1/030/322.htm" target="_blank" rel="noopener noreferrer">近 200 万条诱饵请求揭示 AI 服务链隐私泄露：零数据保留也失效</a></li>
+            <li><span class="src">X：OpenRouter (@OpenRouter)</span><a href="https://x.com/OpenRouter/status/2124315081899200715" target="_blank" rel="noopener noreferrer">OpenRouter 回应推理提供商数据处理问题：下架 3 家并收紧 ZDR 资格</a></li>
+            <li><span class="src">Dragos</span><a href="https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens" target="_blank" rel="noopener noreferrer">Dragos 用约 200 万条金丝雀令牌提示词追踪 AI 供应链泄露，发现三家供应商遭入侵</a></li>
+          </ul>
+        </details>
+      </li>
+      <li class="news-card news-extra">
+        <div class="news-card-head">
+          <a class="title" href="https://leanprover-community.github.io/blog/posts/riemann-hypothesis/" target="_blank" rel="noopener noreferrer">Lean FRO 与 Mathlib 认证 Alpöge 的黎曼猜想 Lean 证明；斯坦福同周发布纯人类竞争草稿</a>
+          
+        </div>
+        <div class="news-meta">TechCrunch：AI（RSS） · The Verge：AI（RSS） · Simon Willison 博客 · 另 15 篇报道 · 最新 11-22 17:35</div>
+        <ul class="news-note">
+          <li>Anthropic 数学家 Levent Alpöge 于 11 月 20 日放出约 17.5 万个 Lean 文件、约 1737 万行代码，宣称与 Claude 合作给出黎曼猜想（及 Dirichlet L 函数意义下的 GRH）的形式化证明；同周斯坦福方面还发布了一份纯人工证明草稿。</li>
+          <li>Lean FRO 与 Mathlib Initiative 于 11 月 21 日联合声明：已按四项标准认证该证明——命题即 Mathlib 中的 RiemannHypothesis、库可正确编译、所证即该命题、导出证明经 Lean 官方内核与多个独立检查器验证；MIT 的 Andrew Sutherland 同步公布了编译与独立内核回放结果。</li>
+          <li>2022 年菲尔兹奖得主、牛津大学教授詹姆斯·梅纳德（James Maynard）表示，他相信该证明是正确的，依据是已通过 Lean 库形式化验证并经独立核实，以及阿尔珀格过往的可靠记录；但他强调证明还需被理解，才可能获得数学界认可。这是形式验证层面的认证，不等于 Clay 千禧年大奖等终审。</li>
+        </ul>
+        <details class="news-related">
+          <summary>另 15 篇报道</summary>
           <ul>
             <li><span class="src">TechCrunch：AI（RSS）</span><a href="https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/" target="_blank" rel="noopener noreferrer">Anthropic 数学家 Levent Alpöge 宣称给出黎曼猜想的 Lean 可编译证明，同周还有纯人工证明出现</a></li>
             <li><span class="src">The Verge：AI（RSS）</span><a href="https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem" target="_blank" rel="noopener noreferrer">Anthropic 数学家 Levent Alpöge 称借助 Claude 证明了黎曼假设</a></li>
@@ -607,61 +628,8 @@ h1 {
             <li><span class="src">X：Rohan Paul (@rohanpaul_ai)</span><a href="https://x.com/rohanpaul_ai/status/2123909356483940512" target="_blank" rel="noopener noreferrer">Anthropic 数学家 Alpöge 称与 Claude 合作证明黎曼假设</a></li>
             <li><span class="src">X：Rohan Paul (@rohanpaul_ai)</span><a href="https://x.com/rohanpaul_ai/status/2124187865899049164" target="_blank" rel="noopener noreferrer">Lean 官方社区认证 Levent Alpöge 的黎曼猜想形式化证明</a></li>
             <li><span class="src">The Decoder：AI News（RSS）</span><a href="https://the-decoder.com/hours-after-anthropic-claims-a-claude-proof-of-the-riemann-hypothesis-stanford-releases-an-all-human-competing-draft/" target="_blank" rel="noopener noreferrer">Anthropic 数学家称与 Claude 完成黎曼猜想证明，斯坦福数小时后发布纯人类竞争草稿</a></li>
-          </ul>
-        </details>
-      </li>
-      <li class="news-card news-extra">
-        <div class="news-card-head">
-          <a class="title" href="https://x.com/ChatGPT/status/2123850915061104735" target="_blank" rel="noopener noreferrer">ChatGPT Space 向 Plus 用户开放：统一管理页面、幻灯片、图片与文件，并支持协作与移动端编辑</a>
-          
-        </div>
-        <div class="news-meta">X：ChatGPT (@ChatGPT) · X：Greg Brockman (@gdb) · X：Ed Bayes（OpenAI，Codex 产品设计） (@edbayes) · 另 4 篇报道 · 最新 11-21 06:57</div>
-        <ul class="news-note">
-          <li>OpenAI 宣布 ChatGPT Space 向 Plus 用户开放，成为 pages、slides、images、files 和 uploads 的统一入口，用户可与他人协作创建交互式页面、幻灯片和网站。</li>
-          <li>官方称 ChatGPT 可代为保持内容更新，页面和幻灯片还能从已连接的工具自动更新；本次还新增强了移动端编辑，并提升流畅度与稳定性。</li>
-        </ul>
-        <details class="news-related">
-          <summary>另 4 篇报道</summary>
-          <ul>
-            <li><span class="src">X：ChatGPT (@ChatGPT)</span><a href="https://x.com/ChatGPT/status/2123850912867471807" target="_blank" rel="noopener noreferrer">ChatGPT Space 向 Plus 用户开放，支持协作与移动端编辑</a></li>
-            <li><span class="src">X：Greg Brockman (@gdb)</span><a href="https://x.com/gdb/status/2123855521996570772" target="_blank" rel="noopener noreferrer">OpenAI 面向 Plus 用户开放 ChatGPT Space</a></li>
-            <li><span class="src">X：Ed Bayes（OpenAI，Codex 产品设计） (@edbayes)</span><a href="https://x.com/edbayes/status/2123853665266200773" target="_blank" rel="noopener noreferrer">OpenAI 发布 ChatGPT Space 等多项简化更新</a></li>
-            <li><span class="src">IT之家·人工智能</span><a href="https://www.ithome.com/1/030/288.htm" target="_blank" rel="noopener noreferrer">OpenAI 向 ChatGPT Plus 用户开放 Spaces 协作空间，支持多人共同编辑</a></li>
-          </ul>
-        </details>
-      </li>
-      <li class="news-card news-extra">
-        <div class="news-card-head">
-          <a class="title" href="https://openai.com/index/introducing-medchembench" target="_blank" rel="noopener noreferrer">OpenAI 发布 MedChemBench：评估模型解读分子结构与实验数据，GPT-6.2 Astra 约 84.5%</a>
-          
-        </div>
-        <div class="news-meta">OpenAI：官网动态（RSS · 排除企业/客户案例） · X：Rohan Paul (@rohanpaul_ai) · IT之家·人工智能 · 另 2 篇报道 · 最新 11-21 08:06</div>
-        <ul class="news-note">
-          <li>OpenAI 发布药物化学基准 MedChemBench：99 道题取自 117 篇论文与专利、涉及 761 个分子结构，评估模型解读分子结构、解释实验证据并预测化合物性质的能力；提示停在真实决策点，并隐藏研究者后续报告的结果。</li>
-          <li>在 xhigh 推理设置下，GPT-6.2 Astra 获得约 84.5% 的可用分数，GPT-6 Astra 为 83.3%，GPT-6.1 Sol 为 82.0%，GPT-5.6 Sol 为 58.2%；报道称化学结构读取接近满分，但真正关键的决策仅约一半正确。</li>
-        </ul>
-        <details class="news-related">
-          <summary>另 2 篇报道</summary>
-          <ul>
-            <li><span class="src">X：Rohan Paul (@rohanpaul_ai)</span><a href="https://x.com/rohanpaul_ai/status/2123888611678646426" target="_blank" rel="noopener noreferrer">OpenAI 发布 MedChemBench 药物化学基准</a></li>
-            <li><span class="src">IT之家·人工智能</span><a href="https://www.ithome.com/1/030/301.htm" target="_blank" rel="noopener noreferrer">OpenAI 推出 MedChemBench 基准，评估 AI 辅助药物研发能力</a></li>
-          </ul>
-        </details>
-      </li>
-      <li class="news-card news-extra">
-        <div class="news-card-head">
-          <a class="title" href="https://x.com/Muse/status/2123602791356883032" target="_blank" rel="noopener noreferrer">Meta Muse 推出邮箱功能，可代用户收发邮件并向支持市场全量开放</a>
-          
-        </div>
-        <div class="news-meta">X：Muse（Meta 个人智能体官方号） (@Muse) · 另 1 篇报道 · 最新 11-21 06:30</div>
-        <ul class="news-note">
-          <li>Muse 宣布推出邮箱功能，可代用户发送和接收邮件，正在向受支持市场的所有用户开放。</li>
-          <li>用户可点击头像进入 mail 标签页开启，或直接让 Muse 操作，并可在 muse.ai 抢注自己的 handle。</li>
-        </ul>
-        <details class="news-related">
-          <summary>另 1 篇报道</summary>
-          <ul>
-            <li><span class="src">X：Muse（Meta 个人智能体官方号） (@Muse)</span><a href="https://x.com/Muse/status/2123906912186216642" target="_blank" rel="noopener noreferrer">Meta Muse 智能体上线邮件收发功能并开放 handle 认领</a></li>
+            <li><span class="src">IT之家·人工智能</span><a href="https://www.ithome.com/1/030/677.htm" target="_blank" rel="noopener noreferrer">菲尔兹奖得主梅纳德谈 Claude 合作证明黎曼猜想：相信证明正确，但需被理解才可能获认可</a></li>
+            <li><span class="src">Azeem Azhar：Exponential View（RSS）</span><a href="https://www.exponentialview.co/p/ev-611" target="_blank" rel="noopener noreferrer">Anthropic 数学家称与 Claude 可能证明黎曼猜想，同日人类数学家另提证明</a></li>
           </ul>
         </details>
       </li>
@@ -670,52 +638,17 @@ h1 {
           <a class="title" href="https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app" target="_blank" rel="noopener noreferrer">Signal 在 iOS 27 和 Android 上限制截图，阻止 Siri、Gemini 等 AI 读取私人聊天</a>
           
         </div>
-        <div class="news-meta">The Verge：AI（RSS） · The Decoder：AI News（RSS） · TechCrunch：AI（RSS） · 另 2 篇报道 · 最新 11-22 05:37</div>
+        <div class="news-meta">The Verge：AI（RSS） · The Decoder：AI News（RSS） · TechCrunch：AI（RSS） · 另 3 篇报道 · 最新 11-22 07:28</div>
         <ul class="news-note">
           <li>Signal 宣布在 Android 和 iOS 上默认限制应用内截图（此前 Windows 版已默认阻止），以应对操作系统级 AI 智能体扫描屏幕、捕获并存储敏感信息的风险。</li>
           <li>总裁 Meredith Whittaker 称，集成 agentic AI 的操作系统会扫描屏幕数据，使私人聊天可被系统级 AI 访问，损害 Signal 独立保障隐私的能力；报道提到此举也针对 Siri、Gemini 等可读取屏幕内容的设备控制型智能体。</li>
         </ul>
         <details class="news-related">
-          <summary>另 2 篇报道</summary>
+          <summary>另 3 篇报道</summary>
           <ul>
             <li><span class="src">The Decoder：AI News（RSS）</span><a href="https://the-decoder.com/signal-blocks-screenshots-on-ios-27-and-android-to-stop-ai-agents-from-reading-private-chats/" target="_blank" rel="noopener noreferrer">Signal 在 iOS 27 和 Android 上限制截图，阻止 AI 智能体读取私人聊天</a></li>
             <li><span class="src">TechCrunch：AI（RSS）</span><a href="https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/" target="_blank" rel="noopener noreferrer">Signal 限制移动端截图，应对操作系统级 AI 监控风险</a></li>
-          </ul>
-        </details>
-      </li>
-      <li class="news-card news-extra">
-        <div class="news-card-head">
-          <a class="title" href="https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/" target="_blank" rel="noopener noreferrer">安全研究员在 AI 服务链中植入约 200 万个金丝雀密钥，发现数据泄露与零保留失效</a>
-          
-        </div>
-        <div class="news-meta">Ars Technica：AI（RSS） · IT之家·人工智能 · 另 1 篇报道 · 最新 11-21 10:03</div>
-        <ul class="news-note">
-          <li>安全研究员、Dragos 首席研究官 HD Moore 在经由 AI 路由（如 OpenRouter、Vercel）转发的提示词中植入约 200 万个从未使用过的金丝雀秘密，包括 AWS 访问密钥、SSH 密码和私有 git 仓库引用，用于追踪敏感信息在 AI 服务链中的泄露路径。</li>
-          <li>实验发现这些信息会大量外泄：至少三家服务商出现遭入侵迹象，被盗诱饵密钥被用于数万次云服务接口调用；部分标记零数据保留的请求，其私密网址数日后仍被抓取。Moore 建议敏感业务可本地部署或直接选择可信服务商。</li>
-        </ul>
-        <details class="news-related">
-          <summary>另 1 篇报道</summary>
-          <ul>
-            <li><span class="src">IT之家·人工智能</span><a href="https://www.ithome.com/1/030/322.htm" target="_blank" rel="noopener noreferrer">近 200 万条诱饵请求揭示 AI 服务链隐私泄露：零数据保留也失效</a></li>
-          </ul>
-        </details>
-      </li>
-      <li class="news-card news-extra">
-        <div class="news-card-head">
-          <a class="title" href="https://openai.com/index/combatting-adversarial-distillation/" target="_blank" rel="noopener noreferrer">OpenAI 发布对抗模型蒸馏研究，并强化 GPT-6.2 Astra 与 Sol 的推理抽取防护</a>
-          
-        </div>
-        <div class="news-meta">X：OpenAI (@OpenAI) · The Decoder：AI News（RSS） · IT之家·人工智能 · 另 3 篇报道 · 最新 11-21 09:45</div>
-        <ul class="news-note">
-          <li>OpenAI 发布关于打击对抗性模型蒸馏的新研究，指出知识蒸馏可以复制强大能力，却无法复制围绕这些能力构建的安全防护，并介绍如何检测和阻断协同蒸馏尝试。</li>
-          <li>IT之家援引官方进展称，GPT-6.2 Astra 思考链提取成功率从 54% 降至 0.2%；OpenAI 同时强化了 GPT-6.2 Astra 与 GPT-6.2 Sol 防止内部推理被抽取的防护，并称这些发现也用于支持全行业安全防护。</li>
-        </ul>
-        <details class="news-related">
-          <summary>另 3 篇报道</summary>
-          <ul>
-            <li><span class="src">X：OpenAI (@OpenAI)</span><a href="https://x.com/OpenAI/status/2123862344422088794" target="_blank" rel="noopener noreferrer">OpenAI 研究对抗模型蒸馏</a></li>
-            <li><span class="src">The Decoder：AI News（RSS）</span><a href="https://the-decoder.com/openai-makes-it-much-harder-for-attackers-to-extract-how-its-latest-ai-models-think/" target="_blank" rel="noopener noreferrer">OpenAI 大幅强化 GPT-6.2 Astra 与 GPT-6.2 Sol 的推理抽取防护</a></li>
-            <li><span class="src">IT之家·人工智能</span><a href="https://www.ithome.com/1/030/319.htm" target="_blank" rel="noopener noreferrer">OpenAI 公布反蒸馏防护进展：GPT-6.2 Astra 思考链提取成功率从 54% 降至 0.2%</a></li>
+            <li><span class="src">IT之家·人工智能</span><a href="https://www.ithome.com/1/030/517.htm" target="_blank" rel="noopener noreferrer">Signal 更新默认屏蔽截图，阻止 Siri AI 和 Gemini 等 AI 智能体读取消息</a></li>
           </ul>
         </details>
       </li>
@@ -728,6 +661,57 @@ h1 {
         <ul class="news-note">
           <li>OpenAI 为 11 月 17 日发布的 GPT-6.2 Astra 和 Sol 公布了一套可直接复制的提示词模板，覆盖写作风格、主动性和编码，并建议迁移的开发者重新审视系统提示词。</li>
           <li>指南重点修正模型倾向于过短回答、以及不必要追问等问题。</li>
+        </ul>
+      </li>
+      <li class="news-card news-extra">
+        <div class="news-card-head">
+          <a class="title" href="https://the-decoder.com/nvidia-researchers-argue-huge-ai-context-windows-are-a-dead-end/" target="_blank" rel="noopener noreferrer">NVIDIA 研究者称超大 AI 上下文窗口往往是死路，摘要加定向检索效果相当</a>
+          
+        </div>
+        <div class="news-meta">The Decoder：AI News（RSS） · 2026-11-22 · 最新 11-22 00:23</div>
+        <ul class="news-note">
+          <li>NVIDIA 研究团队在论文 You Don&#x27;t Need Long Context 中认为，模型上下文窗口一味扩大往往过度且昂贵；定期摘要（compaction）加定向检索在多项长程 Agent 与长文档测试中效果相当。</li>
+          <li>报道举例：GPT-4 于 2023 年上下文约 8K tokens，如今 GPT 5.6 Sol 可处理约一百万 tokens；测试称把配置从 256K 收到 16K 可带来数倍吞吐提升，且准确率损失有限。</li>
+        </ul>
+      </li>
+      <li class="news-card news-extra">
+        <div class="news-card-head">
+          <a class="title" href="https://x.com/ClaudeDevs/status/2122801681939234950" target="_blank" rel="noopener noreferrer">Claude Code 推出实验性 Code Mode 工具调用方式</a>
+          
+        </div>
+        <div class="news-meta">X · ClaudeDevs · MarkTechPost（RSS） · X：Addy Osmani (@addyosmani) · 另 2 篇报道 · 最新 11-22 03:52</div>
+        <ul class="news-note">
+          <li>Anthropic 的 Claude Devs 与 Addy Osmani 介绍 Claude Code 实验性功能 Code Mode：Claude 通过编写并运行 JavaScript，一次完成多步工具调用，可并行执行命令并过滤输出，以减少上下文占用。</li>
+          <li>目前公开信息主要来自官方与开发者账号，仍以实验性功能为主。</li>
+        </ul>
+        <details class="news-related">
+          <summary>另 2 篇报道</summary>
+          <ul>
+            <li><span class="src">MarkTechPost（RSS）</span><a href="https://www.marktechpost.com/2026/11/17/anthropic-claude-code-code-mode-javascript-tool-calls/" target="_blank" rel="noopener noreferrer">Anthropic 为 Claude Code 推出实验性 Code Mode，用 JavaScript 一步串联工具调用</a></li>
+            <li><span class="src">X：Addy Osmani (@addyosmani)</span><a href="https://x.com/addyosmani/status/2124229492248019362" target="_blank" rel="noopener noreferrer">Claude Code 推出实验性 Code Mode，用 JavaScript 编排多步工具调用</a></li>
+          </ul>
+        </details>
+      </li>
+      <li class="news-card news-extra">
+        <div class="news-card-head">
+          <a class="title" href="https://x.com/rohanpaul_ai/status/2124177125247013266" target="_blank" rel="noopener noreferrer">NVIDIA 论文 CPU-ARC：把 LLM 推理缓存为 CPU 代码，复用成本降低 16 到 291 倍</a>
+          
+        </div>
+        <div class="news-meta">X：Rohan Paul (@rohanpaul_ai) · 2026-11-22 · 最新 11-22 00:24</div>
+        <ul class="news-note">
+          <li>NVIDIA 论文提出 Agentic Reasoning Caching（CPU-ARC）：让 LLM 把推理轨迹转成可在 CPU 上执行的代码缓存，对改写措辞或更换数字的变体问题可直接复用，报道称类似问题成本降低 16 到 291 倍。</li>
+          <li>官方称缓存条目可解释、可继续训练，并在多项数学与科学任务上与源模型表现接近。</li>
+        </ul>
+      </li>
+      <li class="news-card news-extra">
+        <div class="news-card-head">
+          <a class="title" href="https://www.ithome.com/1/030/581.htm" target="_blank" rel="noopener noreferrer">TikTok 上线 AI 内容检测工具与创作者肖像检测，并可识别 VeraDura 隐形水印</a>
+          
+        </div>
+        <div class="news-meta">IT之家·人工智能 · 2026-11-22 · 最新 11-22 14:46</div>
+        <ul class="news-note">
+          <li>TikTok 于 11 月 19 日宣布推出两项 AI 透明度工具：用户无需账号即可上传图片或视频，检测其是否由 TikTok AI 功能生成或编辑，并会检测专有隐形水印 VeraDura。</li>
+          <li>面向全球逐步推出的肖像检测功能需主动开启，帮助符合条件的创作者发现并标记可能未经授权使用其肖像的 AI 生成内容。</li>
         </ul>
       </li>
       </ol>
@@ -748,7 +732,7 @@ h1 {
       </script>
       </div>
       <div class="news-panel" role="tabpanel" id="news-panel-7d" aria-labelledby="news-tab-7d" hidden>
-        <span class="section-meta">近 7 天（2026-11-16 ~ 2026-11-22）· 按重要度 Top 10 · 雷达 archive · AI 多源 · 候选 1506 · 资讯束 · 雷达 2026-11-22 06:08 北京时间 · <a href="https://news.learnprompt.pro" target="_blank" rel="noopener noreferrer">news.learnprompt.pro</a> · 默认 5 条（重点） · 可展开至 10 条</span>
+        <span class="section-meta">近 7 天（2026-11-16 ~ 2026-11-22）· 按重要度 Top 10 · 雷达 archive · AI 多源 · 候选 1531 · 资讯束 · 雷达 2026-11-22 19:07 北京时间 · <a href="https://news.learnprompt.pro" target="_blank" rel="noopener noreferrer">news.learnprompt.pro</a> · 默认 5 条（重点） · 可展开至 10 条</span>
       <ol class="news-list is-collapsed" id="news-list-7d">
       <li class="news-card">
         <div class="news-card-head">
