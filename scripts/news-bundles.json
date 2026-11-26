@@ -43491,7 +43491,7 @@
   {
     "id": "e119-hy4-opencode",
     "title": "Hy4 flash 在 OpenCode 日处理约 10T tokens，本周结束前仍独家免费",
-    "url": "https://x.com/opencode/status/2125885121282593220",
+    "url": "https://x.com/TencentHunyuan/status/2125935845672988692",
     "date": "2026-11-26",
     "meta": "",
     "bullets": [
@@ -43512,22 +43512,29 @@
         "url": "https://x.com/opencode/status/2125885121282593220",
         "date": "2026-11-26",
         "same_event": true
+      },
+      {
+        "label": "X：腾讯混元 (@TencentHunyuan)",
+        "title": "腾讯混元Hy4 flash日处理10T tokens",
+        "url": "https://x.com/TencentHunyuan/status/2125935845672988692",
+        "date": "2026-11-26",
+        "same_event": true
       }
     ],
     "score_parts": {
       "industry": 68,
       "actionable": 82,
       "breadth": 62,
-      "heat": 36
+      "heat": 47
     },
-    "heat": 36,
+    "heat": 47,
     "heat_signals": {
-      "reports": 2,
+      "reports": 3,
       "domains": 1,
-      "x_posts_7d": 146,
-      "x_spike_7d": 26.0
+      "x_posts_7d": 171,
+      "x_spike_7d": 163.5
     },
-    "score": 65.2
+    "score": 67.4
   },
   {
     "id": "e119-seedrealtime",
@@ -62525,12 +62532,12 @@
   {
     "id": "e124-minimax-h3-100d",
     "title": "MiniMax 回顾 H3 Family 开源百日：衍生模型 1472 个，下载量超过 1.48 亿次",
-    "url": "https://mp.weixin.qq.com/s/Maoz76fZdGNaB7tlIVxWWQ",
-    "date": "2026-11-25",
+    "url": "https://www.minimax.io/blog/minimax-h3-family",
+    "date": "2026-11-26",
     "meta": "",
     "bullets": [
-      "MiniMax 发文回顾 H3 Family，系列包括 H3、H3-Highspeed、H3-Lite、H3-Image、H3-Image Highspeed 等旗舰，以及 fal、Suno、HeyGen、Pika 等伙伴的扩展模型。官方称 H3 开源一百天，衍生模型达 1472 个，下载量超过 1.48 亿次。",
-      "官方账号随后又称上线 3 个月下载量超 1.8 亿、基于 H3 构建的模型超 1600 个，现有 5 款旗舰模型（3 款视频、2 款图像），并继续开放合作与体验入口。"
+      "MiniMax 官方博客回顾 H3 Family，系列包括旗舰 H3、H3-Highspeed、H3-Lite、H3-Image 以及 fal、Suno、HeyGen、Pika 等伙伴的扩展模型。官方称 H3 开源一百天，衍生模型达 1,472 个，下载量超过 1.48 亿次；旗舰 H3 支持 2K 输出、起价每秒 0.08 美元，H3-Image Highspeed 最快 10 秒内生成 4K 图像。",
+      "官方账号此前还曾称上线 3 个月下载量超 1.8 亿、基于 H3 构建的模型超 1,600 个，并继续开放合作与体验入口。"
     ],
     "links": [
       {
@@ -62546,22 +62553,29 @@
         "url": "https://x.com/MiniMax_AI/status/2125272195119083827",
         "date": "2026-11-25",
         "same_event": true
+      },
+      {
+        "label": "MiniMax：Blog（网页）",
+        "title": "MiniMax 推出 H3 Family：旗舰与扩展视频图像模型",
+        "url": "https://www.minimax.io/blog/minimax-h3-family",
+        "date": "2026-11-26",
+        "same_event": true
       }
     ],
     "score_parts": {
-      "industry": 60,
-      "actionable": 50,
+      "industry": 62,
+      "actionable": 72,
       "breadth": 62,
-      "heat": 41
+      "heat": 72
     },
-    "heat": 41,
+    "heat": 72,
     "heat_signals": {
-      "reports": 2,
-      "domains": 2,
-      "x_posts_7d": 138,
-      "x_spike_7d": 18.0
+      "reports": 3,
+      "domains": 3,
+      "x_posts_7d": 1076,
+      "x_spike_7d": 1023.5
     },
-    "score": 53.4
+    "score": 67.0
   },
   {
     "id": "e124-chinatalk-jensen",
@@ -63899,11 +63913,11 @@
     "id": "m125-workspace-mcp",
     "title": "Google Workspace MCP 服务器与 gwscli 正式发布，Personal 模式可一键开通",
     "url": "https://x.com/_philschmid/status/2125296446459056156",
-    "date": "2026-11-25",
+    "date": "2026-11-26",
     "meta": "",
     "bullets": [
       "Google Workspace 的 MCP servers 与命令行工具 gwscli 正式 GA，并新增 Personal 模式一键开通，无需 Enterprise 计划或绑卡。共 8 个 server 覆盖 Gmail、Drive、Docs、Sheets、Slides、Calendar、Chat、Tasks，免费档为每产品每天 5,000 次请求，发送和分享内置人工确认。",
-      "官方同时提供 Local/CLI（桌面应用）与 Antigravity（Web 应用）两条设置路径，以及 MCP 服务器配置、Workspace CLI 和配额说明文档。"
+      "官方同时提供 Local/CLI（桌面应用）与 Antigravity（Web 应用）两条设置路径。另有报道称，API 条款要求自 2027 年 2 月 1 日起，由 AI Agent 驱动的工具必须通过这些 Workspace MCP 服务器访问 Gmail、Drive 等服务，直接调用 REST API 将按 Standard 级配额受限；其中 Gmail 服务器不能发邮件。"
     ],
     "links": [
       {
@@ -63919,22 +63933,29 @@
         "url": "https://x.com/_philschmid/status/2125296450468741292",
         "date": "2026-11-25",
         "same_event": true
+      },
+      {
+        "label": "Hacker News：AI 热帖",
+        "title": "Google 强制 AI Agent 走 Workspace MCP 服务器，Gmail 服务器不能发邮件",
+        "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
+        "date": "2026-11-26",
+        "same_event": true
       }
     ],
     "score_parts": {
-      "industry": 64,
-      "actionable": 88,
-      "breadth": 62,
-      "heat": 41
+      "industry": 70,
+      "actionable": 90,
+      "breadth": 68,
+      "heat": 62
     },
-    "heat": 41,
+    "heat": 62,
     "heat_signals": {
-      "reports": 2,
-      "domains": 1,
-      "x_posts_7d": 101,
-      "x_spike_7d": 71.0
+      "reports": 3,
+      "domains": 2,
+      "x_posts_7d": 536,
+      "x_spike_7d": 536.0
     },
-    "score": 66.4
+    "score": 74.2
   },
   {
     "id": "m125-axios-unreleased",
@@ -65525,7 +65546,7 @@
     "id": "m125-nyt-photoshop-2027",
     "title": "纽约时报要求摄影师停用 Photoshop 2027，以免照片留下 AI 元数据",
     "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
-    "date": "2026-11-25",
+    "date": "2026-11-26",
     "meta": "",
     "bullets": [
       "《纽约时报》在内部邮件中要求特约摄影师在为其工作时不使用 Adobe Photoshop 2027（release 28.0.0 及后续更新），因为 AI 功能可能在用户不易察觉的情况下给照片留下 C2PA 元数据。Adobe 和纽约时报均未回应置评请求。"
@@ -65537,22 +65558,29 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
         "date": "2026-11-25",
         "same_event": true
+      },
+      {
+        "label": "Simon Willison 博客",
+        "title": "《纽约时报》警告摄影师勿因 AI 功能更新 Photoshop",
+        "url": "https://simonwillison.net/2026/Nov/26/hn-50651685/",
+        "date": "2026-11-26",
+        "same_event": true
       }
     ],
     "score_parts": {
       "industry": 58,
       "actionable": 55,
       "breadth": 55,
-      "heat": 30
+      "heat": 46
     },
-    "heat": 30,
+    "heat": 46,
     "heat_signals": {
-      "reports": 1,
-      "domains": 1,
-      "x_posts_7d": 21,
-      "x_spike_7d": 21.0
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 182,
+      "x_spike_7d": 182.0
     },
-    "score": 51.2
+    "score": 54.4
   },
   {
     "id": "m125-marcus-axios-comment",
@@ -67173,11 +67201,11 @@
     "id": "e125-matmul-9-4",
     "title": "OpenAI 称矩阵乘法指数被证明精确为 9/4，此前下界几乎没有已知结果",
     "url": "https://x.com/gdb/status/2125418102049628201",
-    "date": "2026-11-25",
+    "date": "2026-11-26",
     "meta": "",
     "bullets": [
       "Greg Brockman 转发 OpenAI 的 Sébastien Bubeck 消息：在 10 月 6 日给出矩阵乘法指数 9/4 的新上界后，模型继续工作于下界并宣布 9/4 是紧的；Bubeck 称此前下界几乎没有已知结果，这是他从未想过有生之年能看到的结果。",
-      "根据 Yin Tat Lee 等人的旧结果，这也意味着线性规划可在 n^{9/4} 时间内求解。"
+      "IT之家报道，OpenAI 11 月 24 日宣称在 ω≤9/4 的基础上又证得 ω≥9/4，从而得到 ω=9/4；预印本发布在 GitHub openai/math 仓库。根据 Yin Tat Lee 等人的旧结果，这也意味着线性规划可在 n^{9/4} 时间内求解。文章提醒 ω 是渐进量，实际应用还受常数因子、内存和并行等因素影响。"
     ],
     "links": [
       {
@@ -67186,22 +67214,29 @@
         "url": "https://x.com/gdb/status/2125418102049628201",
         "date": "2026-11-25",
         "same_event": true
+      },
+      {
+        "label": "IT之家·人工智能",
+        "title": "OpenAI 宣称证明矩阵乘法指数 ω 恰好为 9/4",
+        "url": "https://www.ithome.com/1/033/050.htm",
+        "date": "2026-11-26",
+        "same_event": true
       }
     ],
     "score_parts": {
       "industry": 78,
       "actionable": 32,
       "breadth": 48,
-      "heat": 40
+      "heat": 61
     },
-    "heat": 40,
+    "heat": 61,
     "heat_signals": {
-      "reports": 1,
-      "domains": 1,
-      "x_posts_7d": 259,
-      "x_spike_7d": 259.0
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 1253,
+      "x_spike_7d": 1245.5
     },
-    "score": 53.6
+    "score": 57.8
   },
   {
     "id": "e125-bezos-prometheus",
@@ -68111,13 +68146,13 @@
   },
   {
     "id": "m126-china-labs-slowdown",
-    "title": "The Information：美国芯片远程使用限制与反蒸馏措施已拖慢 DeepSeek、月之暗面和阿里等中国 AI 项目",
-    "url": "https://the-decoder.com/us-chip-access-curbs-and-anti-distillation-measures-are-reportedly-already-slowing-chinese-ai-labs/",
+    "title": "Reuters：智谱 GLM-5.5 或推迟至 2027 年一季度，月之暗面 Kimi K4 或延至年中并转向谷歌与 Meta 模型",
+    "url": "https://the-decoder.com/after-openai-and-anthropic-shut-the-door-on-their-data-a-chinese-ai-developer-is-turning-to-google-and-meta-instead/",
     "date": "2026-11-26",
     "meta": "",
     "bullets": [
-      "The Information 报道称，自 9 月以来限制中国企业远程使用境外 Nvidia 芯片，再加上 OpenAI 和 Anthropic 的反蒸馏措施，已导致 DeepSeek、月之暗面、阿里巴巴等中国 AI 开发商多个项目延迟。",
-      "The Decoder 转述称，芯片获取收紧与模型防护正同时作用于中国实验室的训练和迭代节奏。"
+      "The Information 此前报道，自 9 月限制中国企业远程使用境外 Nvidia 芯片，再加上 OpenAI 和 Anthropic 的反蒸馏措施，已导致 DeepSeek、月之暗面、阿里巴巴等中国 AI 开发商多个项目延迟。",
+      "Reuters 援引消息人士称，智谱约 3 万亿参数的 GLM-5.5 可能从 11 月推迟到 2027 年第一季度，为此先发布了 7500 亿参数的 GLM-5.4；月之暗面在缺少境外算力时开发周期可能从 6 个月加倍到 12 个月，下一代大模型 Kimi K4 或延至 2027 年年中，并转向谷歌与 Meta 的最新模型获取训练数据，同时加大在欧洲寻找算力。"
     ],
     "links": [
       {
@@ -68133,22 +68168,29 @@
         "url": "https://x.com/rohanpaul_ai/status/2125825251699544424",
         "date": "2026-11-26",
         "same_event": true
+      },
+      {
+        "label": "The Decoder：AI News（RSS）",
+        "title": "在 OpenAI 和 Anthropic 封禁蒸馏数据后，月之暗面转向 Google 与 Meta 模型获取训练数据",
+        "url": "https://the-decoder.com/after-openai-and-anthropic-shut-the-door-on-their-data-a-chinese-ai-developer-is-turning-to-google-and-meta-instead/",
+        "date": "2026-11-26",
+        "same_event": true
       }
     ],
     "score_parts": {
-      "industry": 86,
-      "actionable": 28,
-      "breadth": 72,
-      "heat": 46
+      "industry": 90,
+      "actionable": 32,
+      "breadth": 78,
+      "heat": 62
     },
-    "heat": 46,
+    "heat": 62,
     "heat_signals": {
-      "reports": 2,
+      "reports": 3,
       "domains": 2,
-      "x_posts_7d": 153,
-      "x_spike_7d": 63.0
+      "x_posts_7d": 667,
+      "x_spike_7d": 659.5
     },
-    "score": 59.2
+    "score": 65.8
   },
   {
     "id": "m126-inkling-local-eco",
@@ -68942,22 +68984,29 @@
         "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
         "date": "2026-11-26",
         "same_event": true
+      },
+      {
+        "label": "The Decoder：AI News（RSS）",
+        "title": "FCC 批准 SpaceX 至 2040 年部署最多 100 万颗 Starmind 卫星用于在轨 AI 数据中心",
+        "url": "https://the-decoder.com/fcc-clears-spacex-to-deploy-up-to-1-million-starmind-satellites-for-orbital-ai-data-centers-by-2040/",
+        "date": "2026-11-26",
+        "same_event": true
       }
     ],
     "score_parts": {
       "industry": 92,
       "actionable": 25,
       "breadth": 82,
-      "heat": 40
+      "heat": 66
     },
-    "heat": 40,
+    "heat": 66,
     "heat_signals": {
-      "reports": 1,
-      "domains": 1,
-      "x_posts_7d": 377,
-      "x_spike_7d": 377.0
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 3416,
+      "x_spike_7d": 3348.5
     },
-    "score": 60.5
+    "score": 65.7
   },
   {
     "id": "m126-anthropic-lesse",
@@ -68996,11 +69045,11 @@
     "id": "m126-claude-api-rust",
     "title": "Anthropic 将 Claude Messages API 从 Python 迁到 Rust：每请求 CPU 降低约 70%",
     "url": "https://x.com/AnthropicAI/status/2125627317263466739",
-    "date": "2026-11-26",
+    "date": "2026-11-27",
     "meta": "",
     "bullets": [
       "Anthropic 宣布已将 Claude Messages API 从 Python 迁移到 Rust，并发布工程博客介绍方法：把现有 Python API 当作 oracle，搭建验证循环，由多组 Claude 智能体不断追踪并修复两个版本之间的差异，直到 Rust 版本与生产环境的可观察行为一致。",
-      "官方称每请求 CPU 使用降低约 70%；API 流量自 2024 年初以来增长约 1,800 倍。Claude 用约一周写出 Rust 初稿，但验证行为与 Python 完全一致更难。"
+      "官方称每请求 CPU 使用降低约 70%；API 流量自 2024 年初以来增长约 1,800 倍。开发者关系 Ado Kukic 补充，额度请求现已走更快的 API，首 token 中位时间降低约 20%。"
     ],
     "links": [
       {
@@ -69023,22 +69072,29 @@
         "url": "https://x.com/rohanpaul_ai/status/2125694070748311778",
         "date": "2026-11-26",
         "same_event": true
+      },
+      {
+        "label": "X：Ado Kukic（Anthropic 开发者关系，Claude Code） (@adocomplete)",
+        "title": "Anthropic 用 Rust 重写 Messages API",
+        "url": "https://x.com/adocomplete/status/2125999149619532229",
+        "date": "2026-11-27",
+        "same_event": true
       }
     ],
     "score_parts": {
       "industry": 68,
-      "actionable": 82,
-      "breadth": 50,
-      "heat": 57
+      "actionable": 84,
+      "breadth": 52,
+      "heat": 68
     },
-    "heat": 57,
+    "heat": 68,
     "heat_signals": {
-      "reports": 3,
+      "reports": 4,
       "domains": 1,
-      "x_posts_7d": 823,
-      "x_spike_7d": 823.0
+      "x_posts_7d": 1160,
+      "x_spike_7d": 1160.0
     },
-    "score": 68.2
+    "score": 71.2
   },
   {
     "id": "m126-praxis-executorch",
@@ -70243,22 +70299,29 @@
         "url": "https://mp.weixin.qq.com/s/AOzbkjSG4LitswF8F2EzOA",
         "date": "2026-11-26",
         "same_event": true
+      },
+      {
+        "label": "X：卡尔的 AI 沃茨 (@aiwarts)",
+        "title": "用 5 个提示词快速读懂陌生领域，从黎曼猜想科普动画到记忆宫殿工作流",
+        "url": "https://x.com/aiwarts/status/2125946102226862536",
+        "date": "2026-11-26",
+        "same_event": true
       }
     ],
     "score_parts": {
       "industry": 35,
       "actionable": 70,
       "breadth": 35,
-      "heat": 30
+      "heat": 41
     },
-    "heat": 30,
+    "heat": 41,
     "heat_signals": {
-      "reports": 1,
-      "domains": 1,
-      "x_posts_7d": 4,
-      "x_spike_7d": 4.0
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 28,
+      "x_spike_7d": 28.0
     },
-    "score": 44.5
+    "score": 46.7
   },
   {
     "id": "e126-tao-read-proofs",
@@ -70318,22 +70381,29 @@
         "url": "https://mp.weixin.qq.com/s/d1HMHrSEChCJiBRZ0tNOyg",
         "date": "2026-11-26",
         "same_event": true
+      },
+      {
+        "label": "X：腾讯混元 (@TencentHunyuan)",
+        "title": "腾讯混元开源 DFly2 投机解码草稿模型",
+        "url": "https://x.com/TencentHunyuan/status/2125928146113585468",
+        "date": "2026-11-26",
+        "same_event": true
       }
     ],
     "score_parts": {
       "industry": 72,
       "actionable": 88,
       "breadth": 60,
-      "heat": 46
+      "heat": 57
     },
-    "heat": 46,
+    "heat": 57,
     "heat_signals": {
-      "reports": 2,
-      "domains": 2,
-      "x_posts_7d": 66,
-      "x_spike_7d": 51.0
+      "reports": 3,
+      "domains": 3,
+      "x_posts_7d": 164,
+      "x_spike_7d": 164.0
     },
-    "score": 70.4
+    "score": 72.6
   },
   {
     "id": "e126-gd-token-plan",
@@ -70577,7 +70647,7 @@
     "id": "e126-nvidia-seasia-license",
     "title": "美国新规要求新马泰印尼和巴西的先进 AI 芯片须申请许可，FT 称 Nvidia 已暂停向东南亚四国发运服务器",
     "url": "https://x.com/rohanpaul_ai/status/2125847124600656142",
-    "date": "2026-11-26",
+    "date": "2026-11-27",
     "meta": "",
     "bullets": [
       "Reuters 报道，特朗普政府于 2025 年 5 月搁置拜登的全球许可规则，直到 2026 年 11 月 16 日才以新规替代，其间新加坡和马来西亚的数据中心可无需许可购买 Nvidia 芯片并远程向中国企业出租算力。新规要求运往新加坡、马来西亚、泰国、印尼和巴西的先进芯片需申请许可，任何向中国总部企业开放超过 12M TPP 先进 AI 芯片的全球数据中心也需许可。",
@@ -70597,22 +70667,36 @@
         "url": "https://x.com/rohanpaul_ai/status/2125761319936860611",
         "date": "2026-11-26",
         "same_event": true
+      },
+      {
+        "label": "TechCrunch：AI（RSS）",
+        "title": "Nvidia 暂停向东南亚四国出货服务器芯片",
+        "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+        "date": "2026-11-27",
+        "same_event": true
+      },
+      {
+        "label": "The Decoder：AI News（RSS）",
+        "title": "美国收紧出口管制后 Nvidia 暂停向马来西亚、新加坡、泰国和印尼出货服务器",
+        "url": "https://the-decoder.com/nvidia-halts-server-shipments-to-malaysia-singapore-thailand-and-indonesia-after-tighter-us-export-controls/",
+        "date": "2026-11-26",
+        "same_event": true
       }
     ],
     "score_parts": {
       "industry": 88,
       "actionable": 32,
       "breadth": 80,
-      "heat": 41
+      "heat": 73
     },
-    "heat": 41,
+    "heat": 73,
     "heat_signals": {
-      "reports": 2,
-      "domains": 1,
-      "x_posts_7d": 360,
-      "x_spike_7d": 172.5
+      "reports": 4,
+      "domains": 3,
+      "x_posts_7d": 615,
+      "x_spike_7d": 562.5
     },
-    "score": 61.0
+    "score": 67.4
   },
   {
     "id": "e126-nemotron-parse-data",
@@ -70862,7 +70946,7 @@
     "id": "e126-gpt62-billing",
     "title": "OpenAI 修复 GPT-6.2 计费错误：Astra/Sol 额度消耗加快，已向付费用户补偿一次重置",
     "url": "https://x.com/thsottiaux/status/2125784147889393806",
-    "date": "2026-11-26",
+    "date": "2026-11-27",
     "meta": "",
     "bullets": [
       "OpenAI 产品负责人 Thibault Sottiaux 承认 GPT-6.2 上线时计费出错，多数用户的 GPT-6.2 Astra 和 Sol 用量被错误打折，现已修复。修复后同样任务消耗更多额度：Astra 达到上限的速度比上周快 40%，Sol 快 25%，但官方称仍比 6 Astra 和 6.1 Sol 更耐用。",
@@ -70875,31 +70959,38 @@
         "url": "https://x.com/thsottiaux/status/2125784147889393806",
         "date": "2026-11-26",
         "same_event": true
+      },
+      {
+        "label": "The Decoder：AI News（RSS）",
+        "title": "OpenAI 修复 GPT-6.2 计费错误后用户额度消耗加快",
+        "url": "https://the-decoder.com/gpt-6-2-astra-users-now-hit-limits-40-faster-after-openai-patched-a-pricing-error/",
+        "date": "2026-11-27",
+        "same_event": true
       }
     ],
     "score_parts": {
       "industry": 72,
       "actionable": 90,
       "breadth": 72,
-      "heat": 45
+      "heat": 61
     },
-    "heat": 45,
+    "heat": 61,
     "heat_signals": {
-      "reports": 1,
-      "domains": 1,
-      "x_posts_7d": 1051,
-      "x_spike_7d": 743.5
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 2139,
+      "x_spike_7d": 2086.5
     },
-    "score": 72.0
+    "score": 75.2
   },
   {
     "id": "e126-karpathy-usaciv",
     "title": "Karpathy 用 Claude Opus 5.5 耗时 7 小时做出真实数据版文明风格美国地图",
     "url": "https://x.com/karpathy/status/2125779541952246039",
-    "date": "2026-11-26",
+    "date": "2026-11-27",
     "meta": "",
     "bullets": [
-      "Andrej Karpathy 让 Claude Opus 5.5 用真实美国数据填充文明风格游戏地图，7 小时生成约 4.5 万行代码后完成，并部署在 karpathy.ai/usaciv/。"
+      "Andrej Karpathy 用 Claude Code 桌面版和 Opus 5.5（开启 ultracode）构建文明风格美国地图，7 小时生成约 4.5 万行代码，整合 Census、BEA、BLS、EIA、NOAA 等 31 个真实数据源，统一到 25 公里六边形网格；GDP 映射为金产量，含 19 个视图、524 个都市的 City View 和覆盖 3,100 余县的 Explorer，已部署在 karpathy.ai/usaciv/。"
     ],
     "links": [
       {
@@ -70908,22 +70999,29 @@
         "url": "https://x.com/karpathy/status/2125779541952246039",
         "date": "2026-11-26",
         "same_event": true
+      },
+      {
+        "label": "X：Ado Kukic（Anthropic 开发者关系，Claude Code） (@adocomplete)",
+        "title": "Karpathy 用 Claude Code 和 Opus 5.5 把美国真实数据做成文明风格游戏地图",
+        "url": "https://x.com/adocomplete/status/2125994186252161315",
+        "date": "2026-11-27",
+        "same_event": true
       }
     ],
     "score_parts": {
-      "industry": 50,
-      "actionable": 72,
-      "breadth": 40,
-      "heat": 40
+      "industry": 52,
+      "actionable": 75,
+      "breadth": 42,
+      "heat": 46
     },
-    "heat": 40,
+    "heat": 46,
     "heat_signals": {
-      "reports": 1,
+      "reports": 2,
       "domains": 1,
-      "x_posts_7d": 509,
-      "x_spike_7d": 479.0
+      "x_posts_7d": 290,
+      "x_spike_7d": 290.0
     },
-    "score": 53.6
+    "score": 56.7
   },
   {
     "id": "e126-effort-upgrade",
@@ -71497,5 +71595,846 @@
       "x_spike_7d": 10.0
     },
     "score": 54.0
+  },
+  {
+    "id": "m127-gpt-live-11",
+    "title": "GPT-Live-1.1 以 999 自然度 Elo 登顶 Voice Arena Jarvis Bench，人声仍获更高评分",
+    "url": "https://x.com/rohanpaul_ai/status/2126068055725965384",
+    "date": "2026-11-27",
+    "meta": "",
+    "bullets": [
+      "OpenAI 的 GPT-Live-1.1 在 Voice Arena 的 Jarvis Bench 总榜以 999 自然度 Elo 和 1025 感知任务有效性 Elo 首秀登顶。",
+      "报道称，在自然度上人类声音仍获得更高评分。"
+    ],
+    "links": [
+      {
+        "label": "X：Rohan Paul (@rohanpaul_ai)",
+        "title": "GPT-Live-1.1 以 999 自然度 Elo 登顶 Voice Arena Jarvis Bench，人声仍获更高评分",
+        "url": "https://x.com/rohanpaul_ai/status/2126068055725965384",
+        "date": "2026-11-27",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 58,
+      "actionable": 55,
+      "breadth": 50,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 8,
+      "x_spike_7d": 8.0
+    },
+    "score": 50.7
+  },
+  {
+    "id": "m127-dualpm",
+    "title": "华盛顿大学与微软提出 DualPM：失败教训拓宽工具搜索，成功经验则加快执行",
+    "url": "https://x.com/rohanpaul_ai/status/2126066219086475459",
+    "date": "2026-11-27",
+    "meta": "",
+    "bullets": [
+      "华盛顿大学与微软的论文发现，智能体从失败中总结的教训会拓宽其工具搜索范围，而从成功中总结的经验则让它更快。",
+      "他们构建的 DualPM 在每次运行后分别写下成功与失败教训，每 20 个任务合并为 2 个有上限的列表，并用 GPT-5.5 在每类设置 720 个多领域工具使用任务上测试。"
+    ],
+    "links": [
+      {
+        "label": "X：Rohan Paul (@rohanpaul_ai)",
+        "title": "华盛顿大学与微软：失败教训拓宽工具搜索，成功经验提速",
+        "url": "https://x.com/rohanpaul_ai/status/2126066219086475459",
+        "date": "2026-11-27",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 52,
+      "actionable": 70,
+      "breadth": 45,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 1,
+      "x_spike_7d": 1.0
+    },
+    "score": 52.3
+  },
+  {
+    "id": "m127-lingbot-navi",
+    "title": "蚂蚁灵波开源导航模型 LingBot-Navi，并发布可在运行中修正漂移的 LingBot-Map 2.0",
+    "url": "https://x.com/robbyant_brain/status/2126020732610302086",
+    "date": "2026-11-27",
+    "meta": "",
+    "bullets": [
+      "蚂蚁集团具身智能公司 Robbyant（蚂蚁灵波）开源导航模型 LingBot-Navi：无需预先地图，探索时构建包含布局、物体位置和可行路径的 3D 记忆，并可跨任务复用，使机器人在同一地点工作越久效率越高；用户只需用自然语言描述目标，模型会规划路径并导航至附近停靠点。",
+      "同期发布的 LingBot-Map 2.0 可在相机移动中从普通视频构建 3D 地图，并新增 Refine 步骤，可在运行中途修正已累积的漂移误差。Navi 基于该空间记忆工作，将 3D 表面位置与视觉语言特征配对，可定位窗外桌子等视线外目标。"
+    ],
+    "links": [
+      {
+        "label": "X：Rohan Paul (@rohanpaul_ai)",
+        "title": "蚂蚁集团旗下 Robbyant 开源具身导航模型 LingBot-Navi，让机器人记住探索过的环境",
+        "url": "https://x.com/rohanpaul_ai/status/2126059746252013723",
+        "date": "2026-11-27",
+        "same_event": true
+      },
+      {
+        "label": "Robbyant 蚂蚁灵波（官方 X）",
+        "title": "蚂蚁灵波开源 LingBot-Navi 导航模型",
+        "url": "https://x.com/robbyant_brain/status/2126020732610302086",
+        "date": "2026-11-27",
+        "same_event": true
+      },
+      {
+        "label": "X：Rohan Paul (@rohanpaul_ai)",
+        "title": "蚂蚁集团 Robbyant 发布 LingBot-Map 2.0，可随时修正流式 3D 重建的漂移误差",
+        "url": "https://x.com/rohanpaul_ai/status/2126019340525056182",
+        "date": "2026-11-27",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 70,
+      "actionable": 78,
+      "breadth": 55,
+      "heat": 52
+    },
+    "heat": 52,
+    "heat_signals": {
+      "reports": 3,
+      "domains": 1,
+      "x_posts_7d": 232,
+      "x_spike_7d": 232.0
+    },
+    "score": 67.3
+  },
+  {
+    "id": "m127-pplx-computer-textbook",
+    "title": "Perplexity CEO 展示：Perplexity Computer 可生成交互式 3D 物理教科书",
+    "url": "https://x.com/AravSrinivas/status/2126059500222493055",
+    "date": "2026-11-27",
+    "meta": "",
+    "bullets": [
+      "Perplexity CEO Aravind Srinivas 展示 Perplexity Computer 生成的交互式 3D 物理教科书，称该产品能创建世界级作品。"
+    ],
+    "links": [
+      {
+        "label": "X：Aravind Srinivas（Perplexity CEO） (@AravSrinivas)",
+        "title": "Perplexity Computer 可生成交互式3D物理教科书",
+        "url": "https://x.com/AravSrinivas/status/2126059500222493055",
+        "date": "2026-11-27",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 35,
+      "actionable": 45,
+      "breadth": 30,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 6,
+      "x_spike_7d": 6.0
+    },
+    "score": 36.5
+  },
+  {
+    "id": "m127-sap-layoffs",
+    "title": "FT：SAP 拟在 AI 驱动重组中裁员至少 1 万人，约占一成岗位",
+    "url": "https://x.com/rohanpaul_ai/status/2126041605144739986",
+    "date": "2026-11-27",
+    "meta": "",
+    "bullets": [
+      "英国《金融时报》报道，SAP 正考虑至少裁员 10,000 人，约占岗位十分之一，属于 AI 驱动的重组，且发生在业绩增长期。",
+      "第三季度总营收增长 13% 至约 113 亿美元，非 IFRS 营业利润增长 18% 至约 33 亿美元，云销售增长 26% 至约 73 亿美元。"
+    ],
+    "links": [
+      {
+        "label": "X：Rohan Paul (@rohanpaul_ai)",
+        "title": "FT：SAP 拟在 AI 驱动重组中裁员至少 1 万人，约占一成岗位",
+        "url": "https://x.com/rohanpaul_ai/status/2126041605144739986",
+        "date": "2026-11-27",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 78,
+      "actionable": 40,
+      "breadth": 72,
+      "heat": 35
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 122,
+      "x_spike_7d": 122.0
+    },
+    "score": 57.4
+  },
+  {
+    "id": "m127-aaronson-riemann",
+    "title": "Scott Aaronson：AI 能产出黎曼猜想证明本身比证明更重要，并称实验室或握有未公开密码学结果",
+    "url": "https://the-decoder.com/former-openai-researcher-says-the-riemann-proof-matters-less-than-the-fact-that-an-ai-system-can-produce-it/",
+    "date": "2026-11-27",
+    "meta": "",
+    "bullets": [
+      "前 OpenAI 研究员、UT Austin 教授 Scott Aaronson 发博文称，黎曼猜想证明本身未必改变日常生活，真正意义重大的是 AI 系统能产出这类证明，可能对日常经济乃至生存带来深远影响。",
+      "他分析 OpenAI 关于矩阵乘法和傅里叶变换的下界证明，表示首次从直觉上感到 P≠NP 的证明已经不远，并称从多个可靠来源得知 AI 实验室在密码学领域握有未公开的重大结果。"
+    ],
+    "links": [
+      {
+        "label": "The Decoder：AI News（RSS）",
+        "title": "前 OpenAI 研究员 Scott Aaronson 撰文称 AI 能产出黎曼猜想证明这件事比证明本身更重要",
+        "url": "https://the-decoder.com/former-openai-researcher-says-the-riemann-proof-matters-less-than-the-fact-that-an-ai-system-can-produce-it/",
+        "date": "2026-11-27",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 62,
+      "actionable": 40,
+      "breadth": 55,
+      "heat": 40
+    },
+    "heat": 40,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 414,
+      "x_spike_7d": 414.0
+    },
+    "score": 50.3
+  },
+  {
+    "id": "m127-claude-credits",
+    "title": "Claude 提醒付费用户领取 11 月额度重置，Max/Team 每月 API 额度需及时领取且不可结转",
+    "url": "https://x.com/addyosmani/status/2126034792424919200",
+    "date": "2026-11-27",
+    "meta": "",
+    "bullets": [
+      "Addy Osmani 提醒：Pro、Max、Ultra 或 Team 用户可在 Settings > Usage 领取 11 月 10 日起的完整重置，有效期至 12 月 10 日；5.2 发布时未使用的 Fable 额度重置将保留至 3 月 8 日。",
+      "Anthropic 开发者关系 Ado Kukic 同步提醒，Claude Max 和 Team 订阅每月附带 API 额度：Max 5x 为 100 美元，Max 20x 为 200 美元，Team 最高 500 美元，额度不可结转，需及时领取。"
+    ],
+    "links": [
+      {
+        "label": "X：Addy Osmani (@addyosmani)",
+        "title": "Claude 向付费用户发放免费额度重置",
+        "url": "https://x.com/addyosmani/status/2126034792424919200",
+        "date": "2026-11-27",
+        "same_event": true
+      },
+      {
+        "label": "X：Ado Kukic（Anthropic 开发者关系，Claude Code） (@adocomplete)",
+        "title": "Anthropic 提醒 Claude Max 和 Team 订阅附带月度 API 额度可领取",
+        "url": "https://x.com/adocomplete/status/2125999147719524580",
+        "date": "2026-11-27",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 48,
+      "actionable": 85,
+      "breadth": 58,
+      "heat": 56
+    },
+    "heat": 56,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 1,
+      "x_posts_7d": 1267,
+      "x_spike_7d": 1214.5
+    },
+    "score": 61.7
+  },
+  {
+    "id": "m127-ppo-grpo",
+    "title": "Scale AI 与 CMU 研究：小批量强化学习下带 critic 的 PPO 优于 GRPO",
+    "url": "https://x.com/rohanpaul_ai/status/2126032236487319905",
+    "date": "2026-11-27",
+    "meta": "",
+    "bullets": [
+      "Scale AI 与卡内基梅隆大学研究者用超 1,200 次训练运行（其中 96 次为 LLM）对比 PPO 与 GRPO，发现小 RL 批量下带 critic 的 PPO 更强，GRPO 随批量增大追平。"
+    ],
+    "links": [
+      {
+        "label": "X：Rohan Paul (@rohanpaul_ai)",
+        "title": "Scale AI 与 CMU 研究：小批量下 PPO 优于 GRPO",
+        "url": "https://x.com/rohanpaul_ai/status/2126032236487319905",
+        "date": "2026-11-27",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 50,
+      "actionable": 72,
+      "breadth": 40,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 14,
+      "x_spike_7d": 6.5
+    },
+    "score": 51.6
+  },
+  {
+    "id": "m127-meshy-75",
+    "title": "Meshy 7.5 上线：多边形数量减少约 50 倍，外观接近原版并兼顾实时性能",
+    "url": "https://x.com/MeshyAI/status/2126028221850542511",
+    "date": "2026-11-27",
+    "meta": "",
+    "bullets": [
+      "Meshy 宣布 7.5 已开始逐步上线，称优化后的模型多边形数量减少约 50 倍，外观却与原版几乎无异，从而同时兼顾高细节与实时性能。"
+    ],
+    "links": [
+      {
+        "label": "X：Meshy (@MeshyAI)",
+        "title": "Meshy 7.5 兼顾高细节与实时性能",
+        "url": "https://x.com/MeshyAI/status/2126028221850542511",
+        "date": "2026-11-27",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 52,
+      "actionable": 78,
+      "breadth": 45,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 5,
+      "x_spike_7d": 5.0
+    },
+    "score": 54.7
+  },
+  {
+    "id": "m127-pplx-orchestrator",
+    "title": "Perplexity Orchestrator API 开放调用所有主流 AI 模型",
+    "url": "https://x.com/AravSrinivas/status/2126022323069419777",
+    "date": "2026-11-27",
+    "meta": "",
+    "bullets": [
+      "Perplexity CEO Aravind Srinivas 表示，用户可以通过 Perplexity Orchestrator API 使用所有主流 AI 模型。",
+      "他转发的开发者示例中，同一个提示词通过指定不同模型 ID 发起 47 次 API 请求，由 47 个不同模型各自返回两个角度的 JSON；该演示在 53 次请求、0.62 美元 API 花费后把面板加热到 475°C。"
+    ],
+    "links": [
+      {
+        "label": "X：Aravind Srinivas（Perplexity CEO） (@AravSrinivas)",
+        "title": "Perplexity Orchestrator API 开放使用所有主流 AI 模型",
+        "url": "https://x.com/AravSrinivas/status/2126022323069419777",
+        "date": "2026-11-27",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 68,
+      "actionable": 85,
+      "breadth": 55,
+      "heat": 35
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 58,
+      "x_spike_7d": 50.5
+    },
+    "score": 65.2
+  },
+  {
+    "id": "m127-openrouter-jevons",
+    "title": "OpenRouter 数据：2026 年 token 用量增 44 倍而支出仅增 7.6 倍，Jevons 悖论近月减弱",
+    "url": "https://openrouter.ai/blog/insights/is-jevons-paradox-holding/",
+    "date": "2026-11-27",
+    "meta": "",
+    "bullets": [
+      "OpenRouter 分析其平台付费用量后认为，Jevons 悖论迄今仍然成立，但近几个月表现弱于年初：2026 年至今 token 用量增长 44 倍，总支出仅增 7.6 倍，自 10 月初以来支出基本持平。",
+      "衡量使用量对价格反应强度的弹性从一季度的 5.4 降至四季度的 1.2，近几个季度徘徊在略高于 1 的水平；弹性高于 1 时，总支出仍会随价格下降而上升。"
+    ],
+    "links": [
+      {
+        "label": "X：OpenRouter (@OpenRouter)",
+        "title": "OpenRouter 谈 LLM 使用价格弹性下降",
+        "url": "https://x.com/OpenRouter/status/2125998092696891471",
+        "date": "2026-11-27",
+        "same_event": true
+      },
+      {
+        "label": "X：OpenRouter (@OpenRouter)",
+        "title": "OpenRouter 数据：Jevons 悖论是否成立",
+        "url": "https://x.com/OpenRouter/status/2125998076896920034",
+        "date": "2026-11-27",
+        "same_event": true
+      },
+      {
+        "label": "OpenRouter：Announcements（RSS）",
+        "title": "OpenRouter 数据显示 Jevons 悖论正在减弱",
+        "url": "https://openrouter.ai/blog/insights/is-jevons-paradox-holding/",
+        "date": "2026-11-26",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 70,
+      "actionable": 55,
+      "breadth": 60,
+      "heat": 52
+    },
+    "heat": 52,
+    "heat_signals": {
+      "reports": 3,
+      "domains": 2,
+      "x_posts_7d": 66,
+      "x_spike_7d": 66.0
+    },
+    "score": 60.9
+  },
+  {
+    "id": "m127-krea-motion",
+    "title": "Krea 发布动态图形编辑器 Krea Motion，目前免费向所有用户开放试用",
+    "url": "https://x.com/krea_ai/status/2125990539933978753",
+    "date": "2026-11-27",
+    "meta": "",
+    "bullets": [
+      "Krea 宣布推出 Krea Motion，一款新的动态图形编辑器。团队称花了数周时间设计可生成高质量动态图形的 AI 工作流，现已免费向所有用户开放试用。"
+    ],
+    "links": [
+      {
+        "label": "X：Krea AI (@krea_ai)",
+        "title": "Krea 发布 AI 动态图形编辑器 Krea Motion 并免费开放",
+        "url": "https://x.com/krea_ai/status/2125990539933978753",
+        "date": "2026-11-27",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 55,
+      "actionable": 80,
+      "breadth": 48,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 11,
+      "x_spike_7d": 11.0
+    },
+    "score": 56.8
+  },
+  {
+    "id": "m127-altman-ven",
+    "title": "Sam Altman 称赞 Ven 是最早相信当时模型就能冲击千禧年大奖难题的人之一",
+    "url": "https://x.com/sama/status/2125990371897557278",
+    "date": "2026-11-27",
+    "meta": "",
+    "bullets": [
+      "OpenAI CEO Sam Altman 发帖称，Ven 是最早相信可以用当时的模型解决千禧年大奖难题的人之一，并感谢公司里既聪明又敢于推进常人以为不可能之事的人。"
+    ],
+    "links": [
+      {
+        "label": "X：Sam Altman (@sama)",
+        "title": "Sam Altman 称赞 Ven 的信念与勇气",
+        "url": "https://x.com/sama/status/2125990371897557278",
+        "date": "2026-11-27",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 25,
+      "actionable": 15,
+      "breadth": 25,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 5,
+      "x_spike_7d": 5.0
+    },
+    "score": 23.0
+  },
+  {
+    "id": "m127-tc-gta-ipo",
+    "title": "TechCrunch：GTA VI 全人工开发创评分与首发纪录，对比 Anthropic 813 亿美元 IPO 讨论效率不应是唯一信条",
+    "url": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/",
+    "date": "2026-11-27",
+    "meta": "",
+    "bullets": [
+      "TechCrunch 对比同一周的两个纪录事件：Rockstar 开发的 GTA VI 成为 Metacritic 史上评分最高游戏，首发日收入 37.9 亿美元，全程未使用生成式 AI，约 5,000 人耗时十余年打造，含 30,000 个有独特外观和性格的 NPC；同期 Anthropic 以 813 亿美元估值完成史上最大 IPO。",
+      "作者据此讨论，效率不应成为衡量创造性工作的唯一信条。"
+    ],
+    "links": [
+      {
+        "label": "TechCrunch：AI（RSS）",
+        "title": "GTA VI 全人工开发 vs Anthropic 813亿美元IPO：TechCrunch 论效率不该是唯一信条",
+        "url": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/",
+        "date": "2026-11-27",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 40,
+      "actionable": 25,
+      "breadth": 45,
+      "heat": 60
+    },
+    "heat": 60,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 20015,
+      "x_spike_7d": 15890.0
+    },
+    "score": 40.0
+  },
+  {
+    "id": "m127-tripo-h35",
+    "title": "Tripo 展示 H3.5 Preview：单张参考图可在约 30 分钟内做成可打印手办",
+    "url": "https://x.com/tripoai/status/2125967822262239404",
+    "date": "2026-11-26",
+    "meta": "",
+    "bullets": [
+      "Tripo 官方展示在 Tripo Studio 中使用 H3.5 Preview，从一张参考图到可打印手办不到 30 分钟：先清理参考图中的悬浮部件，再生成高保真模型、分割并填充部件，最后运行 3D 打印检查并直接发送到切片软件。"
+    ],
+    "links": [
+      {
+        "label": "Tripo（官方 X）",
+        "title": "Tripo H3.5 单图生成可打印手办",
+        "url": "https://x.com/tripoai/status/2125967822262239404",
+        "date": "2026-11-26",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 48,
+      "actionable": 75,
+      "breadth": 40,
+      "heat": 35
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 96,
+      "x_spike_7d": 96.0
+    },
+    "score": 52.7
+  },
+  {
+    "id": "m127-tencent-oridtp",
+    "title": "腾讯 AI 平台 ORIDTP 从头设计双靶点多肽，成果以第一单位登上 Nature",
+    "url": "https://www.ithome.com/1/033/125.htm",
+    "date": "2026-11-26",
+    "meta": "",
+    "bullets": [
+      "腾讯宣布其生命科学实验室的 AI for Science 研究成果于 11 月 25 日以第一单位登上《Nature》主刊，挑战高活性双靶点治疗性多肽的从头设计。",
+      "该工作基于腾讯 AI 平台 ORIDTP。"
+    ],
+    "links": [
+      {
+        "label": "IT之家·人工智能",
+        "title": "腾讯 AI 平台 ORIDTP 从头设计双靶点多肽，成果以第一单位登上 Nature",
+        "url": "https://www.ithome.com/1/033/125.htm",
+        "date": "2026-11-26",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 80,
+      "actionable": 55,
+      "breadth": 58,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 6,
+      "x_spike_7d": 6.0
+    },
+    "score": 60.3
+  },
+  {
+    "id": "m127-schmid-mcp",
+    "title": "Philipp Schmid：在 Skills 与 CLI 流行后仍更看好 MCP，并列举 Notion、Atlassian 用量",
+    "url": "https://x.com/_philschmid/status/2125945282072297794",
+    "date": "2026-11-26",
+    "meta": "",
+    "bullets": [
+      "Google DeepMind 开发者体验的 Philipp Schmid 撰文解释，为何在 Skills 和 CLI 流行后依然看好 MCP：Linear 和 Notion 的 agent 每周创建约 240 万条 issue 和页面，Atlassian 每天 MCP 工具调用超 500 万次，其中 44% 用户来自软件团队之外，Notion 报告 MCP 流量增长 60 倍。"
+    ],
+    "links": [
+      {
+        "label": "X：Philipp Schmid（Google DeepMind 开发者体验） (@_philschmid)",
+        "title": "Philipp Schmid 撰文解释为何在 Skills 与 CLI 兴起后仍更看好 MCP",
+        "url": "https://x.com/_philschmid/status/2125945282072297794",
+        "date": "2026-11-26",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 48,
+      "actionable": 60,
+      "breadth": 50,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 19,
+      "x_spike_7d": 19.0
+    },
+    "score": 48.2
+  },
+  {
+    "id": "m127-openbmb-zhaojian",
+    "title": "面壁智能展示本地找件 Agent：用 MiniCPM-V 4.7 1B 按取件码核对货架包裹",
+    "url": "https://x.com/OpenBMB/status/2125937319068996040",
+    "date": "2026-11-26",
+    "meta": "",
+    "bullets": [
+      "开发者 worryzyy 基于 MiniCPM-V 4.7 1B 做出取件码找包裹 Agent「找件」：用户输入取件码文字、语音或截图后，模型读取货架标签、逐区核对包裹编码并锁定最可能的包裹。",
+      "遇到近景结果冲突时会重新裁剪相关区域再验证；模型通过 llama.cpp 在本地运行，手机经局域网或安全隧道连接，无需云端模型。"
+    ],
+    "links": [
+      {
+        "label": "X：面壁智能 OpenBMB (@OpenBMB)",
+        "title": "面壁智能展示本地找件 Agent「找件」",
+        "url": "https://x.com/OpenBMB/status/2125937319068996040",
+        "date": "2026-11-26",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 40,
+      "actionable": 70,
+      "breadth": 30,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 0,
+      "x_spike_7d": 0.0
+    },
+    "score": 46.0
+  },
+  {
+    "id": "m127-gov-gta-memes",
+    "title": "多国政府借 GTA 6 热度发布 AI 梗图引争议，苏格兰民族党已删帖并道歉",
+    "url": "https://www.404media.co/all-the-worst-government-gta-memes-from-around-the-world/",
+    "date": "2026-11-26",
+    "meta": "",
+    "bullets": [
+      "404 Media 报道，借 GTA 6 发售热度，美国白宫、共和党及多个国家和地区政府账号密集发布 AI 生成梗图，把政客做成游戏风格画面。",
+      "苏格兰民族党发布的撒切尔与约翰逊梗图引发议会质询，该党随后删除帖文，首席部长道歉。印度人民党与莫迪同日连发多条 GTA 6 梗图，被批评者嘲讽游戏主角本是罪犯二人组。"
+    ],
+    "links": [
+      {
+        "label": "404 Media（RSS）",
+        "title": "全球多个国家和地区政府借 GTA 6 热度发布 AI 梗图引争议",
+        "url": "https://www.404media.co/all-the-worst-government-gta-memes-from-around-the-world/",
+        "date": "2026-11-26",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 42,
+      "actionable": 20,
+      "breadth": 55,
+      "heat": 55
+    },
+    "heat": 55,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 7915,
+      "x_spike_7d": 6205.0
+    },
+    "score": 39.3
+  },
+  {
+    "id": "m127-ming-image-02",
+    "title": "蚂蚁百灵开源 Ming-Image-0.2-Design，登顶 AA-Image-T2I v2.1 开源模型榜",
+    "url": "https://x.com/AntLingAGI/status/2125916926048358827",
+    "date": "2026-11-26",
+    "meta": "",
+    "bullets": [
+      "蚂蚁百灵推出 Ming-Image-0.2-Design 和 Ming-Image-0.2-Design-Layer 两个模型，今日开源 Design，并计划下周开源 Layer。",
+      "Ming-Image-0.2-Design 在 Artificial Analysis 的 AA-Image-T2I v2.1 榜单上以 1,095 Elo 排名开源权重模型第一。"
+    ],
+    "links": [
+      {
+        "label": "X：蚂蚁百灵 (@AntLingAGI)",
+        "title": "蚂蚁百灵发布 Ming-Image-0.2-Design 并开源，登顶 AA-Image-T2I v2.1 开源模型榜",
+        "url": "https://x.com/AntLingAGI/status/2125916926048358827",
+        "date": "2026-11-26",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 68,
+      "actionable": 82,
+      "breadth": 52,
+      "heat": 35
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 164,
+      "x_spike_7d": 164.0
+    },
+    "score": 64.0
+  },
+  {
+    "id": "m127-llamacpp-amd-bench",
+    "title": "Hugging Face 上线 llama.cpp 在 AMD Ryzen 与 Radeon 上的基准测试面板",
+    "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+    "date": "2026-11-26",
+    "meta": "",
+    "bullets": [
+      "ggml-org 在 Hugging Face 发布 llama.cpp × AMD Benchmark 面板，用于追踪 llama.cpp 在 AMD Ryzen 和 Radeon 硬件上的提示词处理与文本生成性能。"
+    ],
+    "links": [
+      {
+        "label": "Hugging Face 社区博客（混合发现）",
+        "title": "Hugging Face 上线 llama.cpp AMD Ryzen 与 Radeon 基准测试面板",
+        "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+        "date": "2026-11-26",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 45,
+      "actionable": 75,
+      "breadth": 40,
+      "heat": 35
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 120,
+      "x_spike_7d": 120.0
+    },
+    "score": 51.5
+  },
+  {
+    "id": "m127-china-data-rules",
+    "title": "国家数据局就完善数据规则赋能人工智能创新发展公开征求意见",
+    "url": "https://www.ithome.com/1/033/054.htm",
+    "date": "2026-11-26",
+    "meta": "",
+    "bullets": [
+      "国家数据局综合司发布《关于完善数据规则 赋能人工智能创新发展的若干意见》公开征求意见稿，自 11 月 26 日起向社会征求意见。",
+      "意见稿支持合法获取的数据用于人工智能训练和推理，明确数据持有权、使用权、经营权的运用规则；支持和鼓励人工智能企业通过合法采集、协议购买、以数换数、模型换数据等方式为高质量数据付费，并要求人工智能企业建立输出风险防控机制和应急处置、用户投诉渠道。"
+    ],
+    "links": [
+      {
+        "label": "IT之家·人工智能",
+        "title": "国家数据局就完善数据规则赋能人工智能创新发展公开征求意见",
+        "url": "https://www.ithome.com/1/033/054.htm",
+        "date": "2026-11-26",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 75,
+      "actionable": 55,
+      "breadth": 80,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 10,
+      "x_spike_7d": 10.0
+    },
+    "score": 60.5
+  },
+  {
+    "id": "m127-pixverse-anime-short",
+    "title": "PixVerse Canvas 推出 Anime Short Film 技能，可将真实视频转为动画短片",
+    "url": "https://x.com/PixVerse/status/2125907795862225115",
+    "date": "2026-11-26",
+    "meta": "",
+    "bullets": [
+      "PixVerse 在 PixVerse Canvas 推出 Anime Short Film 技能，可将任意真实视频转为动画短片。用户选择该技能后写一行故事并选择现代动画、90 年代手绘或少年漫风格，无需分镜，由 agent 自动生成整部影片。"
+    ],
+    "links": [
+      {
+        "label": "X：PixVerse (@PixVerse)",
+        "title": "PixVerse Canvas 推出 Anime Short Film 技能，可将真实视频转为动画短片",
+        "url": "https://x.com/PixVerse/status/2125907795862225115",
+        "date": "2026-11-26",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 50,
+      "actionable": 80,
+      "breadth": 45,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 2,
+      "x_spike_7d": 2.0
+    },
+    "score": 54.5
+  },
+  {
+    "id": "m127-hf-training-swarms",
+    "title": "Hugging Face 教程：用 Qwen3-0.6B 训练四智能体集群学会通信",
+    "url": "https://huggingface.co/blog/training-swarms",
+    "date": "2026-11-26",
+    "meta": "",
+    "bullets": [
+      "Hugging Face 发布多智能体系列博客第一篇，用 TRL 在 Hugging Face Jobs 上复现 s³ 论文的信息聚合任务，训练四个共享 Qwen3-0.6B 策略的智能体学会通信。"
+    ],
+    "links": [
+      {
+        "label": "Hugging Face 官方团队博客",
+        "title": "Hugging Face 教程：用 Qwen3-0.6B 训练四智能体集群学会通信",
+        "url": "https://huggingface.co/blog/training-swarms",
+        "date": "2026-11-26",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 48,
+      "actionable": 78,
+      "breadth": 40,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 6,
+      "x_spike_7d": 6.0
+    },
+    "score": 52.6
   }
 ]
