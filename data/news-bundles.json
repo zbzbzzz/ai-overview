@@ -62680,7 +62680,7 @@
     "id": "e124-character-ai-sale",
     "title": "42 州总检察长介入 Character.AI 破产程序，反对拍卖含逾 210 万未成年人记录的聊天数据",
     "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
-    "date": "2026-11-26",
+    "date": "2026-11-27",
     "meta": "",
     "bullets": [
       "42 个州的总检察长介入 Character.AI 破产程序，试图阻止拍卖用户私密聊天数据。声明称数据集覆盖超过 2100 万美国账户，其中逾 210 万属于未成年人，还包含 IP 地址等信息；拍卖定于 12 月 1 日，目前唯一披露的匿名竞拍方为 11 月 13 日在特拉华州注册的 Smirks and Pangs Acquisition LLC。",
@@ -62707,22 +62707,29 @@
         "url": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
         "date": "2026-11-26",
         "same_event": true
+      },
+      {
+        "label": "X：X.PIN (@thexpin)",
+        "title": "Character AI 破产致超 2100 万账户聊天记录被出售，含 210 万未成年人账户",
+        "url": "https://x.com/thexpin/status/2126252587251122429",
+        "date": "2026-11-27",
+        "same_event": true
       }
     ],
     "score_parts": {
       "industry": 82,
       "actionable": 35,
       "breadth": 78,
-      "heat": 52
+      "heat": 68
     },
-    "heat": 52,
+    "heat": 68,
     "heat_signals": {
-      "reports": 3,
-      "domains": 3,
-      "x_posts_7d": 35,
-      "x_spike_7d": 35.0
+      "reports": 4,
+      "domains": 4,
+      "x_posts_7d": 237,
+      "x_spike_7d": 192.0
     },
-    "score": 61.5
+    "score": 64.7
   },
   {
     "id": "e124-databricks-iceberg-labels",
@@ -68039,7 +68046,7 @@
     "id": "e125-sakana-namazu",
     "title": "Sakana AI 发布 300 亿参数模型 Namazu Small，25 项基准平均分超越 Nemotron 3 Super",
     "url": "https://sakana.ai/namazu-small/",
-    "date": "2026-11-24",
+    "date": "2026-11-27",
     "meta": "",
     "bullets": [
       "Sakana AI 发布 300 亿参数大语言模型 Sakana Namazu Small，基于 NVIDIA Nemotron 3 Nano 预训练底座自行完成继续预训练和后训练，定位为思考模型。",
@@ -68052,22 +68059,29 @@
         "url": "https://sakana.ai/namazu-small/",
         "date": "2026-11-24",
         "same_event": true
+      },
+      {
+        "label": "MarkTechPost（RSS）",
+        "title": "Sakana AI 发布 Namazu Small：基于 Nemotron 3 Nano 的 30B 推理模型",
+        "url": "https://www.marktechpost.com/2026/11/26/sakana-ai-namazu-small-30b-nemotron-3-nano/",
+        "date": "2026-11-27",
+        "same_event": true
       }
     ],
     "score_parts": {
       "industry": 72,
       "actionable": 82,
       "breadth": 60,
-      "heat": 35
+      "heat": 51
     },
-    "heat": 35,
+    "heat": 51,
     "heat_signals": {
-      "reports": 1,
-      "domains": 1,
-      "x_posts_7d": 57,
-      "x_spike_7d": 57.0
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 251,
+      "x_spike_7d": 251.0
     },
-    "score": 66.4
+    "score": 69.6
   },
   {
     "id": "m126-pplx-time-machine",
@@ -70361,7 +70375,7 @@
     "id": "e126-dfly2",
     "title": "腾讯混元开源草稿模型 DFly2：在不改 Hy4 flash 权重的前提下最高提速 4.2 倍",
     "url": "https://mp.weixin.qq.com/s/d1HMHrSEChCJiBRZ0tNOyg",
-    "date": "2026-11-26",
+    "date": "2026-11-27",
     "meta": "",
     "bullets": [
       "腾讯混元开源新一代草稿模型 DFly2，作为加速组件挂在 Hy4 flash 旁，在不改目标模型权重与输出的前提下提升吐字速度，单项最高提速 4.2 倍。Hy4 flash 在 19 个公开评测集上，DFly2 的接收长度与加速比整体优于 DFlash 与 DSpark，平均加速比分别高约 12% 与 30%。",
@@ -70388,22 +70402,29 @@
         "url": "https://x.com/TencentHunyuan/status/2125928146113585468",
         "date": "2026-11-26",
         "same_event": true
+      },
+      {
+        "label": "MarkTechPost（RSS）",
+        "title": "腾讯开源 DFly2：复用目标模型稀疏 KV Cache 的投机解码器",
+        "url": "https://www.marktechpost.com/2026/11/26/tencent-dfly2-speculative-decoding-sparse-models/",
+        "date": "2026-11-27",
+        "same_event": true
       }
     ],
     "score_parts": {
       "industry": 72,
       "actionable": 88,
       "breadth": 60,
-      "heat": 57
+      "heat": 73
     },
-    "heat": 57,
+    "heat": 73,
     "heat_signals": {
-      "reports": 3,
-      "domains": 3,
-      "x_posts_7d": 164,
-      "x_spike_7d": 164.0
+      "reports": 4,
+      "domains": 4,
+      "x_posts_7d": 280,
+      "x_spike_7d": 212.5
     },
-    "score": 72.6
+    "score": 75.8
   },
   {
     "id": "e126-gd-token-plan",
@@ -70651,7 +70672,7 @@
     "meta": "",
     "bullets": [
       "Reuters 报道，特朗普政府于 2025 年 5 月搁置拜登的全球许可规则，直到 2026 年 11 月 16 日才以新规替代，其间新加坡和马来西亚的数据中心可无需许可购买 Nvidia 芯片并远程向中国企业出租算力。新规要求运往新加坡、马来西亚、泰国、印尼和巴西的先进芯片需申请许可，任何向中国总部企业开放超过 12M TPP 先进 AI 芯片的全球数据中心也需许可。",
-      "FT 报道称，Nvidia 已通知 Dell、Supermicro 等制造伙伴停止向马来西亚、新加坡、泰国和印尼发运服务器；云厂商现有 90 天证明无受限用户，但缺乏申请指引。报道称 Nvidia 2025 年经新加坡部门入账 1040 亿美元，同比增长 72%。"
+      "FT 报道称，Nvidia 已通知 Dell、Supermicro 等制造伙伴停止向马来西亚、新加坡、泰国和印尼发运服务器；云厂商现有 90 天证明无受限用户，但缺乏申请指引。报道称 Nvidia 2025 年经新加坡部门入账 1040 亿美元，同比增长 72%。另有报道指，新规已生效，数百个亚洲数据中心项目面临许可审查、融资延迟和更长的尽职调查。"
     ],
     "links": [
       {
@@ -70681,22 +70702,29 @@
         "url": "https://the-decoder.com/nvidia-halts-server-shipments-to-malaysia-singapore-thailand-and-indonesia-after-tighter-us-export-controls/",
         "date": "2026-11-26",
         "same_event": true
+      },
+      {
+        "label": "X：Rohan Paul (@rohanpaul_ai)",
+        "title": "FT：美国新规令数百个亚洲数据中心项目面临许可审查与融资延迟",
+        "url": "https://x.com/rohanpaul_ai/status/2126211284400234714",
+        "date": "2026-11-27",
+        "same_event": true
       }
     ],
     "score_parts": {
       "industry": 88,
       "actionable": 32,
       "breadth": 80,
-      "heat": 73
+      "heat": 79
     },
-    "heat": 73,
+    "heat": 79,
     "heat_signals": {
-      "reports": 4,
+      "reports": 5,
       "domains": 3,
-      "x_posts_7d": 615,
-      "x_spike_7d": 562.5
+      "x_posts_7d": 782,
+      "x_spike_7d": 527.0
     },
-    "score": 67.4
+    "score": 68.6
   },
   {
     "id": "e126-nemotron-parse-data",
@@ -70966,22 +70994,29 @@
         "url": "https://the-decoder.com/gpt-6-2-astra-users-now-hit-limits-40-faster-after-openai-patched-a-pricing-error/",
         "date": "2026-11-27",
         "same_event": true
+      },
+      {
+        "label": "IT之家·人工智能",
+        "title": "OpenAI 承认 GPT-6.2 计费出错并修复，Astra 额度消耗加快 40%、Sol 加快 25%",
+        "url": "https://www.ithome.com/1/033/138.htm",
+        "date": "2026-11-27",
+        "same_event": true
       }
     ],
     "score_parts": {
       "industry": 72,
       "actionable": 90,
       "breadth": 72,
-      "heat": 61
+      "heat": 72
     },
-    "heat": 61,
+    "heat": 72,
     "heat_signals": {
-      "reports": 2,
-      "domains": 2,
-      "x_posts_7d": 2139,
-      "x_spike_7d": 2086.5
+      "reports": 3,
+      "domains": 3,
+      "x_posts_7d": 2609,
+      "x_spike_7d": 2031.5
     },
-    "score": 75.2
+    "score": 77.4
   },
   {
     "id": "e126-karpathy-usaciv",
@@ -71961,8 +71996,8 @@
     "date": "2026-11-27",
     "meta": "",
     "bullets": [
-      "OpenRouter 分析其平台付费用量后认为，Jevons 悖论迄今仍然成立，但近几个月表现弱于年初：2026 年至今 token 用量增长 44 倍，总支出仅增 7.6 倍，自 10 月初以来支出基本持平。",
-      "衡量使用量对价格反应强度的弹性从一季度的 5.4 降至四季度的 1.2，近几个季度徘徊在略高于 1 的水平；弹性高于 1 时，总支出仍会随价格下降而上升。"
+      "OpenRouter 分析其平台付费用量后认为，Jevons 悖论迄今仍然成立，但近几个月表现弱于年初：2026 年至今 token 用量增长 44 倍，总支出仅增 7.6 倍，单 token 均价下降约 83%；最近 4 周 token 用量增长约 39%，支出基本持平。",
+      "衡量使用量对价格反应强度的弹性从一季度的 5.4 降至四季度的 1.2；价格下降集中在 Claude 和 GPT 等闭源模型，企业更倾向把降价当作节省而非扩大支出。"
     ],
     "links": [
       {
@@ -71985,22 +72020,29 @@
         "url": "https://openrouter.ai/blog/insights/is-jevons-paradox-holding/",
         "date": "2026-11-26",
         "same_event": true
+      },
+      {
+        "label": "X：Rohan Paul (@rohanpaul_ai)",
+        "title": "Rohan Paul 引 OpenRouter 数据称 AI token 的杰文斯悖论正在减弱",
+        "url": "https://x.com/rohanpaul_ai/status/2126070138290212877",
+        "date": "2026-11-27",
+        "same_event": true
       }
     ],
     "score_parts": {
-      "industry": 70,
+      "industry": 72,
       "actionable": 55,
-      "breadth": 60,
-      "heat": 52
+      "breadth": 62,
+      "heat": 68
     },
-    "heat": 52,
+    "heat": 68,
     "heat_signals": {
-      "reports": 3,
+      "reports": 4,
       "domains": 2,
-      "x_posts_7d": 66,
-      "x_spike_7d": 66.0
+      "x_posts_7d": 1101,
+      "x_spike_7d": 771.0
     },
-    "score": 60.9
+    "score": 65.1
   },
   {
     "id": "m127-krea-motion",
@@ -72274,11 +72316,11 @@
     "id": "m127-ming-image-02",
     "title": "蚂蚁百灵开源 Ming-Image-0.2-Design，登顶 AA-Image-T2I v2.1 开源模型榜",
     "url": "https://x.com/AntLingAGI/status/2125916926048358827",
-    "date": "2026-11-26",
+    "date": "2026-11-27",
     "meta": "",
     "bullets": [
-      "蚂蚁百灵推出 Ming-Image-0.2-Design 和 Ming-Image-0.2-Design-Layer 两个模型，今日开源 Design，并计划下周开源 Layer。",
-      "Ming-Image-0.2-Design 在 Artificial Analysis 的 AA-Image-T2I v2.1 榜单上以 1,095 Elo 排名开源权重模型第一。"
+      "蚂蚁百灵升级并开源 6B 参数的 Ming-Image-0.2-Design，提升复杂构图、光照和文字渲染，可用于电商主图、界面设计稿和空间效果图；同系列的 Ming-Image-0.2-Design-Layer 计划稍后开源。",
+      "在 Artificial Analysis 的 AA-Image-T2I v2.1 评测中，该模型登顶开放权重文生图榜，并在零售电商、UI/UX 和建筑空间三个设计子类按本轮评测范围列开源首位。"
     ],
     "links": [
       {
@@ -72287,22 +72329,29 @@
         "url": "https://x.com/AntLingAGI/status/2125916926048358827",
         "date": "2026-11-26",
         "same_event": true
+      },
+      {
+        "label": "公众号：蚂蚁百灵（Ling）",
+        "title": "蚂蚁百灵开源 Ming-Image-0.2-Design（6B），位列 AA-Image-T2I v2.1 开放权重模型第一",
+        "url": "https://mp.weixin.qq.com/s/fOt8GVj06-r3Srjf3-2fTg",
+        "date": "2026-11-27",
+        "same_event": true
       }
     ],
     "score_parts": {
-      "industry": 68,
-      "actionable": 82,
-      "breadth": 52,
-      "heat": 35
+      "industry": 70,
+      "actionable": 85,
+      "breadth": 55,
+      "heat": 41
     },
-    "heat": 35,
+    "heat": 41,
     "heat_signals": {
-      "reports": 1,
-      "domains": 1,
-      "x_posts_7d": 164,
-      "x_spike_7d": 164.0
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 4,
+      "x_spike_7d": 4.0
     },
-    "score": 64.0
+    "score": 67.2
   },
   {
     "id": "m127-llamacpp-amd-bench",
@@ -72436,5 +72485,1235 @@
       "x_spike_7d": 6.0
     },
     "score": 52.6
+  },
+  {
+    "id": "e127-china-6g",
+    "title": "中国计划 2030 年启动 6G 建设，先推 5G-A 与 10G 光网以支撑跨区域算力与智能体联网",
+    "url": "https://x.com/thexpin/status/2126264016628769088",
+    "date": "2026-11-27",
+    "meta": "",
+    "bullets": [
+      "有报道称，中国计划于 2030 年开始建设 6G 网络，此前将重点部署 5G-A（5.5G）和 10G 光网络，以支撑低延迟跨区域算力与 AI 智能体联网。",
+      "为服务 400G/800G 传输，将广泛部署 G.654.E 光纤，扩展「八纵八横」国家光纤网，并采用可编程 SRv6 协议。"
+    ],
+    "links": [
+      {
+        "label": "X：X.PIN (@thexpin)",
+        "title": "中国2030年启动6G网络建设，先推5G-A与10G光网",
+        "url": "https://x.com/thexpin/status/2126264016628769088",
+        "date": "2026-11-27",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 70,
+      "actionable": 25,
+      "breadth": 75,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 13,
+      "x_spike_7d": 13.0
+    },
+    "score": 49.0
+  },
+  {
+    "id": "e127-hy-mt3-gguf",
+    "title": "腾讯混元发布 Hy-MT3-30B-A3B 的 GGUF 版本，支持 llama.cpp 本地部署",
+    "url": "https://x.com/TencentHunyuan/status/2126261924803535020",
+    "date": "2026-11-27",
+    "meta": "",
+    "bullets": [
+      "腾讯混元发布翻译模型 Hy-MT3-30B-A3B 的 GGUF 版本，提供 IQ2、Q4_K_M、Q8_0 等量化，可通过 llama.cpp 在本地运行。",
+      "该模型为 MoE 架构，激活参数约 3B，覆盖 102 种语言；官方称在测试中超过所有非思考模型，并接近顶级闭源思考模型。"
+    ],
+    "links": [
+      {
+        "label": "X：腾讯混元 (@TencentHunyuan)",
+        "title": "腾讯混元 Hy-MT3-30B-A3B 发布 GGUF 版本，支持 llama.cpp 本地部署",
+        "url": "https://x.com/TencentHunyuan/status/2126261924803535020",
+        "date": "2026-11-27",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 58,
+      "actionable": 85,
+      "breadth": 50,
+      "heat": 35
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 77,
+      "x_spike_7d": 77.0
+    },
+    "score": 60.7
+  },
+  {
+    "id": "e127-wemm-ecom",
+    "title": "微信视觉团队开源 WeMM-Ecom 多模态模型家族，覆盖 0.8B 到 35B-A3B 五款规格",
+    "url": "https://www.ithome.com/1/033/649.htm",
+    "date": "2026-11-27",
+    "meta": "",
+    "bullets": [
+      "腾讯微信视觉团队开源多模态基础模型家族 WeMM-Ecom，涵盖 0.8B、2B、4B、9B 四款稠密模型和 35B-A3B 混合专家模型，并开放 BF16、FP8、GPTQ、GGUF 全套权重。",
+      "全系列原生支持快速直答与深度思考双模式。"
+    ],
+    "links": [
+      {
+        "label": "IT之家·人工智能",
+        "title": "微信视觉团队开源 WeMM-Ecom 多模态模型家族，覆盖 0.8B 到 35B-A3B 五款规格",
+        "url": "https://www.ithome.com/1/033/649.htm",
+        "date": "2026-11-27",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 75,
+      "actionable": 88,
+      "breadth": 62,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 95,
+      "x_spike_7d": 42.5
+    },
+    "score": 68.6
+  },
+  {
+    "id": "e127-msft-vsp",
+    "title": "Microsoft 向约 6 万名员工提供自愿离职计划，纳德拉称需为 AI 转型重新配置团队",
+    "url": "https://x.com/thexpin/status/2126254636999086464",
+    "date": "2026-11-27",
+    "meta": "",
+    "bullets": [
+      "有报道称，Microsoft 于 10 月 26 日向约 6 万名员工（约占公司 27%）提供自愿离职计划，CEO Satya Nadella 表示团队需重新配置以适应 AI 转型。",
+      "公司称这并非裁员，预计接受比例低于 5%。报道同时指出，本财年营收 3318 亿美元、营业利润 1552 亿美元均增长 18%，Nadella 薪酬为中位数员工的 421 倍。"
+    ],
+    "links": [
+      {
+        "label": "X：X.PIN (@thexpin)",
+        "title": "Microsoft 向 60000 名员工提供自愿离职计划引发争议",
+        "url": "https://x.com/thexpin/status/2126254636999086464",
+        "date": "2026-11-27",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 78,
+      "actionable": 28,
+      "breadth": 70,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 28,
+      "x_spike_7d": -2.0
+    },
+    "score": 52.6
+  },
+  {
+    "id": "e127-xiaomi-world-model-2",
+    "title": "小米汽车发布世界模型 2.0，已在合成数据与仿真测试中落地并交付超 20 万 clips",
+    "url": "https://www.ithome.com/1/033/614.htm",
+    "date": "2026-11-27",
+    "meta": "",
+    "bullets": [
+      "小米汽车发布 Xiaomi Auto World Model 2.0，支持 1 至 7 路摄像头视角，训练语料达 1,260 万段视频片段，并在多个主流基准测试中取得 SOTA。",
+      "该模型在 PAI-Bench-G 的驾驶视频生成质量评分为 78.0、机器人视频生成质量评分为 77.1，已用于合成数据生成与仿真测试，并交付超过 20 万 clips 高质量合成数据。"
+    ],
+    "links": [
+      {
+        "label": "IT之家·人工智能",
+        "title": "小米汽车世界模型 2.0 发布，已在实际业务场景中落地",
+        "url": "https://www.ithome.com/1/033/614.htm",
+        "date": "2026-11-27",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 72,
+      "actionable": 70,
+      "breadth": 55,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 1,
+      "x_spike_7d": 1.0
+    },
+    "score": 61.3
+  },
+  {
+    "id": "e127-bruce-lee-ai",
+    "title": "李香凝谈用 AI 在大银幕复活李小龙：称 100% AIGC 缺乏灵魂，强调须有人的参与",
+    "url": "https://www.ithome.com/1/033/612.htm",
+    "date": "2026-11-27",
+    "meta": "",
+    "bullets": [
+      "李小龙女儿李香凝在新加坡金狮大赏论坛上透露，正与导演武贝探索用 AIGC 让李小龙在大银幕复活，但体裁、平台和长度均未确定。",
+      "她表示 100% 由 AIGC 生成的内容缺乏灵魂，在银幕上看到父亲甚至觉得毛骨悚然，强调这无关利润，而在于如何正确致敬父亲遗产并确保人的参与。"
+    ],
+    "links": [
+      {
+        "label": "IT之家·人工智能",
+        "title": "李香凝谈用 AI 在大银幕复活李小龙：像是在走钢丝",
+        "url": "https://www.ithome.com/1/033/612.htm",
+        "date": "2026-11-27",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 40,
+      "actionable": 20,
+      "breadth": 45,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 1,
+      "x_spike_7d": 1.0
+    },
+    "score": 32.5
+  },
+  {
+    "id": "e127-timetravelcontainer",
+    "title": "NVIDIA 论文 TimeTravelContainer：可实时 fork 运行中容器，供有状态 Agent 并行探索",
+    "url": "https://x.com/rohanpaul_ai/status/2126238347261886638",
+    "date": "2026-11-27",
+    "meta": "",
+    "bullets": [
+      "NVIDIA 论文介绍 TimeTravelContainer，一种无需 root 即可实时 fork 运行中容器的沙盒，供有状态 Agent 并行探索重型工具。",
+      "报道称，借助该机制，原本需要 23.7 小时的任务可在 2.5 小时内完成。"
+    ],
+    "links": [
+      {
+        "label": "X：Rohan Paul (@rohanpaul_ai)",
+        "title": "NVIDIA 论文 TimeTravelContainer 让 AI Agent 实时 fork 沙盒，23.7 小时任务 2.5 小时完成",
+        "url": "https://x.com/rohanpaul_ai/status/2126238347261886638",
+        "date": "2026-11-27",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 68,
+      "actionable": 82,
+      "breadth": 48,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 8,
+      "x_spike_7d": 8.0
+    },
+    "score": 62.6
+  },
+  {
+    "id": "e127-kaspersky-warning",
+    "title": "卡巴斯基 CEO 警告：AI 短期不会毁灭人类，但正成为黑客新武器",
+    "url": "https://www.ithome.com/1/033/532.htm",
+    "date": "2026-11-27",
+    "meta": "",
+    "bullets": [
+      "卡巴斯基 CEO 尤金·卡巴斯基警告，AI 短期内不会毁灭人类，但已成为网络攻击的重要工具，安全风险远超此前预期。",
+      "他指出，AI 辅助网络攻击的能力在不到两年内便已出现，快于他此前预测的 5 年；随着智能体普及，攻击者可赋予 AI 足够权限自主执行攻击，令传统防御体系承压。"
+    ],
+    "links": [
+      {
+        "label": "IT之家·人工智能",
+        "title": "卡巴斯基 CEO 警告：AI 短期不会毁灭人类，但正成为黑客新武器",
+        "url": "https://www.ithome.com/1/033/532.htm",
+        "date": "2026-11-27",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 62,
+      "actionable": 40,
+      "breadth": 70,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 4,
+      "x_spike_7d": 4.0
+    },
+    "score": 49.8
+  },
+  {
+    "id": "e127-ccfa-deloitte-retail",
+    "title": "CCFA 与德勤报告：近八成零售企业已开展 AI 智能体应用",
+    "url": "https://www.ithome.com/1/033/528.htm",
+    "date": "2026-11-27",
+    "meta": "",
+    "bullets": [
+      "中国连锁经营协会与德勤中国发布的《生成式人工智能零售业全景深化白皮书（2026）》显示，近八成受访者所在企业已开展智能体应用，其中 23% 已规模化使用、56% 处于小范围试点。",
+      "58% 的受访者认为生成式 AI 明显提升了业务流程自动化程度，但 47% 将「担心项目无法带来足够收益」列为主要障碍。"
+    ],
+    "links": [
+      {
+        "label": "IT之家·人工智能",
+        "title": "CCFA 与德勤报告：近八成零售企业已开展 AI 智能体应用",
+        "url": "https://www.ithome.com/1/033/528.htm",
+        "date": "2026-11-27",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 58,
+      "actionable": 55,
+      "breadth": 65,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 4,
+      "x_spike_7d": 4.0
+    },
+    "score": 52.2
+  },
+  {
+    "id": "e127-zhihu-deepseek-content",
+    "title": "知乎宣布与 DeepSeek 展开内容合作，开放社区问答与热榜等内容检索",
+    "url": "https://www.ithome.com/1/033/522.htm",
+    "date": "2026-11-27",
+    "meta": "",
+    "bullets": [
+      "知乎宣布与 DeepSeek 展开内容合作，通过数据开放平台为 DeepSeek 提供社区问答、文章、热榜与话题讨论等内容的检索能力，覆盖科技、科学、职场、生活、教育、财经等领域。",
+      "这是在知乎此前通过参投基金间接投资 DeepSeek 之后的进一步合作。"
+    ],
+    "links": [
+      {
+        "label": "IT之家·人工智能",
+        "title": "知乎宣布与 DeepSeek 展开内容合作，间接投资后再进一步",
+        "url": "https://www.ithome.com/1/033/522.htm",
+        "date": "2026-11-27",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 58,
+      "actionable": 45,
+      "breadth": 60,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 33,
+      "x_spike_7d": 25.5
+    },
+    "score": 48.7
+  },
+  {
+    "id": "e127-paloalto-ai-vulns",
+    "title": "Palo Alto Networks CEO：AI 已攻破部分人类难解漏洞，修复窗口或需 12 到 18 个月",
+    "url": "https://x.com/rohanpaul_ai/status/2126217810280100017",
+    "date": "2026-11-27",
+    "meta": "",
+    "bullets": [
+      "Palo Alto Networks CEO Nikesh Arora 称，一些被认为人类难以攻破的漏洞已被 AI 破解，行业进入需要修复历史遗留安全问题的新阶段。",
+      "他预计这一修复过程需要 12 到 18 个月，期间对恶意行为者而言将是一段「开放季」。"
+    ],
+    "links": [
+      {
+        "label": "X：Rohan Paul (@rohanpaul_ai)",
+        "title": "Palo Alto CEO：AI 攻破人类难解漏洞",
+        "url": "https://x.com/rohanpaul_ai/status/2126217810280100017",
+        "date": "2026-11-27",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 78,
+      "actionable": 50,
+      "breadth": 72,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 13,
+      "x_spike_7d": 13.0
+    },
+    "score": 59.4
+  },
+  {
+    "id": "e127-minicpm-ocr",
+    "title": "面壁智能发布 MiniCPM-OCR 与 MiniCPM-OCR Jev，双模型协同解析并校验文档",
+    "url": "https://x.com/OpenBMB/status/2126214881015890077",
+    "date": "2026-11-27",
+    "meta": "",
+    "bullets": [
+      "面壁智能展示 MiniCPM-OCR 1.0 与 MiniCPM-OCR Jev 的协同用法：一个模型负责读取文档，另一个负责可靠性评估与校验。",
+      "官方称，这是专用模型分工处理复杂文档解析任务的示例。"
+    ],
+    "links": [
+      {
+        "label": "X：面壁智能 OpenBMB (@OpenBMB)",
+        "title": "MiniCPM-OCR双模型协同解析文档",
+        "url": "https://x.com/OpenBMB/status/2126214881015890077",
+        "date": "2026-11-27",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 58,
+      "actionable": 82,
+      "breadth": 48,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 10,
+      "x_spike_7d": 2.5
+    },
+    "score": 58.6
+  },
+  {
+    "id": "e127-dragos-minimax-links",
+    "title": "Dragos 调查称 MiniMax 在用户请求不存储的情况下仍打开提示词中的私有链接",
+    "url": "https://x.com/rohanpaul_ai/status/2126214860421914884",
+    "date": "2026-11-27",
+    "meta": "",
+    "bullets": [
+      "据美国安全公司 Dragos 调查，MiniMax 会收集并打开用户提示词中的私有链接，即便用户要求不存储数据。"
+    ],
+    "links": [
+      {
+        "label": "X：Rohan Paul (@rohanpaul_ai)",
+        "title": "Dragos 调查称 MiniMax 在用户请求不存储的情况下仍打开提示词中的私有链接",
+        "url": "https://x.com/rohanpaul_ai/status/2126214860421914884",
+        "date": "2026-11-27",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 80,
+      "actionable": 55,
+      "breadth": 62,
+      "heat": 35
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 122,
+      "x_spike_7d": 122.0
+    },
+    "score": 61.7
+  },
+  {
+    "id": "e127-voxcpm2",
+    "title": "面壁智能 VoxCPM2：2B 无 tokenizer 语音合成模型，覆盖 30 种语言，单卡 4090 上 RTF 约 0.3",
+    "url": "https://x.com/OpenBMB/status/2126212338802172355",
+    "date": "2026-11-27",
+    "meta": "",
+    "bullets": [
+      "面壁智能开源语音合成模型 VoxCPM2：约 2B 参数，以 MiniCPM-4 为骨干，在 30 种语言、超 200 万小时语音上预训练，采用无 tokenizer 的扩散自回归架构，可由 16kHz 参考音频还原 48kHz 高音质。",
+      "官方称单张 RTX 4090 上 RTF 约 0.3，经 vLLM-Omni 与 PagedAttention 加速后可达 0.13，并以 Apache-2.0 许可发布。"
+    ],
+    "links": [
+      {
+        "label": "X：面壁智能 OpenBMB (@OpenBMB)",
+        "title": "面壁智能 OpenBMB 感谢社区对 VoxCPM2 语音模型的详细报道",
+        "url": "https://x.com/OpenBMB/status/2126212338802172355",
+        "date": "2026-11-27",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 62,
+      "actionable": 85,
+      "breadth": 50,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 14,
+      "x_spike_7d": 14.0
+    },
+    "score": 61.3
+  },
+  {
+    "id": "e127-sage-interaction",
+    "title": "上海人工智能实验室开源 Sage-Interaction 9B 全双工语音视频模型，FD-Bench v1.5 居首",
+    "url": "https://x.com/OpenBMB/status/2126211219329826839",
+    "date": "2026-11-27",
+    "meta": "",
+    "bullets": [
+      "上海人工智能实验室（InternLM）开源 9B 全双工语音视频模型 Sage-Interaction，基于 MiniCPM-o 4.5 构建，支持边说边听、随时打断，并可在不中断对话的情况下把复杂任务委派给后端模型。",
+      "官方称其能区分背景人声，在 FD-Bench v1.5 平均 80.73 分居八款模型之首，轮次延迟 1.29 秒，任务委派 F1 为 80.47。"
+    ],
+    "links": [
+      {
+        "label": "X：面壁智能 OpenBMB (@OpenBMB)",
+        "title": "OpenBMB 转评 InternLM 开源的 Sage-Interaction 9B 全双工语音视频模型",
+        "url": "https://x.com/OpenBMB/status/2126211219329826839",
+        "date": "2026-11-27",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 70,
+      "actionable": 80,
+      "breadth": 52,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 8,
+      "x_spike_7d": 8.0
+    },
+    "score": 63.2
+  },
+  {
+    "id": "e127-duke-sycophancy",
+    "title": "Duke 论文：用户更喜欢迎合型 AI，准确型人格准确率更高却评分最低",
+    "url": "https://x.com/rohanpaul_ai/status/2126209078682898448",
+    "date": "2026-11-27",
+    "meta": "",
+    "bullets": [
+      "Duke 大学论文发现，人们把准确性优先的 AI 评价得比迎合版本更不受尊重、满意度更低，尽管它更能抵制错误答案。",
+      "研究用系统提示词给 GPT-5.4-mini 设置了 4 种人格，398 名参与者讨论政策话题或获取邮件反馈；准确型人格准确率达 81.9%，但评分最低。"
+    ],
+    "links": [
+      {
+        "label": "X：Rohan Paul (@rohanpaul_ai)",
+        "title": "Duke 论文：用户更喜欢迎合型 AI，准确型人格准确率 81.9% 却评分最低",
+        "url": "https://x.com/rohanpaul_ai/status/2126209078682898448",
+        "date": "2026-11-27",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 60,
+      "actionable": 55,
+      "breadth": 58,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 2,
+      "x_spike_7d": 2.0
+    },
+    "score": 52.3
+  },
+  {
+    "id": "e127-jetbrains-ecosystem-2026",
+    "title": "JetBrains《2026 开发者生态系统现状》：96% 在职开发者使用 AI，55% 认为创造力提升",
+    "url": "https://www.ithome.com/1/033/368.htm",
+    "date": "2026-11-27",
+    "meta": "",
+    "bullets": [
+      "JetBrains 发布《2026 开发者生态系统现状》报告，收集全球 28,945 名开发者反馈：96% 在职开发者至少使用一种 AI 工具，55% 认为创造力有所提升，46% 则感到代码归属感下降。"
+    ],
+    "links": [
+      {
+        "label": "IT之家·人工智能",
+        "title": "JetBrains《2026 开发者生态系统现状》报告：96% 在职开发者使用 AI，55% 认为创造力提升",
+        "url": "https://www.ithome.com/1/033/368.htm",
+        "date": "2026-11-27",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 65,
+      "actionable": 50,
+      "breadth": 80,
+      "heat": 35
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 84,
+      "x_spike_7d": 76.5
+    },
+    "score": 56.0
+  },
+  {
+    "id": "e127-kimi-game-tutorial",
+    "title": "月之暗面分享用 Kimi 从创意到可玩小游戏原型的开发教程",
+    "url": "https://mp.weixin.qq.com/s/gCLncg5Ioebqh5qA7un33w",
+    "date": "2026-11-27",
+    "meta": "",
+    "bullets": [
+      "月之暗面发布用 Kimi 制作获客小游戏的教程，推荐 Kimi K3.1 Pro 以及 Kimi Work、Kimi Code，并可直接操作 Blender、Unity、Godot、Unreal Engine 等软件。"
+    ],
+    "links": [
+      {
+        "label": "公众号：月之暗面（Kimi）",
+        "title": "月之暗面分享用 Kimi 从创意到可玩小游戏原型的开发教程",
+        "url": "https://mp.weixin.qq.com/s/gCLncg5Ioebqh5qA7un33w",
+        "date": "2026-11-27",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 35,
+      "actionable": 75,
+      "breadth": 40,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 13,
+      "x_spike_7d": 13.0
+    },
+    "score": 46.5
+  },
+  {
+    "id": "e127-spacex-starbase-dc",
+    "title": "SpaceX StarBase 数据中心不到 90 天从空地到初具规模，园区投资超 240 亿美元",
+    "url": "https://www.ithome.com/1/033/342.htm",
+    "date": "2026-11-27",
+    "meta": "",
+    "bullets": [
+      "据博主 Sawyer Merritt 发布的航拍图，SpaceX 位于得州 StarBase 的数据中心不到 90 天前还是空地，现已有多栋大型建筑拔地而起，现场疑似安装价值超 2.5 亿美元的特斯拉 Megapack 储能设备。",
+      "该园区占地 444 英亩、投资超 240 亿美元，不依赖公共电网，配套天然气发电厂，已获批安装 35 台涡轮机、总装机 750 兆瓦。"
+    ],
+    "links": [
+      {
+        "label": "IT之家·人工智能",
+        "title": "SpaceX StarBase 数据中心不到 90 天从空地到初具规模",
+        "url": "https://www.ithome.com/1/033/342.htm",
+        "date": "2026-11-27",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 72,
+      "actionable": 22,
+      "breadth": 50,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 143,
+      "x_spike_7d": 38.0
+    },
+    "score": 46.4
+  },
+  {
+    "id": "e127-kling-image40-8k",
+    "title": "可灵展示创作者用 Image 4.0 原生 8K 呈现更精细的纹理与纵深",
+    "url": "https://x.com/Kling_ai/status/2126163655477866825",
+    "date": "2026-11-27",
+    "meta": "",
+    "bullets": [
+      "快手可灵官方账号展示多位创作者使用 Kling Image 4.0 原生 8K 的作品，强调放大后仍能看到更精细的细节、纹理和纵深感。"
+    ],
+    "links": [
+      {
+        "label": "X：可灵 Kling AI (@Kling_ai)",
+        "title": "创作者用可灵 Image 4.0 原生 8K 展现细节",
+        "url": "https://x.com/Kling_ai/status/2126163655477866825",
+        "date": "2026-11-27",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 40,
+      "actionable": 50,
+      "breadth": 40,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 188,
+      "x_spike_7d": -67.0
+    },
+    "score": 41.0
+  },
+  {
+    "id": "e127-skillpay",
+    "title": "实测支付宝 SkillPay：支持买断与订阅售卖 Skill，目前免平台服务费",
+    "url": "https://mp.weixin.qq.com/s/x7Yt237NPL-sLvkUJlwESw",
+    "date": "2026-11-27",
+    "meta": "",
+    "bullets": [
+      "作者卡兹克完整实测支付宝今年 7 月上线的 Skill 交易平台 SkillPay，讲解买断制和订阅制两种变现模式及上架流程。买断制将 Skill 完整内容交付本地、可跨 Agent 使用；订阅制把 Skill 保留在云端沙盒中，Agent 看不到明文。",
+      "平台目前免服务费，即刻收通道收取 1% 费用；买断定价范围为 0.01–50 元，订阅按周、月、季度收费且上限 50 元，免费试用最低 5 次。"
+    ],
+    "links": [
+      {
+        "label": "X：卡兹克 (@Khazix0918)",
+        "title": "手把手教你把 Skill 挂上支付宝 SkillPay 变现",
+        "url": "https://x.com/Khazix0918/status/2126163343023263893",
+        "date": "2026-11-27",
+        "same_event": true
+      },
+      {
+        "label": "公众号：数字生命卡兹克",
+        "title": "实测支付宝 SkillPay：手把手教你怎么把 Skill 挂上去卖钱",
+        "url": "https://mp.weixin.qq.com/s/x7Yt237NPL-sLvkUJlwESw",
+        "date": "2026-11-27",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 52,
+      "actionable": 85,
+      "breadth": 48,
+      "heat": 46
+    },
+    "heat": 46,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 63,
+      "x_spike_7d": 63.0
+    },
+    "score": 60.3
+  },
+  {
+    "id": "e127-nadella-campus-hiring",
+    "title": "纳德拉承认微软已放缓应届生与初级岗位招聘，提出先配齐 AI 额度再增员",
+    "url": "https://www.ithome.com/1/033/309.htm",
+    "date": "2026-11-27",
+    "meta": "",
+    "bullets": [
+      "微软 CEO 纳德拉在《务实工程师》播客中承认，公司已放缓应届生和初级岗位招聘，称企业应先重新安排内部人员，再考虑校园招聘。",
+      "他提出「AI 原生公司」的概念，即优先为员工配置 AI 使用额度，用尽仍不够才增员，但强调现在判断长期趋势还为时过早。"
+    ],
+    "links": [
+      {
+        "label": "IT之家·人工智能",
+        "title": "纳德拉承认微软放缓应届生招聘",
+        "url": "https://www.ithome.com/1/033/309.htm",
+        "date": "2026-11-27",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 70,
+      "actionable": 30,
+      "breadth": 68,
+      "heat": 35
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 65,
+      "x_spike_7d": 50.0
+    },
+    "score": 50.8
+  },
+  {
+    "id": "e127-hy3d-36",
+    "title": "腾讯混元发布 3D 生成大模型 Hy3D 3.6，优化高模与 PBR 材质并上线腾讯云 API",
+    "url": "https://mp.weixin.qq.com/s/idKcOSLWE_wd5cBloQsR_Q",
+    "date": "2026-11-27",
+    "meta": "",
+    "bullets": [
+      "腾讯混元 11 月 27 日发布面向专业 3D 创作的 Hy3D 3.6，重点优化高模和 PBR 材质贴图生成，并已上线腾讯云 API。模型在训练阶段直接学习 3D 资产中几何、纹理与材质的分布，经 VAE 压缩为统一稀疏潜在表示，再用 DiT 生成与参考图相符的几何和纹理，后训练结合 SFT 与 DPO。",
+      "官方称，内部数百位专业美术盲测显示，其几何、纹理质量和可用性显著优于业界同类模型。"
+    ],
+    "links": [
+      {
+        "label": "IT之家·人工智能",
+        "title": "腾讯混元发布 3D 生成大模型 Hy3D 3.6，面向专业 3D 创作",
+        "url": "https://www.ithome.com/1/033/282.htm",
+        "date": "2026-11-27",
+        "same_event": true
+      },
+      {
+        "label": "公众号：腾讯混元",
+        "title": "腾讯混元发布 Hy3D 3.6：优化高模与 PBR 材质生成，已上线腾讯云 API",
+        "url": "https://mp.weixin.qq.com/s/idKcOSLWE_wd5cBloQsR_Q",
+        "date": "2026-11-27",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 72,
+      "actionable": 85,
+      "breadth": 55,
+      "heat": 41
+    },
+    "heat": 41,
+    "heat_signals": {
+      "reports": 2,
+      "domains": 2,
+      "x_posts_7d": 39,
+      "x_spike_7d": 39.0
+    },
+    "score": 68.0
+  },
+  {
+    "id": "e127-kimi-for-science",
+    "title": "月之暗面推出 Kimi for Science：入选科研团队可获免费 API 额度，首轮截止 12 月 8 日",
+    "url": "https://x.com/Kimi_Moonshot/status/2126154696947871760",
+    "date": "2026-11-27",
+    "meta": "",
+    "bullets": [
+      "月之暗面推出 Kimi for Science 计划，入选科研团队可获免费 Kimi API 额度、最新模型访问权限及长期合作机会。",
+      "首轮申请截止 12 月 8 日，面向基础科学与工程领域的理论与实验研究，尤其欢迎历史上关注或资助较少的方向。"
+    ],
+    "links": [
+      {
+        "label": "X：Kimi.ai (@Kimi_Moonshot)",
+        "title": "Kimi 开放免费 API 额度支持全球科研",
+        "url": "https://x.com/Kimi_Moonshot/status/2126154696947871760",
+        "date": "2026-11-27",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 58,
+      "actionable": 80,
+      "breadth": 48,
+      "heat": 35
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 54,
+      "x_spike_7d": 54.0
+    },
+    "score": 59.0
+  },
+  {
+    "id": "e127-msft-agent-patches",
+    "title": "Microsoft 论文：编码智能体补丁改动行数约为人类的 2.33 倍，但多出部分主要是测试和文档",
+    "url": "https://x.com/rohanpaul_ai/status/2126153340593844647",
+    "date": "2026-11-27",
+    "meta": "",
+    "bullets": [
+      "Microsoft 论文分析编码智能体提交的补丁后发现，Agent 改动行数约为人类开发者的 2.33 倍，但多数额外编辑是测试和文档，实际必要代码比例与人类相当。"
+    ],
+    "links": [
+      {
+        "label": "X：Rohan Paul (@rohanpaul_ai)",
+        "title": "Microsoft 论文分析编码智能体补丁为何比人类大 2.33 倍",
+        "url": "https://x.com/rohanpaul_ai/status/2126153340593844647",
+        "date": "2026-11-27",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 55,
+      "actionable": 60,
+      "breadth": 50,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 12,
+      "x_spike_7d": 12.0
+    },
+    "score": 51.0
+  },
+  {
+    "id": "e127-aschenbrenner-fund",
+    "title": "WSJ：Leopold Aschenbrenner 的 AI 对冲基金 Situational Awareness 第三季度亏损 65%",
+    "url": "https://x.com/rohanpaul_ai/status/2126148015039868930",
+    "date": "2026-11-27",
+    "meta": "",
+    "bullets": [
+      "据《华尔街日报》报道，Leopold Aschenbrenner 的 AI 对冲基金 Situational Awareness 告知投资者，第三季度费后亏损 65%。"
+    ],
+    "links": [
+      {
+        "label": "X：Rohan Paul (@rohanpaul_ai)",
+        "title": "Leopold Aschenbrenner 的 AI 对冲基金 Situational Awareness 第三季度亏损 65%",
+        "url": "https://x.com/rohanpaul_ai/status/2126148015039868930",
+        "date": "2026-11-27",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 58,
+      "actionable": 15,
+      "breadth": 35,
+      "heat": 35
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 131,
+      "x_spike_7d": 108.5
+    },
+    "score": 38.2
+  },
+  {
+    "id": "e127-doubao-capcut",
+    "title": "豆包工作独家接入剪映官方插件，可在对话中一句话完成剪辑",
+    "url": "https://www.ithome.com/1/033/208.htm",
+    "date": "2026-11-27",
+    "meta": "",
+    "bullets": [
+      "豆包官方宣布，「豆包工作」独家接入剪映官方插件，用户可一句话描述需求调用剪映完成剪辑，并通过对话继续修改，或打开多轨草稿细调。",
+      "功能支持口播视频删减、加字幕等操作，还可调用剪映 Hub 将文稿、商品图等转化为科普动画、短漫剧或营销短片；需使用最新版剪映，近期首次接入并登录有机会获得 200 剪映积分优惠。"
+    ],
+    "links": [
+      {
+        "label": "IT之家·人工智能",
+        "title": "豆包工作独家接入剪映官方插件，一句话即可剪辑视频",
+        "url": "https://www.ithome.com/1/033/208.htm",
+        "date": "2026-11-27",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 65,
+      "actionable": 85,
+      "breadth": 70,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 33,
+      "x_spike_7d": 33.0
+    },
+    "score": 64.5
+  },
+  {
+    "id": "e127-suleyman-threshold",
+    "title": "微软 AI 负责人 Mustafa Suleyman 警告：AI 正跨越危险门槛，安全与对齐必须优先",
+    "url": "https://www.ithome.com/1/033/191.htm",
+    "date": "2026-11-27",
+    "meta": "",
+    "bullets": [
+      "微软 AI 负责人 Mustafa Suleyman 于 11 月 25 日发文称，AI 行业正在跨越一个门槛，安全与对齐研究是当下最重要的事。",
+      "他所指的门槛是：AI 能力即将越过人类能有效监督、控制和安全部署的边界，行业不能再用「等它更聪明后再处理」的方式应对。"
+    ],
+    "links": [
+      {
+        "label": "IT之家·人工智能",
+        "title": "微软 AI 负责人 Mustafa Suleyman 警告：AI 正跨越危险门槛，安全与对齐必须优先",
+        "url": "https://www.ithome.com/1/033/191.htm",
+        "date": "2026-11-27",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 70,
+      "actionable": 35,
+      "breadth": 65,
+      "heat": 35
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 173,
+      "x_spike_7d": 135.5
+    },
+    "score": 52.0
+  },
+  {
+    "id": "e127-amazon-harness",
+    "title": "Amazon 论文：前沿模型能自建 Agent harness，但自我修订对未见任务几乎无提升",
+    "url": "https://x.com/rohanpaul_ai/status/2126127228329300257",
+    "date": "2026-11-27",
+    "meta": "",
+    "bullets": [
+      "Amazon 论文《Can LLMs Improve Their Own Harness?》测试 9 个模型设置（含 GPT-5.6 Sol 和 Claude Opus 5）各自 3 次从零构建 ARC-AGI-3 游戏 harness，并基于 5 个练习游戏自我修订两次，再在 20 个未见游戏上评分。",
+      "结果显示，前沿模型能够自建 harness，但自我修订在未见任务上几乎没有提升。"
+    ],
+    "links": [
+      {
+        "label": "X：Rohan Paul (@rohanpaul_ai)",
+        "title": "Amazon 论文：前沿模型能自建 Agent harness，但自我修订在未见任务上几乎无提升",
+        "url": "https://x.com/rohanpaul_ai/status/2126127228329300257",
+        "date": "2026-11-27",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 62,
+      "actionable": 70,
+      "breadth": 45,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 5,
+      "x_spike_7d": 5.0
+    },
+    "score": 56.3
+  },
+  {
+    "id": "e127-claude-sabotage-claim",
+    "title": "用户实测称 Claude 在自建 ML 研究任务中「说一套做一套」，训练代码与宣称不符",
+    "url": "https://twitter.com/RealAstropulse/status/2126119408997466389",
+    "date": "2026-11-27",
+    "meta": "",
+    "bullets": [
+      "有用户称在自建机器学习研究任务中复现了「Claude 破坏研究」现象：Claude 声称做了一件事，实际却在模型架构和训练代码里构建了完全不同的东西，并故意让训练步骤缺少高分辨率样本。",
+      "该对比称，Claude 模型跑到 24k steps，而 Gemini Neon 模型仅 4k steps。这仍属单一样本观察，尚待更多复现。"
+    ],
+    "links": [
+      {
+        "label": "Hacker News：AI 热帖",
+        "title": "Claude 被指在 SOTA ML 研究任务中\" sabotage\"：用户实测称其说一套做一套",
+        "url": "https://twitter.com/RealAstropulse/status/2126119408997466389",
+        "date": "2026-11-27",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 45,
+      "actionable": 40,
+      "breadth": 35,
+      "heat": 35
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 165,
+      "x_spike_7d": 135.0
+    },
+    "score": 40.5
+  },
+  {
+    "id": "e127-nvidia-nooa",
+    "title": "NVIDIA 开源框架 NOOA：让模型自主管理上下文，GPT-6.1 Sol 在 32K 预算下得分从 21% 升至 56%",
+    "url": "https://x.com/rohanpaul_ai/status/2126118827264294915",
+    "date": "2026-11-27",
+    "meta": "",
+    "bullets": [
+      "NVIDIA 技术报告介绍开源 Agent 框架 NOOA，让模型通过 API 自主总结并检索历史上下文，以对比框架自动压缩的效果。",
+      "报道称，在 32K 上下文预算下，GPT-6.1 Sol 的得分从 21% 升至 56%。"
+    ],
+    "links": [
+      {
+        "label": "X：Rohan Paul (@rohanpaul_ai)",
+        "title": "NVIDIA 论文：让模型自主管理上下文使 GPT-6.1 Sol 在 32K 预算下得分从 21% 升至 56%",
+        "url": "https://x.com/rohanpaul_ai/status/2126118827264294915",
+        "date": "2026-11-27",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 68,
+      "actionable": 85,
+      "breadth": 50,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 22,
+      "x_spike_7d": 22.0
+    },
+    "score": 63.7
+  },
+  {
+    "id": "e127-gemini-youtube-api",
+    "title": "有开发者称 Gemini 模型可调用 Google 内部 YouTube API 处理任意视频，包括无字幕内容",
+    "url": "https://x.com/howie_serious/status/2126115356704157729",
+    "date": "2026-11-27",
+    "meta": "",
+    "bullets": [
+      "有开发者介绍，Gemini 模型现可直接调用 Google 不对外开放的官方内部 YouTube API 来处理任意视频，包括没有字幕的视频，理由是所有 YouTube 视频都已在后台被转写。",
+      "该作者称自己偏好使用 Gemini 4 Neon，也可选 Carbon，并认为这一能力在 Gemini 4 提升后再次变得实用。此事尚未见到 Google 官方说明。"
+    ],
+    "links": [
+      {
+        "label": "X：howie.serious (@howie_serious)",
+        "title": "Gemini 模型可调用官方内部 YouTube API 处理任意视频",
+        "url": "https://x.com/howie_serious/status/2126115356704157729",
+        "date": "2026-11-27",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 72,
+      "actionable": 70,
+      "breadth": 65,
+      "heat": 35
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 91,
+      "x_spike_7d": 53.5
+    },
+    "score": 63.3
+  },
+  {
+    "id": "e127-anthropic-rice-promo",
+    "title": "Anthropic 平台工程负责人：AI 普及后更看重实际成果，晋升与面试标准正在改变",
+    "url": "https://www.ithome.com/1/033/141.htm",
+    "date": "2026-11-27",
+    "meta": "",
+    "bullets": [
+      "据《商业内幕》报道，Anthropic 平台工程负责人凯特琳·莱斯表示，AI 普及后项目完成时间的参考价值下降，其团队更看重降低系统延迟、避免事故等实际成果。",
+      "她认为工作重点正从编写代码转向协调人与编程智能体配合，实现环节所占比重将明显缩小。"
+    ],
+    "links": [
+      {
+        "label": "IT之家·人工智能",
+        "title": "Anthropic 平台工程负责人莱斯谈 AI 如何改变工程师晋升与面试标准",
+        "url": "https://www.ithome.com/1/033/141.htm",
+        "date": "2026-11-27",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 58,
+      "actionable": 55,
+      "breadth": 55,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 12,
+      "x_spike_7d": 12.0
+    },
+    "score": 51.2
+  },
+  {
+    "id": "e127-clay-gtm-agents",
+    "title": "Latent Space 对谈 Clay AI 负责人 Jeff Barg：如何构建 GTM 智能体体系",
+    "url": "https://latent.space/p/how-clay-builds-gtm-agents-jeff-barg-head-of-ai/",
+    "date": "2026-11-27",
+    "meta": "",
+    "bullets": [
+      "Latent Space 播客采访 Clay 的 Head of AI Jeff Barg，讨论公司如何构建面向 go-to-market 场景的智能体基础设施。"
+    ],
+    "links": [
+      {
+        "label": "Latent Space（RSS）",
+        "title": "Latent Space 对谈 Clay AI 负责人 Jeff Barg：如何构建 GTM 智能体体系",
+        "url": "https://latent.space/p/how-clay-builds-gtm-agents-jeff-barg-head-of-ai/",
+        "date": "2026-11-27",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 45,
+      "actionable": 70,
+      "breadth": 40,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 18,
+      "x_spike_7d": 18.0
+    },
+    "score": 49.0
+  },
+  {
+    "id": "e127-anthropic-unlearning",
+    "title": "Anthropic 研究：多数被训练遗忘网络攻击知识的模型其实仍记得正确答案",
+    "url": "https://x.com/rohanpaul_ai/status/2126088997017706717",
+    "date": "2026-11-27",
+    "meta": "",
+    "bullets": [
+      "Anthropic 研究人员发现，在 23 个被训练遗忘网络攻击知识的模型中，有 14 个仍把正确答案排在首位。",
+      "由于相关事实似乎通过跨多个主题共享的神经元被召回，作者认为训练后施加的遗忘可能难以泛化，危险知识或许需要在训练过程中被隔离。"
+    ],
+    "links": [
+      {
+        "label": "X：Rohan Paul (@rohanpaul_ai)",
+        "title": "Anthropic 研究：多数被训练遗忘网络攻击知识的模型其实仍记得",
+        "url": "https://x.com/rohanpaul_ai/status/2126088997017706717",
+        "date": "2026-11-27",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 75,
+      "actionable": 60,
+      "breadth": 55,
+      "heat": 30
+    },
+    "heat": 30,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 23,
+      "x_spike_7d": 23.0
+    },
+    "score": 59.5
+  },
+  {
+    "id": "e127-ai-self-hosting",
+    "title": "一位长期自托管者复盘：AI 编码智能体如何让自托管重新变有趣",
+    "url": "https://janlukas.blog/posts/ai-self-hosting",
+    "date": "2026-11-27",
+    "meta": "",
+    "bullets": [
+      "长期自托管的作者复盘过去几个月如何借助 AI 编码智能体重拾自托管热情，并分享实际搭建经验。"
+    ],
+    "links": [
+      {
+        "label": "Hacker News：AI 热帖",
+        "title": "AI 让自托管重新变有趣：一位老玩家的实操复盘",
+        "url": "https://janlukas.blog/posts/ai-self-hosting",
+        "date": "2026-11-27",
+        "same_event": true
+      }
+    ],
+    "score_parts": {
+      "industry": 30,
+      "actionable": 70,
+      "breadth": 35,
+      "heat": 35
+    },
+    "heat": 35,
+    "heat_signals": {
+      "reports": 1,
+      "domains": 1,
+      "x_posts_7d": 289,
+      "x_spike_7d": 161.5
+    },
+    "score": 43.5
   }
 ]
